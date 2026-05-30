@@ -2027,6 +2027,7 @@
     "fundingType": "cash"
   },
   {
+<<<<<<< Updated upstream
     "organization": "Google Cloud",
     "category": "Corporate",
     "amount": "Up to $5,000 per track (1st place); $60,000 total prize pool across 6 partner tracks",
@@ -2054,10 +2055,37 @@
     ],
     "fundingType": "cash",
     "name": "Google Cloud Rapid Agent Hackathon",
+=======
+    "organization": "Mercatus Center, George Mason University (Tyler Cowen)",
+    "category": "Foundation",
+    "amount": "Typically $1,000–$50,000 (larger for exceptional cases)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Individuals and teams worldwide with scalable 'zero-to-one' ideas for social benefit; for-profit projects explicitly welcome.",
+    "description": "Low-overhead, fast-turnaround grants and fellowships for ambitious founders. Takes no equity and imposes no repayment; the program states it does not mind if you make a profit and treats a fast path to revenue as a feature.",
+    "url": "https://www.mercatus.org/emergent-ventures",
+    "tags": [
+      "non-dilutive",
+      "rolling",
+      "for-profit-ok",
+      "no-equity",
+      "fellowship"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Strong fit: no equity, rolling, for-profit welcome, global. Action: submit a tight 1-page pitch framing Castalia/Vox as a scalable 'zero-to-one' collaboration platform with clear social upside.",
+    "relevant2026": true,
+    "relevant2026Note": "Program page live with active 'Apply Now' form as of 2026; accepts applications continuously.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "Emergent Ventures Grants & Fellowships",
+>>>>>>> Stashed changes
     "id": 73,
     "_updated": "2026-05-30"
   },
   {
+<<<<<<< Updated upstream
     "organization": "U.S. Administration for Community Living (HHS)",
     "category": "Government",
     "amount": "Up to $100,000 per winner in Phase 1; up to $2.5 million total prize funding across all phases",
@@ -2085,10 +2113,37 @@
     ],
     "fundingType": "cash",
     "name": "ACL Caregiver AI Prize Challenge",
+=======
+    "organization": "NLnet Foundation (EU Next Generation Internet)",
+    "category": "Foundation",
+    "amount": "€5,000–€50,000 (with possibility to scale up)",
+    "deadline": "June 1, 2026, 12:00 CEST",
+    "deadlineDate": "2026-06-01",
+    "eligibility": "Open to SMEs, individuals, communities and organisations of any type; work must be released as open source / open access.",
+    "description": "Small-to-medium R&D grants for free/open digital commons spanning software, standards, data and AI. For-profit SMEs are eligible provided the funded component is published under a recognized open-source license.",
+    "url": "https://nlnet.nl/commonsfund/",
+    "tags": [
+      "non-dilutive",
+      "open-source",
+      "EU",
+      "AI",
+      "SME-eligible"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable if you carve out a reusable open-source component of the self-hosted AI stack (e.g., a local-AI collaboration protocol or library) to fund. Action: scope one open-sourceable module and apply before the June 1 2026 deadline.",
+    "relevant2026": true,
+    "relevant2026Note": "13th call opened April 1, 2026 with a June 1, 2026 deadline; calls recur roughly bi-monthly.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "NGI Zero Commons Fund (13th Call)",
+>>>>>>> Stashed changes
     "id": 74,
     "_updated": "2026-05-30"
   },
   {
+<<<<<<< Updated upstream
     "organization": "OpenAI",
     "category": "Corporate",
     "amount": "$3,850/week stipend + ~$15,000/month compute credits; 5-month program (Sep–Feb)",
@@ -2115,10 +2170,37 @@
     ],
     "fundingType": "mixed",
     "name": "OpenAI Safety Fellowship",
+=======
+    "organization": "Cosmos Institute",
+    "category": "Foundation",
+    "amount": "Fast grants $1,000–$10,000+; multi-month/multi-year fellowships with stipends",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Technologists and builders working at the intersection of AI and human flourishing (truth-seeking, autonomy, decentralization); builders and for-profit founders welcome.",
+    "description": "Rapid grants funding AI prototypes that advance human flourishing, with a 90-day build window, plus a fellowship track (some hosted with Oxford's Human-Centered AI Lab). Cash awards with mentorship and network access.",
+    "url": "https://cosmosgrants.org/",
+    "tags": [
+      "non-dilutive",
+      "rolling",
+      "human-flourishing",
+      "prototype",
+      "fellowship"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable with a 'human autonomy / decentralized collaboration' framing of Castalia/Vox. Action: apply for a fast grant to ship a truth-seeking or autonomy-preserving collaboration prototype; flag fellowship interest in the same form.",
+    "relevant2026": true,
+    "relevant2026Note": "Cosmos Grants accepts fast-grant applications on a rolling basis through 2026; multiple cohorts already funded.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "Cosmos Grants (Fast Grants & Fellowship)",
+>>>>>>> Stashed changes
     "id": 75,
     "_updated": "2026-05-30"
   },
   {
+<<<<<<< Updated upstream
     "organization": "Pivotal Research (London Initiative for Safe AI)",
     "category": "Foundation",
     "amount": "£6,000–£8,000 stipend + £2,000 housing support + weekday meals + compute; 9-week program",
@@ -2146,10 +2228,37 @@
     ],
     "fundingType": "cash",
     "name": "Pivotal Research Fellowship",
+=======
+    "organization": "Advanced Research + Invention Agency (ARIA), UK Government",
+    "category": "Government",
+    "amount": "Up to £500,000 per seed project",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Solicited applications from across the R&D ecosystem including small, medium and large companies, individuals, and institutions; UK benefit nexus expected.",
+    "description": "A rolling call for seed proposals within ARIA's opportunity spaces (e.g., Mathematics for Safe AI, Nature Computes Better). Companies of all sizes are explicitly eligible for non-dilutive grants up to £500k.",
+    "url": "https://aria.org.uk/funding-opportunities/",
+    "tags": [
+      "non-dilutive",
+      "government",
+      "UK",
+      "safe-AI",
+      "rolling"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable mainly with a UK entity/collaborator and a 'Safe AI / trustworthy collaboration' angle. Action: if no UK nexus, partner with a UK research org or registered branch; pitch verifiable-trust tooling for AI-mediated collaboration.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling seed call is open in 2026 across listed opportunity spaces; funds up to £500k each.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "ARIA Opportunity Seed Proposals (incl. Mathematics for Safe AI)",
+>>>>>>> Stashed changes
     "id": 76,
     "_updated": "2026-05-30"
   },
   {
+<<<<<<< Updated upstream
     "organization": "Zendesk Foundation",
     "category": "Corporate",
     "amount": "$5,000–$50,000 cash grant + free Zendesk AI-powered platform access",
@@ -2176,10 +2285,37 @@
     ],
     "fundingType": "cash",
     "name": "Zendesk Tech for Good Impact Awards",
+=======
+    "organization": "Frontier Model Forum (Anthropic, Google, Microsoft, OpenAI)",
+    "category": "Corporate",
+    "amount": "Grants typically tens of thousands to several hundred thousand USD (cohorts of $5M+ total)",
+    "deadline": "Periodic RFPs (Rolling)",
+    "deadlineDate": null,
+    "eligibility": "Independent researchers and organizations advancing frontier-AI safety/security; supports third-party evaluations (e.g., agent evaluation, synthetic content, cyber/bio).",
+    "description": "Industry-backed fund for independent AI safety research that minimizes risks from frontier systems and enables standardized third-party evaluations. Remaining funds target narrowly-scoped, high-urgency safety bottlenecks.",
+    "url": "https://www.frontiermodelforum.org/ai-safety-fund/",
+    "tags": [
+      "non-dilutive",
+      "AI-safety",
+      "evaluations",
+      "research",
+      "RFP"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable only with a genuine safety-research deliverable (e.g., an AI-agent evaluation harness or synthetic-content detection built on your stack). Action: watch the updates page for the next RFP and propose a concrete eval artifact, not a product build.",
+    "relevant2026": true,
+    "relevant2026Note": "Announced an 11-grantee, $5M+ cohort in Dec 2025 and continues issuing narrowly-scoped RFPs into 2026.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "AI Safety Fund (AISF)",
+>>>>>>> Stashed changes
     "id": 77,
     "_updated": "2026-05-30"
   },
   {
+<<<<<<< Updated upstream
     "organization": "a2 Collective (National Institute on Aging, NIH)",
     "category": "Government",
     "amount": "Up to $200,000 non-dilutive grant per project (most projects $50K–$150K); 12-month performance period",
@@ -2208,6 +2344,537 @@
     "fundingType": "cash",
     "name": "a2 Pilot Awards — AI and Aging",
     "id": 78,
+=======
+    "organization": "Manifund",
+    "category": "Foundation",
+    "amount": "$5,000–$50,000 (typical regrantor-initiated grants)",
+    "deadline": "Rolling (open call + regrantor discretion)",
+    "deadlineDate": null,
+    "eligibility": "Individuals, charities, and — pending due diligence — for-profit organizations working on AI safety and global catastrophic risk.",
+    "description": "A regranting platform where expert regrantors hold independent budgets and can fund projects in days rather than months. For-profits may be funded pending due diligence; you can post an open-call project for regrantors to back.",
+    "url": "https://manifund.org/about/regranting",
+    "tags": [
+      "non-dilutive",
+      "AI-safety",
+      "rolling",
+      "fast",
+      "for-profit-eligible"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable with a clear, scoped AI-safety project and a credible regrantor champion. Action: post a project page framing a safety contribution from your stack, then directly pitch 2–3 relevant regrantors.",
+    "relevant2026": true,
+    "relevant2026Note": "Regranting program is actively operating in 2026 with open project submissions and rapid turnaround.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "Manifund AI Safety Regranting Program",
+    "id": 78,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Mozilla",
+    "category": "Accelerator",
+    "amount": "Up to $100,000 non-dilutive funding",
+    "deadline": "Recurring cohorts — watch for next application window",
+    "deadlineDate": null,
+    "eligibility": "Teams (incl. for-profit startups) building open-source / on-device 'Local AI' — running models on personal devices instead of the cloud.",
+    "description": "A 12-week accelerator providing up to $100k non-dilutive funding plus mentorship for projects advancing local, on-device, open AI (fine-tuning, RAG, agents, developer productivity). No equity taken.",
+    "url": "https://builders.mozilla.org/programs/",
+    "tags": [
+      "non-dilutive",
+      "no-equity",
+      "local-AI",
+      "open-source",
+      "accelerator"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Excellent thematic fit — Liminal Commons already runs a self-hosted local AI stack. Action: monitor the Builders page for the next cohort and frame Castalia/Vox's on-device/self-hosted AI as a Local AI submission.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Recurring program; latest publicly listed cohort predates 2026, so confirm the next intake before relying on it — theme and non-dilutive structure remain current.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "Mozilla Builders Accelerator (Local AI)",
+    "id": 79,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Astera Institute",
+    "category": "Foundation",
+    "amount": "$125,000–$250,000 salary + $0–$1.5M project budget (plus large GPU access)",
+    "deadline": "Recurring cohorts (Fall 2026 intake closed Apr 19, 2026)",
+    "deadlineDate": null,
+    "eligibility": "High-agency entrepreneurs, engineers, and scientists building early-stage public goods / pre-commercial research; must work onsite in Emeryville, CA. Includes an 'Open' track beyond core focus areas.",
+    "description": "A 12–18 month fully-funded residency creating public goods (tools, standards, software) and pre-commercial research, including AI. Funds a salary plus a substantial project budget and provides on-demand access to large NVIDIA H100/B200 fleets.",
+    "url": "https://astera.org/residency/",
+    "tags": [
+      "non-dilutive",
+      "residency",
+      "stipend",
+      "public-goods",
+      "compute-access"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable for a founder willing to relocate to Emeryville and frame work as an open public good (e.g., open AI-collaboration infrastructure) via the Open track. Action: prepare an Open-track application for the next cohort; not suitable if the team must stay distributed/proprietary.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Recurring; Fall 2026 cohort deadline (Apr 19, 2026) has passed, so target the next intake — program and funding terms remain active in 2026.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "Astera Residency Program",
+    "id": 80,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Pulitzer Center",
+    "category": "Foundation",
+    "amount": "Up to $25,000 ($20,000 reporting + $5,000 engagement)",
+    "deadline": "July 12, 2026",
+    "deadlineDate": "2026-07-12",
+    "eligibility": "Individual journalists worldwide (including freelancers) proposing in-depth AI accountability reporting; Global South strongly encouraged.",
+    "description": "Funds 8–10 journalists to report on how governments and corporations use predictive, generative, and surveillance AI in policing, medicine, welfare, hiring, and justice. 10-month fellowship (Sept 2026–June 2027) with editorial and network support.",
+    "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
+    "tags": [
+      "journalism",
+      "AI accountability",
+      "fellowship",
+      "individual",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to individuals with a simple proposal, but competitive (8–10 of a global pool). Action: apply before the July 12, 2026 deadline with a concrete AI-accountability story pitch and writing samples.",
+    "relevant2026": true,
+    "relevant2026Note": "2026–2027 cycle is open now; deadline July 12, 2026.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "name": "Pulitzer Center AI Accountability Fellowships 2026–2027",
+    "id": 81,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "GitHub",
+    "category": "Corporate",
+    "amount": "$10,000 cash per project (+ Copilot Pro, $100K Azure credits)",
+    "deadline": "Rolling (sessions throughout 2026)",
+    "deadlineDate": null,
+    "eligibility": "Any current maintainer of an open-source project; apply solo or as a team of up to 3.",
+    "description": "Invites OSS maintainers into a 3-week security education program with $10,000 paid directly to maintainers in tranches ($6K during, $2K at 6 months, $2K at 12 months), plus security expert engagement and incident-response support. Ideal for solo AI/ML open-source maintainers.",
+    "url": "https://github.com/open-source/github-secure-open-source-fund",
+    "tags": [
+      "open source",
+      "maintainer fund",
+      "security",
+      "individual",
+      "cash"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Individuals (maintainers) can apply directly on a rolling basis with no institution required. Action: submit your OSS project via the GitHub application form for the next session.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling applications across multiple 2026 program sessions.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "name": "GitHub Secure Open Source Fund",
+    "id": 82,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "The Awesome Foundation",
+    "category": "Foundation",
+    "amount": "$1,000 (no-strings, monthly per chapter)",
+    "deadline": "Rolling (monthly deadlines per chapter)",
+    "deadlineDate": null,
+    "eligibility": "Anyone worldwide — individuals, groups, or organizations; any project type including AI/tech.",
+    "description": "A global network of autonomous chapters each award a no-strings $1,000 micro-grant every month to 'awesome' projects across arts, technology, and community. The simplest possible application for an indie creator prototyping an AI idea.",
+    "url": "https://www.awesomefoundation.org/en/submissions/new",
+    "tags": [
+      "microgrant",
+      "individual",
+      "creators",
+      "no-strings",
+      "rolling"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Lowest-friction grant available: one short form, open to any individual, no institution. Action: pick the most relevant chapter (by location or theme) and submit a one-paragraph AI project pitch.",
+    "relevant2026": true,
+    "relevant2026Note": "Active and accepting applications monthly throughout 2026.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "name": "Awesome Foundation Micro-Grants",
+    "id": 83,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Cooperative AI Foundation (CAIF)",
+    "category": "Foundation",
+    "amount": "Up to £100,000 (early-career track; grants range £10K–£385K)",
+    "deadline": "Annual rounds — see program page",
+    "deadlineDate": null,
+    "eligibility": "Early-career researchers (typically within ~2–3 years of PhD), project primarily carried out by a single individual.",
+    "description": "Funds research improving the cooperative intelligence of advanced AI — multi-agent cooperation, benchmarks, and metrics. The early-career track explicitly supports projects led by a single individual with budgets up to £100K over 12 months.",
+    "url": "https://www.cooperativeai.com/grants",
+    "tags": [
+      "AI research",
+      "multi-agent",
+      "early-career",
+      "individual",
+      "cash"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Individual-eligible (single-person projects allowed) but research-focused and competitive; no institution strictly required but a research track record helps. Action: prepare a tractable cooperative-AI research proposal for the next round.",
+    "relevant2026": true,
+    "relevant2026Note": "CAIF runs active grant rounds in 2026; check site for the current call window.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "name": "Cooperative AI Foundation — Early-Career Research Grants",
+    "id": 84,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Sovereign Tech Agency (Germany)",
+    "category": "Government",
+    "amount": "Project-based investment (work must exceed €50,000)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Individual maintainers and teams of critical open-source infrastructure; work scope must exceed €50K.",
+    "description": "Government-backed program that invests directly in maintenance, security, and development of critical open-source software underpinning the digital ecosystem. Individual maintainers can apply for funded development work on widely-used components, including AI tooling.",
+    "url": "https://www.sovereign.tech/programs/fund",
+    "tags": [
+      "open source",
+      "infrastructure",
+      "government",
+      "maintainer",
+      "cash"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Individuals can apply, but the project must be critical infrastructure scoped above €50K — a high bar. Action: frame your AI/OSS component's societal dependency and scope a concrete work plan.",
+    "relevant2026": true,
+    "relevant2026Note": "Fund accepts applications on a rolling basis; Fellowship and Standards tracks also active in 2026.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "name": "Sovereign Tech Fund",
+    "id": 85,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Future of Life Institute",
+    "category": "Foundation",
+    "amount": "Full tuition + $40,000/yr stipend + $10,000 research fund (5 years)",
+    "deadline": "Annual — next cycle ~November 2026",
+    "deadlineDate": null,
+    "eligibility": "Current or incoming PhD students committing to AI existential-safety research, with a confirming advisor.",
+    "description": "Fully-funded PhD fellowship covering tuition, a $40K annual stipend, and a $10K research/compute fund for students working on AI existential safety. Among the most generous individual research awards in the AI-safety space.",
+    "url": "https://futureoflife.org/grant-program/phd-fellowships/",
+    "tags": [
+      "AI safety",
+      "PhD",
+      "fellowship",
+      "stipend",
+      "research"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to individuals but requires admission to a PhD program and a supportive advisor (the 'sponsor' condition). Action: line up an advisor and apply in the fall 2026 window.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "2026-entry cycle closed Nov 2025; the program recurs annually with the next call expected fall 2026.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "name": "Future of Life Institute — Vitalik Buterin PhD Fellowship in AI Existential Safety",
+    "id": 86,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Creative Capital",
+    "category": "Foundation",
+    "amount": "Up to $50,000 (Award) / $10,000 (State of the Art Prize)",
+    "deadline": "Annual Open Call — next cycle ~March 2027",
+    "deadlineDate": null,
+    "eligibility": "Individual artists in the US and territories, including the Technology / multidisciplinary discipline (AI-driven work eligible).",
+    "description": "Provides individual artists up to $50,000 in unrestricted project funds to create innovative new work, explicitly including a Technology discipline that covers AI-driven art. The new State of the Art Prize adds $10,000 unrestricted grants to one artist per US state and territory.",
+    "url": "https://creative-capital.org/creative-capital-award/",
+    "tags": [
+      "artists",
+      "technology",
+      "unrestricted",
+      "individual",
+      "cash"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to individual artists with a straightforward application, but highly competitive. Action: develop an AI-art project concept and apply when the next Open Call opens (historically early March).",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Current Open Call (Round I) closed April 2, 2026; program is annual with the next cycle expected ~March 2027.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "name": "Creative Capital Award & State of the Art Prize",
+    "id": 87,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Google Research",
+    "category": "Corporate",
+    "amount": "Free access to 1,000+ Cloud TPUs (no charge, ~30-day renewable)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Any researcher or individual builder who signs up; expected to share results openly (papers, open-source, blogs).",
+    "description": "Grants individuals free access to a cluster of 1,000+ Cloud TPUs for training and research with JAX, PyTorch, or TensorFlow. Approved applicants get renewable no-cost TPU time — a major compute subsidy for solo researchers and students (minor GCP/storage costs may apply).",
+    "url": "https://sites.research.google/trc/about/",
+    "tags": [
+      "compute",
+      "TPU",
+      "research",
+      "individual",
+      "credits"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Anyone can express interest and is approved on a rolling basis with no institution required. Action: sign up at the TRC page describing your AI research/open project; budget for small VM/storage GCP costs.",
+    "relevant2026": true,
+    "relevant2026Note": "Program is active in 2026 with rolling invitations to approved applicants.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "credits",
+    "name": "Google TPU Research Cloud (TRC)",
+    "id": 88,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Zendesk Foundation",
+    "category": "Foundation",
+    "amount": "Cash grants of $5,000–$50,000 plus free Zendesk software and pro bono technical support",
+    "deadline": "July 15, 2026",
+    "deadlineDate": "2026-07-15",
+    "eligibility": "Registered nonprofits worldwide working in community building, crisis response, or technology career pathways. Cannot be a current Zendesk customer or past grantee; application in English.",
+    "description": "Global program giving nonprofits unrestricted-leaning cash grants plus enterprise software licenses and implementation support to strengthen operations and impact. Currently open for applications.",
+    "url": "https://techforgood.zendesk.com/hc/en-us/requests/new",
+    "tags": [
+      "nonprofit",
+      "tech-for-good",
+      "capacity",
+      "cash",
+      "global"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to small registered nonprofits with a manageable application; real cash plus software. Apply directly before the July 15 deadline.",
+    "relevant2026": true,
+    "relevant2026Note": "Application window is open now and closes July 15, 2026.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "name": "Tech for Good Impact Awards 2026",
+    "id": 89,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Internet Society Foundation",
+    "category": "Foundation",
+    "amount": "Multi-year operating grants typically $100,000–$300,000 (≈$3.5M total in 2026)",
+    "deadline": "Open call June 23 – August 4, 2026",
+    "deadlineDate": "2026-08-04",
+    "eligibility": "Nonprofits globally maintaining critical cybersecurity infrastructure, securing internet users from digital harm, or protecting high-risk/vulnerable communities online.",
+    "description": "New global grant program providing multi-year, largely unrestricted operating funding to nonprofits sustaining the digital safety and security infrastructure that civil society relies on. First open call runs 23 June–4 August 2026.",
+    "url": "https://www.isocfoundation.org/grant-programme/common-good-cyber-fund/",
+    "tags": [
+      "cybersecurity",
+      "civil-society",
+      "operating-grant",
+      "cash",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to nonprofits but competitive and scoped to cybersecurity/digital-safety missions; needs a clear fit. Watch the page and apply during the June–August window.",
+    "relevant2026": true,
+    "relevant2026Note": "Open call confirmed for 23 June–4 August 2026 on the program page.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "name": "Common Good Cyber Fund",
+    "id": 90,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "OpenAI Foundation",
+    "category": "Foundation",
+    "amount": "Unrestricted cash grants ($50M fund; Wave 1 distributed $40.5M to 208 nonprofits)",
+    "deadline": "Rolling / next open cycle TBD",
+    "deadlineDate": null,
+    "eligibility": "U.S.-based nonprofits using AI to advance education, economic opportunity, healthcare, and community resilience.",
+    "description": "$50M initiative giving U.S. community-based nonprofits unrestricted cash to apply AI to mission work. Wave 1 ran as an open call; Wave 2 ($9.5M) is board-directed, with no public timeline yet announced for the next open round.",
+    "url": "https://openai.com/index/people-first-ai-fund/",
+    "tags": [
+      "AI-for-good",
+      "unrestricted",
+      "nonprofit",
+      "cash",
+      "US"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open call (Wave 1) was exactly this audience and unrestricted, but no open application is live right now. Join the foundation's updates and prepare a profile for the next open wave.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Wave 2 is board-directed in early 2026; a future open cycle is likely but not yet dated.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "name": "People-First AI Fund",
+    "id": 91,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "KPMG U.S. Foundation",
+    "category": "Foundation",
+    "amount": "$6M program — cash grants (e.g., $500K–$1.1M to grantees) plus pro bono consulting and skills-based volunteering",
+    "deadline": "Rolling / relationship-driven",
+    "deadlineDate": null,
+    "eligibility": "U.S. nonprofits working in education, mental health, and community vitality seeking to integrate AI into operations.",
+    "description": "Combines cash grants with pro bono AI consulting (including a Salesforce collaboration) to help nonprofits responsibly adopt AI. Funding has been awarded to a small cohort, with selection shaped by relationships with KPMG offices.",
+    "url": "https://kpmg.com/us/en/careers-and-culture/kpmg-ai-impact-initiative.html",
+    "tags": [
+      "AI-adoption",
+      "capacity",
+      "pro-bono",
+      "cash",
+      "US"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Real cash for nonprofits, but competitive and relationship-driven rather than a simple open RFP. Build a connection with a local KPMG office and align to education/mental-health/community focus.",
+    "relevant2026": true,
+    "relevant2026Note": "Active $6M initiative in 2026; check the page for the next intake cycle.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "mixed",
+    "name": "AI Impact Initiative",
+    "id": 92,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "U.S. National Science Foundation",
+    "category": "Government",
+    "amount": "Stage 1 planning grants up to $75,000; Stage 2 full awards up to $1,000,000",
+    "deadline": "Recurring competition (next cycle TBD)",
+    "deadlineDate": null,
+    "eligibility": "Partnerships between researchers and community organizations; nonprofits serve as civic/community implementation partners.",
+    "description": "Action-and-research competition that funds the deployment of emerging technologies (including AI) to address community-defined priorities in resilience and access to services. Nonprofits participate as required civic partners alongside a research lead.",
+    "url": "https://nsfcivicinnovation.org/",
+    "tags": [
+      "civic-tech",
+      "research-partnership",
+      "community",
+      "cash",
+      "US"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Significant cash, but requires teaming with an academic/research lead and a competitive proposal. Identify a university research partner now and watch nsfcivicinnovation.org for the next solicitation.",
+    "relevant2026": true,
+    "relevant2026Note": "Established recurring NSF program; confirm the specific 2026/2027 Stage 1 window on the official site before building a proposal.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "name": "Civic Innovation Challenge (CIVIC)",
+    "id": 93,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "LinkedIn (Social Impact)",
+    "category": "Corporate",
+    "amount": "Cash grants, most in the $200,000–$300,000 range ($3M total)",
+    "deadline": "Closed March 15, 2026 (annual program)",
+    "deadlineDate": "2026-03-15",
+    "eligibility": "Legally registered nonprofits (U.S. orgs need 501(c)(3)) doing workforce development that prepares young adults to succeed in an AI-powered economy; focus on France, Germany, India, UK, US.",
+    "description": "Philanthropic fund giving nonprofits sizable cash grants to expand programs that help young adults facing barriers prepare for AI-shaped work. The 2026 round has closed, but it is an annual program worth preparing for in the next cycle.",
+    "url": "https://socialimpact.linkedin.com/future-of-work-fund",
+    "tags": [
+      "workforce",
+      "AI-economy",
+      "youth",
+      "cash",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Strong fit and real cash for nonprofits, but requires a workforce-development focus and the 2026 window has closed. Prepare an application for the next annual round and monitor the page.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 cohort applications closed March 15, 2026; recurs annually.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "name": "Future of Work Fund 2026",
+    "id": 94,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "data.org (with Zoom)",
+    "category": "Foundation",
+    "amount": "At least five winners share grant funding of ~$115,000 each plus in-kind support",
+    "deadline": "Closed January 8, 2026 (recurring challenge series)",
+    "deadlineDate": "2026-01-08",
+    "eligibility": "Organizations globally (including nonprofits and charitable-purpose for-profits) using AI/data for workforce development, future-friendly jobs, or climate-resilient communities.",
+    "description": "data.org challenge awarding cash plus in-kind support (data science talent, training, software) to organizations using AI to unlock economic opportunity. The current round has closed, but data.org runs recurring open challenges with similar funding.",
+    "url": "https://data.org/initiatives/challenges/activate-ai-economic-opportunity-challenge/",
+    "tags": [
+      "AI-for-good",
+      "economic-opportunity",
+      "data",
+      "cash",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to nonprofits via a competitive global RFP; this round is closed. Track data.org's challenges page for the next open call and prepare an economic-opportunity AI project.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 round closed January 8, 2026; data.org recurringly opens new challenges.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "mixed",
+    "name": "Activate AI: Economic Opportunity Challenge",
+    "id": 95,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "CIVICUS Global Alliance",
+    "category": "Foundation",
+    "amount": "Grants of USD $10,000–$20,000 plus 9 months of technical support and peer learning",
+    "deadline": "Closed April 30, 2026 (recurring cohorts)",
+    "deadlineDate": "2026-04-30",
+    "eligibility": "Civil society organizations in OECD DAC ODA-eligible countries working on democracy/civic space, with some experience using digital tools; preference for underrepresented and grassroots groups.",
+    "description": "Cohort program funding civil society organizations to design, test, and scale digital and AI-enabled solutions that strengthen civic space and citizen engagement, especially in restricted environments. Cohort 3 has closed but the lab runs recurring cohorts.",
+    "url": "https://www.civicus.org/index.php/what-we-do/enabling-and-resourcing/digital-democracy-initiative/digital-action-lab",
+    "tags": [
+      "civic-space",
+      "digital-democracy",
+      "grassroots",
+      "cash",
+      "global-south"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Well-suited to small community/civic groups with a manageable application, but Cohort 3 closed April 30, 2026 and eligibility is limited to ODA-eligible countries. Watch for the next cohort call.",
+    "relevant2026": true,
+    "relevant2026Note": "Cohort 3 applications closed April 30, 2026; the lab opens new cohorts periodically.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "name": "Digital Action Lab — Cohort 3",
+    "id": 96,
+>>>>>>> Stashed changes
     "_updated": "2026-05-30"
   }
 ]

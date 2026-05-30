@@ -8,6 +8,8 @@ channel's vars are missing, that channel is skipped with a clear message
 (never a hard failure), so you can wire one channel at a time.
 
 Env vars:
+  Push:      NTFY_TOPIC           (subscribe at https://ntfy.sh/<topic> — web + phone)
+             NTFY_SERVER          (default: https://ntfy.sh)
   Telegram:  TELEGRAM_BOT_TOKEN   (from @BotFather)
              TELEGRAM_CHAT_ID     (the group's chat id, usually negative)
   Email:     SMTP_HOST  SMTP_PORT  SMTP_USER  SMTP_PASS
@@ -16,6 +18,7 @@ Env vars:
 
 Usage:
   python notify.py            # send to whatever channels are configured
+  python notify.py --push     # only the push notification
   python notify.py --telegram # only Telegram
   python notify.py --email    # only email
 """
@@ -34,6 +37,35 @@ import importlib
 report = importlib.import_module("generate-report")  # module name has a hyphen
 
 DEFAULT_TO = "account1@liminalcommons.com"
+
+
+def send_push(new_count, total):
+    """Push a short alert (web + mobile) via ntfy. Links to the live report."""
+    topic = os.environ.get("NTFY_TOPIC")
+    if not topic:
+        print("  [push] skipped — set NTFY_TOPIC (then subscribe at https://ntfy.sh/<topic>).")
+        return False
+    server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+    if new_count:
+        body = f"{new_count} new funding opportunities this week. Tap to view the report."
+        title = f"🛰️ AI Funding Radar — {new_count} new"
+    else:
+        body = f"No new grants this week. {total} tracked. Tap to browse."
+        title = "🛰️ AI Funding Radar — weekly check"
+    req = urllib.request.Request(
+        f"{server}/{topic}",
+        data=body.encode("utf-8"),
+        headers={
+            "Title": title.encode("utf-8").decode("latin-1", "ignore"),
+            "Click": f"{report.LIVE_URL}/report.html",
+            "Tags": "money_with_wings",
+            "Priority": "default",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        ok = r.status == 200
+    print(f"  [push] {'sent' if ok else 'failed'} to {server}/{topic}.")
+    return ok
 
 
 def send_telegram(text):
@@ -83,10 +115,12 @@ def send_email(html_body, subject):
 
 
 def main():
-    only_tg = "--telegram" in sys.argv
-    only_email = "--email" in sys.argv
-    do_tg = only_tg or not only_email
-    do_email = only_email or not only_tg
+    # If any channel flag is given, run only those; otherwise run all.
+    flags = {"--push", "--telegram", "--email"}
+    chosen = flags & set(sys.argv)
+    do_push = "--push" in chosen or not chosen
+    do_tg = "--telegram" in chosen or not chosen
+    do_email = "--email" in chosen or not chosen
 
     grants = gl.load_existing()
     html_body = report.render(grants, days=7)
@@ -95,6 +129,8 @@ def main():
     subject = f"🛰️ AI Funding Radar — {new_count} new this week"
 
     print("Delivering weekly report...")
+    if do_push:
+        send_push(new_count, len(grants))
     if do_tg:
         send_telegram(summary)
     if do_email:
