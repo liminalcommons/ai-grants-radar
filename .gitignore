@@ -1,0 +1,5 @@
+.env
+research.log
+.vercel/
+__pycache__/
+*.pyc

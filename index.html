@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Funding Radar 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #080810;
+      --bg2: #0e0e1a;
+      --bg3: #141428;
+      --surface: #12121f;
+      --border: #1e1e36;
+      --border2: #2a2a4a;
+      --text: #c8c4e0;
+      --text-dim: #5e5a80;
+      --text-bright: #eae8f4;
+      --amber: #e8a025;
+      --amber-dim: rgba(232,160,37,0.12);
+      --amber-glow: rgba(232,160,37,0.06);
+      --green: #2ec48a;
+      --green-dim: rgba(46,196,138,0.12);
+      --red: #e85c5c;
+      --red-dim: rgba(232,92,92,0.12);
+      --orange: #e87830;
+      --orange-dim: rgba(232,120,48,0.12);
+      --blue: #4a8ef0;
+      --blue-dim: rgba(74,142,240,0.12);
+      --mauve: #9060d8;
+      --mauve-dim: rgba(144,96,216,0.12);
+      --teal: #20b8c8;
+      --teal-dim: rgba(32,184,200,0.12);
+      --radius: 3px;
+      --card-radius: 4px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Noise texture overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.035'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.4;
+    }
+
+    /* Ambient gradient */
+    body::after {
+      content: '';
+      position: fixed;
+      top: -200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 900px;
+      height: 500px;
+      background: radial-gradient(ellipse, rgba(232,160,37,0.06) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      position: relative;
+      z-index: 10;
+      padding: 48px 40px 36px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(14,14,26,0.95) 0%, transparent 100%);
+    }
+
+    .header-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .title-block {}
+
+    .eyebrow {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .eyebrow::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 1px;
+      background: var(--amber);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(32px, 5vw, 56px);
+      font-weight: 900;
+      color: var(--text-bright);
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+
+    h1 span {
+      color: var(--amber);
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      color: var(--text-dim);
+      font-size: 13px;
+      font-weight: 300;
+      letter-spacing: 0.02em;
+    }
+
+    .meta-block {
+      text-align: right;
+    }
+
+    .last-updated {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      color: var(--text-dim);
+      letter-spacing: 0.08em;
+    }
+
+    .pulse {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      color: var(--green);
+      letter-spacing: 0.08em;
+      margin-top: 4px;
+    }
+
+    .pulse::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--green);
+      border-radius: 50%;
+      animation: pulse 2s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.8); }
+    }
+
+    /* ===== STATS BAR ===== */
+    .stats-bar {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .stat-value {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--text-bright);
+    }
+
+    .stat-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+    }
+
+    .stat.urgent .stat-value { color: var(--red); }
+    .stat.viable .stat-value { color: var(--green); }
+    .stat.rolling .stat-value { color: var(--amber); }
+
+    /* ===== CONTROLS ===== */
+    .controls {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(8,8,16,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .search-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 200px;
+      max-width: 320px;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+    }
+
+    #search {
+      width: 100%;
+      background: var(--bg3);
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      padding: 8px 12px 8px 28px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    #search:focus {
+      border-color: var(--amber);
+    }
+
+    #search::placeholder { color: var(--text-dim); }
+
+    .filters {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 12px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border2);
+      background: transparent;
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .filter-btn:hover { border-color: var(--text-dim); color: var(--text); }
+    .filter-btn.active { background: var(--amber); color: #000; border-color: var(--amber); font-weight: 600; }
+    .filter-btn[data-cat="Government"].active { background: var(--blue); border-color: var(--blue); }
+    .filter-btn[data-cat="Foundation"].active { background: var(--mauve); border-color: var(--mauve); }
+    .filter-btn[data-cat="Corporate"].active { background: var(--amber); border-color: var(--amber); }
+    .filter-btn[data-cat="Accelerator"].active { background: var(--green); border-color: var(--green); }
+
+    .viability-filter {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-left: auto;
+    }
+
+    .viability-filter label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .viability-filter input[type="checkbox"] {
+      accent-color: var(--green);
+      width: 13px;
+      height: 13px;
+    }
+
+    /* ===== GRID ===== */
+    .grid-wrap {
+      position: relative;
+      z-index: 5;
+      padding: 32px 40px;
+    }
+
+    #results-info {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      color: var(--text-dim);
+      letter-spacing: 0.08em;
+      margin-bottom: 20px;
+    }
+
+    .grant-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 16px;
+    }
+
+    /* ===== CARD ===== */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--card-radius);
+      border-left: 3px solid var(--border2);
+      padding: 20px;
+      cursor: pointer;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s, background 0.2s;
+      position: relative;
+      overflow: hidden;
+      opacity: 0;
+      transform: translateY(12px);
+      animation: cardReveal 0.4s ease forwards;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+      background: var(--bg3);
+    }
+
+    @keyframes cardReveal {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card[data-cat="Government"] { border-left-color: var(--blue); }
+    .card[data-cat="Foundation"] { border-left-color: var(--mauve); }
+    .card[data-cat="Corporate"] { border-left-color: var(--amber); }
+    .card[data-cat="Accelerator"] { border-left-color: var(--green); }
+
+    .card[data-cat="Government"]:hover { box-shadow: 0 8px 32px rgba(74,142,240,0.08); }
+    .card[data-cat="Foundation"]:hover { box-shadow: 0 8px 32px rgba(144,96,216,0.08); }
+    .card[data-cat="Corporate"]:hover { box-shadow: 0 8px 32px rgba(232,160,37,0.08); }
+    .card[data-cat="Accelerator"]:hover { box-shadow: 0 8px 32px rgba(46,196,138,0.08); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .card-badges {
+      display: flex;
+      gap: 6px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .badge {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 3px 7px;
+      border-radius: 2px;
+    }
+
+    .badge-cat[data-cat="Government"] { background: var(--blue-dim); color: var(--blue); }
+    .badge-cat[data-cat="Foundation"] { background: var(--mauve-dim); color: var(--mauve); }
+    .badge-cat[data-cat="Corporate"] { background: var(--amber-dim); color: var(--amber); }
+    .badge-cat[data-cat="Accelerator"] { background: var(--green-dim); color: var(--green); }
+
+    .badge-viable {
+      background: var(--green-dim);
+      color: var(--green);
+    }
+
+    .badge-viable.partial {
+      background: var(--orange-dim);
+      color: var(--orange);
+    }
+
+    .badge-viable.no {
+      background: rgba(94,90,128,0.15);
+      color: var(--text-dim);
+    }
+
+    .grant-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-bright);
+      line-height: 1.3;
+      flex: 1;
+    }
+
+    .grant-org {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+    }
+
+    .card-data {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    .data-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .data-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 8px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+    }
+
+    .data-value {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--amber);
+    }
+
+    .data-value.deadline-urgent { color: var(--red); }
+    .data-value.deadline-soon { color: var(--orange); }
+    .data-value.deadline-ok { color: var(--green); }
+    .data-value.deadline-rolling { color: var(--text-dim); }
+
+    .urgency-dot {
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+
+    .urgency-dot.urgent { background: var(--red); animation: pulse 1.5s ease-in-out infinite; }
+    .urgency-dot.soon { background: var(--orange); }
+    .urgency-dot.ok { background: var(--green); }
+    .urgency-dot.rolling { background: var(--text-dim); }
+
+    .grant-desc {
+      font-size: 12px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card.expanded .grant-desc {
+      -webkit-line-clamp: unset;
+      overflow: visible;
+    }
+
+    .tags {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+
+    .tag {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9px;
+      color: var(--text-dim);
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      padding: 2px 6px;
+      letter-spacing: 0.05em;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+
+    .viability-note {
+      font-size: 11px;
+      color: var(--text-dim);
+      max-width: 60%;
+      line-height: 1.4;
+    }
+
+    .viability-note strong {
+      font-weight: 500;
+      color: var(--green);
+    }
+
+    .viability-note.partial strong { color: var(--orange); }
+    .viability-note.no strong { color: var(--text-dim); }
+
+    .card-link {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+      text-decoration: none;
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      padding: 5px 10px;
+      transition: all 0.15s;
+      flex-shrink: 0;
+    }
+
+    .card-link:hover {
+      color: var(--amber);
+      border-color: var(--amber);
+    }
+
+    /* ===== EMPTY STATE ===== */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 80px 40px;
+      color: var(--text-dim);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      position: relative;
+      z-index: 5;
+      border-top: 1px solid var(--border);
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer-note {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9px;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+      max-width: 600px;
+      line-height: 1.7;
+    }
+
+    .footer-legend {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9px;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+    }
+
+    .legend-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 1px;
+      flex-shrink: 0;
+    }
+
+    /* 2026 relevance states */
+    .card.not-2026 {
+      opacity: 0.45;
+      filter: grayscale(0.4);
+    }
+    .card.not-2026:hover {
+      opacity: 0.7;
+      filter: grayscale(0.2);
+    }
+    .card.uncertain-2026 {
+      border-left-style: dashed;
+    }
+
+    .badge-2026 {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 7px;
+      border-radius: 2px;
+    }
+    .badge-2026.yes  { background: rgba(46,196,138,0.12); color: var(--green); }
+    .badge-2026.uncertain { background: rgba(232,120,48,0.12); color: var(--orange); border: 1px dashed var(--orange); }
+    .badge-2026.upcoming { background: rgba(74,142,240,0.1); color: var(--blue); }
+    .badge-2026.no   { background: rgba(232,92,92,0.1); color: var(--red); }
+
+    @media (max-width: 600px) {
+      header, .grid-wrap { padding: 24px 16px; }
+      .controls { padding: 12px 16px; }
+      footer { padding: 16px; }
+      .grant-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="title-block">
+      <div class="eyebrow">AI Funding Intelligence</div>
+      <h1>Funding <span>Radar</span></h1>
+      <p class="subtitle">2026 Grant &amp; Opportunity Database — Small Team Edition</p>
+    </div>
+    <div class="meta-block">
+      <div class="last-updated" id="last-updated">LAST UPDATED: 2026-03-13</div>
+      <div class="pulse">LIVE MONITORING</div>
+    </div>
+  </div>
+  <div class="stats-bar" id="stats-bar">
+    <div class="stat viable">
+      <span class="stat-value" id="stat-viable">—</span>
+      <span class="stat-label">Viable for Your Team</span>
+    </div>
+    <div class="stat urgent">
+      <span class="stat-value" id="stat-urgent">—</span>
+      <span class="stat-label">Deadline &lt; 30 days</span>
+    </div>
+    <div class="stat rolling">
+      <span class="stat-value" id="stat-rolling">—</span>
+      <span class="stat-label">Rolling / Always Open</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value" id="stat-total">—</span>
+      <span class="stat-label">Total Opportunities</span>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input type="text" id="search" placeholder="Search grants...">
+  </div>
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-cat="All">All</button>
+    <button class="filter-btn" data-cat="Government">Gov</button>
+    <button class="filter-btn" data-cat="Foundation">Foundation</button>
+    <button class="filter-btn" data-cat="Corporate">Corporate</button>
+    <button class="filter-btn" data-cat="Accelerator">Accelerator</button>
+  </div>
+  <div class="viability-filter">
+    <label>
+      <input type="checkbox" id="viable-only">
+      VIABLE ONLY
+    </label>
+    <label>
+      <input type="checkbox" id="active-2026-only" checked>
+      2026 ACTIVE
+    </label>
+  </div>
+</div>
+
+<div class="grid-wrap">
+  <div id="results-info"></div>
+  <div class="grant-grid" id="grid"></div>
+</div>
+
+<footer>
+  <div class="footer-note">
+    Data compiled 2026-03-13. Verify all deadlines and eligibility directly with funders before applying.
+    Viability scores reflect suitability for small teams building AI platforms (2–10 people).
+    This page auto-refreshes when new opportunities are found.
+  </div>
+  <div class="footer-legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--blue)"></div> Government</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--mauve)"></div> Foundation</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div> Corporate</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> Accelerator</div>
+  </div>
+</footer>
+
+<script>
+// ===== DATA =====
+// viability: "yes" | "partial" | "no"
+// viabilityNote: why / what to do
+let GRANTS = [];
+
+// ===== STATE =====
+let activeFilter = 'All';
+let searchQuery = '';
+let viableOnly = false;
+let active2026Only = true;
+const TODAY = new Date();
+
+// ===== DEADLINE UTILS =====
+function getDeadlineUrgency(grant) {
+  if (!grant.deadlineDate) return 'rolling';
+  const diff = (grant.deadlineDate - TODAY) / (1000 * 60 * 60 * 24);
+  if (diff < 0) return 'passed';
+  if (diff <= 30) return 'urgent';
+  if (diff <= 90) return 'soon';
+  return 'ok';
+}
+
+function getDaysLabel(grant) {
+  if (!grant.deadlineDate) return grant.deadline;
+  const diff = Math.round((grant.deadlineDate - TODAY) / (1000 * 60 * 60 * 24));
+  if (diff < 0) return 'PASSED';
+  if (diff === 0) return 'TODAY';
+  if (diff === 1) return '1 DAY LEFT';
+  if (diff <= 30) return `${diff} DAYS LEFT`;
+  return grant.deadline;
+}
+
+// ===== STATS =====
+function updateStats(grants) {
+  const viable = grants.filter(g => g.viability === 'yes').length;
+  const urgent = grants.filter(g => {
+    const u = getDeadlineUrgency(g);
+    return u === 'urgent';
+  }).length;
+  const rolling = grants.filter(g => !g.deadlineDate).length;
+
+  document.getElementById('stat-viable').textContent = viable;
+  document.getElementById('stat-urgent').textContent = urgent;
+  document.getElementById('stat-rolling').textContent = rolling;
+  document.getElementById('stat-total').textContent = grants.length;
+}
+
+// ===== RENDER =====
+function renderCard(grant, idx) {
+  const urgency = getDeadlineUrgency(grant);
+  const deadlineClass = urgency === 'passed' ? 'deadline-rolling' : `deadline-${urgency}`;
+  const daysLabel = getDaysLabel(grant);
+
+  const tagsHTML = grant.tags.map(t => `<span class="tag">${t}</span>`).join('');
+
+  const viabilityBadgeClass = grant.viability === 'yes' ? '' : grant.viability === 'partial' ? 'partial' : 'no';
+  const viabilityLabel = grant.viability === 'yes' ? '✓ VIABLE' : grant.viability === 'partial' ? '~ PARTIAL' : '✕ LIMITED';
+
+  const r2026 = grant.relevant2026;
+  const r2026Class = r2026 === true ? 'yes' : r2026 === false ? 'no' : r2026 === 'upcoming' ? 'upcoming' : 'uncertain';
+  const r2026Label = r2026 === true ? '2026 ✓' : r2026 === false ? '2026 CLOSED' : r2026 === 'upcoming' ? '2026 SOON' : '2026 ?';
+  const cardExtraClass = r2026 === false ? 'not-2026' : r2026 === 'uncertain' ? 'uncertain-2026' : '';
+
+  const delay = Math.min(idx * 40, 400);
+
+  return `
+    <div class="card ${cardExtraClass}" data-cat="${grant.category}" data-id="${grant.id}" style="animation-delay:${delay}ms">
+      <div class="card-header">
+        <div class="grant-name">${grant.name}</div>
+        <div class="card-badges">
+          <span class="badge badge-cat" data-cat="${grant.category}">${grant.category}</span>
+          <span class="badge badge-2026 ${r2026Class}">${r2026Label}</span>
+          <span class="badge badge-viable ${viabilityBadgeClass}">${viabilityLabel}</span>
+        </div>
+      </div>
+      <div class="grant-org">${grant.organization}</div>
+      <div class="card-data">
+        <div class="data-item">
+          <span class="data-label">Amount</span>
+          <span class="data-value">${grant.amount}</span>
+        </div>
+        <div class="data-item">
+          <span class="data-label">Deadline</span>
+          <span class="data-value ${deadlineClass}">
+            <span class="urgency-dot ${urgency}"></span>${daysLabel}
+          </span>
+        </div>
+      </div>
+      <div class="grant-desc">${grant.description}</div>
+      <div class="tags">${tagsHTML}</div>
+      <div class="card-footer">
+        <div style="flex:1; min-width:0;">
+          <div class="viability-note ${viabilityBadgeClass}" style="margin-bottom:5px;">
+            <strong>${viabilityLabel}</strong>: ${grant.viabilityNote}
+          </div>
+          <div class="viability-note" style="color:var(--text-dim); font-size:10px;">
+            <strong style="color:${r2026 === true ? 'var(--green)' : r2026 === false ? 'var(--red)' : r2026 === 'upcoming' ? 'var(--blue)' : 'var(--orange)'};">${r2026Label}</strong>: ${grant.relevant2026Note}
+          </div>
+        </div>
+        <a class="card-link" href="${grant.url}" target="_blank" rel="noopener" style="margin-left:12px;flex-shrink:0;">→ DETAILS</a>
+      </div>
+    </div>
+  `;
+}
+
+function getFilteredGrants() {
+  return GRANTS.filter(g => {
+    if (activeFilter !== 'All' && g.category !== activeFilter) return false;
+    if (viableOnly && g.viability !== 'yes') return false;
+    if (active2026Only && g.relevant2026 === false) return false;
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      if (!g.name.toLowerCase().includes(q) &&
+          !g.organization.toLowerCase().includes(q) &&
+          !g.description.toLowerCase().includes(q) &&
+          !g.tags.join(' ').toLowerCase().includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function render() {
+  const filtered = getFilteredGrants();
+  const grid = document.getElementById('grid');
+  const info = document.getElementById('results-info');
+
+  info.textContent = `SHOWING ${filtered.length} OF ${GRANTS.length} OPPORTUNITIES`;
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="empty-state">NO MATCHING OPPORTUNITIES — TRY ADJUSTING FILTERS</div>';
+    return;
+  }
+
+  // Sort: viable first, then by deadline urgency, then by deadline
+  const urgencyOrder = { urgent: 0, soon: 1, ok: 2, rolling: 3, passed: 4 };
+  const viabilityOrder = { yes: 0, partial: 1, no: 2 };
+
+  filtered.sort((a, b) => {
+    const vDiff = viabilityOrder[a.viability] - viabilityOrder[b.viability];
+    if (vDiff !== 0) return vDiff;
+    const ua = urgencyOrder[getDeadlineUrgency(a)] ?? 5;
+    const ub = urgencyOrder[getDeadlineUrgency(b)] ?? 5;
+    return ua - ub;
+  });
+
+  grid.innerHTML = filtered.map((g, i) => renderCard(g, i)).join('');
+}
+
+// ===== EVENTS =====
+document.getElementById('search').addEventListener('input', e => {
+  searchQuery = e.target.value.trim();
+  render();
+});
+
+document.getElementById('filters').addEventListener('click', e => {
+  const btn = e.target.closest('.filter-btn');
+  if (!btn) return;
+  activeFilter = btn.dataset.cat;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  render();
+});
+
+document.getElementById('viable-only').addEventListener('change', e => {
+  viableOnly = e.target.checked;
+  render();
+});
+
+document.getElementById('active-2026-only').addEventListener('change', e => {
+  active2026Only = e.target.checked;
+  render();
+});
+
+// ===== INIT =====
+async function loadGrants() {
+  try {
+    const res = await fetch('grants.json?v=' + Date.now());
+    const raw = await res.json();
+    GRANTS = raw.map(g => ({
+      ...g,
+      deadlineDate: g.deadlineDate ? new Date(g.deadlineDate) : null
+    }));
+    const latest = raw.reduce((a, b) => (!b._updated || (a._updated || '') > (b._updated || '')) ? a : b, {});
+    const lastDate = latest._updated || new Date().toISOString().split('T')[0];
+    document.getElementById('last-updated').textContent = `LAST UPDATED: ${lastDate}`;
+  } catch(e) {
+    console.error('Failed to load grants.json', e);
+    document.getElementById('last-updated').textContent = 'ERROR LOADING DATA';
+  }
+  updateStats(GRANTS);
+  render();
+}
+loadGrants();
+</script>
+</body>
+</html>

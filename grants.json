@@ -1,0 +1,2029 @@
+[
+  {
+    "id": 1,
+    "name": "Google Cloud AI Startup Program",
+    "organization": "Google Cloud",
+    "category": "Corporate",
+    "amount": "Up to $350,000 in cloud credits",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Early-stage AI startups",
+    "description": "Provides AI startups with substantial cloud compute credits, dedicated support, and access to Vertex AI, Gemini models, and TPUs. No equity taken. Designed to reduce infrastructure costs during early development. Application is straightforward via the Google Cloud startup portal.",
+    "url": "https://cloud.google.com/startup/ai",
+    "tags": [
+      "cloud credits",
+      "compute",
+      "startup",
+      "no equity",
+      "rolling"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Easy entry. No equity, rolling applications, perfect for app/platform teams. Apply today.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling program — actively accepting 2026 applications year-round.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 2,
+    "name": "Microsoft for Startups (AI Tier)",
+    "organization": "Microsoft",
+    "category": "Corporate",
+    "amount": "Up to $150,000 in Azure credits",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Early-stage AI startups",
+    "description": "Azure credits, access to Azure OpenAI Service (GPT-4o, o1), GitHub Copilot, and technical support. No equity taken. Particularly useful if your platform uses Azure infrastructure or OpenAI models.",
+    "url": "https://startups.microsoft.com/",
+    "tags": [
+      "Azure",
+      "OpenAI API",
+      "cloud credits",
+      "no equity",
+      "rolling"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Easy entry. Stack with Google Cloud credits. No equity, zero friction to apply.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling program — open in 2026, apply anytime.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 3,
+    "name": "AI Grant Accelerator",
+    "organization": "AI Grant (Nat Friedman + Daniel Gross)",
+    "category": "Accelerator",
+    "amount": "$250K SAFE + $600K+ in compute credits",
+    "deadline": "Check aigrant.org",
+    "deadlineDate": null,
+    "eligibility": "Early-stage AI-native product startups, globally",
+    "description": "Founded by former GitHub CEO Nat Friedman and YC partner Daniel Gross. Backs early-stage AI-native product builders. Package includes a founder-friendly SAFE investment, 600K+ in cloud credits, Demo Day, and a high-caliber peer network. Product-focused, small team friendly.",
+    "url": "https://aigrant.org/",
+    "tags": [
+      "startup",
+      "accelerator",
+      "AI native",
+      "product",
+      "compute",
+      "SAFE",
+      "global"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Strong fit. Product-stage, small team, AI platform — this is exactly the profile they back.",
+    "relevant2026": true,
+    "relevant2026Note": "Active program in 2026 — check aigrant.org for current cohort dates.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 4,
+    "name": "Mozilla Foundation — Democracy x AI Cohort 2026",
+    "organization": "Mozilla Foundation",
+    "category": "Foundation",
+    "amount": "$50K + up to $250K for top 2 finalists",
+    "deadline": "March 16, 2026",
+    "deadlineDate": "",
+    "eligibility": "Nonprofits, social enterprises, academic teams globally",
+    "description": "12-month incubator funding 10 projects at the AI × democracy intersection. Algorithmic accountability, information resilience, AI transparency tools. Includes mentorship and Mozilla's global network. URGENT — deadline in days.",
+    "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/democracy-ai-cohort/",
+    "tags": [
+      "democracy",
+      "AI accountability",
+      "open source",
+      "governance",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable if you can frame Castalia/Vox around democratic participation or AI transparency. Requires nonprofit or social enterprise structure.",
+    "relevant2026": true,
+    "relevant2026Note": "2026-specific cohort — deadline March 16, 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 5,
+    "name": "Google.org Impact Challenge: AI for Government",
+    "organization": "Google.org",
+    "category": "Corporate",
+    "amount": "$1M–$3M per organization + Google Cloud + mentorship",
+    "deadline": "April 3, 2026",
+    "deadlineDate": "",
+    "eligibility": "Nonprofits, social enterprises, academic institutions + government partners",
+    "description": "Awards grants to organizations using AI to improve public services. Selected grantees receive technical mentorship, Google Cloud resources, and a multi-month accelerator by Google AI experts. Requires partnership with a government entity.",
+    "url": "https://opportunitiesforyouth.org/2026/02/19/google-org-impact-challenges-2026-up-to-3m-funding-for-ai-projects-in-government-innovation-and-scientific-breakthroughs/",
+    "tags": [
+      "govtech",
+      "public sector",
+      "AI for good",
+      "cloud credits",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Large grant but requires nonprofit + government partner. Worth exploring if you can identify a civic use case for your platform.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 challenge — deadline April 3, 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 6,
+    "name": "Google.org Impact Challenge: AI for Science",
+    "organization": "Google.org",
+    "category": "Corporate",
+    "amount": "$500K–$3M + Google Cloud infrastructure",
+    "deadline": "April 17, 2026",
+    "deadlineDate": "",
+    "eligibility": "Nonprofits, academic institutions, and social enterprises",
+    "description": "Part of Google.org's $30M AI for Science challenge. Funds AI projects accelerating scientific discovery. Grantees receive funding, Google AI expertise, cloud infrastructure, and accelerator access.",
+    "url": "https://mexicobusiness.news/sustainability/news/googleorg-launches-us30m-ai-science-challenge",
+    "tags": [
+      "science",
+      "research",
+      "AI for good",
+      "cloud credits"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Requires nonprofit structure. Worth noting for future org structure decisions.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 challenge — deadline April 17, 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 7,
+    "name": "Foresight Institute — AI for Science & Safety Nodes",
+    "organization": "Foresight Institute",
+    "category": "Foundation",
+    "amount": "Varies by node (check foresight.org)",
+    "deadline": "April 1, 2026",
+    "deadlineDate": "",
+    "eligibility": "Researchers and small teams globally; AI safety + science focus",
+    "description": "Node-based program opening April 1 in San Francisco and Berlin. Supports researchers working at AI × existential risk reduction and scientific acceleration. Small team friendly structure with in-person and remote components.",
+    "url": "https://foresight.org/grants/grants-ai-for-science-safety/",
+    "tags": [
+      "AI safety",
+      "science",
+      "existential risk",
+      "research",
+      "global",
+      "small team"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Good if your work has an AI safety angle. Small team structure is a fit. Apply April 1.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 program — opens April 1, 2026 in SF and Berlin.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 8,
+    "name": "NSF SBIR/STTR — Artificial Intelligence Track",
+    "organization": "U.S. National Science Foundation",
+    "category": "Government",
+    "amount": "Phase I: up to $300K | Phase II: up to $1.25M",
+    "deadline": "Rolling (check seedfund.nsf.gov)",
+    "deadlineDate": null,
+    "eligibility": "U.S. small businesses, <500 employees, for-profit",
+    "description": "Funds high-risk, high-reward AI R&D in early-stage startups. Phase I validates feasibility, Phase II funds full prototype development. No equity taken. One of the most accessible federal grant pathways for AI companies. Note: SBIR reauthorization unresolved as of March 2026 — verify status.",
+    "url": "https://seedfund.nsf.gov/topics/artificial-intelligence/",
+    "tags": [
+      "SBIR",
+      "deep tech",
+      "early stage",
+      "US only",
+      "no dilution"
+    ],
+    "viability": "partial",
+    "viabilityNote": "High value but requires US incorporation and significant R&D framing. Feasible for a US-based team building novel AI tech.",
+    "relevant2026": "uncertain",
+    "relevant2026Note": "SBIR reauthorization expired Sept 2025 and remains unresolved as of March 2026. Verify current status at seedfund.nsf.gov before investing effort.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 9,
+    "name": "OpenAI Alignment Research Grants",
+    "organization": "OpenAI",
+    "category": "Corporate",
+    "amount": "$100K–$2M depending on scope",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Academic researchers, independent researchers, new research orgs globally",
+    "description": "OpenAI funds independent technical research on alignment, interpretability, scalable oversight, and weak-to-strong generalization. Particularly interested in supporting researchers founding new safety-focused organizations. Rolling engagement between formal RFPs.",
+    "url": "https://openai.com/index/superalignment-fast-grants/",
+    "tags": [
+      "AI safety",
+      "alignment",
+      "interpretability",
+      "research",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable if your platform does anything touching AI safety, interpretability, or responsible deployment of AI.",
+    "relevant2026": true,
+    "relevant2026Note": "Actively funding in 2026 — rolling intake, no fixed deadline.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 10,
+    "name": "Open Philanthropy — Technical AI Safety Research",
+    "organization": "Open Philanthropy",
+    "category": "Foundation",
+    "amount": "~$40M available; grants from API credits to seed-stage org funding",
+    "deadline": "Rolling (contact technicalaisafety@coefficientgiving.org)",
+    "deadlineDate": null,
+    "eligibility": "Researchers, academic labs, new research orgs globally",
+    "description": "Funds a broad range of technical AI safety work including alignment, interpretability, scalable oversight, and evaluation research. Particularly open to supporting researchers founding new safety-focused organizations. Rolling engagement between formal RFPs.",
+    "url": "https://www.openphilanthropy.org/request-for-proposals-technical-ai-safety-research/",
+    "tags": [
+      "AI safety",
+      "alignment",
+      "interpretability",
+      "research org",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable if you can frame your AI work around safety. They fund new orgs — relevant if considering a spin-off safety project.",
+    "relevant2026": "uncertain",
+    "relevant2026Note": "Previous formal RFP closed April 2025. Next 2026 cycle timeline not yet announced. Rolling informal contact still possible.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 11,
+    "name": "EIC Accelerator Open — 2026",
+    "organization": "European Innovation Council",
+    "category": "Government",
+    "amount": "Up to €2.5M grant + up to €10M equity",
+    "deadline": "May 6, Jul 8, Sep 2, Nov 4 (next: May 6)",
+    "deadlineDate": "",
+    "eligibility": "Startups and SMEs in EU member states or EIC-associated countries",
+    "description": "Europe's premier deep-tech startup programme. Budget €414M for 2026. Blended finance model: grant + equity investment. More cut-off dates in 2026, minimum €1M blended investment. Requires EU entity.",
+    "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+    "tags": [
+      "EU",
+      "deep tech",
+      "startup",
+      "equity",
+      "blended finance"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Strong if EU-based or willing to establish EU entity. Large grant, but complex application process (3–6 months).",
+    "relevant2026": true,
+    "relevant2026Note": "Multiple 2026 cut-off dates confirmed (next: May 6). Actively open for 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 12,
+    "name": "Horizon Europe — Trustworthy & Next-Gen AI",
+    "organization": "European Commission",
+    "category": "Government",
+    "amount": "€221M (trustworthy AI) + €85M (next-gen AI/robotics)",
+    "deadline": "April 15, 2026",
+    "deadlineDate": "",
+    "eligibility": "Consortia from EU member states; nonprofits, SMEs, universities",
+    "description": "EU's flagship R&I programme allocates €307M in 2026 for AI. Topics include GenAI4EU, trustworthy AI agents, robotics, digital twins. Part of €2B+ AI commitment in 2026–2027.",
+    "url": "https://www.grantsfinder.eu/blog/ai-genai4eu-funding-2026",
+    "tags": [
+      "EU",
+      "trustworthy AI",
+      "generative AI",
+      "open research",
+      "SME"
+    ],
+    "viability": "no",
+    "viabilityNote": "Requires EU consortium (3+ entities). High complexity. Not practical as a small team entry point.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 work programme confirmed — April 15, 2026 call is open now.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 13,
+    "name": "Humanity AI — Pooled Fund Grants",
+    "organization": "MacArthur + Ford + Mozilla + Omidyar + 6 others",
+    "category": "Foundation",
+    "amount": "$500M committed over 5 years",
+    "deadline": "RFPs opening 2026 — watch macfound.org",
+    "deadlineDate": null,
+    "eligibility": "Nonprofits, civil society orgs, research institutions globally",
+    "description": "Coalition of 10 major philanthropies pooled $500M for AI in the public interest. Four areas: Democracy, Education, Humanities & Culture, Labor & Economy. Grant-making begins in 2026.",
+    "url": "https://www.macfound.org/press/press-releases/humanity-ai-commits-500-million-to-build-a-people-centered-future-for-ai",
+    "tags": [
+      "civil society",
+      "democracy",
+      "labor",
+      "education",
+      "AI ethics",
+      "nonprofit"
+    ],
+    "viability": "no",
+    "viabilityNote": "Targets established nonprofits. Not a fit for a for-profit product team currently.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Announced for 2026 but specific RFPs not yet published. Watch macfound.org for open calls.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 14,
+    "name": "EIC Pathfinder Open",
+    "organization": "European Innovation Council",
+    "category": "Government",
+    "amount": "Up to €3M per project",
+    "deadline": "May 12, 2026",
+    "deadlineDate": "",
+    "eligibility": "Research teams and consortia from EU/associated countries",
+    "description": "Funds visionary early-stage research into breakthrough AI/deep-tech concepts. For high-risk/high-reward science that could form the basis of future technologies. Part of EIC 2026 Work Programme.",
+    "url": "https://eic.ec.europa.eu/eic-2026-work-programme_en",
+    "tags": [
+      "EU",
+      "foundational research",
+      "high-risk",
+      "deep tech",
+      "academic"
+    ],
+    "viability": "no",
+    "viabilityNote": "Academic/consortium focus. Not suited for a product team without a research institution partner.",
+    "relevant2026": true,
+    "relevant2026Note": "Confirmed 2026 programme — deadline May 12, 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 15,
+    "name": "DARPA I2O — Information Innovation Office BAA",
+    "organization": "U.S. DARPA",
+    "category": "Government",
+    "amount": "$500K–$10M+ per program",
+    "deadline": "Rolling (Office-Wide BAA)",
+    "deadlineDate": null,
+    "eligibility": "U.S. entities: academic, commercial, nonprofit",
+    "description": "Rolling AI proposals across transformative AI, resilient software systems, cybersecurity, and information domain operations. Contracts rather than grants. Requires U.S. entity and typically prior government contracting experience.",
+    "url": "https://www.darpa.mil/work-with-us/for-universities/information-innovation-office",
+    "tags": [
+      "defense",
+      "cybersecurity",
+      "AI",
+      "research",
+      "US only"
+    ],
+    "viability": "no",
+    "viabilityNote": "Defense contracts, complex procurement, US entity required. Not practical for a small product team without contracting experience.",
+    "relevant2026": true,
+    "relevant2026Note": "Office-Wide BAA is perpetually open — rolling submissions accepted in 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 16,
+    "name": "Gates + Wellcome + Novo Nordisk — EVAH Initiative",
+    "organization": "Gates Foundation / Wellcome / Novo Nordisk",
+    "category": "Foundation",
+    "amount": "$60M total",
+    "deadline": "April 1, 2026",
+    "deadlineDate": "",
+    "eligibility": "Research teams in low/middle-income countries; health systems",
+    "description": "Funds rigorous evaluation of AI health tools in LMICs. Locally-led research to determine which AI health interventions work. Health research and LMIC focus required.",
+    "url": "https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/02/ai-impact-health",
+    "tags": [
+      "healthcare AI",
+      "LMIC",
+      "global health",
+      "evaluation",
+      "academic"
+    ],
+    "viability": "no",
+    "viabilityNote": "Health + LMIC focus. Not a fit unless your platform pivots to global health in underserved regions.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Launched February 2026 but specific submission window not yet published. Watch gatesfoundation.org.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 17,
+    "name": "NSF Smart & Connected Health (SCH)",
+    "organization": "NSF + NIH",
+    "category": "Government",
+    "amount": "Up to $1.2M over 4 years",
+    "deadline": "Annual cycle — check NSF",
+    "deadlineDate": null,
+    "eligibility": "U.S. academic institutions, nonprofits, businesses — health AI focus",
+    "description": "Joint NSF-NIH program for advances at the intersection of AI, data science, and biomedical/public health research. Strong academic institution preference.",
+    "url": "https://www.nsf.gov/focus-areas/ai",
+    "tags": [
+      "healthcare AI",
+      "biomedical",
+      "NIH",
+      "academic",
+      "US only"
+    ],
+    "viability": "no",
+    "viabilityNote": "Academic institution typically required. Health/biomedical focus outside current platform scope.",
+    "relevant2026": "uncertain",
+    "relevant2026Note": "Annual cycle program — 2026 solicitation not yet confirmed. Check nsf.gov for active solicitations.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 18,
+    "name": "Technovation AI Ventures Accelerator 2026",
+    "organization": "Technovation + UNICEF Generation Unlimited",
+    "category": "Accelerator",
+    "amount": "$10K equity-free (finalists); top 10 share $100K",
+    "deadline": "Applications closed March 4, 2026",
+    "deadlineDate": "",
+    "eligibility": "Young women ages 10–25 globally",
+    "description": "Free 12-week accelerator for young women building AI-powered ventures. Equity-free seed funding, mentorship, investor exposure. Focused on UN SDGs.",
+    "url": "https://www.technovation.org/ai-ventures-accelerator/",
+    "tags": [
+      "youth",
+      "women in AI",
+      "equity-free",
+      "SDGs",
+      "global"
+    ],
+    "viability": "no",
+    "viabilityNote": "Age and gender restricted eligibility. Not applicable.",
+    "relevant2026": false,
+    "relevant2026Note": "2026 cycle closed March 4, 2026. Applications no longer being accepted for this cohort.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 19,
+    "name": "Anthropic Claude Partner Network",
+    "organization": "Anthropic",
+    "category": "Corporate",
+    "amount": "$100M allocated for 2026 network; training, technical assistance, co-marketing",
+    "deadline": "Rolling — free to join",
+    "deadlineDate": null,
+    "eligibility": "Organizations commercializing Claude-based products; free to join",
+    "description": "Anthropic's partner ecosystem providing training, technical assistance, and co-marketing support for teams building on Claude. The $100M is allocated across the network — not individual grants — but provides meaningful non-dilutive resource access for Claude-native builders.",
+    "url": "https://www.anthropic.com/",
+    "tags": [
+      "API",
+      "technical support",
+      "co-marketing",
+      "partner",
+      "platform builders",
+      "no equity"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Strong fit for small teams building on Claude. Free to join, non-dilutive, unlocks technical resources and visibility. Apply now.",
+    "relevant2026": true,
+    "relevant2026Note": "Ongoing 2026 program — free enrollment, actively accepting partners.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 20,
+    "name": "AWS Activate — AI Tier",
+    "organization": "Amazon Web Services",
+    "category": "Corporate",
+    "amount": "Up to $300,000 in AWS credits (new AI tier for 2026)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Pre-Series B startups under 10 years old; higher tiers require qualifying VC/accelerator backing",
+    "description": "New AI-specific credit tier launched in 2026 within AWS Activate, recognizing the high compute costs of LLM training and inference. Covers EC2, SageMaker, Bedrock, and other AWS services. Portfolio Tier (with qualifying backer) unlocks up to $100K; AI Tier unlocks up to $300K.",
+    "url": "https://aws.amazon.com/startups/credits",
+    "tags": [
+      "cloud credits",
+      "compute",
+      "LLM",
+      "infrastructure",
+      "no equity",
+      "rolling"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Excellent fit — new 2026 AI tier specifically for platform teams. Non-dilutive, rolling. Stack with Google/Microsoft credits.",
+    "relevant2026": true,
+    "relevant2026Note": "New AI tier launched specifically for 2026 — rolling applications open now.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 21,
+    "name": "AWS Generative AI Accelerator",
+    "organization": "Amazon Web Services",
+    "category": "Accelerator",
+    "amount": "Up to $1,000,000 in AWS credits + 8-week program",
+    "deadline": "Applications typically June–July; next cohort expected mid-2026",
+    "deadlineDate": null,
+    "eligibility": "Late-Seed to Series A startups globally; under 2% acceptance rate",
+    "description": "An 8-week hybrid accelerator for generative AI startups providing up to $1M in AWS credits plus structured curriculum covering model evaluation, data strategy, deployment, and pricing. Cohort of 40 selected globally. Highly competitive but high-value.",
+    "url": "https://aws.amazon.com/startups/programs/generative-ai",
+    "tags": [
+      "accelerator",
+      "compute credits",
+      "GenAI",
+      "cohort",
+      "global"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Excellent fit for small AI platform teams at Seed/Series A. $1M credits alone can underwrite significant model development.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Next 2026 cohort applications expected June–July 2026. Watch aws.amazon.com/startups.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 22,
+    "name": "NVIDIA Inception Program",
+    "organization": "NVIDIA",
+    "category": "Corporate",
+    "amount": "Free; AWS credits up to $100K; DGX Cloud Innovation Lab access (2 months)",
+    "deadline": "Rolling — always open",
+    "deadlineDate": null,
+    "eligibility": "Incorporated tech startups under 10 years old; must use at least one NVIDIA developer tool",
+    "description": "NVIDIA's flagship startup program providing co-marketing, VC network access (Inception Capital Connect), cloud compute credits via AWS and other partners, and 2-month access to DGX Cloud for select members. No equity taken — free to join.",
+    "url": "https://www.nvidia.com/en-us/startups/",
+    "tags": [
+      "GPU compute",
+      "co-marketing",
+      "VC network",
+      "DGX Cloud",
+      "free",
+      "no equity"
+    ],
+    "viability": "yes",
+    "viabilityNote": "No-brainer to join — free, non-dilutive, unlocks GPU compute + VC network. Join today and stack with AWS/Google credits.",
+    "relevant2026": true,
+    "relevant2026Note": "Always-open rolling program — actively accepting 2026 applications.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 23,
+    "name": "Y Combinator — 2026 Batch",
+    "organization": "Y Combinator",
+    "category": "Accelerator",
+    "amount": "$500,000 for 7% equity",
+    "deadline": "Fall 2026 batch opens later this year",
+    "deadlineDate": null,
+    "eligibility": "Any stage startup globally; AI companies = 50%+ of recent batches; <1% acceptance rate",
+    "description": "The world's most prestigious startup accelerator with heavy AI focus (50%+ of recent batches). Provides $500K, 3-month program in San Francisco, and the YC alumni network. Dilutive at 7% equity but network and access are transformative.",
+    "url": "https://www.ycombinator.com/apply",
+    "tags": [
+      "accelerator",
+      "seed funding",
+      "equity",
+      "San Francisco",
+      "network",
+      "AI native"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Dilutive (7%) but the network and $500K are transformative. Best accelerator globally for AI platform companies. Worth applying.",
+    "relevant2026": true,
+    "relevant2026Note": "Spring 2026 batch underway; Fall 2026 applications open later this year.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 24,
+    "name": "a16z Open Source AI Grants",
+    "organization": "Andreessen Horowitz (a16z)",
+    "category": "Foundation",
+    "amount": "$10K–$100K (no equity taken)",
+    "deadline": "Rolling — no fixed call; submit work directly",
+    "deadlineDate": null,
+    "eligibility": "Hackers, researchers, and small teams building open-source AI infrastructure, benchmarks, or tooling; global",
+    "description": "Non-equity grants to small teams building critical open-source AI infrastructure. Recent batches funded SWE-Bench, ARC Prize, and key inference/training projects. Focus on benchmarks, evaluation, and AI infra. No formal application — a16z contacts teams or accepts direct submissions.",
+    "url": "https://a16z.com/announcing-our-latest-open-source-ai-grants/",
+    "tags": [
+      "open source",
+      "no equity",
+      "AI infra",
+      "benchmarks",
+      "small teams",
+      "global"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Excellent fit for teams with open-source AI output. No equity, no formal application. Share your work visibly and submit directly to a16z.",
+    "relevant2026": true,
+    "relevant2026Note": "Ongoing rolling program — actively funding in 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 25,
+    "name": "Anthropic Fellows Program — 2026 Cohorts",
+    "organization": "Anthropic",
+    "category": "Corporate",
+    "amount": "$3,850/week stipend + ~$15K/month compute credits (4-month program)",
+    "deadline": "July 2026 cohort applications open now",
+    "deadlineDate": null,
+    "eligibility": "Engineers/researchers with strong Python skills; US, UK, or Canada work authorization required; no PhD needed",
+    "description": "A 4-month funded fellowship for technical researchers to work on AI safety with Anthropic mentorship. Covers scalable oversight, adversarial robustness, AI control, and mechanistic interpretability. 80%+ of fellows produce published papers; 40%+ join Anthropic full-time.",
+    "url": "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
+    "tags": [
+      "AI safety",
+      "fellowship",
+      "compute credits",
+      "mentorship",
+      "individual"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Ideal for individual team members with safety research interest. Targets researchers specifically — not platform building. Strong if team has a safety angle.",
+    "relevant2026": true,
+    "relevant2026Note": "July 2026 cohort applications open now.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "mixed"
+  },
+  {
+    "id": 26,
+    "name": "Schmidt Sciences — Trustworthy AI RFP 2026",
+    "organization": "Schmidt Sciences (Eric & Wendy Schmidt)",
+    "category": "Foundation",
+    "amount": "Up to $1,000,000 (multi-tier structure)",
+    "deadline": "May 17, 2026",
+    "deadlineDate": "",
+    "eligibility": "Researchers, teams, institutions globally; nonprofits/universities preferred; indirect costs capped at 10%",
+    "description": "Supports technical research to understand, predict, and control risks from frontier AI systems. Covers interpretability, robustness, alignment, and technical safety. Global eligibility; open to cross-geographic collaborations. May 17 deadline is urgent.",
+    "url": "https://www.schmidtsciences.org/opportunity/2026-science-of-trustworthy-ai-rfp/",
+    "tags": [
+      "AI safety",
+      "trustworthy AI",
+      "technical research",
+      "global",
+      "foundation"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Strong fit for teams doing technical AI safety research. Less suited for pure product work. Non-profit/academic bias but global teams welcome.",
+    "relevant2026": true,
+    "relevant2026Note": "2026-specific RFP — deadline May 17, 2026. Active call open now.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 27,
+    "name": "NRC IRAP AI Assist Program",
+    "organization": "National Research Council Canada (NRC IRAP)",
+    "category": "Government",
+    "amount": "$100M over 5 years; typical projects $50K–$500K",
+    "deadline": "Rolling — contact an IRAP Industrial Technology Advisor",
+    "deadlineDate": null,
+    "eligibility": "Incorporated, profit-oriented Canadian SMEs with ≤500 employees; R&D focus required",
+    "description": "Dedicated AI funding stream within Canada's flagship SME innovation program. Helps Canadian SMEs develop and adapt GenAI and deep learning solutions. Covers planning, execution, and scaling. 250+ projects initiated in year one. Access via IRAP Industrial Technology Advisors.",
+    "url": "https://nrc.canada.ca/en/support-technology-innovation/nrc-irap-support-smes-innovating-artificial-intelligence",
+    "tags": [
+      "Canada",
+      "SME",
+      "R&D",
+      "GenAI",
+      "government",
+      "non-dilutive"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Canadian companies only. Strong fit for Canadian small teams building AI products. Non-dilutive, rolling intake. Engage an IRAP advisor to start.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling program actively funding Canadian SMEs in 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 28,
+    "name": "UK AISI Systemic AI Safety Grants — Phase 2",
+    "organization": "UK AI Security Institute / DSIT / EPSRC / Innovate UK",
+    "category": "Government",
+    "amount": "Up to £200,000 per project; £4.5M remaining in Phase 2",
+    "deadline": "Phase 2 expected to open 2026 — watch aisi.gov.uk/grants",
+    "deadlineDate": null,
+    "eligibility": "UK-based researchers (academia, industry, civil society); international collaborations welcomed",
+    "description": "Grants to improve societal resilience to AI in critical infrastructure (healthcare, energy, financial markets). Phase 1 funded 20 projects from 300+ applications. Phase 2 opening in 2026 with £4.5M remaining. Jointly managed with EPSRC and Innovate UK.",
+    "url": "https://www.aisi.gov.uk/grants",
+    "tags": [
+      "AI safety",
+      "UK",
+      "critical infrastructure",
+      "systemic risk",
+      "government"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Suitable for UK-based teams with a safety/infrastructure angle. Competitive (300+ apps for 20 slots Phase 1). Better for research-oriented teams.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Phase 2 expected to open in 2026 — watch aisi.gov.uk/grants for the announcement.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 29,
+    "name": "UKRI AI Investment Programme",
+    "organization": "UK Research and Innovation (UKRI)",
+    "category": "Government",
+    "amount": "£1.6B over 4 years; individual grants £50K to multi-million",
+    "deadline": "Various calls throughout 2026 — check ukri.org/opportunity",
+    "deadlineDate": null,
+    "eligibility": "UK-based researchers and organizations; varies by specific call",
+    "description": "UKRI's largest single investment area — £1.6B directly targeting AI over 2026–2030. Delivered via specific funding calls from Innovate UK, EPSRC, and other UKRI councils. Covers AI research, applications, safety, and infrastructure. Multiple entry points for different team types.",
+    "url": "https://www.ukri.org/opportunity/?filter_council%5B%5D=826",
+    "tags": [
+      "UK",
+      "government",
+      "Innovate UK",
+      "research",
+      "large programme"
+    ],
+    "viability": "partial",
+    "viabilityNote": "UK-based teams should watch UKRI funding finder actively. Innovate UK streams are viable for commercial AI teams. Multiple calls open throughout 2026.",
+    "relevant2026": true,
+    "relevant2026Note": "Multiple 2026 calls confirmed — programme runs 2026–2030.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 30,
+    "name": "Anthropic AI for Science Program",
+    "organization": "Anthropic",
+    "category": "Corporate",
+    "amount": "Up to $20,000 in API credits (6-month period)",
+    "deadline": "Rolling — reviewed first Monday each month",
+    "deadlineDate": null,
+    "eligibility": "Researchers affiliated with a research institution; biology/life sciences priority but other scientific domains accepted",
+    "description": "Free API credits for researchers using Claude for high-impact scientific work. Applications evaluated on scientific merit, potential impact, and technical feasibility. Monthly rolling decisions. Priority given to biology and life sciences but other fields accepted.",
+    "url": "https://www.anthropic.com/ai-for-science-program-rules",
+    "tags": [
+      "API credits",
+      "science",
+      "research",
+      "nonprofit/academic",
+      "rolling"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Requires institutional affiliation. Not for commercial teams unless framed around scientific research. Good if you have a research dimension to your platform.",
+    "relevant2026": true,
+    "relevant2026Note": "Active rolling program — monthly review cycle throughout 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 31,
+    "name": "Hugging Face ZeroGPU Community Grants",
+    "organization": "Hugging Face",
+    "category": "Corporate",
+    "amount": "$10M compute pool — free H200 GPU access via ZeroGPU Spaces",
+    "deadline": "Rolling — apply in Space settings",
+    "deadlineDate": null,
+    "eligibility": "Any developer or team with an innovative Hugging Face Space",
+    "description": "Hugging Face's ZeroGPU program dynamically allocates shared NVIDIA H200 GPUs for free to approved Spaces. Community GPU grants provide dedicated compute to qualifying innovative projects. Not cash but a direct offset against your biggest cost: inference compute.",
+    "url": "https://huggingface.co/docs/hub/en/spaces-zerogpu",
+    "tags": [
+      "compute",
+      "GPU",
+      "H200",
+      "open source",
+      "rolling",
+      "no equity"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Very accessible — apply from your Space settings. Ideal for teams demoing or deploying models on HF Spaces. Stack with other cloud credits.",
+    "relevant2026": true,
+    "relevant2026Note": "Live and ongoing in 2026 — apply any time.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 32,
+    "name": "Vercel AI Accelerator",
+    "organization": "Vercel",
+    "category": "Accelerator",
+    "amount": "$150K+ credits per team from Anthropic, AWS, OpenAI, Mistral, Groq, HuggingFace, ElevenLabs + cash prizes",
+    "deadline": "2026 cohort ran Mar–Apr; next cohort expected later 2026",
+    "deadlineDate": null,
+    "eligibility": "Any AI startup or small team; global; non-dilutive",
+    "description": "Six-week accelerator for 40 teams with credits from 15+ AI platforms. Weekly learning sessions, build sprint, Demo Day. Non-dilutive — no equity taken. 2026 cohort ran March 2–April 16. Next cohort expected; applications typically open 4–6 weeks before start.",
+    "url": "https://vercel.com/blog/the-vercel-ai-accelerator-is-back-with-6-million-in-credits",
+    "tags": [
+      "accelerator",
+      "credits",
+      "no equity",
+      "global",
+      "GenAI",
+      "multi-platform"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Excellent fit — non-dilutive, broad credit portfolio across every major AI platform. Watch for next cohort application window.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "2026 cohort completed April 2026. Next cohort expected mid-to-late 2026 — watch vercel.com.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "mixed"
+  },
+  {
+    "id": 33,
+    "name": "Meta Llama Impact Grants",
+    "organization": "Meta / Llama.com",
+    "category": "Corporate",
+    "amount": "Up to $2M total pool; regional cohorts offer $20K+ per team",
+    "deadline": "Rolling / announced per cycle",
+    "deadlineDate": null,
+    "eligibility": "Startups, researchers, nonprofits globally building socially impactful projects on Llama models",
+    "description": "Meta's global grant program for open-source AI projects with social and economic impact. Funds teams using Llama across health, education, agriculture, and more. Regional cohorts (e.g., Africa: $20K + mentorship). Competitive but open to small teams.",
+    "url": "https://www.llama.com/llama-impact-grants/",
+    "tags": [
+      "open source",
+      "Llama",
+      "social impact",
+      "global",
+      "LLM"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable if platform has a clear social/economic impact angle and is built on Llama. Competitive; requires framing around positive social outcomes.",
+    "relevant2026": true,
+    "relevant2026Note": "Ongoing program — new cycles expected throughout 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 34,
+    "name": "Meta Llama Startup Program",
+    "organization": "Meta / Llama.com",
+    "category": "Corporate",
+    "amount": "Up to $6,000/month for 6 months in cloud reimbursements + technical support",
+    "deadline": "2026 cohort not yet announced — watch llama.com/programs/startups",
+    "deadlineDate": null,
+    "eligibility": "US-incorporated early-stage startups, raised <$10M, at least one developer, building GenAI on Llama",
+    "description": "Hands-on technical support from the Llama team plus monthly cloud cost reimbursements. Focuses on helping startups overcome technical challenges and explore advanced Llama use cases. Non-dilutive. US-only for current eligibility.",
+    "url": "https://www.llama.com/programs/startups/",
+    "tags": [
+      "startup",
+      "Llama",
+      "cloud credits",
+      "US only",
+      "GenAI",
+      "no equity"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Good fit if US-based and building on Llama. Non-dilutive. 2026 cohort application window not yet open.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "2025 cohort ran; 2026 cohort expected but application window not yet open as of March 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 35,
+    "name": "Survival & Flourishing Fund — S-Process 2026",
+    "organization": "Survival and Flourishing Fund (SFF)",
+    "category": "Foundation",
+    "amount": "$20M–$40M total round; grant sizes range from $50K to multi-million",
+    "deadline": "April 22, 2026",
+    "deadlineDate": "",
+    "eligibility": "Must first receive a Speculation Grant from one of ~35 Speculation Grantors; orgs working on AI safety, biosecurity, or longtermist causes",
+    "description": "SFF's annual S-Process distributes large amounts to AI safety and existential risk work. 2026 round adds new themed tracks (Climate, Animal Welfare, Human Empowerment) alongside the main round. Requires a Speculation Grant as prerequisite — contact individual grantors to get one.",
+    "url": "https://survivalandflourishing.fund/2026/application",
+    "tags": [
+      "AI safety",
+      "existential risk",
+      "longtermist",
+      "nonprofit",
+      "research"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable if AI safety is core to your work. Requires Speculation Grant prerequisite — reach out to SFF grantors first. April 22 deadline is soon.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 round officially open — April 22, 2026 deadline.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 36,
+    "name": "GitLab Foundation AI for Economic Opportunity",
+    "organization": "GitLab Foundation + OpenAI",
+    "category": "Foundation",
+    "amount": "$250,000 per grantee + 6 months OpenAI technical support + API credits",
+    "deadline": "2026 cohort selected March 2026; next cycle opens ~September 2026",
+    "deadlineDate": null,
+    "eligibility": "US-based nonprofits using AI to measurably improve economic mobility for low-income workers",
+    "description": "GitLab Foundation's flagship AI grant in partnership with OpenAI. 2026 cohort (16 orgs, $4M total) selected March 5, 2026. Grantees receive $250K funding, 6 months of OpenAI engineer support, API credits, and Demo Day at OpenAI HQ. Largest cohort to date from 800+ applications.",
+    "url": "https://www.gitlabfoundation.org/futureofwork",
+    "tags": [
+      "economic mobility",
+      "nonprofit",
+      "US",
+      "workforce",
+      "OpenAI",
+      "social impact"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable if US nonprofit-structured and focused on economic mobility. Not for commercial AI platforms. Watch for next cycle opening ~September 2026.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 cohort selected March 2026. Next application cycle expected September 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "id": 37,
+    "name": "IMDA GenAI Grant — Singapore SMEs Go Digital",
+    "organization": "IMDA / Enterprise Singapore",
+    "category": "Government",
+    "amount": "50–70% co-funding on qualifying GenAI project costs",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Singapore-registered SMEs with a defined GenAI use case",
+    "description": "IMDA's GenAI grant under SMEs Go Digital funds AI adoption for Singapore-registered companies. Up to 70% cost support for deploying GenAI solutions or building GenAI infrastructure. The National AI Impact Programme (NAIIP, announced Feb 2026) adds further support for 10,000 enterprises.",
+    "url": "https://www.imda.gov.sg/",
+    "tags": [
+      "Singapore",
+      "GenAI",
+      "SME",
+      "co-funding",
+      "rolling",
+      "government"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Very viable for Singapore-registered teams. Strong government backing in 2026. Must be SG-registered entity.",
+    "relevant2026": true,
+    "relevant2026Note": "Active and rolling in 2026. NAIIP announced February 2026 adds an additional layer.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 38,
+    "name": "Startup SG Tech Grant",
+    "organization": "Enterprise Singapore + IMDA",
+    "category": "Government",
+    "amount": "Up to SGD $250K (Proof-of-Concept) or SGD $500K (Proof-of-Value); 70% cost subsidy",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Singapore-registered private limited company <10 years old; ≥30% local shareholding; revenue <SGD 100M",
+    "description": "Singapore's primary grant for deep tech and AI startups at PoC or PoV stage. Covers manpower, equipment, and professional services at 70% subsidy. AI and automation platforms are explicitly eligible. Microsoft-ESG-NUS Enterprise partnership accelerates access for AI startups.",
+    "url": "https://www.imda.gov.sg/disg/programmes/2019/04/startup-sg-tech",
+    "tags": [
+      "Singapore",
+      "deep tech",
+      "AI",
+      "POC",
+      "POV",
+      "non-dilutive",
+      "rolling"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Strong fit for Singapore-based AI platform teams. Non-dilutive, substantial amounts. Requires Singapore incorporation and local shareholding.",
+    "relevant2026": true,
+    "relevant2026Note": "Active rolling program in 2026. Microsoft-ESG-NUS AI accelerator cohort underway.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "id": 39,
+    "name": "AI NATION Grant (Germany)",
+    "organization": "AI NATION",
+    "category": "Government",
+    "amount": "Up to €54,000 equity-free (€2K/month/person × 3 + up to €16K materials)",
+    "deadline": "Current cohort closed Feb 1, 2026; next cohort expected late 2026",
+    "deadlineDate": null,
+    "eligibility": "Pre-incorporation teams in Germany (core team Germany-resident); max 3 co-founders; AI as core technology; must address an SDG",
+    "description": "Equity-free grant for Germany-based pre-company AI founding teams covering the prototyping phase. Monthly stipends plus materials budget. Includes Welcome Week in Berlin/Munich. New batch starts April 1, 2026. Focused on AI-first products addressing SDGs.",
+    "url": "https://www.ai-nation.de/grant",
+    "tags": [
+      "Germany",
+      "pre-seed",
+      "equity-free",
+      "early stage",
+      "SDG",
+      "prototype"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Excellent for Germany-resident pre-incorporation AI teams. Current window closed Feb 2026 — next cohort expected. Not eligible if already incorporated or funded.",
+    "relevant2026": true,
+    "relevant2026Note": "Current cohort started April 1, 2026. Next cohort application expected later in 2026.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity"
+  },
+  {
+    "id": 40,
+    "name": "AI NextGen Challenge — National AI Hackathon 2026",
+    "organization": "USAII",
+    "category": "Accelerator",
+    "amount": "$100,000 total prize pool",
+    "deadline": "June 20–21, 2026",
+    "deadlineDate": "",
+    "eligibility": "AI practitioners and teams; in-person Atlanta, Georgia",
+    "description": "America's largest AI prize hackathon with a $100K total prize pool. Open to practitioners — not just students. In-person event in Atlanta. Run by USAII with national recognition. Requires travel to Atlanta.",
+    "url": "https://www.usaii.org/about-united-states-artificial-intelligence-institute/ai-nextgen-challenge-2026",
+    "tags": [
+      "hackathon",
+      "competition",
+      "prize",
+      "US",
+      "in-person",
+      "practitioners"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to professional teams — $100K pool is real. Requires Atlanta travel. Worth considering if the timing and travel work.",
+    "relevant2026": true,
+    "relevant2026Note": "Scheduled June 20–21, 2026 in Atlanta.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash"
+  },
+  {
+    "organization": "Intel Corporation",
+    "category": "Corporate",
+    "amount": "Free membership; Intel Tiber AI Cloud compute credits + engineering mentorship (no fixed $ figure)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Early-stage AI/ML startups worldwide; for-profit OK; no equity taken; free to join. Two tracks (Community open, Catalyst selective).",
+    "description": "Free, equity-free virtual program giving early-stage AI startups Intel Tiber AI Cloud compute credits, Intel AI-engineer mentorship, and co-marketing. 300+ startup portfolio.",
+    "url": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/liftoff.html",
+    "tags": [
+      "compute-credits",
+      "cloud",
+      "mentorship",
+      "no-equity",
+      "AI-infra"
+    ],
+    "viability": "yes",
+    "viabilityNote": "No equity, rolling, open to for-profit startups worldwide, free compute credits. Apply directly; useful for offloading STT/TTS/LLM inference to Tiber AI Cloud.",
+    "relevant2026": true,
+    "relevant2026Note": "Membership-based, always-open; confirmed active and recruiting into 2026.",
+    "name": "Intel Liftoff for Startups",
+    "id": 41,
+    "_updated": "2026-05-30",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Oracle",
+    "category": "Corporate",
+    "amount": "$500 credits to start + 70% OCI discount; up to $100,000 in credits as you scale (largest tiers partnership-gated)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "For-profit startups, all stages, worldwide; no equity required.",
+    "description": "Oracle Cloud Infrastructure credits plus a standing 70% discount, migration support, mentorship, and marketing exposure for startups building on OCI.",
+    "url": "https://www.oracle.com/cloud/oracle-for-startups/",
+    "tags": [
+      "compute-credits",
+      "cloud",
+      "no-equity",
+      "discount"
+    ],
+    "viability": "yes",
+    "viabilityNote": "No equity, rolling, for-profit-friendly. Self-serve path realistically yields the $500 + 70%-off tier; the headline $100K now flows mainly via approved VC/accelerator partners — set expectations accordingly.",
+    "relevant2026": true,
+    "relevant2026Note": "Active in 2026; post-2022 restructuring folded the public portal toward the Cloud Free Tier but startup credits/discounts remain available.",
+    "name": "Oracle for Startups",
+    "id": 42,
+    "_updated": "2026-05-30",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Cloudflare",
+    "category": "Corporate",
+    "amount": "Up to $350,000 in credits ($10K / $100K / $350K tiers); Workers AI covered up to a $50,000 cap",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "For-profit, founded within last 10 years, funded up to Series B, first-time applicants only; business email matching domain. Excludes agencies/consultancies/resellers.",
+    "description": "Credit program for startups building on Cloudflare's developer platform (Workers, Workers AI, R2), including a dedicated Workers AI inference allocation to run models on Cloudflare's network without provisioning GPUs.",
+    "url": "https://www.cloudflare.com/startups/",
+    "tags": [
+      "compute-credits",
+      "edge",
+      "workers-ai",
+      "no-equity",
+      "inference"
+    ],
+    "viability": "yes",
+    "viabilityNote": "No equity, rolling, ~48h review. Liminal Commons fits (for-profit, <10yr). Entry $10K tier open to self-funded; higher tiers need an approved accelerator/VC partner. Apply once — first-time applicants only.",
+    "relevant2026": true,
+    "relevant2026Note": "Page fetched live and accepting applications; Workers AI inference credits directly relevant to the AI stack.",
+    "name": "Cloudflare Startup Program",
+    "id": 43,
+    "_updated": "2026-05-30",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Together AI",
+    "category": "Accelerator",
+    "amount": "Up to $15K / $30K / $50K in platform credits (Build/Scale/Grow tiers) + 3-10 engineering hours",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "AI-native startups worldwide; no equity required; free to apply. Tiered by funds raised (Build ≤$5M, Scale $5-10M, Grow >$10M). Excludes Reserved GPU Clusters.",
+    "description": "Selection-based program giving AI startups Together AI inference/fine-tuning credits plus hands-on engineering time for serverless inference, fine-tuning, and dedicated endpoints.",
+    "url": "https://www.together.ai/startup-accelerator",
+    "tags": [
+      "compute-credits",
+      "inference",
+      "fine-tuning",
+      "no-equity",
+      "GPU"
+    ],
+    "viability": "yes",
+    "viabilityNote": "No equity, rolling, ~5-14 day review. Bootstrapped/early teams land the Build tier (≤$5M raised). Direct fit for hosted LLM inference/fine-tuning alongside the self-hosted stack.",
+    "relevant2026": true,
+    "relevant2026Note": "Page fetched live; recruiting beyond the inaugural cohort in 2026.",
+    "name": "Together AI Startup Accelerator",
+    "id": 44,
+    "_updated": "2026-05-30",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "organization": "ElevenLabs",
+    "category": "Corporate",
+    "amount": "33,000,000 credits (~680 hours of conversational AI / agent audio; stated value $4,000+) over 12 months",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "For-profit startups with fewer than 25 employees; no equity required; valid business email + monetization strategy. Excludes agencies, consultancies, existing enterprise customers, and products serving under-18 users.",
+    "description": "Free conversational-AI / voice (TTS/STT/agents) credits for startups building voice into a new product. Requires displaying the ElevenLabs Grants badge on your site for 12 months.",
+    "url": "https://elevenlabs.io/startup-grants",
+    "tags": [
+      "voice",
+      "TTS",
+      "STT",
+      "credits",
+      "no-equity"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Strong fit — Liminal Commons (<25 staff, for-profit, voice/meeting product) clearly qualifies. No equity, rolling. Only cost is the 12-month badge on the website.",
+    "relevant2026": true,
+    "relevant2026Note": "Page verified live (HTTP 200) and accepting applications on a rolling basis in 2026.",
+    "name": "ElevenLabs Grants",
+    "id": 45,
+    "_updated": "2026-05-30",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "organization": "DigitalOcean",
+    "category": "Corporate",
+    "amount": "Up to $100,000 in cloud credits over 12 months (fixed monthly allocation, no rollover) + up to 3 months free GPU Droplet access",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Startups that have raised $10M or less; no equity required; company website + matching corporate email; must not have received DO credits before. AI-native startups prioritized; consultancies excluded.",
+    "description": "Large general-cloud credit pool for hosting your stack on DigitalOcean (Droplets, Kubernetes, managed DBs, Spaces) plus limited free GPU Droplet access for inference workloads.",
+    "url": "https://www.digitalocean.com/startups",
+    "tags": [
+      "compute-credits",
+      "cloud",
+      "hosting",
+      "no-equity",
+      "GPU"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Low bar (≤$10M raised, no equity, rolling). Note: monthly credits don't roll over and core credits exclude H100 GPU Droplets — model the value for a GPU-heavy STT/TTS/LLM workload accordingly.",
+    "relevant2026": true,
+    "relevant2026Note": "Page verified live with open self-serve applications in 2026.",
+    "name": "DigitalOcean Hatch (DigitalOcean for Startups)",
+    "id": 46,
+    "_updated": "2026-05-30",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "mixed"
+  },
+  {
+    "organization": "Modal Labs",
+    "category": "Corporate",
+    "amount": "Free GPU/serverless-compute credits (tiers cited up to ~$25,000) over ~12 months",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "For-profit; no equity taken; but VC-gated — Seed-Series A tier needs VC funding from Modal's partner network OR >$1M raised; Series B+ tier needs >$30M raised. Must be new to Modal; use a company-domain email.",
+    "description": "Free GPU/serverless-compute credits on Modal plus engineering support and go-to-market amplification — relevant for running your own LLM/STT/TTS inference.",
+    "url": "https://modal.com/startups",
+    "tags": [
+      "compute-credits",
+      "GPU",
+      "serverless",
+      "inference",
+      "no-equity"
+    ],
+    "viability": "partial",
+    "viabilityNote": "No equity and rolling, but VC-gated: a bootstrapped team generally won't qualify for the credit grant. Viable only if Liminal Commons has raised >$1M from a fund (or via a Modal partner VC). Otherwise use standard on-demand billing.",
+    "relevant2026": true,
+    "relevant2026Note": "Page verified live and active in 2026; ~10-min application, 1-2 week response.",
+    "name": "Modal for Startups",
+    "id": 47,
+    "_updated": "2026-05-30",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "organization": "AI2 Incubator (spun out of the Allen Institute for AI)",
+    "category": "Accelerator",
+    "amount": "Up to $600,000 in funding (at a $10M cap) plus up to ~$1M in cloud credits",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "For-profit AI-first startups; no academic affiliation required; technical founders + domain experts. Seattle-hub oriented (remote OK with quarterly visits, or relocate). Equity/investment is the model.",
+    "description": "Builds applied AI-first companies via ideation, co-founder matching, pilot customers, and seed funding; backed by Madrona, Sequoia, Kleiner Perkins. Portfolio includes voice-adjacent companies (e.g. Yoodli).",
+    "url": "https://www.ai2incubator.com/",
+    "tags": [
+      "accelerator",
+      "seed-funding",
+      "cloud-credits",
+      "equity",
+      "voice-adjacent"
+    ],
+    "viability": "partial",
+    "viabilityNote": "For-profit-native and voice-adjacent, but this is equity investment, not a no-strings grant — viable only if Liminal Commons is open to taking investment and dilution. Seattle/Pacific-NW oriented.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling intake; application form live and active in 2026.",
+    "name": "AI2 Incubator",
+    "id": 48,
+    "_updated": "2026-05-30",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Groq",
+    "category": "Corporate",
+    "amount": "Up to $350,000 in inference credits (tiered: ~$5,000 for unfunded, up to $150k–$350k for funded startups)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Startups building on GroqCloud LPU inference; tier depends on funding stage. Open to for-profits. No equity.",
+    "description": "Credit program for startups running LLM inference on Groq's fast LPU cloud. Unlocks staged inference credits plus technical and partner support; the Groq Partner Program adds further credits for selected scaling companies.",
+    "url": "https://groq.com/apply-to-groq-for-startups",
+    "tags": [
+      "compute-credits",
+      "inference",
+      "no-equity",
+      "corporate"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Clean fit — no equity, simple application, for-profit OK, credits offset our self-hosted inference overflow. Action: apply with Castalia/Vox as the build, note current funding status to land the right tier.",
+    "relevant2026": true,
+    "relevant2026Note": "Program page live in 2026 with documented 2026 credit tiers.",
+    "audience": [
+      "team"
+    ],
+    "name": "Groq for Startups",
+    "id": 49,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "OVHcloud",
+    "category": "Corporate",
+    "amount": "Up to €100,000 in cloud credits + €50,000 in GPU/AI credits (AI Accelerator), 12 months",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Startups pre-seed to Series A+; AI Accelerator requires 3 months as a Startup Program member/customer first. EU-friendly. Explicitly no equity taken.",
+    "description": "European cloud provider's no-equity credit program. Start tier (€10k) or Scale tier (up to €100k) cloud credits plus a dedicated AI Accelerator adding €50k of GPU/AI credits, engineer 1:1 time, and AI/sales/investor workshops.",
+    "url": "https://startup.ovhcloud.com/en/",
+    "tags": [
+      "compute-credits",
+      "gpu",
+      "europe",
+      "no-equity",
+      "accelerator"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Strong for an EU-data-sovereignty angle and our self-hosted-stack story; no equity. Action: join Start tier now, qualify into the AI Accelerator after 3 months for the €50k GPU credits.",
+    "relevant2026": true,
+    "relevant2026Note": "Active in 2026; Healthcare Accelerator cohort entries close 7 July 2026, core program rolling.",
+    "audience": [
+      "team"
+    ],
+    "name": "OVHcloud Startup Program + AI Accelerator",
+    "id": 50,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Cerebras Systems",
+    "category": "Corporate",
+    "amount": "Inference credits + priority compute access (third-party listings report up to ~$22,500 in inference credits)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Startups building AI products needing fast inference; selective. Open to for-profits, no equity.",
+    "description": "Gives startups priority access to Cerebras wafer-scale compute and fast inference, inference credits, technical/customer support, and co-marketing. Applications via the 'build with us' flow.",
+    "url": "https://www.cerebras.ai/startups",
+    "tags": [
+      "compute-credits",
+      "inference",
+      "no-equity",
+      "corporate"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Credits + priority access, no equity, for-profit OK. Action: apply via cerebras.ai/build-with-us framing Vox/Castalia inference needs; confirm exact 2026 credit amount during intake.",
+    "relevant2026": true,
+    "relevant2026Note": "Startup program page live in 2026.",
+    "audience": [
+      "team"
+    ],
+    "name": "Cerebras Startup Program",
+    "id": 51,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "MongoDB",
+    "category": "Corporate",
+    "amount": "Up to $25,000 in MongoDB Atlas credits + Voyage AI tokens, plus matching credits via Fireworks AI and Temporal",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Early-stage startups building AI products. Free to apply, no equity, no funding requirement. 12 months to activate, 12 months to use.",
+    "description": "AI Startups track of the MongoDB AI Innovators Program: Atlas database credits plus Voyage AI embedding/rerank tokens, partner matching credits, technical support, and go-to-market. No equity.",
+    "url": "https://www.mongodb.com/solutions/startups",
+    "tags": [
+      "compute-credits",
+      "database",
+      "vector-search",
+      "no-equity",
+      "corporate"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Free, no equity, no funding gate — directly useful if any platform data/vector layer can move to Atlas + Voyage. Action: apply on the AI Startups track; stack the Fireworks/Temporal matching credits.",
+    "relevant2026": true,
+    "relevant2026Note": "Program and 2026 credit terms documented and active.",
+    "audience": [
+      "team"
+    ],
+    "name": "MongoDB AI Innovators / MongoDB for Startups",
+    "id": 52,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Snowflake",
+    "category": "Accelerator",
+    "amount": "Snowflake credits (free first-contract usage) + access to up to $100M investment pool; chance at up to $1M investment",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Startups building customer-facing apps on the Snowflake AI Data Cloud; selective. Virtual, up to 6-month program. Investment is opt-in (not required to receive credits).",
+    "description": "Six-month virtual accelerator giving startups Snowflake credits, dedicated partner engineers, co-marketing, sales access, and VC demo days. Credits/support carry no equity; investment via Snowflake Ventures is a separate optional track.",
+    "url": "https://www.snowflake.com/en/why-snowflake/startup-program/startup-accelerator/",
+    "tags": [
+      "accelerator",
+      "compute-credits",
+      "data-cloud",
+      "rolling"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Credits + GTM with no mandatory equity (equity only if you take Ventures money). Action: apply if we frame Castalia/Vox as a customer-facing app on the AI Data Cloud; take credits, decline investment if equity-averse.",
+    "relevant2026": true,
+    "relevant2026Note": "Spring 2026 cohort announced; admissions rolling in 2026.",
+    "audience": [
+      "team"
+    ],
+    "name": "Snowflake Startup Accelerator",
+    "id": 53,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Innovate UK (UKRI)",
+    "category": "Government",
+    "amount": "Project grants typically ~£100,000–£500,000 (sector-agnostic R&D, matched funding)",
+    "deadline": "Rolling (assessed in quarterly rounds)",
+    "deadlineDate": null,
+    "eligibility": "UK-registered companies carrying out the project in the UK; project must include at least one SME. For-profits eligible. Non-dilutive grant.",
+    "description": "Innovate UK's flagship open, sector-agnostic R&D grant for disruptive, commercially-driven innovation including AI. Continuous submission assessed in periodic rounds; ~3–5 months to decision.",
+    "url": "https://www.ukri.org/councils/innovate-uk/guidance-for-applicants/guidance-for-specific-funds/smart-innovation-funding-guidance/",
+    "tags": [
+      "government",
+      "grant",
+      "non-dilutive",
+      "uk",
+      "r-and-d"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Non-dilutive and for-profit-friendly, but requires a UK-registered entity doing the work in the UK. Action: viable only if we incorporate/partner a UK SME; otherwise see the AI Proof-of-Concept (£50k–£120k) sister call.",
+    "relevant2026": true,
+    "relevant2026Note": "Open continuously through 2026 with quarterly assessment rounds (Spring 2026 update published).",
+    "audience": [
+      "team"
+    ],
+    "name": "Innovate UK Smart Grants",
+    "id": 54,
+    "_updated": "2026-05-30",
+    "fundingType": "cash"
+  },
+  {
+    "organization": "EA Funds (managed by Effective Ventures)",
+    "category": "Foundation",
+    "amount": "Grants ~$2,500 to $120,000+ (individuals to small orgs)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Individuals, independent researchers, and early-stage orgs reducing existential risk, primarily AI safety. Funds unconventional projects; for-profit work fundable if mission-aligned but most grantees are nonprofit/individual.",
+    "description": "Rolling-application fund supporting work that reduces AI existential risk — technical safety research, evals, infrastructure, and demonstration projects. Decisions made on expected impact per dollar with a clear theory of change required.",
+    "url": "https://funds.effectivealtruism.org/funds/far-future",
+    "tags": [
+      "ai-safety",
+      "foundation",
+      "non-dilutive",
+      "rolling"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable only with a genuine AI-safety framing (e.g. agent-coordination/evaluation work spun out of our platforms); they fund individuals/orgs but expect an x-risk theory of change, not product commercialization. Action: scope a safety-relevant sub-project and apply rolling.",
+    "relevant2026": true,
+    "relevant2026Note": "Accepting applications on a rolling basis into 2026 via the EA Funds portal.",
+    "audience": [
+      "team"
+    ],
+    "name": "Long-Term Future Fund",
+    "id": 55,
+    "_updated": "2026-05-30",
+    "fundingType": "cash"
+  },
+  {
+    "organization": "Cohere Labs (Cohere)",
+    "category": "Corporate",
+    "amount": "Research grants + Cohere API model credits (plus up to ~25% enterprise pricing discount for early-stage startups)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Academics, civic institutions, and impact-driven organizations using AI for real-world change; focus areas include LLM safety (bias, hallucination, adversarial testing), education, and healthcare access.",
+    "description": "Cohere's research arm funds projects via API model access/credits and grants, with an explicit language-model-safety track. Geared toward research and impact-driven work rather than pure commercial product builds.",
+    "url": "https://cohere.com/research/grants",
+    "tags": [
+      "grant",
+      "api-credits",
+      "ai-safety",
+      "research",
+      "corporate"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Fit only with a research/safety or social-impact framing — not a straight startup-credits program. Action: apply under the LLM-safety focus area with a concrete eval/adversarial-testing artifact derived from our collaboration platforms; the startup pricing discount is the easier near-term win.",
+    "relevant2026": true,
+    "relevant2026Note": "Catalyst grants program open with rolling research-grant applications in 2026.",
+    "audience": [
+      "team"
+    ],
+    "name": "Cohere Labs Catalyst Grants",
+    "id": 56,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Harvestworks Digital Media Arts Center",
+    "category": "Foundation",
+    "amount": "$5,000 commission ($2,000 artist fee + $3,000 production budget), plus NYC lab access and a dedicated engineer",
+    "deadline": "December 20 (annual); residencies run Jan–Dec 2026",
+    "deadlineDate": null,
+    "eligibility": "Individual working artists (collaborations allowed with a Lead Artist); US resident. Currently-enrolled university students (incl. PhD) are not eligible. New works only.",
+    "description": "A NYC-based residency for new sound, code-based/algorithmic media, and explicitly machine-learning and AI works, with technical mentorship in the T.E.A.M. Lab. Combines an artist fee, a production budget, and engineering support.",
+    "url": "https://www.harvestworks.org/open-call-2026-artists-in-residence-program/",
+    "tags": [
+      "AI art",
+      "machine learning",
+      "residency",
+      "individual",
+      "sound art",
+      "NYC"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Clean fit for an individual AI/ML artist: simple proposal-based application, no institution required, AI explicitly named as eligible. Action: prepare a new-work proposal; confirm the exact 2026 cycle date and note the US-residency requirement and student exclusion.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 open call; residencies run through Dec 31, 2026. Explicitly supports AI/ML art.",
+    "audience": [
+      "creator"
+    ],
+    "name": "Harvestworks Artists-in-Residence Program (New Works)",
+    "id": 57,
+    "_updated": "2026-05-30",
+    "fundingType": "cash"
+  },
+  {
+    "organization": "fal.ai",
+    "category": "Corporate",
+    "amount": "Free GPU compute credits (amount set per project)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Anyone advancing AI through open-source projects — independent developers, self-taught builders, small research teams, community OSS contributors. No degree or academic affiliation required.",
+    "description": "Provides free compute on fal's GPU cloud to people building open-source AI projects (past recipients include Moondream and BiRefNet). Apply by emailing grants@fal.ai with a project description, goals, and links to your work/GitHub.",
+    "url": "https://fal.ai/grants",
+    "tags": [
+      "GPU credits",
+      "open source",
+      "individual",
+      "compute",
+      "AI"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Explicitly open to individuals and self-taught devs via a lightweight email application — strong fit for an indie/OSS AI builder. Action: email grants@fal.ai with a concrete OSS project and repo links. Amount is discretionary and undisclosed.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling program, live and accepting applications as of May 2026.",
+    "audience": [
+      "creator"
+    ],
+    "name": "fal Research Grants",
+    "id": 58,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "CloudRift",
+    "category": "Corporate",
+    "amount": "$100–$1,000 in GPU credits (RTX 4090 / RTX 5090, etc.)",
+    "deadline": "Rolling — reviewed biweekly (2nd & 4th Tuesday each month)",
+    "deadlineDate": null,
+    "eligibility": "Open to anyone building something real with GPUs — researchers, students, indie devs, open-source maintainers, content creators, artists/hobbyists. Only obligation: credit CloudRift when you publish.",
+    "description": "A small, fast-turnaround GPU credit grant explicitly aimed at individuals. Submit a form with project details, GPU needs, and past work; reviewed every two weeks, with preference for clear community value (open-source tools, research, educational content).",
+    "url": "https://www.cloudrift.ai/ai-grant",
+    "tags": [
+      "GPU credits",
+      "indie dev",
+      "students",
+      "open source",
+      "compute"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Best pure-individual fit of the compute programs — explicitly names indie devs and hobbyists, biweekly review, near-zero strings. Action: submit the form with a small concrete project. Credit amounts are modest.",
+    "relevant2026": true,
+    "relevant2026Note": "Site shows © 2026; rolling biweekly review cycle is active.",
+    "audience": [
+      "creator"
+    ],
+    "name": "CloudRift AI Grant",
+    "id": 59,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "OpenAI",
+    "category": "Corporate",
+    "amount": "6 months free ChatGPT Pro (incl. Codex), conditional Codex Security access, and API credits from the $1M Codex Open Source Fund",
+    "deadline": "Rolling, while supplies last (announced March 7, 2026)",
+    "deadlineDate": null,
+    "eligibility": "Core maintainers of widely used public open-source projects (~1,000 stars cited as a guideline, not a hard rule). You can apply for your own project or nominate another maintainer.",
+    "description": "OpenAI gives individual OSS maintainers six months of free ChatGPT Pro with Codex for coding/maintenance, plus API credits and optional Codex Security. Supports maintainers using third-party tools (OpenCode, Cline, etc.). Distinct from OpenAI's alignment/researcher-access programs.",
+    "url": "https://developers.openai.com/community/codex-for-oss",
+    "tags": [
+      "open source",
+      "maintainer",
+      "AI tools",
+      "individual",
+      "API credits"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Directly targets individual OSS maintainers using AI — exactly the niche. Value is in-kind (Pro + credits) rather than cash, gated on maintaining a recognized public project. Action: apply via openai.com/form/codex-for-oss/ with your repo.",
+    "relevant2026": true,
+    "relevant2026Note": "Launched March 7, 2026; rolling applications open as of May 2026.",
+    "audience": [
+      "creator"
+    ],
+    "name": "Codex for Open Source",
+    "id": 60,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "MATS Research (ML Alignment & Theory Scholars)",
+    "category": "Foundation",
+    "amount": "$1,250/week stipend (~$5,000/month) + ~$2,000/week compute budget; housing, meals, and travel provided",
+    "deadline": "June 7, 2026 (Anywhere on Earth) for the Autumn 2026 cohort",
+    "deadlineDate": "2026-06-07",
+    "eligibility": "Individuals 18+, any nationality; backgrounds in ML, math, CS, policy, economics, physics, etc. Prior AI safety experience helpful but not required. Self-application, no sponsor needed.",
+    "description": "Independent research fellowship pairing emerging researchers with senior mentors (Anthropic, Google DeepMind, OpenAI, Redwood, and others) in AI alignment, interpretability, security, and governance. 10-week program (Sep 28–Dec 4, 2026) in Berkeley/London/remote, with an optional funded extension.",
+    "url": "https://www.matsprogram.org/apply",
+    "tags": [
+      "AI safety",
+      "AI alignment",
+      "fellowship",
+      "independent research",
+      "mentorship",
+      "interpretability"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Fully individual application, no employer/sponsor required, and explicitly seeks people outside traditional pipelines. Action: apply before the June 7, 2026 deadline with a research interest statement.",
+    "relevant2026": true,
+    "relevant2026Note": "Autumn 2026 cohort applications open now; deadline June 7, 2026.",
+    "audience": [
+      "creator"
+    ],
+    "name": "MATS Fellowship (Autumn 2026)",
+    "id": 61,
+    "_updated": "2026-05-30",
+    "fundingType": "mixed"
+  },
+  {
+    "organization": "EWOR",
+    "category": "Accelerator",
+    "amount": "Up to €500,000 investment plus ~€300,000 in cloud credits from 16+ partners",
+    "deadline": "Rolling / always open",
+    "deadlineDate": null,
+    "eligibility": "Solo founders accepted at any stage from no-idea-yet through ~€2M ARR; no registered company required; ideation-stage individuals welcome. Extremely selective (~0.1% acceptance).",
+    "description": "A virtual-first fellowship pairing outlier founders with unicorn-founder mentors for weekly 1:1 coaching, investor access, and technical support, aimed at building large companies including AI startups. Includes substantial cloud credits.",
+    "url": "https://ewor.com/fellowship",
+    "tags": [
+      "fellowship",
+      "solo-founder",
+      "pre-idea",
+      "equity-investment",
+      "rolling",
+      "AI",
+      "Europe"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Directly accepts solo, pre-company/idea-stage individuals with rolling intake and large capital + credits, but it is equity-based (not a grant) and extremely competitive. Action: apply anytime with a strong founder narrative; treat acceptance odds as low.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling applications open continuously through 2026; can apply now.",
+    "audience": [
+      "creator"
+    ],
+    "name": "EWOR Fellowship",
+    "id": 62,
+    "_updated": "2026-05-30",
+    "fundingType": "mixed"
+  },
+  {
+    "organization": "XPRIZE Foundation (backed by Google)",
+    "category": "Foundation",
+    "amount": "$2,000,000 total prize pool — $500K grand prize, $200K second, plus $100K and $50K tiers",
+    "deadline": "Build period May 19 – Aug 17, 2026; live finals Sep 25, 2026 in Los Angeles",
+    "deadlineDate": "2026-08-17",
+    "eligibility": "Developers worldwide; individuals can enter. Competitors must build with Google Gemini and launch a real business, acquire real users, and generate revenue during the build window.",
+    "description": "A 90-day global hackathon to build AI-powered ventures on Google's Gemini across five categories (Education, Entrepreneurship, Small Business Services, Financial Access, Professional Services). One of the largest open AI hackathon prize pools in 2026.",
+    "url": "https://www.geminixprize.com/",
+    "tags": [
+      "hackathon",
+      "AI",
+      "Gemini",
+      "global",
+      "cash-prize",
+      "entrepreneurship"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Massive cash pool and open to individuals, but the requirement to launch a real business with users/revenue during the period means a solo entrant must ship fast — workable for an indie builder, not a pure idea-stage applicant. Action: register and scope a shippable Gemini-based product before May 19.",
+    "relevant2026": true,
+    "relevant2026Note": "Build window runs May–Aug 2026 with Sep 25, 2026 finals; actively open now.",
+    "audience": [
+      "creator"
+    ],
+    "name": "Build with Gemini XPRIZE Hackathon",
+    "id": 63,
+    "_updated": "2026-05-30",
+    "fundingType": "cash"
+  },
+  {
+    "organization": "South Park Commons",
+    "category": "Accelerator",
+    "amount": "$400K upfront for 7% + $600K guaranteed in the next external round; up to $1M in partner credits/perks",
+    "deadline": "Fall 2026 cohort applications open summer 2026 (cohort starts late September)",
+    "deadlineDate": null,
+    "eligibility": "Accepts solo founders and individuals who are pre-revenue, pre-product, and even pre-idea — no registered company or existing idea required. Bias toward applicants who can build/prototype.",
+    "description": "An ideation-stage fellowship (not a traditional accelerator) with an in-person bootcamp followed by an extended residency, helping founders develop conviction before raising. Strong fit for AI builders exploring ideas solo.",
+    "url": "https://www.southparkcommons.com/founder-fellowship/",
+    "tags": [
+      "fellowship",
+      "solo-founder",
+      "pre-idea",
+      "equity-investment",
+      "AI",
+      "builder"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Explicitly backs solo, pre-idea/pre-company individuals with substantial capital — a strong match for the solo-founder niche, though equity-based and highly selective. Action: watch the page over summer 2026 and apply when the Fall 2026 window opens.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Fall 2026 cohort; applications expected to open summer 2026 — imminent but not yet live. Verify the exact date when the window opens.",
+    "audience": [
+      "creator"
+    ],
+    "name": "South Park Commons Founder Fellowship",
+    "id": 64,
+    "_updated": "2026-05-30",
+    "fundingType": "mixed"
+  },
+  {
+    "organization": "Amazon Web Services",
+    "category": "Corporate",
+    "amount": "Unrestricted cash grants plus AWS Promotional Credits (Pathfinder, Momentum to Modernize, and Go Further Faster award tracks)",
+    "deadline": "June 5, 2026 (Round One)",
+    "deadlineDate": "2026-06-05",
+    "eligibility": "Registered 501(c) nonprofits in the U.S. (plus UK/Ireland, Canada, ANZ equivalents) using cloud/AI technology for social impact.",
+    "description": "Annual program funding nonprofits using cloud and AI to advance their mission, with unrestricted cash and AWS credits across three award tiers. Round One is a short web form; selected orgs are invited to submit full Round Two proposals.",
+    "url": "https://aws.amazon.com/government-education/nonprofits/aws-imagine-grant-program/",
+    "tags": [
+      "cloud-credits",
+      "nonprofit",
+      "AI-for-good",
+      "capacity"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Requires 501(c) status (or fiscal sponsor). Round One application is lightweight — submit the web form before June 5, 2026.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 cycle is open now; Round One closes June 5, 2026, decisions by July 14, 2026.",
+    "audience": [
+      "org"
+    ],
+    "name": "AWS Imagine Grant for Nonprofits",
+    "id": 65,
+    "_updated": "2026-05-30",
+    "fundingType": "mixed"
+  },
+  {
+    "organization": "Patrick J. McGovern Foundation",
+    "category": "Foundation",
+    "amount": "Up to $125,000 plus intensive technical support from data scientists and engineers",
+    "deadline": "Rolling — current cycle deadline July 1, 2026",
+    "deadlineDate": "2026-07-01",
+    "eligibility": "Nonprofits and social-impact organizations with existing data assets seeking to deepen their data science / AI practice.",
+    "description": "Cohort-based accelerator giving mission-driven nonprofits funding plus hands-on engineering and program support to build responsible AI and data capabilities. Distinct from PJMF's invitation-only large grants — this one accepts open expressions of interest.",
+    "url": "https://www.mcgovern.org/grants/",
+    "tags": [
+      "data-science",
+      "capacity-building",
+      "AI-for-good",
+      "foundation"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open application but selective; best fit for nonprofits that already hold complex datasets. Submit an expression of interest before July 1, 2026.",
+    "relevant2026": true,
+    "relevant2026Note": "Applications accepted on a rolling basis with a stated July 1, 2026 cycle deadline.",
+    "audience": [
+      "org"
+    ],
+    "name": "Data Practice Accelerator Program",
+    "id": 66,
+    "_updated": "2026-05-30",
+    "fundingType": "cash"
+  },
+  {
+    "organization": "Google",
+    "category": "Corporate",
+    "amount": "No-cost Google Workspace for up to 2,000 users incl. the Gemini app, NotebookLM, and AI in Gmail/Docs/Sheets; ~75% off advanced AI plans",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Registered 501(c)(3) organizations (or group-exempt affiliates) validated by Google's partner Goodstack.",
+    "description": "Free productivity and generative-AI tooling (Gemini, NotebookLM, Deep Research) for verified nonprofits, with enterprise-grade privacy and no model training on org data. A practical, low-effort way for small orgs to adopt AI immediately.",
+    "url": "https://www.google.com/nonprofits/",
+    "tags": [
+      "productivity",
+      "generative-AI",
+      "free-tools",
+      "nonprofit"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to any verified 501(c)(3); enrollment is a simple self-service validation through Goodstack. Register and apply the nonprofit edition.",
+    "relevant2026": true,
+    "relevant2026Note": "Active in 2026 — Gemini and NotebookLM were added to the no-cost Workspace for Nonprofits edition.",
+    "audience": [
+      "org"
+    ],
+    "name": "Google for Nonprofits (Workspace with Gemini & NotebookLM)",
+    "id": 67,
+    "_updated": "2026-05-30",
+    "fundingType": "cash"
+  },
+  {
+    "organization": "Microsoft",
+    "category": "Corporate",
+    "amount": "~$2,000/yr in Azure credits, Microsoft 365 free for up to 10 users (then ~$5.50/user/mo), plus Copilot and Dynamics 365 discounts",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Nonprofits/NGOs with recognized legal status and a community-benefit mission; also public libraries, museums, and select healthcare orgs.",
+    "description": "Donated and deeply discounted Microsoft cloud and AI products for nonprofits, including Azure credits to run AI workloads and Microsoft 365 Copilot access. Granted via the Microsoft nonprofit eligibility portal.",
+    "url": "https://www.microsoft.com/en-us/nonprofits/eligibility",
+    "tags": [
+      "cloud-credits",
+      "Copilot",
+      "Azure",
+      "nonprofit"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to most legally recognized nonprofits via self-service eligibility validation. Apply through the nonprofit portal to unlock credits and licenses.",
+    "relevant2026": true,
+    "relevant2026Note": "Ongoing program; Microsoft continued expanding nonprofit AI/Copilot offers into 2026.",
+    "audience": [
+      "org"
+    ],
+    "name": "Microsoft Tech for Social Impact — Nonprofit Grants & Azure Credits",
+    "id": 68,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Salesforce Foundation",
+    "category": "Corporate",
+    "amount": "Free and discounted Salesforce licenses (Agentforce/Nonprofit Cloud, Sales/Service Cloud, Slack, Tableau) — typically 10 donated subscriptions to start",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Eligible nonprofits, higher-ed institutions, and K–12 schools (501(c)(3) or local equivalent).",
+    "description": "Salesforce's standing product-donation program giving nonprofits free and discounted access to its CRM and Agentforce AI features (incl. AI grantmaking summaries). A low-barrier way for community orgs to get AI-enabled tooling.",
+    "url": "https://www.salesforce.com/company/power-of-us/",
+    "tags": [
+      "CRM",
+      "donated-software",
+      "Agentforce",
+      "nonprofit"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open enrollment for qualifying nonprofits; straightforward eligibility check. Apply via the Power of Us portal.",
+    "relevant2026": true,
+    "relevant2026Note": "Active in 2026; Salesforce embedded Agentforce AI across the nonprofit offering this year.",
+    "audience": [
+      "org"
+    ],
+    "name": "Power of Us Program",
+    "id": 69,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Salesforce Foundation",
+    "category": "Accelerator",
+    "amount": "Share of a ~$2M grant pool, two years of donated Salesforce products, plus 6 months coaching and 12 months 1:1 consulting",
+    "deadline": "Recurring cohort — watch for next open call",
+    "deadlineDate": null,
+    "eligibility": "Purpose-driven nonprofits in any focus area building AI/agentic community solutions on Salesforce technology.",
+    "description": "Philanthropic accelerator combining flexible funding, pro-bono expertise, and donated Agentforce technology to help nonprofits build and scale AI agents. Prior cohorts selected ~6 nonprofits via an expression-of-interest open call.",
+    "url": "https://www.salesforce.com/news/stories/agents-for-impact-accelerator-announcement/",
+    "tags": [
+      "accelerator",
+      "AI-agents",
+      "funding",
+      "nonprofit"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Competitive cohort selection and works best for orgs on (or adopting) Salesforce. Register interest when the next open call opens; monitor the Salesforce Foundation page.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Recurring program (Agentforce/Agents for Impact expanded in early 2026); next public open call not yet dated — track for the 2026 cohort.",
+    "audience": [
+      "org"
+    ],
+    "name": "Salesforce Accelerator — AI for Impact (Agents for Impact)",
+    "id": 70,
+    "_updated": "2026-05-30",
+    "fundingType": "cash"
+  },
+  {
+    "organization": "Google.org",
+    "category": "Accelerator",
+    "amount": "No less than $500,000 per org (up to $2M+), plus Google Cloud credits, 6 months technical training, and pro-bono Google AI expert support",
+    "deadline": "Annual open call (typically Jan–Feb); 2026 call upcoming",
+    "deadlineDate": null,
+    "eligibility": "Nonprofits, social enterprises, civic entities, and academic/research institutions with clear social-impact generative-AI projects.",
+    "description": "Six-month accelerator giving mission-driven organizations substantial funding, Cloud credits, and hands-on Google AI mentorship to prototype and scale generative-AI solutions across knowledge/learning, science, and resilient-communities themes.",
+    "url": "https://impactchallenge.withgoogle.com/genaiaccelerator",
+    "tags": [
+      "accelerator",
+      "generative-AI",
+      "cloud-credits",
+      "AI-for-good"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to nonprofits but highly competitive (20–21 orgs per cohort). Prepare a generative-AI project and apply when the next open call posts.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Recurring annual program (prior open calls ran Jan–Feb); the 2026 cohort open call is the next intake to watch.",
+    "audience": [
+      "org"
+    ],
+    "name": "Google.org Accelerator: Generative AI",
+    "id": 71,
+    "_updated": "2026-05-30",
+    "fundingType": "credits"
+  },
+  {
+    "organization": "Fast Forward",
+    "category": "Accelerator",
+    "amount": "$25,000+ in unrestricted seed capital plus a 3-month program (product, fundraising, nonprofit-management curriculum)",
+    "deadline": "Annual cohort — applications reopen for the next cohort",
+    "deadlineDate": null,
+    "eligibility": "Early-stage tech and AI-powered nonprofits (501(c)(3) or fiscally sponsored) with a working product and a proximate founding team.",
+    "description": "The leading accelerator dedicated to tech nonprofits; ~70% of the 2026 cohort were AI-powered. Provides seed funding, mentorship, and investor connections to help small mission-driven orgs scale their AI products.",
+    "url": "https://www.ffwd.org/accelerator",
+    "tags": [
+      "accelerator",
+      "tech-nonprofit",
+      "AI",
+      "seed-funding"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Must be a nonprofit (or fiscally sponsored) with a live product; competitive (~10 orgs selected). The 2026 cohort is set, so apply when the next annual cohort call opens.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "2026 cohort already selected; this is a recurring annual accelerator — the next intake is the actionable opportunity.",
+    "audience": [
+      "org"
+    ],
+    "name": "Fast Forward Accelerator",
+    "id": 72,
+    "_updated": "2026-05-30",
+    "fundingType": "cash"
+  }
+]
