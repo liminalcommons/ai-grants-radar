@@ -3,3 +3,5 @@ research.log
 .vercel/
 __pycache__/
 *.pyc
+finds.json
+weekly-run.log

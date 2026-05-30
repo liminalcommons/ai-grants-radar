@@ -45,16 +45,23 @@ def main():
     # 2. report
     step("Report", ["generate-report.py"])
 
-    # 3. deploy: commit + push to origin so the repo stays in sync AND Vercel
-    #    auto-deploys (the project is git-connected). Falls back to CLI deploy.
+    # 3. deploy: commit FIRST (clean), then rebase onto origin. Committing before
+    #    pulling avoids autostash conflicts that could leave conflict markers in a
+    #    committed file. If the rebase conflicts, abort and fall back to CLI deploy
+    #    rather than pushing a corrupted tree.
     if not no_deploy:
         print("\n=== Deploy ===")
         try:
-            subprocess.run(["git", "pull", "--rebase", "--autostash"], cwd=gl.DIR, check=False)
             subprocess.run(["git", "add", "-A"], cwd=gl.DIR, check=True)
             subprocess.run(["git", "commit", "-m", "weekly: new grants + report"], cwd=gl.DIR)
-            subprocess.run(["git", "push", "origin", "master"], cwd=gl.DIR, check=True)
-            print("  Pushed to origin → Vercel auto-deploys.")
+            rebase = subprocess.run(["git", "pull", "--rebase", "origin", "master"], cwd=gl.DIR)
+            if rebase.returncode != 0:
+                print("  rebase conflicted — aborting and deploying via CLI instead.")
+                subprocess.run(["git", "rebase", "--abort"], cwd=gl.DIR, check=False)
+                gl.deploy()
+            else:
+                subprocess.run(["git", "push", "origin", "master"], cwd=gl.DIR, check=True)
+                print("  Pushed to origin → Vercel auto-deploys.")
         except subprocess.CalledProcessError as e:
             print(f"  git deploy failed ({e}); falling back to Vercel CLI.")
             try:

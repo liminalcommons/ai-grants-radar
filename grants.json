@@ -2027,7 +2027,6 @@
     "fundingType": "cash"
   },
   {
-<<<<<<< Updated upstream
     "organization": "Google Cloud",
     "category": "Corporate",
     "amount": "Up to $5,000 per track (1st place); $60,000 total prize pool across 6 partner tracks",
@@ -2055,37 +2054,10 @@
     ],
     "fundingType": "cash",
     "name": "Google Cloud Rapid Agent Hackathon",
-=======
-    "organization": "Mercatus Center, George Mason University (Tyler Cowen)",
-    "category": "Foundation",
-    "amount": "Typically $1,000–$50,000 (larger for exceptional cases)",
-    "deadline": "Rolling",
-    "deadlineDate": null,
-    "eligibility": "Individuals and teams worldwide with scalable 'zero-to-one' ideas for social benefit; for-profit projects explicitly welcome.",
-    "description": "Low-overhead, fast-turnaround grants and fellowships for ambitious founders. Takes no equity and imposes no repayment; the program states it does not mind if you make a profit and treats a fast path to revenue as a feature.",
-    "url": "https://www.mercatus.org/emergent-ventures",
-    "tags": [
-      "non-dilutive",
-      "rolling",
-      "for-profit-ok",
-      "no-equity",
-      "fellowship"
-    ],
-    "viability": "yes",
-    "viabilityNote": "Strong fit: no equity, rolling, for-profit welcome, global. Action: submit a tight 1-page pitch framing Castalia/Vox as a scalable 'zero-to-one' collaboration platform with clear social upside.",
-    "relevant2026": true,
-    "relevant2026Note": "Program page live with active 'Apply Now' form as of 2026; accepts applications continuously.",
-    "audience": [
-      "team"
-    ],
-    "fundingType": "cash",
-    "name": "Emergent Ventures Grants & Fellowships",
->>>>>>> Stashed changes
     "id": 73,
     "_updated": "2026-05-30"
   },
   {
-<<<<<<< Updated upstream
     "organization": "U.S. Administration for Community Living (HHS)",
     "category": "Government",
     "amount": "Up to $100,000 per winner in Phase 1; up to $2.5 million total prize funding across all phases",
@@ -2113,37 +2085,10 @@
     ],
     "fundingType": "cash",
     "name": "ACL Caregiver AI Prize Challenge",
-=======
-    "organization": "NLnet Foundation (EU Next Generation Internet)",
-    "category": "Foundation",
-    "amount": "€5,000–€50,000 (with possibility to scale up)",
-    "deadline": "June 1, 2026, 12:00 CEST",
-    "deadlineDate": "2026-06-01",
-    "eligibility": "Open to SMEs, individuals, communities and organisations of any type; work must be released as open source / open access.",
-    "description": "Small-to-medium R&D grants for free/open digital commons spanning software, standards, data and AI. For-profit SMEs are eligible provided the funded component is published under a recognized open-source license.",
-    "url": "https://nlnet.nl/commonsfund/",
-    "tags": [
-      "non-dilutive",
-      "open-source",
-      "EU",
-      "AI",
-      "SME-eligible"
-    ],
-    "viability": "partial",
-    "viabilityNote": "Viable if you carve out a reusable open-source component of the self-hosted AI stack (e.g., a local-AI collaboration protocol or library) to fund. Action: scope one open-sourceable module and apply before the June 1 2026 deadline.",
-    "relevant2026": true,
-    "relevant2026Note": "13th call opened April 1, 2026 with a June 1, 2026 deadline; calls recur roughly bi-monthly.",
-    "audience": [
-      "team"
-    ],
-    "fundingType": "cash",
-    "name": "NGI Zero Commons Fund (13th Call)",
->>>>>>> Stashed changes
     "id": 74,
     "_updated": "2026-05-30"
   },
   {
-<<<<<<< Updated upstream
     "organization": "OpenAI",
     "category": "Corporate",
     "amount": "$3,850/week stipend + ~$15,000/month compute credits; 5-month program (Sep–Feb)",
@@ -2170,37 +2115,10 @@
     ],
     "fundingType": "mixed",
     "name": "OpenAI Safety Fellowship",
-=======
-    "organization": "Cosmos Institute",
-    "category": "Foundation",
-    "amount": "Fast grants $1,000–$10,000+; multi-month/multi-year fellowships with stipends",
-    "deadline": "Rolling",
-    "deadlineDate": null,
-    "eligibility": "Technologists and builders working at the intersection of AI and human flourishing (truth-seeking, autonomy, decentralization); builders and for-profit founders welcome.",
-    "description": "Rapid grants funding AI prototypes that advance human flourishing, with a 90-day build window, plus a fellowship track (some hosted with Oxford's Human-Centered AI Lab). Cash awards with mentorship and network access.",
-    "url": "https://cosmosgrants.org/",
-    "tags": [
-      "non-dilutive",
-      "rolling",
-      "human-flourishing",
-      "prototype",
-      "fellowship"
-    ],
-    "viability": "partial",
-    "viabilityNote": "Viable with a 'human autonomy / decentralized collaboration' framing of Castalia/Vox. Action: apply for a fast grant to ship a truth-seeking or autonomy-preserving collaboration prototype; flag fellowship interest in the same form.",
-    "relevant2026": true,
-    "relevant2026Note": "Cosmos Grants accepts fast-grant applications on a rolling basis through 2026; multiple cohorts already funded.",
-    "audience": [
-      "team"
-    ],
-    "fundingType": "cash",
-    "name": "Cosmos Grants (Fast Grants & Fellowship)",
->>>>>>> Stashed changes
     "id": 75,
     "_updated": "2026-05-30"
   },
   {
-<<<<<<< Updated upstream
     "organization": "Pivotal Research (London Initiative for Safe AI)",
     "category": "Foundation",
     "amount": "£6,000–£8,000 stipend + £2,000 housing support + weekday meals + compute; 9-week program",
@@ -2228,37 +2146,10 @@
     ],
     "fundingType": "cash",
     "name": "Pivotal Research Fellowship",
-=======
-    "organization": "Advanced Research + Invention Agency (ARIA), UK Government",
-    "category": "Government",
-    "amount": "Up to £500,000 per seed project",
-    "deadline": "Rolling",
-    "deadlineDate": null,
-    "eligibility": "Solicited applications from across the R&D ecosystem including small, medium and large companies, individuals, and institutions; UK benefit nexus expected.",
-    "description": "A rolling call for seed proposals within ARIA's opportunity spaces (e.g., Mathematics for Safe AI, Nature Computes Better). Companies of all sizes are explicitly eligible for non-dilutive grants up to £500k.",
-    "url": "https://aria.org.uk/funding-opportunities/",
-    "tags": [
-      "non-dilutive",
-      "government",
-      "UK",
-      "safe-AI",
-      "rolling"
-    ],
-    "viability": "partial",
-    "viabilityNote": "Viable mainly with a UK entity/collaborator and a 'Safe AI / trustworthy collaboration' angle. Action: if no UK nexus, partner with a UK research org or registered branch; pitch verifiable-trust tooling for AI-mediated collaboration.",
-    "relevant2026": true,
-    "relevant2026Note": "Rolling seed call is open in 2026 across listed opportunity spaces; funds up to £500k each.",
-    "audience": [
-      "team"
-    ],
-    "fundingType": "cash",
-    "name": "ARIA Opportunity Seed Proposals (incl. Mathematics for Safe AI)",
->>>>>>> Stashed changes
     "id": 76,
     "_updated": "2026-05-30"
   },
   {
-<<<<<<< Updated upstream
     "organization": "Zendesk Foundation",
     "category": "Corporate",
     "amount": "$5,000–$50,000 cash grant + free Zendesk AI-powered platform access",
@@ -2285,37 +2176,10 @@
     ],
     "fundingType": "cash",
     "name": "Zendesk Tech for Good Impact Awards",
-=======
-    "organization": "Frontier Model Forum (Anthropic, Google, Microsoft, OpenAI)",
-    "category": "Corporate",
-    "amount": "Grants typically tens of thousands to several hundred thousand USD (cohorts of $5M+ total)",
-    "deadline": "Periodic RFPs (Rolling)",
-    "deadlineDate": null,
-    "eligibility": "Independent researchers and organizations advancing frontier-AI safety/security; supports third-party evaluations (e.g., agent evaluation, synthetic content, cyber/bio).",
-    "description": "Industry-backed fund for independent AI safety research that minimizes risks from frontier systems and enables standardized third-party evaluations. Remaining funds target narrowly-scoped, high-urgency safety bottlenecks.",
-    "url": "https://www.frontiermodelforum.org/ai-safety-fund/",
-    "tags": [
-      "non-dilutive",
-      "AI-safety",
-      "evaluations",
-      "research",
-      "RFP"
-    ],
-    "viability": "partial",
-    "viabilityNote": "Viable only with a genuine safety-research deliverable (e.g., an AI-agent evaluation harness or synthetic-content detection built on your stack). Action: watch the updates page for the next RFP and propose a concrete eval artifact, not a product build.",
-    "relevant2026": true,
-    "relevant2026Note": "Announced an 11-grantee, $5M+ cohort in Dec 2025 and continues issuing narrowly-scoped RFPs into 2026.",
-    "audience": [
-      "team"
-    ],
-    "fundingType": "cash",
-    "name": "AI Safety Fund (AISF)",
->>>>>>> Stashed changes
     "id": 77,
     "_updated": "2026-05-30"
   },
   {
-<<<<<<< Updated upstream
     "organization": "a2 Collective (National Institute on Aging, NIH)",
     "category": "Government",
     "amount": "Up to $200,000 non-dilutive grant per project (most projects $50K–$150K); 12-month performance period",
@@ -2344,7 +2208,149 @@
     "fundingType": "cash",
     "name": "a2 Pilot Awards — AI and Aging",
     "id": 78,
-=======
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Mercatus Center, George Mason University (Tyler Cowen)",
+    "category": "Foundation",
+    "amount": "Typically $1,000–$50,000 (larger for exceptional cases)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Individuals and teams worldwide with scalable 'zero-to-one' ideas for social benefit; for-profit projects explicitly welcome.",
+    "description": "Low-overhead, fast-turnaround grants and fellowships for ambitious founders. Takes no equity and imposes no repayment; the program states it does not mind if you make a profit and treats a fast path to revenue as a feature.",
+    "url": "https://www.mercatus.org/emergent-ventures",
+    "tags": [
+      "non-dilutive",
+      "rolling",
+      "for-profit-ok",
+      "no-equity",
+      "fellowship"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Strong fit: no equity, rolling, for-profit welcome, global. Action: submit a tight 1-page pitch framing Castalia/Vox as a scalable 'zero-to-one' collaboration platform with clear social upside.",
+    "relevant2026": true,
+    "relevant2026Note": "Program page live with active 'Apply Now' form as of 2026; accepts applications continuously.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "Emergent Ventures Grants & Fellowships",
+    "id": 79,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "NLnet Foundation (EU Next Generation Internet)",
+    "category": "Foundation",
+    "amount": "€5,000–€50,000 (with possibility to scale up)",
+    "deadline": "June 1, 2026, 12:00 CEST",
+    "deadlineDate": "2026-06-01",
+    "eligibility": "Open to SMEs, individuals, communities and organisations of any type; work must be released as open source / open access.",
+    "description": "Small-to-medium R&D grants for free/open digital commons spanning software, standards, data and AI. For-profit SMEs are eligible provided the funded component is published under a recognized open-source license.",
+    "url": "https://nlnet.nl/commonsfund/",
+    "tags": [
+      "non-dilutive",
+      "open-source",
+      "EU",
+      "AI",
+      "SME-eligible"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable if you carve out a reusable open-source component of the self-hosted AI stack (e.g., a local-AI collaboration protocol or library) to fund. Action: scope one open-sourceable module and apply before the June 1 2026 deadline.",
+    "relevant2026": true,
+    "relevant2026Note": "13th call opened April 1, 2026 with a June 1, 2026 deadline; calls recur roughly bi-monthly.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "NGI Zero Commons Fund (13th Call)",
+    "id": 80,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Cosmos Institute",
+    "category": "Foundation",
+    "amount": "Fast grants $1,000–$10,000+; multi-month/multi-year fellowships with stipends",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Technologists and builders working at the intersection of AI and human flourishing (truth-seeking, autonomy, decentralization); builders and for-profit founders welcome.",
+    "description": "Rapid grants funding AI prototypes that advance human flourishing, with a 90-day build window, plus a fellowship track (some hosted with Oxford's Human-Centered AI Lab). Cash awards with mentorship and network access.",
+    "url": "https://cosmosgrants.org/",
+    "tags": [
+      "non-dilutive",
+      "rolling",
+      "human-flourishing",
+      "prototype",
+      "fellowship"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable with a 'human autonomy / decentralized collaboration' framing of Castalia/Vox. Action: apply for a fast grant to ship a truth-seeking or autonomy-preserving collaboration prototype; flag fellowship interest in the same form.",
+    "relevant2026": true,
+    "relevant2026Note": "Cosmos Grants accepts fast-grant applications on a rolling basis through 2026; multiple cohorts already funded.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "Cosmos Grants (Fast Grants & Fellowship)",
+    "id": 81,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Advanced Research + Invention Agency (ARIA), UK Government",
+    "category": "Government",
+    "amount": "Up to £500,000 per seed project",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Solicited applications from across the R&D ecosystem including small, medium and large companies, individuals, and institutions; UK benefit nexus expected.",
+    "description": "A rolling call for seed proposals within ARIA's opportunity spaces (e.g., Mathematics for Safe AI, Nature Computes Better). Companies of all sizes are explicitly eligible for non-dilutive grants up to £500k.",
+    "url": "https://aria.org.uk/funding-opportunities/",
+    "tags": [
+      "non-dilutive",
+      "government",
+      "UK",
+      "safe-AI",
+      "rolling"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable mainly with a UK entity/collaborator and a 'Safe AI / trustworthy collaboration' angle. Action: if no UK nexus, partner with a UK research org or registered branch; pitch verifiable-trust tooling for AI-mediated collaboration.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling seed call is open in 2026 across listed opportunity spaces; funds up to £500k each.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "ARIA Opportunity Seed Proposals (incl. Mathematics for Safe AI)",
+    "id": 82,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Frontier Model Forum (Anthropic, Google, Microsoft, OpenAI)",
+    "category": "Corporate",
+    "amount": "Grants typically tens of thousands to several hundred thousand USD (cohorts of $5M+ total)",
+    "deadline": "Periodic RFPs (Rolling)",
+    "deadlineDate": null,
+    "eligibility": "Independent researchers and organizations advancing frontier-AI safety/security; supports third-party evaluations (e.g., agent evaluation, synthetic content, cyber/bio).",
+    "description": "Industry-backed fund for independent AI safety research that minimizes risks from frontier systems and enables standardized third-party evaluations. Remaining funds target narrowly-scoped, high-urgency safety bottlenecks.",
+    "url": "https://www.frontiermodelforum.org/ai-safety-fund/",
+    "tags": [
+      "non-dilutive",
+      "AI-safety",
+      "evaluations",
+      "research",
+      "RFP"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Viable only with a genuine safety-research deliverable (e.g., an AI-agent evaluation harness or synthetic-content detection built on your stack). Action: watch the updates page for the next RFP and propose a concrete eval artifact, not a product build.",
+    "relevant2026": true,
+    "relevant2026Note": "Announced an 11-grantee, $5M+ cohort in Dec 2025 and continues issuing narrowly-scoped RFPs into 2026.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "name": "AI Safety Fund (AISF)",
+    "id": 83,
+    "_updated": "2026-05-30"
+  },
+  {
     "organization": "Manifund",
     "category": "Foundation",
     "amount": "$5,000–$50,000 (typical regrantor-initiated grants)",
@@ -2369,7 +2375,7 @@
     ],
     "fundingType": "cash",
     "name": "Manifund AI Safety Regranting Program",
-    "id": 78,
+    "id": 84,
     "_updated": "2026-05-30"
   },
   {
@@ -2397,7 +2403,7 @@
     ],
     "fundingType": "cash",
     "name": "Mozilla Builders Accelerator (Local AI)",
-    "id": 79,
+    "id": 85,
     "_updated": "2026-05-30"
   },
   {
@@ -2425,7 +2431,7 @@
     ],
     "fundingType": "cash",
     "name": "Astera Residency Program",
-    "id": 80,
+    "id": 86,
     "_updated": "2026-05-30"
   },
   {
@@ -2453,7 +2459,7 @@
     ],
     "fundingType": "cash",
     "name": "Pulitzer Center AI Accountability Fellowships 2026–2027",
-    "id": 81,
+    "id": 87,
     "_updated": "2026-05-30"
   },
   {
@@ -2481,7 +2487,7 @@
     ],
     "fundingType": "cash",
     "name": "GitHub Secure Open Source Fund",
-    "id": 82,
+    "id": 88,
     "_updated": "2026-05-30"
   },
   {
@@ -2509,7 +2515,7 @@
     ],
     "fundingType": "cash",
     "name": "Awesome Foundation Micro-Grants",
-    "id": 83,
+    "id": 89,
     "_updated": "2026-05-30"
   },
   {
@@ -2537,7 +2543,7 @@
     ],
     "fundingType": "cash",
     "name": "Cooperative AI Foundation — Early-Career Research Grants",
-    "id": 84,
+    "id": 90,
     "_updated": "2026-05-30"
   },
   {
@@ -2565,7 +2571,7 @@
     ],
     "fundingType": "cash",
     "name": "Sovereign Tech Fund",
-    "id": 85,
+    "id": 91,
     "_updated": "2026-05-30"
   },
   {
@@ -2593,7 +2599,7 @@
     ],
     "fundingType": "cash",
     "name": "Future of Life Institute — Vitalik Buterin PhD Fellowship in AI Existential Safety",
-    "id": 86,
+    "id": 92,
     "_updated": "2026-05-30"
   },
   {
@@ -2621,7 +2627,7 @@
     ],
     "fundingType": "cash",
     "name": "Creative Capital Award & State of the Art Prize",
-    "id": 87,
+    "id": 93,
     "_updated": "2026-05-30"
   },
   {
@@ -2649,7 +2655,7 @@
     ],
     "fundingType": "credits",
     "name": "Google TPU Research Cloud (TRC)",
-    "id": 88,
+    "id": 94,
     "_updated": "2026-05-30"
   },
   {
@@ -2677,7 +2683,7 @@
     ],
     "fundingType": "cash",
     "name": "Tech for Good Impact Awards 2026",
-    "id": 89,
+    "id": 95,
     "_updated": "2026-05-30"
   },
   {
@@ -2705,7 +2711,7 @@
     ],
     "fundingType": "cash",
     "name": "Common Good Cyber Fund",
-    "id": 90,
+    "id": 96,
     "_updated": "2026-05-30"
   },
   {
@@ -2733,7 +2739,7 @@
     ],
     "fundingType": "cash",
     "name": "People-First AI Fund",
-    "id": 91,
+    "id": 97,
     "_updated": "2026-05-30"
   },
   {
@@ -2761,7 +2767,7 @@
     ],
     "fundingType": "mixed",
     "name": "AI Impact Initiative",
-    "id": 92,
+    "id": 98,
     "_updated": "2026-05-30"
   },
   {
@@ -2789,7 +2795,7 @@
     ],
     "fundingType": "cash",
     "name": "Civic Innovation Challenge (CIVIC)",
-    "id": 93,
+    "id": 99,
     "_updated": "2026-05-30"
   },
   {
@@ -2817,7 +2823,7 @@
     ],
     "fundingType": "cash",
     "name": "Future of Work Fund 2026",
-    "id": 94,
+    "id": 100,
     "_updated": "2026-05-30"
   },
   {
@@ -2845,7 +2851,7 @@
     ],
     "fundingType": "mixed",
     "name": "Activate AI: Economic Opportunity Challenge",
-    "id": 95,
+    "id": 101,
     "_updated": "2026-05-30"
   },
   {
@@ -2873,8 +2879,7 @@
     ],
     "fundingType": "cash",
     "name": "Digital Action Lab — Cohort 3",
-    "id": 96,
->>>>>>> Stashed changes
+    "id": 102,
     "_updated": "2026-05-30"
   }
 ]
