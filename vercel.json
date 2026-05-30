@@ -1,13 +1,8 @@
 {
-  "version": 2,
-  "name": "ai-grants-radar",
-  "builds": [
-    { "src": "*.html", "use": "@vercel/static" },
-    { "src": "*.json", "use": "@vercel/static" },
-    { "src": "*.md", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/grants.json", "headers": { "Cache-Control": "no-cache" }, "dest": "/grants.json" },
-    { "src": "/(.*)", "dest": "/$1" }
+  "headers": [
+    {
+      "source": "/grants.json",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    }
   ]
 }
