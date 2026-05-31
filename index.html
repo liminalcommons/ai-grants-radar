@@ -641,6 +641,24 @@
       footer { padding: 16px; }
       .grant-grid { grid-template-columns: 1fr; }
     }
+
+    /* funding type badges */
+    .badge-funding { font-weight: 700; }
+    .badge-funding.cash { background: var(--green-dim); color: var(--green); }
+    .badge-funding.mixed { background: var(--amber-dim); color: var(--amber); }
+    .badge-funding.equity { background: var(--mauve-dim); color: var(--mauve); }
+    .badge-funding.credits { background: rgba(94,90,128,0.18); color: var(--text-dim); }
+    .card-amount-cash { color: var(--green); font-weight: 600; }
+
+    /* subscribe button */
+    .subscribe-btn {
+      display: inline-block; margin-top: 10px;
+      font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+      letter-spacing: 0.1em; color: var(--green);
+      border: 1px solid var(--green); border-radius: 3px;
+      padding: 5px 11px; text-decoration: none; transition: background 0.2s;
+    }
+    .subscribe-btn:hover { background: var(--green-dim); }
   </style>
 </head>
 <body>
@@ -655,6 +673,7 @@
     <div class="meta-block">
       <div class="last-updated" id="last-updated">LAST UPDATED: 2026-03-13</div>
       <div class="pulse">LIVE MONITORING</div>
+      <a class="subscribe-btn" href="https://ntfy.sh/liminal-grants-7c3f9" target="_blank" rel="noopener">🔔 SUBSCRIBE — WEEKLY ALERTS</a>
     </div>
   </div>
   <div class="stats-bar" id="stats-bar">
@@ -666,9 +685,9 @@
       <span class="stat-value" id="stat-urgent">—</span>
       <span class="stat-label">Deadline &lt; 30 days</span>
     </div>
-    <div class="stat rolling">
-      <span class="stat-value" id="stat-rolling">—</span>
-      <span class="stat-label">Rolling / Always Open</span>
+    <div class="stat viable">
+      <span class="stat-value" id="stat-cash">—</span>
+      <span class="stat-label">💵 Real Money (not credits)</span>
     </div>
     <div class="stat">
       <span class="stat-value" id="stat-total">—</span>
@@ -693,6 +712,10 @@
     <label>
       <input type="checkbox" id="viable-only">
       VIABLE ONLY
+    </label>
+    <label>
+      <input type="checkbox" id="cash-only">
+      💵 REAL MONEY ONLY
     </label>
     <label>
       <input type="checkbox" id="active-2026-only" checked>
@@ -731,7 +754,12 @@ let activeFilter = 'All';
 let searchQuery = '';
 let viableOnly = false;
 let active2026Only = true;
+let cashOnly = false;
 const TODAY = new Date();
+
+// funding type: cash (real money) is the priority; credits come last
+const FUNDING_ORDER = { cash: 0, mixed: 1, equity: 2, credits: 3 };
+const FUNDING_LABEL = { cash: '💵 CASH', mixed: '◐ CASH+CREDITS', equity: '📈 EQUITY', credits: '☁ CREDITS' };
 
 // ===== DEADLINE UTILS =====
 function getDeadlineUrgency(grant) {
@@ -760,11 +788,11 @@ function updateStats(grants) {
     const u = getDeadlineUrgency(g);
     return u === 'urgent';
   }).length;
-  const rolling = grants.filter(g => !g.deadlineDate).length;
+  const cash = grants.filter(g => g.fundingType && g.fundingType !== 'credits').length;
 
   document.getElementById('stat-viable').textContent = viable;
   document.getElementById('stat-urgent').textContent = urgent;
-  document.getElementById('stat-rolling').textContent = rolling;
+  document.getElementById('stat-cash').textContent = cash;
   document.getElementById('stat-total').textContent = grants.length;
 }
 
@@ -779,6 +807,10 @@ function renderCard(grant, idx) {
   const viabilityBadgeClass = grant.viability === 'yes' ? '' : grant.viability === 'partial' ? 'partial' : 'no';
   const viabilityLabel = grant.viability === 'yes' ? '✓ VIABLE' : grant.viability === 'partial' ? '~ PARTIAL' : '✕ LIMITED';
 
+  const ft = grant.fundingType || 'cash';
+  const ftLabel = FUNDING_LABEL[ft] || '💵 CASH';
+  const amountClass = ft === 'cash' ? 'card-amount-cash' : '';
+
   const r2026 = grant.relevant2026;
   const r2026Class = r2026 === true ? 'yes' : r2026 === false ? 'no' : r2026 === 'upcoming' ? 'upcoming' : 'uncertain';
   const r2026Label = r2026 === true ? '2026 ✓' : r2026 === false ? '2026 CLOSED' : r2026 === 'upcoming' ? '2026 SOON' : '2026 ?';
@@ -791,6 +823,7 @@ function renderCard(grant, idx) {
       <div class="card-header">
         <div class="grant-name">${grant.name}</div>
         <div class="card-badges">
+          <span class="badge badge-funding ${ft}">${ftLabel}</span>
           <span class="badge badge-cat" data-cat="${grant.category}">${grant.category}</span>
           <span class="badge badge-2026 ${r2026Class}">${r2026Label}</span>
           <span class="badge badge-viable ${viabilityBadgeClass}">${viabilityLabel}</span>
@@ -800,7 +833,7 @@ function renderCard(grant, idx) {
       <div class="card-data">
         <div class="data-item">
           <span class="data-label">Amount</span>
-          <span class="data-value">${grant.amount}</span>
+          <span class="data-value ${amountClass}">${grant.amount}</span>
         </div>
         <div class="data-item">
           <span class="data-label">Deadline</span>
@@ -830,6 +863,7 @@ function getFilteredGrants() {
   return GRANTS.filter(g => {
     if (activeFilter !== 'All' && g.category !== activeFilter) return false;
     if (viableOnly && g.viability !== 'yes') return false;
+    if (cashOnly && (!g.fundingType || g.fundingType === 'credits')) return false;
     if (active2026Only && g.relevant2026 === false) return false;
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
@@ -854,11 +888,13 @@ function render() {
     return;
   }
 
-  // Sort: viable first, then by deadline urgency, then by deadline
+  // Sort: REAL MONEY first (cash > mixed > equity > credits), then viable, then urgency
   const urgencyOrder = { urgent: 0, soon: 1, ok: 2, rolling: 3, passed: 4 };
   const viabilityOrder = { yes: 0, partial: 1, no: 2 };
 
   filtered.sort((a, b) => {
+    const fDiff = (FUNDING_ORDER[a.fundingType] ?? 9) - (FUNDING_ORDER[b.fundingType] ?? 9);
+    if (fDiff !== 0) return fDiff;
     const vDiff = viabilityOrder[a.viability] - viabilityOrder[b.viability];
     if (vDiff !== 0) return vDiff;
     const ua = urgencyOrder[getDeadlineUrgency(a)] ?? 5;
@@ -886,6 +922,11 @@ document.getElementById('filters').addEventListener('click', e => {
 
 document.getElementById('viable-only').addEventListener('change', e => {
   viableOnly = e.target.checked;
+  render();
+});
+
+document.getElementById('cash-only').addEventListener('change', e => {
+  cashOnly = e.target.checked;
   render();
 });
 
