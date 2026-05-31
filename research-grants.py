@@ -71,14 +71,20 @@ Find funding a SMALL ORG / NONPROFIT can apply for:
 
 PROMPT_TEMPLATE = """\
 You are a grant-research agent. Use web search to find CURRENT (open now or
-opening/closing in 2026) AI funding opportunities — grants, accelerators,
-fellowships, and cloud/compute-credit programs — relevant to the audience below.
+opening/closing in 2026) funding opportunities relevant to the audience below.
+Scope is NOT limited to AI — include open-source, public-goods, climate, civic,
+research, and creative funding too.
+
+ALSO MONITOR web3 / public-goods funding explicitly: Gitcoin Grants rounds,
+Giveth, Optimism RetroPGF, quadratic-funding rounds, Protocol Guild, Drips,
+Octant, Funding the Commons, and similar mechanisms.
 
 {audience_context}
 
-PRIORITY: we need REAL MONEY, not cloud credits. Lead with non-dilutive cash —
-grants, fellowships with stipends, prize money, foundation/government cash awards.
-Cloud/compute credits are useful but come later, so include at most 1-2 of them.
+PRIORITY: we need REAL MONEY, not credits. Lead with non-dilutive cash — grants,
+fellowships with stipends, prize money, QF/retro payouts, foundation/government
+cash. Cloud/compute credits come later: include at most 1-2.
+ALSO favor LOW-EFFORT applications (rolling, simple forms) — flag effort honestly.
 
 Find {n} opportunities NOT already in our database. Prefer ones with
 viability "yes" or "partial". Verify each is real and currently relevant in 2026
@@ -102,6 +108,7 @@ Return ONLY a JSON array (no prose, no markdown fences) where each element is:
   "viability": "yes" | "partial" | "no",
   "viabilityNote": str,          // why, and what action to take
   "fundingType": "cash" | "credits" | "equity" | "mixed",  // cash = real money (prioritize)
+  "effort": "low" | "medium" | "high",   // application burden — low = rolling/simple, high = SBIR/accelerator/RFP
   "relevant2026": true | false | "upcoming",
   "relevant2026Note": str
 }}

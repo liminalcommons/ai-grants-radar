@@ -61,10 +61,34 @@ SCHEMA_DEFAULTS = {
     "relevant2026Note": "",
     "audience": ["team"],   # subset of {team, creator, org}
     "fundingType": "cash",  # cash | credits | equity | mixed  (cash is the priority)
+    "effort": "medium",     # low | medium | high  (application burden — low effort is preferred)
 }
 
 # Priority order for display/ranking: real money first, credits last.
 FUNDING_RANK = {"cash": 0, "mixed": 1, "equity": 2, "credits": 3}
+
+
+def classify_effort(grant):
+    """Estimate application burden: low | medium | high. Low effort is preferred
+    (one of the user's two apply criteria, alongside cash size)."""
+    text = " ".join([
+        str(grant.get("amount", "")), str(grant.get("eligibility", "")),
+        str(grant.get("viabilityNote", "")), str(grant.get("deadline", "")),
+        " ".join(grant.get("tags", []) or []),
+    ]).lower()
+    cat = grant.get("category", "")
+    ft = grant.get("fundingType", "")
+    if cat == "Government" or ft == "equity" or any(w in text for w in (
+        "sbir", "consortium", "accelerator", "cohort", "pitch", "interview",
+        "phase", "milestone", "matched", "co-funding", "rfp", "proposal",
+    )):
+        return "high"
+    if (not grant.get("deadlineDate")) or any(w in text for w in (
+        "rolling", "simple", "easy", "self-serve", "no equity",
+        "apply anytime", "quick", "micro",
+    )):
+        return "low"
+    return "medium"
 
 
 def classify_funding_type(grant):
@@ -131,6 +155,8 @@ def normalise(item):
     record.update(item)
     if not item.get("fundingType"):
         record["fundingType"] = classify_funding_type(record)
+    if not item.get("effort"):
+        record["effort"] = classify_effort(record)
     return fix_mojibake(record)
 
 

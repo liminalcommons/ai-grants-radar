@@ -25,7 +25,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "id": 2,
@@ -53,7 +54,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "id": 3,
@@ -83,7 +85,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "id": 4,
@@ -111,7 +114,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "low"
   },
   {
     "id": 5,
@@ -139,7 +143,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "id": 6,
@@ -166,7 +171,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "id": 7,
@@ -195,7 +201,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 8,
@@ -223,7 +230,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 9,
@@ -251,7 +259,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 10,
@@ -279,7 +288,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "id": 11,
@@ -307,7 +317,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 12,
@@ -335,7 +346,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 13,
@@ -364,7 +376,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 14,
@@ -392,7 +405,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 15,
@@ -420,7 +434,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 16,
@@ -448,7 +463,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "low"
   },
   {
     "id": 17,
@@ -476,7 +492,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 18,
@@ -504,7 +521,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 19,
@@ -533,7 +551,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 20,
@@ -562,7 +581,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "id": 21,
@@ -590,7 +610,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "id": 22,
@@ -619,7 +640,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "id": 23,
@@ -648,7 +670,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 24,
@@ -677,7 +700,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 25,
@@ -705,7 +729,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "mixed"
+    "fundingType": "mixed",
+    "effort": "high"
   },
   {
     "id": 26,
@@ -733,7 +758,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 27,
@@ -762,7 +788,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 28,
@@ -790,7 +817,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 29,
@@ -818,7 +846,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 30,
@@ -846,7 +875,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "id": 31,
@@ -875,7 +905,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "id": 32,
@@ -904,7 +935,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "mixed"
+    "fundingType": "mixed",
+    "effort": "high"
   },
   {
     "id": 33,
@@ -932,7 +964,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 34,
@@ -961,7 +994,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "id": 35,
@@ -989,7 +1023,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 36,
@@ -1018,7 +1053,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "id": 37,
@@ -1047,7 +1083,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 38,
@@ -1077,7 +1114,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "id": 39,
@@ -1106,7 +1144,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "equity"
+    "fundingType": "equity",
+    "effort": "high"
   },
   {
     "id": 40,
@@ -1135,7 +1174,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "low"
   },
   {
     "organization": "Intel Corporation",
@@ -1163,7 +1203,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "Oracle",
@@ -1190,7 +1231,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "organization": "Cloudflare",
@@ -1218,7 +1260,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "organization": "Together AI",
@@ -1246,7 +1289,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "ElevenLabs",
@@ -1274,7 +1318,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "DigitalOcean",
@@ -1302,7 +1347,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "mixed"
+    "fundingType": "mixed",
+    "effort": "low"
   },
   {
     "organization": "Modal Labs",
@@ -1330,7 +1376,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "AI2 Incubator (spun out of the Allen Institute for AI)",
@@ -1358,7 +1405,8 @@
     "audience": [
       "team"
     ],
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "organization": "Groq",
@@ -1385,7 +1433,8 @@
     "name": "Groq for Startups",
     "id": 49,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "OVHcloud",
@@ -1413,7 +1462,8 @@
     "name": "OVHcloud Startup Program + AI Accelerator",
     "id": 50,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "organization": "Cerebras Systems",
@@ -1440,7 +1490,8 @@
     "name": "Cerebras Startup Program",
     "id": 51,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "MongoDB",
@@ -1468,7 +1519,8 @@
     "name": "MongoDB AI Innovators / MongoDB for Startups",
     "id": 52,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "Snowflake",
@@ -1495,7 +1547,8 @@
     "name": "Snowflake Startup Accelerator",
     "id": 53,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "organization": "Innovate UK (UKRI)",
@@ -1523,7 +1576,8 @@
     "name": "Innovate UK Smart Grants",
     "id": 54,
     "_updated": "2026-05-30",
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "organization": "EA Funds (managed by Effective Ventures)",
@@ -1550,7 +1604,8 @@
     "name": "Long-Term Future Fund",
     "id": 55,
     "_updated": "2026-05-30",
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "low"
   },
   {
     "organization": "Cohere Labs (Cohere)",
@@ -1578,7 +1633,8 @@
     "name": "Cohere Labs Catalyst Grants",
     "id": 56,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "Harvestworks Digital Media Arts Center",
@@ -1607,7 +1663,8 @@
     "name": "Harvestworks Artists-in-Residence Program (New Works)",
     "id": 57,
     "_updated": "2026-05-30",
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "organization": "fal.ai",
@@ -1635,7 +1692,8 @@
     "name": "fal Research Grants",
     "id": 58,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "CloudRift",
@@ -1663,7 +1721,8 @@
     "name": "CloudRift AI Grant",
     "id": 59,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "OpenAI",
@@ -1691,7 +1750,8 @@
     "name": "Codex for Open Source",
     "id": 60,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "MATS Research (ML Alignment & Theory Scholars)",
@@ -1720,7 +1780,8 @@
     "name": "MATS Fellowship (Autumn 2026)",
     "id": 61,
     "_updated": "2026-05-30",
-    "fundingType": "mixed"
+    "fundingType": "mixed",
+    "effort": "high"
   },
   {
     "organization": "EWOR",
@@ -1750,7 +1811,8 @@
     "name": "EWOR Fellowship",
     "id": 62,
     "_updated": "2026-05-30",
-    "fundingType": "mixed"
+    "fundingType": "mixed",
+    "effort": "low"
   },
   {
     "organization": "XPRIZE Foundation (backed by Google)",
@@ -1779,7 +1841,8 @@
     "name": "Build with Gemini XPRIZE Hackathon",
     "id": 63,
     "_updated": "2026-05-30",
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "medium"
   },
   {
     "organization": "South Park Commons",
@@ -1808,7 +1871,8 @@
     "name": "South Park Commons Founder Fellowship",
     "id": 64,
     "_updated": "2026-05-30",
-    "fundingType": "mixed"
+    "fundingType": "mixed",
+    "effort": "high"
   },
   {
     "organization": "Amazon Web Services",
@@ -1835,7 +1899,8 @@
     "name": "AWS Imagine Grant for Nonprofits",
     "id": 65,
     "_updated": "2026-05-30",
-    "fundingType": "mixed"
+    "fundingType": "mixed",
+    "effort": "medium"
   },
   {
     "organization": "Patrick J. McGovern Foundation",
@@ -1862,7 +1927,8 @@
     "name": "Data Practice Accelerator Program",
     "id": 66,
     "_updated": "2026-05-30",
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "low"
   },
   {
     "organization": "Google",
@@ -1889,7 +1955,8 @@
     "name": "Google for Nonprofits (Workspace with Gemini & NotebookLM)",
     "id": 67,
     "_updated": "2026-05-30",
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "low"
   },
   {
     "organization": "Microsoft",
@@ -1916,7 +1983,8 @@
     "name": "Microsoft Tech for Social Impact — Nonprofit Grants & Azure Credits",
     "id": 68,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "Salesforce Foundation",
@@ -1943,7 +2011,8 @@
     "name": "Power of Us Program",
     "id": 69,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "low"
   },
   {
     "organization": "Salesforce Foundation",
@@ -1970,7 +2039,8 @@
     "name": "Salesforce Accelerator — AI for Impact (Agents for Impact)",
     "id": 70,
     "_updated": "2026-05-30",
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "organization": "Google.org",
@@ -1997,7 +2067,8 @@
     "name": "Google.org Accelerator: Generative AI",
     "id": 71,
     "_updated": "2026-05-30",
-    "fundingType": "credits"
+    "fundingType": "credits",
+    "effort": "high"
   },
   {
     "organization": "Fast Forward",
@@ -2024,7 +2095,8 @@
     "name": "Fast Forward Accelerator",
     "id": 72,
     "_updated": "2026-05-30",
-    "fundingType": "cash"
+    "fundingType": "cash",
+    "effort": "high"
   },
   {
     "organization": "Google Cloud",
@@ -2055,7 +2127,8 @@
     "fundingType": "cash",
     "name": "Google Cloud Rapid Agent Hackathon",
     "id": 73,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "low"
   },
   {
     "organization": "U.S. Administration for Community Living (HHS)",
@@ -2086,7 +2159,8 @@
     "fundingType": "cash",
     "name": "ACL Caregiver AI Prize Challenge",
     "id": 74,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "OpenAI",
@@ -2116,7 +2190,8 @@
     "fundingType": "mixed",
     "name": "OpenAI Safety Fellowship",
     "id": 75,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Pivotal Research (London Initiative for Safe AI)",
@@ -2147,7 +2222,8 @@
     "fundingType": "cash",
     "name": "Pivotal Research Fellowship",
     "id": 76,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "low"
   },
   {
     "organization": "Zendesk Foundation",
@@ -2177,7 +2253,8 @@
     "fundingType": "cash",
     "name": "Zendesk Tech for Good Impact Awards",
     "id": 77,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "medium"
   },
   {
     "organization": "a2 Collective (National Institute on Aging, NIH)",
@@ -2208,7 +2285,8 @@
     "fundingType": "cash",
     "name": "a2 Pilot Awards — AI and Aging",
     "id": 78,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Mercatus Center, George Mason University (Tyler Cowen)",
@@ -2236,7 +2314,8 @@
     "fundingType": "cash",
     "name": "Emergent Ventures Grants & Fellowships",
     "id": 79,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "NLnet Foundation (EU Next Generation Internet)",
@@ -2264,7 +2343,8 @@
     "fundingType": "cash",
     "name": "NGI Zero Commons Fund (13th Call)",
     "id": 80,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "medium"
   },
   {
     "organization": "Cosmos Institute",
@@ -2292,7 +2372,8 @@
     "fundingType": "cash",
     "name": "Cosmos Grants (Fast Grants & Fellowship)",
     "id": 81,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "low"
   },
   {
     "organization": "Advanced Research + Invention Agency (ARIA), UK Government",
@@ -2320,7 +2401,8 @@
     "fundingType": "cash",
     "name": "ARIA Opportunity Seed Proposals (incl. Mathematics for Safe AI)",
     "id": 82,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Frontier Model Forum (Anthropic, Google, Microsoft, OpenAI)",
@@ -2348,7 +2430,8 @@
     "fundingType": "cash",
     "name": "AI Safety Fund (AISF)",
     "id": 83,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Manifund",
@@ -2376,7 +2459,8 @@
     "fundingType": "cash",
     "name": "Manifund AI Safety Regranting Program",
     "id": 84,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Mozilla",
@@ -2404,7 +2488,8 @@
     "fundingType": "cash",
     "name": "Mozilla Builders Accelerator (Local AI)",
     "id": 85,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Astera Institute",
@@ -2432,7 +2517,8 @@
     "fundingType": "cash",
     "name": "Astera Residency Program",
     "id": 86,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Pulitzer Center",
@@ -2460,7 +2546,8 @@
     "fundingType": "cash",
     "name": "Pulitzer Center AI Accountability Fellowships 2026–2027",
     "id": 87,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "GitHub",
@@ -2488,7 +2575,8 @@
     "fundingType": "cash",
     "name": "GitHub Secure Open Source Fund",
     "id": 88,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "low"
   },
   {
     "organization": "The Awesome Foundation",
@@ -2516,7 +2604,8 @@
     "fundingType": "cash",
     "name": "Awesome Foundation Micro-Grants",
     "id": 89,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Cooperative AI Foundation (CAIF)",
@@ -2544,7 +2633,8 @@
     "fundingType": "cash",
     "name": "Cooperative AI Foundation — Early-Career Research Grants",
     "id": 90,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Sovereign Tech Agency (Germany)",
@@ -2572,7 +2662,8 @@
     "fundingType": "cash",
     "name": "Sovereign Tech Fund",
     "id": 91,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "Future of Life Institute",
@@ -2600,7 +2691,8 @@
     "fundingType": "cash",
     "name": "Future of Life Institute — Vitalik Buterin PhD Fellowship in AI Existential Safety",
     "id": 92,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "low"
   },
   {
     "organization": "Creative Capital",
@@ -2628,7 +2720,8 @@
     "fundingType": "cash",
     "name": "Creative Capital Award & State of the Art Prize",
     "id": 93,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "low"
   },
   {
     "organization": "Google Research",
@@ -2656,7 +2749,8 @@
     "fundingType": "credits",
     "name": "Google TPU Research Cloud (TRC)",
     "id": 94,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "low"
   },
   {
     "organization": "Zendesk Foundation",
@@ -2684,7 +2778,8 @@
     "fundingType": "cash",
     "name": "Tech for Good Impact Awards 2026",
     "id": 95,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "medium"
   },
   {
     "organization": "Internet Society Foundation",
@@ -2712,7 +2807,8 @@
     "fundingType": "cash",
     "name": "Common Good Cyber Fund",
     "id": 96,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "medium"
   },
   {
     "organization": "OpenAI Foundation",
@@ -2740,7 +2836,8 @@
     "fundingType": "cash",
     "name": "People-First AI Fund",
     "id": 97,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "low"
   },
   {
     "organization": "KPMG U.S. Foundation",
@@ -2768,7 +2865,8 @@
     "fundingType": "mixed",
     "name": "AI Impact Initiative",
     "id": 98,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "U.S. National Science Foundation",
@@ -2796,7 +2894,8 @@
     "fundingType": "cash",
     "name": "Civic Innovation Challenge (CIVIC)",
     "id": 99,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "LinkedIn (Social Impact)",
@@ -2824,7 +2923,8 @@
     "fundingType": "cash",
     "name": "Future of Work Fund 2026",
     "id": 100,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "medium"
   },
   {
     "organization": "data.org (with Zoom)",
@@ -2852,7 +2952,8 @@
     "fundingType": "mixed",
     "name": "Activate AI: Economic Opportunity Challenge",
     "id": 101,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   },
   {
     "organization": "CIVICUS Global Alliance",
@@ -2880,6 +2981,7 @@
     "fundingType": "cash",
     "name": "Digital Action Lab — Cohort 3",
     "id": 102,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "effort": "high"
   }
 ]

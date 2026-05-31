@@ -1,983 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Funding Radar 2026</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      /* warm earthy palette — cream paper, clay/sage/ochre/plum (matches the report) */
-      --bg: #EDE6D8;        /* warm sand — page */
-      --bg2: #F3EEE3;       /* lighter warm */
-      --bg3: #FFFFFF;       /* card hover / lightest */
-      --surface: #FBFAF5;   /* card surface — warm near-white */
-      --border: #E2DACA;    /* warm hairline */
-      --border2: #D3C8B3;   /* stronger warm border */
-      --text: #3A352B;      /* warm dark brown — body (higher contrast) */
-      --text-dim: #6F6552;  /* warm taupe — labels (darker for legibility) */
-      --text-bright: #28241C;/* near-black warm — headings */
-      --amber: #C2613F;     /* clay — primary accent */
-      --amber-dim: rgba(194,97,63,0.14);
-      --amber-glow: rgba(194,97,63,0.07);
-      --green: #5C6E45;     /* sage — viable / cash (darker for contrast) */
-      --green-dim: rgba(110,128,86,0.18);
-      --red: #B14E3A;       /* warm brick — urgent */
-      --red-dim: rgba(177,78,58,0.14);
-      --orange: #C0822F;    /* warm ochre */
-      --orange-dim: rgba(192,130,47,0.15);
-      --blue: #5C7C84;      /* muted teal-slate — government */
-      --blue-dim: rgba(92,124,132,0.15);
-      --mauve: #9A6A7C;     /* dusty plum — foundation */
-      --mauve-dim: rgba(154,106,124,0.15);
-      --teal: #4F8A82;      /* muted teal */
-      --teal-dim: rgba(79,138,130,0.15);
-      --radius: 3px;
-      --card-radius: 4px;
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'DM Sans', sans-serif;
-      font-size: 14px;
-      min-height: 100vh;
-      position: relative;
-      overflow-x: hidden;
-    }
-
-    /* Noise texture overlay */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.035'/%3E%3C/svg%3E");
-      pointer-events: none;
-      z-index: 0;
-      opacity: 0.4;
-    }
-
-    /* Ambient gradient */
-    body::after {
-      content: '';
-      position: fixed;
-      top: -200px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 900px;
-      height: 500px;
-      background: radial-gradient(ellipse, rgba(194,97,63,0.07) 0%, transparent 70%);
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* ===== HEADER ===== */
-    header {
-      position: relative;
-      z-index: 10;
-      padding: 48px 40px 36px;
-      border-bottom: 1px solid var(--border);
-      background: linear-gradient(180deg, rgba(243,238,227,0.92) 0%, transparent 100%);
-    }
-
-    .header-top {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 16px;
-      margin-bottom: 28px;
-    }
-
-    .title-block {}
-
-    .eyebrow {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--amber);
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .eyebrow::before {
-      content: '';
-      display: inline-block;
-      width: 20px;
-      height: 1px;
-      background: var(--amber);
-    }
-
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(32px, 5vw, 56px);
-      font-weight: 900;
-      color: var(--text-bright);
-      line-height: 1;
-      letter-spacing: -0.02em;
-    }
-
-    h1 span {
-      color: var(--amber);
-    }
-
-    .subtitle {
-      margin-top: 10px;
-      color: var(--text-dim);
-      font-size: 13px;
-      font-weight: 300;
-      letter-spacing: 0.02em;
-    }
-
-    .meta-block {
-      text-align: right;
-    }
-
-    .last-updated {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10px;
-      color: var(--text-dim);
-      letter-spacing: 0.08em;
-    }
-
-    .pulse {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10px;
-      color: var(--green);
-      letter-spacing: 0.08em;
-      margin-top: 4px;
-    }
-
-    .pulse::before {
-      content: '';
-      width: 6px;
-      height: 6px;
-      background: var(--green);
-      border-radius: 50%;
-      animation: pulse 2s ease-in-out infinite;
-      flex-shrink: 0;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.8); }
-    }
-
-    /* ===== STATS BAR ===== */
-    .stats-bar {
-      display: flex;
-      gap: 32px;
-      flex-wrap: wrap;
-    }
-
-    .stat {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    .stat-value {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 22px;
-      font-weight: 600;
-      color: var(--text-bright);
-    }
-
-    .stat-label {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 9px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--text-dim);
-    }
-
-    .stat.urgent .stat-value { color: var(--red); }
-    .stat.viable .stat-value { color: var(--green); }
-    .stat.rolling .stat-value { color: var(--amber); }
-
-    /* ===== CONTROLS ===== */
-    .controls {
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      background: rgba(237,230,216,0.94);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-      padding: 16px 40px;
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .search-wrap {
-      position: relative;
-      flex: 1;
-      min-width: 200px;
-      max-width: 320px;
-    }
-
-    .search-icon {
-      position: absolute;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--text-dim);
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 11px;
-    }
-
-    #search {
-      width: 100%;
-      background: var(--bg3);
-      border: 1px solid var(--border2);
-      border-radius: var(--radius);
-      color: var(--text);
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 12px;
-      padding: 8px 12px 8px 28px;
-      outline: none;
-      transition: border-color 0.2s;
-    }
-
-    #search:focus {
-      border-color: var(--amber);
-    }
-
-    #search::placeholder { color: var(--text-dim); }
-
-    .filters {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-    }
-
-    .filter-btn {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      padding: 6px 12px;
-      border-radius: var(--radius);
-      border: 1px solid var(--border2);
-      background: transparent;
-      color: var(--text-dim);
-      cursor: pointer;
-      transition: all 0.15s;
-      white-space: nowrap;
-    }
-
-    .filter-btn:hover { border-color: var(--text-dim); color: var(--text); }
-    .filter-btn.active { background: var(--amber); color: #FBFAF5; border-color: var(--amber); font-weight: 600; }
-    .filter-btn[data-cat="Government"].active { background: var(--blue); border-color: var(--blue); }
-    .filter-btn[data-cat="Foundation"].active { background: var(--mauve); border-color: var(--mauve); }
-    .filter-btn[data-cat="Corporate"].active { background: var(--amber); border-color: var(--amber); }
-    .filter-btn[data-cat="Accelerator"].active { background: var(--green); border-color: var(--green); }
-
-    .viability-filter {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-left: auto;
-    }
-
-    .viability-filter label {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10px;
-      letter-spacing: 0.08em;
-      color: var(--text-dim);
-      cursor: pointer;
-      white-space: nowrap;
-    }
-
-    .viability-filter input[type="checkbox"] {
-      accent-color: var(--green);
-      width: 13px;
-      height: 13px;
-    }
-
-    /* ===== GRID ===== */
-    .grid-wrap {
-      position: relative;
-      z-index: 5;
-      padding: 32px 40px;
-    }
-
-    #results-info {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10px;
-      color: var(--text-dim);
-      letter-spacing: 0.08em;
-      margin-bottom: 20px;
-    }
-
-    .grant-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 16px;
-    }
-
-    /* ===== CARD ===== */
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--card-radius);
-      border-left: 3px solid var(--border2);
-      padding: 20px;
-      cursor: pointer;
-      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s, background 0.2s;
-      position: relative;
-      overflow: hidden;
-      opacity: 0;
-      transform: translateY(12px);
-      animation: cardReveal 0.4s ease forwards;
-    }
-
-    .card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-      background: var(--bg3);
-    }
-
-    @keyframes cardReveal {
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .card[data-cat="Government"] { border-left-color: var(--blue); }
-    .card[data-cat="Foundation"] { border-left-color: var(--mauve); }
-    .card[data-cat="Corporate"] { border-left-color: var(--amber); }
-    .card[data-cat="Accelerator"] { border-left-color: var(--green); }
-
-    .card[data-cat="Government"]:hover { box-shadow: 0 8px 32px rgba(74,142,240,0.08); }
-    .card[data-cat="Foundation"]:hover { box-shadow: 0 8px 32px rgba(144,96,216,0.08); }
-    .card[data-cat="Corporate"]:hover { box-shadow: 0 8px 32px rgba(232,160,37,0.08); }
-    .card[data-cat="Accelerator"]:hover { box-shadow: 0 8px 32px rgba(46,196,138,0.08); }
-
-    .card-header {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 14px;
-    }
-
-    .card-badges {
-      display: flex;
-      gap: 6px;
-      flex-shrink: 0;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-    }
-
-    .badge {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 9px;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 3px 7px;
-      border-radius: 2px;
-    }
-
-    .badge-cat[data-cat="Government"] { background: var(--blue-dim); color: var(--blue); }
-    .badge-cat[data-cat="Foundation"] { background: var(--mauve-dim); color: var(--mauve); }
-    .badge-cat[data-cat="Corporate"] { background: var(--amber-dim); color: var(--amber); }
-    .badge-cat[data-cat="Accelerator"] { background: var(--green-dim); color: var(--green); }
-
-    .badge-viable {
-      background: var(--green-dim);
-      color: var(--green);
-    }
-
-    .badge-viable.partial {
-      background: var(--orange-dim);
-      color: var(--orange);
-    }
-
-    .badge-viable.no {
-      background: rgba(150,139,120,0.18);
-      color: var(--text-dim);
-    }
-
-    .grant-name {
-      font-family: 'Playfair Display', serif;
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--text-bright);
-      line-height: 1.3;
-      flex: 1;
-    }
-
-    .grant-org {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10px;
-      color: var(--text-dim);
-      letter-spacing: 0.06em;
-      margin-bottom: 12px;
-    }
-
-    .card-data {
-      display: flex;
-      gap: 20px;
-      margin-bottom: 14px;
-      flex-wrap: wrap;
-    }
-
-    .data-item {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    .data-label {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 8px;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--text-dim);
-    }
-
-    .data-value {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 12px;
-      font-weight: 500;
-      color: var(--amber);
-    }
-
-    .data-value.deadline-urgent { color: var(--red); }
-    .data-value.deadline-soon { color: var(--orange); }
-    .data-value.deadline-ok { color: var(--green); }
-    .data-value.deadline-rolling { color: var(--text-dim); }
-
-    .urgency-dot {
-      display: inline-block;
-      width: 5px;
-      height: 5px;
-      border-radius: 50%;
-      vertical-align: middle;
-      margin-right: 4px;
-    }
-
-    .urgency-dot.urgent { background: var(--red); animation: pulse 1.5s ease-in-out infinite; }
-    .urgency-dot.soon { background: var(--orange); }
-    .urgency-dot.ok { background: var(--green); }
-    .urgency-dot.rolling { background: var(--text-dim); }
-
-    .grant-desc {
-      font-size: 12px;
-      color: var(--text);
-      line-height: 1.7;
-      margin-bottom: 14px;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .card.expanded .grant-desc {
-      -webkit-line-clamp: unset;
-      overflow: visible;
-    }
-
-    .tags {
-      display: flex;
-      gap: 5px;
-      flex-wrap: wrap;
-      margin-bottom: 14px;
-    }
-
-    .tag {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 9px;
-      color: var(--text-dim);
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      border-radius: 2px;
-      padding: 2px 6px;
-      letter-spacing: 0.05em;
-    }
-
-    .card-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding-top: 12px;
-      border-top: 1px solid var(--border);
-    }
-
-    .viability-note {
-      font-size: 11px;
-      color: var(--text-dim);
-      max-width: 60%;
-      line-height: 1.4;
-    }
-
-    .viability-note strong {
-      font-weight: 500;
-      color: var(--green);
-    }
-
-    .viability-note.partial strong { color: var(--orange); }
-    .viability-note.no strong { color: var(--text-dim); }
-
-    .card-link {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: 0.08em;
-      color: var(--text-dim);
-      text-decoration: none;
-      border: 1px solid var(--border2);
-      border-radius: var(--radius);
-      padding: 5px 10px;
-      transition: all 0.15s;
-      flex-shrink: 0;
-    }
-
-    .card-link:hover {
-      color: var(--amber);
-      border-color: var(--amber);
-    }
-
-    /* ===== EMPTY STATE ===== */
-    .empty-state {
-      grid-column: 1 / -1;
-      text-align: center;
-      padding: 80px 40px;
-      color: var(--text-dim);
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 12px;
-      letter-spacing: 0.08em;
-    }
-
-    /* ===== FOOTER ===== */
-    footer {
-      position: relative;
-      z-index: 5;
-      border-top: 1px solid var(--border);
-      padding: 24px 40px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .footer-note {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 9px;
-      color: var(--text-dim);
-      letter-spacing: 0.06em;
-      max-width: 600px;
-      line-height: 1.7;
-    }
-
-    .footer-legend {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 9px;
-      color: var(--text-dim);
-      letter-spacing: 0.06em;
-    }
-
-    .legend-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 1px;
-      flex-shrink: 0;
-    }
-
-    /* 2026 relevance states */
-    .card.not-2026 {
-      opacity: 0.45;
-      filter: grayscale(0.4);
-    }
-    .card.not-2026:hover {
-      opacity: 0.7;
-      filter: grayscale(0.2);
-    }
-    .card.uncertain-2026 {
-      border-left-style: dashed;
-    }
-
-    .badge-2026 {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 9px;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      padding: 3px 7px;
-      border-radius: 2px;
-    }
-    .badge-2026.yes  { background: var(--green-dim); color: var(--green); }
-    .badge-2026.uncertain { background: var(--orange-dim); color: var(--orange); border: 1px dashed var(--orange); }
-    .badge-2026.upcoming { background: var(--blue-dim); color: var(--blue); }
-    .badge-2026.no   { background: var(--red-dim); color: var(--red); }
-
-    @media (max-width: 600px) {
-      header, .grid-wrap { padding: 24px 16px; }
-      .controls { padding: 12px 16px; }
-      footer { padding: 16px; }
-      .grant-grid { grid-template-columns: 1fr; }
-    }
-
-    /* funding type badges */
-    .badge-funding { font-weight: 700; }
-    .badge-funding.cash { background: var(--green-dim); color: var(--green); }
-    .badge-funding.mixed { background: var(--amber-dim); color: var(--amber); }
-    .badge-funding.equity { background: var(--mauve-dim); color: var(--mauve); }
-    .badge-funding.credits { background: rgba(150,139,120,0.18); color: var(--text-dim); }
-    .card-amount-cash { color: var(--green); font-weight: 600; }
-
-    /* subscribe button */
-    .subscribe-btn {
-      display: inline-block; margin-top: 10px;
-      font-family: 'IBM Plex Mono', monospace; font-size: 10px;
-      letter-spacing: 0.1em; color: var(--green);
-      border: 1px solid var(--green); border-radius: 3px;
-      padding: 5px 11px; text-decoration: none; transition: background 0.2s;
-    }
-    .subscribe-btn:hover { background: var(--green-dim); }
-
-    /* concise cards — details hidden until the card is expanded */
-    .card-details { display: none; margin-top: 14px; }
-    .card.expanded .card-details { display: block; }
-    .card-toggle {
-      display: inline-flex; align-items: center; gap: 6px; margin-top: 12px;
-      font-family: 'IBM Plex Mono', monospace; font-size: 10px;
-      letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim);
-    }
-    .card-toggle .toggle-chev { display: inline-block; transition: transform 0.2s; }
-    .card.expanded .card-toggle { color: var(--amber); }
-    .card.expanded .card-toggle .toggle-chev { transform: rotate(180deg); }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Funding Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F1EBDE; --card:#FBF8F1; --card-hi:#FFFFFF;
+    --ink:#39342A; --ink-strong:#262219; --muted:#857A66; --line:#E4DCCB;
+    --clay:#BC5E3C; --sage:#5E6E44; --ochre:#B07F2B; --plum:#97697A; --slate:#577079; --brick:#AC4A36;
+    --sage-bg:rgba(94,110,68,0.13); --clay-bg:rgba(188,94,60,0.12); --ochre-bg:rgba(176,127,43,0.14);
+    --plum-bg:rgba(151,105,122,0.14); --slate-bg:rgba(87,112,121,0.14); --muted-bg:rgba(133,122,102,0.15);
+    --serif:'Spectral',Georgia,serif; --sans:'Inter',-apple-system,'Segoe UI',sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5;
+    -webkit-font-smoothing:antialiased}
+  body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.5;
+    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E")}
+  .wrap{position:relative;z-index:1;max-width:1240px;margin:0 auto;padding:0 24px}
+
+  /* header */
+  header{padding:40px 0 22px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--clay);font-weight:500}
+  h1{font-family:var(--serif);font-size:46px;font-weight:700;color:var(--ink-strong);line-height:1.05;margin-top:8px;letter-spacing:-0.01em}
+  h1 .accent{color:var(--clay)}
+  .subtitle{color:var(--muted);margin-top:8px;font-size:14.5px}
+  .header-row{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+  .header-actions{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+  .updated{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:0.06em}
+  .links{display:flex;gap:8px}
+  .btn{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:0.08em;text-decoration:none;
+    padding:7px 13px;border-radius:7px;border:1px solid var(--line);color:var(--ink);background:var(--card);transition:.15s}
+  .btn:hover{border-color:var(--clay);color:var(--clay)}
+  .btn.primary{background:var(--clay);color:#FBF8F1;border-color:var(--clay)}
+  .btn.primary:hover{background:#a64f30;color:#fff}
+
+  /* stats */
+  .stats{display:flex;gap:36px;flex-wrap:wrap;padding:18px 0 4px;border-top:1px solid var(--line);margin-top:18px}
+  .stat .v{font-family:var(--serif);font-size:30px;font-weight:700;color:var(--ink-strong)}
+  .stat .v.cash{color:var(--sage)} .stat .v.urgent{color:var(--brick)}
+  .stat .l{font-family:var(--mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+
+  /* controls */
+  .controls{position:sticky;top:0;z-index:5;background:rgba(241,235,222,0.92);backdrop-filter:blur(8px);
+    padding:16px 0;margin:14px 0 8px;border-bottom:1px solid var(--line);display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+  .search{flex:1;min-width:220px;position:relative}
+  .search input{width:100%;background:var(--card);border:1px solid var(--line);border-radius:8px;
+    padding:10px 14px;font-family:var(--sans);font-size:14px;color:var(--ink)}
+  .search input:focus{outline:none;border-color:var(--clay)}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip-btn{font-family:var(--mono);font-size:11px;letter-spacing:0.05em;padding:8px 13px;border-radius:7px;
+    border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer;transition:.15s}
+  .chip-btn:hover{color:var(--ink)}
+  .chip-btn.active{background:var(--ink-strong);color:var(--paper);border-color:var(--ink-strong)}
+  select.sort{font-family:var(--mono);font-size:11px;padding:8px 12px;border-radius:7px;border:1px solid var(--line);
+    background:var(--card);color:var(--ink);cursor:pointer}
+  .toggle{display:flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11px;letter-spacing:0.05em;
+    color:var(--muted);cursor:pointer;white-space:nowrap}
+  .toggle input{accent-color:var(--sage);width:14px;height:14px}
+
+  .count{font-family:var(--mono);font-size:11px;letter-spacing:0.1em;color:var(--muted);text-transform:uppercase;padding:6px 0 16px}
+
+  /* grid + cards */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;padding-bottom:60px;align-items:start}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;cursor:pointer;
+    transition:border-color .15s,box-shadow .15s,transform .15s;border-left:3px solid var(--line)}
+  .card:hover{border-color:var(--border2,#d8cdb8);box-shadow:0 6px 22px rgba(60,50,30,0.07);transform:translateY(-1px);background:var(--card-hi)}
+  .card[data-cat="Government"]{border-left-color:var(--slate)}
+  .card[data-cat="Foundation"]{border-left-color:var(--plum)}
+  .card[data-cat="Corporate"]{border-left-color:var(--ochre)}
+  .card[data-cat="Accelerator"]{border-left-color:var(--sage)}
+  .card-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:11px}
+  .chips-row{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{font-family:var(--mono);font-size:9.5px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;
+    padding:3px 8px;border-radius:5px}
+  .chip.cash{background:var(--sage-bg);color:var(--sage);font-weight:600}
+  .chip.mixed{background:var(--ochre-bg);color:var(--ochre)}
+  .chip.equity{background:var(--plum-bg);color:var(--plum)}
+  .chip.credits{background:var(--muted-bg);color:var(--muted)}
+  .chip.cat{background:transparent;color:var(--muted);border:1px solid var(--line)}
+  .fit{font-family:var(--mono);font-size:10px;letter-spacing:0.08em;white-space:nowrap;display:flex;align-items:center;gap:5px}
+  .fit .dots{letter-spacing:1px}
+  .fit.high{color:var(--sage)} .fit.med{color:var(--ochre)} .fit.low{color:var(--muted)}
+  .card-title{font-family:var(--serif);font-size:21px;font-weight:600;line-height:1.22;color:var(--ink-strong);margin-bottom:6px}
+  .card-org{font-size:12.5px;color:var(--muted);margin-bottom:13px}
+  .facts{display:flex;flex-direction:column;gap:6px}
+  .fact{display:flex;gap:8px;font-size:13.5px}
+  .fact .fl{font-family:var(--mono);font-size:10px;letter-spacing:0.06em;text-transform:uppercase;color:var(--muted);min-width:64px;padding-top:2px}
+  .fact .fv{color:var(--ink);font-weight:500}
+  .fact .fv.amount{color:var(--sage);font-weight:600}
+  .fact .fv.deadline-urgent{color:var(--brick);font-weight:600}
+  .expand{margin-top:14px;font-family:var(--mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;
+    color:var(--muted);background:none;border:none;cursor:pointer;display:flex;align-items:center;gap:6px;padding:0}
+  .expand .chev{transition:transform .2s}
+  .card.open .expand{color:var(--clay)} .card.open .expand .chev{transform:rotate(180deg)}
+  .details{display:none;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+  .card.open .details{display:block}
+  .desc{font-size:13.5px;color:var(--ink);line-height:1.6;margin-bottom:14px}
+  .checklist{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+  .checklist li{font-size:12.5px;color:var(--ink);line-height:1.45;display:flex;gap:9px}
+  .checklist .ck{flex-shrink:0}
+  .checklist .lbl{font-family:var(--mono);font-size:10px;letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);min-width:74px;flex-shrink:0;padding-top:1px}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+  .tag{font-family:var(--mono);font-size:10px;color:var(--muted);background:var(--muted-bg);padding:2px 7px;border-radius:4px}
+  .apply{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:0.08em;text-decoration:none;
+    color:#FBF8F1;background:var(--clay);padding:9px 16px;border-radius:7px;transition:.15s}
+  .apply:hover{background:#a64f30}
+  .empty{grid-column:1/-1;text-align:center;padding:60px 0;color:var(--muted);font-family:var(--mono);font-size:13px}
+
+  footer{border-top:1px solid var(--line);padding:24px 0 50px;color:var(--muted);font-size:12px;line-height:1.7}
+  @media(max-width:600px){h1{font-size:34px}.grid{grid-template-columns:1fr}.wrap{padding:0 16px}}
+</style>
 </head>
 <body>
+<div class="wrap">
+  <header>
+    <div class="header-row">
+      <div>
+        <div class="eyebrow">Funding Intelligence</div>
+        <h1>Funding <span class="accent">Radar</span></h1>
+        <p class="subtitle">Real-money grants &amp; public-goods funding — for teams, creators &amp; communities. Cash first.</p>
+      </div>
+      <div class="header-actions">
+        <div class="updated" id="updated">UPDATED —</div>
+        <div class="links">
+          <a class="btn" href="report.html">Weekly report →</a>
+          <a class="btn primary" href="https://ntfy.sh/liminal-grants-7c3f9" target="_blank" rel="noopener">🔔 Subscribe</a>
+        </div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="v" id="s-total">—</div><div class="l">Opportunities</div></div>
+      <div class="stat"><div class="v cash" id="s-cash">—</div><div class="l">💵 Real money</div></div>
+      <div class="stat"><div class="v" id="s-low">—</div><div class="l">Low-effort apply</div></div>
+      <div class="stat"><div class="v urgent" id="s-urgent">—</div><div class="l">Deadline &lt; 30d</div></div>
+    </div>
+  </header>
 
-<header>
-  <div class="header-top">
-    <div class="title-block">
-      <div class="eyebrow">AI Funding Intelligence</div>
-      <h1>Funding <span>Radar</span></h1>
-      <p class="subtitle">2026 Grant &amp; Opportunity Database — Small Team Edition</p>
+  <div class="controls">
+    <div class="search"><input id="search" type="text" placeholder="Search funding…"></div>
+    <div class="chips" id="audience-chips">
+      <button class="chip-btn active" data-aud="all">All</button>
+      <button class="chip-btn" data-aud="team">Teams</button>
+      <button class="chip-btn" data-aud="creator">Creators</button>
+      <button class="chip-btn" data-aud="org">Orgs</button>
     </div>
-    <div class="meta-block">
-      <div class="last-updated" id="last-updated">LAST UPDATED: 2026-03-13</div>
-      <div class="pulse">LIVE MONITORING</div>
-      <a class="subscribe-btn" href="https://ntfy.sh/liminal-grants-7c3f9" target="_blank" rel="noopener">🔔 SUBSCRIBE — WEEKLY ALERTS</a>
-    </div>
+    <select class="sort" id="sort">
+      <option value="fit">Best to apply</option>
+      <option value="cash">Most cash</option>
+      <option value="deadline">Soonest deadline</option>
+    </select>
+    <label class="toggle"><input type="checkbox" id="money-only">💵 Real money only</label>
+    <label class="toggle"><input type="checkbox" id="active-only" checked>2026 only</label>
   </div>
-  <div class="stats-bar" id="stats-bar">
-    <div class="stat viable">
-      <span class="stat-value" id="stat-viable">—</span>
-      <span class="stat-label">Viable for Your Team</span>
-    </div>
-    <div class="stat urgent">
-      <span class="stat-value" id="stat-urgent">—</span>
-      <span class="stat-label">Deadline &lt; 30 days</span>
-    </div>
-    <div class="stat viable">
-      <span class="stat-value" id="stat-cash">—</span>
-      <span class="stat-label">💵 Real Money (not credits)</span>
-    </div>
-    <div class="stat">
-      <span class="stat-value" id="stat-total">—</span>
-      <span class="stat-label">Total Opportunities</span>
-    </div>
-  </div>
-</header>
 
-<div class="controls">
-  <div class="search-wrap">
-    <span class="search-icon">⌕</span>
-    <input type="text" id="search" placeholder="Search grants...">
-  </div>
-  <div class="filters" id="filters">
-    <button class="filter-btn active" data-cat="All">All</button>
-    <button class="filter-btn" data-cat="Government">Gov</button>
-    <button class="filter-btn" data-cat="Foundation">Foundation</button>
-    <button class="filter-btn" data-cat="Corporate">Corporate</button>
-    <button class="filter-btn" data-cat="Accelerator">Accelerator</button>
-  </div>
-  <div class="viability-filter">
-    <label>
-      <input type="checkbox" id="viable-only">
-      VIABLE ONLY
-    </label>
-    <label>
-      <input type="checkbox" id="cash-only">
-      💵 REAL MONEY ONLY
-    </label>
-    <label>
-      <input type="checkbox" id="active-2026-only" checked>
-      2026 ACTIVE
-    </label>
-  </div>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    Verify deadlines &amp; eligibility on each program page before applying. Fit score weights cash size + low application effort.
+    Auto-updated weekly · <a href="https://ntfy.sh/liminal-grants-7c3f9" style="color:var(--clay)">subscribe for alerts</a>.
+  </footer>
 </div>
-
-<div class="grid-wrap">
-  <div id="results-info"></div>
-  <div class="grant-grid" id="grid"></div>
-</div>
-
-<footer>
-  <div class="footer-note">
-    Data compiled 2026-03-13. Verify all deadlines and eligibility directly with funders before applying.
-    Viability scores reflect suitability for small teams building AI platforms (2–10 people).
-    This page auto-refreshes when new opportunities are found.
-  </div>
-  <div class="footer-legend">
-    <div class="legend-item"><div class="legend-dot" style="background:var(--blue)"></div> Government</div>
-    <div class="legend-item"><div class="legend-dot" style="background:var(--mauve)"></div> Foundation</div>
-    <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div> Corporate</div>
-    <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> Accelerator</div>
-  </div>
-</footer>
 
 <script>
-// ===== DATA =====
-// viability: "yes" | "partial" | "no"
-// viabilityNote: why / what to do
-let GRANTS = [];
+let GRANTS=[];
+const state={aud:'all',q:'',sort:'fit',moneyOnly:false,activeOnly:true};
+const TODAY=new Date();
 
-// ===== STATE =====
-let activeFilter = 'All';
-let searchQuery = '';
-let viableOnly = false;
-let active2026Only = true;
-let cashOnly = false;
-const TODAY = new Date();
+const FUND={cash:{cls:'cash',label:'💵 Cash'},mixed:{cls:'mixed',label:'◐ Cash+Credits'},
+  equity:{cls:'equity',label:'📈 Equity'},credits:{cls:'credits',label:'☁ Credits'}};
+const AUD={team:'Teams',creator:'Creators',org:'Orgs'};
 
-// funding type: cash (real money) is the priority; credits come last
-const FUNDING_ORDER = { cash: 0, mixed: 1, equity: 2, credits: 3 };
-const FUNDING_LABEL = { cash: '💵 CASH', mixed: '◐ CASH+CREDITS', equity: '📈 EQUITY', credits: '☁ CREDITS' };
-
-// ===== DEADLINE UTILS =====
-function getDeadlineUrgency(grant) {
-  if (!grant.deadlineDate) return 'rolling';
-  const diff = (grant.deadlineDate - TODAY) / (1000 * 60 * 60 * 24);
-  if (diff < 0) return 'passed';
-  if (diff <= 30) return 'urgent';
-  if (diff <= 90) return 'soon';
-  return 'ok';
+// ---- money + fit ----
+function numVal(s,suf){let n=parseFloat(String(s).replace(/,/g,''));if(isNaN(n))return 0;
+  suf=(suf||'').toLowerCase();
+  if(suf[0]==='k'||suf==='thousand')n*=1e3;else if(suf[0]==='m'||suf==='million')n*=1e6;else if(suf[0]==='b'||suf==='billion')n*=1e9;
+  return n}
+function maxAmount(s){if(!s)return 0;let max=0,m;
+  const a=/[$€£]\s?([\d.,]+)\s*(k|m|b|million|billion|thousand)?/gi;
+  while((m=a.exec(s)))max=Math.max(max,numVal(m[1],m[2]));
+  const b=/(\d[\d.,]*)\s*(k|m|b|million|billion|thousand)\b/gi;
+  while((m=b.exec(s)))max=Math.max(max,numVal(m[1],m[2]));
+  return max}
+function magScore(a){if(a>=1e6)return 1;if(a>=25e4)return .85;if(a>=1e5)return .7;if(a>=25e3)return .5;if(a>=5e3)return .32;if(a>0)return .18;return .1}
+function fitScore(g){
+  const money={cash:1,mixed:.7,equity:.45,credits:.15}[g.fundingType]??.5;
+  const effort={low:1,medium:.55,high:.22}[g.effort]??.5;
+  const cash=.6*money+.4*magScore(maxAmount(g.amount));
+  return Math.round(100*(.5*cash+.5*effort));
 }
+function fitTier(s){return s>=68?{c:'high',d:'●●●',t:'High fit'}:s>=45?{c:'med',d:'●●○',t:'Medium fit'}:{c:'low',d:'●○○',t:'Low fit'}}
 
-function getDaysLabel(grant) {
-  if (!grant.deadlineDate) return grant.deadline;
-  const diff = Math.round((grant.deadlineDate - TODAY) / (1000 * 60 * 60 * 24));
-  if (diff < 0) return 'PASSED';
-  if (diff === 0) return 'TODAY';
-  if (diff === 1) return '1 DAY LEFT';
-  if (diff <= 30) return `${diff} DAYS LEFT`;
-  return grant.deadline;
-}
+// ---- deadline ----
+function dDate(g){return g.deadlineDate?new Date(g.deadlineDate):null}
+function daysLeft(g){const d=dDate(g);if(!d)return null;return Math.round((d-TODAY)/864e5)}
+function deadlineLabel(g){const dl=daysLeft(g);if(dl===null)return g.deadline||'Rolling';
+  if(dl<0)return 'Closed';if(dl===0)return 'Today';if(dl<=45)return dl+' days left';return g.deadline||(dDate(g).toISOString().slice(0,10))}
+function isUrgent(g){const dl=daysLeft(g);return dl!==null&&dl>=0&&dl<=30}
 
-// ===== STATS =====
-function updateStats(grants) {
-  const viable = grants.filter(g => g.viability === 'yes').length;
-  const urgent = grants.filter(g => {
-    const u = getDeadlineUrgency(g);
-    return u === 'urgent';
-  }).length;
-  const cash = grants.filter(g => g.fundingType && g.fundingType !== 'credits').length;
-
-  document.getElementById('stat-viable').textContent = viable;
-  document.getElementById('stat-urgent').textContent = urgent;
-  document.getElementById('stat-cash').textContent = cash;
-  document.getElementById('stat-total').textContent = grants.length;
-}
-
-// ===== RENDER =====
-function renderCard(grant, idx) {
-  const urgency = getDeadlineUrgency(grant);
-  const deadlineClass = urgency === 'passed' ? 'deadline-rolling' : `deadline-${urgency}`;
-  const daysLabel = getDaysLabel(grant);
-
-  const tagsHTML = grant.tags.map(t => `<span class="tag">${t}</span>`).join('');
-
-  const viabilityBadgeClass = grant.viability === 'yes' ? '' : grant.viability === 'partial' ? 'partial' : 'no';
-  const viabilityLabel = grant.viability === 'yes' ? '✓ VIABLE' : grant.viability === 'partial' ? '~ PARTIAL' : '✕ LIMITED';
-
-  const ft = grant.fundingType || 'cash';
-  const ftLabel = FUNDING_LABEL[ft] || '💵 CASH';
-  const amountClass = ft === 'cash' ? 'card-amount-cash' : '';
-
-  const r2026 = grant.relevant2026;
-  const r2026Class = r2026 === true ? 'yes' : r2026 === false ? 'no' : r2026 === 'upcoming' ? 'upcoming' : 'uncertain';
-  const r2026Label = r2026 === true ? '2026 ✓' : r2026 === false ? '2026 CLOSED' : r2026 === 'upcoming' ? '2026 SOON' : '2026 ?';
-  const cardExtraClass = r2026 === false ? 'not-2026' : r2026 === 'uncertain' ? 'uncertain-2026' : '';
-
-  const delay = Math.min(idx * 40, 400);
-
-  return `
-    <div class="card ${cardExtraClass}" data-cat="${grant.category}" data-id="${grant.id}" style="animation-delay:${delay}ms">
-      <div class="card-header">
-        <div class="grant-name">${grant.name}</div>
-        <div class="card-badges">
-          <span class="badge badge-funding ${ft}">${ftLabel}</span>
-          <span class="badge badge-cat" data-cat="${grant.category}">${grant.category}</span>
-          <span class="badge badge-2026 ${r2026Class}">${r2026Label}</span>
-          <span class="badge badge-viable ${viabilityBadgeClass}">${viabilityLabel}</span>
-        </div>
+// ---- render ----
+function card(g){
+  const f=FUND[g.fundingType]||FUND.cash;
+  const fit=fitScore(g),tier=fitTier(fit);
+  const urgent=isUrgent(g)?'deadline-urgent':'';
+  const amtCls=(g.fundingType==='cash'||g.fundingType==='mixed')?'amount':'';
+  const tags=(g.tags||[]).slice(0,6).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
+  const eff={low:'Low — rolling / simple',medium:'Medium',high:'High — competitive / heavy'}[g.effort]||g.effort||'—';
+  const auds=(g.audience||[]).map(a=>AUD[a]||a).join(', ');
+  return `<article class="card" data-cat="${esc(g.category)}" data-id="${g.id}">
+    <div class="card-top">
+      <div class="chips-row">
+        <span class="chip ${f.cls}">${f.label}</span>
+        <span class="chip cat">${esc(g.category)}</span>
       </div>
-      <div class="grant-org">${grant.organization}</div>
-      <div class="card-data">
-        <div class="data-item">
-          <span class="data-label">Amount</span>
-          <span class="data-value ${amountClass}">${grant.amount}</span>
-        </div>
-        <div class="data-item">
-          <span class="data-label">Deadline</span>
-          <span class="data-value ${deadlineClass}">
-            <span class="urgency-dot ${urgency}"></span>${daysLabel}
-          </span>
-        </div>
-      </div>
-      <div class="card-toggle"><span class="toggle-chev">▾</span><span class="toggle-label">Details</span></div>
-      <div class="card-details">
-        <div class="grant-desc">${grant.description}</div>
-        <div class="tags">${tagsHTML}</div>
-        <div class="card-footer">
-          <div style="flex:1; min-width:0;">
-            <div class="viability-note ${viabilityBadgeClass}" style="margin-bottom:5px;">
-              <strong>${viabilityLabel}</strong>: ${grant.viabilityNote}
-            </div>
-            <div class="viability-note" style="color:var(--text-dim); font-size:10px;">
-              <strong style="color:${r2026 === true ? 'var(--green)' : r2026 === false ? 'var(--red)' : r2026 === 'upcoming' ? 'var(--blue)' : 'var(--orange)'};">${r2026Label}</strong>: ${grant.relevant2026Note}
-            </div>
-          </div>
-          <a class="card-link" href="${grant.url}" target="_blank" rel="noopener" style="margin-left:12px;flex-shrink:0;">→ OPEN</a>
-        </div>
-      </div>
+      <span class="fit ${tier.c}" title="${tier.t} · weights cash size + low effort"><span class="dots">${tier.d}</span>FIT ${fit}</span>
     </div>
-  `;
+    <h2 class="card-title">${esc(g.name)}</h2>
+    <div class="card-org">${esc(g.organization)}${auds?' · '+esc(auds):''}</div>
+    <div class="facts">
+      <div class="fact"><span class="fl">Amount</span><span class="fv ${amtCls}">${esc(g.amount)}</span></div>
+      <div class="fact"><span class="fl">Deadline</span><span class="fv ${urgent}">${esc(deadlineLabel(g))}</span></div>
+    </div>
+    <button class="expand"><span class="chev">▾</span> Details</button>
+    <div class="details">
+      <p class="desc">${esc(g.description)}</p>
+      <ul class="checklist">
+        <li><span class="lbl">Funding</span><span>${f.label.replace(/^[^ ]+ /,'')} — ${esc(g.amount)}</span></li>
+        <li><span class="lbl">Effort</span><span>${eff}</span></li>
+        <li><span class="lbl">Deadline</span><span>${esc(g.deadline||'Rolling')}</span></li>
+        <li><span class="lbl">Eligible</span><span>${esc(g.eligibility||'See program page')}</span></li>
+        <li><span class="lbl">Why / fit</span><span>${esc(g.viabilityNote||'')}</span></li>
+      </ul>
+      ${tags?`<div class="tags">${tags}</div>`:''}
+      <a class="apply" href="${esc(g.url)}" target="_blank" rel="noopener">Open program / apply →</a>
+    </div>
+  </article>`;
 }
 
-function getFilteredGrants() {
-  return GRANTS.filter(g => {
-    if (activeFilter !== 'All' && g.category !== activeFilter) return false;
-    if (viableOnly && g.viability !== 'yes') return false;
-    if (cashOnly && (!g.fundingType || g.fundingType === 'credits')) return false;
-    if (active2026Only && g.relevant2026 === false) return false;
-    if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      if (!g.name.toLowerCase().includes(q) &&
-          !g.organization.toLowerCase().includes(q) &&
-          !g.description.toLowerCase().includes(q) &&
-          !g.tags.join(' ').toLowerCase().includes(q)) return false;
-    }
+function visible(){
+  return GRANTS.filter(g=>{
+    if(state.aud!=='all'&&!(g.audience||[]).includes(state.aud))return false;
+    if(state.moneyOnly&&g.fundingType==='credits')return false;
+    if(state.activeOnly&&g.relevant2026===false)return false;
+    if(state.q){const q=state.q.toLowerCase();
+      const hay=[g.name,g.organization,g.description,(g.tags||[]).join(' ')].join(' ').toLowerCase();
+      if(!hay.includes(q))return false}
     return true;
   });
 }
-
-function render() {
-  const filtered = getFilteredGrants();
-  const grid = document.getElementById('grid');
-  const info = document.getElementById('results-info');
-
-  info.textContent = `SHOWING ${filtered.length} OF ${GRANTS.length} OPPORTUNITIES`;
-
-  if (filtered.length === 0) {
-    grid.innerHTML = '<div class="empty-state">NO MATCHING OPPORTUNITIES — TRY ADJUSTING FILTERS</div>';
-    return;
-  }
-
-  // Sort: REAL MONEY first (cash > mixed > equity > credits), then viable, then urgency
-  const urgencyOrder = { urgent: 0, soon: 1, ok: 2, rolling: 3, passed: 4 };
-  const viabilityOrder = { yes: 0, partial: 1, no: 2 };
-
-  filtered.sort((a, b) => {
-    const fDiff = (FUNDING_ORDER[a.fundingType] ?? 9) - (FUNDING_ORDER[b.fundingType] ?? 9);
-    if (fDiff !== 0) return fDiff;
-    const vDiff = viabilityOrder[a.viability] - viabilityOrder[b.viability];
-    if (vDiff !== 0) return vDiff;
-    const ua = urgencyOrder[getDeadlineUrgency(a)] ?? 5;
-    const ub = urgencyOrder[getDeadlineUrgency(b)] ?? 5;
-    return ua - ub;
-  });
-
-  grid.innerHTML = filtered.map((g, i) => renderCard(g, i)).join('');
+function sortGrants(arr){
+  if(state.sort==='cash')return arr.sort((a,b)=>maxAmount(b.amount)-maxAmount(a.amount));
+  if(state.sort==='deadline')return arr.sort((a,b)=>{const A=daysLeft(a),B=daysLeft(b);
+    return (A===null?9e9:A<0?8e9:A)-(B===null?9e9:B<0?8e9:B)});
+  return arr.sort((a,b)=>fitScore(b)-fitScore(a)); // best to apply
 }
-
-// ===== EVENTS =====
-document.getElementById('search').addEventListener('input', e => {
-  searchQuery = e.target.value.trim();
-  render();
-});
-
-document.getElementById('filters').addEventListener('click', e => {
-  const btn = e.target.closest('.filter-btn');
-  if (!btn) return;
-  activeFilter = btn.dataset.cat;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  render();
-});
-
-document.getElementById('viable-only').addEventListener('change', e => {
-  viableOnly = e.target.checked;
-  render();
-});
-
-document.getElementById('cash-only').addEventListener('change', e => {
-  cashOnly = e.target.checked;
-  render();
-});
-
-// click a card to expand/collapse its details (but let the OPEN link work)
-document.getElementById('grid').addEventListener('click', e => {
-  if (e.target.closest('a')) return;
-  const card = e.target.closest('.card');
-  if (card) card.classList.toggle('expanded');
-});
-
-document.getElementById('active-2026-only').addEventListener('change', e => {
-  active2026Only = e.target.checked;
-  render();
-});
-
-// ===== INIT =====
-async function loadGrants() {
-  try {
-    const res = await fetch('grants.json?v=' + Date.now());
-    const raw = await res.json();
-    GRANTS = raw.map(g => ({
-      ...g,
-      deadlineDate: g.deadlineDate ? new Date(g.deadlineDate) : null
-    }));
-    const latest = raw.reduce((a, b) => (!b._updated || (a._updated || '') > (b._updated || '')) ? a : b, {});
-    const lastDate = latest._updated || new Date().toISOString().split('T')[0];
-    document.getElementById('last-updated').textContent = `LAST UPDATED: ${lastDate}`;
-  } catch(e) {
-    console.error('Failed to load grants.json', e);
-    document.getElementById('last-updated').textContent = 'ERROR LOADING DATA';
-  }
-  updateStats(GRANTS);
-  render();
+function render(){
+  const list=sortGrants(visible());
+  document.getElementById('count').textContent=`${list.length} of ${GRANTS.length} shown · sorted by ${ {fit:'best to apply',cash:'most cash',deadline:'soonest deadline'}[state.sort] }`;
+  const grid=document.getElementById('grid');
+  grid.innerHTML=list.length?list.map(card).join(''):'<div class="empty">No matches — adjust filters.</div>';
 }
-loadGrants();
+function stats(){
+  document.getElementById('s-total').textContent=GRANTS.length;
+  document.getElementById('s-cash').textContent=GRANTS.filter(g=>g.fundingType&&g.fundingType!=='credits').length;
+  document.getElementById('s-low').textContent=GRANTS.filter(g=>g.effort==='low').length;
+  document.getElementById('s-urgent').textContent=GRANTS.filter(isUrgent).length;
+}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+// ---- events ----
+document.getElementById('search').addEventListener('input',e=>{state.q=e.target.value.trim();render()});
+document.getElementById('sort').addEventListener('change',e=>{state.sort=e.target.value;render()});
+document.getElementById('money-only').addEventListener('change',e=>{state.moneyOnly=e.target.checked;render()});
+document.getElementById('active-only').addEventListener('change',e=>{state.activeOnly=e.target.checked;render()});
+document.getElementById('audience-chips').addEventListener('click',e=>{const b=e.target.closest('.chip-btn');if(!b)return;
+  state.aud=b.dataset.aud;document.querySelectorAll('#audience-chips .chip-btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');render()});
+document.getElementById('grid').addEventListener('click',e=>{if(e.target.closest('a'))return;
+  const c=e.target.closest('.card');if(c)c.classList.toggle('open')});
+
+// ---- load ----
+(async function(){
+  try{
+    const raw=await (await fetch('grants.json?v='+Date.now())).json();
+    GRANTS=raw;
+    const latest=raw.reduce((a,b)=>((b._updated||'')>(a._updated||'')?b:a),{});
+    document.getElementById('updated').textContent='UPDATED '+((latest._updated||new Date().toISOString().slice(0,10)));
+  }catch(e){document.getElementById('updated').textContent='LOAD ERROR';console.error(e)}
+  stats();render();
+})();
 </script>
 </body>
 </html>
