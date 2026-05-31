@@ -8,30 +8,31 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #080810;
-      --bg2: #0e0e1a;
-      --bg3: #141428;
-      --surface: #12121f;
-      --border: #1e1e36;
-      --border2: #2a2a4a;
-      --text: #c8c4e0;
-      --text-dim: #5e5a80;
-      --text-bright: #eae8f4;
-      --amber: #e8a025;
-      --amber-dim: rgba(232,160,37,0.12);
-      --amber-glow: rgba(232,160,37,0.06);
-      --green: #2ec48a;
-      --green-dim: rgba(46,196,138,0.12);
-      --red: #e85c5c;
-      --red-dim: rgba(232,92,92,0.12);
-      --orange: #e87830;
-      --orange-dim: rgba(232,120,48,0.12);
-      --blue: #4a8ef0;
-      --blue-dim: rgba(74,142,240,0.12);
-      --mauve: #9060d8;
-      --mauve-dim: rgba(144,96,216,0.12);
-      --teal: #20b8c8;
-      --teal-dim: rgba(32,184,200,0.12);
+      /* warm earthy palette — cream paper, clay/sage/ochre/plum (matches the report) */
+      --bg: #EDE6D8;        /* warm sand — page */
+      --bg2: #F3EEE3;       /* lighter warm */
+      --bg3: #FFFFFF;       /* card hover / lightest */
+      --surface: #FBFAF5;   /* card surface — warm near-white */
+      --border: #E2DACA;    /* warm hairline */
+      --border2: #D3C8B3;   /* stronger warm border */
+      --text: #4B4438;      /* warm dark brown — body */
+      --text-dim: #968B78;  /* warm taupe — labels */
+      --text-bright: #2E2A21;/* near-black warm — headings */
+      --amber: #C2613F;     /* clay — primary accent */
+      --amber-dim: rgba(194,97,63,0.14);
+      --amber-glow: rgba(194,97,63,0.07);
+      --green: #6E8056;     /* sage — viable / cash */
+      --green-dim: rgba(110,128,86,0.16);
+      --red: #B14E3A;       /* warm brick — urgent */
+      --red-dim: rgba(177,78,58,0.14);
+      --orange: #C0822F;    /* warm ochre */
+      --orange-dim: rgba(192,130,47,0.15);
+      --blue: #5C7C84;      /* muted teal-slate — government */
+      --blue-dim: rgba(92,124,132,0.15);
+      --mauve: #9A6A7C;     /* dusty plum — foundation */
+      --mauve-dim: rgba(154,106,124,0.15);
+      --teal: #4F8A82;      /* muted teal */
+      --teal-dim: rgba(79,138,130,0.15);
       --radius: 3px;
       --card-radius: 4px;
     }
@@ -68,7 +69,7 @@
       transform: translateX(-50%);
       width: 900px;
       height: 500px;
-      background: radial-gradient(ellipse, rgba(232,160,37,0.06) 0%, transparent 70%);
+      background: radial-gradient(ellipse, rgba(194,97,63,0.07) 0%, transparent 70%);
       pointer-events: none;
       z-index: 0;
     }
@@ -79,7 +80,7 @@
       z-index: 10;
       padding: 48px 40px 36px;
       border-bottom: 1px solid var(--border);
-      background: linear-gradient(180deg, rgba(14,14,26,0.95) 0%, transparent 100%);
+      background: linear-gradient(180deg, rgba(243,238,227,0.92) 0%, transparent 100%);
     }
 
     .header-top {
@@ -209,7 +210,7 @@
       position: sticky;
       top: 0;
       z-index: 20;
-      background: rgba(8,8,16,0.95);
+      background: rgba(237,230,216,0.94);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
       padding: 16px 40px;
@@ -278,7 +279,7 @@
     }
 
     .filter-btn:hover { border-color: var(--text-dim); color: var(--text); }
-    .filter-btn.active { background: var(--amber); color: #000; border-color: var(--amber); font-weight: 600; }
+    .filter-btn.active { background: var(--amber); color: #FBFAF5; border-color: var(--amber); font-weight: 600; }
     .filter-btn[data-cat="Government"].active { background: var(--blue); border-color: var(--blue); }
     .filter-btn[data-cat="Foundation"].active { background: var(--mauve); border-color: var(--mauve); }
     .filter-btn[data-cat="Corporate"].active { background: var(--amber); border-color: var(--amber); }
@@ -408,7 +409,7 @@
     }
 
     .badge-viable.no {
-      background: rgba(94,90,128,0.15);
+      background: rgba(150,139,120,0.18);
       color: var(--text-dim);
     }
 
@@ -630,10 +631,10 @@
       padding: 3px 7px;
       border-radius: 2px;
     }
-    .badge-2026.yes  { background: rgba(46,196,138,0.12); color: var(--green); }
-    .badge-2026.uncertain { background: rgba(232,120,48,0.12); color: var(--orange); border: 1px dashed var(--orange); }
-    .badge-2026.upcoming { background: rgba(74,142,240,0.1); color: var(--blue); }
-    .badge-2026.no   { background: rgba(232,92,92,0.1); color: var(--red); }
+    .badge-2026.yes  { background: var(--green-dim); color: var(--green); }
+    .badge-2026.uncertain { background: var(--orange-dim); color: var(--orange); border: 1px dashed var(--orange); }
+    .badge-2026.upcoming { background: var(--blue-dim); color: var(--blue); }
+    .badge-2026.no   { background: var(--red-dim); color: var(--red); }
 
     @media (max-width: 600px) {
       header, .grid-wrap { padding: 24px 16px; }
@@ -647,7 +648,7 @@
     .badge-funding.cash { background: var(--green-dim); color: var(--green); }
     .badge-funding.mixed { background: var(--amber-dim); color: var(--amber); }
     .badge-funding.equity { background: var(--mauve-dim); color: var(--mauve); }
-    .badge-funding.credits { background: rgba(94,90,128,0.18); color: var(--text-dim); }
+    .badge-funding.credits { background: rgba(150,139,120,0.18); color: var(--text-dim); }
     .card-amount-cash { color: var(--green); font-weight: 600; }
 
     /* subscribe button */
