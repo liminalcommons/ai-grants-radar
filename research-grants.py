@@ -72,8 +72,10 @@ Find funding a SMALL ORG / NONPROFIT can apply for:
 PROMPT_TEMPLATE = """\
 You are a grant-research agent. Use web search to find CURRENT (open now or
 opening/closing in 2026) funding opportunities relevant to the audience below.
-Scope is NOT limited to AI — include open-source, public-goods, climate, civic,
-research, and creative funding too.
+Scope is BROAD — list ANYTHING with real cash a small team / individual / small
+org could realistically win, across ALL fields: AI, open-source, web3/public
+goods, climate, creative/arts, research, civic/social, and general startup.
+If it gives cash, it belongs on the radar.
 
 ALSO MONITOR web3 / public-goods funding explicitly: Gitcoin Grants rounds,
 Giveth, Optimism RetroPGF, quadratic-funding rounds, Protocol Guild, Drips,
@@ -109,6 +111,7 @@ Return ONLY a JSON array (no prose, no markdown fences) where each element is:
   "viabilityNote": str,          // why, and what action to take
   "fundingType": "cash" | "credits" | "equity" | "mixed",  // cash = real money (prioritize)
   "effort": "low" | "medium" | "high",   // application burden — low = rolling/simple, high = SBIR/accelerator/RFP
+  "domain": "AI" | "Web3 / Public Goods" | "Open Source" | "Climate" | "Creative" | "Research" | "Civic / Social" | "Startup / General",
   "relevant2026": true | false | "upcoming",
   "relevant2026Note": str
 }}

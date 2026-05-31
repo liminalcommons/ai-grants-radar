@@ -62,10 +62,40 @@ SCHEMA_DEFAULTS = {
     "audience": ["team"],   # subset of {team, creator, org}
     "fundingType": "cash",  # cash | credits | equity | mixed  (cash is the priority)
     "effort": "medium",     # low | medium | high  (application burden — low effort is preferred)
+    "domain": "Startup / General",  # broad field/category (see DOMAINS)
 }
+
+DOMAINS = ["AI", "Web3 / Public Goods", "Open Source", "Climate", "Creative",
+           "Research", "Civic / Social", "Startup / General"]
 
 # Priority order for display/ranking: real money first, credits last.
 FUNDING_RANK = {"cash": 0, "mixed": 1, "equity": 2, "credits": 3}
+
+
+def classify_domain(grant):
+    """Bucket a grant into a broad field for the category filter."""
+    text = " ".join([
+        str(grant.get("name", "")), str(grant.get("organization", "")),
+        str(grant.get("description", "")), " ".join(grant.get("tags", []) or []),
+    ]).lower()
+    has = lambda *ws: any(w in text for w in ws)
+    if has("gitcoin", "giveth", "retropgf", "retro pgf", "quadratic", "protocol guild",
+           "onchain", "on-chain", "web3", "crypto", "ethereum", "dao", "blockchain", "public goods"):
+        return "Web3 / Public Goods"
+    if has("climate", "carbon", "clean energy", "sustainab", "decarbon", "biodiversity", "renewable"):
+        return "Climate"
+    if has("artist", "music", "film", "creative", "residency", "culture", "gallery", "art "):
+        return "Creative"
+    if has("open source", "open-source", " oss", "maintainer", "foss"):
+        return "Open Source"
+    if has("artificial intelligence", "machine learning", "llm", "genai", "generative",
+           "ai ", "ai-", "ai/", " ai", "alignment", "inference"):
+        return "AI"
+    if has("nonprofit", "civic", "community", "social impact", "democracy", "humanitarian", "for good", "for nonprofits"):
+        return "Civic / Social"
+    if has("research", "fellowship", "phd", "scholar", "scientific", "laboratory"):
+        return "Research"
+    return "Startup / General"
 
 
 def classify_effort(grant):
@@ -157,6 +187,8 @@ def normalise(item):
         record["fundingType"] = classify_funding_type(record)
     if not item.get("effort"):
         record["effort"] = classify_effort(record)
+    if not item.get("domain"):
+        record["domain"] = classify_domain(record)
     return fix_mojibake(record)
 
 

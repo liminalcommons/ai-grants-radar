@@ -149,6 +149,7 @@
       <button class="chip-btn" data-aud="creator">Creators</button>
       <button class="chip-btn" data-aud="org">Orgs</button>
     </div>
+    <select class="sort" id="domain"><option value="all">All fields</option></select>
     <select class="sort" id="sort">
       <option value="fit">Best to apply</option>
       <option value="cash">Most cash</option>
@@ -169,7 +170,7 @@
 
 <script>
 let GRANTS=[];
-const state={aud:'all',q:'',sort:'fit',moneyOnly:false,activeOnly:true};
+const state={aud:'all',domain:'all',q:'',sort:'fit',moneyOnly:false,activeOnly:true};
 const TODAY=new Date();
 
 const FUND={cash:{cls:'cash',label:'💵 Cash'},mixed:{cls:'mixed',label:'◐ Cash+Credits'},
@@ -216,7 +217,7 @@ function card(g){
     <div class="card-top">
       <div class="chips-row">
         <span class="chip ${f.cls}">${f.label}</span>
-        <span class="chip cat">${esc(g.category)}</span>
+        <span class="chip cat">${esc(g.domain||g.category)}</span>
       </div>
       <span class="fit ${tier.c}" title="${tier.t} · weights cash size + low effort"><span class="dots">${tier.d}</span>FIT ${fit}</span>
     </div>
@@ -233,6 +234,7 @@ function card(g){
         <li><span class="lbl">Funding</span><span>${f.label.replace(/^[^ ]+ /,'')} — ${esc(g.amount)}</span></li>
         <li><span class="lbl">Effort</span><span>${eff}</span></li>
         <li><span class="lbl">Deadline</span><span>${esc(g.deadline||'Rolling')}</span></li>
+        <li><span class="lbl">Source</span><span>${esc(g.category)}${g.domain?' · '+esc(g.domain):''}</span></li>
         <li><span class="lbl">Eligible</span><span>${esc(g.eligibility||'See program page')}</span></li>
         <li><span class="lbl">Why / fit</span><span>${esc(g.viabilityNote||'')}</span></li>
       </ul>
@@ -245,6 +247,7 @@ function card(g){
 function visible(){
   return GRANTS.filter(g=>{
     if(state.aud!=='all'&&!(g.audience||[]).includes(state.aud))return false;
+    if(state.domain!=='all'&&g.domain!==state.domain)return false;
     if(state.moneyOnly&&g.fundingType==='credits')return false;
     if(state.activeOnly&&g.relevant2026===false)return false;
     if(state.q){const q=state.q.toLowerCase();
@@ -276,6 +279,7 @@ function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','
 // ---- events ----
 document.getElementById('search').addEventListener('input',e=>{state.q=e.target.value.trim();render()});
 document.getElementById('sort').addEventListener('change',e=>{state.sort=e.target.value;render()});
+document.getElementById('domain').addEventListener('change',e=>{state.domain=e.target.value;render()});
 document.getElementById('money-only').addEventListener('change',e=>{state.moneyOnly=e.target.checked;render()});
 document.getElementById('active-only').addEventListener('change',e=>{state.activeOnly=e.target.checked;render()});
 document.getElementById('audience-chips').addEventListener('click',e=>{const b=e.target.closest('.chip-btn');if(!b)return;
@@ -288,6 +292,9 @@ document.getElementById('grid').addEventListener('click',e=>{if(e.target.closest
   try{
     const raw=await (await fetch('grants.json?v='+Date.now())).json();
     GRANTS=raw;
+    const doms=[...new Set(GRANTS.map(g=>g.domain).filter(Boolean))].sort();
+    const sel=document.getElementById('domain');
+    doms.forEach(d=>{const o=document.createElement('option');o.value=d;o.textContent=d;sel.appendChild(o)});
     const latest=raw.reduce((a,b)=>((b._updated||'')>(a._updated||'')?b:a),{});
     document.getElementById('updated').textContent='UPDATED '+((latest._updated||new Date().toISOString().slice(0,10)));
   }catch(e){document.getElementById('updated').textContent='LOAD ERROR';console.error(e)}
