@@ -193,7 +193,7 @@
     </select>
     <label class="toggle"><input type="checkbox" id="money-only">💵 Real money only</label>
     <label class="toggle"><input type="checkbox" id="active-only" checked>2026 only</label>
-    <label class="toggle"><input type="checkbox" id="show-closed">Show closed</label>
+    <label class="toggle"><input type="checkbox" id="hide-expired">Hide expired</label>
   </div>
 
   <div class="count" id="count"></div>
@@ -220,7 +220,7 @@
 
 <script>
 let GRANTS=[];
-const state={aud:'all',domain:'all',q:'',sort:'fit',moneyOnly:false,activeOnly:true,showClosed:false};
+const state={aud:'all',domain:'all',q:'',sort:'fit',moneyOnly:false,activeOnly:true,hideExpired:false};
 const TODAY=new Date();
 
 const FUND={cash:{cls:'cash',label:'💵 Cash'},mixed:{cls:'mixed',label:'◐ Cash+Credits'},
@@ -251,11 +251,16 @@ function fitTier(s){return s>=68?{c:'high',d:'●●●',t:'High fit'}:s>=45?{c:
 function dDate(g){
   if(g.deadlineDate){const d=new Date(g.deadlineDate);if(!isNaN(d))return d}
   const s=g.deadline||'';
-  if(/rolling|ongoing|tbd|tba|quarterly|annual|anytime|cycle|various|continuous|open/i.test(s))return null;
-  // only treat as a real deadline if it has a month name or numeric date
-  if(!/(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i.test(s)&&!/\d{4}-\d{2}-\d{2}/.test(s)&&!/\d{1,2}\/\d{1,2}/.test(s))return null;
-  const cleaned=s.replace(/\(.*?\)/g,'').replace(/(\d{1,2})\s*[-–]\s*\d{1,2}/,'$1').trim();
-  const d=new Date(cleaned);return isNaN(d)?null:d;
+  if(/rolling|ongoing|tbd|tba|quarterly|annual|anytime|cycle|various|continuous/i.test(s))return null;
+  const M='jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec';
+  // pull a date OUT of messy text like "Closes May 17, 2026" / "due 2026-07-15" / "June 20-21, 2026"
+  let m=s.match(new RegExp('('+M+')[a-z]*\\.?\\s+(\\d{1,2})(?:\\s*[-\\u2013]\\s*\\d{1,2})?,?\\s+(\\d{4})','i'));
+  if(m){const d=new Date(m[1]+' '+m[2]+', '+m[3]);return isNaN(d)?null:d}
+  m=s.match(/(\d{4})-(\d{2})-(\d{2})/);
+  if(m){const d=new Date(m[0]);return isNaN(d)?null:d}
+  m=s.match(new RegExp('('+M+')[a-z]*\\.?\\s+(\\d{4})','i')); // "May 2026" -> treat as end of month
+  if(m){const d=new Date(m[1]+' 28, '+m[2]);return isNaN(d)?null:d}
+  return null;
 }
 function daysLeft(g){const d=dDate(g);if(!d)return null;return Math.round((d-TODAY)/864e5)}
 function deadlineLabel(g){const dl=daysLeft(g);if(dl===null)return g.deadline||'Rolling';
@@ -304,7 +309,7 @@ function card(g){
 
 function visible(){
   return GRANTS.filter(g=>{
-    if(!state.showClosed){const dl=daysLeft(g);if(dl!==null&&dl<0)return false;} // hide past-deadline
+    if(state.hideExpired&&closed(g))return false; // expired shown by default, but sorted last
     if(state.aud!=='all'&&!(g.audience||[]).includes(state.aud))return false;
     if(state.domain!=='all'&&g.domain!==state.domain)return false;
     if(state.moneyOnly&&g.fundingType==='credits')return false;
@@ -349,7 +354,7 @@ document.getElementById('sort').addEventListener('change',e=>{state.sort=e.targe
 document.getElementById('domain').addEventListener('change',e=>{state.domain=e.target.value;render()});
 document.getElementById('money-only').addEventListener('change',e=>{state.moneyOnly=e.target.checked;render()});
 document.getElementById('active-only').addEventListener('change',e=>{state.activeOnly=e.target.checked;render()});
-document.getElementById('show-closed').addEventListener('change',e=>{state.showClosed=e.target.checked;render()});
+document.getElementById('hide-expired').addEventListener('change',e=>{state.hideExpired=e.target.checked;render()});
 document.getElementById('audience-chips').addEventListener('click',e=>{const b=e.target.closest('.chip-btn');if(!b)return;
   state.aud=b.dataset.aud;document.querySelectorAll('#audience-chips .chip-btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');render()});
 document.getElementById('grid').addEventListener('click',e=>{if(e.target.closest('a'))return;
@@ -357,6 +362,8 @@ document.getElementById('grid').addEventListener('click',e=>{if(e.target.closest
 
 // ===== matching assistant (client-side brain — swap matchEngine() for Liminalia/LiteLLM later) =====
 const profile={audience:null,domain:null,needCash:true,text:''};
+const WORKER_URL='https://grants-bot.accounts-82f.workers.dev'; // glm-5.1 via OpenCode Go (key server-side)
+const chatHistory=[];
 let chatStarted=false;
 const log=()=>document.getElementById('mp-log');
 function scrollLog(){const l=log();l.scrollTop=l.scrollHeight}
@@ -378,26 +385,51 @@ function askDomain(){bubble('bot','What field is your work in?');
   quickReplies([{label:'Any field',v:null}].concat(doms.map(d=>({label:d,v:d}))).map(o=>({label:o.label,cb:()=>{profile.domain=o.v;askNeed()}})))}
 function askNeed(){bubble('bot','Real cash only, or are cloud credits OK too?');
   quickReplies([
-    {label:'💵 Real cash only',cb:()=>{profile.needCash=true;showMatches()}},
-    {label:'Cash or credits',cb:()=>{profile.needCash=false;showMatches()}},
+    {label:'💵 Real cash only',cb:()=>{profile.needCash=true;runProfile()}},
+    {label:'Cash or credits',cb:()=>{profile.needCash=false;runProfile()}},
   ])}
+function runProfile(){
+  const who=profile.audience==='team'?'a team/startup':profile.audience==='creator'?'an individual creator':'a nonprofit/org';
+  const fld=profile.domain?(' working in '+profile.domain):'';
+  chatHistory.push({role:'user',content:`I'm ${who}${fld}. I want ${profile.needCash?'real cash':'cash or credits'} funding.`});
+  recommend();
+}
 function whyMatch(g){const b=[];
   if(profile.audience&&(g.audience||[]).includes(profile.audience))b.push('fits '+(AUD[profile.audience]||profile.audience).toLowerCase());
   if(g.fundingType==='cash')b.push('real cash');else if(g.fundingType==='mixed')b.push('cash + credits');
   if(g.effort==='low')b.push('low-effort apply');
   const dl=daysLeft(g);b.push(dl!==null&&dl>=0?dl+' days left':'rolling');
   return 'Matches: '+b.join(' · ')+'.'}
-function showMatches(){const m=matchEngine(profile);
-  if(!m.length){bubble('bot','No open matches with those filters — try “Any field”, or describe your situation below.');return}
-  bubble('bot',`Your top ${m.length} open matches, best-to-apply first:`);
-  m.forEach(g=>{const c=document.createElement('div');c.className='match-card';
-    c.innerHTML=`<div class="mc-name">${esc(g.name)}</div>
-      <div class="mc-meta"><span class="amt">${esc(g.amount)}</span> · ${esc(deadlineLabel(g))} · ${esc(g.domain||'')}</div>
-      <div class="mc-why">${esc(whyMatch(g))}</div>
-      <a class="mc-apply" href="${esc(g.url)}" target="_blank" rel="noopener">Open / apply →</a>`;
-    log().appendChild(c)});
-  scrollLog();
-  bubble('bot','Refine anytime — describe yourself below (e.g. “EU open-source maintainer, need ~€30k”).')}
+function renderMatchCard(g){const c=document.createElement('div');c.className='match-card';
+  c.innerHTML=`<div class="mc-name">${esc(g.name)}</div>
+    <div class="mc-meta"><span class="amt">${esc(g.amount)}</span> · ${esc(deadlineLabel(g))} · ${esc(g.domain||'')}</div>
+    <div class="mc-why">${esc(whyMatch(g))}</div>
+    <a class="mc-apply" href="${esc(g.url)}" target="_blank" rel="noopener">Open / apply →</a>`;
+  log().appendChild(c)}
+function renderClientMatches(m){
+  m.slice(0,6).forEach(renderMatchCard);scrollLog();
+  bubble('bot','Refine anytime — tell me more (e.g. “EU open-source maintainer, need ~€30k”).')}
+function mdLite(s){let h=esc(s);
+  h=h.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+  h=h.replace(/(https?:\/\/[^\s<]+)/g,'<a href="$1" target="_blank" rel="noopener" style="color:var(--clay)">$1</a>');
+  return h.replace(/\n/g,'<br>')}
+async function askLLM(candidates){
+  const r=await fetch(WORKER_URL,{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({messages:chatHistory.slice(-8),candidates})});
+  if(!r.ok)throw new Error('http '+r.status);
+  const d=await r.json();if(!d.text)throw new Error('no text');return d.text}
+async function recommend(){
+  const cands=matchEngine(profile);
+  if(!cands.length){bubble('bot','No open matches yet — try “Any field”, or tell me more about your work.');return}
+  const thinking=bubble('bot','<em>Thinking through your best matches…</em>');
+  const compact=cands.slice(0,20).map(g=>({name:g.name,org:g.organization,amount:g.amount,
+    deadline:deadlineLabel(g),domain:g.domain,fundingType:g.fundingType,effort:g.effort,url:g.url}));
+  let text=null;
+  try{text=await askLLM(compact)}catch(e){text=null}
+  thinking.remove();
+  if(text){chatHistory.push({role:'assistant',content:text});bubble('bot',mdLite(text))}
+  else{bubble('bot','Here are your top open matches:');renderClientMatches(cands)}
+}
 
 // THE BRAIN — replace with a Liminalia/LiteLLM API call when ready (same in/out shape).
 function matchEngine(p){
@@ -425,7 +457,7 @@ function parseText(t){const x=t.toLowerCase();profile.text=t;
   else if(/civic|democracy|social impact|community/.test(x))profile.domain='Civic / Social';
   profile.needCash=!/credit|cloud|compute/.test(x)}
 function sendText(){const inp=document.getElementById('mp-text');const t=inp.value.trim();if(!t)return;inp.value='';
-  chatStarted=true;bubble('me',esc(t));parseText(t);bubble('bot','Got it — matching on that…');showMatches()}
+  chatStarted=true;bubble('me',esc(t));parseText(t);chatHistory.push({role:'user',content:t});recommend()}
 function initMatcher(){
   document.getElementById('match-fab').onclick=()=>{document.getElementById('match-panel').classList.add('open');startChat()};
   document.getElementById('mp-close').onclick=()=>document.getElementById('match-panel').classList.remove('open');
