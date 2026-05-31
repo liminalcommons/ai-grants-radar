@@ -15,14 +15,14 @@
       --surface: #FBFAF5;   /* card surface — warm near-white */
       --border: #E2DACA;    /* warm hairline */
       --border2: #D3C8B3;   /* stronger warm border */
-      --text: #4B4438;      /* warm dark brown — body */
-      --text-dim: #968B78;  /* warm taupe — labels */
-      --text-bright: #2E2A21;/* near-black warm — headings */
+      --text: #3A352B;      /* warm dark brown — body (higher contrast) */
+      --text-dim: #6F6552;  /* warm taupe — labels (darker for legibility) */
+      --text-bright: #28241C;/* near-black warm — headings */
       --amber: #C2613F;     /* clay — primary accent */
       --amber-dim: rgba(194,97,63,0.14);
       --amber-glow: rgba(194,97,63,0.07);
-      --green: #6E8056;     /* sage — viable / cash */
-      --green-dim: rgba(110,128,86,0.16);
+      --green: #5C6E45;     /* sage — viable / cash (darker for contrast) */
+      --green-dim: rgba(110,128,86,0.18);
       --red: #B14E3A;       /* warm brick — urgent */
       --red-dim: rgba(177,78,58,0.14);
       --orange: #C0822F;    /* warm ochre */
@@ -660,6 +660,18 @@
       padding: 5px 11px; text-decoration: none; transition: background 0.2s;
     }
     .subscribe-btn:hover { background: var(--green-dim); }
+
+    /* concise cards — details hidden until the card is expanded */
+    .card-details { display: none; margin-top: 14px; }
+    .card.expanded .card-details { display: block; }
+    .card-toggle {
+      display: inline-flex; align-items: center; gap: 6px; margin-top: 12px;
+      font-family: 'IBM Plex Mono', monospace; font-size: 10px;
+      letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim);
+    }
+    .card-toggle .toggle-chev { display: inline-block; transition: transform 0.2s; }
+    .card.expanded .card-toggle { color: var(--amber); }
+    .card.expanded .card-toggle .toggle-chev { transform: rotate(180deg); }
   </style>
 </head>
 <body>
@@ -843,18 +855,21 @@ function renderCard(grant, idx) {
           </span>
         </div>
       </div>
-      <div class="grant-desc">${grant.description}</div>
-      <div class="tags">${tagsHTML}</div>
-      <div class="card-footer">
-        <div style="flex:1; min-width:0;">
-          <div class="viability-note ${viabilityBadgeClass}" style="margin-bottom:5px;">
-            <strong>${viabilityLabel}</strong>: ${grant.viabilityNote}
+      <div class="card-toggle"><span class="toggle-chev">▾</span><span class="toggle-label">Details</span></div>
+      <div class="card-details">
+        <div class="grant-desc">${grant.description}</div>
+        <div class="tags">${tagsHTML}</div>
+        <div class="card-footer">
+          <div style="flex:1; min-width:0;">
+            <div class="viability-note ${viabilityBadgeClass}" style="margin-bottom:5px;">
+              <strong>${viabilityLabel}</strong>: ${grant.viabilityNote}
+            </div>
+            <div class="viability-note" style="color:var(--text-dim); font-size:10px;">
+              <strong style="color:${r2026 === true ? 'var(--green)' : r2026 === false ? 'var(--red)' : r2026 === 'upcoming' ? 'var(--blue)' : 'var(--orange)'};">${r2026Label}</strong>: ${grant.relevant2026Note}
+            </div>
           </div>
-          <div class="viability-note" style="color:var(--text-dim); font-size:10px;">
-            <strong style="color:${r2026 === true ? 'var(--green)' : r2026 === false ? 'var(--red)' : r2026 === 'upcoming' ? 'var(--blue)' : 'var(--orange)'};">${r2026Label}</strong>: ${grant.relevant2026Note}
-          </div>
+          <a class="card-link" href="${grant.url}" target="_blank" rel="noopener" style="margin-left:12px;flex-shrink:0;">→ OPEN</a>
         </div>
-        <a class="card-link" href="${grant.url}" target="_blank" rel="noopener" style="margin-left:12px;flex-shrink:0;">→ DETAILS</a>
       </div>
     </div>
   `;
@@ -929,6 +944,13 @@ document.getElementById('viable-only').addEventListener('change', e => {
 document.getElementById('cash-only').addEventListener('change', e => {
   cashOnly = e.target.checked;
   render();
+});
+
+// click a card to expand/collapse its details (but let the OPEN link work)
+document.getElementById('grid').addEventListener('click', e => {
+  if (e.target.closest('a')) return;
+  const card = e.target.closest('.card');
+  if (card) card.classList.toggle('expanded');
 });
 
 document.getElementById('active-2026-only').addEventListener('change', e => {
