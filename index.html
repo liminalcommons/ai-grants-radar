@@ -110,6 +110,7 @@
   .apply{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:0.08em;text-decoration:none;
     color:#FBF8F1;background:var(--clay);padding:9px 16px;border-radius:7px;transition:.15s}
   .apply:hover{background:#a64f30}
+  .card.is-closed{opacity:.5}
   .empty{grid-column:1/-1;text-align:center;padding:60px 0;color:var(--muted);font-family:var(--mono);font-size:13px}
 
   footer{border-top:1px solid var(--line);padding:24px 0 50px;color:var(--muted);font-size:12px;line-height:1.7}
@@ -157,6 +158,7 @@
     </select>
     <label class="toggle"><input type="checkbox" id="money-only">💵 Real money only</label>
     <label class="toggle"><input type="checkbox" id="active-only" checked>2026 only</label>
+    <label class="toggle"><input type="checkbox" id="show-closed">Show closed</label>
   </div>
 
   <div class="count" id="count"></div>
@@ -170,7 +172,7 @@
 
 <script>
 let GRANTS=[];
-const state={aud:'all',domain:'all',q:'',sort:'fit',moneyOnly:false,activeOnly:true};
+const state={aud:'all',domain:'all',q:'',sort:'fit',moneyOnly:false,activeOnly:true,showClosed:false};
 const TODAY=new Date();
 
 const FUND={cash:{cls:'cash',label:'💵 Cash'},mixed:{cls:'mixed',label:'◐ Cash+Credits'},
@@ -198,7 +200,15 @@ function fitScore(g){
 function fitTier(s){return s>=68?{c:'high',d:'●●●',t:'High fit'}:s>=45?{c:'med',d:'●●○',t:'Medium fit'}:{c:'low',d:'●○○',t:'Low fit'}}
 
 // ---- deadline ----
-function dDate(g){return g.deadlineDate?new Date(g.deadlineDate):null}
+function dDate(g){
+  if(g.deadlineDate){const d=new Date(g.deadlineDate);if(!isNaN(d))return d}
+  const s=g.deadline||'';
+  if(/rolling|ongoing|tbd|tba|quarterly|annual|anytime|cycle|various|continuous|open/i.test(s))return null;
+  // only treat as a real deadline if it has a month name or numeric date
+  if(!/(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i.test(s)&&!/\d{4}-\d{2}-\d{2}/.test(s)&&!/\d{1,2}\/\d{1,2}/.test(s))return null;
+  const cleaned=s.replace(/\(.*?\)/g,'').replace(/(\d{1,2})\s*[-–]\s*\d{1,2}/,'$1').trim();
+  const d=new Date(cleaned);return isNaN(d)?null:d;
+}
 function daysLeft(g){const d=dDate(g);if(!d)return null;return Math.round((d-TODAY)/864e5)}
 function deadlineLabel(g){const dl=daysLeft(g);if(dl===null)return g.deadline||'Rolling';
   if(dl<0)return 'Closed';if(dl===0)return 'Today';if(dl<=45)return dl+' days left';return g.deadline||(dDate(g).toISOString().slice(0,10))}
@@ -213,7 +223,7 @@ function card(g){
   const tags=(g.tags||[]).slice(0,6).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
   const eff={low:'Low — rolling / simple',medium:'Medium',high:'High — competitive / heavy'}[g.effort]||g.effort||'—';
   const auds=(g.audience||[]).map(a=>AUD[a]||a).join(', ');
-  return `<article class="card" data-cat="${esc(g.category)}" data-id="${g.id}">
+  return `<article class="card${closed(g)?' is-closed':''}" data-cat="${esc(g.category)}" data-id="${g.id}">
     <div class="card-top">
       <div class="chips-row">
         <span class="chip ${f.cls}">${f.label}</span>
@@ -246,6 +256,7 @@ function card(g){
 
 function visible(){
   return GRANTS.filter(g=>{
+    if(!state.showClosed){const dl=daysLeft(g);if(dl!==null&&dl<0)return false;} // hide past-deadline
     if(state.aud!=='all'&&!(g.audience||[]).includes(state.aud))return false;
     if(state.domain!=='all'&&g.domain!==state.domain)return false;
     if(state.moneyOnly&&g.fundingType==='credits')return false;
@@ -256,11 +267,19 @@ function visible(){
     return true;
   });
 }
+function closed(g){const dl=daysLeft(g);return dl!==null&&dl<0}
+// "best to apply" = fit (cash+effort) but deadline-aware: closed sink, soon-closing rise
+function applyScore(g){
+  if(closed(g))return -1000;
+  const dl=daysLeft(g);let boost=0;
+  if(dl!==null){if(dl<=14)boost=16;else if(dl<=30)boost=11;else if(dl<=60)boost=6;else if(dl<=120)boost=2}
+  return fitScore(g)+boost;
+}
 function sortGrants(arr){
-  if(state.sort==='cash')return arr.sort((a,b)=>maxAmount(b.amount)-maxAmount(a.amount));
+  if(state.sort==='cash')return arr.sort((a,b)=>(closed(a)-closed(b))||(maxAmount(b.amount)-maxAmount(a.amount)));
   if(state.sort==='deadline')return arr.sort((a,b)=>{const A=daysLeft(a),B=daysLeft(b);
-    return (A===null?9e9:A<0?8e9:A)-(B===null?9e9:B<0?8e9:B)});
-  return arr.sort((a,b)=>fitScore(b)-fitScore(a)); // best to apply
+    return (A===null?9e9:A<0?1e10:A)-(B===null?9e9:B<0?1e10:B)});
+  return arr.sort((a,b)=>applyScore(b)-applyScore(a)); // best to apply (open + urgent first)
 }
 function render(){
   const list=sortGrants(visible());
@@ -282,6 +301,7 @@ document.getElementById('sort').addEventListener('change',e=>{state.sort=e.targe
 document.getElementById('domain').addEventListener('change',e=>{state.domain=e.target.value;render()});
 document.getElementById('money-only').addEventListener('change',e=>{state.moneyOnly=e.target.checked;render()});
 document.getElementById('active-only').addEventListener('change',e=>{state.activeOnly=e.target.checked;render()});
+document.getElementById('show-closed').addEventListener('change',e=>{state.showClosed=e.target.checked;render()});
 document.getElementById('audience-chips').addEventListener('click',e=>{const b=e.target.closest('.chip-btn');if(!b)return;
   state.aud=b.dataset.aud;document.querySelectorAll('#audience-chips .chip-btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');render()});
 document.getElementById('grid').addEventListener('click',e=>{if(e.target.closest('a'))return;
