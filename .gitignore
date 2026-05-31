@@ -5,3 +5,5 @@ __pycache__/
 *.pyc
 finds.json
 weekly-run.log
+_u.txt
+_t.json
