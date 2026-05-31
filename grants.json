@@ -3085,5 +3085,730 @@
     "_updated": "2026-05-30",
     "effort": "high",
     "domain": "AI"
+  },
+  {
+    "organization": "Ethereum Foundation",
+    "category": "Foundation",
+    "amount": "Varies by RFP/Wishlist item — typically ~$10k to $100k+ in grants (paid in fiat/crypto)",
+    "deadline": "Rolling (open RFPs & Wishlist; some timed rounds)",
+    "deadlineDate": null,
+    "eligibility": "Individuals, teams, and for-profit companies building free/open-source public goods, tooling, infrastructure, or research for the Ethereum ecosystem. No equity taken; all outputs must be open-source.",
+    "description": "Non-dilutive grants for open-source work that strengthens Ethereum — builder tools, infra, research, and community resources. You apply against curated Wishlist/RFP items or submit a general inquiry; office hours available for feedback before applying.",
+    "url": "https://esp.ethereum.foundation/applicants",
+    "tags": [
+      "web3",
+      "open-source",
+      "public-goods",
+      "infrastructure",
+      "grants",
+      "non-dilutive"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to for-profits and no equity, but funded outputs must be open-source and Ethereum-relevant. Action: package a reusable open-source slice of your collaboration/AI stack (e.g., an Ethereum-adjacent integration or dev tool) and match it to a live Wishlist/RFP item.",
+    "relevant2026": true,
+    "relevant2026Note": "Program is active in 2026 with rolling RFPs/Wishlist; an Academic Grants round and PhD Fellowship (proposals due Apr 22, 2026) also run alongside.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Ethereum Foundation — Ecosystem Support Program (ESP)",
+    "id": 103,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Golem Foundation",
+    "category": "Foundation",
+    "amount": "Per-epoch allocations funded from Golem Foundation ETH staking yield + community/matching (pooled per epoch, paid in ETH/GLM)",
+    "deadline": "Per-epoch intake (rolling eligibility review)",
+    "deadlineDate": null,
+    "eligibility": "Projects that qualify as public goods; eligibility check + community governance review. Migrating to Octant v2 in 2026.",
+    "description": "Octant funds public goods through recurring epochs, distributing staking-yield rewards via community allocation. Projects pass an eligibility check, post a proposal on Octant Discuss, and receive allocations from participants.",
+    "url": "https://octant.app/",
+    "tags": [
+      "web3",
+      "public-goods",
+      "quadratic-funding",
+      "ethereum",
+      "retroactive"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Needs a genuine public-goods framing (free/open community offering), not a commercial product pitch. Action: nominate an open, freely-usable component of your platform; complete the Octant Applications form and engage the eligibility conversation early.",
+    "relevant2026": true,
+    "relevant2026Note": "Active in 2026; Octant v1 is being sunset and all future Golem Foundation rounds run on Octant v2 — check the blog for the current epoch's intake window.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Octant — Public Goods Epoch Funding",
+    "id": 104,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Stellar Development Foundation",
+    "category": "Foundation",
+    "amount": "Up to $150,000 in XLM (Build Award); Grow Award and Matching Fund up to $500k also available",
+    "deadline": "Rolling submissions across periodic SCF rounds",
+    "deadlineDate": null,
+    "eligibility": "Developers, startups, and full-fledged for-profit companies building on Stellar / Soroban. No equity for Build Award.",
+    "description": "Community-voted, non-dilutive funding (paid in XLM) for teams shipping on Stellar's Soroban smart-contract platform; free security audits for Soroban projects. 42M XLM awarded across 656 submissions to date.",
+    "url": "https://communityfund.stellar.org/",
+    "tags": [
+      "web3",
+      "startup",
+      "non-dilutive",
+      "soroban",
+      "grants"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Explicitly open to for-profit companies and real cash, but you must build a product/feature on Stellar/Soroban. Action: scope a Soroban-based payments, collaboration, or AI-agent integration for Castalia/Vox and submit to the next SCF round; engage the community for votes.",
+    "relevant2026": true,
+    "relevant2026Note": "SCF runs continuously in 2026 (most recent round SCF #40); rolling 'Indicate Your Interest' onboarding before each round.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Stellar Community Fund (SCF) — Build Award",
+    "id": 105,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Optimism Collective",
+    "category": "Foundation",
+    "amount": "Up to 8M OP per program; per-project rewards sized by measured onchain impact, paid monthly in OP",
+    "deadline": "Rolling — monthly application deadlines, rewards distributed monthly",
+    "deadlineDate": null,
+    "eligibility": "Onchain apps and dev tooling with a verified contract on an eligible OP Chain (OP Mainnet, Base, Unichain, Zora, World Chain, Mode, Ink, etc.). For-profit builders eligible.",
+    "description": "Retroactive public-goods funding that rewards already-shipped onchain work based on Superchain adoption, TVL, and interoperability. Register your project in OP Atlas; no traditional proposal — rewards follow measurable onchain metrics.",
+    "url": "https://atlas.optimism.io/missions/retro-funding-onchain-builders",
+    "tags": [
+      "web3",
+      "public-goods",
+      "retroactive",
+      "superchain",
+      "optimism",
+      "non-dilutive"
+    ],
+    "viability": "partial",
+    "viabilityNote": "For-profit-friendly, no equity, low application burden — but rewards require a verified contract with real onchain usage on an OP Chain (Base counts). Action: if you ship any onchain feature, register it in OP Atlas and let metrics accrue; otherwise treat as a future option.",
+    "relevant2026": true,
+    "relevant2026Note": "Retro Funding runs on a monthly cadence through 2026 (850M OP earmarked for Retro Funding's evolution); sign-up via OP Atlas is continuously open.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Web3 / Public Goods",
+    "name": "Optimism Retro Funding — Onchain Builders",
+    "id": 106,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Base (Coinbase)",
+    "category": "Corporate",
+    "amount": "Typically 1–5 ETH per recipient (retroactive), awarded in recurring cohorts",
+    "deadline": "Rolling (continuous nominations; cohorts announced regularly)",
+    "deadlineDate": null,
+    "eligibility": "Builders who have shipped working apps or made meaningful contributions on Base (L2). Anyone can nominate a builder; no formal application or equity.",
+    "description": "Fast, retroactive ETH grants that reward shipped onchain work on Base — payments infra, games, social, DeFi, tooling. Recipients are found via ecosystem activity and a public nomination form; 20+ cohorts distributed since 2024.",
+    "url": "https://docs.base.org/get-started/get-funded",
+    "tags": [
+      "web3",
+      "retroactive",
+      "base",
+      "coinbase",
+      "non-dilutive",
+      "low-effort"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Lowest-effort on this list (no proposal — just ship + get nominated) and no equity, but requires a live app on Base mainnet. Action: deploy an onchain component on Base, then submit/seek a nomination via the public form.",
+    "relevant2026": true,
+    "relevant2026Note": "Program is active in 2026 with ongoing cohorts; Base Batches 2026 hackathon track also runs in parallel.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Web3 / Public Goods",
+    "name": "Base Builder Grants",
+    "id": 107,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Filecoin Foundation / Filecoin Foundation for the Decentralized Web",
+    "category": "Foundation",
+    "amount": "$5k–$10k (Next Step grants) and up to $50,000 (Open Grants / novel ideas); larger ProPGF batches periodically",
+    "deadline": "Rolling — proposals reviewed on a 3-month cycle",
+    "deadlineDate": null,
+    "eligibility": "Builders advancing the Filecoin ecosystem, decentralized web, IPFS/FVM, data tooling, or storage/retrieval. Outputs must be open-source (Apache-2.0 / MIT).",
+    "description": "Non-dilutive grants for dev/data tooling, integrations, research, and applications on Filecoin/IPFS. Apply by opening a GitHub issue from the proposal template; reviewed on a rolling three-month cycle.",
+    "url": "https://fil.org/grants",
+    "tags": [
+      "web3",
+      "open-source",
+      "decentralized-storage",
+      "ipfs",
+      "grants",
+      "non-dilutive"
+    ],
+    "viability": "partial",
+    "viabilityNote": "For-profit teams can apply but IP must be open-source and Filecoin/decentralized-web relevant. Action: frame an open-source data/storage or IPFS integration for your AI collaboration stack and file a GitHub proposal.",
+    "relevant2026": true,
+    "relevant2026Note": "Open Grants run continuously through 2026; two further ProPGF rounds planned on a ~6-month cadence after Batch 2 (decisions late Jan 2026).",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Filecoin Foundation — Open Grants & RFPs",
+    "id": 108,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Solana Foundation",
+    "category": "Foundation",
+    "amount": "Milestone-based, sized per proposal; commercial teams routed to convertible grants (convert to investment only on hitting milestones)",
+    "deadline": "Rolling (no fixed deadline; ~3-week decisions)",
+    "deadlineDate": null,
+    "eligibility": "Anyone building on Solana — individuals, teams, and companies. Standard grants favor public goods/open-source; commercial for-profits use convertible grants.",
+    "description": "Non-dilutive milestone grants for public goods, plus a convertible-grant track designed for for-profit companies that converts to an investment only if you hit growth/raise milestones. Single rolling application; the Foundation picks the right mechanism with you.",
+    "url": "https://solana.org/grants-funding",
+    "tags": [
+      "web3",
+      "startup",
+      "convertible-grant",
+      "non-dilutive",
+      "open-source"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Explicitly accommodates for-profit builders via convertible grants (no upfront equity; converts only on milestones). Action: if you ship an open-source Solana component, pursue a standard grant; for a commercial Solana product, apply to the convertible track.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling applications active in 2026; Solana Mobile Builder Grants and the Q1 2026 Colosseum Hackathon offer additional near-term cash.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Solana Foundation — Grants & Convertible Grants",
+    "id": 109,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Polygon Community Treasury",
+    "category": "Foundation",
+    "amount": "35M POL for Season 2 (paid in POL); per-project amounts vary by track/allocator",
+    "deadline": "Rolling (applications reviewed on a rolling basis via Questbook)",
+    "deadlineDate": null,
+    "eligibility": "Any builder shipping on Polygon PoS / zkEVM, including teams migrating from other chains. AI, DePIN, gaming, and infra explicitly in scope. No equity.",
+    "description": "Community-governed, non-dilutive POL grants with a dedicated AI track and independent allocators (Gitcoin, Eliza Labs/ai16z, Crossmint, IoTeX, Encode Club). Apply via the Direct Track on Questbook; ~100M POL unlocks annually over a decade.",
+    "url": "https://polygon.questbook.xyz/",
+    "tags": [
+      "web3",
+      "ai",
+      "depin",
+      "grants",
+      "non-dilutive",
+      "polygon"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to all categories including AI and no equity, but you must build on Polygon. Action: scope an AI/agent or collaboration feature deployed on Polygon and apply to the Direct Track (or pitch a relevant independent allocator like Gitcoin/Eliza Labs).",
+    "relevant2026": true,
+    "relevant2026Note": "Season 2 (35M POL) is live and accepting rolling applications into 2026 via Questbook; AI is a leading category this season.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Web3 / Public Goods",
+    "name": "Polygon Community Grants Program — Season 2 (Direct Track)",
+    "id": 110,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Gitcoin Foundation",
+    "category": "Foundation",
+    "amount": "Quadratic-funding matching from multi-million pooled rounds; small contributions from many backers can earn large matching multipliers",
+    "deadline": "Rounds run ~quarterly; next round expected mid-Oct to early Nov 2026",
+    "deadlineDate": null,
+    "eligibility": "Open-source and public-goods builders, including individuals; project must align with an active funding domain (e.g. dev tooling/infra, public-goods interop)",
+    "description": "Gitcoin's flagship quadratic-funding mechanism pools donor + matching capital and pays out in crypto based on breadth of community support. Apply once via Grants Stack Builder to all rounds you qualify for. GG24 moved to a multi-domain model — your project must fit a selected domain.",
+    "url": "https://grants.gitcoin.co/",
+    "tags": [
+      "quadratic-funding",
+      "public-goods",
+      "open-source",
+      "crypto",
+      "ethereum"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Individuals can apply easily with a Grants Stack profile, but payout depends on attracting many small donors and fitting an active domain. Action: build a Grants Stack profile now and watch grants.gitcoin.co for the next round announcement.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "GG24 ran late 2025; the next quarterly round is expected around Oct–Nov 2026. Mechanism is active and ongoing.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Gitcoin Grants — GG24 & Upcoming Quadratic Funding Rounds",
+    "id": 111,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Arbitrum Foundation",
+    "category": "Foundation",
+    "amount": "$20,000–$150,000, paid in ARB tokens (specialized tracks like Trailblazer AI grant up to ~$10,000)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Developers, researchers, designers, or community builders advancing the Arbitrum ecosystem; individuals welcome",
+    "description": "Milestone-based, rolling grants for projects that improve adoption, tooling, and community on Arbitrum chains. Distributed in ARB. Includes themed tracks such as the Trailblazer AI Grant Program for AI-agent projects.",
+    "url": "https://arbitrum.foundation/grants",
+    "tags": [
+      "web3",
+      "grants",
+      "ARB",
+      "AI-agents",
+      "developer-tooling"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to individual builders on a rolling basis, but you must propose work that benefits the Arbitrum ecosystem and meet milestones. Action: email grants@arbitrum.foundation or submit via the Questbook portal with a scoped, milestone-based proposal.",
+    "relevant2026": true,
+    "relevant2026Note": "Program is active with a rolling acceptance window and live themed tracks in 2026.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Arbitrum Foundation Grant Program",
+    "id": 112,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "The Pollination Project",
+    "category": "Foundation",
+    "amount": "Up to $500 (seed/micro-grant)",
+    "deadline": "Rolling — applications reviewed monthly, awarded 365 days a year",
+    "deadlineDate": null,
+    "eligibility": "Individuals, grassroots groups, and startup nonprofits worldwide; projects must be community-benefit (not personal gain or commercial) with a total budget under $10,000",
+    "description": "One of the lowest-friction grants available: micro-grants given out every day of the year to changemakers in areas like environment, human rights, arts/culture, and mental health. Simple online application, rolling monthly review.",
+    "url": "https://thepollinationproject.org/apply/",
+    "tags": [
+      "microgrant",
+      "social-impact",
+      "individuals",
+      "rolling",
+      "low-effort"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to individuals worldwide, no institution required, simple form. Catch: must be a community-benefit project, not a commercial product. Action: frame your AI/creative work around its social-good impact and apply directly.",
+    "relevant2026": true,
+    "relevant2026Note": "Daily grant program runs continuously through 2026 on a rolling monthly cycle.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Civic / Social",
+    "name": "The Pollination Project — Daily Grants",
+    "id": 113,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Foundation for Contemporary Arts (FCA)",
+    "category": "Foundation",
+    "amount": "$500–$3,000 per grant (~15–20 grants awarded monthly)",
+    "deadline": "Rolling / year-round",
+    "deadlineDate": null,
+    "eligibility": "Individual artists (or one person representing a collective) living/working in the U.S. with an unanticipated opportunity or unbudgeted expense; degree-program students NOT eligible",
+    "description": "Fast, project-based grants for visual/performing artists and poets who have a sudden public opportunity (exhibition, performance, screening) or unexpected project expense and no time for traditional funding. Multidisciplinary and reviewed continuously.",
+    "url": "https://www.foundationforcontemporaryarts.org/grants/emergency-grants/",
+    "tags": [
+      "arts",
+      "individual-artists",
+      "rolling",
+      "emergency",
+      "low-effort"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to individual artists with a simple year-round application — strong fit for solo creators. Constraints: U.S.-based work, must have a committed/imminent public opportunity, and enrolled students are excluded. Action: apply when you have a concrete upcoming presentation date.",
+    "relevant2026": true,
+    "relevant2026Note": "Year-round rolling program; FCA confirmed active grantmaking in early 2026.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Creative",
+    "name": "Foundation for Contemporary Arts — Emergency Grants",
+    "id": 114,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Drips Network",
+    "category": "Foundation",
+    "amount": "Variable continuous on-chain payouts; Drips Wave converts merged pull requests into on-chain bounty rewards",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Open-source maintainers and contributors; claim any GitHub repo by adding a FUNDING.json file",
+    "description": "On-chain funding rails that let OSS maintainers receive recurring support and split it to dependencies. Drips Wave (launching with the Stellar ecosystem in Jan 2026) pays contributors bounties for merged PRs in partner ecosystems.",
+    "url": "https://www.drips.network/",
+    "tags": [
+      "open-source",
+      "maintainers",
+      "crypto",
+      "bounties",
+      "rolling"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Any OSS maintainer can claim a repo and start receiving funds with minimal friction (needs a small ETH balance for gas). Action: add a FUNDING.json to your repo's default branch and explore live Wave programs for PR bounties.",
+    "relevant2026": true,
+    "relevant2026Note": "Live in 2026 with Drips Wave bounty cycles rolling out to partner ecosystems starting January 2026.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Open Source",
+    "name": "Drips — Open Source Funding (incl. Drips Wave)",
+    "id": 115,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Funding the Commons",
+    "category": "Foundation",
+    "amount": "Varies — live quadratic-funding round payouts, hackathon prize pools, and residency project grants",
+    "deadline": "Varies by event (residencies, hackathons, and on-site funding experiments throughout 2026)",
+    "deadlineDate": null,
+    "eligibility": "Researchers, builders, and public-goods project teams, including individuals selected into residencies/hackathons",
+    "description": "A public-goods funding convener running builder residencies, hackathons, and live quadratic-funding experiments where participants can leave with actual grants. 2026 programming includes the 'Intelligence at the Frontier' SF event with on-site QF rounds and agent-economy demos.",
+    "url": "https://www.fundingthecommons.io",
+    "tags": [
+      "public-goods",
+      "residency",
+      "hackathon",
+      "quadratic-funding",
+      "AI"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Cash flows through selective residencies, hackathon prizes, and hosted QF rounds rather than a standing grant form. Action: watch fundingthecommons.io/residencies and /hackathons and apply to an upcoming cohort or attend a funding experiment.",
+    "relevant2026": true,
+    "relevant2026Note": "Active in 2026 with confirmed SF event and ongoing residency/hackathon programming.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Funding the Commons — Residencies, Hackathons & QF Rounds",
+    "id": 116,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Tarbell Center for AI Journalism",
+    "category": "Foundation",
+    "amount": "$60,000–$80,000 stipend (Fellows); $90,000–$110,000 (Senior Fellows)",
+    "deadline": "Annual; 2026 cohort closed Jan 7, 2026 — next cycle expected late 2026 for 2027",
+    "deadlineDate": null,
+    "eligibility": "Early-career and experienced journalists worldwide who want to cover AI; individual applicants, no institution required",
+    "description": "A one-year fellowship pairing a 9-month placement at a major newsroom with an AI-and-journalism course and a Bay Area summit. Pays a substantial cash stipend — strong fit for writers/researchers who want to cover AI.",
+    "url": "https://www.tarbellcenter.org/fellowship",
+    "tags": [
+      "AI",
+      "journalism",
+      "fellowship",
+      "stipend",
+      "individuals"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to individuals globally with a simple application, but competitive and placement-dependent. Action: the 2026 round has closed — sign up on tarbellcenter.org for the next cycle (applications historically open in autumn).",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "2026 cohort runs Jun 2026–May 2027; applications for the next cohort are expected to reopen in late 2026.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "AI",
+    "name": "Tarbell Fellowship in AI Journalism",
+    "id": 117,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Experiment (Experiment.com)",
+    "category": "Foundation",
+    "amount": "Typically up to ~$10,000 per project (all-or-nothing crowdfunding)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Individual researchers, students, and junior investigators across biology, CS, physics, economics, neuroscience, engineering and more",
+    "description": "The largest dedicated crowdfunding platform for scientific research: set up a project page, raise from the public, and receive funds if you hit your goal. Students and junior researchers historically out-raise senior ones. Periodic sponsored 'Experiment Grants' add matching/backing pools.",
+    "url": "https://experiment.com/",
+    "tags": [
+      "research",
+      "crowdfunding",
+      "science",
+      "individuals",
+      "rolling"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to any individual with a fundable research idea and no institutional gatekeeping for the campaign itself; success requires audience-building effort, and it's all-or-nothing. Action: draft a tight, public-friendly campaign and launch on a rolling basis.",
+    "relevant2026": true,
+    "relevant2026Note": "Platform is active and accepting projects on a rolling basis in 2026.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Research",
+    "name": "Experiment.com — Science Research Crowdfunding",
+    "id": 118,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Open Technology Fund (OTF)",
+    "category": "Foundation",
+    "amount": "$10,000–$900,000 (ideal $50,000–$200,000)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Individuals and organizations worldwide building open-source internet-freedom, digital-rights, anti-censorship, or digital-security tools; first-time and underrepresented applicants prioritized.",
+    "description": "OTF's flagship fund supports open technology that protects free expression and counters censorship/surveillance. Two-stage process: a short concept note first, full proposal only on invitation — so initial effort is low.",
+    "url": "https://www.opentech.fund/funds/internet-freedom-fund/",
+    "tags": [
+      "open source",
+      "digital rights",
+      "internet freedom",
+      "non-dilutive",
+      "rolling"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to small orgs and individuals, but mission must clearly tie to internet freedom / digital security. Action: submit the low-effort concept note describing your tool's anti-censorship or digital-rights angle.",
+    "relevant2026": true,
+    "relevant2026Note": "Accepting concept notes on a rolling basis throughout 2026.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Open Source",
+    "name": "Internet Freedom Fund",
+    "id": 119,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Wikimedia Foundation",
+    "category": "Foundation",
+    "amount": "Up to $5,000 (Rapid Fund); larger General Support Fund also available",
+    "deadline": "Rolling (open most of the year)",
+    "deadlineDate": null,
+    "eligibility": "Individuals, community groups, and small organizations running projects that advance free knowledge / knowledge equity (Wikimedia-aligned); 501(c)(3) not required.",
+    "description": "Small, fast grants for events, outreach, content campaigns, and tools that grow open/free knowledge — including AI or data projects that improve access for underrepresented communities. Simple application, decisions within weeks.",
+    "url": "https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/Rapid_Fund",
+    "tags": [
+      "free knowledge",
+      "community",
+      "rapid",
+      "open knowledge",
+      "micro-grant"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Designed for small/emerging groups; no 501(c)(3) needed. Action: frame your mission work as advancing free knowledge or knowledge equity and submit the short Rapid Fund form.",
+    "relevant2026": true,
+    "relevant2026Note": "Rapid Fund accepts applications on a rolling basis through 2026.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Civic / Social",
+    "name": "Wikimedia Community Fund — Rapid Fund",
+    "id": 120,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Patagonia",
+    "category": "Corporate",
+    "amount": "$5,000–$20,000",
+    "deadline": "Rolling within annual cycle (May 1–April 30); one proposal per group per fiscal year",
+    "deadlineDate": null,
+    "eligibility": "Small, grassroots 501(c)(3) nonprofits (or fiscally sponsored groups) with budgets under $1M doing direct-action environmental work.",
+    "description": "Funds small activist organizations working on root causes of environmental problems with strategic, community-engaged campaigns. Regional retail-store grants are accepted year-round alongside the national cycle.",
+    "url": "https://www.patagonia.com/how-we-fund/corporate-grant/",
+    "tags": [
+      "climate",
+      "environment",
+      "grassroots",
+      "501c3",
+      "direct action"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Requires 501(c)(3) or fiscal sponsor and a clear environmental direct-action focus. Action: confirm fiscal-sponsor status and apply via the online portal or your regional Patagonia retail store.",
+    "relevant2026": true,
+    "relevant2026Note": "Annual cycle resets each May 1; the 2026 national deadline (Apr 30) has passed, but regional/rolling applications continue and the next cycle is open.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Climate",
+    "name": "Patagonia Environmental Grants (Corporate Grants Program)",
+    "id": 121,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "National Endowment for the Arts (NEA)",
+    "category": "Government",
+    "amount": "$10,000–$100,000 (matching required)",
+    "deadline": "July 9, 2026 (FY2027 second deadline)",
+    "deadlineDate": "2026-07-09",
+    "eligibility": "U.S. 501(c)(3) nonprofits, local arts agencies, tribes, and education agencies with at least 5 years of prior arts programming and $20,000+ in operating expenses.",
+    "description": "Project-based funding across all arts disciplines, including Visual & Media Arts and Arts Education — a strong fit for community/educational orgs doing creative work, including tech- or AI-enabled art and media projects.",
+    "url": "https://www.arts.gov/grants/grants-for-arts-projects",
+    "tags": [
+      "arts",
+      "creative",
+      "government",
+      "501c3",
+      "matching grant"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Requires 501(c)(3), 5-year track record, and 1:1 match; competitive RFP. Action: confirm the 5-year programming history, line up matching funds, and apply through Grants.gov + the NEA Applicant Portal.",
+    "relevant2026": true,
+    "relevant2026Note": "FY2027 deadlines are Feb 12, 2026 (passed) and July 9, 2026 (upcoming and open).",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "high",
+    "domain": "Creative",
+    "name": "Grants for Arts Projects",
+    "id": 122,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Giveth",
+    "category": "Foundation",
+    "amount": "Variable — direct crypto donations plus QF matching (recent rounds: $100K–$200K matching pools); GIVbacks rewards up to 80%",
+    "deadline": "Rolling (donations) + periodic QF round windows",
+    "deadlineDate": null,
+    "eligibility": "Any verified public-goods project, including nonprofits and community/civic groups; needs a crypto wallet and project verification.",
+    "description": "A web3 donation platform where public-goods projects receive zero-fee crypto donations year-round and can join quadratic-funding rounds where many small donations are amplified by a matching pool. Donors also earn GIV rewards, incentivizing giving.",
+    "url": "https://giveth.io/",
+    "tags": [
+      "web3",
+      "public goods",
+      "quadratic funding",
+      "crypto",
+      "donations"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to mission-driven projects but requires crypto onboarding (wallet + project verification) and donor outreach to benefit from QF matching. Action: create and verify a project, then mobilize supporters during the next QF round.",
+    "relevant2026": true,
+    "relevant2026Note": "Donations are continuous; additional QF rounds (incl. GG24-linked and Cardano-steered rounds) are scheduled through 2026.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Giveth — Public Goods Donations & Quadratic Funding Rounds",
+    "id": 123,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Okta for Good",
+    "category": "Corporate",
+    "amount": "$25,000 unrestricted grant per Fellow's organization",
+    "deadline": "Applications open Fall 2026",
+    "deadlineDate": null,
+    "eligibility": "Full-time staff in a technology role (IT, data, cybersecurity, digital transformation) at a registered 501(c)(3) nonprofit or international equivalent.",
+    "description": "A 6-month fellowship for nonprofit technology leaders that includes a $25,000 capacity-building grant (held at Tides Foundation) to the Fellow's organization, plus peer cohort and leadership support — directly relevant to small orgs adopting AI/tech.",
+    "url": "https://www.okta.com/okta-for-good/nonprofit-technology-fellows/",
+    "tags": [
+      "nonprofit",
+      "capacity building",
+      "tech for good",
+      "fellowship",
+      "501c3"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Requires a 501(c)(3) (or equivalent) and a full-time tech-role staffer; competitive. Action: identify your eligible tech lead and prepare to apply when the next cohort opens in Fall 2026.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "2026 cohort applications closed; the next cohort opens Fall 2026 — monitor and prepare now.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Civic / Social",
+    "name": "Nonprofit Technology Fellowship",
+    "id": 124,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Verizon (Citizen Verizon)",
+    "category": "Corporate",
+    "amount": "$50,000 non-dilutive funding + 16-week program",
+    "deadline": "Annual cohorts (deadline varies by cohort theme)",
+    "deadlineDate": null,
+    "eligibility": "U.S. nonprofit OR for-profit entities with 200 or fewer employees, a U.S. EIN, and a participating founder; solutions using AI, 5G, big data, or XR.",
+    "description": "A cohort accelerator giving $50K non-dilutive cash plus mentorship to small orgs building tech (often AI) for digital inclusion, climate justice, health equity, or disability innovation. Nonprofits are explicitly eligible — rare for a tech accelerator.",
+    "url": "https://www.verizonforwardforgood.com/",
+    "tags": [
+      "AI",
+      "accelerator",
+      "non-dilutive",
+      "digital inclusion",
+      "nonprofit-eligible"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to small U.S. nonprofits (≤200 staff) with an AI/tech-for-impact solution; competitive cohort. Action: match your project to the current cohort theme and apply via verizonforwardforgood.com.",
+    "relevant2026": true,
+    "relevant2026Note": "Runs annual themed cohorts; check the site for the open 2026 cohort and deadline.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "AI",
+    "name": "Forward for Good Accelerator",
+    "id": 125,
+    "_updated": "2026-05-30"
+  },
+  {
+    "organization": "Internet Society Foundation",
+    "category": "Foundation",
+    "amount": "Catalyst Track up to $50,000; Scaling Track up to $200,000",
+    "deadline": "Annual open call (2026 window closed May 7)",
+    "deadlineDate": null,
+    "eligibility": "Nonprofits, community networks, and organizations building affordable, reliable internet access for digitally excluded communities (global).",
+    "description": "Funds community-led connectivity solutions — building or scaling internet access in underserved areas — over 12–18 months. A strong fit for civic/community orgs working on digital inclusion as part of mission-driven work.",
+    "url": "https://www.isocfoundation.org/grant-programme/community-centered-connectivity/",
+    "tags": [
+      "connectivity",
+      "digital inclusion",
+      "community networks",
+      "civic",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to nonprofits/community groups but competitive and applied via the Fluxx platform. Action: the 2026 round closed May 7 — sign up for alerts and prepare a Catalyst Track ($50K) proposal for the next cycle.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "2026 application window (Mar 17–May 7) has closed; monitor for the next annual cycle reopening in early 2027.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Civic / Social",
+    "name": "Community-Centered Connectivity Grant Program",
+    "id": 126,
+    "_updated": "2026-05-30"
   }
 ]

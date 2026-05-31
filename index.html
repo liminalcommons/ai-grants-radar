@@ -115,6 +115,41 @@
 
   footer{border-top:1px solid var(--line);padding:24px 0 50px;color:var(--muted);font-size:12px;line-height:1.7}
   @media(max-width:600px){h1{font-size:34px}.grid{grid-template-columns:1fr}.wrap{padding:0 16px}}
+
+  /* ===== matching assistant ===== */
+  .match-fab{position:fixed;right:20px;bottom:20px;z-index:50;font-family:var(--sans);font-size:13px;font-weight:600;
+    background:var(--clay);color:#FBF8F1;border:none;border-radius:30px;padding:13px 19px;cursor:pointer;
+    box-shadow:0 6px 22px rgba(60,50,30,.2);display:flex;align-items:center;gap:8px;transition:.15s}
+  .match-fab:hover{background:#a64f30;transform:translateY(-1px)}
+  .match-panel{position:fixed;right:20px;bottom:20px;z-index:51;width:384px;max-width:calc(100vw - 32px);
+    height:74vh;max-height:640px;background:var(--card);border:1px solid var(--line);border-radius:16px;
+    box-shadow:0 18px 50px rgba(50,40,25,.24);display:none;flex-direction:column;overflow:hidden}
+  .match-panel.open{display:flex}
+  .mp-head{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px solid var(--line);background:var(--card-hi)}
+  .mp-title{font-family:var(--serif);font-size:17px;font-weight:600;color:var(--ink-strong)}
+  .mp-sub{font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:1px}
+  .mp-close{background:none;border:none;font-size:22px;color:var(--muted);cursor:pointer;line-height:1}
+  .mp-log{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:11px}
+  .bubble{max-width:86%;padding:10px 13px;border-radius:13px;font-size:13.5px;line-height:1.5}
+  .bubble.bot{background:var(--paper);color:var(--ink);align-self:flex-start;border-bottom-left-radius:4px}
+  .bubble.me{background:var(--clay);color:#FBF8F1;align-self:flex-end;border-bottom-right-radius:4px}
+  .qreplies{display:flex;flex-wrap:wrap;gap:7px;align-self:flex-start;max-width:96%}
+  .qr{font-family:var(--sans);font-size:12.5px;background:var(--card-hi);border:1px solid var(--border2,#d3c8b3);
+    color:var(--ink);padding:7px 12px;border-radius:16px;cursor:pointer;transition:.15s}
+  .qr:hover{border-color:var(--clay);color:var(--clay)}
+  .match-card{background:var(--card-hi);border:1px solid var(--line);border-left:3px solid var(--sage);
+    border-radius:10px;padding:12px 13px;align-self:stretch}
+  .mc-name{font-family:var(--serif);font-size:15px;font-weight:600;color:var(--ink-strong);line-height:1.25}
+  .mc-meta{font-size:11.5px;color:var(--muted);margin:3px 0 6px}
+  .mc-meta .amt{color:var(--sage);font-weight:600}
+  .mc-why{font-size:12px;color:var(--ink);line-height:1.45;margin-bottom:8px}
+  .mc-apply{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:#FBF8F1;background:var(--clay);
+    text-decoration:none;padding:6px 11px;border-radius:6px;display:inline-block}
+  .mp-input{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line);background:var(--card-hi)}
+  .mp-input input{flex:1;border:1px solid var(--line);border-radius:8px;padding:9px 12px;font-family:var(--sans);font-size:13px;color:var(--ink);background:var(--card)}
+  .mp-input input:focus{outline:none;border-color:var(--clay)}
+  .mp-input button{background:var(--ink-strong);color:var(--paper);border:none;border-radius:8px;padding:0 15px;cursor:pointer;font-size:15px}
+  @media(max-width:600px){.match-panel{right:8px;left:8px;width:auto;bottom:8px;height:82vh}}
 </style>
 </head>
 <body>
@@ -168,6 +203,19 @@
     Verify deadlines &amp; eligibility on each program page before applying. Fit score weights cash size + low application effort.
     Auto-updated weekly · <a href="https://ntfy.sh/liminal-grants-7c3f9" style="color:var(--clay)">subscribe for alerts</a>.
   </footer>
+</div>
+
+<button class="match-fab" id="match-fab">💬 Match me to grants</button>
+<div class="match-panel" id="match-panel">
+  <div class="mp-head">
+    <div><div class="mp-title">Find your funding</div><div class="mp-sub">Matching assistant · beta</div></div>
+    <button class="mp-close" id="mp-close" aria-label="Close">×</button>
+  </div>
+  <div class="mp-log" id="mp-log"></div>
+  <div class="mp-input">
+    <input id="mp-text" type="text" placeholder="…or describe yourself in a sentence">
+    <button id="mp-send" aria-label="Send">↑</button>
+  </div>
 </div>
 
 <script>
@@ -307,6 +355,84 @@ document.getElementById('audience-chips').addEventListener('click',e=>{const b=e
 document.getElementById('grid').addEventListener('click',e=>{if(e.target.closest('a'))return;
   const c=e.target.closest('.card');if(c)c.classList.toggle('open')});
 
+// ===== matching assistant (client-side brain — swap matchEngine() for Liminalia/LiteLLM later) =====
+const profile={audience:null,domain:null,needCash:true,text:''};
+let chatStarted=false;
+const log=()=>document.getElementById('mp-log');
+function scrollLog(){const l=log();l.scrollTop=l.scrollHeight}
+function bubble(cls,html){const d=document.createElement('div');d.className='bubble '+cls;d.innerHTML=html;log().appendChild(d);scrollLog();return d}
+function quickReplies(opts){const w=document.createElement('div');w.className='qreplies';
+  opts.forEach(o=>{const b=document.createElement('button');b.className='qr';b.textContent=o.label;
+    b.onclick=()=>{w.remove();bubble('me',esc(o.label));o.cb()};w.appendChild(b)});
+  log().appendChild(w);scrollLog()}
+
+function startChat(){if(chatStarted)return;chatStarted=true;
+  bubble('bot','Hi! Tell me about you and I’ll find the best-matching <strong>cash</strong> funding that’s still open. Who’s applying?');
+  quickReplies([
+    {label:'🧑‍💻 A team / startup',cb:()=>{profile.audience='team';askDomain()}},
+    {label:'🎨 An individual creator',cb:()=>{profile.audience='creator';askDomain()}},
+    {label:'🏛️ A nonprofit / org',cb:()=>{profile.audience='org';askDomain()}},
+  ])}
+function askDomain(){bubble('bot','What field is your work in?');
+  const doms=['AI','Web3 / Public Goods','Open Source','Climate','Creative','Research','Civic / Social'];
+  quickReplies([{label:'Any field',v:null}].concat(doms.map(d=>({label:d,v:d}))).map(o=>({label:o.label,cb:()=>{profile.domain=o.v;askNeed()}})))}
+function askNeed(){bubble('bot','Real cash only, or are cloud credits OK too?');
+  quickReplies([
+    {label:'💵 Real cash only',cb:()=>{profile.needCash=true;showMatches()}},
+    {label:'Cash or credits',cb:()=>{profile.needCash=false;showMatches()}},
+  ])}
+function whyMatch(g){const b=[];
+  if(profile.audience&&(g.audience||[]).includes(profile.audience))b.push('fits '+(AUD[profile.audience]||profile.audience).toLowerCase());
+  if(g.fundingType==='cash')b.push('real cash');else if(g.fundingType==='mixed')b.push('cash + credits');
+  if(g.effort==='low')b.push('low-effort apply');
+  const dl=daysLeft(g);b.push(dl!==null&&dl>=0?dl+' days left':'rolling');
+  return 'Matches: '+b.join(' · ')+'.'}
+function showMatches(){const m=matchEngine(profile);
+  if(!m.length){bubble('bot','No open matches with those filters — try “Any field”, or describe your situation below.');return}
+  bubble('bot',`Your top ${m.length} open matches, best-to-apply first:`);
+  m.forEach(g=>{const c=document.createElement('div');c.className='match-card';
+    c.innerHTML=`<div class="mc-name">${esc(g.name)}</div>
+      <div class="mc-meta"><span class="amt">${esc(g.amount)}</span> · ${esc(deadlineLabel(g))} · ${esc(g.domain||'')}</div>
+      <div class="mc-why">${esc(whyMatch(g))}</div>
+      <a class="mc-apply" href="${esc(g.url)}" target="_blank" rel="noopener">Open / apply →</a>`;
+    log().appendChild(c)});
+  scrollLog();
+  bubble('bot','Refine anytime — describe yourself below (e.g. “EU open-source maintainer, need ~€30k”).')}
+
+// THE BRAIN — replace with a Liminalia/LiteLLM API call when ready (same in/out shape).
+function matchEngine(p){
+  let list=GRANTS.filter(g=>!closed(g));
+  if(p.audience)list=list.filter(g=>(g.audience||[]).includes(p.audience));
+  if(p.domain)list=list.filter(g=>g.domain===p.domain);
+  if(p.needCash)list=list.filter(g=>g.fundingType!=='credits');
+  return list.map(g=>({g,s:matchScore(g,p)})).sort((a,b)=>b.s-a.s).slice(0,6).map(x=>x.g);
+}
+function matchScore(g,p){let s=fitScore(g);
+  const dl=daysLeft(g);if(dl!==null&&dl>=0&&dl<=60)s+=8;
+  if(p.text){const hay=(g.name+' '+g.description+' '+(g.tags||[]).join(' ')+' '+(g.eligibility||'')).toLowerCase();
+    let h=0;p.text.toLowerCase().split(/[^a-z0-9]+/).forEach(w=>{if(w.length>4&&hay.includes(w))h++});s+=Math.min(h*3,18)}
+  return s}
+function parseText(t){const x=t.toLowerCase();profile.text=t;
+  if(/non[- ]?profit|charity|\bngo\b|501\(c\)/.test(x))profile.audience='org';
+  else if(/\bi['’]?m\b|\bi am\b|solo|individual|artist|student|researcher|freelanc|\bindie\b|myself/.test(x))profile.audience='creator';
+  else if(/\bwe\b|our team|our startup|our company|\bstartup\b/.test(x))profile.audience='team';
+  if(/web3|crypto|onchain|on-chain|ethereum|\bdao\b|gitcoin|solana|blockchain/.test(x))profile.domain='Web3 / Public Goods';
+  else if(/climate|carbon|environment|energy|sustainab/.test(x))profile.domain='Climate';
+  else if(/\bart\b|music|film|creative|residency|culture/.test(x))profile.domain='Creative';
+  else if(/open[- ]source|\boss\b|maintainer/.test(x))profile.domain='Open Source';
+  else if(/\bai\b|machine learning|\bllm\b|\bmodel\b|agent/.test(x))profile.domain='AI';
+  else if(/research|science|\bphd\b/.test(x))profile.domain='Research';
+  else if(/civic|democracy|social impact|community/.test(x))profile.domain='Civic / Social';
+  profile.needCash=!/credit|cloud|compute/.test(x)}
+function sendText(){const inp=document.getElementById('mp-text');const t=inp.value.trim();if(!t)return;inp.value='';
+  chatStarted=true;bubble('me',esc(t));parseText(t);bubble('bot','Got it — matching on that…');showMatches()}
+function initMatcher(){
+  document.getElementById('match-fab').onclick=()=>{document.getElementById('match-panel').classList.add('open');startChat()};
+  document.getElementById('mp-close').onclick=()=>document.getElementById('match-panel').classList.remove('open');
+  document.getElementById('mp-send').onclick=sendText;
+  document.getElementById('mp-text').addEventListener('keydown',e=>{if(e.key==='Enter')sendText()});
+}
+
 // ---- load ----
 (async function(){
   try{
@@ -318,7 +444,7 @@ document.getElementById('grid').addEventListener('click',e=>{if(e.target.closest
     const latest=raw.reduce((a,b)=>((b._updated||'')>(a._updated||'')?b:a),{});
     document.getElementById('updated').textContent='UPDATED '+((latest._updated||new Date().toISOString().slice(0,10)));
   }catch(e){document.getElementById('updated').textContent='LOAD ERROR';console.error(e)}
-  stats();render();
+  stats();render();initMatcher();
 })();
 </script>
 </body>
