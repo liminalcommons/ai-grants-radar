@@ -113,6 +113,15 @@
   .card.is-closed{opacity:.5}
   .empty{grid-column:1/-1;text-align:center;padding:60px 0;color:var(--muted);font-family:var(--mono);font-size:13px}
 
+  /* deadline-status pills */
+  .dstatus{font-family:var(--mono);font-size:9px;font-weight:600;letter-spacing:0.07em;text-transform:uppercase;
+    padding:2px 6px;border-radius:4px;margin-right:5px;vertical-align:middle;display:inline-block;line-height:1.5}
+  .s-open{background:var(--sage-bg);color:var(--sage)}
+  .s-rolling{background:var(--slate-bg);color:var(--slate)}
+  .s-upcoming{background:var(--ochre-bg);color:var(--ochre)}
+  .s-expired{background:var(--muted-bg);color:var(--muted)}
+  .s-unknown{background:var(--muted-bg);color:var(--muted)}
+
   footer{border-top:1px solid var(--line);padding:24px 0 50px;color:var(--muted);font-size:12px;line-height:1.7}
   @media(max-width:600px){h1{font-size:34px}.grid{grid-template-columns:1fr}.wrap{padding:0 16px}}
 
@@ -263,8 +272,14 @@ function dDate(g){
   return null;
 }
 function daysLeft(g){const d=dDate(g);if(!d)return null;return Math.round((d-TODAY)/864e5)}
-function deadlineLabel(g){const dl=daysLeft(g);if(dl===null)return g.deadline||'Rolling';
-  if(dl<0)return 'Closed';if(dl===0)return 'Today';if(dl<=45)return dl+' days left';return g.deadline||(dDate(g).toISOString().slice(0,10))}
+function deadlineLabel(g){const st=dStatus(g);
+  if(st==='expired')return 'Closed';
+  if(st==='rolling')return 'Rolling';
+  if(st==='upcoming')return g.deadline||'Next cycle TBA';
+  if(st==='unknown')return g.deadline||'Check program page';
+  // 'open' — use days-left logic
+  const dl=daysLeft(g);if(dl===null)return g.deadline||'Rolling';
+  if(dl===0)return 'Today';if(dl<=45)return dl+' days left';return g.deadline||(dDate(g).toISOString().slice(0,10))}
 function isUrgent(g){const dl=daysLeft(g);return dl!==null&&dl>=0&&dl<=30}
 
 // ---- render ----
@@ -288,7 +303,7 @@ function card(g){
     <div class="card-org">${esc(g.organization)}${auds?' · '+esc(auds):''}</div>
     <div class="facts">
       <div class="fact"><span class="fl">Amount</span><span class="fv ${amtCls}">${esc(g.amount)}</span></div>
-      <div class="fact"><span class="fl">Deadline</span><span class="fv ${urgent}">${esc(deadlineLabel(g))}</span></div>
+      <div class="fact"><span class="fl">Deadline</span><span class="fv ${urgent}"><span class="dstatus s-${dStatus(g)}">${{open:'Open',rolling:'Rolling',upcoming:'Upcoming',expired:'Closed',unknown:'—'}[dStatus(g)]||'—'}</span>${esc(deadlineLabel(g))}</span></div>
     </div>
     <button class="expand"><span class="chev">▾</span> Details</button>
     <div class="details">
@@ -320,7 +335,9 @@ function visible(){
     return true;
   });
 }
-function closed(g){const dl=daysLeft(g);return dl!==null&&dl<0}
+function closed(g){if(g.deadlineStatus)return g.deadlineStatus==='expired';const dl=daysLeft(g);return dl!==null&&dl<0}
+function dStatus(g){return g.deadlineStatus||(closed(g)?'expired':(dDate(g)?'open':'unknown'))}
+function statusRank(g){return {open:0,rolling:1,upcoming:2,unknown:3,expired:4}[dStatus(g)]??3}
 // "best to apply" = fit (cash+effort) but deadline-aware: closed sink, soon-closing rise
 function applyScore(g){
   if(closed(g))return -1000;
@@ -329,10 +346,10 @@ function applyScore(g){
   return fitScore(g)+boost;
 }
 function sortGrants(arr){
-  if(state.sort==='cash')return arr.sort((a,b)=>(closed(a)-closed(b))||(maxAmount(b.amount)-maxAmount(a.amount)));
-  if(state.sort==='deadline')return arr.sort((a,b)=>{const A=daysLeft(a),B=daysLeft(b);
-    return (A===null?9e9:A<0?1e10:A)-(B===null?9e9:B<0?1e10:B)});
-  return arr.sort((a,b)=>applyScore(b)-applyScore(a)); // best to apply (open + urgent first)
+  if(state.sort==='cash')return arr.sort((a,b)=>(statusRank(a)-statusRank(b))||(maxAmount(b.amount)-maxAmount(a.amount)));
+  if(state.sort==='deadline')return arr.sort((a,b)=>{const sr=statusRank(a)-statusRank(b);if(sr)return sr;
+    const A=daysLeft(a),B=daysLeft(b);return (A===null?9e9:A)-(B===null?9e9:B)});
+  return arr.sort((a,b)=>(statusRank(a)-statusRank(b))||applyScore(b)-applyScore(a)); // status first, then fit
 }
 function render(){
   const list=sortGrants(visible());

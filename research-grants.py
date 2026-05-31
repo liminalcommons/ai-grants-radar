@@ -17,12 +17,15 @@ Usage:
   python research-grants.py --no-deploy          # research + save, skip Vercel deploy
 """
 
+import datetime
 import json
 import re
 import sys
 import subprocess
 
 import grants_lib as gl
+
+TODAY = datetime.date.today().isoformat()
 
 CLAUDE_TIMEOUT_S = 600
 MAX_TURNS = 40
@@ -89,8 +92,29 @@ cash. Cloud/compute credits come later: include at most 1-2.
 ALSO favor LOW-EFFORT applications (rolling, simple forms) — flag effort honestly.
 
 Find {n} opportunities NOT already in our database. Prefer ones with
-viability "yes" or "partial". Verify each is real and currently relevant in 2026
-(check the program page). Do not invent programs or URLs.
+viability "yes" or "partial". Do not invent programs or URLs.
+
+DEADLINE VERIFICATION (mandatory for every opportunity before including it):
+Today's date is {today}. Anchor all "is this still open?" reasoning to this date.
+
+For EACH opportunity you consider:
+1. Open the actual program or application page and CONFIRM the current deadline.
+   Never infer or carry over a deadline from memory or a third-party listing.
+2. Determine HOW the deadline works and classify it as one of:
+   - "fixed"     — a specific future calendar date (set deadlineDate to that ISO date)
+   - "rolling"   — truly always-open / accept applications continuously
+   - "recurring" — a periodic program; the last window may have closed but the next
+                   cycle is expected or already announced
+   - "unknown"   — deadline mechanics are genuinely unclear from the program page
+3. SKIP any opportunity whose ONLY known deadline has already passed and that has
+   NO announced next window or cycle — that program is dead for our purposes.
+4. For recurring programs where the last window closed but a next cycle is expected,
+   the "deadline" string MUST describe the next window (e.g. "Next cohort expected
+   late 2026") and deadlineDate stays null UNLESS a firm future date is confirmed.
+5. When a concrete future date exists, deadlineDate MUST be the ISO "YYYY-MM-DD"
+   of that date — do NOT leave it null if you have a real date.
+6. Prefer opportunities that are open right now or have a clear upcoming window over
+   ones that are vague or whose timeline is entirely uncertain.
 
 ALREADY IN DATABASE (do not return these names):
 {existing_names}
@@ -102,7 +126,8 @@ Return ONLY a JSON array (no prose, no markdown fences) where each element is:
   "category": "Corporate" | "Foundation" | "Government" | "Accelerator",
   "amount": str,                 // e.g. "Up to $350,000 in cloud credits"
   "deadline": str,               // "Rolling" or a human date
-  "deadlineDate": str | null,    // ISO "YYYY-MM-DD" if a fixed deadline, else null
+  "deadlineDate": str | null,    // ISO "YYYY-MM-DD" of the NEXT actionable date, else null
+  "deadlineType": "fixed" | "rolling" | "recurring" | "unknown",  // how the deadline works
   "eligibility": str,
   "description": str,            // 1-3 sentences, concrete
   "url": str,                    // the real program/application page
@@ -125,6 +150,7 @@ def build_prompt(existing, n, audience):
         audience_context=AUDIENCE_PROFILES[audience],
         n=n,
         existing_names=names,
+        today=TODAY,
     )
 
 

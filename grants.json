@@ -27,7 +27,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 2,
@@ -57,7 +59,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 3,
@@ -89,7 +93,9 @@
     ],
     "fundingType": "credits",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "unknown",
+    "deadlineType": "unknown"
   },
   {
     "id": 4,
@@ -98,7 +104,7 @@
     "category": "Foundation",
     "amount": "$50K + up to $250K for top 2 finalists",
     "deadline": "March 16, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-03-16",
     "eligibility": "Nonprofits, social enterprises, academic teams globally",
     "description": "12-month incubator funding 10 projects at the AI × democracy intersection. Algorithmic accountability, information resilience, AI transparency tools. Includes mentorship and Mozilla's global network. URGENT — deadline in days.",
     "url": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/democracy-ai-cohort/",
@@ -119,7 +125,9 @@
     ],
     "fundingType": "cash",
     "effort": "low",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 5,
@@ -128,7 +136,7 @@
     "category": "Corporate",
     "amount": "$1M–$3M per organization + Google Cloud + mentorship",
     "deadline": "April 3, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-04-03",
     "eligibility": "Nonprofits, social enterprises, academic institutions + government partners",
     "description": "Awards grants to organizations using AI to improve public services. Selected grantees receive technical mentorship, Google Cloud resources, and a multi-month accelerator by Google AI experts. Requires partnership with a government entity.",
     "url": "https://opportunitiesforyouth.org/2026/02/19/google-org-impact-challenges-2026-up-to-3m-funding-for-ai-projects-in-government-innovation-and-scientific-breakthroughs/",
@@ -149,7 +157,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 6,
@@ -158,7 +168,7 @@
     "category": "Corporate",
     "amount": "$500K–$3M + Google Cloud infrastructure",
     "deadline": "April 17, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-04-17",
     "eligibility": "Nonprofits, academic institutions, and social enterprises",
     "description": "Part of Google.org's $30M AI for Science challenge. Funds AI projects accelerating scientific discovery. Grantees receive funding, Google AI expertise, cloud infrastructure, and accelerator access.",
     "url": "https://mexicobusiness.news/sustainability/news/googleorg-launches-us30m-ai-science-challenge",
@@ -178,7 +188,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 7,
@@ -187,7 +199,7 @@
     "category": "Foundation",
     "amount": "Varies by node (check foresight.org)",
     "deadline": "April 1, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-04-01",
     "eligibility": "Researchers and small teams globally; AI safety + science focus",
     "description": "Node-based program opening April 1 in San Francisco and Berlin. Supports researchers working at AI × existential risk reduction and scientific acceleration. Small team friendly structure with in-person and remote components.",
     "url": "https://foresight.org/grants/grants-ai-for-science-safety/",
@@ -209,7 +221,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 8,
@@ -239,7 +253,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 9,
@@ -269,7 +285,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 10,
@@ -299,7 +317,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 11,
@@ -308,7 +328,7 @@
     "category": "Government",
     "amount": "Up to €2.5M grant + up to €10M equity",
     "deadline": "May 6, Jul 8, Sep 2, Nov 4 (next: May 6)",
-    "deadlineDate": "",
+    "deadlineDate": null,
     "eligibility": "Startups and SMEs in EU member states or EIC-associated countries",
     "description": "Europe's premier deep-tech startup programme. Budget €414M for 2026. Blended finance model: grant + equity investment. More cut-off dates in 2026, minimum €1M blended investment. Requires EU entity.",
     "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
@@ -329,7 +349,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "Startup / General"
+    "domain": "Startup / General",
+    "deadlineStatus": "unknown",
+    "deadlineType": "unknown"
   },
   {
     "id": 12,
@@ -338,7 +360,7 @@
     "category": "Government",
     "amount": "€221M (trustworthy AI) + €85M (next-gen AI/robotics)",
     "deadline": "April 15, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-04-15",
     "eligibility": "Consortia from EU member states; nonprofits, SMEs, universities",
     "description": "EU's flagship R&I programme allocates €307M in 2026 for AI. Topics include GenAI4EU, trustworthy AI agents, robotics, digital twins. Part of €2B+ AI commitment in 2026–2027.",
     "url": "https://www.grantsfinder.eu/blog/ai-genai4eu-funding-2026",
@@ -359,7 +381,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 13,
@@ -390,7 +414,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "id": 14,
@@ -399,7 +425,7 @@
     "category": "Government",
     "amount": "Up to €3M per project",
     "deadline": "May 12, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-05-12",
     "eligibility": "Research teams and consortia from EU/associated countries",
     "description": "Funds visionary early-stage research into breakthrough AI/deep-tech concepts. For high-risk/high-reward science that could form the basis of future technologies. Part of EIC 2026 Work Programme.",
     "url": "https://eic.ec.europa.eu/eic-2026-work-programme_en",
@@ -420,7 +446,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 15,
@@ -450,7 +478,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 16,
@@ -459,7 +489,7 @@
     "category": "Foundation",
     "amount": "$60M total",
     "deadline": "April 1, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-04-01",
     "eligibility": "Research teams in low/middle-income countries; health systems",
     "description": "Funds rigorous evaluation of AI health tools in LMICs. Locally-led research to determine which AI health interventions work. Health research and LMIC focus required.",
     "url": "https://www.gatesfoundation.org/ideas/media-center/press-releases/2026/02/ai-impact-health",
@@ -480,7 +510,9 @@
     ],
     "fundingType": "cash",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 17,
@@ -510,7 +542,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "id": 18,
@@ -519,7 +553,7 @@
     "category": "Accelerator",
     "amount": "$10K equity-free (finalists); top 10 share $100K",
     "deadline": "Applications closed March 4, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-03-04",
     "eligibility": "Young women ages 10–25 globally",
     "description": "Free 12-week accelerator for young women building AI-powered ventures. Equity-free seed funding, mentorship, investor exposure. Focused on UN SDGs.",
     "url": "https://www.technovation.org/ai-ventures-accelerator/",
@@ -540,7 +574,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 19,
@@ -571,7 +607,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "Startup / General"
+    "domain": "Startup / General",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 20,
@@ -602,7 +640,9 @@
     ],
     "fundingType": "credits",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 21,
@@ -632,7 +672,9 @@
     ],
     "fundingType": "credits",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "id": 22,
@@ -663,7 +705,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "Startup / General"
+    "domain": "Startup / General",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 23,
@@ -694,7 +738,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "id": 24,
@@ -725,7 +771,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 25,
@@ -734,7 +782,7 @@
     "category": "Corporate",
     "amount": "$3,850/week stipend + ~$15K/month compute credits (4-month program)",
     "deadline": "July 2026 cohort applications open now",
-    "deadlineDate": null,
+    "deadlineDate": "2026-07-28",
     "eligibility": "Engineers/researchers with strong Python skills; US, UK, or Canada work authorization required; no PhD needed",
     "description": "A 4-month funded fellowship for technical researchers to work on AI safety with Anthropic mentorship. Covers scalable oversight, adversarial robustness, AI control, and mechanistic interpretability. 80%+ of fellows produce published papers; 40%+ join Anthropic full-time.",
     "url": "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
@@ -755,7 +803,9 @@
     ],
     "fundingType": "mixed",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "id": 26,
@@ -764,7 +814,7 @@
     "category": "Foundation",
     "amount": "Up to $1,000,000 (multi-tier structure)",
     "deadline": "May 17, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-05-17",
     "eligibility": "Researchers, teams, institutions globally; nonprofits/universities preferred; indirect costs capped at 10%",
     "description": "Supports technical research to understand, predict, and control risks from frontier AI systems. Covers interpretability, robustness, alignment, and technical safety. Global eligibility; open to cross-geographic collaborations. May 17 deadline is urgent.",
     "url": "https://www.schmidtsciences.org/opportunity/2026-science-of-trustworthy-ai-rfp/",
@@ -785,7 +835,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 27,
@@ -816,7 +868,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 28,
@@ -846,7 +900,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "id": 29,
@@ -876,7 +932,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "unknown",
+    "deadlineType": "unknown"
   },
   {
     "id": 30,
@@ -906,7 +964,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 31,
@@ -937,7 +997,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 32,
@@ -968,7 +1030,9 @@
     ],
     "fundingType": "mixed",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "id": 33,
@@ -998,7 +1062,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 34,
@@ -1029,7 +1095,9 @@
     ],
     "fundingType": "credits",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "id": 35,
@@ -1038,7 +1106,7 @@
     "category": "Foundation",
     "amount": "$20M–$40M total round; grant sizes range from $50K to multi-million",
     "deadline": "April 22, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-04-22",
     "eligibility": "Must first receive a Speculation Grant from one of ~35 Speculation Grantors; orgs working on AI safety, biosecurity, or longtermist causes",
     "description": "SFF's annual S-Process distributes large amounts to AI safety and existential risk work. 2026 round adds new themed tracks (Climate, Animal Welfare, Human Empowerment) alongside the main round. Requires a Speculation Grant as prerequisite — contact individual grantors to get one.",
     "url": "https://survivalandflourishing.fund/2026/application",
@@ -1059,7 +1127,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "Climate"
+    "domain": "Climate",
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed"
   },
   {
     "id": 36,
@@ -1068,7 +1138,7 @@
     "category": "Foundation",
     "amount": "$250,000 per grantee + 6 months OpenAI technical support + API credits",
     "deadline": "2026 cohort selected March 2026; next cycle opens ~September 2026",
-    "deadlineDate": null,
+    "deadlineDate": "2026-09-28",
     "eligibility": "US-based nonprofits using AI to measurably improve economic mobility for low-income workers",
     "description": "GitLab Foundation's flagship AI grant in partnership with OpenAI. 2026 cohort (16 orgs, $4M total) selected March 5, 2026. Grantees receive $250K funding, 6 months of OpenAI engineer support, API credits, and Demo Day at OpenAI HQ. Largest cohort to date from 800+ applications.",
     "url": "https://www.gitlabfoundation.org/futureofwork",
@@ -1090,7 +1160,9 @@
     ],
     "fundingType": "credits",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "id": 37,
@@ -1121,7 +1193,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 38,
@@ -1153,7 +1227,9 @@
     ],
     "fundingType": "cash",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "id": 39,
@@ -1184,7 +1260,9 @@
     ],
     "fundingType": "equity",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "id": 40,
@@ -1193,7 +1271,7 @@
     "category": "Accelerator",
     "amount": "$100,000 total prize pool",
     "deadline": "June 20–21, 2026",
-    "deadlineDate": "",
+    "deadlineDate": "2026-06-20",
     "eligibility": "AI practitioners and teams; in-person Atlanta, Georgia",
     "description": "America's largest AI prize hackathon with a $100K total prize pool. Open to practitioners — not just students. In-person event in Atlanta. Run by USAII with national recognition. Requires travel to Atlanta.",
     "url": "https://www.usaii.org/about-united-states-artificial-intelligence-institute/ai-nextgen-challenge-2026",
@@ -1215,7 +1293,9 @@
     ],
     "fundingType": "cash",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Intel Corporation",
@@ -1245,7 +1325,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Oracle",
@@ -1274,7 +1356,9 @@
     ],
     "fundingType": "credits",
     "effort": "high",
-    "domain": "Startup / General"
+    "domain": "Startup / General",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Cloudflare",
@@ -1304,7 +1388,9 @@
     ],
     "fundingType": "credits",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Together AI",
@@ -1334,7 +1420,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "ElevenLabs",
@@ -1364,7 +1452,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "DigitalOcean",
@@ -1394,7 +1484,9 @@
     ],
     "fundingType": "mixed",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Modal Labs",
@@ -1424,7 +1516,9 @@
     ],
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "AI2 Incubator (spun out of the Allen Institute for AI)",
@@ -1454,7 +1548,9 @@
     ],
     "fundingType": "credits",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Groq",
@@ -1483,7 +1579,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "OVHcloud",
@@ -1513,7 +1611,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Cerebras Systems",
@@ -1542,7 +1642,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "MongoDB",
@@ -1572,7 +1674,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Snowflake",
@@ -1601,7 +1705,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "high",
-    "domain": "Startup / General"
+    "domain": "Startup / General",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Innovate UK (UKRI)",
@@ -1631,7 +1737,9 @@
     "_updated": "2026-05-30",
     "fundingType": "cash",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "EA Funds (managed by Effective Ventures)",
@@ -1660,7 +1768,9 @@
     "_updated": "2026-05-30",
     "fundingType": "cash",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Cohere Labs (Cohere)",
@@ -1690,14 +1800,16 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Harvestworks Digital Media Arts Center",
     "category": "Foundation",
     "amount": "$5,000 commission ($2,000 artist fee + $3,000 production budget), plus NYC lab access and a dedicated engineer",
     "deadline": "December 20 (annual); residencies run Jan–Dec 2026",
-    "deadlineDate": null,
+    "deadlineDate": "2026-12-28",
     "eligibility": "Individual working artists (collaborations allowed with a Lead Artist); US resident. Currently-enrolled university students (incl. PhD) are not eligible. New works only.",
     "description": "A NYC-based residency for new sound, code-based/algorithmic media, and explicitly machine-learning and AI works, with technical mentorship in the T.E.A.M. Lab. Combines an artist fee, a production budget, and engineering support.",
     "url": "https://www.harvestworks.org/open-call-2026-artists-in-residence-program/",
@@ -1721,7 +1833,9 @@
     "_updated": "2026-05-30",
     "fundingType": "cash",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "fal.ai",
@@ -1751,7 +1865,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "low",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "CloudRift",
@@ -1781,7 +1897,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "low",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "OpenAI",
@@ -1811,7 +1929,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "low",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "MATS Research (ML Alignment & Theory Scholars)",
@@ -1842,7 +1962,9 @@
     "_updated": "2026-05-30",
     "fundingType": "mixed",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "EWOR",
@@ -1874,7 +1996,9 @@
     "_updated": "2026-05-30",
     "fundingType": "mixed",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "XPRIZE Foundation (backed by Google)",
@@ -1905,7 +2029,9 @@
     "_updated": "2026-05-30",
     "fundingType": "cash",
     "effort": "medium",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "South Park Commons",
@@ -1936,7 +2062,9 @@
     "_updated": "2026-05-30",
     "fundingType": "mixed",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Amazon Web Services",
@@ -1965,7 +2093,9 @@
     "_updated": "2026-05-30",
     "fundingType": "mixed",
     "effort": "medium",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Patrick J. McGovern Foundation",
@@ -1994,7 +2124,9 @@
     "_updated": "2026-05-30",
     "fundingType": "cash",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Google",
@@ -2023,7 +2155,9 @@
     "_updated": "2026-05-30",
     "fundingType": "cash",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Microsoft",
@@ -2052,7 +2186,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Salesforce Foundation",
@@ -2081,7 +2217,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Salesforce Foundation",
@@ -2110,7 +2248,9 @@
     "_updated": "2026-05-30",
     "fundingType": "cash",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Google.org",
@@ -2139,7 +2279,9 @@
     "_updated": "2026-05-30",
     "fundingType": "credits",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Fast Forward",
@@ -2168,7 +2310,9 @@
     "_updated": "2026-05-30",
     "fundingType": "cash",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Google Cloud",
@@ -2201,7 +2345,9 @@
     "id": 73,
     "_updated": "2026-05-30",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "U.S. Administration for Community Living (HHS)",
@@ -2234,14 +2380,16 @@
     "id": 74,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "OpenAI",
     "category": "Corporate",
     "amount": "$3,850/week stipend + ~$15,000/month compute credits; 5-month program (Sep–Feb)",
     "deadline": "Applications for Sep 2026 cohort closed May 3, 2026; watch for next cycle",
-    "deadlineDate": null,
+    "deadlineDate": "2026-09-28",
     "eligibility": "External researchers, engineers, and practitioners in CS, social science, cybersecurity, HCI, or related fields; global applicants welcome; no OpenAI affiliation required; research ability prioritized over credentials",
     "description": "A 5-month external research fellowship run by OpenAI for independent AI safety researchers. Fellows receive a weekly cash stipend, ~$15K/month compute, and mentorship from OpenAI researchers. Work is in-person in Berkeley (Constellation) or remote. Priority areas: safety evaluation, ethics, robustness, agentic oversight, and high-severity misuse domains. 80%+ of fellows produce a paper, benchmark, or dataset by end of the program.",
     "url": "https://openai.com/index/introducing-openai-safety-fellowship/",
@@ -2266,14 +2414,16 @@
     "id": 75,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Pivotal Research (London Initiative for Safe AI)",
     "category": "Foundation",
     "amount": "£6,000–£8,000 stipend + £2,000 housing support + weekday meals + compute; 9-week program",
     "deadline": "Q3 2026 closed May 3, 2026; Q4 2026 applications expected September 2026",
-    "deadlineDate": null,
+    "deadlineDate": "2026-09-28",
     "eligibility": "Anyone 18+ serious about AI safety research — undergraduates through PhDs to experienced professionals; no prior AI safety background required; in-person in London required; global applicants welcome",
     "description": "A quarterly 9-week AI safety research fellowship hosted at the London Initiative for Safe AI (LISA). Fellows work with senior mentors on alignment, interpretability, security, and governance. Full financial support: cash stipend, housing, weekday meals, and compute. 70–90% of fellows receive optional 6-month extensions. Cohorts of ~25 peers per quarter.",
     "url": "https://www.pivotal-research.org/fellowship",
@@ -2299,7 +2449,9 @@
     "id": 76,
     "_updated": "2026-05-30",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Zendesk Foundation",
@@ -2331,7 +2483,9 @@
     "id": 77,
     "_updated": "2026-05-30",
     "effort": "medium",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "a2 Collective (National Institute on Aging, NIH)",
@@ -2364,7 +2518,9 @@
     "id": 78,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Mercatus Center, George Mason University (Tyler Cowen)",
@@ -2394,7 +2550,9 @@
     "id": 79,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "Research"
+    "domain": "Research",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "NLnet Foundation (EU Next Generation Internet)",
@@ -2424,7 +2582,9 @@
     "id": 80,
     "_updated": "2026-05-30",
     "effort": "medium",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Cosmos Institute",
@@ -2454,7 +2614,9 @@
     "id": 81,
     "_updated": "2026-05-30",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Advanced Research + Invention Agency (ARIA), UK Government",
@@ -2484,7 +2646,9 @@
     "id": 82,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Frontier Model Forum (Anthropic, Google, Microsoft, OpenAI)",
@@ -2514,7 +2678,9 @@
     "id": 83,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Manifund",
@@ -2544,7 +2710,9 @@
     "id": 84,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Mozilla",
@@ -2574,7 +2742,9 @@
     "id": 85,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Astera Institute",
@@ -2604,7 +2774,9 @@
     "id": 86,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "Web3 / Public Goods"
+    "domain": "Web3 / Public Goods",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Pulitzer Center",
@@ -2634,7 +2806,9 @@
     "id": 87,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "GitHub",
@@ -2664,7 +2838,9 @@
     "id": 88,
     "_updated": "2026-05-30",
     "effort": "low",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "The Awesome Foundation",
@@ -2694,7 +2870,9 @@
     "id": 89,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Cooperative AI Foundation (CAIF)",
@@ -2724,7 +2902,9 @@
     "id": 90,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Sovereign Tech Agency (Germany)",
@@ -2754,14 +2934,16 @@
     "id": 91,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "Open Source"
+    "domain": "Open Source",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Future of Life Institute",
     "category": "Foundation",
     "amount": "Full tuition + $40,000/yr stipend + $10,000 research fund (5 years)",
     "deadline": "Annual — next cycle ~November 2026",
-    "deadlineDate": null,
+    "deadlineDate": "2026-11-28",
     "eligibility": "Current or incoming PhD students committing to AI existential-safety research, with a confirming advisor.",
     "description": "Fully-funded PhD fellowship covering tuition, a $40K annual stipend, and a $10K research/compute fund for students working on AI existential safety. Among the most generous individual research awards in the AI-safety space.",
     "url": "https://futureoflife.org/grant-program/phd-fellowships/",
@@ -2784,14 +2966,16 @@
     "id": 92,
     "_updated": "2026-05-30",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Creative Capital",
     "category": "Foundation",
     "amount": "Up to $50,000 (Award) / $10,000 (State of the Art Prize)",
     "deadline": "Annual Open Call — next cycle ~March 2027",
-    "deadlineDate": null,
+    "deadlineDate": "2027-03-28",
     "eligibility": "Individual artists in the US and territories, including the Technology / multidisciplinary discipline (AI-driven work eligible).",
     "description": "Provides individual artists up to $50,000 in unrestricted project funds to create innovative new work, explicitly including a Technology discipline that covers AI-driven art. The new State of the Art Prize adds $10,000 unrestricted grants to one artist per US state and territory.",
     "url": "https://creative-capital.org/creative-capital-award/",
@@ -2814,7 +2998,9 @@
     "id": 93,
     "_updated": "2026-05-30",
     "effort": "low",
-    "domain": "Creative"
+    "domain": "Creative",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Google Research",
@@ -2844,7 +3030,9 @@
     "id": 94,
     "_updated": "2026-05-30",
     "effort": "low",
-    "domain": "Climate"
+    "domain": "Climate",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Zendesk Foundation",
@@ -2874,7 +3062,9 @@
     "id": 95,
     "_updated": "2026-05-30",
     "effort": "medium",
-    "domain": "Civic / Social"
+    "domain": "Civic / Social",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Internet Society Foundation",
@@ -2904,7 +3094,9 @@
     "id": 96,
     "_updated": "2026-05-30",
     "effort": "medium",
-    "domain": "Civic / Social"
+    "domain": "Civic / Social",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "OpenAI Foundation",
@@ -2934,7 +3126,9 @@
     "id": 97,
     "_updated": "2026-05-30",
     "effort": "low",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "KPMG U.S. Foundation",
@@ -2964,7 +3158,9 @@
     "id": 98,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "U.S. National Science Foundation",
@@ -2994,14 +3190,16 @@
     "id": 99,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "LinkedIn (Social Impact)",
     "category": "Corporate",
     "amount": "Cash grants, most in the $200,000–$300,000 range ($3M total)",
     "deadline": "Closed March 15, 2026 (annual program)",
-    "deadlineDate": "2026-03-15",
+    "deadlineDate": null,
     "eligibility": "Legally registered nonprofits (U.S. orgs need 501(c)(3)) doing workforce development that prepares young adults to succeed in an AI-powered economy; focus on France, Germany, India, UK, US.",
     "description": "Philanthropic fund giving nonprofits sizable cash grants to expand programs that help young adults facing barriers prepare for AI-shaped work. The 2026 round has closed, but it is an annual program worth preparing for in the next cycle.",
     "url": "https://socialimpact.linkedin.com/future-of-work-fund",
@@ -3024,14 +3222,16 @@
     "id": 100,
     "_updated": "2026-05-30",
     "effort": "medium",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "data.org (with Zoom)",
     "category": "Foundation",
     "amount": "At least five winners share grant funding of ~$115,000 each plus in-kind support",
     "deadline": "Closed January 8, 2026 (recurring challenge series)",
-    "deadlineDate": "2026-01-08",
+    "deadlineDate": null,
     "eligibility": "Organizations globally (including nonprofits and charitable-purpose for-profits) using AI/data for workforce development, future-friendly jobs, or climate-resilient communities.",
     "description": "data.org challenge awarding cash plus in-kind support (data science talent, training, software) to organizations using AI to unlock economic opportunity. The current round has closed, but data.org runs recurring open challenges with similar funding.",
     "url": "https://data.org/initiatives/challenges/activate-ai-economic-opportunity-challenge/",
@@ -3054,14 +3254,16 @@
     "id": 101,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "CIVICUS Global Alliance",
     "category": "Foundation",
     "amount": "Grants of USD $10,000–$20,000 plus 9 months of technical support and peer learning",
     "deadline": "Closed April 30, 2026 (recurring cohorts)",
-    "deadlineDate": "2026-04-30",
+    "deadlineDate": null,
     "eligibility": "Civil society organizations in OECD DAC ODA-eligible countries working on democracy/civic space, with some experience using digital tools; preference for underrepresented and grassroots groups.",
     "description": "Cohort program funding civil society organizations to design, test, and scale digital and AI-enabled solutions that strengthen civic space and citizen engagement, especially in restricted environments. Cohort 3 has closed but the lab runs recurring cohorts.",
     "url": "https://www.civicus.org/index.php/what-we-do/enabling-and-resourcing/digital-democracy-initiative/digital-action-lab",
@@ -3084,7 +3286,9 @@
     "id": 102,
     "_updated": "2026-05-30",
     "effort": "high",
-    "domain": "AI"
+    "domain": "AI",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Ethereum Foundation",
@@ -3115,7 +3319,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Ethereum Foundation — Ecosystem Support Program (ESP)",
     "id": 103,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Golem Foundation",
@@ -3145,7 +3351,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Octant — Public Goods Epoch Funding",
     "id": 104,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Stellar Development Foundation",
@@ -3175,7 +3383,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Stellar Community Fund (SCF) — Build Award",
     "id": 105,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Optimism Collective",
@@ -3206,7 +3416,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Optimism Retro Funding — Onchain Builders",
     "id": 106,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Base (Coinbase)",
@@ -3237,7 +3449,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Base Builder Grants",
     "id": 107,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Filecoin Foundation / Filecoin Foundation for the Decentralized Web",
@@ -3268,7 +3482,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Filecoin Foundation — Open Grants & RFPs",
     "id": 108,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Solana Foundation",
@@ -3298,7 +3514,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Solana Foundation — Grants & Convertible Grants",
     "id": 109,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Polygon Community Treasury",
@@ -3329,14 +3547,16 @@
     "domain": "Web3 / Public Goods",
     "name": "Polygon Community Grants Program — Season 2 (Direct Track)",
     "id": 110,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Gitcoin Foundation",
     "category": "Foundation",
     "amount": "Quadratic-funding matching from multi-million pooled rounds; small contributions from many backers can earn large matching multipliers",
     "deadline": "Rounds run ~quarterly; next round expected mid-Oct to early Nov 2026",
-    "deadlineDate": null,
+    "deadlineDate": "2026-11-28",
     "eligibility": "Open-source and public-goods builders, including individuals; project must align with an active funding domain (e.g. dev tooling/infra, public-goods interop)",
     "description": "Gitcoin's flagship quadratic-funding mechanism pools donor + matching capital and pays out in crypto based on breadth of community support. Apply once via Grants Stack Builder to all rounds you qualify for. GG24 moved to a multi-domain model — your project must fit a selected domain.",
     "url": "https://grants.gitcoin.co/",
@@ -3359,7 +3579,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Gitcoin Grants — GG24 & Upcoming Quadratic Funding Rounds",
     "id": 111,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Arbitrum Foundation",
@@ -3389,7 +3611,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Arbitrum Foundation Grant Program",
     "id": 112,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "The Pollination Project",
@@ -3419,7 +3643,9 @@
     "domain": "Civic / Social",
     "name": "The Pollination Project — Daily Grants",
     "id": 113,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Foundation for Contemporary Arts (FCA)",
@@ -3449,7 +3675,9 @@
     "domain": "Creative",
     "name": "Foundation for Contemporary Arts — Emergency Grants",
     "id": 114,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Drips Network",
@@ -3479,7 +3707,9 @@
     "domain": "Open Source",
     "name": "Drips — Open Source Funding (incl. Drips Wave)",
     "id": 115,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Funding the Commons",
@@ -3509,7 +3739,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Funding the Commons — Residencies, Hackathons & QF Rounds",
     "id": 116,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "unknown",
+    "deadlineType": "unknown"
   },
   {
     "organization": "Tarbell Center for AI Journalism",
@@ -3539,7 +3771,9 @@
     "domain": "AI",
     "name": "Tarbell Fellowship in AI Journalism",
     "id": 117,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Experiment (Experiment.com)",
@@ -3569,7 +3803,9 @@
     "domain": "Research",
     "name": "Experiment.com — Science Research Crowdfunding",
     "id": 118,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Open Technology Fund (OTF)",
@@ -3599,7 +3835,9 @@
     "domain": "Open Source",
     "name": "Internet Freedom Fund",
     "id": 119,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Wikimedia Foundation",
@@ -3629,7 +3867,9 @@
     "domain": "Civic / Social",
     "name": "Wikimedia Community Fund — Rapid Fund",
     "id": 120,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Patagonia",
@@ -3659,7 +3899,9 @@
     "domain": "Climate",
     "name": "Patagonia Environmental Grants (Corporate Grants Program)",
     "id": 121,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "National Endowment for the Arts (NEA)",
@@ -3689,7 +3931,9 @@
     "domain": "Creative",
     "name": "Grants for Arts Projects",
     "id": 122,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   },
   {
     "organization": "Giveth",
@@ -3719,7 +3963,9 @@
     "domain": "Web3 / Public Goods",
     "name": "Giveth — Public Goods Donations & Quadratic Funding Rounds",
     "id": 123,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
   },
   {
     "organization": "Okta for Good",
@@ -3749,7 +3995,9 @@
     "domain": "Civic / Social",
     "name": "Nonprofit Technology Fellowship",
     "id": 124,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Verizon (Citizen Verizon)",
@@ -3779,7 +4027,9 @@
     "domain": "AI",
     "name": "Forward for Good Accelerator",
     "id": 125,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
   },
   {
     "organization": "Internet Society Foundation",
@@ -3809,6 +4059,783 @@
     "domain": "Civic / Social",
     "name": "Community-Centered Connectivity Grant Program",
     "id": 126,
-    "_updated": "2026-05-30"
+    "_updated": "2026-05-30",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
+  },
+  {
+    "organization": "Web3 Foundation",
+    "category": "Foundation",
+    "amount": "Up to ~$30,000 USD (USDC/DOT) per grant; larger via Decentralized Futures",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Individuals and small teams building open-source tools, dApps, or research for the Polkadot / Kusama / Substrate ecosystem. For-profit teams eligible.",
+    "description": "Milestone-based, no-equity grants for open-source software and research in the Polkadot ecosystem. Applications and deliveries are tracked transparently as GitHub PRs.",
+    "url": "https://grants.web3.foundation/",
+    "tags": [
+      "web3",
+      "open source",
+      "polkadot",
+      "grants",
+      "non-dilutive"
+    ],
+    "viability": "partial",
+    "viabilityNote": "No equity, rolling, simple GitHub-PR application. Need to align work to the Polkadot ecosystem — frame an open-source collaboration/AI component that integrates with Substrate. Action: open a draft application PR describing a scoped deliverable.",
+    "relevant2026": true,
+    "relevant2026Note": "Program is open and accepting rolling applications via grants.web3.foundation in 2026.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Web3 Foundation Grants Program",
+    "id": 127,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Z Fellows",
+    "category": "Accelerator",
+    "amount": "$10,000 (no-strings stipend OR $10k SAFE at $1B cap) + 1-week program",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Technical builders and founders of any age working on side projects or startups; for-profit teams welcome.",
+    "description": "Mostly-virtual one-week program (final day in SF or NYC) for technical builders. Selected fellows take either a $10k no-strings stipend or a $10k investment on a $1B-cap SAFE, plus mentorship and investor access.",
+    "url": "https://www.zfellows.com/",
+    "tags": [
+      "accelerator",
+      "fellowship",
+      "startup",
+      "rolling",
+      "low-effort"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to for-profit, rolling, single short form, no fixed deadline. Choose the stipend option to keep it fully non-dilutive. Lowest-effort entry on this list — apply once for the whole team.",
+    "relevant2026": true,
+    "relevant2026Note": "Applications reviewed on a rolling basis year-round with no deadline; active in 2026.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "mixed",
+    "effort": "low",
+    "domain": "Startup / General",
+    "name": "Z Fellows",
+    "id": 128,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Sui Foundation",
+    "category": "Foundation",
+    "amount": "Developer Grants $10,000–$100,000 (+ possible SUI bonus); $25k research awards; part of a $50M program",
+    "deadline": "Rolling (per-RFP windows)",
+    "deadlineDate": null,
+    "eligibility": "Startups, developers, and research teams building on the Sui Layer-1 blockchain whose work aligns with active RFP priorities.",
+    "description": "A $50M ecosystem grant program. Developer Grants and RFPs fund teams building apps, tooling, and infrastructure on Sui with milestone-based payouts; research awards fund blockchain science/security work.",
+    "url": "https://www.sui.io/programs-funding",
+    "tags": [
+      "web3",
+      "sui",
+      "developer grants",
+      "RFP",
+      "non-dilutive"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Requires building on Sui. Viable if you ship a Sui integration (e.g., on-chain collaboration primitives or an AI agent tooling RFP). Action: check the Sui Grants Hub for an open RFP that matches a component you'd build anyway.",
+    "relevant2026": true,
+    "relevant2026Note": "$50M program announced Feb 2026; RFPs and Developer Grants actively open via the Sui Grants Hub.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Sui Foundation Grants (Developer Grants & RFPs)",
+    "id": 129,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Zcash Community Grants / Bootstrap (Zcash Dev Fund)",
+    "category": "Foundation",
+    "amount": "Varies — funded from the Major Grants slice of the Zcash Dev Fund (typically tens of thousands to six figures)",
+    "deadline": "Rolling (reviewed every two weeks)",
+    "deadlineDate": null,
+    "eligibility": "Independent teams entering the Zcash ecosystem to perform major ongoing development or other public-good work.",
+    "description": "A five-person community-elected committee funds independent teams building ongoing development or ecosystem public goods for Zcash. Apply via a GitHub form, then post to the community forum for a public comment period.",
+    "url": "https://zcashcommunitygrants.org/",
+    "tags": [
+      "web3",
+      "privacy",
+      "public goods",
+      "grants",
+      "rolling"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Must serve the Zcash ecosystem (privacy tooling, wallet/UX, integrations, education). Low-effort rolling GitHub application. Action: scope an open-source privacy/collaboration tool that touches Zcash.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling applications reviewed biweekly; active in 2026.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Web3 / Public Goods",
+    "name": "Zcash Community Grants (ZCG)",
+    "id": 130,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "NEAR Foundation",
+    "category": "Foundation",
+    "amount": "Varies by fund/DAO; ecosystem grants for developer, AI, and infrastructure projects",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Teams building on or growing the NEAR ecosystem; grassroots DAOs (DeveloperDAO, CreativesDAO) fund builders directly.",
+    "description": "Multiple rolling funding routes — ecosystem grants, grassroots community DAOs, and accelerators — for teams building on NEAR. Strong current emphasis on NEAR AI / user-owned AI, a good fit for AI-integrated products.",
+    "url": "https://www.near.org/ecosystem/get-funding",
+    "tags": [
+      "web3",
+      "AI",
+      "near",
+      "grants",
+      "non-dilutive"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Requires NEAR ecosystem alignment, but NEAR's AI focus fits an AI-collaboration team well. Action: propose a NEAR-integrated AI feature (agents, user-owned data) through the relevant fund or DeveloperDAO.",
+    "relevant2026": true,
+    "relevant2026Note": "Funding routes open and listed on near.org/funding in 2026; emphasis on NEAR AI.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "NEAR Foundation Ecosystem Grants",
+    "id": 131,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "MassChallenge",
+    "category": "Accelerator",
+    "amount": "Equity-free; compete for up to CHF 1M (~$1.26M) non-dilutive cash + in-kind (Switzerland program); regional prizes vary",
+    "deadline": "Varies by region (Switzerland 2026 closed Mar 4; US and other cohorts on separate cycles)",
+    "deadlineDate": null,
+    "eligibility": "Early-stage startups, any sector. Zero equity, no application fee. For-profit.",
+    "description": "Global equity-free, zero-cost accelerator running 4-month programs in which startups compete for non-dilutive cash prizes and in-kind awards judged across three rounds. Multiple regional cohorts run through the year.",
+    "url": "https://masschallenge.org/programs-all/",
+    "tags": [
+      "accelerator",
+      "equity-free",
+      "cash prize",
+      "startup",
+      "non-dilutive"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Equity-free, for-profit, non-dilutive cash with no application fee — clean fit. Action: watch programs-all page for the next open regional cohort (the CH 2026 round closed Mar 4); US cycle differs.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 cohorts running; Switzerland round closed Mar 4, but other regional programs open on rolling annual cycles.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "high",
+    "domain": "Startup / General",
+    "name": "MassChallenge (Equity-Free Accelerator)",
+    "id": 132,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "unknown",
+    "deadlineType": "unknown"
+  },
+  {
+    "organization": "Hello Tomorrow",
+    "category": "Accelerator",
+    "amount": "€100,000 equity-free grand prize; 'Deep Tech Pioneer' recognition + investor-day access for ~800 startups",
+    "deadline": "Annual cycle — 2026 edition closed Jan 5, 2026 (Grand Finals Jun 11–12, 2026); next edition opens later in 2026",
+    "deadlineDate": "2026-06-11",
+    "eligibility": "Early-stage deep-tech startups. Equity-free, free to apply, no commitment.",
+    "description": "A global deep-tech startup competition. ~80 finalists pitch for a €100K equity-free prize at the Hello Tomorrow Summit (Amsterdam), with broad investor and ecosystem access for selected Deep Tech Pioneers. No equity taken.",
+    "url": "https://hello-tomorrow.org/global-challenge/",
+    "tags": [
+      "deep tech",
+      "equity-free",
+      "prize",
+      "AI",
+      "startup"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Equity-free, for-profit, free to enter; AI/deep-tech qualifies. Current cycle's applications have closed — action: apply early (before ~Oct) to the next (12th) edition for free feedback.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "2026 edition applications closed Jan 5; Grand Finals June 2026. Next edition opens later in 2026 — monitor the page.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Startup / General",
+    "name": "Hello Tomorrow Global Challenge",
+    "id": 133,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
+  },
+  {
+    "organization": "The Roddenberry Foundation",
+    "category": "Foundation",
+    "amount": "$2,500–$15,000 micro-grants",
+    "deadline": "Rolling / continuous (verify portal status before applying)",
+    "deadlineDate": null,
+    "eligibility": "Anyone worldwide, 18+. Individuals, teams, nonprofits, and social enterprises (for-profit OK). One grant per applicant lifetime.",
+    "description": "Small, rolling micro-grants for early-stage, unconventional ideas that challenge the status quo and look at a problem in a new light. Recipients have 9 months to complete project activities.",
+    "url": "https://apply.roddenberryfoundation.org/app/catalyst",
+    "tags": [
+      "micro-grant",
+      "rolling",
+      "social impact",
+      "low-effort",
+      "for-profit-ok"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Frame a bold social-impact angle of the platform (e.g., civic/community collaboration). Very low effort and for-profit social enterprises qualify, but confirm the portal is currently accepting — open-status signals were mixed. Action: check the apply portal before drafting.",
+    "relevant2026": true,
+    "relevant2026Note": "Historically continuous/no-deadline micro-grants; verify live portal status as one source suggested a temporary pause.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Civic / Social",
+    "name": "Roddenberry Catalyst Fund",
+    "id": 134,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Zerodha",
+    "category": "Foundation",
+    "amount": "$10,000–$100,000 (≈$1M/year pool)",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Any free/open-source software project worldwide — individuals, maintainers, small teams. Apply by adding a funding.json manifest to your repo/site, or via the form.",
+    "description": "Zerodha's fund gives real cash (not credits) to critical and impactful FOSS projects globally, $10k–$100k each, ~$1M allocated annually with another $1M committed for 2026. Lightweight manifest-based application, individual maintainers welcome.",
+    "url": "https://floss.fund/",
+    "tags": [
+      "open-source",
+      "maintainers",
+      "software",
+      "rolling",
+      "global"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to solo maintainers globally with a minimal application; add a funding.json to your project and submit. One of the lowest-friction real-cash OSS funds available.",
+    "relevant2026": true,
+    "relevant2026Note": "2025 round fully allocated $1M; Zerodha has committed another $1M for 2026. Rolling intake.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Open Source",
+    "name": "FLOSS/fund",
+    "id": 135,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "BlueDot Impact",
+    "category": "Foundation",
+    "amount": "$50–$10,000",
+    "deadline": "Rolling (no deadline)",
+    "deadlineDate": null,
+    "eligibility": "Anyone working on a concrete AI safety or biosecurity project — research, tooling, events, community building, compute. Individuals and small teams; no institution required.",
+    "description": "Fast micro-grants for AI-safety work where money is the bottleneck. ~5-minute application, replies often within a day (9 in 10 within a week), paid upfront, no formal report. Real cash, not just credits.",
+    "url": "https://bluedot.org/programs/rapid-grants",
+    "tags": [
+      "AI-safety",
+      "microgrant",
+      "rolling",
+      "fast",
+      "biosecurity"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to individuals with a 5-minute form and rolling decisions. Odds improve if you're a BlueDot course alum/community member — take a free course first to strengthen the application.",
+    "relevant2026": true,
+    "relevant2026Note": "Actively running and expanding in 2026 (announced scaling its rapid-grant budget); rolling applications accepted now.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "AI",
+    "name": "BlueDot Impact — Rapid Grants",
+    "id": 136,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Open Knowledge Foundation Germany / German government",
+    "category": "Government",
+    "amount": "Up to €95,000 (6 mo) or €158,000 (10 mo)",
+    "deadline": "Nov 30, 2026 (Class 03 window opens Oct 1, 2026)",
+    "deadlineDate": "2026-10-01",
+    "eligibility": "Individual developers and small teams resident in Germany (self-employed/freelance, or part-time release from employer); teams must be able to form a GbR based in Germany.",
+    "description": "Low-threshold public funding for independent developers building socially relevant free/open-source software, focused on data security and software infrastructure. Relaunched program funding ~100 projects in four classes through 2029, with coaching and network support.",
+    "url": "https://www.prototypefund.de/en/application",
+    "tags": [
+      "open-source",
+      "public-interest-tech",
+      "Germany",
+      "infrastructure",
+      "stipend"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Individual-friendly and simple, but requires German residency/tax status. If eligible, prepare a concise project idea for the Oct 1–Nov 30, 2026 Class 03 window.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Class 03 applications open Oct 1–Nov 30, 2026 per the official site.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Open Source",
+    "name": "Prototype Fund (Class 03)",
+    "id": 137,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
+  },
+  {
+    "organization": "Arts Council England",
+    "category": "Government",
+    "amount": "£2,000–£12,000",
+    "deadline": "July 2, 2026 (opens June 4, 2026)",
+    "deadlineDate": "2026-06-04",
+    "eligibility": "Individual creative and cultural practitioners based in England (artists, makers, creative technologists). No organization required.",
+    "description": "Non-dilutive grants for individual artists/practitioners to focus on professional development — research, experimentation, skills, and creative practice (including digital/AI-driven work). Refreshed guidance for the 2026 round.",
+    "url": "https://www.artscouncil.org.uk/dycp",
+    "tags": [
+      "creative",
+      "artists",
+      "UK",
+      "professional-development",
+      "stipend"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Designed for solo individuals with a relatively simple application, but competitive. England-based applicants only. Decisions communicated by Oct 8, 2026.",
+    "relevant2026": true,
+    "relevant2026Note": "Round 24 opens midday Thu June 4, 2026 and closes Thu July 2, 2026 per Arts Council England.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Creative",
+    "name": "Developing Your Creative Practice (DYCP) — Round 24",
+    "id": 138,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
+  },
+  {
+    "organization": "Uniswap Foundation",
+    "category": "Foundation",
+    "amount": "From ~$7.5k (Unichain dev grants) up to large multi-year awards",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Developers, researchers, and small teams building open-source tooling, governance tools, research, or apps around the Uniswap Protocol / V4 hooks / Unichain.",
+    "description": "Community grants program (newly topped up with a ~$10M allocation) funding open-source DeFi contributions across Developers, Researchers, Governance, Innovation, Security, and Protocol categories, plus smaller fast-track Unichain developer grants and audit-cost support.",
+    "url": "https://www.uniswapfoundation.org/grants",
+    "tags": [
+      "web3",
+      "public-goods",
+      "DeFi",
+      "open-source",
+      "Ethereum"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Individuals and solo devs can apply, but proposals must clearly benefit the Uniswap/DeFi ecosystem and are competitive. Start with a smaller Unichain developer grant for a lower-effort entry.",
+    "relevant2026": true,
+    "relevant2026Note": "Active in 2026 — Foundation approved a new ~$10M grants allocation and continues rolling intake.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Uniswap Foundation Grants",
+    "id": 139,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Aave Grants DAO",
+    "category": "Foundation",
+    "amount": "Rapid Grants up to $100k; Community Grants $100k–$500k",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Teams and individual builders creating projects on Aave pools or with GHO (apps, tooling, governance, research, integrations).",
+    "description": "Community-led grants program funding innovation in the Aave/GHO ecosystem. Rapid Grants (≤$100k) use an expedited process and are received on a rolling basis, making it a fast path to real on-chain funding for builders.",
+    "url": "https://aavegrants.org/apply-for-a-grant",
+    "tags": [
+      "web3",
+      "public-goods",
+      "DeFi",
+      "GHO",
+      "open-source"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Solo builders are eligible and the Rapid Grant track is relatively quick, but the project must strengthen the Aave/GHO ecosystem specifically.",
+    "relevant2026": true,
+    "relevant2026Note": "aavegrants.org accepting rolling applications in 2026; Aave DAO recently reinforced ecosystem funding.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Web3 / Public Goods",
+    "name": "Aave Grants DAO",
+    "id": 140,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Apart Research",
+    "category": "Foundation",
+    "amount": "Stipend + mentorship (research fellowship)",
+    "deadline": "Rolling / cohort-based",
+    "deadlineDate": null,
+    "eligibility": "Early-career and independent researchers worldwide; remote, mentor-led. No institutional affiliation required — open to indie researchers and students.",
+    "description": "Remote, mentor-led AI-safety research fellowship that supports small collaborative teams turning hackathon ideas and proposals into published work (e.g., the June–Sept 2026 Secure Program Synthesis cohort with Atlas Computing). Part-time and fully remote.",
+    "url": "https://apartresearch.com/",
+    "tags": [
+      "AI-safety",
+      "research",
+      "fellowship",
+      "remote",
+      "mentorship"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Individual-eligible and remote, but selective and mentor-matched. Lowest-friction entry is to join an Apart hackathon/sprint first, then convert results into a Lab Fellowship.",
+    "relevant2026": true,
+    "relevant2026Note": "Active 2026 cohorts announced (e.g., Secure Program Synthesis Fellowship running June–Sept 2026).",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Research",
+    "name": "Apart Lab Fellowship",
+    "id": 141,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Homeworld Collective",
+    "category": "Foundation",
+    "amount": "$50,000–$150,000 per project",
+    "deadline": "Periodic rounds (check site for open call)",
+    "deadlineDate": null,
+    "eligibility": "Individual researchers and small teams working at the intersection of biotechnology and climate (e.g., protein engineering, greenhouse-gas removal).",
+    "description": "A novel, community-driven grantmaking pipeline that funds ambitious early-stage climate-biotech projects, awarding real cash ($50k–$150k) plus a yearlong cohort with mentorship and downstream-funding support. Prior rounds deployed $1.35M and $1.52M.",
+    "url": "https://www.homeworld.bio/",
+    "tags": [
+      "climate",
+      "biotech",
+      "research",
+      "cohort",
+      "early-stage"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to individual researchers/small teams and not institution-locked, but thematically narrow (climate biotech) and run as periodic rounds — watch the site and prepare a concrete experiment for the next call.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Program is recurring (rounds in 2023 and 2025); monitor homeworld.bio for the next 2026 Garden Grants call.",
+    "audience": [
+      "creator"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "Climate",
+    "name": "Homeworld Collective — Garden Grants",
+    "id": 142,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
+  },
+  {
+    "organization": "Draper Richards Kaplan Foundation (DRK)",
+    "category": "Foundation",
+    "amount": "Up to $300,000 unrestricted over 3 years, plus up to $500,000 in in-kind capacity support",
+    "deadline": "Rolling (applications accepted year-round)",
+    "deadlineDate": null,
+    "eligibility": "Early-stage social impact organizations (nonprofit, for-profit, or hybrid) worldwide with a proven, scalable solution serving underserved communities.",
+    "description": "DRK provides up to $300K in unrestricted grant funding or investment capital over three years, with a senior DRK team member joining your board. The online application is designed to be minimal (30–60 minutes) and is accepted on a rolling basis with no deadline.",
+    "url": "https://www.drkfoundation.org/apply/",
+    "tags": [
+      "social-enterprise",
+      "unrestricted",
+      "rolling",
+      "capacity-building",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to mission-driven orgs globally including nonprofits, but DRK funds early-stage ventures with demonstrated impact and scalability — strongest fit if you already have traction. Low-burden rolling application; apply anytime via the online form.",
+    "relevant2026": true,
+    "relevant2026Note": "Confirmed accepting applications year-round in 2026; no fixed deadline.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Civic / Social",
+    "name": "Draper Richards Kaplan Foundation — Social Entrepreneurship Funding",
+    "id": 143,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "MIT Solve (with The Patrick J. McGovern Foundation)",
+    "category": "Foundation",
+    "amount": "$100,000–$150,000 in unrestricted prize funding per winning team (over $1M distributed across the 2026 challenge)",
+    "deadline": "Mid-2026 (Solve Challenge Finals at UN General Assembly, Sept 2026)",
+    "deadlineDate": "2026-09-28",
+    "eligibility": "Tech-based social impact solutions (nonprofits, social enterprises, individuals) using data/AI/ML to benefit humanity; open globally.",
+    "description": "MIT Solve's 10th Anniversary Global Challenge welcomes solutions on any social or environmental topic already operating or scaling. Winners receive at least $100K unrestricted, plus access to MIT's innovation ecosystem, mentorship, and pro-bono support. The McGovern-backed AI for Humanity Prize awards up to $150K.",
+    "url": "https://solve.mit.edu/challenges",
+    "tags": [
+      "AI",
+      "prize",
+      "social-impact",
+      "MIT",
+      "unrestricted",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open application to nonprofits/social enterprises worldwide with no 501(c)(3) requirement, but it is a competitive juried challenge. Best for orgs with a working, scaling AI/data solution. Action: submit a Solver application during the 2026 challenge window.",
+    "relevant2026": true,
+    "relevant2026Note": "2026 10th Anniversary Global Challenge launched March 2026 with finals in September 2026.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "medium",
+    "domain": "AI",
+    "name": "MIT Solve — Global Challenge 2026 (incl. AI for Humanity Prize)",
+    "id": 144,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
+  },
+  {
+    "organization": "ENS DAO — Public Goods Working Group",
+    "category": "Foundation",
+    "amount": "Recurring public-goods grants (typically a few ETH per project; round-based)",
+    "deadline": "Rolling / round-based (reviewed on an ongoing basis)",
+    "deadlineDate": null,
+    "eligibility": "Builders of web3 public goods, open-source tools, infrastructure, or educational resources benefiting the broader Ethereum ecosystem (not just ENS).",
+    "description": "The ENS DAO Public Goods Working Group funds non-ENS-specific public goods across web3 — infrastructure, tooling, and education. Builders Grants use the Nouns Prop House model with lightweight rounds, and stewards review submissions on a rolling basis for usefulness and impact.",
+    "url": "https://builder.ensgrants.xyz/",
+    "tags": [
+      "web3",
+      "public-goods",
+      "open-source",
+      "ethereum",
+      "rolling",
+      "QF"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Open to small teams and individuals; no incorporation required, but you need a web3-aligned public-goods project and a crypto wallet to receive funds. Low-effort, rolling round applications. Action: submit a builder grant proposal in the next round.",
+    "relevant2026": true,
+    "relevant2026Note": "Public Goods Working Group continues rolling grantmaking in 2026 (incl. 2026 initiatives like Speedrun Ethereum).",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Web3 / Public Goods",
+    "name": "ENS Public Goods Builders Grants",
+    "id": 145,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Celo Public Goods (CeloPG)",
+    "category": "Foundation",
+    "amount": "Varies by program — Builder Fund grants, bi-weekly Support Streams, RPGF rounds, GoodBuilders ($220K pool)",
+    "deadline": "Rolling (outcomes typically within 4–6 weeks of submission)",
+    "deadlineDate": null,
+    "eligibility": "Builders and projects contributing to or benefiting the Celo ecosystem (public goods, impact tooling, regenerative finance).",
+    "description": "CeloPG coordinates several funding mechanisms including milestone-based Builder grants, recurring Support Streams, Retroactive Public Goods Funding rounds, and the GoodBuilders program (~$220K in rewards for building with the G$ currency). Applications are reviewed on a rolling basis.",
+    "url": "https://www.celopg.eco/programs",
+    "tags": [
+      "web3",
+      "public-goods",
+      "retroactive-funding",
+      "regen",
+      "rolling",
+      "impact"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to small teams/individuals, but projects should build on or benefit the Celo ecosystem (web3). Low-medium effort; include a Karma GAP project profile to strengthen the application. Action: pick the matching CeloPG program and apply.",
+    "relevant2026": true,
+    "relevant2026Note": "Active programs (Builder Fund, Support Streams, RPGF, GoodBuilders) running with rolling applications in 2026.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "Web3 / Public Goods",
+    "name": "Celo Public Goods — Builder & Retroactive Funding Programs",
+    "id": 146,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Comcast (Project UP)",
+    "category": "Corporate",
+    "amount": "$5,000 monetary grant plus a technology makeover, marketing/media package, and business consultation",
+    "deadline": "Annual application window (historically opens in May)",
+    "deadlineDate": null,
+    "eligibility": "Small businesses (and in some rounds community/mission-driven small organizations) in designated U.S. regions; rounds often prioritize entrepreneurs from underrepresented groups.",
+    "description": "Comcast RISE provides comprehensive grant packages — a $5,000 cash grant, technology makeover from Comcast Business, advertising/creative production, educational resources, and consultation. Rounds rotate across U.S. regions; over $160M in resources delivered to 14,500+ businesses to date.",
+    "url": "https://corporate.comcast.com/rise",
+    "tags": [
+      "small-business",
+      "cash",
+      "tech-makeover",
+      "marketing",
+      "regional",
+      "low-effort"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Oriented toward small businesses rather than pure nonprofits, and limited to specified U.S. regions per round — a community group operating as a small business may qualify. Simple application. Action: confirm your region is in the current round and apply in the ~May window.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Ongoing annual program; 2026 regional windows typically open around May — monitor the official RISE site for your region.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "mixed",
+    "effort": "low",
+    "domain": "Startup / General",
+    "name": "Comcast RISE",
+    "id": 147,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
+  },
+  {
+    "organization": "Robert Wood Johnson Foundation",
+    "category": "Foundation",
+    "amount": "Grant funding (RWJF awards commonly range $100K–$500K per project)",
+    "deadline": "2026 open call (check active funding opportunities page for the cycle deadline)",
+    "deadlineDate": null,
+    "eligibility": "U.S.-based nonprofit organizations collecting, analyzing, and using local data to address community inequities.",
+    "description": "RWJF's Local Data for Equitable Communities program funds nonprofits to gather and use community data to advance health equity. RWJF is the largest U.S. health-focused philanthropy, awarding $500M–$600M annually; this is an open call rather than invitation-only.",
+    "url": "https://www.rwjf.org/en/grants/active-funding-opportunities/2026/local-data-for-equitable-communities.html",
+    "tags": [
+      "health-equity",
+      "data",
+      "nonprofit",
+      "community",
+      "RFP",
+      "civic"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open to U.S. nonprofits and well-suited to community organizations, but it is a competitive RFP with a health-equity/data framing and likely needs 501(c)(3) status or a fiscal sponsor. Action: review the call requirements and submit a proposal before the cycle deadline.",
+    "relevant2026": true,
+    "relevant2026Note": "Listed as a 2026 active funding opportunity on RWJF's site; confirm the current deadline before applying.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "high",
+    "domain": "Civic / Social",
+    "name": "RWJF — Local Data for Equitable Communities",
+    "id": 148,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
+  },
+  {
+    "organization": "Bezos Earth Fund",
+    "category": "Foundation",
+    "amount": "$50,000 (Phase I seed) up to $2,000,000 (Phase II implementation)",
+    "deadline": "Phase-based (Phase II awarded Oct 2025; monitor for next call)",
+    "deadlineDate": null,
+    "eligibility": "Teams using modern AI to deliver climate and nature solutions (sustainable proteins, grid optimization, biodiversity, wildcard ideas); open to nonprofits and research/impact organizations globally.",
+    "description": "Part of a multi-year $100M challenge. Phase I awards $50K seed grants via open application; the strongest projects advance to Phase II implementation grants of up to $2M over two years. Past Phase I winners include both large institutions and smaller teams.",
+    "url": "https://aiforclimateandnature.org/",
+    "tags": [
+      "AI",
+      "climate",
+      "nature",
+      "biodiversity",
+      "phased",
+      "global"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Phase I open-application seed grants are realistically winnable by a small team with a credible AI+climate prototype, though the program has favored research institutions. Requires a clear AI-for-climate solution. Action: watch the Grand Challenge site for the next Phase I/open call and apply.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Multi-year program through ~2027; Phase II awarded Oct 2025 — monitor for the next open Phase I round.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "high",
+    "domain": "Climate",
+    "name": "Bezos Earth Fund — AI for Climate and Nature Grand Challenge",
+    "id": 149,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring"
+  },
+  {
+    "organization": "Echoing Green",
+    "category": "Foundation",
+    "amount": "$100,000 stipend over 18 months, plus capacity-building support and a peer network",
+    "deadline": "Annual cycle (2026-cohort closed Oct 8, 2025; next cycle expected to open ~Sept 2026)",
+    "deadlineDate": "2026-09-28",
+    "eligibility": "Early-stage social entrepreneurs (sole or leading founder with decision-making power) working full-time on a bold, community-driven venture; open globally, 18+.",
+    "description": "Echoing Green supports emerging social entrepreneurs with an 18-month $100K stipend to work full-time on their venture, plus capacity-building and access to a community of ~1,000 fellows. One of the most established non-dilutive fellowships for impact founders.",
+    "url": "https://echoinggreen.org/fellowship/apply/",
+    "tags": [
+      "fellowship",
+      "social-entrepreneur",
+      "stipend",
+      "early-stage",
+      "global",
+      "unrestricted"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open application with no incorporation requirement, but highly competitive and requires a full-time founder leading the venture. Action: prepare now and apply when the next cycle opens (~Sept–Oct 2026); set a reminder to monitor the apply page.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "2026 cohort application closed Oct 2025 (decisions June/July 2026); the next annual cycle is expected to open in fall 2026.",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "high",
+    "domain": "Civic / Social",
+    "name": "Echoing Green Fellowship",
+    "id": 150,
+    "_updated": "2026-05-31",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
   }
 ]

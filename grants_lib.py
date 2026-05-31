@@ -17,6 +17,7 @@ Responsibilities:
 
 import json
 import os
+import re
 import subprocess
 import datetime
 
@@ -51,6 +52,8 @@ SCHEMA_DEFAULTS = {
     "amount": "",
     "deadline": "Rolling",
     "deadlineDate": None,
+    "deadlineStatus": "unknown",   # open | rolling | upcoming | expired | unknown (derived)
+    "deadlineType": "unknown",     # fixed | rolling | recurring | unknown (derived)
     "eligibility": "",
     "description": "",
     "url": "",
@@ -121,6 +124,96 @@ def classify_effort(grant):
     return "medium"
 
 
+# ---- deadline derivation -------------------------------------------------
+# The single most important honesty check: is this opportunity actually OPEN?
+# A free-text deadline conflates two very different things — "this window has
+# passed" vs "recurring program, next cycle later". We split them apart so a
+# live recurring program is never buried as if it were dead, and a genuinely
+# expired one-shot is never shown as if you could still apply.
+
+_MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun",
+     "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+# "always open" — no deadline to miss.
+_ROLLING_RE = re.compile(
+    r"\b(rolling|ongoing|anytime|continuous|year[\s-]?round|always open|no deadline)\b", re.I)
+# recurring program whose NEXT window isn't a firm date yet — watch / prepare,
+# don't treat as expired even if the last window's date has passed.
+_RECUR_RE = re.compile(
+    r"(next (cohort|cycle|round|competition|call|window|intake|batch|cohorts)"
+    r"|reopen|re-open|expected|upcoming|watch |applications? open|opens? "
+    r"|later this year|later 20\d\d|late 20\d\d|mid[\s-]?20\d\d|early 20\d\d"
+    r"|annual|recurring|quarterly|rounds run|periodic|tbd|tba|~"
+    r"|q[1-4]\s*20\d\d|(fall|spring|summer|winter)\s+20\d\d)", re.I)
+
+
+def _all_dates(text):
+    """Every calendar date mentioned in a messy deadline string, as date objs.
+
+    Handles "Closes May 17, 2026", "June 20-21, 2026" (takes first day),
+    ISO "2026-07-15", and bare "May 2026" (treated as end-of-month).
+    """
+    out = []
+    for m in re.finditer(
+            r"\b([A-Za-z]{3,9})\.?\s+(\d{1,2})(?:\s*[-–]\s*\d{1,2})?,?\s+(\d{4})", text):
+        mon = _MONTHS.get(m.group(1)[:3].lower())
+        if mon:
+            try:
+                out.append(datetime.date(int(m.group(3)), mon, int(m.group(2))))
+            except ValueError:
+                pass
+    for m in re.finditer(r"(\d{4})-(\d{2})-(\d{2})", text):
+        try:
+            out.append(datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3))))
+        except ValueError:
+            pass
+    for m in re.finditer(r"\b([A-Za-z]{3,9})\.?\s+(\d{4})\b", text):
+        mon = _MONTHS.get(m.group(1)[:3].lower())
+        if mon and not any(d.year == int(m.group(2)) and d.month == mon for d in out):
+            try:
+                out.append(datetime.date(int(m.group(2)), mon, 28))
+            except ValueError:
+                pass
+    return out
+
+
+def derive_deadline(grant, today=None):
+    """Classify a grant's deadline into a status the UI can trust.
+
+    Returns {deadlineStatus, deadlineType, deadlineDate}:
+      open     — a fixed date in the future; you can apply now/soon (deadlineDate set)
+      rolling  — always open, no deadline (deadlineDate None)
+      upcoming — recurring program, next window announced but not firmly dated;
+                 watch/prepare — NOT expired (deadlineDate None)
+      expired  — a fixed date has passed and no next window is announced
+                 (deadlineDate = the passed date, for reference)
+      unknown  — nothing parseable; check the program page (deadlineDate None)
+    """
+    today = today or datetime.date.today()
+    text = (grant.get("deadline") or "").strip()
+    raw = " ".join(str(grant.get(k, "")) for k in ("deadline", "deadlineDate"))
+    dates = _all_dates(raw)
+    future = sorted(d for d in dates if d >= today)
+    past = sorted((d for d in dates if d < today), reverse=True)
+    rolling = bool(_ROLLING_RE.search(text))
+    recurring = bool(_RECUR_RE.search(text))
+
+    if future:
+        # a concrete upcoming date wins — that's the actionable deadline
+        return {"deadlineStatus": "open", "deadlineType": "fixed",
+                "deadlineDate": future[0].isoformat()}
+    if rolling:
+        return {"deadlineStatus": "rolling", "deadlineType": "rolling", "deadlineDate": None}
+    if recurring:
+        # last window may have passed, but the program lives on — don't bury it
+        return {"deadlineStatus": "upcoming", "deadlineType": "recurring", "deadlineDate": None}
+    if past:
+        return {"deadlineStatus": "expired", "deadlineType": "fixed",
+                "deadlineDate": past[0].isoformat()}
+    return {"deadlineStatus": "unknown", "deadlineType": "unknown", "deadlineDate": None}
+
+
 def classify_funding_type(grant):
     """Heuristically label a grant cash / credits / equity / mixed from its
     amount + tags. Cash (real money) is what we prioritize; credits come later."""
@@ -189,6 +282,9 @@ def normalise(item):
         record["effort"] = classify_effort(record)
     if not item.get("domain"):
         record["domain"] = classify_domain(record)
+    # deadline status is always DERIVED (a projection of deadline/deadlineDate),
+    # never authored — recompute every time so the data can't drift stale.
+    record.update(derive_deadline(record))
     return fix_mojibake(record)
 
 
