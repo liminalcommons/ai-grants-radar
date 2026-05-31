@@ -25,7 +25,7 @@ import sys
 import grants_lib as gl
 
 REPORT_FILE = os.path.join(gl.DIR, "report.html")
-LIVE_URL = "https://ai-grants-xi.vercel.app"
+LIVE_URL = "https://liminalcommons.github.io/ai-grants-radar"
 
 # ── earthy / Claude palette ───────────────────────────────────────────────
 PAPER = "#F4F1EA"      # warm cream background
