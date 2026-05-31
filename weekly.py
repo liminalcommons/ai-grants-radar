@@ -45,29 +45,24 @@ def main():
     # 2. report
     step("Report", ["generate-report.py"])
 
-    # 3. deploy: commit FIRST (clean), then rebase onto origin. Committing before
-    #    pulling avoids autostash conflicts that could leave conflict markers in a
-    #    committed file. If the rebase conflicts, abort and fall back to CLI deploy
-    #    rather than pushing a corrupted tree.
+    # 3. deploy: commit, then push to the `pages` remote → GitHub Pages publishes
+    #    https://liminalcommons.github.io/ai-grants-radar/ (free, no billing).
+    #    Commit before pull so a rebase conflict can abort cleanly without leaving
+    #    conflict markers in a committed file.
     if not no_deploy:
-        print("\n=== Deploy ===")
+        print("\n=== Deploy (GitHub Pages) ===")
         try:
             subprocess.run(["git", "add", "-A"], cwd=gl.DIR, check=True)
             subprocess.run(["git", "commit", "-m", "weekly: new grants + report"], cwd=gl.DIR)
-            rebase = subprocess.run(["git", "pull", "--rebase", "origin", "master"], cwd=gl.DIR)
+            rebase = subprocess.run(["git", "pull", "--rebase", "pages", "master"], cwd=gl.DIR)
             if rebase.returncode != 0:
-                print("  rebase conflicted — aborting and deploying via CLI instead.")
+                print("  rebase conflicted — aborting; resolve manually.")
                 subprocess.run(["git", "rebase", "--abort"], cwd=gl.DIR, check=False)
-                gl.deploy()
             else:
-                subprocess.run(["git", "push", "origin", "master"], cwd=gl.DIR, check=True)
-                print("  Pushed to origin → Vercel auto-deploys.")
+                subprocess.run(["git", "push", "pages", "master"], cwd=gl.DIR, check=True)
+                print("  Pushed → GitHub Pages publishes in ~1 min.")
         except subprocess.CalledProcessError as e:
-            print(f"  git deploy failed ({e}); falling back to Vercel CLI.")
-            try:
-                gl.deploy()
-            except subprocess.CalledProcessError as e2:
-                print(f"  CLI deploy also failed: {e2}")
+            print(f"  git push failed: {e}")
 
     # 4. notify
     if not no_notify:

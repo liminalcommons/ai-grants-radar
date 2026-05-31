@@ -4,7 +4,7 @@ A self-updating radar of AI funding opportunities for **three audiences** —
 small AI product teams, individual creators/builders, and small orgs/nonprofits —
 with **real cash prioritized over cloud credits**.
 
-Live: https://ai-grants-xi.vercel.app · Weekly report: `/report.html`
+Live (GitHub Pages, free): https://liminalcommons.github.io/ai-grants-radar/ · Weekly report: `/report.html`
 
 ## Pipeline
 
