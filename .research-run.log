@@ -1,0 +1,10 @@
+Loaded 246 existing grants. Audiences: team, creator, org
+[team] researching via headless Claude (web search)...
+[team] returned 8 candidates.
+[creator] researching via headless Claude (web search)...
+[creator] returned 8 candidates.
+[org] researching via headless Claude (web search)...
+[org] returned 8 candidates.
+Added 24 grants: Alpha-Omega Project Grants, Tether Developer Grants Program, Rhizome Microgrants, Plug and Play Silicon Valley Accelerator, Hello Alice Small Business Grants (Boost Camp / Make More Possible), Google for Startups AI Agent Challenge 2026, Alicia's AI Impact Grant, Sei Creator Fund (Gitcoin Quadratic Funding), Serpentine Art and Technology Fellowship (Art x Convergence), Unitary Foundation Quantum Computing Microgrant, USAII Global AI Hackathon 2026, The Rumpus Writing Fellowships, Civic Science Media Project Grants, A Public Space Writing Fellowships, Silvers Grants for Work in Progress, AssemblyAI $50k AI Hackathon, Bank of America Neighborhood Builders, The Lawrence Foundation Grant, WomensNet Amber Grant, Verizon Small Business Digital Ready Grant, Nathan Cummings Foundation — Advancement Grants, Pulitzer Center — U.S. Local News Reporting Grants, ProPublica Local Reporting Network, Whiting Creative Nonfiction Grant (Works-in-Progress)
+Total: 270 grants.
+Skipping deploy (--no-deploy).
