@@ -379,9 +379,13 @@ document.getElementById('grid').addEventListener('click',e=>{if(e.target.closest
 
 // ===== matching assistant (client-side brain — swap matchEngine() for Liminalia/LiteLLM later) =====
 const profile={audience:null,domain:null,needCash:true,text:''};
-const WORKER_URL='https://grants-bot.accounts-82f.workers.dev'; // glm-5.1 via OpenCode Go (key server-side)
+const WORKER_URL='https://grants-bot.accounts-82f.workers.dev'; // deepseek-v4.1-flash via OpenCode Go (key server-side)
 const chatHistory=[];
 let chatStarted=false;
+let chatSid=null;
+try{chatSid=localStorage.getItem('grants-sid');
+  if(!chatSid){chatSid=(crypto.randomUUID?crypto.randomUUID():'sid-'+Date.now()+'-'+Math.floor(Math.random()*1e9));localStorage.setItem('grants-sid',chatSid)}
+}catch(e){chatSid='sid-'+Date.now()}
 const log=()=>document.getElementById('mp-log');
 function scrollLog(){const l=log();l.scrollTop=l.scrollHeight}
 function bubble(cls,html){const d=document.createElement('div');d.className='bubble '+cls;d.innerHTML=html;log().appendChild(d);scrollLog();return d}
@@ -432,7 +436,7 @@ function mdLite(s){let h=esc(s);
   return h.replace(/\n/g,'<br>')}
 async function askLLM(candidates){
   const r=await fetch(WORKER_URL,{method:'POST',headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({messages:chatHistory.slice(-8),candidates})});
+    body:JSON.stringify({messages:chatHistory.slice(-8),candidates,session:chatSid})});
   if(!r.ok)throw new Error('http '+r.status);
   const d=await r.json();if(!d.text)throw new Error('no text');return d.text}
 async function recommend(){

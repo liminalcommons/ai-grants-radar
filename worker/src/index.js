@@ -41,6 +41,11 @@ export default {
       .slice(-8);
     const candidates = (Array.isArray(body.candidates) ? body.candidates : []).slice(0, 24);
 
+    // OpenCode Go routes on a stable per-conversation session id (+ identifying UA).
+    const session = (typeof body.session === "string" && /^[A-Za-z0-9-]{8,64}$/.test(body.session))
+      ? body.session
+      : crypto.randomUUID();
+
     const sys = `You are the matching assistant for "Funding Radar", a curated list of real funding opportunities.
 
 CRITICAL OUTPUT RULES:
@@ -62,7 +67,7 @@ Then one short practical tip starting with "Tip:". Keep the whole reply under 22
 CANDIDATES: ${JSON.stringify(candidates)}`;
 
     const payload = {
-      model: body.model || "glm-5.1",
+      model: body.model || "deepseek-v4.1-flash",
       max_tokens: 800,
       temperature: 0.4,
       messages: [{ role: "system", content: sys }, ...history],
@@ -75,6 +80,8 @@ CANDIDATES: ${JSON.stringify(candidates)}`;
         headers: {
           "Content-Type": "application/json",
           "Authorization": "Bearer " + env.OPENCODE_GO_API_KEY,
+          "x-opencode-session": session,
+          "User-Agent": "grants-bot/1.0",
         },
         body: JSON.stringify(payload),
       });
