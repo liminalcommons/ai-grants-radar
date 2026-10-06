@@ -318,7 +318,12 @@ def deploy():
     """Build a clean public/ dir and deploy only that via the linked Vercel
     project (`ai-grants`; link is copied into public/.vercel)."""
     import build_site
+    import predeploy_check
     out = build_site.build()
+    problems = predeploy_check.check(out)
+    if problems:
+        raise RuntimeError("predeploy check failed, NOT deploying:\n  "
+                           + "\n  ".join(problems))
     print("  Deploying public/ to Vercel (--prod)...")
     subprocess.run(
         "npx --yes vercel --prod --yes",

@@ -1,3 +1,4 @@
+import pytest
 import json
 import os
 from unittest import mock
@@ -69,7 +70,8 @@ def test_idempotent_and_wipes(tmp_path):
 
 def test_deploy_builds_then_runs_vercel():
     calls = []
-    with mock.patch.object(build_site, "build",
+    with mock.patch("predeploy_check.check", return_value=[]), \
+         mock.patch.object(build_site, "build",
                            side_effect=lambda *a, **k: calls.append("build") or "/p"), \
          mock.patch.object(grants_lib.subprocess, "run",
                            side_effect=lambda *a, **k: calls.append((a, k))) as run:
@@ -79,3 +81,12 @@ def test_deploy_builds_then_runs_vercel():
     assert "vercel --prod --yes" in args[0]
     assert kw["cwd"] == "/p"
     assert run.call_count == 1
+
+
+def test_deploy_aborts_when_check_fails():
+    with mock.patch.object(build_site, "build", return_value="/p"), \
+         mock.patch("predeploy_check.check", return_value=["bad .env"]), \
+         mock.patch.object(grants_lib.subprocess, "run") as run:
+        with pytest.raises(RuntimeError):
+            grants_lib.deploy()
+    run.assert_not_called()
