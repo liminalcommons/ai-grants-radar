@@ -173,7 +173,8 @@
       <div class="header-actions">
         <div class="updated" id="updated">UPDATED —</div>
         <div class="links">
-          <a class="btn" href="report.html">Weekly report →</a>
+          <a class="btn" href="/report.html">Weekly report →</a>
+          <a class="btn" href="/">Try the new Funding Radar →</a>
           <a class="btn primary" href="https://ntfy.sh/liminal-grants-7c3f9" target="_blank" rel="noopener">🔔 Subscribe</a>
         </div>
       </div>
@@ -489,7 +490,7 @@ function initMatcher(){
 // ---- load ----
 (async function(){
   try{
-    const raw=await (await fetch('grants.json?v='+Date.now())).json();
+    const raw=await (await fetch('/grants.json?v='+Date.now())).json();
     GRANTS=raw;
     const doms=[...new Set(GRANTS.map(g=>g.domain).filter(Boolean))].sort();
     const sel=document.getElementById('domain');

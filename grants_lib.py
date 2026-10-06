@@ -10,7 +10,7 @@ Responsibilities:
   - load / save grants.json as proper UTF-8 (ensure_ascii=False)
   - dedup-merge new grants by id and case-insensitive name
   - repair UTF-8-as-CP1252 mojibake (e.g. em dash shown as "â€"")
-  - normalise records to the schema index.html expects
+  - normalise records to the schema classic/index.html expects
   - deploy the static site to Vercel (the dir is gitignored on purpose, so
     we redeploy via the Vercel CLI rather than git-push auto-deploy)
 """
@@ -44,7 +44,7 @@ def _load_dotenv():
 
 _load_dotenv()
 
-# Fields index.html reads. category ∈ {Corporate, Foundation, Government, Accelerator}.
+# Fields classic/index.html reads. category ∈ {Corporate, Foundation, Government, Accelerator}.
 # viability ∈ {yes, partial, no}. relevant2026 ∈ {True, False, "upcoming"}.
 SCHEMA_DEFAULTS = {
     "organization": "",

@@ -36,7 +36,7 @@ Copy `.env.example` → `.env` (gitignored). Telegram needs `TELEGRAM_BOT_TOKEN`
 
 `grants.json` — each record carries `audience` (subset of team/creator/org),
 `fundingType` (cash/credits/equity/mixed), `viability` (yes/partial/no), and
-`relevant2026`. The site (`index.html`) and report read this file directly.
+`relevant2026`. The new site (`site/`, served at `/`), the classic page (`classic/index.html`, served at `/classic/`) and the report read this file directly.
 
 ## Weekly automation
 

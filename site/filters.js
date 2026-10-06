@@ -206,6 +206,11 @@
     return lines.map(fold).join("\r\n") + "\r\n";
   }
 
-  return { filterGrants, sortGrants, isExpired, isVerified, unknownFields, daysUntil,
+  // Accepts a bare array or {grants: [...]}; anything else yields [].
+  function parseGrants(data) {
+    return Array.isArray(data) ? data : (data && Array.isArray(data.grants) ? data.grants : []);
+  }
+
+  return { parseGrants, filterGrants, sortGrants, isExpired, isVerified, unknownFields, daysUntil,
     deadlineOf, deadlineTypeOf, buildIcs, isoToUtc };
 });

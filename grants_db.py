@@ -7,7 +7,7 @@
 
 Field contract: see "Plan: Grants website rebuild". Notes on the choices made here:
 
-* ``eligibility`` stays the legacy prose string (index.html renders it). The
+* ``eligibility`` stays the legacy prose string (classic/index.html renders it). The
   structured contract object {geography, entityRequired, applicantTypes,
   restrictions} is stored/exported as ``eligibilityDetail``. upsert() routes a
   dict passed as ``eligibility`` to that column.

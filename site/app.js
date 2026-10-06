@@ -1,4 +1,5 @@
-/* Funding Radar UI. Reads ../grants.json (export) or ./grants.json (copy).
+/* Funding Radar UI. Reads ../grants.json (resolves to /grants.json at the site root,
+ * or the repo-root file under /site/) or ./grants.json (copy).
  * All text is inserted via textContent - no innerHTML with data. */
 (function () {
   const F = window.FundingFilters;
@@ -172,7 +173,7 @@
         const r = await fetch(src);
         if (!r.ok) continue;
         const data = await r.json();
-        return Array.isArray(data) ? data : data.grants || [];
+        return F.parseGrants(data);
       } catch (_) { /* try next */ }
     }
     throw new Error("Could not load grants.json (serve the repo root over HTTP).");

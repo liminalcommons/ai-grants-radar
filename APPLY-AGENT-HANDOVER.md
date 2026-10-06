@@ -84,7 +84,7 @@ When writing grant applications, use these narratives depending on the funder's 
 
 ## 4. THE GRANT DATABASE
 
-**Location**: `C:/flur_workspace/ai-grants/index.html`
+**Location**: `C:/flur_workspace/ai-grants/classic/index.html`
 **Run locally**: `cd C:/flur_workspace/ai-grants && python -m http.server 3000` → http://localhost:3000
 **Total grants**: 40 (as of 2026-03-13)
 **Data format**: JavaScript array `GRANTS` embedded in the HTML file
@@ -195,7 +195,7 @@ Platform-as-a-service for organizations that want AI-facilitated collaboration i
 
 | Asset | Location |
 |-------|----------|
-| Grant database (live app) | `C:/flur_workspace/ai-grants/index.html` |
+| Grant database (live app) | `C:/flur_workspace/ai-grants/classic/index.html` |
 | Grant app server | `http://localhost:3000` (python -m http.server 3000) |
 | Application drafts | `C:/flur_workspace/ai-grants/applications/` (create if needed) |
 | Castalia production | `https://castalia.one` |
