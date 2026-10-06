@@ -7,3 +7,5 @@ finds.json
 weekly-run.log
 _u.txt
 _t.json
+data/*.db
+data/*.db-journal

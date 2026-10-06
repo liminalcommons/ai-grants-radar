@@ -1,0 +1,160 @@
+[
+  {
+    "id": 1,
+    "name": "Google Cloud AI Startup Program",
+    "organization": "Google Cloud",
+    "category": "Corporate",
+    "amount": "Up to $350,000 in cloud credits",
+    "deadline": "Rolling",
+    "deadlineDate": null,
+    "eligibility": "Early-stage AI startups",
+    "description": "Provides AI startups with substantial cloud compute credits, dedicated support, and access to Vertex AI, Gemini models, and TPUs. No equity taken. Designed to reduce infrastructure costs during early development. Application is straightforward via the Google Cloud startup portal.",
+    "url": "https://cloud.google.com/startup/ai",
+    "tags": [
+      "cloud credits",
+      "compute",
+      "startup",
+      "no equity",
+      "rolling"
+    ],
+    "viability": "yes",
+    "viabilityNote": "Easy entry. No equity, rolling applications, perfect for app/platform teams. Apply today.",
+    "relevant2026": true,
+    "relevant2026Note": "Rolling program — actively accepting 2026 applications year-round.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "credits",
+    "effort": "low",
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "id": 8,
+    "name": "NSF SBIR/STTR — Artificial Intelligence Track",
+    "organization": "U.S. National Science Foundation",
+    "category": "Government",
+    "amount": "Phase I: up to $300K | Phase II: up to $1.25M",
+    "deadline": "Rolling (check seedfund.nsf.gov)",
+    "deadlineDate": null,
+    "eligibility": "U.S. small businesses, <500 employees, for-profit",
+    "description": "Funds high-risk, high-reward AI R&D in early-stage startups. Phase I validates feasibility, Phase II funds full prototype development. No equity taken. One of the most accessible federal grant pathways for AI companies. Note: SBIR reauthorization unresolved as of March 2026 — verify status.",
+    "url": "https://seedfund.nsf.gov/topics/artificial-intelligence/",
+    "tags": [
+      "SBIR",
+      "deep tech",
+      "early stage",
+      "US only",
+      "no dilution"
+    ],
+    "viability": "partial",
+    "viabilityNote": "High value but requires US incorporation and significant R&D framing. Feasible for a US-based team building novel AI tech.",
+    "relevant2026": "uncertain",
+    "relevant2026Note": "SBIR reauthorization expired Sept 2025 and remains unresolved as of March 2026. Verify current status at seedfund.nsf.gov before investing effort.",
+    "_updated": "2026-03-14",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "equity",
+    "effort": "high",
+    "domain": "AI",
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling"
+  },
+  {
+    "organization": "Patrick J. McGovern Foundation",
+    "category": "Foundation",
+    "amount": "Up to $125,000 plus intensive technical support from data scientists and engineers",
+    "deadline": "Rolling — current cycle deadline July 1, 2026",
+    "deadlineDate": "2026-07-01",
+    "eligibility": "Nonprofits and social-impact organizations with existing data assets seeking to deepen their data science / AI practice.",
+    "description": "Cohort-based accelerator giving mission-driven nonprofits funding plus hands-on engineering and program support to build responsible AI and data capabilities. Distinct from PJMF's invitation-only large grants — this one accepts open expressions of interest.",
+    "url": "https://www.mcgovern.org/grants/",
+    "tags": [
+      "data-science",
+      "capacity-building",
+      "AI-for-good",
+      "foundation"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Open application but selective; best fit for nonprofits that already hold complex datasets. Submit an expression of interest before July 1, 2026.",
+    "relevant2026": true,
+    "relevant2026Note": "Applications accepted on a rolling basis with a stated July 1, 2026 cycle deadline.",
+    "audience": [
+      "org"
+    ],
+    "name": "Data Practice Accelerator Program",
+    "id": 66,
+    "_updated": "2026-05-30",
+    "fundingType": "cash",
+    "effort": "low",
+    "domain": "AI",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed"
+  },
+  {
+    "organization": "Patrick J. McGovern Foundation",
+    "category": "Foundation",
+    "amount": "$100,000 – $750,000",
+    "deadline": "Rolling (grants database updated weekly)",
+    "deadlineDate": null,
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling",
+    "eligibility": "Primarily nonprofits, public institutions, and social-impact organizations advancing responsible AI use.",
+    "description": "Part of the Foundation's $75.8M 2026 commitment to responsible AI in public institutions, funding AI fluency and capacity-building work in the $100K–$750K range on a rolling basis.",
+    "url": "https://www.mcgovern.org/grants/",
+    "tags": [
+      "AI",
+      "civic",
+      "responsible-AI",
+      "non-dilutive"
+    ],
+    "viability": "partial",
+    "viabilityNote": "Large non-dilutive cash, but skews toward nonprofits/public institutions. Viable only with a nonprofit or government partner where your AI collaboration platform powers their capacity-building — pursue as a fiscal-sponsor or partner-led grant.",
+    "relevant2026": true,
+    "relevant2026Note": "Backed by a fresh $75.8M 2026 commitment; database updated weekly and accepting submissions.",
+    "audience": [
+      "team"
+    ],
+    "fundingType": "cash",
+    "effort": "high",
+    "domain": "Civic / Social",
+    "name": "AI Fluency and Capacity Building Grants",
+    "id": 206,
+    "_updated": "2026-06-01"
+  },
+  {
+    "organization": "Center for Environmental Journalism, University of Colorado Boulder",
+    "category": "Foundation",
+    "amount": "$80,000 stipend (9-month fellowship) + paid conference travel & reporting support",
+    "deadline": "Next cycle: applications open December 2026, due March 1, 2027",
+    "deadlineDate": "2026-12-28",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed",
+    "eligibility": "Journalists with 5+ years of full-time professional experience and a bachelor's degree; environmental beat experience not required.",
+    "description": "Five fellows spend an academic year (Fall 2027–Spring 2028 cohort) at CU Boulder auditing courses, in seminars, and on a major project, with an $80,000 stipend. The 2026 cycle has closed; the next opens December 2026 with a firm March 1, 2027 deadline.",
+    "url": "https://www.colorado.edu/cej/ted-scripps-fellowships-environmental-journalism",
+    "tags": [
+      "journalism",
+      "environment",
+      "fellowship",
+      "stipend",
+      "climate"
+    ],
+    "viability": "partial",
+    "viabilityNote": "For experienced individual journalists, not orgs; high-effort application (study plan + project proposal). Worth flagging now so a qualifying team member can prep for the Dec 2026 open / Mar 2027 deadline.",
+    "relevant2026": "upcoming",
+    "relevant2026Note": "Annual recurring program; 2026 deadline passed, next confirmed window opens Dec 2026 (due Mar 1, 2027).",
+    "audience": [
+      "org"
+    ],
+    "fundingType": "cash",
+    "effort": "high",
+    "domain": "Research",
+    "name": "Ted Scripps Fellowships in Environmental Journalism",
+    "id": 501,
+    "_updated": "2026-06-04"
+  }
+]
