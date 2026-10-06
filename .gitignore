@@ -9,3 +9,4 @@ _u.txt
 _t.json
 data/*.db
 data/*.db-journal
+public/

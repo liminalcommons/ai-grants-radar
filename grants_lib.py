@@ -315,11 +315,14 @@ def merge(existing, new_items):
 
 
 def deploy():
-    """Push the static site live via the linked Vercel project (`ai-grants`)."""
-    print("  Deploying to Vercel (--prod)...")
+    """Build a clean public/ dir and deploy only that via the linked Vercel
+    project (`ai-grants`; link is copied into public/.vercel)."""
+    import build_site
+    out = build_site.build()
+    print("  Deploying public/ to Vercel (--prod)...")
     subprocess.run(
         "npx --yes vercel --prod --yes",
-        cwd=DIR,
+        cwd=out,
         shell=True,
         check=True,
     )
