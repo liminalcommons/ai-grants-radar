@@ -219,14 +219,18 @@ def main():
         print(json.dumps([gl.normalise(f) for f in all_finds], indent=2, ensure_ascii=False))
         return
 
-    added = gl.merge(existing, all_finds)
-    if not added:
+    # Finds are only candidates: each page is scraped (and extracted) before
+    # the grant lands in the DB. Deploy, when enabled, still publishes grants.json.
+    import refresh
+
+    conn = refresh.open_db()
+    cands = refresh.prepare_candidates(conn, all_finds, datetime.date.today())
+    stats = refresh.run(conn, candidates=cands, candidates_only=True)
+    print(refresh.summary_line(stats))
+    if not stats["added"]:
         print("No new grants to add.")
         return
-
-    gl.save(existing)
-    print(f"Added {len(added)} grants: {', '.join(added)}")
-    print(f"Total: {len(existing)} grants.")
+    print(f"Added {stats['added']} grants ({stats['rejected']} rejected: dead page).")
 
     if no_deploy:
         print("Skipping deploy (--no-deploy).")

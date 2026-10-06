@@ -4,9 +4,12 @@ weekly.py — the full weekly pipeline, one entry point for the scheduler/routin
 
 Steps:
   1. research-grants.py  — find new grants for all audiences (team/creator/org)
-  2. generate-report.py  — render the earthy HTML weekly report (report.html)
-  3. deploy              — publish grants.json + report.html to Vercel
-  4. notify.py           — post to Telegram group + email the report
+  2. refresh.py          — scrape grant pages, extract requirements, refresh deadlines
+                           (capped: 150 pages / 25 LLM extractions per run, most overdue
+                           first, so the initial backlog drains over several weeks)
+  3. generate-report.py  — render the earthy HTML weekly report (report.html)
+  4. deploy              — publish grants.json + report.html to Vercel
+  5. notify.py           — post to Telegram group + email the report
 
 Each step is best-effort and logged; a failure in one does not abort the rest
 (e.g. no new grants still produces + delivers a "nothing new this week" report).
@@ -42,10 +45,13 @@ def main():
     # 1. research (saves grants.json; we deploy explicitly in step 3)
     step("Research", ["research-grants.py", "--no-deploy"])
 
-    # 2. report
+    # 2. refresh: re-verify new/changed/stale pages, re-derive deadlines, export grants.json
+    step("Refresh", ["refresh.py", "--limit", "150", "--max-extract", "25"])
+
+    # 3. report
     step("Report", ["generate-report.py"])
 
-    # 3. deploy: commit, then push to the `pages` remote → GitHub Pages publishes
+    # 4. deploy: commit, then push to the `pages` remote → GitHub Pages publishes
     #    https://liminalcommons.github.io/ai-grants-radar/ (free, no billing).
     #    Commit before pull so a rebase conflict can abort cleanly without leaving
     #    conflict markers in a committed file.
@@ -64,7 +70,7 @@ def main():
         except subprocess.CalledProcessError as e:
             print(f"  git push failed: {e}")
 
-    # 4. notify
+    # 5. notify
     if not no_notify:
         step("Notify", ["notify.py"])
 
