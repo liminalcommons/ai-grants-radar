@@ -1657,7 +1657,20 @@
     "effort": "low",
     "domain": "Open Source",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "e65ef75c39974b965aff1ab8db052527e576dfbccf35b0af7fb2032249fe861b"
+    },
+    "amountMin": 1,
+    "amountMax": 1,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    }
   },
   {
     "id": 32,
@@ -1690,7 +1703,43 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "62176eb12e009ad1fa5a4afd8b5dcec176aba2328f4143a88944a292ff9727ad"
+    },
+    "amountMin": 4000,
+    "amountMax": 6000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Applications judged on quality of submission, founder background, and potential for impact and scalability",
+        "quote": "Applications will be judged based on quality of submission, founder background, and overall potential for impact and scalability."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring",
+      "deadlineDate": "2026-02-16",
+      "durationMonths": 1.5
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "Must be a Vercel customer at or above the age of majority",
+        "Must commit to the full 6 weeks of the program",
+        "Must not be located in or subject to U.S. sanctions restrictions",
+        "Pre-seed stage ideas"
+      ]
+    }
   },
   {
     "id": 33,
@@ -1722,7 +1771,43 @@
     "effort": "high",
     "domain": "Creative",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "09026df131c5bdeb9dc0fa8abeb405b930aa56508381276c3f75e53e1a0dd62d",
+      "finalUrl": "https://dev.meta.ai/llama/llama-ai-innovation"
+    },
+    "amountMin": 35000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "open source AI projects advancing social and economic impact",
+        "quote": "supporting open source AI projects advancing social and economic impact"
+      },
+      {
+        "item": "already using Llama",
+        "quote": "already using Llama to address local issues"
+      }
+    ],
+    "timeline": {
+      "decisionDate": "2024-09-28",
+      "deadlineDate": "2025-06-27",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "restrictions": [
+        "startups and researchers based in Africa",
+        "organizations based in Africa, the Middle East, Turkey, Asia Pacific, and Latin America"
+      ]
+    }
   },
   {
     "id": 34,
@@ -1755,7 +1840,21 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "4eaf035c6426a20e8d136eb7ee18c2ca2cc6ac971d19c85666a8c910215fd5a4",
+      "finalUrl": "https://dev.meta.ai/"
+    },
+    "amountMin": 1000000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    }
   },
   {
     "id": 35,
@@ -1787,7 +1886,48 @@
     "effort": "high",
     "domain": "Climate",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "d7da09d1d1bac3d50d01171a0320b50218aad28d6019f30afdacbfcd5811b061"
+    },
+    "amountMin": 2,
+    "amountMax": 40,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Submit the SFF Funding Rolling Application.",
+        "quote": "Completing the SFF Funding Rolling Application will automatically submit a Speculation Grant Request on your behalf."
+      },
+      {
+        "item": "For Theme Rounds, submit a supplemental application in addition to the standard rolling application.",
+        "quote": "Theme Rounds require a supplemental application in addition to the standard rolling application."
+      },
+      {
+        "item": "To apply for a theme round, first submit the SFF Funding Rolling Application and then submit the corresponding supplemental application.",
+        "quote": "To apply for a theme round, applicants must first submit the SFF Funding Rolling Application, in addition to submitting a supplemental application that corresponds to the themed grant round they would like to be considered for."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling",
+      "decisionDate": "2026-09-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Applicants must be awarded a Speculation Grant to be guaranteed eligible for consideration in an SFF S-Process Grant Round.",
+        "Late applications are not eligible for the current Main Round or any SFF Theme Rounds.",
+        "You can apply as a charity or for-profit (seeking either investment or non-dilutive funding)."
+      ]
+    }
   },
   {
     "id": 36,
@@ -1820,7 +1960,34 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "a9268b9f0620b0a4ff7d6a85c10dd24d8f2d972638230004573a76f1c9e9670d"
+    },
+    "amountMin": 1,
+    "amountMax": 10000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Projects use AI to expand income growth and economic mobility",
+        "quote": "supports bold, early-stage projects using AI to expand income growth and economic mobility"
+      }
+    ],
+    "timeline": {
+      "durationMonths": 6
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "early-stage projects"
+      ]
+    }
   },
   {
     "id": 37,
@@ -1853,7 +2020,17 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "90ba21d489d01b93c7a1a87d5571f683ce0b2bd16aa992300574155bb18c8581"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.0
+    }
   },
   {
     "id": 38,
@@ -1887,7 +2064,17 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "3b27d57009fc5c4a7e2dfdea055720e305c40bf63d61fa106bfb836398b44405"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.0
+    }
   },
   {
     "id": 39,
@@ -1920,7 +2107,68 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "93c966019434dba8e4d2525173511d9584430af5f007da692bfb850f8f9d7d74"
+    },
+    "amountMin": 150,
+    "amountMax": 300000,
+    "currency": "EUR",
+    "requirements": [
+      {
+        "item": "Complete application form",
+        "quote": "Complete our application form"
+      },
+      {
+        "item": "Short 60 second founder video",
+        "quote": "A short 60 second video (1 minute max, founders/co-founders only, filmed together in one location"
+      },
+      {
+        "item": "Product/demo video mandatory",
+        "quote": "Product/demo video (mandatory)"
+      },
+      {
+        "item": "Structured answers on problem, market, competition, traction, and funding",
+        "quote": "Structured answers on problem, market, competition, traction, and funding"
+      },
+      {
+        "item": "English is official language",
+        "quote": "English is the official language of the program. All applications, pitches, and program communications take place in English."
+      }
+    ],
+    "timeline": {
+      "decisionDate": "2026-09-28",
+      "deadlineType": "rolling",
+      "opensDate": "2026-07-13",
+      "durationMonths": 6
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:DE",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "Pre-incorporation teams only (no GmbH/UG/AG/SE/KGaA)",
+        "At least two committed co-founders",
+        "AI and engineering expertise in core team",
+        "Not yet secured external financial backing",
+        "Core team based in Germany and eligible visa",
+        "AI as core enabling technology",
+        "Project addresses at least one UN SDG",
+        "Validated problem with customer interviews",
+        "Basic low-fidelity prototype required",
+        "Pre-funded with binding VC/angel agreements or full-time public startup grant are overqualified",
+        "Already incorporated capital-based company overqualified"
+      ]
+    }
   },
   {
     "id": 40,
@@ -1953,7 +2201,56 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "f8f59b57eec5740b4e24d9d665538bd692a81b28447239c8822b53a1c43c72ac"
+    },
+    "amountMin": 25000,
+    "amountMax": 100000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Pay participation fee",
+        "quote": "Students participating in the selection process must pay a nominal fee of $49 or $88, respectively."
+      },
+      {
+        "item": "Complete certification programs by April 2026",
+        "quote": "ALL students MUST complete their respective certification programs by APRIL 2026."
+      },
+      {
+        "item": "Pass certification exam to earn official credential",
+        "quote": "Students must pass the certification exam at the end of the program to earn their official credential."
+      },
+      {
+        "item": "Scholarship recipients who complete certification training participate in Regional Virtual Hackathon",
+        "quote": "Scholarship recipients who complete their certification training will participate in a Regional Virtual Hackathon."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-01-31",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Students only",
+        "U.S. citizens or legal residents",
+        "CAIE applicants must be from a STEM-related undergraduate or master’s program",
+        "CAIP and CAIP-Advanced applicants from any academic stream",
+        "National AI Hackathon eligibility limited to grades 11-12, undergraduates, and graduates"
+      ]
+    }
   },
   {
     "organization": "Intel Corporation",
@@ -1985,7 +2282,18 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "a2a1049affa75311b0e8bfa277ebbc5a6415487d4ff55025cbe70ebd254b1179",
+      "finalUrl": "https://www.intel.com/content/www/us/en/developer/overview.html"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Oracle",
@@ -2016,7 +2324,17 @@
     "effort": "high",
     "domain": "Startup / General",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "a366bd481bb7ab02878e3d7a98ab64543fd46cf35cb525447b10f9728bc682ff"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Cloudflare",
@@ -2048,7 +2366,75 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "1b371fd0da6b1e421865e28fc23df7874a4354fb3be1b3ec2a59025ac86ab6b9"
+    },
+    "amountMin": 2500,
+    "amountMax": 350000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Founded within the last 10 years.",
+        "quote": "Founded within the last 10 years"
+      },
+      {
+        "item": "Funded up to Series B.",
+        "quote": "Funded up to Series B"
+      },
+      {
+        "item": "Funded within the last 12 months.",
+        "quote": "Funded within the last 12 months"
+      },
+      {
+        "item": "Building a technology product.",
+        "quote": "Building a technology product"
+      },
+      {
+        "item": "Has a valid, publicly accessible website.",
+        "quote": "Has a valid, publicly accessible website"
+      },
+      {
+        "item": "Active on LinkedIn, X (Twitter), or GitHub.",
+        "quote": "Active on LinkedIn, X (Twitter), or GitHub"
+      },
+      {
+        "item": "Has not previously been approved into the program.",
+        "quote": "Has not previously been approved into the program"
+      },
+      {
+        "item": "For-profit business with a business email matching your domain.",
+        "quote": "For-profit business with a business email matching your domain"
+      },
+      {
+        "item": "Create a Cloudflare account and upload a valid payment method on file.",
+        "quote": "You will be required to create a Cloudflare account and upload a valid payment method on file."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Not open to educational institutions, personal blogs, consultancies, service-based agencies, MSPs, or resellers.",
+        "Existing enterprise customers may not use the Startup Plan.",
+        "One-time opportunity per startup; credits cannot be transferred between accounts.",
+        "Business email required; no personal email addresses.",
+        "First-time applicants only.",
+        "Must be a for-profit business.",
+        "Company incorporated no more than 10 years ago.",
+        "Must have a live website we can verify.",
+        "Must have a public social media presence."
+      ]
+    }
   },
   {
     "organization": "Together AI",
@@ -2080,7 +2466,40 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "4544adc37e52f14b30730b25f5a70451a3df18b21e8b6a759e7c15d072b81fc3"
+    },
+    "amountMin": 15000,
+    "amountMax": 5000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Submit application with requested details",
+        "quote": "Share all the details below so our team can review and get back to you."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Startup",
+        "Selection-based program",
+        "Build tier: Up to $5M raised",
+        "Scale tier: $5M–$10M raised",
+        "Grow tier: Over $10M raised",
+        "Credits do not apply to Reserved GPU Clusters"
+      ]
+    }
   },
   {
     "organization": "ElevenLabs",
@@ -2112,7 +2531,11 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-06"
+    }
   },
   {
     "organization": "DigitalOcean",
@@ -2144,7 +2567,68 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "d848153cc196d4aba79b5593aec3ca261d9059f6f3fbbd539532a2b513b1784e"
+    },
+    "amountMin": 500,
+    "amountMax": 5000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Must create a new DigitalOcean team account for startup with corporate email and valid credit card",
+        "quote": "you must create a new DigitalOcean team account for your startup with 1) the corporate email address associated with your company domain and 2) a valid credit card."
+      },
+      {
+        "item": "Applicants must include a working website and matching corporate email address",
+        "quote": "For security reasons, applicants must include a working website and matching corporate email address."
+      },
+      {
+        "item": "Program credits may only be used for Qualifying Program Services, which excludes GPU Products",
+        "quote": "Program credits may only be used for Qualifying Program Services, which excludes GPU Products."
+      },
+      {
+        "item": "DigitalOcean credits are not transferable and unused credits are forfeited",
+        "quote": "No. The DigitalOcean credits are designed to help you scale your infrastructure and are not transferable. If you do not use the credits, they will be forfeited."
+      },
+      {
+        "item": "The DigitalOcean Startups program does not grant extensions",
+        "quote": "The DigitalOcean Startups program does not grant extensions."
+      },
+      {
+        "item": "Cannot use program credits for cryptocurrency mining",
+        "quote": "you cannot use any program credits for the mining of cryptocurrency (e.g. bitcoin mining)."
+      },
+      {
+        "item": "Core credits do not cover GPU Droplet usage",
+        "quote": "DigitalOcean Startups core credits do not cover your GPU Droplet usage"
+      },
+      {
+        "item": "Participants generally are entitled to a $10,000 monthly limit",
+        "quote": "Participants generally are entitled to a $10,000 monthly limit (and charges apply for any use in a month exceeding this amount)."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Service-based startups are not eligible",
+        "Must have raised $10m or less",
+        "Must have a company website and an email address associated with the company website",
+        "Must create a registered DigitalOcean team account with a business/company email",
+        "Program is for new startups that have not used prior credits with DigitalOcean",
+        "Prioritize AI-native startups"
+      ]
+    }
   },
   {
     "organization": "Modal Labs",
@@ -2176,7 +2660,56 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "3c6122a4a41b334bbb4b6e15f91ca47acecf858004d4e8d29721ad50fc1a78bd"
+    },
+    "amountMin": 1000000,
+    "amountMax": 30000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Customers must be new to Modal and meet the below requirements",
+        "quote": "Customers that are new to Modal and meet the below requirements are eligible to apply."
+      },
+      {
+        "item": "Seed to Series A: Raised any amount of VC funding from our VC partner network",
+        "quote": "Raised any amount of VC funding from our VC partner network"
+      },
+      {
+        "item": "Seed to Series A: Raised VC funding >$1m from any fund",
+        "quote": "Raised VC funding >$1m from any fund"
+      },
+      {
+        "item": "Scaling and Series B+: Raised VC funding > $30m or post-series B",
+        "quote": "Raised VC funding > $30m or post-series B"
+      },
+      {
+        "item": "Scaling and Series B+: VC is part of our partner network",
+        "quote": "VC is part of our partner network"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be new to Modal",
+        "One-time grant; no reapply after receiving credits in a given tier",
+        "Seed to Series A: Raised any amount of VC funding from our VC partner network",
+        "Seed to Series A: Raised VC funding >$1m from any fund",
+        "Scaling and Series B+: Raised VC funding > $30m or post-series B",
+        "Scaling and Series B+: VC is part of our partner network"
+      ]
+    }
   },
   {
     "organization": "AI2 Incubator (spun out of the Allen Institute for AI)",
@@ -2208,7 +2741,23 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "994ba4350890b36051fa9edca0aeaca6f16afa3f39ec5ff975efb4f68e0f9fd6",
+      "finalUrl": "https://aihouse.vc/"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Applied AI founders"
+      ]
+    }
   },
   {
     "organization": "Groq",
@@ -2239,7 +2788,18 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "d9fe920da6b8751e2da94c519dfe917f16074eb825c7158fe5b19730afd5bc52",
+      "finalUrl": "https://groq.com/"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "OVHcloud",
@@ -2271,7 +2831,37 @@
     "effort": "high",
     "domain": "Creative",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "471c54d7e72a3722e5b02c1ea2944828efbd4cd76d412586da53b774ae4c1436"
+    },
+    "amountMin": 10000,
+    "amountMax": 100000,
+    "currency": "EUR",
+    "timeline": {
+      "deadlineDate": "2026-07-26",
+      "deadlineType": "fixed",
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "startup",
+        "scaleup",
+        "enabler"
+      ]
+    }
   },
   {
     "organization": "Cerebras Systems",
@@ -2302,7 +2892,18 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "1ea4fe2c27a350ad5a7b9133a955d23c6e52d45bb677eae07182800bf87b88b8",
+      "finalUrl": "https://www.cerebras.ai/landing-page"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "MongoDB",
@@ -2334,7 +2935,66 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "8da3661eb07f73324408255aa934c798a927daa22e2f88639be43ec092c2718e"
+    },
+    "amountMin": 49,
+    "amountMax": 49,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Must provide company email address",
+        "quote": "Please provide your company email address"
+      },
+      {
+        "item": "Must provide company URL/Domain",
+        "quote": "Please insert the URL of your organization."
+      },
+      {
+        "item": "Must provide LinkedIn to confirm affiliation",
+        "quote": "Required to confirm applicant’s affiliation with the company."
+      },
+      {
+        "item": "Must provide HQ Country",
+        "quote": "HQ Country*"
+      },
+      {
+        "item": "Must provide Funding Stage",
+        "quote": "Funding Stage*"
+      },
+      {
+        "item": "Must agree to terms and conditions",
+        "quote": "I agree to the terms and conditions."
+      },
+      {
+        "item": "Must be an Organization Owner or Organization Billing Admin to activate subscription",
+        "quote": "you must be an Organization Owner or Organization Billing Admin to activate your subscription"
+      }
+    ],
+    "timeline": {
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Early-stage: Less than 7 years old and Series A or earlier",
+        "Building a scalable product: Focused on a single software-based product or service",
+        "Development shops and agencies are not eligible",
+        "New participants: Not previously accepted into the MongoDB for Startups program",
+        "Established online: Have an active company website and LinkedIn profile"
+      ]
+    }
   },
   {
     "organization": "Snowflake",
@@ -2365,7 +3025,41 @@
     "effort": "high",
     "domain": "Startup / General",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "0563f93524e896ff52ce43779da539d2b66a34cb216722dc75d217ad442b16ab"
+    },
+    "requirements": [
+      {
+        "item": "interested startups must fill out the form",
+        "quote": "If you are interested, please fill out the form above."
+      },
+      {
+        "item": "evaluated based on potential for apps to drive value for Snowflake customers",
+        "quote": "Startups are evaluated based on the potential for their apps to drive value for Snowflake customers."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling",
+      "durationMonths": 6
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "startups developing customer-facing applications on top of the AI Data Cloud",
+        "selective program for a small, carefully chosen cohort of customers"
+      ]
+    }
   },
   {
     "organization": "Innovate UK (UKRI)",
@@ -2397,7 +3091,18 @@
     "effort": "high",
     "domain": "Creative",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "25de51813612680ab53ff41ae253f4e39e90873a8fc52dcc6461ede352fe9c96",
+      "finalUrl": "https://www.ukri.org/councils/innovate-uk/guidance-for-applicants/guidance-for-specific-funds/"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "EA Funds (managed by Effective Ventures)",
@@ -2428,7 +3133,23 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "94396902cddf6b3c833f0202913a13ba6a33d64a506fc9fd4935dfccdec7a017"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 1.0
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Fund has closed",
+        "No longer accepts applications or donations"
+      ]
+    }
   },
   {
     "organization": "Cohere Labs (Cohere)",
@@ -2460,7 +3181,59 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "602d3ff2eba7628ab99d23c098b8b4e5c66029440074a42039e88e263f815779"
+    },
+    "requirements": [
+      {
+        "item": "Projects must be for public benefit or open science research",
+        "quote": "Projects must be for public benefit or open science research"
+      },
+      {
+        "item": "Focus areas: Education, healthcare, climate change, sustainability",
+        "quote": "FOCUS: Education, healthcare, climate change, sustainability"
+      },
+      {
+        "item": "Language model safety, including bias, explainability, hallucinations, toxicity, and adversarial testing",
+        "quote": "Language model safety, including bias, explainability, hallucinations, toxicity, and adversarial testing"
+      },
+      {
+        "item": "Language model applications for prosocial goals in fields such as education, climate science, content moderation, healthcare, law, history, and social science",
+        "quote": "Language model applications for prosocial goals in fields such as education, climate science, content moderation, healthcare, law, history, and social science"
+      },
+      {
+        "item": "Language model capabilities, such as improving information retrieval accuracy or model efficiency",
+        "quote": "Language model capabilities, such as improving information retrieval accuracy or model efficiency"
+      },
+      {
+        "item": "Multilingual capabilities, such as increasing language model performance and safety in languages beyond English",
+        "quote": "Multilingual capabilities, such as increasing language model performance and safety in languages beyond English"
+      },
+      {
+        "item": "Values alignment exploring how to ensure generative AI model behavior meets people’s expectations, preferences and values",
+        "quote": "Values alignment exploring how to ensure generative AI model behavior meets people’s expectations, preferences and values"
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.85
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Academic partners, civic and public impact organizations"
+      ]
+    }
   },
   {
     "organization": "Harvestworks Digital Media Arts Center",
@@ -2493,7 +3266,11 @@
     "effort": "high",
     "domain": "Creative",
     "deadlineStatus": "open",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "redirect",
+      "finalUrl": "https://archive.harvestworks.org/open-call-2026-artists-in-residence-program/"
+    }
   },
   {
     "organization": "fal.ai",
@@ -2525,7 +3302,10 @@
     "effort": "low",
     "domain": "Open Source",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "CloudRift",
@@ -2557,7 +3337,10 @@
     "effort": "low",
     "domain": "Open Source",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "OpenAI",
@@ -2589,7 +3372,10 @@
     "effort": "low",
     "domain": "Open Source",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "MATS Research (ML Alignment & Theory Scholars)",
