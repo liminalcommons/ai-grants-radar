@@ -8901,7 +8901,51 @@
     "domain": "Web3 / Public Goods",
     "name": "World Foundation Grants (Continuous Grants Program)",
     "id": 162,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "1519587841957f6e272f78c836a93f4debd3ede07b6a30a4555e6da01ef5288c",
+      "finalUrl": "https://world.org/one"
+    },
+    "amountMin": 30000,
+    "amountMax": 30000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Build in public",
+        "quote": "Build in public"
+      },
+      {
+        "item": "Ship",
+        "quote": "Ship"
+      },
+      {
+        "item": "Provide feedback on developer products",
+        "quote": "Provide feedback on our developer products"
+      }
+    ],
+    "timeline": {
+      "durationMonths": 3
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Solo builders only",
+        "Must be based in San Francisco or willing and able to relocate",
+        "Must have an established audience and a track record of shipping",
+        "Must see Proof of Human as a foundational building block and be excited to build with World ID",
+        "Up to five builders for the first cohort"
+      ]
+    }
   },
   {
     "organization": "PEN America",
@@ -8933,7 +8977,11 @@
     "domain": "Creative",
     "name": "U.S. Writers Aid Initiative",
     "id": 163,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "McGraw Center for Business Journalism (CUNY)",
@@ -8964,7 +9012,64 @@
     "domain": "Research",
     "name": "Harold W. McGraw, Jr. Business Journalism Fellowship",
     "id": 164,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f74de1a6d6bfe919d2f40020fd8be1210b84b21d2fc20c30834da309cc4d655c"
+    },
+    "amountMin": 15000,
+    "amountMax": 15000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Submit a well-focused story proposal of no more than three pages through the online form",
+        "quote": "Applicants should submit a well-focused story proposal of no more than three pages through the accompanying online form."
+      },
+      {
+        "item": "Enclose three journalism samples",
+        "quote": "In addition, applicants should enclose three journalism samples."
+      },
+      {
+        "item": "Provide an up-to-date resume",
+        "quote": "Please also provide us with an up-to-date resume."
+      },
+      {
+        "item": "Finalists must provide references from two editors or others familiar with their work",
+        "quote": "those who are chosen as finalists will be asked to provide references from two editors or others familiar with their work"
+      },
+      {
+        "item": "No budget required at application; finalists asked to provide an estimated budget",
+        "quote": "No budget is required at the time of application. Applicants chosen as finalists will be asked to provide an estimated budget at that time."
+      },
+      {
+        "item": "Proposal should briefly outline a proposed reporting plan and timeline for completing the story",
+        "quote": "Applicants should also briefly outline a proposed reporting plan and a timeline for completing the story."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-10-12",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "At least five years professional experience in journalism",
+        "Applicants must be US citizens/residents or pay taxes in the US, and Fellows must be subject to US income taxes",
+        "Cannot support long-form documentaries",
+        "Not a residency Fellowship; Fellows work from their own offices"
+      ]
+    }
   },
   {
     "organization": "Epic Games",
@@ -8996,7 +9101,11 @@
     "domain": "Open Source",
     "name": "Epic MegaGrants",
     "id": 165,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Core Foundation (Core DAO)",
@@ -9028,7 +9137,17 @@
     "domain": "Web3 / Public Goods",
     "name": "Core Foundation Grants Program",
     "id": 166,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "ad9cf70382ce11fece16a6a9e4de10522d3af2555617814ef1759c0a66c07995"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Walmart Foundation",
@@ -9060,7 +9179,62 @@
     "domain": "Civic / Social",
     "name": "Spark Good Local Grants",
     "id": 167,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "8de3523f24c412eb851be988ea935a887fc44cb36c5339abd92e4bc8bc58ecdb"
+    },
+    "amountMin": 250,
+    "amountMax": 5000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Grant amounts range from $250 to $5,000",
+        "quote": "Grant amounts range from $250 to $5,000."
+      },
+      {
+        "item": "Maximum of 25 applications per organization at any time",
+        "quote": "A maximum of 25 applications (pending or approved status), is allowed per organization at any time."
+      },
+      {
+        "item": "Affirming alignment with Spark Good program guidelines is mandatory for all grant recipients",
+        "quote": "Affirming alignment with Spark Good program guidelines is mandatory for all grant recipients."
+      },
+      {
+        "item": "Agreeing to logo usage and recognition guidelines is required",
+        "quote": "Agreeing to logo usage and recognition guidelines is required."
+      },
+      {
+        "item": "If recommended for a grant, provide correct banking within 21 days of notification",
+        "quote": "If recommended for a grant, funds are distributed through electronic payment via JP Morgan, requiring the organization to provide correct banking within 21 days of the organization’s primary owner being notified that the grant was recommended for approval."
+      },
+      {
+        "item": "Applications are accepted and reviewed through three application cycles in FY27",
+        "quote": "Applications are accepted and reviewed through three application cycles in FY27:"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must serve the same service area as the facility from which funding is requested",
+        "Eligible entity must be a 501(c)(3) public charity",
+        "Eligible entity may be a government entity (non-501(c)(3))",
+        "Eligible entity may be a school, college, or university",
+        "Eligible entity may be a church or other faith-based organization for community-benefit projects",
+        "Non-charities such as 501(c)(4)s, 501(c)(6)s, and 501(c)(19)s are not eligible",
+        "Once funded, reapplication to the same facility is not allowed within the same fiscal year"
+      ]
+    }
   },
   {
     "organization": "CIVICUS — Crisis Response Fund & Digital Democracy Initiative",
@@ -9092,7 +9266,72 @@
     "domain": "Civic / Social",
     "name": "Digital Resiliency Grants",
     "id": 168,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "8345cfdcfa8600c76454872d2684a54dd5e3e21011c48ebfc206c3b612d3418a"
+    },
+    "amountMin": 10000,
+    "amountMax": 20000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Read the eligibility criteria carefully and submit only if all criteria are met",
+        "quote": "Read the eligibility criteria carefully.You can submit an application only if you meet all the eligibility criteria."
+      },
+      {
+        "item": "Download the application form and budget template to prepare submission",
+        "quote": "Download the templates that will help you prepare your submission: 1) Download the application form in a Word file to draft your answers. 2) Download the budget template in Excel to prepare your budget proposal."
+      },
+      {
+        "item": "Prepare budget proposal using the Excel template and upload it when submitting the application online",
+        "quote": "You must elaborate your budget proposal using the Excel template and upload that file when submitting your application online."
+      },
+      {
+        "item": "Submit application via the online application form",
+        "quote": "Submit your application via our online application form."
+      },
+      {
+        "item": "If unable to access the online portal, send completed application form and budget proposal to the provided email address",
+        "quote": "However, if you experience challenges accessing or using this portal, please send your completed application form and budget proposal to this email address:"
+      },
+      {
+        "item": "Provide receipt-based financial reports to CIVICUS every month",
+        "quote": "This includes providing receipt-based financial reports to CIVICUS every month."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling",
+      "durationMonths": 6
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Applicants must be a local civil society organisation, group or social movement (either formal or informal) working to expand civic and democratic freedoms and promote inclusive democracy in the digital age",
+        "The grants are not awarded to individuals",
+        "Priority is given to unrepresented or marginalised actors, including women, youth, informal civil society, grassroots groups and LGTBIQ+ groups",
+        "Applicants must be based in a global south country receiving Official Development Assistance from the OECD DAC",
+        "Priority is given to countries where civic freedoms are restricted, particularly those with Obstructed and Repressed civic space ratings according to the CIVICUS Monitor",
+        "Applicants must be facing a verifiable imminent civic space threat or emergency or a need for enhanced digital resiliency; evidence from the last three to six months is required",
+        "Proposals must be for resiliency responses or activities; advocacy activities, core funding and other purposes are not accepted",
+        "Responses/proposals should be implemented in or under six months",
+        "Applicants must have an organisational bank account with the ability to receive funds from a CIVICUS bank account based in the United States; if not, a fiscal sponsor or alternative account may be requested",
+        "Applicants must be able to plan and track the use of CRF-DDI grant funding, including providing receipt-based financial reports every month",
+        "Applicants should not have received funding from the CIVICUS Crisis Response Fund in the last two years",
+        "Grant amount up to USD 10,000 for one organisation submitting alone and up to USD 20,000 for joint applications between two or more organisations",
+        "The grants must be used in under six months",
+        "Applications are received at any time throughout the year and reviewed on a rolling basis"
+      ]
+    }
   },
   {
     "organization": "Trust for Civic Life",
@@ -9124,7 +9363,35 @@
     "domain": "Civic / Social",
     "name": "Small Grants",
     "id": 169,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "8916e0c40346b4afb7dc0ec858808ee37d7d388a4fe3caf74941709057e1c93a"
+    },
+    "amountMin": 5000,
+    "amountMax": 8000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Projects and programs must spark civic participation in new and creative ways.",
+        "quote": "fund projects and programs that spark civic participation in new and creative ways"
+      }
+    ],
+    "timeline": {
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Small grants are distributed through Civic Hub regranting partnerships, not a direct open cycle.",
+        "Small grants support specific programs."
+      ]
+    }
   },
   {
     "organization": "Cisco",
@@ -9156,16 +9423,76 @@
     "domain": "Civic / Social",
     "name": "Global Impact Cash Grants",
     "id": 170,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f8c7652858986c6c11db2a4e1e410448661cb164f9fc8e1b148facdd190c8dac",
+      "finalUrl": "https://www.cisco.com/site/us/en/about/purpose/community-resilience/investments/global-impact-cash-grants.html"
+    },
+    "amountMax": 100000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "A Letter of Inquiry (LOI) is used to determine whether an organization will be invited to complete a full application",
+        "quote": "A brief Letter of Inquiry (LOI) is used to determine whether your organization will be invited to complete a full application."
+      },
+      {
+        "item": "Applications must be completed using the online grants management portal",
+        "quote": "All applications must be completed using our online grants management portal."
+      },
+      {
+        "item": "Applicants must certify that the chairperson or at least one officer of the organization's board of directors has reviewed the grant proposal",
+        "quote": "Cisco requires applicants to certify that the chairperson or at least one officer of the organization's board of directors has reviewed the grant proposal and that the organization's board is aware of the application and supports its submission."
+      },
+      {
+        "item": "Grantees must sign a donation agreement electronically before donations can be delivered",
+        "quote": "Grantee organizations are required to sign a donation agreement electronically before donations can be delivered."
+      },
+      {
+        "item": "Grantees must use the online grant platform to customize performance metrics and measure progress over the life of the grant award",
+        "quote": "Organizations that receive funding will be required to use our online grant platform to customize performance metrics for their project and measure their progress over the life of the grant award."
+      },
+      {
+        "item": "Applicants must adhere to Cisco policies related to nondiscrimination, religious proselytizing, nonsupport of violence and terrorism, advocacy, lobbying, and other political activities",
+        "quote": "In addition, organizations must adhere to Cisco policies related to nondiscrimination, religious proselytizing, nonsupport of violence and terrorism, advocacy, lobbying, and other political activities and other areas listed in grant giving policies."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Individuals are not eligible",
+        "U.S. organizations must be IRS 501(c)(3) public charities",
+        "Non-U.S. organizations must provide information and documents to determine equivalent U.S. public charity status",
+        "Programs must serve an audience greater than 65 percent economically underserved relative to target geography",
+        "Organizations and programs must focus on at least one of four social investment sectors",
+        "Overhead is not to exceed 25 percent",
+        "Maximum request for first-time grant recipients is US$100,000",
+        "General operating expenses not directly associated with the program are ineligible",
+        "Healthcare programs focused on improving physical or mental health are ineligible",
+        "Private, public, or charter schools and scholarships are ineligible",
+        "Events such as athletic events, competitions, conferences, festivals, and fundraising events are ineligible",
+        "Capital building funds, challenge grants, and grant-making organizations are ineligible"
+      ]
+    }
   },
   {
     "organization": "National Geographic Society",
     "category": "Foundation",
     "amount": "Up to $20,000 (Level I, cash); Level II up to ~$100,000",
     "deadline": "Recurring cycles — most recent Level I deadline was April 12, 2026; next cycle expected later in 2026",
-    "deadlineDate": null,
-    "deadlineStatus": "upcoming",
-    "deadlineType": "recurring",
+    "deadlineDate": "2026-10-21",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed",
     "eligibility": "Individuals 18+ (and their teams/small orgs) early in their field, not previously NatGeo-funded; projects in conservation, education, research, storytelling, technology.",
     "description": "Project grants for early-career explorers, researchers, educators, and storytellers across science, conservation, and creative work. Level I funds one-year projects up to $20K and admits grantees into the NatGeo Explorer community.",
     "url": "https://www.nationalgeographic.org/society/grants-and-investments/",
@@ -9188,7 +9515,62 @@
     "domain": "Research",
     "name": "Grants Program — Level I",
     "id": 171,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "885851d0082c17f513f4f8cffec265ddc34f9706062d9c3c12a64b75115eb69d",
+      "finalUrl": "https://www.nationalgeographic.org/explore/grants-investments"
+    },
+    "requirements": [
+      {
+        "item": "Applications must be submitted through National Geographic Funding Portal",
+        "quote": "All applications must be completed and submitted through the National Geographic Funding Portal."
+      },
+      {
+        "item": "Must apply to a specific open RFP and meet its scope",
+        "quote": "Project applications must be submitted to a specific funding opportunity and should meet the unique scope of the chosen RFP."
+      },
+      {
+        "item": "No general project applications or email/mail submissions",
+        "quote": "We do not accept general project applications or submissions shared via email or mail."
+      },
+      {
+        "item": "Project start dates minimum six months after submission deadline",
+        "quote": "Project start dates should be a minimum of six months after the submission deadline to ensure any awarded funds are received in time."
+      },
+      {
+        "item": "Final report and media required before new application",
+        "quote": "You must submit a final report and media from any previous National Geographic Society grants for which you were the leader before applying to lead a new project."
+      },
+      {
+        "item": "Application should be written by project leader",
+        "quote": "The individual responsible for carrying out the project should write the application and be listed as the project leader."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-10-21",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be 18 or older",
+        "One project proposal as project leader at a time",
+        "Previous grant final report and media submission required before leading new project",
+        "OFAC sanctioned countries require legal counsel/license",
+        "No generic Level I/II tier applications; apply to specific RFP"
+      ]
+    }
   },
   {
     "organization": "Pollock-Krasner Foundation",
@@ -9220,7 +9602,56 @@
     "domain": "Creative",
     "name": "Grants for Artists",
     "id": 172,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6bfb854a3c55a56290df0b9f9cd0d8a8acf4476fe2c7fbd58f549a93b65fa5f6"
+    },
+    "requirements": [
+      {
+        "item": "Submit an online application",
+        "quote": "Visual artists can apply for an individual grant by submitting an online application"
+      },
+      {
+        "item": "Application form",
+        "quote": "application form"
+      },
+      {
+        "item": "Artist statement",
+        "quote": "artist statement"
+      },
+      {
+        "item": "Cover letter",
+        "quote": "a cover letter"
+      },
+      {
+        "item": "Current resume including an exhibition record",
+        "quote": "a current resume including an exhibition record"
+      },
+      {
+        "item": "Ten digital images of current work with a corresponding identification list",
+        "quote": "ten digital images of current work with a corresponding identification list"
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Visual artists only",
+        "Applications submitted by mail, fax or e-mail will not be considered"
+      ]
+    }
   },
   {
     "organization": "Artadia",
@@ -9252,7 +9683,76 @@
     "domain": "Creative",
     "name": "Artadia Awards",
     "id": 173,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "c10251f8692f2d86972c8be906d5ae74899786536eeb192400c1f343ab056e7e"
+    },
+    "amountMin": 10000,
+    "amountMax": 25000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Applications must be submitted through Submittable; email or other channels are not accepted.",
+        "quote": "The only way to apply to Artadia Awards is through Submittable. We do not accept materials via email or any other channel."
+      },
+      {
+        "item": "If submitting images, must submit eight images formatted as .jpg files, max 2 MB each, RGB colorspace preferred.",
+        "quote": "You must submit eight images if submitting images as part of your application"
+      },
+      {
+        "item": "Video submissions are limited to video art, animation, and performance documentation.",
+        "quote": "Video submissions are limited to video art, animation, and performance documentation"
+      },
+      {
+        "item": "If submitting a combination of images and video, submissions can only be up to 3 minutes total.",
+        "quote": "If submitting a combination of images and video: submissions can only be up to 3 minutes total"
+      },
+      {
+        "item": "If only submitting video or time-based work, submit up to 6 minutes of material; only direct uploads, no links.",
+        "quote": "If only submitting video or time-based work (no images): submit up to 6 minutes of material. We accept only direct uploads of video work, no links"
+      },
+      {
+        "item": "Must include C.V. with exhibition history and bibliography.",
+        "quote": "C.V.: An artist’s resume containing exhibition history and bibliography"
+      },
+      {
+        "item": "Must include artist statement of 200 words or less.",
+        "quote": "Artist Statement: 200 words or less."
+      },
+      {
+        "item": "No physical application materials accepted.",
+        "quote": "Artadia does not accept physical application materials. Please do not send publications, promotional material or any other supporting documentation."
+      },
+      {
+        "item": "Applicants must read and acknowledge Artadia’s AI policy when submitting.",
+        "quote": "Please note that we require all applicants to read and acknowledge the policy when submitting an application."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Must be a contemporary visual artist making work for contemporary art contexts; filmmakers making films for cinematic distribution and choreographers presented outside contemporary art context are not funded.",
+        "Must be currently living and working within the city’s eligible counties and have resided there for at least two consecutive years prior to the application deadline.",
+        "Not currently enrolled in an art-related degree program, nor planning to attend an art-related degree program in the coming year.",
+        "Not related to Artadia staff or directors in any way.",
+        "Must never have received an award from Artadia or The Art Council for or above $10,000; former finalists are eligible.",
+        "If enrolled in a long-term artist residency, may only apply in the Award city where permanently residing and must be available for a 45 minute virtual studio visit if chosen as Finalist.",
+        "Unless applying as a collaborative, must be the sole conceptual author of submitted artwork; collaborators sharing authorship must be clearly identified and credited.",
+        "If both a member of a collective and an individual artist, may only apply once per awards cycle.",
+        "All members of a collaborative must agree to apply and approve use of all application materials; all must reside in the corresponding city and meet all other eligibility requirements."
+      ]
+    }
   },
   {
     "organization": "Filecoin Foundation / Filecoin community",
@@ -9284,7 +9784,11 @@
     "domain": "Web3 / Public Goods",
     "name": "Filecoin ProPGF",
     "id": 174,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Chan Zuckerberg Initiative (with Kavli Foundation & Wellcome Trust)",
@@ -9315,7 +9819,91 @@
     "domain": "Research",
     "name": "Essential Open Source Software for Science (EOSS) — Cycle 7",
     "id": 175,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "b09bdc25621d3638d35a4616ce9cb17aa00d348d027f153a6624084558d8b9d5"
+    },
+    "amountMin": 50000,
+    "amountMax": 400000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Two-step application process: Letter of Intent (LOI) followed by Full Application if invited",
+        "quote": "This application process has two steps: Letter of Intent (LOI) and Full Application (if invited)."
+      },
+      {
+        "item": "LOI requires short summary, expected value to biomedical research community, landscape analysis, and list of software projects and repositories",
+        "quote": "In the first phase, we invite Letters of Intent (LOI) where applicants will provide: - Short summary of the work being proposed - Expected value the proposed work to the biomedical research community - Landscape analysis describing other software tools that the audience for this proposal primarily uses - List of software projects to be supported and their repositories"
+      },
+      {
+        "item": "Full application requires description of proposed activities with milestones/deliverables, full budget description, key personnel, recent institutional/financial support, expected outcomes and evaluation strategies, and institutional sign-off",
+        "quote": "Full applications for these grants will require the information in the LOI, plus: - Description of the proposed activities to be funded, with a list of milestones and deliverables - Full budget description - Key personnel involved - Description of recent institutional and financial support for the open source project(s) involved in the proposal - Expected outcomes the proposal aims to support, plus indicators and evaluation strategies the applicant intends to use to assess their progress towards these outcomes - Institutional sign-off (see CZI Institutional Approval Form and Wellcome grant conditions for details)"
+      },
+      {
+        "item": "All applications must be submitted through the Chan Zuckerberg Initiative’s online grants management portal",
+        "quote": "All applications — both LOI and full proposal — must be submitted through the Chan Zuckerberg Initiative’s online grants management portal."
+      },
+      {
+        "item": "Budget request must be between $50,000 USD and $200,000 USD total costs per year for two years, inclusive of up to 15% indirect/overhead costs",
+        "quote": "Applications can request funding between $50,000 USD and $200,000 USD total costs per year for two years (inclusive of up to 15% for indirect/overhead costs)"
+      },
+      {
+        "item": "Total budget request must be between $100,000 USD and $400,000 USD for the two-year duration",
+        "quote": "for an overall amount requested between $100,000 USD and $400,000 USD total costs for the two-year duration of the grant."
+      },
+      {
+        "item": "Indirect costs cannot exceed 15% of direct costs",
+        "quote": "Indirect costs cannot exceed 15% of direct costs."
+      },
+      {
+        "item": "Award period proposals should be two years in duration with a start date of June 1, 2024",
+        "quote": "Award Period: Proposals should be two years in duration with a start date of June 1, 2024."
+      },
+      {
+        "item": "Applicant point of contact must remain the same between LOI and full application if selected",
+        "quote": "Please note that this person must remain the same between the LOI and full application (if selected)."
+      },
+      {
+        "item": "Full Application must include a Diversity, Equity, and Inclusion (DEI) statement",
+        "quote": "all applicants invited to submit a Full Application must include in their proposal a Diversity, Equity, and Inclusion (DEI) statement"
+      },
+      {
+        "item": "If a fiscal sponsor is required, it must be secured by the full proposal application deadline",
+        "quote": "If your application requires a fiscal sponsor, you must secure one by the full proposal application deadline."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2023-10-17",
+      "deadlineType": "fixed",
+      "decisionDate": "2023-11-02",
+      "opensDate": "2023-08-31",
+      "durationMonths": 24
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Eligible applicant organizations include domestic and foreign nonprofit and for-profit organizations, public and private institutions",
+        "individuals are not permitted",
+        "for-profit organizations may need to provide additional information and are eligible only for a subset of funders",
+        "fiscal sponsor may be designated if applicant is not an organization eligible to receive and distribute funds",
+        "Meta and CZI employees are not permitted to apply",
+        "non-U.S. institutions may not issue subcontracts to U.S. institutions if funded by CZI",
+        "applicants from all countries may not be eligible for funding from all three funders",
+        "applications utilizing fiscal sponsorship may be eligible only for a subset of funders or subject to additional processes",
+        "deadline extensions will not be granted"
+      ]
+    }
   },
   {
     "organization": "Starknet Foundation",
@@ -9346,7 +9934,57 @@
     "domain": "Web3 / Public Goods",
     "name": "Starknet Seed Grants",
     "id": 176,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "7ebe7cc0f546e4b7025549c2f11092687c655221bd015e5c82e3edcf0a658bcb"
+    },
+    "amountMin": 25000,
+    "amountMax": 25000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Apply via grants submission form",
+        "quote": "Apply via our grants submission form to submit your project."
+      },
+      {
+        "item": "Provide clear plan for grant use within three months",
+        "quote": "All teams should present a clear plan detailing how the grant will be used within the next three months."
+      },
+      {
+        "item": "Complete KYC and sign grant agreement",
+        "quote": "After completing KYC and signing a grant agreement, you will receive funds."
+      },
+      {
+        "item": "Share regular updates after grant",
+        "quote": "The grantee should share regular updates (blog posts, videos, AMAs etc) with the team to assist in this process."
+      }
+    ],
+    "timeline": {
+      "durationMonths": 3
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "Must be an early-stage team",
+        "Must have clarity on what to build on Starknet",
+        "Must have an MVP or Proof of Concept",
+        "Must have Starknet community involvement or hackathon/builder program participation",
+        "Must plan to use or build upon existing Starknet tools and integrations",
+        "Mature projects already live on Starknet with a core group of users are not eligible",
+        "Must complete KYC/KYB",
+        "Must be building on Starknet",
+        "Must not need more than $25,000 in STRK"
+      ]
+    }
   },
   {
     "organization": "Algorand Foundation",
@@ -9378,7 +10016,18 @@
     "domain": "Web3 / Public Goods",
     "name": "Algorand Startup Program (Ecosystem Grants)",
     "id": 177,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "21a16db91fb15774ca137cb87f388982ab28923ab16e26613391cd372b6e984a",
+      "finalUrl": "https://algorand.co/"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Avalanche Foundation",
@@ -9409,7 +10058,20 @@
     "domain": "Web3 / Public Goods",
     "name": "Retro9000 — C-Chain Round",
     "id": 178,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "9ba68e7ec946b1b2ff62fc80e49243dd1ec9bc01cc1b4bdb23b5e7b048dbd012"
+    },
+    "amountMin": 50000,
+    "amountMax": 200000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "The Graph Foundation",
@@ -9441,7 +10103,28 @@
     "domain": "Web3 / Public Goods",
     "name": "The Graph Grants",
     "id": 179,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "c6be9ca2a53b52d9b97f5cc916699317e94051d95181439088e28112cd1e89d0"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "Open source",
+        "Must contribute to the growth of The Graph ecosystem"
+      ]
+    }
   },
   {
     "organization": "Aptos Foundation",
@@ -9473,7 +10156,11 @@
     "domain": "Web3 / Public Goods",
     "name": "Aptos Ecosystem Grants",
     "id": 180,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Radworks / Radicle Foundation",
@@ -9505,7 +10192,11 @@
     "domain": "Open Source",
     "name": "Radworks (Radicle) Grants — Seed Grants",
     "id": 181,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "International Telecommunication Union (ITU) — United Nations",
@@ -9537,7 +10228,59 @@
     "domain": "AI",
     "name": "AI for Good Innovation Factory",
     "id": 182,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "ed36e0f89d542581d82e4477491801c550e8cfa9ace56620fa774825507bc927"
+    },
+    "requirements": [
+      {
+        "item": "Innovation",
+        "quote": "How original and forward-thinking is the startup’s approach compared to existing solutions?"
+      },
+      {
+        "item": "Problem Clarity & Market Fit",
+        "quote": "How clearly is the problem defined, and how well does the solution align with a real and significant market need?"
+      },
+      {
+        "item": "Execution Strategy",
+        "quote": "How well-developed is the go-to-market plan, including partnerships, distribution channels, and revenue model?"
+      },
+      {
+        "item": "Technology & Risk Management",
+        "quote": "How effectively is AI integrated into the solution, and how well are potential technical and operational risks identified and addressed?"
+      },
+      {
+        "item": "Team Strength",
+        "quote": "Does the team have the skills, experience, and capacity to execute the solution and adapt as needed?"
+      },
+      {
+        "item": "Global Relevance",
+        "quote": "How strongly does the solution contribute to addressing one of humanity’s most pressing global challenges?"
+      }
+    ],
+    "timeline": {
+      "decisionDate": "2023-06-28",
+      "deadlineDate": "2026-10-01",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "startup",
+        "AI-powered solution"
+      ]
+    }
   },
   {
     "organization": "Innovate Grant",
@@ -9569,7 +10312,53 @@
     "domain": "Creative",
     "name": "Innovate Grant",
     "id": 183,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "acaec0de297591cc7d54d7fa479eb1560e68d20cafd8c1846ca3fb772bbf30b6"
+    },
+    "amountMin": 1800,
+    "amountMax": 1800,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Name",
+        "quote": "Name"
+      },
+      {
+        "item": "Email",
+        "quote": "Email"
+      },
+      {
+        "item": "Grant Category",
+        "quote": "Grant Category"
+      },
+      {
+        "item": "3-10 images of your work",
+        "quote": "3-10 Images of Your Work"
+      },
+      {
+        "item": "Application fee",
+        "quote": "$35 Application Fee"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Applicants must be 18 years or older.",
+        "Grant category must be Art or Photography."
+      ]
+    }
   },
   {
     "organization": "Meridian Award",
@@ -9601,7 +10390,17 @@
     "domain": "Creative",
     "name": "The Meridian Award",
     "id": 184,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "c1e222bb31935bbe34f7709966aa076f896d9c0601299416a02c3502fd6c6719"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "NSF ACCESS (Advanced Cyberinfrastructure Coordination Ecosystem)",
@@ -9634,7 +10433,92 @@
     "domain": "Research",
     "name": "NSF ACCESS Allocations (Explore / Discover / Maximize Compute)",
     "id": 185,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "4726f0480cfa176664dd9d9fa29f144b479cc2575f55d3c8a38d8b119510585c"
+    },
+    "requirements": [
+      {
+        "item": "CV or résumé for PI and co-PIs in PDF format",
+        "quote": "A CV or résumé for the PI and any co-PIs, in PDF format."
+      },
+      {
+        "item": "Project title, keywords, field of science, and supporting grant details",
+        "quote": "Title of the project"
+      },
+      {
+        "item": "One-page project description for Discover ACCESS",
+        "quote": "A one-page description of the project that addresses how you plan to use ACCESS resources."
+      },
+      {
+        "item": "Three-page project description for Accelerate ACCESS",
+        "quote": "A three-page description of the project that addresses how you plan to use ACCESS resources."
+      },
+      {
+        "item": "Code performance and scaling data are provided",
+        "quote": "Code performance and scaling data are provided"
+      },
+      {
+        "item": "Main Document page limit: 10 pages",
+        "quote": "Page limits: 10 pages"
+      },
+      {
+        "item": "Progress Report page limit: 3 pages",
+        "quote": "Page limit: 3 pages."
+      },
+      {
+        "item": "Code Performance & Resource Costs page limit: 5 pages",
+        "quote": "Page limit: 5 pages."
+      },
+      {
+        "item": "CV page limit: 2 pages per individual",
+        "quote": "Page limit: 2 pages per individual"
+      },
+      {
+        "item": "Only PDF file formats are accepted",
+        "quote": "File format: Only PDF file formats are accepted."
+      },
+      {
+        "item": "Documents must have 1-inch margins",
+        "quote": "Margins: Documents must have 2.5-cm (1-inch) margins at the top, bottom, and sides."
+      },
+      {
+        "item": "Font size must be 10 points or larger for Arial, Courier New, or Palatino Linotype",
+        "quote": "Arial, Courier New, or Palatino Linotype at a size of 10 points or larger"
+      },
+      {
+        "item": "Times New Roman must be 11 points or larger",
+        "quote": "Times New Roman at a size of 11 points or larger"
+      },
+      {
+        "item": "Computer Modern family must be 11 points or larger",
+        "quote": "Computer Modern family of fonts at a size of 11 points or larger"
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-06-15",
+      "deadlineDate": "2026-07-31",
+      "deadlineType": "fixed",
+      "decisionDate": "2027-03-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.85
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Graduate Student applicants must upload a signed advisor letter on institution letterhead in PDF format",
+        "NSF GRFP recipients or honorable mentions may upload their NSF letter in lieu of an advisor letter",
+        "Documents exceeding specified page limits will not be accepted"
+      ]
+    }
   },
   {
     "organization": "The Center for Scientific Integrity / The Open Notebook",
@@ -9666,7 +10550,67 @@
     "domain": "Civic / Social",
     "name": "Retraction Watch Research Accountability Reporting Fellowship",
     "id": 186,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2c1075630ad238cb1b6ad09efd086d71ace8f9a1f92ede68743dab0e49e34002"
+    },
+    "amountMin": 7500,
+    "amountMax": 7500,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Outline a story idea, any preliminary reporting done on the subject, and how the fellowship would help bring the story to fruition",
+        "quote": "Applicants will be asked to outline a story idea, any preliminary reporting done on the subject, and how the fellowship would help bring the story to fruition."
+      },
+      {
+        "item": "Provide a support letter from an editor/newsroom",
+        "quote": "Applicants will also have to provide a support letter from an editor/newsroom, as the fellowship money will be awarded to newsrooms, not individuals."
+      },
+      {
+        "item": "Report a story or series of stories with the ultimate goal of publication at the fellow's outlet",
+        "quote": "Report a story or series of stories with the ultimate goal of publication at the fellow’s outlet"
+      },
+      {
+        "item": "Connect with their fellowship mentor on a regular basis",
+        "quote": "Connect with their fellowship mentor on a regular basis"
+      },
+      {
+        "item": "Attend and participate in virtual trainings",
+        "quote": "Attend and participate in virtual trainings"
+      },
+      {
+        "item": "Engage in Slack community discussions",
+        "quote": "Engage in Slack community discussions"
+      },
+      {
+        "item": "Participate in a webinar to showcase their completed reporting project",
+        "quote": "Participate in a webinar to showcase their completed reporting project"
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling",
+      "durationMonths": 6
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "U.S.-based local or regional journalist",
+        "Media outlet must have a research university or institution in its coverage area",
+        "Applicants must provide a letter of support from a staff editor at the outlet they work for or contract with",
+        "Fellowship money awarded to newsrooms, not individuals"
+      ]
+    }
   },
   {
     "organization": "The Sidney Hillman Foundation",
@@ -9698,7 +10642,22 @@
     "domain": "Civic / Social",
     "name": "Hillman Foundation Labor & Workplace Reporting Grants",
     "id": 187,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f5873255a32f44c4d861bfe603ccba22c931565c0f7bc6f1bc414eb7de911e5e"
+    },
+    "amountMax": 5000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "AlgorithmWatch",
@@ -9730,7 +10689,53 @@
     "domain": "AI",
     "name": "AlgorithmWatch Algorithmic Accountability Reporting Fellowship (AI and Power)",
     "id": 188,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "87397f94b468518eb22b867b5486d37f147f916c930cdc40085de4098c308b95"
+    },
+    "requirements": [
+      {
+        "item": "Publish the work under a CC-BY license.",
+        "quote": "You will have to publish the work under a CC-BY license."
+      },
+      {
+        "item": "Communication within the fellowship is in English.",
+        "quote": "No. You can publish in your own language, but communication within the fellowship is in English."
+      },
+      {
+        "item": "The allowance is paid on invoices.",
+        "quote": "No. The allowance is paid on invoices. If fellows are unable to invoice, we will work with them to find a solution."
+      },
+      {
+        "item": "Fellows are expected to complete the full 6 months of the program.",
+        "quote": "We expect fellows to complete the full 6 months of the program, but we can offer some flexibility."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2023-12-28",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "restricted:AL,AT,BE,BA,BG,HR,CY,CZ,DK,EE,FI,FR,GE,DE,GR,HU,IS,IE,IT,LV,LT,LI,LU,MT,MD,ME,NL,MK,NO,RS,PL,PT,RO,SK,SI,ES,SE,CH,TR,UA,GB",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Applicants must be above 18.",
+        "Applicants must live in one of the listed countries.",
+        "Nationals of listed countries who do not currently live there cannot apply.",
+        "Newsroom staff should check they are allowed to take part."
+      ]
+    }
   },
   {
     "organization": "Institute for AI Policy and Strategy (IAPS)",
@@ -9762,7 +10767,23 @@
     "domain": "AI",
     "name": "IAPS AI Policy Fellowship",
     "id": 189,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "d2935cde4177a19b54dac1a3808f24c78890afd7e60473f84031030c15d99e49"
+    },
+    "amountMin": 500,
+    "amountMax": 24000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Berkman Klein Center for Internet & Society, Harvard University",
@@ -9794,7 +10815,24 @@
     "domain": "Research",
     "name": "Berkman Klein Center Fellowship",
     "id": 190,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a166845e68407435a066e7d2002dc39849abf0b53cbc2497facfa39854398c85"
+    },
+    "amountMin": 6250,
+    "amountMax": 75000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2025-12-05",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Bank of America Charitable Foundation",
@@ -9826,16 +10864,55 @@
     "domain": "Civic / Social",
     "name": "Stable Housing & Empowering Communities RFP",
     "id": 191,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "39f3e1b8443b65c98a5e283289cdd6d90d2761f8141c01483dfee10bf173bede"
+    },
+    "requirements": [
+      {
+        "item": "Organization aligns with priorities",
+        "quote": "If your organization aligns with our priorities and meets our eligibility criteria"
+      },
+      {
+        "item": "Meet eligibility criteria",
+        "quote": "meets our eligibility criteria"
+      },
+      {
+        "item": "Online application",
+        "quote": "you'll be directed to our online application."
+      },
+      {
+        "item": "Focus areas: Basic needs, income creation, stable housing, empowered communities",
+        "quote": "Our Priorities: Basic needs, income creation, stable housing, empowered communities"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Nonprofit organizations",
+        "Must align with Bank of America priorities",
+        "Must meet eligibility criteria"
+      ]
+    }
   },
   {
     "organization": "NLnet Foundation",
     "category": "Foundation",
     "amount": "€5,000–€50,000 (typical per-project)",
     "deadline": "Next call: August 1, 2026 (recurring, 1st of every even month)",
-    "deadlineDate": null,
-    "deadlineStatus": "upcoming",
-    "deadlineType": "recurring",
+    "deadlineDate": "2026-11-03",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed",
     "eligibility": "Individuals, small teams, nonprofits and orgs building open-source, decentralized/federated hosting and internet infrastructure (global).",
     "description": "NLnet's NGI Fediversity fund supports open-source work on a decentralized, self-hostable internet stack (fediverse/federated services). Calls close on the 1st of every even month; the June 1 window is effectively closed today, so the next actionable deadline is August 1, 2026. Distinct from NGI Zero Commons.",
     "url": "https://nlnet.nl/funding.html",
@@ -9858,7 +10935,21 @@
     "domain": "Open Source",
     "name": "NGI Fediversity Fund",
     "id": 192,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f53328a141e7fe72ee284677f79ce4e74f90d3b7c1947fb78d24df5f6126bacc"
+    },
+    "timeline": {
+      "deadlineDate": "2026-11-03",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    }
   },
   {
     "organization": "Vermont Community Foundation",
@@ -9889,7 +10980,11 @@
     "domain": "Civic / Social",
     "name": "Nonprofit Capacity Building Grant",
     "id": 193,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Community Foundation for Greater Atlanta",
@@ -9921,7 +11016,33 @@
     "domain": "Civic / Social",
     "name": "Nonprofit Sector Sustainability Fund",
     "id": 194,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "d43e05e473d41b4faa8117cfbc0416bf388f1c016f1c89dbf8bfdb8ebaba4fc7"
+    },
+    "amountMin": 5000,
+    "amountMax": 3000000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling",
+      "opensDate": "2026-01-16"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Nonprofit organizations"
+      ]
+    }
   },
   {
     "organization": "Pollock-Krasner Foundation",
@@ -9952,7 +11073,24 @@
     "domain": "Creative",
     "name": "Pollock-Krasner Foundation Grant",
     "id": 195,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "b5b9135f992b5234b9c85284ab1a0abe3659dcd37c99cf86b7e4bf2ac00b1326",
+      "finalUrl": "https://www.pkf.org/how-to-apply/"
+    },
+    "amountMin": 35000,
+    "amountMax": 50000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Portland Clean Energy Community Benefits Fund (PCEF)",
@@ -9983,7 +11121,23 @@
     "domain": "Climate",
     "name": "Clean Energy Fund Mini Grants",
     "id": 197,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "99119ff5a4df554e1b25e7b21969d75d30aced287535871dc0145c94f51085ad"
+    },
+    "amountMin": 5000,
+    "amountMax": 200000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Cisco Systems",
@@ -10015,7 +11169,35 @@
     "domain": "Civic / Social",
     "name": "Cisco Technology Grant Program",
     "id": 198,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2e569d48d1a2a476ab86612115e6e1e0155dda43e96dd792351f640f3aaf2dcf",
+      "finalUrl": "https://www.cisco.com/site/us/en/about/purpose/community-resilience/investments/technology-grant-program.html"
+    },
+    "requirements": [
+      {
+        "item": "Review program guide PDF for requirements and application pathways",
+        "quote": "To learn about our requirements, application pathways, and more, please review our program guide PDF."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "restricted:US",
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Nonprofit organizations only",
+        "Focus areas: Climate Resilience; Crisis Response (which includes shelter, water, food, and disaster relief); Economic Opportunity; and Education"
+      ]
+    }
   },
   {
     "organization": "Stacks Foundation / Stacks Endowment",
@@ -10047,7 +11229,21 @@
     "domain": "Web3 / Public Goods",
     "name": "Stacks Ecosystem Grants Program",
     "id": 199,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "651f0ad843b3ce88e1db70934302e881843511a63eca7d7b2a60c760f01a0452",
+      "finalUrl": "https://stacks.foundation/grants"
+    },
+    "amountMin": 400,
+    "amountMax": 400,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Mantle Network",
@@ -10079,7 +11275,18 @@
     "domain": "Web3 / Public Goods",
     "name": "Mantle Grants Program (Public Grants)",
     "id": 200,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "7d195b6a1edbe00123f7c6ad7d62366ddc69bf8c333a5df71f508158295b89b5",
+      "finalUrl": "https://www.mantle.xyz/"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Tezos Foundation",
@@ -10110,7 +11317,17 @@
     "domain": "Web3 / Public Goods",
     "name": "Tezos Foundation Ecosystem Grants",
     "id": 201,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "e3cb1e2f60c443d9694d60e04d81070f606384356fdb1a3f3f32e5a020dfa71f"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Mina Foundation",
@@ -10141,7 +11358,18 @@
     "domain": "Web3 / Public Goods",
     "name": "Mina Core Grants Program",
     "id": 202,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a0655945019f0102454086fad61aab73009bda4337a0a5e2df3f363f3f388ac9",
+      "finalUrl": "https://minaprotocol.com/grants-wip"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Avalanche Foundation",
@@ -10173,7 +11401,20 @@
     "domain": "Web3 / Public Goods",
     "name": "Avalanche infraBUIDL(AI) Program",
     "id": 203,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "9ba68e7ec946b1b2ff62fc80e49243dd1ec9bc01cc1b4bdb23b5e7b048dbd012"
+    },
+    "amountMin": 50000,
+    "amountMax": 200000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Lightcone Infrastructure (funder: Jaan Tallinn)",
@@ -10204,7 +11445,28 @@
     "domain": "AI",
     "name": "Lightspeed Grants",
     "id": 204,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "61be51980986f50c1f80f156b7e68385041cf38dd4c3ee3d3a6d5676b4a202eb"
+    },
+    "requirements": [
+      {
+        "item": "Projects should have a chance of substantially changing humanity's future trajectory for the better",
+        "quote": "We are looking for projects that have a chance of substantially changing humanity's future trajectory for the better."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2023-07-06",
+      "decisionDate": "2023-08-06",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    }
   },
   {
     "organization": "Los Angeles County Museum of Art (LACMA)",
@@ -10235,7 +11497,25 @@
     "domain": "Creative",
     "name": "LACMA Art + Technology Lab Grant",
     "id": 205,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "c79a61058ef5ae9ae393a65aab1a85f5658249a1e5d49816be194660db365d9c"
+    },
+    "amountMin": 50000,
+    "amountMax": 50000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2026-04-22",
+      "deadlineType": "fixed",
+      "decisionDate": "2026-07-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Patrick J. McGovern Foundation",
@@ -10266,16 +11546,33 @@
     "domain": "Civic / Social",
     "name": "AI Fluency and Capacity Building Grants",
     "id": 206,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "47084fea2870e58518ed79b59d171b5889a2d6476aae2ed2194b657634a98bcd"
+    },
+    "amountMin": 25000,
+    "amountMax": 500000000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2017-07-28",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Fund for Investigative Journalism (FIJ)",
     "category": "Foundation",
     "amount": "Up to $10,000 (Regular); up to $2,500 (Seed/Follow-up)",
     "deadline": "Next deadline Sept 14, 2026 (cycles ~3-4x/year)",
-    "deadlineDate": null,
-    "deadlineStatus": "upcoming",
-    "deadlineType": "recurring",
+    "deadlineDate": "2027-01-29",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed",
     "eligibility": "Freelance journalists, staff reporters, and media outlets worldwide; investigations for print, online, broadcast, books, docs, or podcasts.",
     "description": "Non-dilutive cash for investigative reporting expenses on any topic. Seed grants fund preliminary reporting; Regular grants fund full investigations. 2026 cycle dates were Jan 30, Apr 27, and Sept 14.",
     "url": "https://fij.org/apply-for-a-grant/",
@@ -10298,7 +11595,24 @@
     "domain": "Creative",
     "name": "Fund for Investigative Journalism — Regular & Seed Grants",
     "id": 207,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f165d42a38a66250d32bd61c7f897038c162082c239e21ef4626af152d669328"
+    },
+    "amountMin": 1000,
+    "amountMax": 40000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2027-01-29",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Pulitzer Center on Crisis Reporting",
@@ -10330,7 +11644,53 @@
     "domain": "Creative",
     "name": "Pulitzer Center — Global Reporting Grants",
     "id": 208,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "8065dc2c22dc004169703a86e68e7f03e16b4fea65d905f66d2a46dac990ea0d"
+    },
+    "amountMin": 5000,
+    "amountMax": 10000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Detailed distribution plans and letters of interest or commitment from outlets are required",
+        "quote": "Proposals should include detailed distribution plans and letters of interest or commitment from outlets where the stories will be published."
+      },
+      {
+        "item": "Adhere to ACOS Alliance principles for hostile/dangerous reporting",
+        "quote": "If your project proposal involves reporting in a hostile or dangerous environment, we require that you and your potential outlets adhere strictly to the ACOS Alliance principles outlined here."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "No overhead or indirect expenses for newsroom/university/similar applicants",
+        "Conflict/hostile environment reporting requires firm assignment from outlet assuming full responsibility for safety",
+        "Books are not funded",
+        "Feature-length films are not funded",
+        "Staff salaries are not funded, except some yearlong fellowships",
+        "Equipment purchases are not funded; equipment rentals considered case-by-case",
+        "Outlet general expenses are not funded",
+        "Seed money for start-ups is not funded",
+        "Routine breaking news and coverage are not funded",
+        "Advocacy/marketing campaigns are not funded",
+        "Data projects solely for academic research are not funded"
+      ]
+    }
   },
   {
     "organization": "Alicia Patterson Foundation (now within Fund for Investigative Journalism)",
@@ -10362,7 +11722,76 @@
     "domain": "Creative",
     "name": "Alicia Patterson Fellowship 2027",
     "id": 209,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "fe591ff063049df71f420db524a5ad6d020aba7d4ff9e9470e374e8637d1464d"
+    },
+    "amountMin": 20000,
+    "amountMax": 40000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Application must be completed by October 1",
+        "quote": "Your application must be completed by October 1."
+      },
+      {
+        "item": "Fellowship proposal not to exceed three single-spaced pages",
+        "quote": "A complete, typed statement not to exceed three (3) single-spaced pages"
+      },
+      {
+        "item": "Proposal must include brief summary of four required articles",
+        "quote": "A brief summary of the four articles you will be required to write as an APF fellow should be included as part of your statement."
+      },
+      {
+        "item": "Reporters and writers must submit two articles",
+        "quote": "Please submit two articles with publication date and place noted."
+      },
+      {
+        "item": "Editors must send four samples of edited work",
+        "quote": "Please send four samples of work you have edited, using the guidelines above."
+      },
+      {
+        "item": "Photographers must submit one set of 8 to 12 samples",
+        "quote": "Please submit one set of 8 to 12 samples."
+      },
+      {
+        "item": "Applicants must list two references",
+        "quote": "Please list (2) people who are familiar with your work and your proposal."
+      },
+      {
+        "item": "Professional autobiography not to exceed two single-spaced pages",
+        "quote": "A statement, not to exceed two (2) single spaced pages, to include reasons for going into journalism, journalistic experience, and future plans."
+      },
+      {
+        "item": "Budget statement not to exceed one page",
+        "quote": "A detailed budget statement, not to exceed one (1) page, to include two categories."
+      },
+      {
+        "item": "Stipend must cover travel and research costs",
+        "quote": "The fellowship stipend is $40,000 for twelve months and $20,000 for six months and must cover your travel and research costs."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Open only to U.S. citizens who are fulltime print journalists, or non-U.S. citizens who work fulltime for U.S. print publications, either in America or abroad",
+        "Each candidate may submit only one proposal",
+        "Two applicants may collaborate on one proposal",
+        "Foundation does not fund book proposals",
+        "Fellows may not teach full-time or hold time-consuming jobs"
+      ]
+    }
   },
   {
     "organization": "Open Source Endowment (OSE)",
@@ -10394,7 +11823,27 @@
     "domain": "Open Source",
     "name": "Open Source Endowment — Maintainer Microgrants",
     "id": 210,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "26b7f29bebe8dc1e60c4f583da7863d03804d3456c8640ee46f3103e9d1642b7"
+    },
+    "amountMax": 5000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "restrictions": [
+        "Only independent free and open source software is eligible",
+        "No corporate or VC-funded projects",
+        "No projects with associated startups"
+      ]
+    }
   },
   {
     "organization": "Hack-Nation",
@@ -10426,7 +11875,38 @@
     "domain": "AI",
     "name": "Hack-Nation Global AI Hackathon 2026",
     "id": 211,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f470eb5db0311bad58a9e2771d7e46467174d815249cc80b9bcee3fd34909648"
+    },
+    "requirements": [
+      {
+        "item": "Complete the online registration form through the official platform.",
+        "quote": "applicants must complete the online registration form through the official platform"
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-04-11",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Applicants must meet the legal age requirement in their country of residence."
+      ]
+    }
   },
   {
     "organization": "Collective Intelligence Project",
