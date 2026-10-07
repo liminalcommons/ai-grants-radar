@@ -7683,7 +7683,11 @@
     "id": 137,
     "_updated": "2026-05-31",
     "deadlineStatus": "open",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Arts Council England",
@@ -7715,7 +7719,11 @@
     "id": 138,
     "_updated": "2026-05-31",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Uniswap Foundation",
@@ -7747,7 +7755,17 @@
     "id": 139,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "128cc8e3a80ba8bf7de6ff967f1b42dcdcc8c9df2558d9f530eaa1460b10a8fb"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Aave Grants DAO",
@@ -7779,7 +7797,18 @@
     "id": 140,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "64263581ef971007546fcff66624349d5569ed56de427451010a1cbb0dcaeebe",
+      "finalUrl": "https://aavegrants.org/cgi-sys/suspendedpage.cgi"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Apart Research",
@@ -7811,7 +7840,24 @@
     "id": 141,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "bf9aa040e442ac345f30110d12a22d099e264cea7ba130ab65ab63f9a39f60a4"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Apart Fellowship is by invitation after a Sprint",
+        "Partnered Fellowships accept direct applications",
+        "Win or stand out to be invited to Apart Studio, the way into the Apart Fellowship"
+      ]
+    }
   },
   {
     "organization": "Homeworld Collective",
@@ -7843,7 +7889,17 @@
     "id": 142,
     "_updated": "2026-05-31",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "ae14462f4eb657d2b7aa98dcb11b7c012862fcc130ce58dae5ccc830d990e227"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Draper Richards Kaplan Foundation (DRK)",
@@ -7875,7 +7931,11 @@
     "id": 143,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "MIT Solve (with The Patrick J. McGovern Foundation)",
@@ -7908,7 +7968,30 @@
     "id": 144,
     "_updated": "2026-05-31",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "37414109c8e2814e828458ddd51ad4850c6db451cd04ed8e52456d47f569a617"
+    },
+    "requirements": [
+      {
+        "item": "Solutions must be tech-based",
+        "quote": "seeks tech-based solutions from anyone, anywhere in the world"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ]
+    }
   },
   {
     "organization": "ENS DAO — Public Goods Working Group",
@@ -7941,7 +8024,20 @@
     "id": 145,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "3bd2ec2c1fb44e3525ec026a6d4de817d33758e5f743201c63a5d4bdfedba456"
+    },
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    }
   },
   {
     "organization": "Celo Public Goods (CeloPG)",
@@ -7974,7 +8070,11 @@
     "id": 146,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Comcast (Project UP)",
@@ -8007,7 +8107,11 @@
     "id": 147,
     "_updated": "2026-05-31",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Robert Wood Johnson Foundation",
@@ -8040,7 +8144,18 @@
     "id": 148,
     "_updated": "2026-05-31",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "93c3f5af29a08a9a1bfcefd0b2422ade7f76e0f032e8117ead26dea6a1a63663",
+      "finalUrl": "https://www.rwjf.org/en/grants/active-funding-opportunities.html"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Bezos Earth Fund",
@@ -8073,7 +8188,21 @@
     "id": 149,
     "_updated": "2026-05-31",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "37a4e273d2d465f5fca97a8c5c6f171db95ffeeb2b293cbabe1cede4bcc22dce",
+      "finalUrl": "https://www.bezosearthfund.org/initiatives/ai-for-climate-and-nature"
+    },
+    "amountMin": 100000000,
+    "amountMax": 100000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Echoing Green",
@@ -8106,7 +8235,73 @@
     "id": 150,
     "_updated": "2026-05-31",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "735eee6eeefd15bd04ec3b22fd4bdb76cceff786acb72d9627c109db2a92f9cf"
+    },
+    "requirements": [
+      {
+        "item": "Provide general information about you",
+        "quote": "General information about you"
+      },
+      {
+        "item": "Provide information about your organization including general overview, financial overview, and categorization of work",
+        "quote": "Information about your organization including but not limited to: general overview, financial overview, and how you think about and categorize your work"
+      },
+      {
+        "item": "Answer short answer questions about leadership, work, and organization",
+        "quote": "A series of short answer questions asking about your leadership, work, and the organization you are building."
+      },
+      {
+        "item": "Complete a collaborative analysis identifying similar organizations and potential collaboration",
+        "quote": "A collaborative analysis where you will be asked to identify other organizations similar to yours and how you might work with them toward shared goals."
+      },
+      {
+        "item": "Submit a resume demonstrating qualifications",
+        "quote": "A resume that should demonstrate your qualifications"
+      },
+      {
+        "item": "Upload a 60-second video answering 'Why do you do what you do'",
+        "quote": "You will be asked to upload a 60-second video answering the question “Why do you do what you do” while sharing your personality, energy, and passion."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring",
+      "decisionDate": "2026-07-28",
+      "durationMonths": 18
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be 18 years or older by June 1, 2026",
+        "Must communicate proficiently in English",
+        "Must be an original founder or leading member of the founding team",
+        "Must be the primary decision maker for the organization",
+        "Must work full time on the proposed organization throughout the 18-month Fellowship",
+        "Organization must be early stage or in need of funding to initiate or scale",
+        "Organization cannot have lobbying as its primary purpose",
+        "Organization cannot promote or recruit for a specific religious faith",
+        "No founding team members or leaders can be previous Echoing Green Fellows",
+        "Only one application allowed",
+        "Must submit via online application website",
+        "Must be received before 2:00 PM ET on the deadline",
+        "Cannot revise after submission",
+        "Extraneous materials are discarded",
+        "Fiscal sponsors allowed only if they have no authority over organization's work and decision making",
+        "All organization structures eligible if focused on social impact"
+      ]
+    }
   },
   {
     "organization": "OpenAI",
@@ -8138,7 +8333,11 @@
     "domain": "AI",
     "name": "OpenAI Cybersecurity Grant Program",
     "id": 151,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Open Technology Fund (OTF)",
@@ -8169,7 +8368,51 @@
     "domain": "Open Source",
     "name": "Free and Open Source Software Sustainability Fund (FOSSSF)",
     "id": 152,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "697840900b930e3064b1436138e69a975c2ac5fee58f1ad975cbd9ff29e31f55"
+    },
+    "requirements": [
+      {
+        "item": "Demonstrated dependency/userbase: core dependency of internet freedom technologies, or app/user-facing tool with substantial active users or beneficiaries in repressive contexts",
+        "quote": "The project demonstrates it is a core dependency of internet freedom technologies; or — if the project is an app or other user-facing tool — has a substantial base of active users or beneficiaries in repressive contexts."
+      },
+      {
+        "item": "Active development: coding in last two years and updates pushed regularly",
+        "quote": "Active coding toward the software has occurred in the last two years and updates are pushed regularly."
+      },
+      {
+        "item": "Competitive applications improve sustainability, security, or resiliency of multiple internet freedom technologies on an infrastructural level through shared upstream dependencies",
+        "quote": "improve the sustainability, security, or resiliency of multiple internet freedom technologies on an infrastructural level through investment in shared upstream dependencies such as libraries, packages, modules, or protocols;"
+      },
+      {
+        "item": "Two-stage application process: Concept Note then invited Proposal",
+        "quote": "Applications to the FOSS Sustainability Fund go through a two-stage application process during the open solicitation period."
+      }
+    ],
+    "timeline": {
+      "durationMonths": 24
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "Applicants within countries subject to U.S. trade restrictions or export sanctions as determined by OFAC are not supported",
+        "Applicants engaged in surveillance software, hardware, or associated technology are ineligible",
+        "Applicants debarred, sanctioned, or excluded from receiving federal funds are ineligible",
+        "Applicants must be 18 or older"
+      ]
+    }
   },
   {
     "organization": "Cardano / Project Catalyst (Catalyst Foundation Company)",
@@ -8202,7 +8445,17 @@
     "domain": "Web3 / Public Goods",
     "name": "Project Catalyst (Cardano) — Fund16",
     "id": 153,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "7934b67d1d24b369df1c6bd26b7c8e1b06a377ba8a2fba6d34f88ca65e84d146"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Nouns DAO",
@@ -8236,7 +8489,17 @@
     "domain": "Creative",
     "name": "Nouns DAO — Small Grants & Prop House Rounds",
     "id": 154,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "fb62b26c8d180a521db0b6ad9b15446942778013ac5fed5b71c09c464e4fc6b0"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Renaissance Philanthropy (with Biohub, Wellcome, Kavli, ReSA)",
@@ -8267,7 +8530,23 @@
     "domain": "Open Source",
     "name": "Open Source for Science Fund",
     "id": 155,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2d128d34783aac8cff4cd9cd53d77a0e0addb6960465b9ae2453ed9b574c14ab"
+    },
+    "amountMin": 250000,
+    "amountMax": 58000000,
+    "currency": "USD",
+    "timeline": {
+      "decisionDate": "2026-05-04"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Longview Philanthropy",
@@ -8298,16 +8577,20 @@
     "domain": "AI",
     "name": "AI Safety & Alignment Grant Program",
     "id": 156,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "MoonDAO",
     "category": "Foundation",
     "amount": "Per-project budgets (ETH) + quarterly retroactive rewards in ETH and vMOONEY",
     "deadline": "Rolling — ideation in Discord, then proposal submission anytime",
-    "deadlineDate": null,
-    "deadlineStatus": "rolling",
-    "deadlineType": "rolling",
+    "deadlineDate": "2026-10-08",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed",
     "eligibility": "Open to anyone with a mission-aligned (space/Moon-settlement) project; for-profit contributors eligible. Requires Gnosis multisig and weekly reporting.",
     "description": "MoonDAO funds mission-aligned projects advancing its goal of a permanent lunar settlement, with up-front ETH budgets plus quarterly retroactive rewards. Rolling proposal system via Discord + submissions portal.",
     "url": "https://www.moondao.com/proposals",
@@ -8331,7 +8614,40 @@
     "domain": "Web3 / Public Goods",
     "name": "MoonDAO Project Funding",
     "id": 157,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "73fa18e3be1989b4edc8dd6be8ea0f5899dec2e38b8b517f739bdea959db229e"
+    },
+    "requirements": [
+      {
+        "item": "Ask must stay within the posted quarterly max.",
+        "quote": "Ask must stay within the posted quarterly max."
+      },
+      {
+        "item": "Required sections: Novelty & Prior Art, Lunar Bridge, Community Standing, SMART Key Results, Budget classes (no foundational PCs / entity fees), IP disclosure, COTS rationale for hardware.",
+        "quote": "Required sections: Novelty & Prior Art, Lunar Bridge, Community Standing, SMART Key Results, Budget classes (no foundational PCs / entity fees), IP disclosure, COTS rationale for hardware."
+      },
+      {
+        "item": "Document must be shared with \"Anyone with the link can view\"",
+        "quote": "Document must be shared with \"Anyone with the link can view\""
+      },
+      {
+        "item": "Present your proposal at our weekly Town Hall meeting after submitting.",
+        "quote": "After submitting, present your proposal at our weekly Town Hall meeting."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-10-08",
+      "deadlineType": "fixed",
+      "opensDate": "2026-10-15"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.85
+    }
   },
   {
     "organization": "Optimism Collective",
@@ -8362,7 +8678,11 @@
     "domain": "Web3 / Public Goods",
     "name": "Optimism Retro Funding — Audit Grants (Season 8)",
     "id": 158,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Burroughs Wellcome Fund",
@@ -8394,7 +8714,23 @@
     "domain": "Climate",
     "name": "Climate Change and Human Health Seed Grants",
     "id": 159,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "bb07c52c5f7130c96a2855d56d3c1b7e96597078a0dabaf17bb65342fc292cda"
+    },
+    "amountMin": 2500,
+    "amountMax": 50000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "VitaDAO",
@@ -8427,7 +8763,40 @@
     "domain": "Research",
     "name": "VitaDAO Longevity Fellowship",
     "id": 160,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "55f05c661f5efc2a39387ee037fd2d654dc45a19620cfad5a62959f13eeb0a08",
+      "finalUrl": "https://www.vitadao.com/vita-labs"
+    },
+    "requirements": [
+      {
+        "item": "Apply to the VitaLabs Fellowship",
+        "quote": "Getting involved in VitaLabs begins with applying to the VitaLabs Fellowship."
+      },
+      {
+        "item": "Teams present a comprehensive project write-up to participate in the QF round",
+        "quote": "Teams present a comprehensive project write-up to participate in the QF round"
+      }
+    ],
+    "timeline": {
+      "durationMonths": 4
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "early stage longevity research"
+      ]
+    }
   },
   {
     "organization": "XRPL Grants (RippleX / XRP Ledger Foundation)",
@@ -8459,7 +8828,48 @@
     "domain": "Web3 / Public Goods",
     "name": "XRPL Grants",
     "id": 161,
-    "_updated": "2026-05-31"
+    "_updated": "2026-05-31",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "fc5809c6d12b8651debdbb599f1362727b4bbc359048f10156777bd897106b67"
+    },
+    "requirements": [
+      {
+        "item": "Submit an application form",
+        "quote": "Submit an Application Form"
+      },
+      {
+        "item": "Qualified projects must submit a full application if invited",
+        "quote": "Qualified projects will be invited to submit a full application"
+      },
+      {
+        "item": "Finalists must interview if invited",
+        "quote": "Finalists are invited to interview"
+      },
+      {
+        "item": "Apply via a single unified application form to be considered for all programs",
+        "quote": "By applying via a single unified application form, you will be considered for all programs under the XRPL Grants and XRPL Accelerator Programs."
+      }
+    ],
+    "timeline": {
+      "decisionDate": "2026-10-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "Open primarily to Decentralized Finance (DeFi), Real-World Assets (RWA), and payments use cases",
+        "Prioritized use cases: Decentralized Finance (DeFi), Real World Asset Tokenization (RWA), Payments, Trade Finance"
+      ]
+    }
   },
   {
     "organization": "World Foundation (formerly Worldcoin Foundation)",
