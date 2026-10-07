@@ -11938,7 +11938,50 @@
     "domain": "AI",
     "name": "Collective Intelligence Project (CIP) Research Fellowship",
     "id": 212,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "d3b9f4056b7b1aeade0b9dd0b01a6112870a11946812e7cdb657f25f63788e13"
+    },
+    "requirements": [
+      {
+        "item": "One-page research proposal",
+        "quote": "### 1. One-Page Research Proposal"
+      },
+      {
+        "item": "CV / Resume / LinkedIn Profile (maximum 2 pages for CV/resume)",
+        "quote": "### 2. CV / Resume / LinkedIn Profile"
+      },
+      {
+        "item": "Brief statement of 200–300 words",
+        "quote": "### 3. Brief Statement (200–300 words)"
+      },
+      {
+        "item": "Writing sample",
+        "quote": "### 4. Writing Sample"
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling",
+      "durationMonths": 6
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Late-stage PhD candidates (ABD), early-career postdoctoral researchers, or independent scholars",
+        "Preferred fields include Political Science, Computational Social Science, Sociology, Computer Science (ML/AI)"
+      ]
+    }
   },
   {
     "organization": "South Arts",
@@ -11970,7 +12013,74 @@
     "domain": "Creative",
     "name": "South Arts — Artist Creative Practice Grant",
     "id": 213,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "5212bd7846a2898b4aa9b8e4258d3bf5787ebf67a46920c6bae6bd288f838ca5"
+    },
+    "amountMin": 500,
+    "amountMax": 3000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Complete application via Salesforce Grants Portal",
+        "quote": "Completion of the application using our SalesForce Grants Portal at https://southarts.my.site.com/grants/s/"
+      },
+      {
+        "item": "Narrative responses required",
+        "quote": "Narrative Responses"
+      },
+      {
+        "item": "Evidence of invitation or other legitimizing documentation required",
+        "quote": "Evidence of invitation/Other evidence that legitimates the proposed activity (provide attachments within Salesforce)"
+      },
+      {
+        "item": "Budget with 2:1 match required",
+        "quote": "Budget (match = South Arts 2: Artist 1; Artist must present a balancing budget that outlines the matching requirements)"
+      },
+      {
+        "item": "Work samples required, maximum 3",
+        "quote": "Work Samples (limit to a maximum of 3 artistic work samples)"
+      },
+      {
+        "item": "Resume or CV required, maximum 3 pages",
+        "quote": "Resumé or Curriculum Vitae (attach either with a maximum of 3 pages)"
+      },
+      {
+        "item": "Online certification required",
+        "quote": "Online certification that the application is accurate, and the applicant agrees to the terms."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-04-30",
+      "deadlineType": "fixed",
+      "decisionDate": "2025-11-01",
+      "opensDate": "2025-07-16"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be an individual professional-caliber working artist in specified artistic disciplines",
+        "Must be 18 years of age or older at the time of application",
+        "Must expect to maintain residency in the region during the award period",
+        "Must not be a degree-seeking student during the grant period",
+        "Only one application for one activity per funding cycle",
+        "Cannot re-apply for four funding cycles after receiving award",
+        "Groups of artists ineligible",
+        "College or university degree programs ineligible",
+        "General performance showcases at booking conferences ineligible",
+        "Applicants moving from South Arts region after application are not eligible"
+      ]
+    }
   },
   {
     "organization": "Youth Climate Justice Fund (YCJF)",
@@ -12002,7 +12112,23 @@
     "domain": "Climate",
     "name": "Youth Climate Justice Fund 2026",
     "id": 214,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "543571b3da8b69c7e61caa6785cde180e50ea94213aa7964f1681b7fa30a5bda"
+    },
+    "amountMin": 20000,
+    "amountMax": 40000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "John S. and James L. Knight Foundation",
@@ -12033,7 +12159,17 @@
     "domain": "Creative",
     "name": "Knight Art + Tech Expansion Fund",
     "id": 215,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6b05cffaf48b40bf80b617a8f4bcfa7bb1d3589f42dcd30e7fffabbb57b402fa"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "AARP",
@@ -12064,7 +12200,26 @@
     "domain": "Civic / Social",
     "name": "AARP Community Challenge",
     "id": 216,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2032a47e38311f2406a4bf855464bf37eb9fad13424637687c11db3c4917ab11"
+    },
+    "amountMin": 8300000,
+    "amountMax": 32600000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "local projects",
+        "focus on meeting the needs of adults age 50 or older"
+      ]
+    }
   },
   {
     "organization": "Lush Cosmetics",
@@ -12095,7 +12250,11 @@
     "domain": "Civic / Social",
     "name": "Lush Charity Pot Funding",
     "id": 217,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Alfred P. Sloan Foundation",
@@ -12126,7 +12285,11 @@
     "domain": "Research",
     "name": "Exploratory Grantmaking in Technology",
     "id": 218,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Nielsen Foundation",
@@ -12157,7 +12320,35 @@
     "domain": "AI",
     "name": "Data for Good Grants",
     "id": 219,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "ace05439e353d46e4e6228920a89480ae6425b53b144d5b1b27b121b73610c69"
+    },
+    "requirements": [
+      {
+        "item": "Use data to improve the work of the organizations that receive grants",
+        "quote": "use data to improve the work of the organizations that receive grants"
+      },
+      {
+        "item": "Move beyond the use of data for needs assessments or program monitoring and evaluation",
+        "quote": "move beyond the use of data for needs assessments or program monitoring and evaluation"
+      },
+      {
+        "item": "Use data in innovative ways and help bridge divides to catalyze long-term change",
+        "quote": "support projects that use data in innovative ways and help bridge divides to catalyze long-term change"
+      },
+      {
+        "item": "Address one or more specified goals",
+        "quote": "addressing one or more of the following goals:"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    }
   },
   {
     "organization": "Decentraland DAO",
@@ -12188,7 +12379,11 @@
     "domain": "Web3 / Public Goods",
     "name": "Decentraland DAO Grants",
     "id": 220,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "ApeCoin DAO (Governance Working Group)",
@@ -12219,7 +12414,11 @@
     "domain": "Web3 / Public Goods",
     "name": "ApeCoin DAO GWG On-Chain Small Grants",
     "id": 221,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "ENS DAO",
@@ -12250,7 +12449,17 @@
     "domain": "Web3 / Public Goods",
     "name": "ENS Small Grants — Public Goods Rounds",
     "id": 222,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6c767a3ad195e6449b60eed738d5e94e80c6562ffb478ffea34e1ba69e8126ff"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Optimism Collective",
@@ -12282,7 +12491,11 @@
     "domain": "Web3 / Public Goods",
     "name": "Optimism Retro Funding: Dev Tooling",
     "id": 223,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Aleph Zero Foundation",
@@ -12314,7 +12527,18 @@
     "domain": "Web3 / Public Goods",
     "name": "Aleph Zero Ecosystem Funding Program",
     "id": 224,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "c22e8da55af8d367abbe198e1b05b0ca5c21ad2e3079a2db89c2fa8e65808833",
+      "finalUrl": "https://alephzero.org/"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "HeroDevs",
@@ -12346,7 +12570,20 @@
     "domain": "Open Source",
     "name": "HeroDevs Open Source Sustainability Fund",
     "id": 225,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "78ded9ae6279090b553fbf4d4d6ea19a318292c62bbfe5cc841c32dde62ac268"
+    },
+    "amountMin": 20000000,
+    "amountMax": 20000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "For ClimateTech (NextCorps / NYSERDA-backed)",
@@ -12378,7 +12615,54 @@
     "domain": "Climate",
     "name": "Venture For ClimateTech Accelerator",
     "id": 226,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6697a505fcae835a2529c1f9dcdd54ee991128e2f250c4ed000d975e592fdf83"
+    },
+    "amountMax": 50000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Must be early-stage entrepreneurs from TRL 4-7s",
+        "quote": "We work with early-stage entrepreneurs from TRL 4-7s"
+      },
+      {
+        "item": "Applications open Jan 5 2026 to Feb 20 2026",
+        "quote": "Applications for Cohort 6 of Venture For ClimateTech are open from January 5, 2026 to February 20, 2026"
+      },
+      {
+        "item": "Selection criteria",
+        "quote": "Startups will be evaluated on the following criteria:"
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-01-05",
+      "deadlineDate": "2026-02-20",
+      "durationMonths": 6,
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team",
+        "org"
+      ],
+      "restrictions": [
+        "Must have plans for how solution can help New York State reach its climate goals",
+        "Cohort 6 focus sectors: Buildings, Transportation, Grid, and Industry",
+        "Companies with substantial institutional capital may not be best fit",
+        "Part-time program requiring 8-12 hours per week"
+      ]
+    }
   },
   {
     "organization": "Wilkes Center for Climate Science & Policy, University of Utah",
@@ -12410,7 +12694,60 @@
     "domain": "Climate",
     "name": "Wilkes Climate Innovation Prize",
     "id": 227,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "efc24aebd6f32ce3502e3814337005b644b706bb8e62535c15fc09e9ab6fd7b7"
+    },
+    "amountMin": 250000,
+    "amountMax": 250000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Pitch must be typed directly into the application portal form",
+        "quote": "Your pitch should by typed directly into the form on the application portal."
+      },
+      {
+        "item": "Applicants should be prepared to address major application components clearly, realistically, and transparently",
+        "quote": "Applicants should be prepared to address the following major application components in a clear, realistic, and transparent manner."
+      },
+      {
+        "item": "Applicants should be prepared to explain what Wilkes Prize support would enable at this stage that is unlikely to happen otherwise",
+        "quote": "Applicants should be prepared to explain what Wilkes Prize support would enable at this stage that is unlikely to happen otherwise."
+      },
+      {
+        "item": "Early warning signal description is encouraged but not required",
+        "quote": "Applicants are also encouraged (but not required) to describe an early warning signal"
+      },
+      {
+        "item": "Prize funds have a 15% cap on overhead, including indirect or F&A costs",
+        "quote": "Other than a 15% cap on overhead (including indirect or F&A costs), there are no other restrictions on the use of the funds."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-02-28",
+      "deadlineType": "fixed",
+      "decisionDate": "2026-09-23"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "For-profit and nonprofit organizations are eligible",
+        "Organizations at all stages are eligible, including seed, pre-seed, venture-funded, publicly traded stage companies, or nonprofits",
+        "No affiliation with the University of Utah or the State of Utah is required",
+        "Multiple project ideas from the same organization may be submitted"
+      ]
+    }
   },
   {
     "organization": "FedEx",
@@ -12442,7 +12779,17 @@
     "domain": "Startup / General",
     "name": "FedEx Small Business Grant Contest",
     "id": 228,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "08c31ccfed800741775bb3dc83aecc004b02be323b50ea331372c8bcf652bb27"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Skip (HelloSkip)",
@@ -12474,7 +12821,33 @@
     "domain": "Startup / General",
     "name": "Skip Instant Grants",
     "id": 229,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "69f92b9cdb1aca6f5c677ba9f5789fbceee521a702cf5f1e73f90574554c4dad"
+    },
+    "amountMin": 1000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2025-02-28",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "startup"
+      ]
+    }
   },
   {
     "organization": "Google (Data Center Community Programs)",
@@ -12506,7 +12879,25 @@
     "domain": "AI",
     "name": "Google Data Center Community AI Fellowship",
     "id": 230,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "5b21bd772c17e5f43dfdbff1b97975019390099304e747311b360cad5d7f94f6"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be leveraging AI to scale inclusive, local solutions in Google Data Center Communities"
+      ]
+    }
   },
   {
     "organization": "California Arts Council",
@@ -12538,7 +12929,42 @@
     "domain": "Creative",
     "name": "California Individual Artists Fellowship (IAF)",
     "id": 231,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "678dfe837609551701dcbfe6be10324f17245ff69429fa3fdfe0ba184419cbeb"
+    },
+    "amountMin": 5000,
+    "amountMax": 8000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Individual artists apply through the Regional AO serving their county",
+        "quote": "If you are an individual artist, apply to the statewide fellowship program through the Regional AO listed below that serves your county."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-04-02",
+      "deadlineDate": "2026-06-05",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must live in the region being applied to",
+        "May submit an application to only one region",
+        "Must apply through the Regional Administering Organization serving the applicant's county"
+      ]
+    }
   },
   {
     "organization": "O'Shaughnessy Ventures (OSV)",
@@ -12570,7 +12996,30 @@
     "domain": "Startup / General",
     "name": "O'Shaughnessy Fellowships & Grants",
     "id": 232,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "d60ca96395d9505af18de954ad4893ebd6f73712b76e942dff6469b8528c9bf1"
+    },
+    "timeline": {
+      "deadlineDate": "2026-04-30",
+      "deadlineType": "fixed",
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Open to researchers, builders, and creatives"
+      ]
+    }
   },
   {
     "organization": "Circle (USDC)",
@@ -12602,7 +13051,41 @@
     "domain": "Web3 / Public Goods",
     "name": "Circle Developer Grants",
     "id": 233,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2319d72d213a643e57bea297f90547fe07b34fe53e98bf8f2c3d6954395f28c0"
+    },
+    "requirements": [
+      {
+        "item": "Apply through grants portal with details on business, Circle and Arc integrations, product roadmap and proposed grant milestones",
+        "quote": "Apply through our grants portal with details on your business, Circle and Arc integrations, product roadmap and proposed grant milestones."
+      },
+      {
+        "item": "Finalists selected to proceed must complete applicable screenings",
+        "quote": "Finalists selected to proceed must complete applicable screenings before moving forward."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Must build on Arc and Circle Developer Platform",
+        "Strong platform alignment: Arc core to value flow, liquidity, or settlement and Circle products meaningful in architecture",
+        "Exceptional teams with proven shipping ability, clear technical ownership, and relevant background",
+        "Traction and path to success: evidence of usage, pilots, partnerships, revenue or credible path",
+        "Ecosystem impact: expand USDC utility and strengthen Arc ecosystem",
+        "Focus on applicants whose businesses help build the new internet financial system"
+      ]
+    }
   },
   {
     "organization": "African Research Universities Alliance (with Mastercard Foundation & Carnegie Corporation)",
@@ -12634,7 +13117,69 @@
     "domain": "Research",
     "name": "ARUA Early-Career Research Fellowships 2026",
     "id": 234,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "236c6800ea3297fca5e5f1d71ea62086dee339f3935f9c62a2f6798663efb98f"
+    },
+    "amountMin": 2000,
+    "amountMax": 2000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Cover letter",
+        "quote": "Cover letter outlining your reasons for applying for the position and details of how you will achieve the roles and responsibilities of the position"
+      },
+      {
+        "item": "Full CV",
+        "quote": "Full CV, including applicant details (e.g., date of birth, passport number, country of origin, citizenship, etc.)"
+      },
+      {
+        "item": "Letter of Support from home institution",
+        "quote": "A Letter of Support from the applicant’s permanent/home institution, including an indication of suitability for the position and that the candidate will return to the home institution."
+      },
+      {
+        "item": "Evidence of the Award of PhD",
+        "quote": "Evidence of the Award of PhD."
+      },
+      {
+        "item": "Brief Concept Note",
+        "quote": "A Brief Concept Note (max. 1,500 words, including references) outlining your proposed research project/plan."
+      },
+      {
+        "item": "Two academic writing samples",
+        "quote": "Two (2) academic writing such as peer-reviewed journal articles, book chapters, conference proceedings, policy brief etc."
+      },
+      {
+        "item": "Passport biodata page",
+        "quote": "The biodata page of a valid passport"
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-01-28",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be African nationals",
+        "Must be no older than 35 years at the time of application",
+        "At least 70% of the fellowships are reserved for female candidates",
+        "Must be within 5 years of completing their PhD",
+        "Must be young faculty or research member at an ARUA university; non-ARUA candidates eligible",
+        "Must be available to spend 6 months away from home university",
+        "Must be working on an ongoing project related to the CoE or CoRE with readily available data"
+      ]
+    }
   },
   {
     "organization": "New York Foundation for the Arts (with NYSCA)",
@@ -12666,7 +13211,11 @@
     "domain": "Creative",
     "name": "NYSCA/NYFA Artist Fellowship",
     "id": 235,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Pulitzer Center",
@@ -12698,7 +13247,73 @@
     "domain": "AI",
     "name": "South-to-South AI Accountability CoLab Microgrants",
     "id": 236,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "03ab4e94c2736c137623eb0f3a51d888e2f32185ff09d1517ce647f4dc1def74"
+    },
+    "amountMax": 4000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Utilize insights from at least one AI Accountability Network reporting as the central part of the project",
+        "quote": "Utilize insights from at least one AI Accountability Network reporting as the central part of a project."
+      },
+      {
+        "item": "Present the AI intersection with one or more of these issues: human rights (social inclusivity, labor, gender equality); emerging technology governance; and environmental impact",
+        "quote": "Present the AI intersection with one or more of the following issues: human rights (social inclusivity, labor, gender equality); emerging technology governance; and environmental impact."
+      },
+      {
+        "item": "Provide a clear target audience and a plan to assess the project results",
+        "quote": "Provide a clear target audience and a plan to assess the project results."
+      },
+      {
+        "item": "Present short-term and long-term project results aligned with specified outcomes",
+        "quote": "Present short-term and long-term project results to align with the following one or two outcomes:"
+      },
+      {
+        "item": "Represent and amplify diverse perspectives, including those most affected by AI",
+        "quote": "Represent and amplify diverse perspectives, including those most affected by AI."
+      },
+      {
+        "item": "Prepare relevant documents including resumes/CVs and letters of recommendation",
+        "quote": "Prepare relevant documents including resumes/CVs and letters of recommendation."
+      },
+      {
+        "item": "Submit financial and narrative reports at the end of the period",
+        "quote": "Applicants must submit financial and narrative reports at the end of the period, detailing costs and outcomes."
+      },
+      {
+        "item": "Contribute to the Pulitzer Center's knowledge-sharing initiatives",
+        "quote": "Successful project leads will also be expected to contribute to the Pulitzer Center’s knowledge-sharing initiatives"
+      }
+    ],
+    "timeline": {
+      "decisionDate": "2025-10-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.75
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "Applicants must have experience informing public understanding and/or influencing policymaking on emerging technology regulations and tech development that serve the public interest",
+        "Civil society actors must be registered in focus regions: Africa, Latin America, and South and Southeast Asia",
+        "Applicants must have an active leadership role or support of leadership in their organization",
+        "Academic applicants must be university professors or researchers with experience in tech development and/or tech policymaking that serves the public interest",
+        "Academic applicants must be based in institutions or think tanks in focus regions",
+        "Applicants must have a track record of co-creating impactful projects with other organizations and operational capacity to manage micro-grant resources from an international organization",
+        "Projects must not be for-profit oriented",
+        "Projects must not involve advocacy that serves private sector lobbying interest",
+        "Projects must not involve campaigns that endorse political candidates or parties"
+      ]
+    }
   },
   {
     "organization": "Fine Arts Work Center in Provincetown",
@@ -12730,7 +13345,47 @@
     "domain": "Creative",
     "name": "Fine Arts Work Center (FAWC) Fellowship",
     "id": 237,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a66e3785d1deba11b2d7114cddf549f4f1068825572c1aed018c420610629034"
+    },
+    "amountMin": 500,
+    "amountMax": 2500,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "There is no separate application process for the Rona Jaffe Foundation Fellowship.",
+        "quote": "There is no separate application process for the Rona Jaffe Foundation Fellowship."
+      },
+      {
+        "item": "There is no separate application process for the Fellowship Access Fund.",
+        "quote": "There is no separate application process for the Fellowship Access Fund."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-12-15",
+      "deadlineType": "fixed",
+      "opensDate": "2026-10-20",
+      "durationMonths": 7
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Rona Jaffe Foundation fellows must be permanent residents of the U.S.",
+        "Rona Jaffe Foundation fellows may not have published their first book in the standard edition.",
+        "The Fellowship Access Fund is for select candidates with particular financial needs."
+      ]
+    }
   },
   {
     "organization": "Kenyon Review / Kenyon College",
@@ -12762,7 +13417,11 @@
     "domain": "Creative",
     "name": "The Kenyon Review Fellowships",
     "id": 238,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "RRF Foundation for Aging",
@@ -12794,7 +13453,23 @@
     "domain": "Civic / Social",
     "name": "RRF Foundation for Aging — OCB Flexible Fund Grants",
     "id": 239,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "19f43dd8dfe0a9b0ebe909e54625c5d2a255b6cedae34cb63b6012f6a99c27d6"
+    },
+    "amountMin": 15000,
+    "amountMax": 15000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Oregon Community Foundation",
@@ -12826,7 +13501,27 @@
     "domain": "Civic / Social",
     "name": "Community Grant Program — Fall 2026 Cycle",
     "id": 241,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "8cc5fe26191be4f2b4807385369d8ba8952ec0920ab97a4a4d8f799a28e15798"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.95
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Two-cycle sit-out period required",
+        "Organizations that received a Community Grant in 2025 Fall Cycle or 2026 Spring Cycle are not eligible for the 2026 Fall Cycle"
+      ]
+    }
   },
   {
     "organization": "The AI Education Project (aiEDU)",
@@ -12858,7 +13553,65 @@
     "domain": "AI",
     "name": "Community Catalyst Program",
     "id": 242,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "e0a3c6dfa9966b264354b5038d5497a07c05e0b7762888d9fe5638ad58b6791d"
+    },
+    "amountMin": 25000,
+    "amountMax": 50000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Submit a Letter of Intent as a PDF",
+        "quote": "Your LOI should be submitted as a PDF"
+      },
+      {
+        "item": "LOI must include introduction and organizational background",
+        "quote": "Introduction and Organizational Background: Who you are, your experience in education or community work, and context about the community you serve."
+      },
+      {
+        "item": "LOI must include project vision and goals",
+        "quote": "Project Vision & Goals: The problem you're addressing, how it connects to AI literacy, which support types you'd select, and how much funding you're requesting ($25K or $50K) with a high-level sense of how you'd use it."
+      },
+      {
+        "item": "LOI must include initial plan for implementation and impact",
+        "quote": "Initial Plan for Implementation & Impact: Who will be involved, how you'll measure success, and a rough timeline confirming the project can be completed within 12 months."
+      },
+      {
+        "item": "LOI must include why now",
+        "quote": "Why now?: Why this is the right moment for your organization, and how the grant builds long-term capacity."
+      },
+      {
+        "item": "Funding cannot be used for AI tool subscriptions or licenses, general communications work, or G&A costs beyond 10%",
+        "quote": "Funding cannot be used for AI tool subscriptions or licenses, general communications work, or G&A costs beyond 10%."
+      },
+      {
+        "item": "Each partner will select one aiEDU support path for the project",
+        "quote": "Each partner will select one aiEDU support path for the project ."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Eligible applicants include school districts",
+        "Eligible applicants include educational service agencies, centers, or districts (ESAs/ESCs/ESDs)",
+        "Eligible applicants include 501(c)(3) nonprofits that deliver professional development to teachers",
+        "Eligible applicants include independent charter schools and charter management organizations",
+        "Priority for organizations serving rural and Indigenous communities",
+        "Grant request should represent 10% or less of the organization's operating budget",
+        "Program is designed to extend proven capacity, not fund entirely new programs from scratch"
+      ]
+    }
   },
   {
     "organization": "Charter Communications (Spectrum)",
@@ -12890,7 +13643,11 @@
     "domain": "Civic / Social",
     "name": "Spectrum Digital Education Grants",
     "id": 243,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "BNB Chain Foundation",
@@ -12922,7 +13679,35 @@
     "domain": "Web3 / Public Goods",
     "name": "BNB Chain Grants Program",
     "id": 244,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "63e273a08a6ba0e2f4ec146eedff04b4e1aee1b6d1c5612073a01b19fe44b3fc"
+    },
+    "amountMin": 200000,
+    "amountMax": 250000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Check the grant wishlist before submitting an application",
+        "quote": "Make sure to check our grant wishlist before submitting your application."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Open-source initiatives"
+      ]
+    }
   },
   {
     "organization": "Taiko Labs",
@@ -12954,7 +13739,11 @@
     "domain": "Open Source",
     "name": "Taiko Grants Program",
     "id": 245,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "W.K. Kellogg Foundation",
@@ -12986,7 +13775,39 @@
     "domain": "Civic / Social",
     "name": "W.K. Kellogg Foundation Grants",
     "id": 246,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "0ad05cbbaab8d67890db32d0ea8cde40b8e3748dea6fec693b201f74a84022b0"
+    },
+    "requirements": [
+      {
+        "item": "Submit a letter of inquiry (LOI) through Fluxx",
+        "quote": "Submit a letter of inquiry (LOI) through Fluxx."
+      },
+      {
+        "item": "Register in the grants management system, powered by Fluxx",
+        "quote": "Register in our grants management system, powered by Fluxx."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "geography": "restricted:US,MX,HT",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Individuals are not eligible",
+        "Capital investments are not funded",
+        "Political parties or candidates are not funded"
+      ]
+    }
   },
   {
     "organization": "OpenSSF / Linux Foundation (Alpha-Omega)",
@@ -13017,7 +13838,10 @@
     "domain": "Open Source",
     "name": "Alpha-Omega Project Grants",
     "id": 247,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "Tether",
@@ -13049,7 +13873,11 @@
     "domain": "AI",
     "name": "Tether Developer Grants Program",
     "id": 248,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Rhizome (New Museum affiliate)",
@@ -13080,7 +13908,11 @@
     "domain": "Creative",
     "name": "Rhizome Microgrants",
     "id": 249,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Plug and Play Tech Center",
@@ -13111,7 +13943,11 @@
     "domain": "Startup / General",
     "name": "Plug and Play Silicon Valley Accelerator",
     "id": 250,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Hello Alice (with corporate partners e.g. Allstate)",
@@ -13142,7 +13978,11 @@
     "domain": "Startup / General",
     "name": "Hello Alice Small Business Grants (Boost Camp / Make More Possible)",
     "id": 251,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Google for Startups",
@@ -13173,7 +14013,11 @@
     "domain": "AI",
     "name": "Google for Startups AI Agent Challenge 2026",
     "id": 252,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Alicia (Alicia AI Impact Grant)",
@@ -13204,7 +14048,10 @@
     "domain": "AI",
     "name": "Alicia's AI Impact Grant",
     "id": 253,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "Sei Development Foundation × Gitcoin",
@@ -13235,7 +14082,11 @@
     "domain": "Web3 / Public Goods",
     "name": "Sei Creator Fund (Gitcoin Quadratic Funding)",
     "id": 254,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Serpentine Arts Technologies (Future Art Ecosystems)",
@@ -13268,7 +14119,11 @@
     "domain": "Creative",
     "name": "Serpentine Art and Technology Fellowship (Art x Convergence)",
     "id": 255,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Unitary Foundation (formerly Unitary Fund)",
@@ -13300,7 +14155,11 @@
     "domain": "Research",
     "name": "Unitary Foundation Quantum Computing Microgrant",
     "id": 256,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "United States Artificial Intelligence Institute (USAII)",
@@ -13332,7 +14191,10 @@
     "domain": "AI",
     "name": "USAII Global AI Hackathon 2026",
     "id": 257,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "The Rumpus",
@@ -13364,7 +14226,10 @@
     "domain": "Creative",
     "name": "The Rumpus Writing Fellowships",
     "id": 258,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "Rita Allen Foundation / Civic Science Fellows network",
@@ -13396,7 +14261,11 @@
     "domain": "Civic / Social",
     "name": "Civic Science Media Project Grants",
     "id": 259,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "A Public Space",
@@ -13428,7 +14297,10 @@
     "domain": "Creative",
     "name": "A Public Space Writing Fellowships",
     "id": 260,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "The Robert B. Silvers Foundation",
@@ -13460,7 +14332,10 @@
     "domain": "Creative",
     "name": "Silvers Grants for Work in Progress",
     "id": 261,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "AssemblyAI (via Devpost)",
@@ -13492,7 +14367,11 @@
     "domain": "AI",
     "name": "AssemblyAI $50k AI Hackathon",
     "id": 262,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Bank of America Charitable Foundation",
@@ -13524,7 +14403,11 @@
     "domain": "Civic / Social",
     "name": "Bank of America Neighborhood Builders",
     "id": 263,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "redirect",
+      "finalUrl": "https://about.bankofamerica.com/en/making-an-impact/grant-funding-for-nonprofits-sponsorship-programs"
+    }
   },
   {
     "organization": "The Lawrence Foundation",
@@ -13556,7 +14439,10 @@
     "domain": "Climate",
     "name": "The Lawrence Foundation Grant",
     "id": 264,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "WomensNet",
@@ -13588,7 +14474,10 @@
     "domain": "Startup / General",
     "name": "WomensNet Amber Grant",
     "id": 265,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "Verizon (in partnership with LISC)",
@@ -13620,7 +14509,10 @@
     "domain": "Startup / General",
     "name": "Verizon Small Business Digital Ready Grant",
     "id": 266,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "Nathan Cummings Foundation",
@@ -13653,7 +14545,10 @@
     "domain": "Civic / Social",
     "name": "Nathan Cummings Foundation — Advancement Grants",
     "id": 267,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "Pulitzer Center",
@@ -13685,7 +14580,10 @@
     "domain": "Civic / Social",
     "name": "Pulitzer Center — U.S. Local News Reporting Grants",
     "id": 268,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "ProPublica",
@@ -13717,7 +14615,10 @@
     "domain": "Civic / Social",
     "name": "ProPublica Local Reporting Network",
     "id": 269,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok"
+    }
   },
   {
     "organization": "Whiting Foundation",
@@ -13749,7 +14650,11 @@
     "domain": "Creative",
     "name": "Whiting Creative Nonfiction Grant (Works-in-Progress)",
     "id": 270,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "redirect",
+      "finalUrl": "https://www.whiting.org/writers/nonfiction-grant-for-works-in-progress/about"
+    }
   },
   {
     "organization": "ETHGlobal",
@@ -13781,7 +14686,11 @@
     "domain": "Web3 / Public Goods",
     "name": "ETHGlobal Hackathons 2026 Series",
     "id": 271,
-    "_updated": "2026-06-01"
+    "_updated": "2026-06-01",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Interledger Foundation",
