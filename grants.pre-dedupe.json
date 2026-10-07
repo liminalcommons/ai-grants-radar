@@ -322,38 +322,6 @@
   "deadlineType": "rolling"
  },
  {
-  "organization": "European Innovation Council (European Commission)",
-  "category": "Government",
-  "amount": "Up to €2.5M staged: €300,000 Stage 1, up to €2.5M Stage 2 (ARPA-style, non-repayable grant)",
-  "deadline": "Continuous rolling applications (new 2026 EIC instrument)",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "Deep-tech startups/SMEs in EU member states & Horizon-associated countries; requires an EU/associated-country legal entity.",
-  "description": "A new 2026 EIC instrument funding breakthrough deep-tech via an ARPA-style staged model with continuous rolling applications. Non-repayable grant funding (distinct from the EIC Accelerator and Pathfinder already on your radar).",
-  "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
-  "tags": [
-   "EU",
-   "deep-tech",
-   "grant",
-   "rolling",
-   "non-dilutive"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Substantial non-dilutive grant and rolling — but requires an EU-based entity. Action: only viable with an EU subsidiary/partner; if you have one, the rolling model lets you enter anytime.",
-  "relevant2026": true,
-  "relevant2026Note": "Introduced as a new 2026 EIC instrument with continuous applications per EIC 2026 work programme.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "cash",
-  "effort": "high",
-  "domain": "Startup / General",
-  "name": "EIC Advanced Innovation Challenges (AIC)",
-  "id": 559,
-  "_updated": "2026-06-05"
- },
- {
   "id": 11,
   "name": "EIC Accelerator Open — 2026",
   "organization": "European Innovation Council",
@@ -2161,100 +2129,6 @@
   "deadlineType": "fixed"
  },
  {
-  "organization": "Patrick J. McGovern Foundation",
-  "category": "Foundation",
-  "amount": "$200,000 prize",
-  "deadline": "Annual prize — 2026 deadline (May 21) has passed; next cycle expected 2027",
-  "deadlineDate": null,
-  "deadlineStatus": "upcoming",
-  "deadlineType": "recurring",
-  "eligibility": "Organizations deploying breakthrough AI solutions for social good. Leans toward nonprofits/public institutions but recognizes high-impact AI work broadly.",
-  "description": "A $200K prize recognizing and funding breakthrough AI solutions that benefit humanity, awarded annually by the McGovern Foundation. Part of the foundation's $75.8M AI-for-public-purpose commitment.",
-  "url": "https://www.mcgovern.org/grants/",
-  "tags": [
-   "AI",
-   "prize",
-   "social-impact",
-   "foundation"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Strong social-good/AI-for-humanity framing required and the foundation leans nonprofit/public-institution; a for-profit would need a clear public-benefit narrative or nonprofit partner. Recurring annually — prepare for the 2027 cycle.",
-  "relevant2026": "upcoming",
-  "relevant2026Note": "2026 cycle closed May 21; next cycle expected 2027.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "cash",
-  "effort": "high",
-  "domain": "AI",
-  "name": "AI for Humanity Prize",
-  "id": 278,
-  "_updated": "2026-06-01"
- },
- {
-  "organization": "Patrick J. McGovern Foundation",
-  "category": "Foundation",
-  "amount": "$100,000 – $750,000",
-  "deadline": "Rolling (grants database updated weekly)",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "Primarily nonprofits, public institutions, and social-impact organizations advancing responsible AI use.",
-  "description": "Part of the Foundation's $75.8M 2026 commitment to responsible AI in public institutions, funding AI fluency and capacity-building work in the $100K–$750K range on a rolling basis.",
-  "url": "https://www.mcgovern.org/grants/",
-  "tags": [
-   "AI",
-   "civic",
-   "responsible-AI",
-   "non-dilutive"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Large non-dilutive cash, but skews toward nonprofits/public institutions. Viable only with a nonprofit or government partner where your AI collaboration platform powers their capacity-building — pursue as a fiscal-sponsor or partner-led grant.",
-  "relevant2026": true,
-  "relevant2026Note": "Backed by a fresh $75.8M 2026 commitment; database updated weekly and accepting submissions.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "cash",
-  "effort": "high",
-  "domain": "Civic / Social",
-  "name": "AI Fluency and Capacity Building Grants",
-  "id": 206,
-  "_updated": "2026-06-01"
- },
- {
-  "organization": "Patrick J. McGovern Foundation",
-  "category": "Foundation",
-  "amount": "Cash grants (often six- to seven-figure) across AI, data, climate, journalism and digital health",
-  "deadline": "Invitation-driven; no public open-application window posted",
-  "deadlineDate": null,
-  "deadlineStatus": "unknown",
-  "deadlineType": "unknown",
-  "eligibility": "Grants database shows awards exclusively to nonprofits and educational institutions — no for-profit recipients listed. Focus areas: AI Fluency, Data as a Public Good, Emergent AI, Journalism & Media, Climate, Health.",
-  "description": "A major AI-for-good funder backing organizations using AI and data to advance the public interest. Funding is relationship/invitation-based rather than via open rounds.",
-  "url": "https://www.mcgovern.org/grants/",
-  "tags": [
-   "Civic / Social",
-   "AI for good",
-   "data",
-   "foundation",
-   "public interest"
-  ],
-  "viability": "no",
-  "viabilityNote": "As a for-profit you are not directly eligible, and there's no open call. Only reachable via a nonprofit/academic partner (e.g. a civic-tech org deploying Castalia/Vox for public benefit) and warm introduction. Treat as a long-horizon partnership play, not a direct application.",
-  "relevant2026": true,
-  "relevant2026Note": "Actively grantmaking in 2026 (database updated weekly), but access is invitation-based and nonprofit-scoped.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "cash",
-  "effort": "high",
-  "domain": "Civic / Social",
-  "name": "Patrick J. McGovern Foundation — Grants",
-  "id": 1058,
-  "_updated": "2026-09-12"
- },
- {
   "organization": "Google",
   "category": "Corporate",
   "amount": "No-cost Google Workspace for up to 2,000 users incl. the Gemini app, NotebookLM, and AI in Gmail/Docs/Sheets; ~75% off advanced AI plans",
@@ -3710,70 +3584,6 @@
   "deadlineType": "fixed"
  },
  {
-  "organization": "Gitcoin (with Octant yield-powered matching)",
-  "category": "Foundation",
-  "amount": "~$100k–$300k matching pool (round-level); per-project payout via quadratic funding",
-  "deadline": "GG25 round expected Q2/Q3 2026",
-  "deadlineDate": null,
-  "deadlineStatus": "upcoming",
-  "deadlineType": "recurring",
-  "eligibility": "Open-source / public-goods projects with a verifiable contribution; apply through Gitcoin Grants Stack and pass round eligibility review.",
-  "description": "The next Gitcoin Grants quadratic-funding round (GG25), targeted for 2026 with proposed Gitcoin x Octant yield-powered matching. Community donations are amplified by a matching pool that rewards projects with many small contributors.",
-  "url": "https://grants.gitcoin.co/",
-  "tags": [
-   "web3",
-   "quadratic-funding",
-   "public-goods",
-   "open-source",
-   "crypto"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Real crypto payouts, no equity, but requires a credible open-source / public-goods framing and an active donor community to win meaningful QF matching. Open-source a component of your stack (e.g., the local-AI tooling) and run a donor campaign when GG25 opens.",
-  "relevant2026": "upcoming",
-  "relevant2026Note": "GG25 targeted for 2026; monitor grants.gitcoin.co and Gitcoin governance for round dates and eligibility.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "cash",
-  "effort": "medium",
-  "domain": "Web3 / Public Goods",
-  "name": "Gitcoin Grants 25 (GG25) — Quadratic Funding Round",
-  "id": 373,
-  "_updated": "2026-06-02"
- },
- {
-  "organization": "Arbitrum Foundation",
-  "category": "Foundation",
-  "amount": "Up to $10,000 per project (from a $1M pool); Trailblazer 2.0 adds agentic-DeFi track",
-  "deadline": "Rolling — applications reviewed on an ongoing basis",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "Builders with an already-launched AI agent featuring an onchain integration with Arbitrum chains.",
-  "description": "A $1M initiative giving fast grants (up to $10K each) to builders of specialized AI agents and onchain AI products on Arbitrum. Trailblazer 2.0 specifically targets agentic-DeFi strategies built with the Vibekit agent framework.",
-  "url": "https://arbitrum.foundation/grants",
-  "tags": [
-   "web3",
-   "AI agents",
-   "onchain",
-   "grants",
-   "rolling"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Direct fit for an AI team, but requires shipping a live AI agent with an Arbitrum onchain integration first. Low-effort form once a qualifying agent exists — good for a focused web3 spin-off of our agent stack.",
-  "relevant2026": true,
-  "relevant2026Note": "Active in 2026 with rolling review; Trailblazer 2.0 launched recently.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "cash",
-  "effort": "low",
-  "domain": "AI",
-  "name": "Arbitrum Trailblazer AI Grant Program",
-  "id": 507,
-  "_updated": "2026-06-04"
- },
- {
   "organization": "Arbitrum Foundation",
   "category": "Foundation",
   "amount": "$20,000–$150,000, paid in ARB tokens (specialized tracks like Trailblazer AI grant up to ~$10,000)",
@@ -3804,102 +3614,6 @@
   "_updated": "2026-05-30",
   "deadlineStatus": "rolling",
   "deadlineType": "rolling"
- },
- {
-  "organization": "Alchemy (with Arbitrum Foundation)",
-  "category": "Corporate",
-  "amount": "$10M pool for Orbit chain development; up to $500K in infrastructure credits per team",
-  "deadline": "Rolling (Typeform application)",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "Teams building Arbitrum Orbit (L2/L3) chains or apps using Alchemy infra; for-profit eligible.",
-  "description": "Joint program offering grants plus up to $500K in Alchemy infrastructure credits per team to teams launching Orbit chains or scaling on Arbitrum. Mix of cash-equivalent support and substantial dev-infra credits.",
-  "url": "https://arbitrum.foundation/grants",
-  "tags": [
-   "web3",
-   "infrastructure",
-   "credits",
-   "arbitrum",
-   "orbit"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Best fit if Liminal stands up an app-specific Orbit chain or heavy onchain infra. Mostly credits, so lower priority than pure-cash items.",
-  "relevant2026": true,
-  "relevant2026Note": "Active rolling program on the Arbitrum grants page; exact deadline not stated.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "mixed",
-  "effort": "medium",
-  "domain": "Web3 / Public Goods",
-  "name": "Alchemy-Arbitrum Grant Program",
-  "id": 439,
-  "_updated": "2026-06-03"
- },
- {
-  "organization": "The Arbitrum Foundation",
-  "category": "Foundation",
-  "amount": "Up to $10M in ARB over 12 months (covers third-party audit costs)",
-  "deadline": "Rolling",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "Projects deploying smart contracts on Arbitrum that need a security audit; for-profit teams eligible, non-dilutive.",
-  "description": "The Arbitrum Foundation reimburses/subsidizes professional security audits for teams building on Arbitrum, with $10M in ARB allocated over 12 months. Reduces a major hard cost for any onchain launch.",
-  "url": "https://arbitrum.foundation/grants",
-  "tags": [
-   "web3",
-   "security",
-   "audit",
-   "arbitrum",
-   "non-dilutive"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Only relevant if Liminal deploys audited smart contracts on Arbitrum. Low-burden rolling application; pairs well with UAGP if going onchain.",
-  "relevant2026": true,
-  "relevant2026Note": "Listed as an active, rolling program on the Arbitrum Foundation grants page as of mid-2026.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "cash",
-  "effort": "low",
-  "domain": "Web3 / Public Goods",
-  "name": "Arbitrum Audit Program",
-  "id": 438,
-  "_updated": "2026-06-03"
- },
- {
-  "organization": "The Arbitrum Foundation",
-  "category": "Foundation",
-  "amount": "Gas-fee sponsorship (ARB) covering user transaction costs",
-  "deadline": "Rolling (Airtable form)",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "Apps on Arbitrum wanting to subsidize end-user gas; for-profit eligible.",
-  "description": "Arbitrum Foundation program that sponsors gas fees for qualifying apps, letting teams offer gasless/subsidized transactions to users. Low-friction rolling Airtable application.",
-  "url": "https://arbitrum.foundation/grants",
-  "tags": [
-   "web3",
-   "gas",
-   "credits",
-   "arbitrum",
-   "ux"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Only useful with a live Arbitrum app that wants to absorb user gas. This is the single 'credits-style' pick — keep below the cash items.",
-  "relevant2026": true,
-  "relevant2026Note": "Listed as active/rolling on the Arbitrum grants page in 2026.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "credits",
-  "effort": "low",
-  "domain": "Web3 / Public Goods",
-  "name": "ArbiFuel",
-  "id": 441,
-  "_updated": "2026-06-03"
  },
  {
   "organization": "The Pollination Project",
@@ -5703,38 +5417,6 @@
  {
   "organization": "Trust for Civic Life",
   "category": "Foundation",
-  "amount": "$250,000–$500,000 over 3 years (20–25 grants/year, $8M/year pool)",
-  "deadline": "Rolling open-referral form; invited applicants run a Feb–June cycle with grantees announced in July",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "Community-led groups serving as 'civic hubs' in rural America (Black Belt, Central Appalachia, Tribal Lands, Southwest Border, and other transitioning rural communities).",
-  "description": "Funds grassroots organizations strengthening civic life and reducing polarization in rural America. In 2026 the program shifted from a closed nomination window to an open referral process — anyone can submit a referral, and selected groups are invited to apply.",
-  "url": "https://trustforciviclife.org/grants/",
-  "tags": [
-   "civic",
-   "rural",
-   "democracy",
-   "community",
-   "social"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Large multi-year cash for rural community orgs, but entry is by referral and geography is restricted to priority rural regions. Submit a referral form now to be considered for the next cycle.",
-  "relevant2026": true,
-  "relevant2026Note": "Open referral process active in 2026; next invited-applicant cycle runs Feb–June with July announcements.",
-  "audience": [
-   "org"
-  ],
-  "fundingType": "cash",
-  "effort": "medium",
-  "domain": "Civic / Social",
-  "name": "Trust for Civic Life — Civic Hub Grants",
-  "id": 383,
-  "_updated": "2026-06-02"
- },
- {
-  "organization": "Trust for Civic Life",
-  "category": "Foundation",
   "amount": "$5,000 – $25,000 (cash, 1-year)",
   "deadline": "Open referral process (2026) — submit a referral any time",
   "deadlineDate": null,
@@ -6048,69 +5730,6 @@
   "name": "Retro9000 — C-Chain Round",
   "id": 178,
   "_updated": "2026-05-31"
- },
- {
-  "organization": "Avalanche Foundation",
-  "category": "Foundation",
-  "amount": "Grants vary (part of Avalanche's $250M+ funding programs)",
-  "deadline": "Rolling applications via Avalanche Builder Hub",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "Developers/teams (incl. for-profit) building AI-related infrastructure on Avalanche.",
-  "description": "A dedicated AI track of Avalanche's infraBUIDL program funding AI-powered infrastructure on Avalanche (e.g., AI treasury/agent systems). Applications are taken on a rolling basis through the Builder Hub.",
-  "url": "https://build.avax.network/grants",
-  "tags": [
-   "web3",
-   "AI",
-   "infrastructure",
-   "rolling",
-   "non-dilutive"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Non-dilutive and AI-focused, but requires building AI infra on Avalanche. Strong fit if a Vox/Castalia agent or coordination layer is deployed onchain; otherwise framing-dependent.",
-  "relevant2026": true,
-  "relevant2026Note": "infraBUIDL(AI) is active and awarding grants as of 2026.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "cash",
-  "effort": "medium",
-  "domain": "Web3 / Public Goods",
-  "name": "Avalanche infraBUIDL(AI) Program",
-  "id": 203,
-  "_updated": "2026-06-01"
- },
- {
-  "organization": "Avalanche Foundation (Blizzard)",
-  "category": "Foundation",
-  "amount": "$200M+ ecosystem fund (capital deployed into projects)",
-  "deadline": "Rolling",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "Promising projects building on Avalanche",
-  "description": "Large always-open fund supporting Avalanche-ecosystem projects with capital and institutional support. Listed via the Avalanche Builder Hub grants portal alongside Retro9000 and research calls.",
-  "url": "https://build.avax.network/grants",
-  "tags": [
-   "web3",
-   "avalanche",
-   "ecosystem-fund",
-   "rolling"
-  ],
-  "viability": "no",
-  "viabilityNote": "This is investment capital (equity/token), not non-dilutive — fails the no-equity priority. Included only as a rolling Avalanche option; for non-dilutive Avalanche cash, target Retro9000 (already in your DB) instead.",
-  "relevant2026": true,
-  "relevant2026Note": "Rolling, accepting applications in 2026.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "equity",
-  "effort": "medium",
-  "domain": "Web3 / Public Goods",
-  "name": "Avalanche Blizzard Fund",
-  "id": 489,
-  "_updated": "2026-06-04"
  },
  {
   "organization": "The Graph Foundation",
@@ -6530,37 +6149,6 @@
   "_updated": "2026-05-31"
  },
  {
-  "organization": "Bank of America Charitable Foundation",
-  "category": "Corporate",
-  "amount": "Varies (typically $25,000–$100,000+ grants)",
-  "deadline": "May 18 – June 29, 2026",
-  "deadlineDate": "2026-06-29",
-  "deadlineStatus": "open",
-  "deadlineType": "fixed",
-  "eligibility": "U.S. 501(c)(3) nonprofits advancing economic mobility through workforce development, education, and community development.",
-  "description": "Annual cash grant cycle supporting nonprofits that build economic opportunity in their communities. Distinct from Neighborhood Builders; this is the general charitable-foundation grant window.",
-  "url": "https://about.bankofamerica.com/en/making-an-impact/grant-funding-for-nonprofits-sponsorship-programs",
-  "tags": [
-   "economic-mobility",
-   "workforce",
-   "community-development",
-   "nonprofit"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Requires 501(c)(3) status; awards often favor organizations with existing local Bank of America relationships. Apply during the open window (closes June 29, 2026) via the local-market application.",
-  "relevant2026": true,
-  "relevant2026Note": "2026 application window open May 18 – June 29, 2026.",
-  "audience": [
-   "org"
-  ],
-  "fundingType": "cash",
-  "effort": "medium",
-  "domain": "Civic / Social",
-  "name": "Bank of America Charitable Foundation — Economic Mobility Grants",
-  "id": 431,
-  "_updated": "2026-06-03"
- },
- {
   "organization": "NLnet Foundation",
   "category": "Foundation",
   "amount": "€5,000–€50,000 (typical per-project)",
@@ -6626,37 +6214,6 @@
  {
   "organization": "Community Foundation for Greater Atlanta",
   "category": "Foundation",
-  "amount": "Typically $5,000 – $50,000",
-  "deadline": "Submit by July 1, 2026 (recommended); accepted through Sept 30, 2026",
-  "deadlineDate": "2026-07-01",
-  "deadlineStatus": "open",
-  "deadlineType": "fixed",
-  "eligibility": "501(c)(3) nonprofits serving the 23-county greater Atlanta region",
-  "description": "Regional community foundation accepting nonprofit grant applications for community-centered work, with staff recommending submission by July 1 but accepting through September 30, 2026.",
-  "url": "https://cfgreateratlanta.org/grant-opportunities/",
-  "tags": [
-   "community foundation",
-   "regional",
-   "operating",
-   "civic"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Strong fit for small nonprofits but geographically restricted to greater Atlanta; requires 501(c)(3) or fiscal sponsor.",
-  "relevant2026": true,
-  "relevant2026Note": "Open now with a confirmed Sept 30, 2026 final deadline.",
-  "audience": [
-   "org"
-  ],
-  "fundingType": "cash",
-  "effort": "medium",
-  "domain": "Civic / Social",
-  "name": "Community Foundation for Greater Atlanta — Grant Opportunities",
-  "id": 762,
-  "_updated": "2026-06-10"
- },
- {
-  "organization": "Community Foundation for Greater Atlanta",
-  "category": "Foundation",
   "amount": "Multi-year general operating support (varies)",
   "deadline": "Recurring cycles (check current open window)",
   "deadlineDate": null,
@@ -6718,36 +6275,35 @@
   "_updated": "2026-05-31"
  },
  {
-  "organization": "The Helen J. Serini Foundation",
+  "organization": "Helen J. Serini Foundation",
   "category": "Foundation",
   "amount": "$1,000–$5,000",
-  "deadline": "Rolling — accepted year-round",
+  "deadline": "Rolling",
   "deadlineDate": null,
   "deadlineStatus": "rolling",
   "deadlineType": "rolling",
-  "eligibility": "Small nonprofits / 501(c)(3) (or fiscally sponsored) organizations; supports professional development, fiscal-sponsor challenges, and DEI work.",
-  "description": "A low-burden rolling micro-grant program funding requests of $1,000–$5,000 for capacity needs like professional development, navigating fiscal-sponsor transitions, and diversity/equity/inclusion work. Designed for small organizations with simple applications.",
+  "eligibility": "501(c)(3) nonprofits (foundation focuses on health, education, and basic-needs/community work).",
+  "description": "A genuinely low-effort rolling micro-grant program of $1,000–$5,000 for small nonprofits, alongside the foundation's larger general-operating grants. Good fit for a quick, simple ask to seed a discrete project.",
   "url": "http://www.hjsfoundation.org/grant-applications",
   "tags": [
    "micro-grant",
-   "capacity-building",
-   "DEI",
-   "rolling",
-   "small-org"
+   "nonprofit",
+   "small grants",
+   "rolling"
   ],
-  "viability": "yes",
-  "viabilityNote": "Open to small nonprofits with a simple rolling application — strong low-effort fit. Confirm current geographic focus and tax-status requirement on the application page.",
+  "viability": "partial",
+  "viabilityNote": "Requires 501(c)(3) and the foundation has a regional/focus-area lean. Action: confirm geographic and mission fit on the application page; strong low-effort option if eligible.",
   "relevant2026": true,
-  "relevant2026Note": "Rolling intake, no fixed deadline; active in 2026.",
+  "relevant2026Note": "Confirmed rolling intake for small grants.",
   "audience": [
    "org"
   ],
   "fundingType": "cash",
   "effort": "low",
   "domain": "Civic / Social",
-  "name": "Helen J. Serini Foundation — Small Grants Program",
-  "id": 385,
-  "_updated": "2026-06-02"
+  "name": "Small Grants Program",
+  "id": 196,
+  "_updated": "2026-05-31"
  },
  {
   "organization": "Portland Clean Energy Community Benefits Fund (PCEF)",
@@ -6939,6 +6495,38 @@
   "_updated": "2026-06-01"
  },
  {
+  "organization": "Avalanche Foundation",
+  "category": "Foundation",
+  "amount": "Grants vary (part of Avalanche's $250M+ funding programs)",
+  "deadline": "Rolling applications via Avalanche Builder Hub",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Developers/teams (incl. for-profit) building AI-related infrastructure on Avalanche.",
+  "description": "A dedicated AI track of Avalanche's infraBUIDL program funding AI-powered infrastructure on Avalanche (e.g., AI treasury/agent systems). Applications are taken on a rolling basis through the Builder Hub.",
+  "url": "https://build.avax.network/grants",
+  "tags": [
+   "web3",
+   "AI",
+   "infrastructure",
+   "rolling",
+   "non-dilutive"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Non-dilutive and AI-focused, but requires building AI infra on Avalanche. Strong fit if a Vox/Castalia agent or coordination layer is deployed onchain; otherwise framing-dependent.",
+  "relevant2026": true,
+  "relevant2026Note": "infraBUIDL(AI) is active and awarding grants as of 2026.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Web3 / Public Goods",
+  "name": "Avalanche infraBUIDL(AI) Program",
+  "id": 203,
+  "_updated": "2026-06-01"
+ },
+ {
   "organization": "Lightcone Infrastructure (funder: Jaan Tallinn)",
   "category": "Foundation",
   "amount": "Any size, $5K–$5M",
@@ -6998,6 +6586,37 @@
   "domain": "Creative",
   "name": "LACMA Art + Technology Lab Grant",
   "id": 205,
+  "_updated": "2026-06-01"
+ },
+ {
+  "organization": "Patrick J. McGovern Foundation",
+  "category": "Foundation",
+  "amount": "$100,000 – $750,000",
+  "deadline": "Rolling (grants database updated weekly)",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Primarily nonprofits, public institutions, and social-impact organizations advancing responsible AI use.",
+  "description": "Part of the Foundation's $75.8M 2026 commitment to responsible AI in public institutions, funding AI fluency and capacity-building work in the $100K–$750K range on a rolling basis.",
+  "url": "https://www.mcgovern.org/grants/",
+  "tags": [
+   "AI",
+   "civic",
+   "responsible-AI",
+   "non-dilutive"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Large non-dilutive cash, but skews toward nonprofits/public institutions. Viable only with a nonprofit or government partner where your AI collaboration platform powers their capacity-building — pursue as a fiscal-sponsor or partner-led grant.",
+  "relevant2026": true,
+  "relevant2026Note": "Backed by a fresh $75.8M 2026 commitment; database updated weekly and accepting submissions.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "high",
+  "domain": "Civic / Social",
+  "name": "AI Fluency and Capacity Building Grants",
+  "id": 206,
   "_updated": "2026-06-01"
  },
  {
@@ -8051,66 +7670,34 @@
  {
   "organization": "Vermont Community Foundation",
   "category": "Foundation",
-  "amount": "Up to $5,000",
-  "deadline": "Rolling, Feb 23 – Nov 1, 2026",
+  "amount": "Capacity-building grants (typically up to ~$20,000)",
+  "deadline": "November 1, 2026",
   "deadlineDate": "2026-11-01",
   "deadlineStatus": "open",
   "deadlineType": "fixed",
-  "eligibility": "Nonprofits located in or serving Vermont, operating budget under $1M (priority under $250K); cannot have received this grant in the prior 3 years.",
-  "description": "Funds consultant fees for organizational capacity-building work (fundraising, strategic planning, board development, tech). Applications accepted on a rolling basis Feb 23–Nov 1, 2026, reviewed continuously until funds run out.",
-  "url": "https://vermontcf.org/funds/nonprofit-capacity-building/",
-  "tags": [
-   "capacity-building",
-   "small-nonprofit",
-   "rolling",
-   "consultant",
-   "vermont"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Excellent low-effort fit for a small org — but only for Vermont-based or Vermont-serving nonprofits. If you have a VT presence or fiscal sponsor, apply now (window is open until Nov 1).",
-  "relevant2026": true,
-  "relevant2026Note": "Window confirmed open for 2026 (Feb 23–Nov 1); rolling review while funds last.",
-  "audience": [
-   "org"
-  ],
-  "fundingType": "cash",
-  "effort": "low",
-  "domain": "Civic / Social",
-  "name": "Vermont Community Foundation — Nonprofit Capacity Building Grant",
-  "id": 499,
-  "_updated": "2026-06-04"
- },
- {
-  "organization": "Vermont Community Foundation",
-  "category": "Foundation",
-  "amount": "Up to $5,000 (consultant fees)",
-  "deadline": "Rolling, Feb 23 – Nov 1, 2026",
-  "deadlineDate": "2026-11-01",
-  "deadlineStatus": "open",
-  "deadlineType": "fixed",
-  "eligibility": "Vermont-serving nonprofits with annual operating budgets under $1M (priority under $250K); can't have received same funding within 3 years.",
-  "description": "Rolling capacity-building grants of up to $5,000 for consultant fees (strategic planning, fundraising, technology, board development). Decisions typically within two months of applying.",
+  "eligibility": "Vermont-based nonprofits with annual operating budgets under $1 million.",
+  "description": "Supports organizational development — strategic planning, leadership, technology, board strengthening — for small Vermont nonprofits. Window runs Feb 23–Nov 1, 2026, so it is open now.",
   "url": "https://vermontcf.org/funds/nonprofit-capacity-building/",
   "tags": [
    "capacity building",
-   "nonprofit",
-   "operating",
-   "rolling",
-   "Vermont"
+   "Vermont",
+   "small org",
+   "technology",
+   "operating"
   ],
   "viability": "partial",
-  "viabilityNote": "Strong fit for small orgs but Vermont-serving only and needs 501(c)(3). If you operate/serve in VT, apply now — rolling and low-effort.",
+  "viabilityNote": "Vermont-only and requires 501(c)(3); if you operate or have a fiscal sponsor in VT, it's open now with a manageable application — apply before Nov 1.",
   "relevant2026": true,
-  "relevant2026Note": "Open now on a rolling basis through Nov 1, 2026.",
+  "relevant2026Note": "Application window confirmed Feb 23–Nov 1, 2026 — currently open.",
   "audience": [
    "org"
   ],
   "fundingType": "cash",
   "effort": "low",
   "domain": "Civic / Social",
-  "name": "Nonprofit Capacity Building Grant Program",
-  "id": 406,
-  "_updated": "2026-06-03"
+  "name": "Nonprofit Capacity Building Grants",
+  "id": 240,
+  "_updated": "2026-06-01"
  },
  {
   "organization": "Oregon Community Foundation",
@@ -8143,37 +7730,6 @@
   "name": "Community Grant Program — Fall 2026 Cycle",
   "id": 241,
   "_updated": "2026-06-01"
- },
- {
-  "organization": "Oregon Community Foundation",
-  "category": "Foundation",
-  "amount": "Grants for new/expanding programs, capacity building, and small capital (projects under $500k); award size varies",
-  "deadline": "June 23, 2026, 5 p.m. (window opens May 26, 2026)",
-  "deadlineDate": "2026-06-23",
-  "deadlineStatus": "open",
-  "deadlineType": "fixed",
-  "eligibility": "501(c)(3) nonprofits serving Oregon communities; two-cycle sit-out for orgs funded in 2025 Fall or 2026 Spring cycles. First-time applicants must create a MyOCF account by June 18, 2026.",
-  "description": "Statewide community grants supporting new or expanding programs, capacity building, and small capital for Oregon nonprofits. Award notifications expected late October 2026.",
-  "url": "https://oregoncf.org/grants-and-scholarships/grants/community-grant-program",
-  "tags": [
-   "community foundation",
-   "capacity building",
-   "operating support",
-   "Oregon"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Open and confirmed for Fall 2026; needs 501(c)(3) and Oregon service area. Low-medium effort — apply via MyOCF portal before June 23. Skip if not Oregon-based.",
-  "relevant2026": true,
-  "relevant2026Note": "Application window open May 26 – June 23, 2026; verified on program page.",
-  "audience": [
-   "org"
-  ],
-  "fundingType": "cash",
-  "effort": "low",
-  "domain": "Civic / Social",
-  "name": "Community Grants Program — Fall 2026 (Oregon Community Foundation)",
-  "id": 546,
-  "_updated": "2026-06-05"
  },
  {
   "organization": "The AI Education Project (aiEDU)",
@@ -9323,6 +8879,37 @@
   "_updated": "2026-06-01"
  },
  {
+  "organization": "Patrick J. McGovern Foundation",
+  "category": "Foundation",
+  "amount": "$200,000 prize",
+  "deadline": "Annual prize — 2026 deadline (May 21) has passed; next cycle expected 2027",
+  "deadlineDate": null,
+  "deadlineStatus": "upcoming",
+  "deadlineType": "recurring",
+  "eligibility": "Organizations deploying breakthrough AI solutions for social good. Leans toward nonprofits/public institutions but recognizes high-impact AI work broadly.",
+  "description": "A $200K prize recognizing and funding breakthrough AI solutions that benefit humanity, awarded annually by the McGovern Foundation. Part of the foundation's $75.8M AI-for-public-purpose commitment.",
+  "url": "https://www.mcgovern.org/grants/",
+  "tags": [
+   "AI",
+   "prize",
+   "social-impact",
+   "foundation"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Strong social-good/AI-for-humanity framing required and the foundation leans nonprofit/public-institution; a for-profit would need a clear public-benefit narrative or nonprofit partner. Recurring annually — prepare for the 2027 cycle.",
+  "relevant2026": "upcoming",
+  "relevant2026Note": "2026 cycle closed May 21; next cycle expected 2027.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "high",
+  "domain": "AI",
+  "name": "AI for Humanity Prize",
+  "id": 278,
+  "_updated": "2026-06-01"
+ },
+ {
   "organization": "Ignite64 (i64)",
   "category": "Accelerator",
   "amount": "$2,200 prize pool — 12 winners across 4 tracks ($275/$175/$100 per track)",
@@ -9670,37 +9257,6 @@
   "_updated": "2026-06-01"
  },
  {
-  "organization": "Ben & Jerry's Foundation",
-  "category": "Foundation",
-  "amount": "Up to $30,000 (general operating)",
-  "deadline": "Rolling Letter of Interest (by-invitation full proposal)",
-  "deadlineDate": null,
-  "deadlineStatus": "rolling",
-  "deadlineType": "rolling",
-  "eligibility": "U.S. grassroots, constituent-led nonprofits (or fiscally sponsored) organizing for social/environmental justice; budgets typically under ~$500k",
-  "description": "General-operating grants of up to $30,000 for small grassroots organizations using community organizing to advance social and environmental justice. Begins with a Letter of Interest; full applications are by invitation.",
-  "url": "https://benandjerrysfoundation.org/national-grants/",
-  "tags": [
-   "grassroots",
-   "general-operating",
-   "social-justice",
-   "organizing"
-  ],
-  "viability": "partial",
-  "viabilityNote": "National (no geo limit) unrestricted cash for small orgs, but mission must be community-organizing/justice and full proposal is invitation-only. Start with the low-effort LOI.",
-  "relevant2026": true,
-  "relevant2026Note": "Rolling LOI process active in 2026; confirm current LOI window on the foundation page.",
-  "audience": [
-   "org"
-  ],
-  "fundingType": "cash",
-  "effort": "medium",
-  "domain": "Civic / Social",
-  "name": "National Grassroots Grants (National Grant Program)",
-  "id": 482,
-  "_updated": "2026-06-04"
- },
- {
   "organization": "Research!America",
   "category": "Foundation",
   "amount": "Up to $4,000 per project",
@@ -9799,37 +9355,6 @@
  {
   "organization": "The Community Foundation for Greater New Haven",
   "category": "Foundation",
-  "amount": "Up to $5,000 (budgets ≤$50k) or up to $10,000 (budgets >$50k), plus capacity-building support; typical award $3,000–$7,500",
-  "deadline": "Round 2 opens Aug 3, 2026 (first-come until funds exhausted); Round 1 runs Jan 5–Feb 25 annually",
-  "deadlineDate": "2026-08-03",
-  "deadlineStatus": "open",
-  "deadlineType": "fixed",
-  "eligibility": "501(c)(3) orgs in the 15-town Greater New Haven, CT region with operating budgets $10k–$1.5M, 12+ months of active programming; once every two years",
-  "description": "Unrestricted small grants and general operating support for small community nonprofits. Round 1 has closed; Round 2 opens August 3, 2026 on a rolling first-come basis until funding runs out.",
-  "url": "https://www.cfgnh.org/strengthening-nonprofits/grants-to-apply-for/year-round-small-grants",
-  "tags": [
-   "operating-support",
-   "community",
-   "unrestricted",
-   "regional"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Needs 501(c)(3) and Greater New Haven presence. If eligible, very low effort — prepare now and submit when Round 2 opens Aug 3.",
-  "relevant2026": true,
-  "relevant2026Note": "Confirmed Round 2 opens Aug 3, 2026; rolling until funds depleted.",
-  "audience": [
-   "org"
-  ],
-  "fundingType": "cash",
-  "effort": "low",
-  "domain": "Civic / Social",
-  "name": "Small Grants Program (Greater New Haven)",
-  "id": 358,
-  "_updated": "2026-06-02"
- },
- {
-  "organization": "The Community Foundation for Greater New Haven",
-  "category": "Foundation",
   "amount": "Up to $5,000 (budgets ≤$50k) or up to $10,000 (budgets >$50k); avg $3,000–$7,500",
   "deadline": "Two rounds per year; Second Round opens August 3, 2026 (first-come, first-served until funds exhausted)",
   "deadlineDate": "2026-08-03",
@@ -9890,69 +9415,6 @@
   "name": "Community Grant Program — Building Stability and Belonging",
   "id": 294,
   "_updated": "2026-06-01"
- },
- {
-  "organization": "Innovia Foundation",
-  "category": "Foundation",
-  "amount": "Up to $2,500 (microgrant)",
-  "deadline": "Rolling until funds exhausted (events Jun 1 – Sep 30, 2026)",
-  "deadlineDate": "2026-09-30",
-  "deadlineStatus": "open",
-  "deadlineType": "fixed",
-  "eligibility": "Organizations in Innovia's 20-county service area (eastern Washington / northern Idaho) hosting community-connection events.",
-  "description": "Rolling microgrants up to $2,500 for community-building gatherings held between June 1 and September 30, 2026. Reviewed on a rolling basis until funds run out.",
-  "url": "https://innovia.org/nonprofits/apply-for-a-grant/",
-  "tags": [
-   "microgrant",
-   "community",
-   "rolling",
-   "events",
-   "Inland Northwest"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Tiny, very low-effort rolling microgrant but limited to Innovia's eastern WA / northern ID service area. Apply early — funds are first-come.",
-  "relevant2026": true,
-  "relevant2026Note": "Open now on a rolling basis for events through Sep 30, 2026.",
-  "audience": [
-   "org"
-  ],
-  "fundingType": "cash",
-  "effort": "low",
-  "domain": "Civic / Social",
-  "name": "Longest Table Grants",
-  "id": 412,
-  "_updated": "2026-06-03"
- },
- {
-  "organization": "Innovia Foundation",
-  "category": "Foundation",
-  "amount": "$5,000 – $30,000 (one-year)",
-  "deadline": "Next cycle expected early 2026 (last window Feb 16 – Apr 10, 2026)",
-  "deadlineDate": null,
-  "deadlineStatus": "upcoming",
-  "deadlineType": "recurring",
-  "eligibility": "Nonprofits serving the 20 counties of Eastern Washington and North Idaho.",
-  "description": "Annual community grants of $5,000–$30,000 for nonprofit programs, projects, and capacity building across Eastern WA / North Idaho. The 2026 window (Feb–Apr) has closed; the cycle recurs annually.",
-  "url": "https://innovia.org/nonprofits/apply-for-a-grant/",
-  "tags": [
-   "community grant",
-   "capacity building",
-   "nonprofit",
-   "regional"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Small nonprofits eligible but region-locked to Eastern WA / N. Idaho; the 2026 round closed Apr 10, so watch for the early-2027 reopening.",
-  "relevant2026": "upcoming",
-  "relevant2026Note": "2026 cycle closed; recurs annually — monitor for next opening.",
-  "audience": [
-   "org"
-  ],
-  "fundingType": "cash",
-  "effort": "medium",
-  "domain": "Civic / Social",
-  "name": "Innovia Foundation — Community Grant Program",
-  "id": 455,
-  "_updated": "2026-06-03"
  },
  {
   "organization": "The Hashgraph Association (Hedera)",
@@ -10181,33 +9643,34 @@
  {
   "organization": "Artist Grant (artistgrant.org)",
   "category": "Foundation",
-  "amount": "$1,200 unrestricted",
-  "deadline": "July 15, 2026 (awarded three times per year)",
+  "amount": "$1,200 unrestricted (one visual artist per cycle)",
+  "deadline": "Recurring — Mar 15 / Jul 15 / Nov 15; next is July 15, 2026",
   "deadlineDate": "2026-07-15",
   "deadlineStatus": "open",
   "deadlineType": "fixed",
-  "eligibility": "Individual visual artists aged 18+ worldwide (excludes film/video, music, theater, dance); $30 application fee",
-  "description": "Small unrestricted cash grant to one visual artist per cycle, judged on artistic merit with no project requirement. Recurs three times a year; next deadline July 15, 2026.",
-  "url": "https://artistgrant.org/apply/",
+  "eligibility": "Visual artists 18+ worldwide; original work with a clear voice. Excludes film/video, music, theater, dance. $30 fee. No proposal required.",
+  "description": "Minimal, artist-friendly unrestricted micro-grant awarded three times a year with no written proposal — among the lowest-effort cash applications available.",
+  "url": "https://artistgrant.org/apply",
   "tags": [
-   "artist",
-   "visual-art",
+   "creative",
    "unrestricted",
-   "individual"
+   "micro-grant",
+   "low-effort",
+   "recurring"
   ],
-  "viability": "no",
-  "viabilityNote": "Individuals only (not orgs) and carries a $30 fee. Useful for an affiliated individual artist; very low effort and a firm recurring deadline.",
+  "viability": "partial",
+  "viabilityNote": "Small ($1,200) and only for individual visual artists, so relevant only if a team member produces eligible visual/new-media work. Action: low-effort submit before July 15, 2026 if applicable.",
   "relevant2026": true,
-  "relevant2026Note": "Confirmed next deadline July 15, 2026; recurs three times annually.",
+  "relevant2026Note": "Next deadline July 15, 2026; recurs Nov 15 and onward.",
   "audience": [
-   "org"
+   "team"
   ],
   "fundingType": "cash",
   "effort": "low",
   "domain": "Creative",
-  "name": "Artist Grant",
-  "id": 363,
-  "_updated": "2026-06-02"
+  "name": "The Artist Grant",
+  "id": 302,
+  "_updated": "2026-06-01"
  },
  {
   "organization": "Pulitzer Center on Crisis Reporting",
@@ -11971,6 +11434,37 @@
   "_updated": "2026-06-02"
  },
  {
+  "organization": "The Community Foundation for Greater New Haven",
+  "category": "Foundation",
+  "amount": "Up to $5,000 (budgets ≤$50k) or up to $10,000 (budgets >$50k), plus capacity-building support; typical award $3,000–$7,500",
+  "deadline": "Round 2 opens Aug 3, 2026 (first-come until funds exhausted); Round 1 runs Jan 5–Feb 25 annually",
+  "deadlineDate": "2026-08-03",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "501(c)(3) orgs in the 15-town Greater New Haven, CT region with operating budgets $10k–$1.5M, 12+ months of active programming; once every two years",
+  "description": "Unrestricted small grants and general operating support for small community nonprofits. Round 1 has closed; Round 2 opens August 3, 2026 on a rolling first-come basis until funding runs out.",
+  "url": "https://www.cfgnh.org/strengthening-nonprofits/grants-to-apply-for/year-round-small-grants",
+  "tags": [
+   "operating-support",
+   "community",
+   "unrestricted",
+   "regional"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Needs 501(c)(3) and Greater New Haven presence. If eligible, very low effort — prepare now and submit when Round 2 opens Aug 3.",
+  "relevant2026": true,
+  "relevant2026Note": "Confirmed Round 2 opens Aug 3, 2026; rolling until funds depleted.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Civic / Social",
+  "name": "Small Grants Program (Greater New Haven)",
+  "id": 358,
+  "_updated": "2026-06-02"
+ },
+ {
   "organization": "U.S. EPA (via 11 regional Grantmakers)",
   "category": "Government",
   "amount": "Tier 1 assessment $150k; Tier 2 planning $250k; Tier 3 project development $350k; plus $75k noncompetitive for capacity-constrained CBOs",
@@ -12094,6 +11588,37 @@
   "domain": "Creative",
   "name": "Community Accelerator Grant",
   "id": 362,
+  "_updated": "2026-06-02"
+ },
+ {
+  "organization": "Artist Grant (artistgrant.org)",
+  "category": "Foundation",
+  "amount": "$1,200 unrestricted",
+  "deadline": "July 15, 2026 (awarded three times per year)",
+  "deadlineDate": "2026-07-15",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "Individual visual artists aged 18+ worldwide (excludes film/video, music, theater, dance); $30 application fee",
+  "description": "Small unrestricted cash grant to one visual artist per cycle, judged on artistic merit with no project requirement. Recurs three times a year; next deadline July 15, 2026.",
+  "url": "https://artistgrant.org/apply/",
+  "tags": [
+   "artist",
+   "visual-art",
+   "unrestricted",
+   "individual"
+  ],
+  "viability": "no",
+  "viabilityNote": "Individuals only (not orgs) and carries a $30 fee. Useful for an affiliated individual artist; very low effort and a firm recurring deadline.",
+  "relevant2026": true,
+  "relevant2026Note": "Confirmed next deadline July 15, 2026; recurs three times annually.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Creative",
+  "name": "Artist Grant",
+  "id": 363,
   "_updated": "2026-06-02"
  },
  {
@@ -12385,6 +11910,38 @@
   "_updated": "2026-06-02"
  },
  {
+  "organization": "Gitcoin (with Octant yield-powered matching)",
+  "category": "Foundation",
+  "amount": "~$100k–$300k matching pool (round-level); per-project payout via quadratic funding",
+  "deadline": "GG25 round expected Q2/Q3 2026",
+  "deadlineDate": null,
+  "deadlineStatus": "upcoming",
+  "deadlineType": "recurring",
+  "eligibility": "Open-source / public-goods projects with a verifiable contribution; apply through Gitcoin Grants Stack and pass round eligibility review.",
+  "description": "The next Gitcoin Grants quadratic-funding round (GG25), targeted for 2026 with proposed Gitcoin x Octant yield-powered matching. Community donations are amplified by a matching pool that rewards projects with many small contributors.",
+  "url": "https://grants.gitcoin.co/",
+  "tags": [
+   "web3",
+   "quadratic-funding",
+   "public-goods",
+   "open-source",
+   "crypto"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Real crypto payouts, no equity, but requires a credible open-source / public-goods framing and an active donor community to win meaningful QF matching. Open-source a component of your stack (e.g., the local-AI tooling) and run a donor campaign when GG25 opens.",
+  "relevant2026": "upcoming",
+  "relevant2026Note": "GG25 targeted for 2026; monitor grants.gitcoin.co and Gitcoin governance for round dates and eligibility.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Web3 / Public Goods",
+  "name": "Gitcoin Grants 25 (GG25) — Quadratic Funding Round",
+  "id": 373,
+  "_updated": "2026-06-02"
+ },
+ {
   "organization": "Skip (HelloSkip)",
   "category": "Corporate",
   "amount": "$10,000 (one cash award)",
@@ -12670,6 +12227,38 @@
   "_updated": "2026-06-02"
  },
  {
+  "organization": "Trust for Civic Life",
+  "category": "Foundation",
+  "amount": "$250,000–$500,000 over 3 years (20–25 grants/year, $8M/year pool)",
+  "deadline": "Rolling open-referral form; invited applicants run a Feb–June cycle with grantees announced in July",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Community-led groups serving as 'civic hubs' in rural America (Black Belt, Central Appalachia, Tribal Lands, Southwest Border, and other transitioning rural communities).",
+  "description": "Funds grassroots organizations strengthening civic life and reducing polarization in rural America. In 2026 the program shifted from a closed nomination window to an open referral process — anyone can submit a referral, and selected groups are invited to apply.",
+  "url": "https://trustforciviclife.org/grants/",
+  "tags": [
+   "civic",
+   "rural",
+   "democracy",
+   "community",
+   "social"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Large multi-year cash for rural community orgs, but entry is by referral and geography is restricted to priority rural regions. Submit a referral form now to be considered for the next cycle.",
+  "relevant2026": true,
+  "relevant2026Note": "Open referral process active in 2026; next invited-applicant cycle runs Feb–June with July announcements.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Civic / Social",
+  "name": "Trust for Civic Life — Civic Hub Grants",
+  "id": 383,
+  "_updated": "2026-06-02"
+ },
+ {
   "organization": "Richard King Mellon Foundation",
   "category": "Foundation",
   "amount": "$10,000 to $16M+ (most grants $50k–$500k)",
@@ -12699,6 +12288,38 @@
   "domain": "Civic / Social",
   "name": "Richard King Mellon Foundation — General Application",
   "id": 384,
+  "_updated": "2026-06-02"
+ },
+ {
+  "organization": "The Helen J. Serini Foundation",
+  "category": "Foundation",
+  "amount": "$1,000–$5,000",
+  "deadline": "Rolling — accepted year-round",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Small nonprofits / 501(c)(3) (or fiscally sponsored) organizations; supports professional development, fiscal-sponsor challenges, and DEI work.",
+  "description": "A low-burden rolling micro-grant program funding requests of $1,000–$5,000 for capacity needs like professional development, navigating fiscal-sponsor transitions, and diversity/equity/inclusion work. Designed for small organizations with simple applications.",
+  "url": "http://www.hjsfoundation.org/grant-applications",
+  "tags": [
+   "micro-grant",
+   "capacity-building",
+   "DEI",
+   "rolling",
+   "small-org"
+  ],
+  "viability": "yes",
+  "viabilityNote": "Open to small nonprofits with a simple rolling application — strong low-effort fit. Confirm current geographic focus and tax-status requirement on the application page.",
+  "relevant2026": true,
+  "relevant2026Note": "Rolling intake, no fixed deadline; active in 2026.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Civic / Social",
+  "name": "Helen J. Serini Foundation — Small Grants Program",
+  "id": 385,
   "_updated": "2026-06-02"
  },
  {
@@ -13340,6 +12961,38 @@
   "_updated": "2026-06-03"
  },
  {
+  "organization": "Vermont Community Foundation",
+  "category": "Foundation",
+  "amount": "Up to $5,000 (consultant fees)",
+  "deadline": "Rolling, Feb 23 – Nov 1, 2026",
+  "deadlineDate": "2026-11-01",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "Vermont-serving nonprofits with annual operating budgets under $1M (priority under $250K); can't have received same funding within 3 years.",
+  "description": "Rolling capacity-building grants of up to $5,000 for consultant fees (strategic planning, fundraising, technology, board development). Decisions typically within two months of applying.",
+  "url": "https://vermontcf.org/funds/nonprofit-capacity-building/",
+  "tags": [
+   "capacity building",
+   "nonprofit",
+   "operating",
+   "rolling",
+   "Vermont"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Strong fit for small orgs but Vermont-serving only and needs 501(c)(3). If you operate/serve in VT, apply now — rolling and low-effort.",
+  "relevant2026": true,
+  "relevant2026Note": "Open now on a rolling basis through Nov 1, 2026.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Civic / Social",
+  "name": "Nonprofit Capacity Building Grant Program",
+  "id": 406,
+  "_updated": "2026-06-03"
+ },
+ {
   "organization": "Rhode Island Foundation",
   "category": "Foundation",
   "amount": "General operating grants (small/midsize nonprofits)",
@@ -13373,32 +13026,32 @@
  {
   "organization": "DuPage Foundation",
   "category": "Foundation",
-  "amount": "Up to $20,000 (≈$100,000 total pool)",
-  "deadline": "August 7, 2026 (5:00 p.m.); applications open May 18, 2026",
+  "amount": "Up to $20,000",
+  "deadline": "May 18 – Aug 7, 2026 (5:00 p.m.)",
   "deadlineDate": "2026-08-07",
   "deadlineStatus": "open",
   "deadlineType": "fixed",
-  "eligibility": "501(c)(3) public charities primarily serving DuPage County, IL, that have received a Community Impact or Arts DuPage grant within the last three years.",
-  "description": "Grants of up to $20,000 to strengthen organizational capacity — leadership, skills, systems — for local not-for-profits. Application window is open now through August 7, 2026.",
+  "eligibility": "501(c)(3) public charities primarily serving DuPage County, Illinois residents.",
+  "description": "Up to $20,000 to strengthen organizational capacity — planning, technology, fundraising, governance. Application window May 18 to August 7, 2026.",
   "url": "https://www.dupagefoundation.org/capacity-building-grant/",
   "tags": [
    "capacity building",
-   "operating support",
    "nonprofit",
-   "local"
+   "Illinois",
+   "DuPage"
   ],
   "viability": "partial",
-  "viabilityNote": "Open to small 501(c)(3)s but geographically restricted to DuPage County, IL and requires being a recent prior grantee. If you operate there, a manageable application.",
+  "viabilityNote": "Open now; needs 501(c)(3) serving DuPage County, IL. Apply before the Aug 7 deadline if you qualify geographically.",
   "relevant2026": true,
-  "relevant2026Note": "Window confirmed open May 18–Aug 7, 2026.",
+  "relevant2026Note": "Application window open through August 7, 2026.",
   "audience": [
    "org"
   ],
   "fundingType": "cash",
   "effort": "medium",
   "domain": "Civic / Social",
-  "name": "DuPage Foundation — Capacity Building Grant",
-  "id": 453,
+  "name": "Capacity Building Grant",
+  "id": 408,
   "_updated": "2026-06-03"
  },
  {
@@ -13496,6 +13149,38 @@
   "_updated": "2026-06-03"
  },
  {
+  "organization": "Innovia Foundation",
+  "category": "Foundation",
+  "amount": "Up to $2,500 (microgrant)",
+  "deadline": "Rolling until funds exhausted (events Jun 1 – Sep 30, 2026)",
+  "deadlineDate": "2026-09-30",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "Organizations in Innovia's 20-county service area (eastern Washington / northern Idaho) hosting community-connection events.",
+  "description": "Rolling microgrants up to $2,500 for community-building gatherings held between June 1 and September 30, 2026. Reviewed on a rolling basis until funds run out.",
+  "url": "https://innovia.org/nonprofits/apply-for-a-grant/",
+  "tags": [
+   "microgrant",
+   "community",
+   "rolling",
+   "events",
+   "Inland Northwest"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Tiny, very low-effort rolling microgrant but limited to Innovia's eastern WA / northern ID service area. Apply early — funds are first-come.",
+  "relevant2026": true,
+  "relevant2026Note": "Open now on a rolling basis for events through Sep 30, 2026.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Civic / Social",
+  "name": "Longest Table Grants",
+  "id": 412,
+  "_updated": "2026-06-03"
+ },
+ {
   "organization": "Secretsos Foundation",
   "category": "Foundation",
   "amount": "$2,500 per quarter",
@@ -13588,6 +13273,38 @@
   "domain": "AI",
   "name": "Paradigm Fellowship 2026",
   "id": 415,
+  "_updated": "2026-06-03"
+ },
+ {
+  "organization": "Berkman Klein Center for Internet & Society, Harvard University",
+  "category": "Foundation",
+  "amount": "Funded fellows up to $6,250/month stipend",
+  "deadline": "Open call for 2026 / 2026–2027 cohorts (verify current window on page)",
+  "deadlineDate": null,
+  "deadlineStatus": "upcoming",
+  "deadlineType": "recurring",
+  "eligibility": "Explicitly welcomes practitioners who built careers OUTSIDE academia — industry, government, civil society. No academic affiliation required.",
+  "description": "Residential/affiliated fellowship for researchers and practitioners working on internet, AI governance, and technology-and-society questions. Fully funded fellows receive a monthly stipend; the open call specifically invites non-academic technologists.",
+  "url": "https://cyber.harvard.edu/page/open-call-fellowship-applications-2026-and-2026-2027",
+  "tags": [
+   "fellowship",
+   "AI-governance",
+   "research",
+   "stipend",
+   "non-academic"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Viable for an individual on the team with a research angle (AI collaboration / governance of AI-integrated platforms). Higher effort and individual (not org) funding; confirm the exact deadline on the open-call page before investing time.",
+  "relevant2026": true,
+  "relevant2026Note": "Open call covers 2026 and 2026–2027 appointments; exact deadline must be confirmed on the page.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "high",
+  "domain": "Research",
+  "name": "Berkman Klein Center Fellowship — Open Call",
+  "id": 416,
   "_updated": "2026-06-03"
  },
  {
@@ -14033,6 +13750,37 @@
   "_updated": "2026-06-03"
  },
  {
+  "organization": "Bank of America Charitable Foundation",
+  "category": "Corporate",
+  "amount": "Varies (typically $25,000–$100,000+ grants)",
+  "deadline": "May 18 – June 29, 2026",
+  "deadlineDate": "2026-06-29",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "U.S. 501(c)(3) nonprofits advancing economic mobility through workforce development, education, and community development.",
+  "description": "Annual cash grant cycle supporting nonprofits that build economic opportunity in their communities. Distinct from Neighborhood Builders; this is the general charitable-foundation grant window.",
+  "url": "https://about.bankofamerica.com/en/making-an-impact/grant-funding-for-nonprofits-sponsorship-programs",
+  "tags": [
+   "economic-mobility",
+   "workforce",
+   "community-development",
+   "nonprofit"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Requires 501(c)(3) status; awards often favor organizations with existing local Bank of America relationships. Apply during the open window (closes June 29, 2026) via the local-market application.",
+  "relevant2026": true,
+  "relevant2026Note": "2026 application window open May 18 – June 29, 2026.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Civic / Social",
+  "name": "Bank of America Charitable Foundation — Economic Mobility Grants",
+  "id": 431,
+  "_updated": "2026-06-03"
+ },
+ {
   "organization": "Ewing Marion Kauffman Foundation",
   "category": "Foundation",
   "amount": "$100,000 – $500,000",
@@ -14224,6 +13972,70 @@
   "_updated": "2026-06-03"
  },
  {
+  "organization": "The Arbitrum Foundation",
+  "category": "Foundation",
+  "amount": "Up to $10M in ARB over 12 months (covers third-party audit costs)",
+  "deadline": "Rolling",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Projects deploying smart contracts on Arbitrum that need a security audit; for-profit teams eligible, non-dilutive.",
+  "description": "The Arbitrum Foundation reimburses/subsidizes professional security audits for teams building on Arbitrum, with $10M in ARB allocated over 12 months. Reduces a major hard cost for any onchain launch.",
+  "url": "https://arbitrum.foundation/grants",
+  "tags": [
+   "web3",
+   "security",
+   "audit",
+   "arbitrum",
+   "non-dilutive"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Only relevant if Liminal deploys audited smart contracts on Arbitrum. Low-burden rolling application; pairs well with UAGP if going onchain.",
+  "relevant2026": true,
+  "relevant2026Note": "Listed as an active, rolling program on the Arbitrum Foundation grants page as of mid-2026.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Web3 / Public Goods",
+  "name": "Arbitrum Audit Program",
+  "id": 438,
+  "_updated": "2026-06-03"
+ },
+ {
+  "organization": "Alchemy (with Arbitrum Foundation)",
+  "category": "Corporate",
+  "amount": "$10M pool for Orbit chain development; up to $500K in infrastructure credits per team",
+  "deadline": "Rolling (Typeform application)",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Teams building Arbitrum Orbit (L2/L3) chains or apps using Alchemy infra; for-profit eligible.",
+  "description": "Joint program offering grants plus up to $500K in Alchemy infrastructure credits per team to teams launching Orbit chains or scaling on Arbitrum. Mix of cash-equivalent support and substantial dev-infra credits.",
+  "url": "https://arbitrum.foundation/grants",
+  "tags": [
+   "web3",
+   "infrastructure",
+   "credits",
+   "arbitrum",
+   "orbit"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Best fit if Liminal stands up an app-specific Orbit chain or heavy onchain infra. Mostly credits, so lower priority than pure-cash items.",
+  "relevant2026": true,
+  "relevant2026Note": "Active rolling program on the Arbitrum grants page; exact deadline not stated.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "mixed",
+  "effort": "medium",
+  "domain": "Web3 / Public Goods",
+  "name": "Alchemy-Arbitrum Grant Program",
+  "id": 439,
+  "_updated": "2026-06-03"
+ },
+ {
   "organization": "WalletConnect (WCT) / Reown",
   "category": "Corporate",
   "amount": "Weekly WCT token rewards distributed to top Base builders",
@@ -14253,6 +14065,38 @@
   "domain": "Web3 / Public Goods",
   "name": "WCT Rewards for Base Builders",
   "id": 440,
+  "_updated": "2026-06-03"
+ },
+ {
+  "organization": "The Arbitrum Foundation",
+  "category": "Foundation",
+  "amount": "Gas-fee sponsorship (ARB) covering user transaction costs",
+  "deadline": "Rolling (Airtable form)",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Apps on Arbitrum wanting to subsidize end-user gas; for-profit eligible.",
+  "description": "Arbitrum Foundation program that sponsors gas fees for qualifying apps, letting teams offer gasless/subsidized transactions to users. Low-friction rolling Airtable application.",
+  "url": "https://arbitrum.foundation/grants",
+  "tags": [
+   "web3",
+   "gas",
+   "credits",
+   "arbitrum",
+   "ux"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Only useful with a live Arbitrum app that wants to absorb user gas. This is the single 'credits-style' pick — keep below the cash items.",
+  "relevant2026": true,
+  "relevant2026Note": "Listed as active/rolling on the Arbitrum grants page in 2026.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "credits",
+  "effort": "low",
+  "domain": "Web3 / Public Goods",
+  "name": "ArbiFuel",
+  "id": 441,
   "_updated": "2026-06-03"
  },
  {
@@ -14606,6 +14450,37 @@
   "_updated": "2026-06-03"
  },
  {
+  "organization": "DuPage Foundation",
+  "category": "Foundation",
+  "amount": "Up to $20,000 (≈$100,000 total pool)",
+  "deadline": "August 7, 2026 (5:00 p.m.); applications open May 18, 2026",
+  "deadlineDate": "2026-08-07",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "501(c)(3) public charities primarily serving DuPage County, IL, that have received a Community Impact or Arts DuPage grant within the last three years.",
+  "description": "Grants of up to $20,000 to strengthen organizational capacity — leadership, skills, systems — for local not-for-profits. Application window is open now through August 7, 2026.",
+  "url": "https://www.dupagefoundation.org/capacity-building-grant/",
+  "tags": [
+   "capacity building",
+   "operating support",
+   "nonprofit",
+   "local"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Open to small 501(c)(3)s but geographically restricted to DuPage County, IL and requires being a recent prior grantee. If you operate there, a manageable application.",
+  "relevant2026": true,
+  "relevant2026Note": "Window confirmed open May 18–Aug 7, 2026.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Civic / Social",
+  "name": "DuPage Foundation — Capacity Building Grant",
+  "id": 453,
+  "_updated": "2026-06-03"
+ },
+ {
   "organization": "Community Foundation of Boone County (Indiana)",
   "category": "Foundation",
   "amount": "Up to $10,000",
@@ -14634,6 +14509,37 @@
   "domain": "Civic / Social",
   "name": "Community Foundation of Boone County — Community Grant",
   "id": 454,
+  "_updated": "2026-06-03"
+ },
+ {
+  "organization": "Innovia Foundation",
+  "category": "Foundation",
+  "amount": "$5,000 – $30,000 (one-year)",
+  "deadline": "Next cycle expected early 2026 (last window Feb 16 – Apr 10, 2026)",
+  "deadlineDate": null,
+  "deadlineStatus": "upcoming",
+  "deadlineType": "recurring",
+  "eligibility": "Nonprofits serving the 20 counties of Eastern Washington and North Idaho.",
+  "description": "Annual community grants of $5,000–$30,000 for nonprofit programs, projects, and capacity building across Eastern WA / North Idaho. The 2026 window (Feb–Apr) has closed; the cycle recurs annually.",
+  "url": "https://innovia.org/nonprofits/apply-for-a-grant/",
+  "tags": [
+   "community grant",
+   "capacity building",
+   "nonprofit",
+   "regional"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Small nonprofits eligible but region-locked to Eastern WA / N. Idaho; the 2026 round closed Apr 10, so watch for the early-2027 reopening.",
+  "relevant2026": "upcoming",
+  "relevant2026Note": "2026 cycle closed; recurs annually — monitor for next opening.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Civic / Social",
+  "name": "Innovia Foundation — Community Grant Program",
+  "id": 455,
   "_updated": "2026-06-03"
  },
  {
@@ -15295,6 +15201,37 @@
   "_updated": "2026-06-04"
  },
  {
+  "organization": "Oregon Community Foundation",
+  "category": "Foundation",
+  "amount": "Varies (new/expanding programs, capacity building, small capital <$500k)",
+  "deadline": "May 26 – June 23, 2026",
+  "deadlineDate": "2026-06-23",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "501(c)(3) nonprofits (or fiscally sponsored) serving Oregon communities",
+  "description": "Statewide community grants funding new/expanding programs, capacity building, and small capital projects. The Fall 2026 application window is open now and closes June 23, 2026 at 5 p.m.",
+  "url": "https://oregoncf.org/grants-and-scholarships/grants/community-grant-program",
+  "tags": [
+   "community",
+   "program",
+   "capacity-building",
+   "Oregon"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Open right now but Oregon-only and a competitive RFP. Good if you serve OR communities; act before June 23.",
+  "relevant2026": true,
+  "relevant2026Note": "Confirmed open window May 26–June 23, 2026.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Civic / Social",
+  "name": "Community Grants Program — Fall 2026 Cycle",
+  "id": 477,
+  "_updated": "2026-06-04"
+ },
+ {
   "organization": "Community Foundation of Southern Indiana",
   "category": "Foundation",
   "amount": "$1,000 – $10,000",
@@ -15417,6 +15354,37 @@
   "domain": "Civic / Social",
   "name": "Technology Matching Fund",
   "id": 481,
+  "_updated": "2026-06-04"
+ },
+ {
+  "organization": "Ben & Jerry's Foundation",
+  "category": "Foundation",
+  "amount": "Up to $30,000 (general operating)",
+  "deadline": "Rolling Letter of Interest (by-invitation full proposal)",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "U.S. grassroots, constituent-led nonprofits (or fiscally sponsored) organizing for social/environmental justice; budgets typically under ~$500k",
+  "description": "General-operating grants of up to $30,000 for small grassroots organizations using community organizing to advance social and environmental justice. Begins with a Letter of Interest; full applications are by invitation.",
+  "url": "https://benandjerrysfoundation.org/national-grants/",
+  "tags": [
+   "grassroots",
+   "general-operating",
+   "social-justice",
+   "organizing"
+  ],
+  "viability": "partial",
+  "viabilityNote": "National (no geo limit) unrestricted cash for small orgs, but mission must be community-organizing/justice and full proposal is invitation-only. Start with the low-effort LOI.",
+  "relevant2026": true,
+  "relevant2026Note": "Rolling LOI process active in 2026; confirm current LOI window on the foundation page.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Civic / Social",
+  "name": "National Grassroots Grants (National Grant Program)",
+  "id": 482,
   "_updated": "2026-06-04"
  },
  {
@@ -15609,6 +15577,37 @@
   "domain": "Web3 / Public Goods",
   "name": "Hypersonic Builder Grants (Startale Cloud Services × thirdweb)",
   "id": 488,
+  "_updated": "2026-06-04"
+ },
+ {
+  "organization": "Avalanche Foundation (Blizzard)",
+  "category": "Foundation",
+  "amount": "$200M+ ecosystem fund (capital deployed into projects)",
+  "deadline": "Rolling",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Promising projects building on Avalanche",
+  "description": "Large always-open fund supporting Avalanche-ecosystem projects with capital and institutional support. Listed via the Avalanche Builder Hub grants portal alongside Retro9000 and research calls.",
+  "url": "https://build.avax.network/grants",
+  "tags": [
+   "web3",
+   "avalanche",
+   "ecosystem-fund",
+   "rolling"
+  ],
+  "viability": "no",
+  "viabilityNote": "This is investment capital (equity/token), not non-dilutive — fails the no-equity priority. Included only as a rolling Avalanche option; for non-dilutive Avalanche cash, target Retro9000 (already in your DB) instead.",
+  "relevant2026": true,
+  "relevant2026Note": "Rolling, accepting applications in 2026.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "equity",
+  "effort": "medium",
+  "domain": "Web3 / Public Goods",
+  "name": "Avalanche Blizzard Fund",
+  "id": 489,
   "_updated": "2026-06-04"
  },
  {
@@ -15902,6 +15901,38 @@
   "_updated": "2026-06-04"
  },
  {
+  "organization": "Vermont Community Foundation",
+  "category": "Foundation",
+  "amount": "Up to $5,000",
+  "deadline": "Rolling, Feb 23 – Nov 1, 2026",
+  "deadlineDate": "2026-11-01",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "Nonprofits located in or serving Vermont, operating budget under $1M (priority under $250K); cannot have received this grant in the prior 3 years.",
+  "description": "Funds consultant fees for organizational capacity-building work (fundraising, strategic planning, board development, tech). Applications accepted on a rolling basis Feb 23–Nov 1, 2026, reviewed continuously until funds run out.",
+  "url": "https://vermontcf.org/funds/nonprofit-capacity-building/",
+  "tags": [
+   "capacity-building",
+   "small-nonprofit",
+   "rolling",
+   "consultant",
+   "vermont"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Excellent low-effort fit for a small org — but only for Vermont-based or Vermont-serving nonprofits. If you have a VT presence or fiscal sponsor, apply now (window is open until Nov 1).",
+  "relevant2026": true,
+  "relevant2026Note": "Window confirmed open for 2026 (Feb 23–Nov 1); rolling review while funds last.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Civic / Social",
+  "name": "Vermont Community Foundation — Nonprofit Capacity Building Grant",
+  "id": 499,
+  "_updated": "2026-06-04"
+ },
+ {
   "organization": "Blue Mountain Center / Margolis & Company",
   "category": "Foundation",
   "amount": "$10,000 prize + one-month Blue Mountain Center residency (finalists $1,000)",
@@ -16123,6 +16154,38 @@
   "domain": "Web3 / Public Goods",
   "name": "q/acc (Quadratic Accelerator)",
   "id": 506,
+  "_updated": "2026-06-04"
+ },
+ {
+  "organization": "Arbitrum Foundation",
+  "category": "Foundation",
+  "amount": "Up to $10,000 per project (from a $1M pool); Trailblazer 2.0 adds agentic-DeFi track",
+  "deadline": "Rolling — applications reviewed on an ongoing basis",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Builders with an already-launched AI agent featuring an onchain integration with Arbitrum chains.",
+  "description": "A $1M initiative giving fast grants (up to $10K each) to builders of specialized AI agents and onchain AI products on Arbitrum. Trailblazer 2.0 specifically targets agentic-DeFi strategies built with the Vibekit agent framework.",
+  "url": "https://arbitrum.foundation/grants",
+  "tags": [
+   "web3",
+   "AI agents",
+   "onchain",
+   "grants",
+   "rolling"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Direct fit for an AI team, but requires shipping a live AI agent with an Arbitrum onchain integration first. Low-effort form once a qualifying agent exists — good for a focused web3 spin-off of our agent stack.",
+  "relevant2026": true,
+  "relevant2026Note": "Active in 2026 with rolling review; Trailblazer 2.0 launched recently.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "AI",
+  "name": "Arbitrum Trailblazer AI Grant Program",
+  "id": 507,
   "_updated": "2026-06-04"
  },
  {
@@ -17337,6 +17400,37 @@
   "_updated": "2026-06-05"
  },
  {
+  "organization": "Oregon Community Foundation",
+  "category": "Foundation",
+  "amount": "Grants for new/expanding programs, capacity building, and small capital (projects under $500k); award size varies",
+  "deadline": "June 23, 2026, 5 p.m. (window opens May 26, 2026)",
+  "deadlineDate": "2026-06-23",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "501(c)(3) nonprofits serving Oregon communities; two-cycle sit-out for orgs funded in 2025 Fall or 2026 Spring cycles. First-time applicants must create a MyOCF account by June 18, 2026.",
+  "description": "Statewide community grants supporting new or expanding programs, capacity building, and small capital for Oregon nonprofits. Award notifications expected late October 2026.",
+  "url": "https://oregoncf.org/grants-and-scholarships/grants/community-grant-program",
+  "tags": [
+   "community foundation",
+   "capacity building",
+   "operating support",
+   "Oregon"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Open and confirmed for Fall 2026; needs 501(c)(3) and Oregon service area. Low-medium effort — apply via MyOCF portal before June 23. Skip if not Oregon-based.",
+  "relevant2026": true,
+  "relevant2026Note": "Application window open May 26 – June 23, 2026; verified on program page.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Civic / Social",
+  "name": "Community Grants Program — Fall 2026 (Oregon Community Foundation)",
+  "id": 546,
+  "_updated": "2026-06-05"
+ },
+ {
   "organization": "Community Foundation of the Texas Hill Country",
   "category": "Foundation",
   "amount": "Up to $15,000 (general operating or program support)",
@@ -17714,6 +17808,38 @@
   "domain": "Startup / General",
   "name": "Runnin' Down a Dream Foundation (RDAD) Micro-Grants",
   "id": 558,
+  "_updated": "2026-06-05"
+ },
+ {
+  "organization": "European Innovation Council (European Commission)",
+  "category": "Government",
+  "amount": "Up to €2.5M staged: €300,000 Stage 1, up to €2.5M Stage 2 (ARPA-style, non-repayable grant)",
+  "deadline": "Continuous rolling applications (new 2026 EIC instrument)",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Deep-tech startups/SMEs in EU member states & Horizon-associated countries; requires an EU/associated-country legal entity.",
+  "description": "A new 2026 EIC instrument funding breakthrough deep-tech via an ARPA-style staged model with continuous rolling applications. Non-repayable grant funding (distinct from the EIC Accelerator and Pathfinder already on your radar).",
+  "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+  "tags": [
+   "EU",
+   "deep-tech",
+   "grant",
+   "rolling",
+   "non-dilutive"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Substantial non-dilutive grant and rolling — but requires an EU-based entity. Action: only viable with an EU subsidiary/partner; if you have one, the rolling model lets you enter anytime.",
+  "relevant2026": true,
+  "relevant2026Note": "Introduced as a new 2026 EIC instrument with continuous applications per EIC 2026 work programme.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "high",
+  "domain": "Startup / General",
+  "name": "EIC Advanced Innovation Challenges (AIC)",
+  "id": 559,
   "_updated": "2026-06-05"
  },
  {
@@ -18098,35 +18224,35 @@
   "_updated": "2026-06-05"
  },
  {
-  "organization": "Eugene & Agnes E. Meyer Foundation",
+  "organization": "Meyer Foundation",
   "category": "Foundation",
-  "amount": "$10,000, $20,000, or $50,000 (one or two-time)",
-  "deadline": "Monthly application windows (first ~2 weeks of each month) Feb–Nov 2026",
+  "amount": "$10,000, $20,000, or $50,000",
+  "deadline": "Rolling monthly windows, February–November 2026 (~2 weeks at the start of each month)",
   "deadlineDate": "2026-11-28",
   "deadlineStatus": "open",
   "deadlineType": "fixed",
-  "eligibility": "Nonprofits / fiscally-sponsored groups doing racial-justice advocacy, organizing, mobilization, and power-building in the Greater Washington, DC region.",
-  "description": "Fast, flexible cash for movement-building moments — advocacy, organizing, and coalition work. Application windows reopen at the start of each month from February through November, with decisions the following week, so a small org can apply quickly when an opportunity or threat arises.",
+  "eligibility": "Organizations addressing urgent community-organizing needs and time-sensitive direct action in the Greater Washington, DC region.",
+  "description": "Fast-turnaround grants for urgent organizing and direct-action needs. Each month the application opens for roughly two weeks; decisions are made quickly.",
   "url": "https://meyerfoundation.org/rapid-response/",
   "tags": [
-   "racial justice",
-   "community organizing",
    "rapid response",
-   "operating support"
+   "community organizing",
+   "DC region",
+   "rolling"
   ],
   "viability": "partial",
-  "viabilityNote": "Open to small nonprofits/fiscally-sponsored groups but geographically limited to Greater DC. If you serve that region, apply in the next monthly window; very light application.",
+  "viabilityNote": "Low-effort, fast money for DC-area organizing groups. Time your submission to a monthly open window; needs nonprofit/fiscal-sponsor status.",
   "relevant2026": true,
-  "relevant2026Note": "Confirmed monthly windows running Feb–Nov 2026; a window opens at the start of each month.",
+  "relevant2026Note": "Active 2026 monthly cycles confirmed (Feb–Nov).",
   "audience": [
    "org"
   ],
   "fundingType": "cash",
   "effort": "low",
   "domain": "Civic / Social",
-  "name": "Meyer Foundation — Rapid Response Grants",
-  "id": 712,
-  "_updated": "2026-06-09"
+  "name": "Rapid Response Grants",
+  "id": 572,
+  "_updated": "2026-06-05"
  },
  {
   "organization": "Elmina B. Sewall Foundation",
@@ -18226,35 +18352,34 @@
  {
   "organization": "Harry Ransom Center, University of Texas at Austin",
   "category": "Foundation",
-  "amount": "Postdoctoral fellowships $3,500/month. Dissertation fellowships $2,500. Travel stipends $2,000. Plus a $500 supplement for non-U.S. applicants. About 50 awards.",
-  "deadline": "November 6, 2026, 5:00 pm CST",
-  "deadlineDate": "2026-11-06",
+  "amount": "$3,500/month (1–2 month fellowships); $2,000 dissertation/travel stipends; +$500 for international applicants",
+  "deadline": "Next cycle expected ~November 2026 (2026–27 deadline was Nov 3, 2025)",
+  "deadlineDate": "2026-11-28",
   "deadlineStatus": "open",
   "deadlineType": "fixed",
-  "eligibility": "Graduate students, current and former faculty, and independent researchers, explicitly including journalists and artists. Postdoctoral awards need a PhD or terminal degree (MFA, MLIS).",
-  "description": "Funded research residencies (June 2027 – Aug 2028) for projects that need substantial on-site use of the Ransom Center's literary, film, photography and cultural archives. The application is a 3-page proposal plus one recommendation letter. Decisions come in April 2027.",
+  "eligibility": "Graduate students, current/former academic faculty at any level, and independent researchers including journalists and artists whose projects require on-site use of the Center's collections.",
+  "description": "About 50 fellowships annually for on-site research using the Ransom Center's collections. Notably open to independent researchers, journalists, and artists — not just academics.",
   "url": "https://www.hrc.utexas.edu/fellowships/",
   "tags": [
-   "research",
    "fellowship",
-   "archives",
-   "artists",
-   "journalists",
-   "independent-researcher"
+   "research",
+   "humanities",
+   "independent researchers",
+   "stipend"
   ],
-  "viability": "yes",
-  "viabilityNote": "Open to independent artists, writers and journalists with no institution required, and the application is light (3 pages + 1 letter). Travel stipends are a realistic first win. The project must justify needing the collections.",
-  "relevant2026": true,
-  "relevant2026Note": "2027–28 call open, closes Nov 6, 2026.",
+  "viability": "partial",
+  "viabilityNote": "Open to independent researchers/journalists, which widens eligibility; current cycle deadline has passed, so plan for the next call expected around November 2026.",
+  "relevant2026": "upcoming",
+  "relevant2026Note": "Recurring annual program; the 2026–27 deadline (Nov 3, 2025) closed, next window expected late 2026.",
   "audience": [
-   "creator"
+   "org"
   ],
   "fundingType": "cash",
-  "effort": "low",
+  "effort": "medium",
   "domain": "Research",
-  "name": "Harry Ransom Center Research Fellowships (2027–2028)",
-  "id": 1352,
-  "_updated": "2026-09-30"
+  "name": "Research Fellowships",
+  "id": 576,
+  "_updated": "2026-06-05"
  },
  {
   "organization": "Ausherman Family Foundation",
@@ -20437,6 +20562,38 @@
   "_updated": "2026-06-08"
  },
  {
+  "organization": "KPMG U.S. Foundation",
+  "category": "Corporate",
+  "amount": "Cash grants roughly $500,000–$1,100,000 plus pro bono consulting and skills-based volunteering ($6M total program)",
+  "deadline": "No fixed public deadline — periodic windows; inquire via Corporate Responsibility team",
+  "deadlineDate": null,
+  "deadlineStatus": "upcoming",
+  "deadlineType": "recurring",
+  "eligibility": "U.S. nonprofit organizations seeking to integrate AI into operations to advance their mission.",
+  "description": "Large unrestricted-style grants combined with KPMG pro bono AI consulting and volunteering to help nonprofits adopt AI. Past awardees include First Book and Big Brothers Big Sisters.",
+  "url": "https://kpmg.com/us/en/careers-and-culture/kpmg-ai-impact-initiative.html",
+  "tags": [
+   "AI-for-good",
+   "nonprofit",
+   "pro-bono",
+   "capacity-building",
+   "corporate"
+  ],
+  "viability": "yes",
+  "viabilityNote": "Designed specifically for mission-driven nonprofits using AI — a direct fit. Deadline mechanics aren't published; email us-involve@kpmg.com to confirm the current intake window before investing effort.",
+  "relevant2026": true,
+  "relevant2026Note": "$6M initiative active in 2026; intake handled via outreach to KPMG rather than a posted deadline.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "AI",
+  "name": "KPMG AI Impact Initiative — Nonprofit Grants",
+  "id": 646,
+  "_updated": "2026-06-08"
+ },
+ {
   "organization": "IBM (Corporate Social Responsibility)",
   "category": "Corporate",
   "amount": "Multi-year engagement with IBM technology + consulting (part of IBM's ~$45M AI accelerator commitment)",
@@ -21264,38 +21421,6 @@
   "_updated": "2026-06-08"
  },
  {
-  "organization": "Aztec Labs / Aztec Foundation",
-  "category": "Foundation",
-  "amount": "Grants for privacy-focused projects on Aztec (amount varies by proposal)",
-  "deadline": "Wave 3 open (grant waves recur); confirm current window on the grants portal",
-  "deadlineDate": null,
-  "deadlineStatus": "upcoming",
-  "deadlineType": "recurring",
-  "eligibility": "Projects that enhance blockchain privacy and contribute to the Aztec ecosystem (privacy-preserving L2, zero-knowledge). Web3 development required.",
-  "description": "Aztec Labs' recurring grants program (currently Wave 3) funds teams building privacy-preserving applications, tooling, and infrastructure on its zk/privacy Layer 2. Applications are handled in waves.",
-  "url": "https://aztec.network/blog/announcing-aztec-grants-wave-3",
-  "tags": [
-   "web3",
-   "privacy",
-   "zero-knowledge",
-   "ecosystem-grant",
-   "cash"
-  ],
-  "viability": "partial",
-  "viabilityNote": "Non-dilutive cash, no equity, but tied to building on Aztec (zk/privacy web3). Viable only with an on-chain privacy angle. Wave amounts and next-window dates are not fully published — verify on the Aztec grants portal before committing.",
-  "relevant2026": true,
-  "relevant2026Note": "Wave 3 was announced and is the current active wave; exact amounts/deadline require confirmation on the portal.",
-  "audience": [
-   "team"
-  ],
-  "fundingType": "cash",
-  "effort": "medium",
-  "domain": "Web3 / Public Goods",
-  "name": "Aztec Grants: Wave 3",
-  "id": 1036,
-  "_updated": "2026-09-07"
- },
- {
   "organization": "Aztec Network / Aztec Labs",
   "category": "Foundation",
   "amount": "Wave grants vary; Cross-Chain Bridges RFGP up to US$150,000",
@@ -21611,34 +21736,34 @@
  {
   "organization": "Fromm Music Foundation (Harvard University)",
   "category": "Foundation",
-  "amount": "$12,000 commission (~14 composers/year)",
-  "deadline": "Annual; current cycle deadline June 10, 2026 — next cycle expected ~mid-2027",
+  "amount": "$12,000 commission ($6,000 advance at commissioning)",
+  "deadline": "June 10, 2026",
   "deadlineDate": "2026-06-10",
   "deadlineStatus": "open",
   "deadlineType": "fixed",
-  "eligibility": "Individual composers who are U.S. citizens or lawful permanent residents; no institution required (students of Harvard excluded; 15-yr re-apply wait)",
-  "description": "Annual commissions of new music awarded to ~14 American composers regardless of idiom, instrumentation, or style — explicitly open to work using technology. $12,000 per commission with $6,000 advanced at award.",
+  "eligibility": "Individual composers who are U.S. citizens or lawful permanent residents; 15-year wait after a prior Fromm Commission; Harvard students ineligible until after graduation",
+  "description": "Direct-to-composer commission of $12,000 for a new work in any idiom, instrumentation, or style (technology allowed). Individuals apply themselves; recurs annually.",
   "url": "https://frommfoundation.fas.harvard.edu/current-fromm-commission-application",
   "tags": [
    "music",
-   "composer",
+   "composition",
    "commission",
    "creative",
-   "individual"
+   "US-only"
   ],
   "viability": "partial",
-  "viabilityNote": "Direct individual application but competitive and U.S.-resident-only. Current cycle closes today (June 10); action: watch the page for the next annual cycle (~2027) if you miss it.",
+  "viabilityNote": "Individual composers only and U.S. residency required; competitive annual cycle. Action: apply by June 10, 2026 if eligible, else target the next annual cycle.",
   "relevant2026": true,
-  "relevant2026Note": "2026 application cycle confirmed open with June 10, 2026 deadline; recurs annually.",
+  "relevant2026Note": "2026 application open with a June 10, 2026 deadline; recurs each year.",
   "audience": [
    "creator"
   ],
   "fundingType": "cash",
   "effort": "medium",
   "domain": "Creative",
-  "name": "Fromm Music Foundation Commission",
-  "id": 754,
-  "_updated": "2026-06-10"
+  "name": "Fromm Music Foundation Commission 2026",
+  "id": 683,
+  "_updated": "2026-06-09"
  },
  {
   "organization": "Foresight Institute",
@@ -22524,6 +22649,37 @@
   "domain": "AI",
   "name": "AWS Cloud Credit for Research",
   "id": 711,
+  "_updated": "2026-06-09"
+ },
+ {
+  "organization": "Eugene & Agnes E. Meyer Foundation",
+  "category": "Foundation",
+  "amount": "$10,000, $20,000, or $50,000 (one or two-time)",
+  "deadline": "Monthly application windows (first ~2 weeks of each month) Feb–Nov 2026",
+  "deadlineDate": "2026-11-28",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "Nonprofits / fiscally-sponsored groups doing racial-justice advocacy, organizing, mobilization, and power-building in the Greater Washington, DC region.",
+  "description": "Fast, flexible cash for movement-building moments — advocacy, organizing, and coalition work. Application windows reopen at the start of each month from February through November, with decisions the following week, so a small org can apply quickly when an opportunity or threat arises.",
+  "url": "https://meyerfoundation.org/rapid-response/",
+  "tags": [
+   "racial justice",
+   "community organizing",
+   "rapid response",
+   "operating support"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Open to small nonprofits/fiscally-sponsored groups but geographically limited to Greater DC. If you serve that region, apply in the next monthly window; very light application.",
+  "relevant2026": true,
+  "relevant2026Note": "Confirmed monthly windows running Feb–Nov 2026; a window opens at the start of each month.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Civic / Social",
+  "name": "Meyer Foundation — Rapid Response Grants",
+  "id": 712,
   "_updated": "2026-06-09"
  },
  {
@@ -23826,6 +23982,38 @@
   "_updated": "2026-06-10"
  },
  {
+  "organization": "Fromm Music Foundation (Harvard University)",
+  "category": "Foundation",
+  "amount": "$12,000 commission (~14 composers/year)",
+  "deadline": "Annual; current cycle deadline June 10, 2026 — next cycle expected ~mid-2027",
+  "deadlineDate": "2026-06-10",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "Individual composers who are U.S. citizens or lawful permanent residents; no institution required (students of Harvard excluded; 15-yr re-apply wait)",
+  "description": "Annual commissions of new music awarded to ~14 American composers regardless of idiom, instrumentation, or style — explicitly open to work using technology. $12,000 per commission with $6,000 advanced at award.",
+  "url": "https://frommfoundation.fas.harvard.edu/current-fromm-commission-application",
+  "tags": [
+   "music",
+   "composer",
+   "commission",
+   "creative",
+   "individual"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Direct individual application but competitive and U.S.-resident-only. Current cycle closes today (June 10); action: watch the page for the next annual cycle (~2027) if you miss it.",
+  "relevant2026": true,
+  "relevant2026Note": "2026 application cycle confirmed open with June 10, 2026 deadline; recurs annually.",
+  "audience": [
+   "creator"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Creative",
+  "name": "Fromm Music Foundation Commission",
+  "id": 754,
+  "_updated": "2026-06-10"
+ },
+ {
   "organization": "Neil Gobioff Foundation",
   "category": "Foundation",
   "amount": "Up to $500 per project",
@@ -24044,6 +24232,37 @@
   "domain": "Civic / Social",
   "name": "Lowe's Hometowns Grant Program",
   "id": 761,
+  "_updated": "2026-06-10"
+ },
+ {
+  "organization": "Community Foundation for Greater Atlanta",
+  "category": "Foundation",
+  "amount": "Typically $5,000 – $50,000",
+  "deadline": "Submit by July 1, 2026 (recommended); accepted through Sept 30, 2026",
+  "deadlineDate": "2026-07-01",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "501(c)(3) nonprofits serving the 23-county greater Atlanta region",
+  "description": "Regional community foundation accepting nonprofit grant applications for community-centered work, with staff recommending submission by July 1 but accepting through September 30, 2026.",
+  "url": "https://cfgreateratlanta.org/grant-opportunities/",
+  "tags": [
+   "community foundation",
+   "regional",
+   "operating",
+   "civic"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Strong fit for small nonprofits but geographically restricted to greater Atlanta; requires 501(c)(3) or fiscal sponsor.",
+  "relevant2026": true,
+  "relevant2026Note": "Open now with a confirmed Sept 30, 2026 final deadline.",
+  "audience": [
+   "org"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Civic / Social",
+  "name": "Community Foundation for Greater Atlanta — Grant Opportunities",
+  "id": 762,
   "_updated": "2026-06-10"
  },
  {
@@ -31940,6 +32159,38 @@
   "_updated": "2026-08-27"
  },
  {
+  "organization": "The Freed Studio",
+  "category": "Foundation",
+  "amount": "$500 monthly microgrant + eligibility for a $2,500 year-end grant (plus strategy session & 1-yr membership)",
+  "deadline": "Rolling — midnight ET on the last day of each month",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Any US-based micro or small business owner; for-profit eligible. $19 non-refundable application fee.",
+  "description": "Monthly microgrant awarding $500 to a selected small business, with all monthly winners considered for a $2,500 year-end grant. Explicitly non-dilutive (no equity, no repayment) and a very low-effort rolling form.",
+  "url": "https://freedfellowship.com/",
+  "tags": [
+   "microgrant",
+   "rolling",
+   "small-business",
+   "non-dilutive",
+   "monthly"
+  ],
+  "viability": "yes",
+  "viabilityNote": "Confirmed active 2026, equity-free cash, open to any US for-profit small business, minimal application. Apply for the current month immediately; small dollar amount and $19 fee are the only downsides.",
+  "relevant2026": true,
+  "relevant2026Note": "Rolling monthly awards ongoing throughout 2026; can apply for the current month now.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Startup / General",
+  "name": "Freed Fellowship Grant",
+  "id": 1008,
+  "_updated": "2026-09-05"
+ },
+ {
   "organization": "FUTO",
   "category": "Foundation",
   "amount": "Microgrants $1,000–$5,000 (Legendary Grants and a Fellows program up to $80,000 also exist)",
@@ -31969,6 +32220,39 @@
   "domain": "Open Source",
   "name": "FUTO Microgrants",
   "id": 1009,
+  "_updated": "2026-09-05"
+ },
+ {
+  "organization": "Sentient Foundation",
+  "category": "Foundation",
+  "amount": "$42M total pool; grant track is non-dilutive (individual sizes not published)",
+  "deadline": "Rolling — applications open and reviewed continuously",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "Grant track (non-dilutive): researchers, OSS maintainers, independent developers, public-goods initiatives. Requires at least one meaningful component of the work to be openly available to the AI ecosystem.",
+  "description": "A $42M commitment launched June 2026 to advance open-source AGI. The grant track gives non-dilutive cash to teams building or leveraging open AI — recipients keep full ownership and IP. Single online application form; no chain lock-in.",
+  "url": "https://sentient.foundation/grants",
+  "tags": [
+   "ai",
+   "agi",
+   "open-source",
+   "non-dilutive",
+   "rolling",
+   "developer-tools"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Best web3-adjacent fit for an AI-collaboration team wanting non-dilutive cash — no ecosystem/chain integration required, unlike most crypto grants. Condition: open-source a meaningful component (e.g., an agent framework or connector). Confirmed rolling on the official June 24, 2026 announcement.",
+  "relevant2026": true,
+  "relevant2026Note": "Launched June 2026, actively reviewing on a rolling basis as of Sept 2026; explicitly targets AI/AGI builders including companies.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Web3 / Public Goods",
+  "name": "Open Source AGI Grant & Investment Program",
+  "id": 1010,
   "_updated": "2026-09-05"
  },
  {
@@ -32783,6 +33067,38 @@
   "_updated": "2026-09-07"
  },
  {
+  "organization": "Aztec Labs / Aztec Foundation",
+  "category": "Foundation",
+  "amount": "Grants for privacy-focused projects on Aztec (amount varies by proposal)",
+  "deadline": "Wave 3 open (grant waves recur); confirm current window on the grants portal",
+  "deadlineDate": null,
+  "deadlineStatus": "upcoming",
+  "deadlineType": "recurring",
+  "eligibility": "Projects that enhance blockchain privacy and contribute to the Aztec ecosystem (privacy-preserving L2, zero-knowledge). Web3 development required.",
+  "description": "Aztec Labs' recurring grants program (currently Wave 3) funds teams building privacy-preserving applications, tooling, and infrastructure on its zk/privacy Layer 2. Applications are handled in waves.",
+  "url": "https://aztec.network/blog/announcing-aztec-grants-wave-3",
+  "tags": [
+   "web3",
+   "privacy",
+   "zero-knowledge",
+   "ecosystem-grant",
+   "cash"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Non-dilutive cash, no equity, but tied to building on Aztec (zk/privacy web3). Viable only with an on-chain privacy angle. Wave amounts and next-window dates are not fully published — verify on the Aztec grants portal before committing.",
+  "relevant2026": true,
+  "relevant2026Note": "Wave 3 was announced and is the current active wave; exact amounts/deadline require confirmation on the portal.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "medium",
+  "domain": "Web3 / Public Goods",
+  "name": "Aztec Grants: Wave 3",
+  "id": 1036,
+  "_updated": "2026-09-07"
+ },
+ {
   "organization": "Memories.ai",
   "category": "Corporate",
   "amount": "$1,000/month stipend ($3,000 total) + GPU compute + datasets",
@@ -32880,6 +33196,39 @@
   "domain": "Creative",
   "name": "Mississauga Arts Council Fall 2026 MicroGrants",
   "id": 1039,
+  "_updated": "2026-09-07"
+ },
+ {
+  "organization": "Research!America",
+  "category": "Foundation",
+  "amount": "Up to $4,000 per project",
+  "deadline": "Awarded on a rolling basis; 2026–2027 cycle details expected Fall 2026",
+  "deadlineDate": null,
+  "deadlineStatus": "rolling",
+  "deadlineType": "rolling",
+  "eligibility": "U.S. STEM groups led by master's, PhD, postdoctoral, or professional students. Projects create dialogue between scientists and public officials/community leaders/the public.",
+  "description": "Microgrants for early-career scientist-led teams to design and run civic-science engagement projects connecting research with public officials and communities. Rolling awards within each annual cycle.",
+  "url": "https://www.researchamerica.org/civic-science/microgrants/",
+  "tags": [
+   "civic",
+   "science",
+   "STEM",
+   "microgrant",
+   "students",
+   "public-engagement"
+  ],
+  "viability": "partial",
+  "viabilityNote": "Open to individuals/small student-led groups (no institution required to be grantee, though you must be an enrolled grad/postdoc/professional student). Watch the page for the Fall 2026 cycle opening, then apply.",
+  "relevant2026": true,
+  "relevant2026Note": "2025–26 cycle closed; 2026–27 cycle details to be published Fall 2026 — upcoming window to monitor.",
+  "audience": [
+   "creator"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Civic / Social",
+  "name": "Civic Engagement Microgrant Program (2026–2027)",
+  "id": 1040,
   "_updated": "2026-09-07"
  },
  {
@@ -33436,6 +33785,38 @@
   "domain": "Startup / General",
   "name": "SC Ventures Pitch Competition",
   "id": 1057,
+  "_updated": "2026-09-12"
+ },
+ {
+  "organization": "Patrick J. McGovern Foundation",
+  "category": "Foundation",
+  "amount": "Cash grants (often six- to seven-figure) across AI, data, climate, journalism and digital health",
+  "deadline": "Invitation-driven; no public open-application window posted",
+  "deadlineDate": null,
+  "deadlineStatus": "unknown",
+  "deadlineType": "unknown",
+  "eligibility": "Grants database shows awards exclusively to nonprofits and educational institutions — no for-profit recipients listed. Focus areas: AI Fluency, Data as a Public Good, Emergent AI, Journalism & Media, Climate, Health.",
+  "description": "A major AI-for-good funder backing organizations using AI and data to advance the public interest. Funding is relationship/invitation-based rather than via open rounds.",
+  "url": "https://www.mcgovern.org/grants/",
+  "tags": [
+   "Civic / Social",
+   "AI for good",
+   "data",
+   "foundation",
+   "public interest"
+  ],
+  "viability": "no",
+  "viabilityNote": "As a for-profit you are not directly eligible, and there's no open call. Only reachable via a nonprofit/academic partner (e.g. a civic-tech org deploying Castalia/Vox for public benefit) and warm introduction. Treat as a long-horizon partnership play, not a direct application.",
+  "relevant2026": true,
+  "relevant2026Note": "Actively grantmaking in 2026 (database updated weekly), but access is invitation-based and nonprofit-scoped.",
+  "audience": [
+   "team"
+  ],
+  "fundingType": "cash",
+  "effort": "high",
+  "domain": "Civic / Social",
+  "name": "Patrick J. McGovern Foundation — Grants",
+  "id": 1058,
   "_updated": "2026-09-12"
  },
  {
@@ -42898,6 +43279,39 @@
   "domain": "Research",
   "name": "Huntington Library Fellowships (2027–2028)",
   "id": 1351,
+  "_updated": "2026-09-30"
+ },
+ {
+  "organization": "Harry Ransom Center, University of Texas at Austin",
+  "category": "Foundation",
+  "amount": "Postdoctoral fellowships $3,500/month. Dissertation fellowships $2,500. Travel stipends $2,000. Plus a $500 supplement for non-U.S. applicants. About 50 awards.",
+  "deadline": "November 6, 2026, 5:00 pm CST",
+  "deadlineDate": "2026-11-06",
+  "deadlineStatus": "open",
+  "deadlineType": "fixed",
+  "eligibility": "Graduate students, current and former faculty, and independent researchers, explicitly including journalists and artists. Postdoctoral awards need a PhD or terminal degree (MFA, MLIS).",
+  "description": "Funded research residencies (June 2027 – Aug 2028) for projects that need substantial on-site use of the Ransom Center's literary, film, photography and cultural archives. The application is a 3-page proposal plus one recommendation letter. Decisions come in April 2027.",
+  "url": "https://www.hrc.utexas.edu/fellowships/",
+  "tags": [
+   "research",
+   "fellowship",
+   "archives",
+   "artists",
+   "journalists",
+   "independent-researcher"
+  ],
+  "viability": "yes",
+  "viabilityNote": "Open to independent artists, writers and journalists with no institution required, and the application is light (3 pages + 1 letter). Travel stipends are a realistic first win. The project must justify needing the collections.",
+  "relevant2026": true,
+  "relevant2026Note": "2027–28 call open, closes Nov 6, 2026.",
+  "audience": [
+   "creator"
+  ],
+  "fundingType": "cash",
+  "effort": "low",
+  "domain": "Research",
+  "name": "Harry Ransom Center Research Fellowships (2027–2028)",
+  "id": 1352,
   "_updated": "2026-09-30"
  },
  {
