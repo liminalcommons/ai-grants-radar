@@ -7,8 +7,10 @@ Steps:
   2. refresh.py          — scrape grant pages, extract requirements, refresh deadlines
                            (capped: 150 pages / 25 LLM extractions per run, most overdue
                            first, so the initial backlog drains over several weeks)
+  2b. verify-deadlines.py — re-derive every deadline status against today
+                           (offline, no LLM calls)
   3. generate-report.py  — render the earthy HTML weekly report (report.html)
-  4. deploy              — publish grants.json + report.html to Vercel
+  4. deploy              — publish grants.json + report.html to GitHub Pages
   5. notify.py           — post to Telegram group + email the report
 
 Each step is best-effort and logged; a failure in one does not abort the rest
@@ -47,6 +49,10 @@ def main():
 
     # 2. refresh: re-verify new/changed/stale pages, re-derive deadlines, export grants.json
     step("Refresh", ["refresh.py", "--limit", "150", "--max-extract", "25"])
+
+    # 2b. verify: re-derive every deadline status against today (offline, no
+    # LLM) so the report and site never show a stale opportunity as open.
+    step("VerifyDeadlines", ["verify-deadlines.py"])
 
     # 3. report
     step("Report", ["generate-report.py"])
