@@ -5028,7 +5028,20 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f08bfd9a09737400097851e4ed205909816a0f8bda8a0ad9cb300ea6276599cb"
+    },
+    "amountMin": 5000,
+    "amountMax": 25000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "GitHub",
@@ -5060,7 +5073,62 @@
     "effort": "low",
     "domain": "Open Source",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "30fa2859d9212b7db0cd92744873b0de9113da9e1d2774ac14471939728a1eb7"
+    },
+    "amountMin": 2000,
+    "amountMax": 150000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Commit 15 hours over a 3-week period",
+        "quote": "Selected participants must be able to commit 15 hours over a 3-week period, including weekly instruction, workshops, and focused work"
+      },
+      {
+        "item": "Commit 2.5 hours at both the 6-month and 12-month check-ins, totaling 20 hours overall",
+        "quote": "Participants must also be available to commit 2.5 hours at both the 6-month and 12-month check-ins, totaling 20 hours for the program overall."
+      },
+      {
+        "item": "Submit an application",
+        "quote": "Submit an application."
+      },
+      {
+        "item": "Selected participants have a virtual interview",
+        "quote": "Selected participants will have a virtual interview to determine next steps."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Must be a current maintainer of an open source project",
+        "Teams may include a maximum of 2 people",
+        "Must be age 18 or older",
+        "Must have an active online profile on GitHub",
+        "Must be located in one of the regions supported by GitHub Sponsors",
+        "Must not be a current employee of GitHub or its parent/subsidiary companies",
+        "Must have a clear open source license",
+        "Must be an open source first project with demonstrated community traction and adoption",
+        "Must have a clear governance structure prior to kick-off",
+        "Interest and willingness to engage and improve security",
+        "Commitment from core leaders to participate in the required programming",
+        "Must agree to Code of Conduct and Privacy Statement"
+      ]
+    }
   },
   {
     "organization": "The Awesome Foundation",
@@ -5092,7 +5160,57 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "62b45e08b196c4425ca793ef9978ed9b1106dfd6de916e08915d4738c2b36028"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "requirements": [
+      {
+        "item": "Submit application with project details",
+        "quote": "Just fill out the application below with information about yourself and the details of your project."
+      },
+      {
+        "item": "Provide name",
+        "quote": "* Your name"
+      },
+      {
+        "item": "Provide email",
+        "quote": "* Email"
+      },
+      {
+        "item": "Provide project title",
+        "quote": "* Project title"
+      },
+      {
+        "item": "Describe project",
+        "quote": "* Tell us about your awesome project!"
+      },
+      {
+        "item": "Explain how money will be used",
+        "quote": "* How will you use the money?"
+      },
+      {
+        "item": "Tell about yourself",
+        "quote": "* Tell us a little about yourself"
+      }
+    ],
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must select a chapter to apply to"
+      ]
+    }
   },
   {
     "organization": "Cooperative AI Foundation (CAIF)",
@@ -5124,7 +5242,11 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Sovereign Tech Agency (Germany)",
@@ -5156,7 +5278,17 @@
     "effort": "high",
     "domain": "Open Source",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "20abcdf0674e7a352ea9650698659cf4ec0df8a506a2ac4128eac68167577b24"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Future of Life Institute",
@@ -5188,7 +5320,11 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "open",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Creative Capital",
@@ -5220,7 +5356,42 @@
     "effort": "low",
     "domain": "Creative",
     "deadlineStatus": "open",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f8bda55e47c3bcb5f49dbcb65cfaa0741cfc2345ef859228e72885062f4265c6"
+    },
+    "amountMin": 10000,
+    "amountMax": 50000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Proposals for new artistic works",
+        "quote": "external review process for proposals for new artistic works."
+      },
+      {
+        "item": "Creation of innovative, original, groundbreaking new artistic works",
+        "quote": "for the creation of innovative, original, groundbreaking new artistic works"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Creative Capital Awardees may not apply for the State of the Art Prize.",
+        "State of the Art Prize winners may apply to future grant cycles for the Creative Capital Award.",
+        "Both the Creative Capital Award and State of the Art Prize are one-time distinctions."
+      ]
+    }
   },
   {
     "organization": "Google Research",
@@ -5252,7 +5423,49 @@
     "effort": "low",
     "domain": "Climate",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "bfc1ece43a087b202a1788cac9d3a950246b34863f5337bb979b753dfed3a1d6"
+    },
+    "requirements": [
+      {
+        "item": "Share TRC-supported research with the world through peer-reviewed publications, open source code, blog posts, or other means",
+        "quote": "Participants in the TRC program will be expected to share their TRC-supported research\nwith the world through peer-reviewed publications, open source code, blog posts, or\nother means."
+      },
+      {
+        "item": "Be willing to share detailed feedback with Google to help improve the TRC program and the underlying Cloud TPU platform",
+        "quote": "They should also be willing to share detailed feedback with Google to\nhelp us improve the TRC program and the underlying Cloud TPU platform over time."
+      },
+      {
+        "item": "Accept Google's Terms and Conditions",
+        "quote": "participants accept Google's\n\nTerms and Conditions"
+      },
+      {
+        "item": "Acknowledge information will be used in accordance with the Privacy Policy",
+        "quote": "acknowledge that their information will be used in\naccordance with our\n\nPrivacy Policy"
+      },
+      {
+        "item": "Conduct research in accordance with the Google AI principles",
+        "quote": "agree to conduct their research in accordance with the\n\nGoogle AI principles."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Open to researchers and students"
+      ]
+    }
   },
   {
     "organization": "Zendesk Foundation",
@@ -5284,7 +5497,11 @@
     "effort": "medium",
     "domain": "Civic / Social",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Internet Society Foundation",
@@ -5316,7 +5533,23 @@
     "effort": "medium",
     "domain": "Civic / Social",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "341725b8a0964400bd7e5c8de861145b18dc43e996f9b103db46df7ad1cf916f"
+    },
+    "amountMin": 100000,
+    "amountMax": 3500000,
+    "currency": "USD",
+    "timeline": {
+      "opensDate": "2026-06-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "OpenAI Foundation",
@@ -5348,7 +5581,11 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "KPMG U.S. Foundation",
@@ -5380,7 +5617,26 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "bc19f84cf1d96b5894adebc8b3296ec2a82dc8fcc7fd463b7db373a6ec721fa7"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.85
+    },
+    "eligibilityDetail": {
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Nonprofits only"
+      ]
+    }
   },
   {
     "organization": "U.S. National Science Foundation",
@@ -5412,7 +5668,35 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "af2eb61c774a93589bfa8b69193fd3f35b8babe1ceab631677962bf837b99604"
+    },
+    "requirements": [
+      {
+        "item": "Stage 1 proposals must be submitted to one of the community-identified tracks",
+        "quote": "Teams of researchers and civic partners will submit Stage 1 proposals to one of the community-identified tracks"
+      }
+    ],
+    "timeline": {
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "Teams must include researchers and civic partners"
+      ]
+    }
   },
   {
     "organization": "LinkedIn (Social Impact)",
@@ -5444,7 +5728,24 @@
     "effort": "medium",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "980ad928dae6a7fdb7500cee2971a163cdfd6a3dce207f7a6be179ba2da2c79b"
+    },
+    "amountMin": 200000,
+    "amountMax": 200000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2026-03-15",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "data.org (with Zoom)",
@@ -5476,7 +5777,42 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "c560053a99215d8f97dbce084f4e0bc9980848c655593727e20bc70d3e107467",
+      "finalUrl": "https://data.org/our-work/challenges/activate-ai-economic-opportunity-challenge/"
+    },
+    "requirements": [
+      {
+        "item": "Innovative AI applications that empower people and communities and unlock economic opportunity",
+        "quote": "called for innovative AI applications that empower people and communities, and that unlock economic opportunity for a resilient future."
+      },
+      {
+        "item": "AI workforce development and organizational capacity",
+        "quote": "drive AI workforce development and organizational capacity"
+      },
+      {
+        "item": "Pathways to future friendly jobs leveraging data and AI",
+        "quote": "develop pathways to create future friendly jobs leveraging data and AI"
+      },
+      {
+        "item": "Climate resilient communities for a green economy",
+        "quote": "build climate resilient communities for a green economy"
+      }
+    ],
+    "timeline": {
+      "decisionDate": "2026-05-12"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "global"
+    }
   },
   {
     "organization": "CIVICUS Global Alliance",
@@ -5508,7 +5844,53 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "ccc01e0e2cf8808c0803c8b9a293eb8d44f20d372cece72439936e18ec824516"
+    },
+    "amountMin": 10000,
+    "amountMax": 10000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Active work on democracy and/or civic space issues",
+        "quote": "Active work on democracy and/or civic space issues"
+      },
+      {
+        "item": "Some experience using digital tools in advocacy, organising, or service delivery",
+        "quote": "Some experience using digital tools in advocacy, organising, or service delivery"
+      },
+      {
+        "item": "Ability to manage grant funding and commit staff time for the 9-month programme",
+        "quote": "Ability to manage grant funding and commit staff time for the 9-month programme"
+      },
+      {
+        "item": "Ability to work and submit deliverables in English",
+        "quote": "Ability to work and submit deliverables in English"
+      }
+    ],
+    "timeline": {
+      "durationMonths": 9
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "Priority to underrepresented and marginalised actors, including women, youth, LGBTQI+, Indigenous Peoples, and grassroots groups",
+        "Preference for organisations in obstructed or repressed civic space contexts",
+        "Local offices of Global North-based organisations are not eligible"
+      ]
+    }
   },
   {
     "organization": "Ethereum Foundation",
@@ -5541,7 +5923,44 @@
     "id": 103,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "1733b826fa903a4fc84e9408264ce32fc518cb9b359a71e713a9ddb7d15a9141"
+    },
+    "requirements": [
+      {
+        "item": "All outputs must be open-source or otherwise freely available",
+        "quote": "All outputs must be open-source or otherwise freely available"
+      },
+      {
+        "item": "Grant recipients must be prepared to receive and manage ETH payments",
+        "quote": "we ask that grant recipients are prepared to receive and manage ETH payments"
+      },
+      {
+        "item": "Grant recipients must complete onboarding, identity verification, and a formal grant letter",
+        "quote": "All grant recipients are required to complete an onboarding process, involving identity verification and a formal grant letter."
+      },
+      {
+        "item": "Results must be shared publicly in a report or post",
+        "quote": "Once the scope of work is completed, you will share the results publicly in a report or post."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Work must be free, open-source, non-commercial",
+        "Grant-funded work must be open-source and accessible to the community"
+      ]
+    }
   },
   {
     "organization": "Golem Foundation",
@@ -5573,7 +5992,11 @@
     "id": 104,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Stellar Development Foundation",
@@ -5605,7 +6028,32 @@
     "id": 105,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "e065410e0cfc3885b0889ef3aa13878dfd2e78a264f8603c99b806d7168ff249"
+    },
+    "amountMax": 150000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Validated project transitioning from concept to launch",
+        "quote": "transition your validated project from concept to launch on Stellar"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Supports developers, startups, and full-fledged companies",
+        "Must be building on Stellar and Soroban",
+        "Project must be on Stellar"
+      ]
+    }
   },
   {
     "organization": "Optimism Collective",
@@ -5638,7 +6086,11 @@
     "id": 106,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Base (Coinbase)",
@@ -5671,7 +6123,38 @@
     "id": 107,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "bd41ffb0adc55389d8d5f487e0dc6e142fdb5a6449135916a3658c4e28067082",
+      "finalUrl": "https://docs.base.org/get-started/base-ecosystem-fund"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "requirements": [
+      {
+        "item": "Pitch your team for pre-seed or seed investment",
+        "quote": "Pitch your team for pre-seed or seed investment."
+      },
+      {
+        "item": "Build enduring onchain primitives and businesses that drive real economic activity",
+        "quote": "building enduring onchain primitives and businesses that drive real economic activity"
+      }
+    ],
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "pre-seed or seed stage",
+        "building on Base",
+        "onchain business / primitives"
+      ]
+    }
   },
   {
     "organization": "Filecoin Foundation / Filecoin Foundation for the Decentralized Web",
@@ -5704,7 +6187,11 @@
     "id": 108,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Solana Foundation",
@@ -5736,7 +6223,67 @@
     "id": 109,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "037baeedb3e4e684b065ec0e2345061a5b8625fe8e5eb7db5ecabd72bdf38ecb"
+    },
+    "amountMin": 10000,
+    "amountMax": 100000000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "requirements": [
+      {
+        "item": "Submit application",
+        "quote": "All funding applicants for Solana Foundation standard and convertible grants are required to fill out the application here."
+      },
+      {
+        "item": "Provide a brief project overview",
+        "quote": "Provide a brief project overview"
+      },
+      {
+        "item": "Clarify how the project provides a public good",
+        "quote": "Clarify how your project provides a public good for the Solana network"
+      },
+      {
+        "item": "Lay out a budget proposal and milestones",
+        "quote": "Lay out a well structured budget proposal, and include thoughtful milestones"
+      },
+      {
+        "item": "Public good requirement",
+        "quote": "We typically consider a project to be a public good if it either makes a significant open-source contribution to the Solana ecosystem, or if it has a meaningful free community offering."
+      },
+      {
+        "item": "Open source spirit",
+        "quote": "Not all projects require code, but they should be built in the spirit of open-sourcing your learnings for everyone to learn from."
+      },
+      {
+        "item": "Only possible on Solana",
+        "quote": "The proposal should make it clear why the project is building within the Solana ecosystem, as opposed to other places or other ways."
+      },
+      {
+        "item": "Clear use of funds",
+        "quote": "Set clear, measurable funding milestones, and make sure the funding you request is correlated to the impact to the community your project is providing."
+      },
+      {
+        "item": "Finalize grant agreement with Legal Team",
+        "quote": "Approved applicants work with the Solana Foundation Legal Team to finalize the grant agreement."
+      }
+    ],
+    "eligibilityDetail": {
+      "restrictions": [
+        "Standard grants are not for primarily commercial projects",
+        "Grant approvals are discretionary"
+      ]
+    }
   },
   {
     "organization": "Polygon Community Treasury",
@@ -5769,7 +6316,11 @@
     "id": 110,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Gitcoin Foundation",
@@ -5801,7 +6352,11 @@
     "id": 111,
     "_updated": "2026-05-30",
     "deadlineStatus": "open",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Arbitrum Foundation",
