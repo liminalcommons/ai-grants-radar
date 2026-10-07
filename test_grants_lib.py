@@ -66,3 +66,22 @@ def test_merge_keeps_distinct_hub_programs():
                               "url": "https://example.org/grants"}])
     assert len(added) == 1
     assert len(existing) == 2
+
+
+def test_all_dates_day_first_single():
+    import datetime
+    assert gl._all_dates("Closes 1 Oct 2026") == [datetime.date(2026, 10, 1)]
+
+
+def test_all_dates_day_first_range_no_phantom():
+    # "24 Sep – 1 Oct 2026" must yield the two real dates, NOT a bare-month
+    # Oct-28 phantom (which once marked a closed round as open).
+    import datetime
+    assert gl._all_dates("Round 3 open 24 Sep – 1 Oct 2026") == [
+        datetime.date(2026, 9, 24), datetime.date(2026, 10, 1)]
+
+
+def test_all_dates_day_first_range_across_new_year():
+    import datetime
+    assert gl._all_dates("Window 28 Dec – 5 Jan 2027") == [
+        datetime.date(2026, 12, 28), datetime.date(2027, 1, 5)]

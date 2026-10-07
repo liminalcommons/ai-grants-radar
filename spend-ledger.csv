@@ -1,0 +1,9 @@
+ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
+2026-10-07T05:00:35.639668+00:00,trial-extract/1,deepseek-v4.1-flash,1256,2000,13397,200,empty reply
+2026-10-07T05:00:51.886218+00:00,trial-extract/2,deepseek-v4.1-flash,2832,2000,15518,200,empty reply
+2026-10-07T05:01:06.723943+00:00,trial-extract/3,deepseek-v4.1-flash,1550,2000,14040,200,empty reply
+2026-10-07T05:01:15.604295+00:00,trial-extract/4,deepseek-v4.1-flash,3067,985,8795,200,
+2026-10-07T05:01:24.265934+00:00,trial-extract/5,deepseek-v4.1-flash,2178,909,7272,200,
+2026-10-07T05:02:29.086068+00:00,trial-extract/1,deepseek-v4.1-flash,1256,3469,19204,200,
+2026-10-07T05:02:43.463545+00:00,trial-extract/2,deepseek-v4.1-flash,2832,2484,13685,200,
+2026-10-07T05:02:56.894415+00:00,trial-extract/3,deepseek-v4.1-flash,1550,2527,12961,200,

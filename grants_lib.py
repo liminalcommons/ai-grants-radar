@@ -168,6 +168,28 @@ def _all_dates(text):
             out.append(datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3))))
         except ValueError:
             pass
+    # Day-first dates common in UK/EU text: "1 Oct 2026" and ranges
+    # "24 Sep – 1 Oct 2026" (the month-first pattern above misses these, and
+    # without this the bare-month fallback mints a phantom end-of-month date).
+    for m in re.finditer(
+            r"\b(\d{1,2})\s+([A-Za-z]{3,9})(?:\s*[–-]\s*(\d{1,2})\s+([A-Za-z]{3,9}))?,?\s+(\d{4})\b",
+            text):
+        mon1 = _MONTHS.get(m.group(2)[:3].lower())
+        year = int(m.group(5))
+        if not mon1:
+            continue
+        try:
+            if m.group(3) and m.group(4):
+                mon2 = _MONTHS.get(m.group(4)[:3].lower())
+                if not mon2:
+                    continue
+                y1 = year - 1 if mon2 < mon1 else year  # e.g. Dec-Jan spans new year
+                out.append(datetime.date(y1, mon1, int(m.group(1))))
+                out.append(datetime.date(year, mon2, int(m.group(3))))
+            else:
+                out.append(datetime.date(year, mon1, int(m.group(1))))
+        except ValueError:
+            pass
     for m in re.finditer(r"\b([A-Za-z]{3,9})\.?\s+(\d{4})\b", text):
         mon = _MONTHS.get(m.group(1)[:3].lower())
         if mon and not any(d.year == int(m.group(2)) and d.month == mon for d in out):

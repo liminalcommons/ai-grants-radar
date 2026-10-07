@@ -1,0 +1,224 @@
+{
+  "score": 100.0,
+  "grants": 1445,
+  "date": "2026-10-06",
+  "checks": {
+    "schema": {
+      "passed": 1445,
+      "rate": 100.0
+    },
+    "deadline_consistency": {
+      "passed": 1444,
+      "rate": 99.9
+    },
+    "url_health": {
+      "passed": 1445,
+      "rate": 100.0
+    },
+    "dedupe": {
+      "true_dupe_groups": 0,
+      "hub_variant_groups": 15,
+      "rate": 100.0
+    },
+    "content_quality": {
+      "passed": 1445,
+      "rate": 100.0
+    }
+  },
+  "totals": {
+    "FAIL": 1,
+    "WARN": 15,
+    "INFO": 11
+  },
+  "issues": [
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 3,
+      "name": "AI Grant Accelerator",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 11,
+      "name": "EIC Accelerator Open — 2026",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 29,
+      "name": "UKRI AI Investment Programme",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 1058,
+      "name": "Patrick J. McGovern Foundation — Grants",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 116,
+      "name": "Funding the Commons — Residencies, Hackathons & QF Rounds",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 132,
+      "name": "MassChallenge (Equity-Free Accelerator)",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 236,
+      "name": "South-to-South AI Accountability CoLab Microgrants",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 528,
+      "name": "F5 STEM & AI Education Grants",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 535,
+      "name": "AgentX Hackathon 2026",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 1055,
+      "name": "Rust Foundation Maintainers Fund",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "INFO",
+      "id": 1163,
+      "name": "Princess Grace Awards (2027 Cycle) — Theater, Dance & Film",
+      "detail": "unknown status — backfill candidate"
+    },
+    {
+      "check": "deadline_consistency",
+      "level": "FAIL",
+      "id": 1332,
+      "name": "People's Postcode Trust — 2026 Round 3 (Scotland)",
+      "detail": "stored upcoming/recurring/None != derived open/fixed/2026-10-28"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 559,
+      "name": "EIC Advanced Innovation Challenges (AIC)",
+      "detail": "hub variants: 2x same URL, ids 559,11 https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 66,
+      "name": "Data Practice Accelerator Program",
+      "detail": "hub variants: 4x same URL, ids 66,278,206,1058 https://www.mcgovern.org/grants"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 111,
+      "name": "Gitcoin Grants — GG24 & Upcoming Quadratic Funding Rounds",
+      "detail": "hub variants: 2x same URL, ids 111,373 https://grants.gitcoin.co"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 507,
+      "name": "Arbitrum Trailblazer AI Grant Program",
+      "detail": "hub variants: 5x same URL, ids 507,112,439,438,441 https://arbitrum.foundation/grants"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 383,
+      "name": "Trust for Civic Life — Civic Hub Grants",
+      "detail": "hub variants: 2x same URL, ids 383,169 https://trustforciviclife.org/grants"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 178,
+      "name": "Retro9000 — C-Chain Round",
+      "detail": "hub variants: 3x same URL, ids 178,203,489 https://build.avax.network/grants"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 191,
+      "name": "Stable Housing & Empowering Communities RFP",
+      "detail": "hub variants: 2x same URL, ids 191,431 https://about.bankofamerica.com/en/making-an-impact/grant-funding-for-"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 762,
+      "name": "Community Foundation for Greater Atlanta — Grant Opportuniti",
+      "detail": "hub variants: 2x same URL, ids 762,194 https://cfgreateratlanta.org/grant-opportunities"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 499,
+      "name": "Vermont Community Foundation — Nonprofit Capacity Building G",
+      "detail": "hub variants: 2x same URL, ids 499,406 https://vermontcf.org/funds/nonprofit-capacity-building"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 241,
+      "name": "Community Grant Program — Fall 2026 Cycle",
+      "detail": "hub variants: 2x same URL, ids 241,546 https://oregoncf.org/grants-and-scholarships/grants/community-grant-pr"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 289,
+      "name": "Jerry Greenfield National Grassroots Organizing Program",
+      "detail": "hub variants: 2x same URL, ids 289,482 https://benandjerrysfoundation.org/national-grants"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 358,
+      "name": "Small Grants Program (Greater New Haven)",
+      "detail": "hub variants: 2x same URL, ids 358,293 https://www.cfgnh.org/strengthening-nonprofits/grants-to-apply-for/yea"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 294,
+      "name": "Community Grant Program — Building Stability and Belonging",
+      "detail": "hub variants: 3x same URL, ids 294,412,455 https://innovia.org/nonprofits/apply-for-a-grant"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 1036,
+      "name": "Aztec Grants: Wave 3",
+      "detail": "hub variants: 2x same URL, ids 1036,673 https://aztec.network/blog/announcing-aztec-grants-wave-3"
+    },
+    {
+      "check": "dedupe",
+      "level": "WARN",
+      "id": 1375,
+      "name": "Arab Documentary Photography Program (ADPP) — 2027 Cycle",
+      "detail": "hub variants: 2x same URL, ids 1375,1376 https://www.magnumfoundation.org/programs"
+    }
+  ]
+}
