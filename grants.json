@@ -3408,7 +3408,11 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-06"
+    }
   },
   {
     "organization": "EWOR",
@@ -3442,7 +3446,40 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "d763e4d8bc85bc2409ee3ce1ee38243a931c808969184fc97af20bb13b26bfc8",
+      "finalUrl": "https://www.ewor.com/fellowship"
+    },
+    "amountMin": 300000,
+    "amountMax": 2000000,
+    "currency": "EUR",
+    "requirements": [
+      {
+        "item": "Obsession, resilience, and a vision that cannot be ignored",
+        "quote": "We're looking for obsession, resilience, and a vision that can't be ignored."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Ideation Mode: founder at idea or pre-seed stage; with or without co-founder",
+        "Traction Mode: proven founder with product in market, already generating revenue",
+        "Traction Mode: scaling a validated product up to €2M ARR"
+      ]
+    }
   },
   {
     "organization": "XPRIZE Foundation (backed by Google)",
@@ -3475,7 +3512,17 @@
     "effort": "medium",
     "domain": "AI",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "89c76765d0de1f182c8dddc7fd14ee63fd0857a42e115f8a121e42e55f14166c"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "South Park Commons",
@@ -3508,7 +3555,17 @@
     "effort": "high",
     "domain": "Creative",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "b7c820f77db8c0d531e130cb78fdedd79f669c171446ed66b506433eb7d434f2"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Amazon Web Services",
@@ -3539,7 +3596,59 @@
     "effort": "medium",
     "domain": "AI",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "9a31e655ddc92b6dccd2be38931e6b5f0e05fd14a486dd197aca9e2db31a032a"
+    },
+    "amountMin": 5000,
+    "amountMax": 200000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Applicants must select one award category at Round One",
+        "quote": "At the time of Round One application, please select which category best fits your organizational goals."
+      },
+      {
+        "item": "Applicants may only submit one project for the selected category if invited to Round Two",
+        "quote": "Organizations may only submit one project for the category selected."
+      },
+      {
+        "item": "Use of AWS is not required to apply",
+        "quote": "No. The use of AWS is not a requirement to apply for an AWS Imagine Grant."
+      },
+      {
+        "item": "Proposals are accepted once annually",
+        "quote": "We accept proposals once annually."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-03-28",
+      "deadlineDate": "2026-06-05",
+      "durationMonths": 12,
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "restricted:US,GB,CA,AU,NZ",
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be a registered nonprofit with 501(c) status based in the United States for the U.S. grant",
+        "Educational institutions are excluded",
+        "Children’s Health Innovation Award is by invitation only in 2026",
+        "Each organization may submit only one application per award cycle",
+        "Applicants may apply for only one award category",
+        "Past winners should wait one calendar year or one cycle before reapplying, unless the project is clearly and sufficiently different"
+      ]
+    }
   },
   {
     "organization": "Patrick J. McGovern Foundation",
@@ -3570,7 +3679,24 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "47084fea2870e58518ed79b59d171b5889a2d6476aae2ed2194b657634a98bcd"
+    },
+    "amountMin": 25000,
+    "amountMax": 500000000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2017-07-28",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Google",
@@ -3601,7 +3727,11 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-06"
+    }
   },
   {
     "organization": "Microsoft",
@@ -3632,7 +3762,66 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "7f4fa68ab3e8ea1e6674d531529b69f01a297bf80524ca18e2402c8a5f745ec0"
+    },
+    "requirements": [
+      {
+        "item": "Must complete nonprofit registration with an employee or strategic volunteer; third-party IT provider may not complete registration on behalf of nonprofit",
+        "quote": "The person completing the nonprofit registration must be an employee or strategic volunteer of the nonprofit."
+      },
+      {
+        "item": "Must regularly complete an attestation to donor rules to maintain eligibility",
+        "quote": "Microsoft requires that grantees regularly complete an attestation to our donor rules to maintain eligibility."
+      },
+      {
+        "item": "Must maintain at least 85% active usage of all granted licenses",
+        "quote": "failure to maintain at least 85% active usage of all granted licenses"
+      },
+      {
+        "item": "Cannot share, transfer, rent, or resell nonprofit licenses or subscriptions with/to other organizations or individuals",
+        "quote": "Organizations cannot share, transfer, rent, or resell nonprofit licenses or subscriptions with/to other organizations or individuals"
+      },
+      {
+        "item": "Groups with centrally managed IT systems are only eligible for one grant account",
+        "quote": "groups with centrally managed information technology (IT) systems are only eligible for one grant account"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be a nonprofit or non-governmental organization with recognized legal status in their respective country",
+        "May be a public library providing general library services without charge to all residents",
+        "May be a public museum open to the public that conserves and exhibits tangible objects",
+        "May be certain United States healthcare organizations, specifically CAHs, REHs, FQHCs, FQHC Look-Alikes, RHCs, SNFs, and LTC facilities",
+        "Must operate on a not-for-profit basis and have a mission to benefit the local community",
+        "Ineligible: nonprofit organizations without recognized legal status in their respective country",
+        "Ineligible: governmental organizations or agencies, including international governmental organizations and United Nations Entities",
+        "Ineligible: schools, colleges and universities, including formal educational institutions, nonprofit schools, and academic museums",
+        "Ineligible: public utilities, including public transportation, telecommunications, and utilities",
+        "Ineligible: financial institutions, including banks, insurance providers, and pension and retirement funds",
+        "Ineligible: professional, commerce and trade associations",
+        "Ineligible: professional and semi-professional sports organizations, including governing bodies, Olympics, and national or international tournaments",
+        "Ineligible: political, labor, and fraternal organizations",
+        "Ineligible: refurbishers installing software on refurbished computers to be distributed or donated to nonprofits or schools",
+        "Ineligible: individuals",
+        "Registration must be completed by an employee or strategic volunteer of the nonprofit; third-party IT providers may not register on its behalf",
+        "Nonprofit discounts and grants are permitted for specific employees and volunteers; beneficiaries, donors, and members are not eligible",
+        "Granted licenses are only permitted for paid employees and unpaid executive staff if all organization eligibility is met",
+        "Discounted licenses are permitted for all staff, including volunteers and temporary staff"
+      ]
+    }
   },
   {
     "organization": "Salesforce Foundation",
@@ -3663,7 +3852,43 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "47cee815177b70f3b80cecf92ac1df4d370f89498f35d94818ca1d7d290e5d32",
+      "finalUrl": "https://www.salesforce.com/company/power-of-us/?bc=HL"
+    },
+    "requirements": [
+      {
+        "item": "Submit application through the Power of Us portal",
+        "quote": "Log in to the Power of Us portal to submit your application."
+      },
+      {
+        "item": "Have Tax ID Number and legal documentation",
+        "quote": "Be sure to have your Tax ID Number and Legal Documentation: 501(c)(3) or 501(c)(4) IRS determination letter in the U.S., or relevant tax document for your country"
+      },
+      {
+        "item": "After approval, log back into portal to select discounted product",
+        "quote": "Once you receive an approval email, log back into the Power of Us Portal with your Trailblazer profile to select your discounted product."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be an educational institution or nonprofit organization",
+        "Must have Tax ID Number and legal documentation",
+        "Must comply with Salesforce’s Acceptable Use Policy"
+      ]
+    }
   },
   {
     "organization": "Salesforce Foundation",
@@ -3694,7 +3919,41 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "b7611d3de4935bf287158d52aa5e833feba0cb4eaac5414f796b595f5347d87d",
+      "finalUrl": "https://www.salesforce.com/news/stories/agents-for-impact-accelerator-announcement/?bc=HL"
+    },
+    "amountMin": 2000000,
+    "amountMax": 27000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Solutions will be evaluated for feasibility and alignment with Salesforce products",
+        "quote": "Solutions selected for the accelerator will be evaluated for feasibility and alignment with Salesforce products to ensure the best fit and maximum impact."
+      }
+    ],
+    "timeline": {
+      "decisionDate": "2025-03-28",
+      "deadlineDate": "2024-11-19",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Nonprofit organizations only"
+      ]
+    }
   },
   {
     "organization": "Google.org",
@@ -3725,7 +3984,37 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "c6d2702ea609d4f1bfa56c84d8f47eccc73e7bcb35be6e39663ad653ebc75890"
+    },
+    "amountMin": 30000000,
+    "amountMax": 30000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Organizations must harness generative AI.",
+        "quote": "organizations harnessing the power of generative AI to unlock potential for everyone, everywhere."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2025-01-28",
+      "durationMonths": 6
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ]
+    }
   },
   {
     "organization": "Fast Forward",
@@ -3756,7 +4045,68 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "d575c2094f1c5ff5638f20143d5458669f0496d9b5c3c040ccfd8f7d67cb625e"
+    },
+    "amountMin": 25000,
+    "amountMax": 25000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Pursue a nonprofit business model to fund your work",
+        "quote": "You are pursuing a nonprofit business model to fund your work."
+      },
+      {
+        "item": "Have at least a minimum viable product (MVP) built",
+        "quote": "You have at least a minimum viable product (MVP) built."
+      },
+      {
+        "item": "Leadership: Visionary leaders who can navigate both the tech and nonprofit worlds",
+        "quote": "Leadership: Visionary leaders who can navigate both the tech and nonprofit worlds."
+      },
+      {
+        "item": "Tech Talent: Mission-driven tech talent in leadership roles or solid plans to bring tech guidance on board",
+        "quote": "Tech Talent: Mission-driven tech talent in leadership roles or solid plans to bring tech guidance on board."
+      },
+      {
+        "item": "Impact Potential: The scale and depth of the organization’s potential impact",
+        "quote": "Impact Potential: The scale and depth of the organization’s potential impact."
+      },
+      {
+        "item": "Scalability: Software-based solutions with high growth potential",
+        "quote": "Scalability: Software-based solutions with high growth potential."
+      },
+      {
+        "item": "Lived Experience: Leaders who have personally experienced a problem",
+        "quote": "Lived Experience: We believe leaders who have personally experienced a problem are best equipped to address it."
+      },
+      {
+        "item": "Alignment: Organizations where Fast Forward’s skills and expertise can make a difference",
+        "quote": "Alignment: Organizations where we know Fast Forward’s skills and expertise can make a difference."
+      }
+    ],
+    "timeline": {
+      "durationMonths": 3
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be an early-stage tech or AI-powered nonprofit",
+        "Must pursue a nonprofit business model",
+        "Must have at least a minimum viable product (MVP) built"
+      ]
+    }
   },
   {
     "organization": "Google Cloud",
@@ -3791,7 +4141,11 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-06"
+    }
   },
   {
     "organization": "U.S. Administration for Community Living (HHS)",
@@ -3826,7 +4180,27 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "d4d383b0e7a979ec6a039afd7b100abc1f53907bd34fa5921118958dc90f8396"
+    },
+    "timeline": {
+      "deadlineDate": "2026-07-31",
+      "deadlineType": "fixed",
+      "decisionDate": "2026-10-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.85
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "team"
+      ]
+    }
   },
   {
     "organization": "OpenAI",
@@ -3860,7 +4234,45 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "3511e18381a2cf7d6b4d7a59f6f84d5e3be33bfc17d70aaeaa374cad12790eec"
+    },
+    "requirements": [
+      {
+        "item": "Reference contacts required",
+        "quote": "Reference contacts will be required."
+      },
+      {
+        "item": "Substantial research output by end of program",
+        "quote": "Fellows are expected to produce a substantial research output by the end of the program, such as a paper, benchmark, or dataset."
+      },
+      {
+        "item": "Research ability, technical judgment, and execution prioritized over credentials",
+        "quote": "We prioritize research ability, technical judgment, and execution over specific credentials."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring",
+      "opensDate": "2026-04-06",
+      "deadlineDate": "2026-05-03",
+      "decisionDate": "2026-07-25"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "No internal system access"
+      ]
+    }
   },
   {
     "organization": "Pivotal Research (London Initiative for Safe AI)",
@@ -3895,7 +4307,48 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "8eb00c773836ddc75014d9086dcafe81fdd933e930c953cd22373d26e2dd187e"
+    },
+    "requirements": [
+      {
+        "item": "Written application including interests and mentor preferences",
+        "quote": "You, your interests, mentor preferences."
+      },
+      {
+        "item": "Short recorded video interview",
+        "quote": "Short recorded interview."
+      },
+      {
+        "item": "Mentor-specific research exercise",
+        "quote": "Mentor-specific research exercise."
+      },
+      {
+        "item": "Personal interview with team or mentors",
+        "quote": "With the team or your mentors."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be 18 or older",
+        "Must participate in person in London, with rare exceptions for strong independent research track record",
+        "Must be full-time",
+        "Must apply to at least one mentor",
+        "No employment by Pivotal; applicant responsible for entry requirements/visa"
+      ]
+    }
   },
   {
     "organization": "Zendesk Foundation",
@@ -3929,7 +4382,41 @@
     "effort": "medium",
     "domain": "AI",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "e7d5af339dea68087bb556a391e91799274a62d12de754e5b19203ced1e6b98b",
+      "finalUrl": "https://techforgood.zendesk.com/hc/en-us"
+    },
+    "amountMax": 50000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Apply by July 15, 2026 to be considered",
+        "quote": "Apply by July 15, 2026 to be considered."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-07-15",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Nonprofits only",
+        "Focus areas: community building, crisis response, or tech career opportunities",
+        "Nonprofit technology initiatives"
+      ]
+    }
   },
   {
     "organization": "a2 Collective (National Institute on Aging, NIH)",
@@ -3964,7 +4451,47 @@
     "effort": "high",
     "domain": "Creative",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "9e56fac07a9815d78b0885d628bc75d84ffa08d375edc428f4c130af91cad665"
+    },
+    "amountMin": 50000,
+    "amountMax": 40000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Principal investigator must demonstrate the skills, knowledge, and environment necessary to carry out the proposed project",
+        "quote": "The principal investigator is not required to have a PhD or MD but must demonstrate the skills, knowledge, and environment necessary to carry out the proposed project."
+      },
+      {
+        "item": "Selected pilot projects must submit additional documentation, including public health service grant application forms and, if applicable, human subjects protection information and subject recruitment criteria",
+        "quote": "Pilot projects selected for funding consideration will be required to submit additional documentation, including public health service grant application forms and, if applicable, human subjects protection information and subject recruitment criteria."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2024-12-02",
+      "deadlineDate": "2025-01-15",
+      "durationMonths": 12,
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Applicant institutions must be within the United States and have a Unique Entity ID (UEI) number",
+        "NIH SBIR/STTR-supported incremental enhancements or new indications/patient populations are not eligible (non-NIH SBIR/STTR awards excluded)"
+      ]
+    }
   },
   {
     "organization": "Mercatus Center, George Mason University (Tyler Cowen)",
@@ -3996,14 +4523,18 @@
     "effort": "high",
     "domain": "Research",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-06"
+    }
   },
   {
     "organization": "NLnet Foundation (EU Next Generation Internet)",
     "category": "Foundation",
     "amount": "€5,000–€50,000 (with possibility to scale up)",
     "deadline": "June 1, 2026, 12:00 CEST",
-    "deadlineDate": "2026-06-01",
+    "deadlineDate": "2026-11-03",
     "eligibility": "Open to SMEs, individuals, communities and organisations of any type; work must be released as open source / open access.",
     "description": "Small-to-medium R&D grants for free/open digital commons spanning software, standards, data and AI. For-profit SMEs are eligible provided the funded component is published under a recognized open-source license.",
     "url": "https://nlnet.nl/commonsfund/",
@@ -4027,8 +4558,22 @@
     "_updated": "2026-05-30",
     "effort": "medium",
     "domain": "Open Source",
-    "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineStatus": "open",
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "772a4c90b6e2dec6acd5e4600a39877486d6f9ad7a592a1194522fcb39dd0932"
+    },
+    "timeline": {
+      "deadlineDate": "2026-11-03",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.9
+    }
   },
   {
     "organization": "Cosmos Institute",
@@ -4060,7 +4605,43 @@
     "effort": "low",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-06",
+      "contentHash": "ef3e29f47ca8327ff14eb2f28f7957017f97b4647bb8589ff24d89b35de381c6",
+      "finalUrl": "https://www.cosmos-institute.org/grants"
+    },
+    "amountMin": 1000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Build a working prototype",
+        "quote": "90 days to build a working prototype"
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring",
+      "deadlineDate": "2026-07-26",
+      "durationMonths": 3
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "IHS track: Faculty, graduate students, and academic researchers in humanities, social sciences, philosophy, public policy, and law",
+        "Focus on early-stage projects that advance truth-seeking",
+        "Areas of interest include technology that supports the open contestation of ideas and human judgment in knowledge production",
+        "Areas of interest include reducing excessive deference to AI systems and systems that support our capacity for self-formation"
+      ]
+    }
   },
   {
     "organization": "Advanced Research + Invention Agency (ARIA), UK Government",
@@ -4092,7 +4673,29 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "2ba789af46a7a0c2078058b42dc4b86666107972b2c9a4f6c75b35017759199b"
+    },
+    "amountMin": 100000,
+    "amountMax": 20000000,
+    "currency": "GBP",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual",
+        "team"
+      ]
+    }
   },
   {
     "organization": "Frontier Model Forum (Anthropic, Google, Microsoft, OpenAI)",
@@ -4124,7 +4727,38 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "a0082412c14f895676a6cc3bc0e8d218cc8a99ae7d7a66e420463f1a06c92f7a"
+    },
+    "amountMin": 10000000,
+    "amountMax": 10000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Independent research promoting responsible development of frontier AI models",
+        "quote": "supports independent research that promotes the responsible development of frontier AI models"
+      },
+      {
+        "item": "Research minimizing risk of frontier AI systems to public safety and security",
+        "quote": "minimizes the risk of frontier AI systems to public safety and security"
+      },
+      {
+        "item": "Research enabling standardized, third-party evaluations of frontier AI capabilities",
+        "quote": "enables standardized, third-party evaluations of frontier AI capabilities"
+      },
+      {
+        "item": "Narrowly-scoped research projects targeting urgent bottlenecks to further progress in AI safety and security",
+        "quote": "narrowly-scoped research projects that target urgent bottlenecks to further progress in AI safety and security"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Manifund",
@@ -4156,7 +4790,50 @@
     "effort": "high",
     "domain": "AI",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "b5b6fbedd941a58de0a58aea46525c1d9b30e47510cb0f845fe155b13a5ffaae"
+    },
+    "amountMin": 50000,
+    "amountMax": 50000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Grants must be legitimate, legal, and aligned with Manifund's mission",
+        "quote": "We review the grant to make sure it is legitimate, legal, and aligned with our mission."
+      },
+      {
+        "item": "Manifund may veto grants for any reason",
+        "quote": "We reserve the right to veto grants for any reason, though we expect to often defer to our regrantors’ judgement."
+      },
+      {
+        "item": "All grant information is made public",
+        "quote": "Currently all grant information is made public. This includes the identity of the regrantor and grant recipient, the project description, the grant size, and the regrantor’s writeup."
+      },
+      {
+        "item": "Approved funds go to the grantee's Manifund account for withdrawal",
+        "quote": "If we approve the grant, the money will be transferred to the grantee's Manifund account, at which point they request to withdraw and we send them their funds."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "Political campaigns and lobbying generally not permitted",
+        "For-profit organizations may be eligible pending due diligence",
+        "Regrantors generally may not pay their own salaries"
+      ]
+    }
   },
   {
     "organization": "Mozilla",
@@ -4188,7 +4865,51 @@
     "effort": "high",
     "domain": "Open Source",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "b069e8a682cad58e818f3e54555634bf4b811c8e8b10fe49ebaa3b3da86cb9bf"
+    },
+    "amountMax": 100000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Project must fit within the definition of Local AI.",
+        "quote": "A project that fits within the definition of Local AI."
+      },
+      {
+        "item": "Project must have a clear open source license.",
+        "quote": "A clear open source license."
+      },
+      {
+        "item": "Participants must commit to actively participate in the program on a full time basis.",
+        "quote": "A commitment from participants to actively participate in the program on a full time basis."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling",
+      "opensDate": "2024-06-03",
+      "decisionDate": "2024-08-31"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team",
+        "org"
+      ],
+      "restrictions": [
+        "Must be able to attend both the in-person Kick Off starting on Sep 12, 2024 and the in-person Demo Day on Dec 5, 2024.",
+        "Applicants may already have a company or may not want to start a company.",
+        "Applicants in school are considered, including those who want to leave academia or take a break to become full time participants."
+      ]
+    }
   },
   {
     "organization": "Astera Institute",
@@ -4220,7 +4941,62 @@
     "effort": "high",
     "domain": "Web3 / Public Goods",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-06",
+      "contentHash": "678d6927345010ed4850a4b55fb0e51c070172d8ec2e490c1e65e10cf4fc907c"
+    },
+    "amountMin": 0,
+    "amountMax": 1500000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Projects should align with Astera's focus areas",
+        "quote": "We are prioritizing projects that align with Astera’s focus areas, where our expertise and resources can meaningfully accelerate progress."
+      },
+      {
+        "item": "Proposed work should be early stage and well scoped for a 12–18 month residency",
+        "quote": "The proposed work should be early stage and well scoped for a 12–18 month residency."
+      },
+      {
+        "item": "Projects should build things people will actually use",
+        "quote": "Projects should build things that people will actually use—tools, infrastructure, or insights with real pathways to adoption."
+      },
+      {
+        "item": "Work should advance outcomes that benefit society broadly",
+        "quote": "In the long run, this work should advance outcomes that benefit society broadly."
+      },
+      {
+        "item": "Majority of work should be open, accessible, and non-proprietary",
+        "quote": "The majority of work should be open, accessible, and non-proprietary."
+      },
+      {
+        "item": "Residents should enable others to build on outputs and share what worked and did not",
+        "quote": "Residents should enable others to build on their outputs and be willing to share both what worked and what did not, so others can learn from the full arc of the work."
+      },
+      {
+        "item": "Proposed work should be well matched to the people doing it",
+        "quote": "The proposed work should be well matched to the people doing it."
+      },
+      {
+        "item": "Residents should bring relevant expertise, judgment, agency, and align with Astera's principles",
+        "quote": "Residents should bring the relevant expertise, judgment, and agency, be aligned with Astera’s principles, and contribute positively to the intellectual and collaborative fabric of the Astera community."
+      }
+    ],
+    "timeline": {
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-06",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Residency is based in Emeryville, California, at an in-person hub"
+      ]
+    }
   },
   {
     "organization": "Pulitzer Center",
@@ -25972,7 +26748,7 @@
     "amount": "Full grant: round-trip travel, monthly living stipend, and health benefits for ~9-12 months of study/research abroad (varies by country)",
     "deadline": "October 6, 2026, 5pm ET (national deadline; campus deadlines 4-6 weeks earlier for enrolled students)",
     "deadlineDate": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "U.S. citizens/nationals with a bachelor's degree by award start date and no PhD; at-large applicants (not enrolled anywhere) may apply directly; typically <7 years professional experience in field",
     "description": "Flagship U.S. exchange program funding self-designed study/research projects abroad, including AI and technology policy research with foreign university advisers. The 2027-28 competition is open as of June 2026.",
@@ -26135,7 +26911,7 @@
     "amount": "Up to $10,000 per organization; up to $20,000 for coalitions of 2+ groups",
     "deadline": "Monthly review cycles — next deadline July 7, 2026 (then Sept 8 and Oct 6, 2026)",
     "deadlineDate": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "US-based youth-led gender-justice and social-justice groups with budgets under $500,000; 501(c)(3) or fiscal sponsorship NOT required",
     "description": "Rapid-response fund for gender-justice organizing responding to urgent threats or unexpected opportunities. Verified 2026 cycles: applications for the July cycle opened June 3 and close July 7, 2026. Applications can be a 1-page proposal, a 10-minute video, or a phone interview.",
@@ -36643,7 +37419,7 @@
     "amount": "Research grants (funding amount varies by proposal)",
     "deadline": "October 6, 2026",
     "deadlineDate": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Researchers studying AI and teen development; applications reviewed on a rolling basis with notifications by Nov 13, 2026. Independent and affiliated researchers may apply.",
     "description": "OpenAI funding call for new research into how AI affects teen development and wellbeing. Applications are accepted through Oct 6, 2026 on a rolling basis, with award notifications on or before Nov 13, 2026.",
@@ -36675,7 +37451,7 @@
     "amount": "US$500,000 per grant (50 grants; $25M total)",
     "deadline": "Letter of Inquiry due October 6, 2026, 12:00pm ET",
     "deadlineDate": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Nonprofit/community organizations preparing low-income youth for an AI-driven economy; global.",
     "description": "The 4th Global Innovation Challenge funds 50 community organizations at $500,000 each to pilot or scale solutions helping young people build AI and digital skills. Stage 1 is a short Letter of Inquiry; invited applicants submit a full application in early December 2026.",
@@ -40323,7 +41099,7 @@
     "category": "Foundation",
     "amount": "Full funding for a Stanford graduate degree (tuition, living stipend, travel), up to 3 years",
     "deadline": "October 6, 2026, 1:00 PM PT (plus the Stanford degree application by Dec 1, 2026 or earlier)",
-    "deadlineDate": "2026-10-06",
+    "deadlineDate": "2026-12-01",
     "deadlineStatus": "open",
     "deadlineType": "fixed",
     "eligibility": "Applicants from any country who earned a bachelor's degree in 2020 or later (military exceptions apply) and who apply to and enroll in a full-time Stanford graduate program.",
@@ -44185,7 +44961,7 @@
     "amount": "Up to $150,000 over up to 2 years (up to 30 Fellows per year)",
     "deadline": "October 6, 2026, 12:00 pm CT (window opened Sept 22, 2026)",
     "deadlineDate": "2026-10-06",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Individuals from any sector (business, government, nonprofit, arts, tech) living in Minnesota, North Dakota, South Dakota, or the 23 Native nations that share that geography. You do not need to belong to an institution.",
     "description": "Flexible, self-directed leadership fellowship that pays up to $150K toward a personal plan to grow your skills, knowledge and network (degrees, travel, mentorship, time to learn). Timeline: semifinalists notified Dec 1–4, 2026, finalist interviews in April 2027, fellows announced June 2027.",
