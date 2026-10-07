@@ -490,7 +490,7 @@ function initMatcher(){
 // ---- load ----
 (async function(){
   try{
-    const raw=await (await fetch('/grants.json?v='+Date.now())).json();
+    const raw=await (await fetch('../grants.json?v='+Date.now())).json();
     GRANTS=raw;
     const doms=[...new Set(GRANTS.map(g=>g.domain).filter(Boolean))].sort();
     const sel=document.getElementById('domain');
