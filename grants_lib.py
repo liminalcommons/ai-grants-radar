@@ -289,12 +289,22 @@ def normalise(item):
 
 
 def merge(existing, new_items):
-    """Append new grants, skipping duplicates by id or case-insensitive name.
+    """Append new grants, skipping duplicates by id, exact name, or
+    normalized URL + name containment (catches variant titles like
+    "The Freed Fellowship Grant" vs "Freed Fellowship Grant" that share
+    one page; see dedupe_grants.py). Distinct programs on one hub URL
+    are still added.
 
     Returns the list of names actually added. Mutates `existing`.
     """
+    from dedupe_grants import normalize_url, same_grant
     existing_ids = {g.get("id") for g in existing}
     existing_names = {g.get("name", "").lower() for g in existing}
+    existing_urls = {}
+    for g in existing:
+        key = normalize_url(g.get("url", ""))
+        if key:
+            existing_urls.setdefault(key, []).append(g.get("name", ""))
     added = []
     for raw in new_items:
         item = normalise(raw)
@@ -304,12 +314,20 @@ def merge(existing, new_items):
         if name.lower() in existing_names:
             print(f"  SKIP (duplicate name): {name}")
             continue
+        key = normalize_url(item.get("url", ""))
+        if key and any(
+            same_grant(name, other) for other in existing_urls.get(key, [])
+        ):
+            print(f"  SKIP (same page, variant title): {name}")
+            continue
         if "id" not in item or item["id"] in existing_ids:
             item["id"] = next_id(existing)
         item.setdefault("_updated", TODAY)
         existing.append(item)
         existing_ids.add(item["id"])
         existing_names.add(name.lower())
+        if key:
+            existing_urls.setdefault(key, []).append(name)
         added.append(name)
     return added
 

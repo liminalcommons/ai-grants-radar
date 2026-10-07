@@ -46,3 +46,23 @@ if __name__ == "__main__":
             print(f"PASS {name}")
             passed += 1
     print(f"\n{passed} tests passed.")
+
+
+def test_merge_skips_variant_title_on_same_url():
+    from grants_lib import merge
+    existing = [{"id": 1, "name": "Freed Fellowship Grant",
+                 "url": "https://freedfellowship.com/"}]
+    added = merge(existing, [{"name": "The Freed Fellowship Grant",
+                              "url": "https://freedfellowship.com/?utm_source=x"}])
+    assert added == []
+    assert len(existing) == 1
+
+
+def test_merge_keeps_distinct_hub_programs():
+    from grants_lib import merge
+    existing = [{"id": 1, "name": "Arbitrum Trailblazer AI Grant Program",
+                 "url": "https://example.org/grants"}]
+    added = merge(existing, [{"name": "Arbitrum Audit Program",
+                              "url": "https://example.org/grants"}])
+    assert len(added) == 1
+    assert len(existing) == 2
