@@ -19181,7 +19181,38 @@
     "id": 334,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "86e59102e005170aafea2983ab4d5b4cdceed33d001a3eb0160a7771dc875a45"
+    },
+    "amountMin": 1000,
+    "amountMax": 4500000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Apply by emailing a five minute Loom video",
+        "quote": "Email us (any of us with firstname@1517fund.com) with a five minute Loom video."
+      },
+      {
+        "item": "Grant provides a minimum $1K stipend",
+        "quote": "you and your collaborators will be granted a minimum $1K stipend to further your project"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Applicants must be high school students, college students, dropouts, or deep tech scientists",
+        "Projects must not be for school, a grade, or admissions to other programs"
+      ]
     }
   },
   {
@@ -19216,7 +19247,16 @@
     "id": 335,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2f371615359b84bd95a37bdbbb3e807481d4e7f04dd1a87eed93a25b46de1def"
+    },
+    "amountMax": 10000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -19252,7 +19292,18 @@
     "_updated": "2026-06-02",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "aa4b64c15143f1e21510747dfdfa1eb74c44298c506ef279beaadb042ef29588",
       "finalUrl": "https://cliffamilyfoundation.org/"
+    },
+    "timeline": {
+      "deadlineType": "recurring",
+      "opensDate": "2027-03-01"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.85
     }
   },
   {
@@ -19287,7 +19338,17 @@
     "id": 337,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "163d0bd1f7eda9ffb0c5cf443d4e331f43f49d0cd6034b840cc141ada1df8395"
+    },
+    "amountMin": 7000,
+    "amountMax": 54000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -19322,7 +19383,53 @@
     "id": 338,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "c7ff0674ad6e6e1fb8e5323d7aa4354cbc57732312df9a05441ac7b67498578b"
+    },
+    "requirements": [
+      {
+        "item": "The solution must align with one or more of the fellowship’s thematic areas",
+        "quote": "The solution must align with one or more of the fellowship’s thematic areas."
+      },
+      {
+        "item": "Demonstrate a clear public-interest or social impact focus",
+        "quote": "Demonstrate a clear public-interest or social impact focus, particularly in strengthening civic space, accountability, participation, or service delivery,"
+      },
+      {
+        "item": "Be available to fully participate in the fellowship activities for the duration of the programme",
+        "quote": "Be available to fully participate in the fellowship activities for the duration of the programme,"
+      },
+      {
+        "item": "Be open to mentorship, peer learning, iteration, and collaboration within a regional civic tech ecosystem",
+        "quote": "Be open to mentorship, peer learning, iteration, and collaboration within a regional civic tech ecosystem."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-01-23",
+      "deadlineDate": "2026-02-11",
+      "decisionDate": "2026-02-23",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.95
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Early-stage civic tech ideas and solutions",
+        "Must have tested the idea or been in operation for 1-3 years",
+        "Solution must align with one or more thematic areas",
+        "Must demonstrate a clear public-interest or social impact focus",
+        "Must be available to fully participate in fellowship activities for the duration",
+        "Must be open to mentorship, peer learning, iteration, and collaboration"
+      ]
     }
   },
   {
@@ -19357,7 +19464,17 @@
     "id": 339,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "1277685527583b1ae5a9dcaaf393a4b43f09317950a83da365d9d07007d8d019"
+    },
+    "amountMin": 10000,
+    "amountMax": 650000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -19392,7 +19509,76 @@
     "id": 340,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "4e09e4dccbc18c6ed1158bf3a446a9585cb6afdc666a1127f728d7c824a2d52a"
+    },
+    "amountMin": 3000,
+    "amountMax": 5500000,
+    "currency": "EUR",
+    "requirements": [
+      {
+        "item": "Cases must go beyond the individual by advancing digital rights through legislative, policy or social change and increasing capacity and collaboration in the digital rights community.",
+        "quote": "To be considered for funding, cases need to go beyond the individual by advancing digital rights through legislative, policy or social change and increasing capacity and collaboration in the digital rights community."
+      },
+      {
+        "item": "Application must demonstrate the concrete objectives of the litigation.",
+        "quote": "the concrete objectives of the litigation;"
+      },
+      {
+        "item": "Application must demonstrate a plan to embed the litigation in a broader strategy for change.",
+        "quote": "a plan to embed the litigation in a broader strategy for change;"
+      },
+      {
+        "item": "Application must demonstrate which groups/communities are most affected and how they will be involved in a way that is not extractive or harmful.",
+        "quote": "which groups/communities are most affected by the digital rights issue in question and how they will be involved in a way that is not extractive or harmful;"
+      },
+      {
+        "item": "Application must demonstrate the best forum to litigate in order to achieve the pursued objectives.",
+        "quote": "the best forum to litigate in order to achieve the pursued objectives;"
+      },
+      {
+        "item": "Application must demonstrate possible instances of litigation necessary to achieve objectives, including appeals and referrals to regional courts.",
+        "quote": "the possible instances of litigation that may be necessary to achieve the litigation objective(s), including appeals and referrals to regional courts;"
+      },
+      {
+        "item": "Application must demonstrate how the litigation relates to other existing or planned activities on the subject matter, domestically and in Europe.",
+        "quote": "how the litigation relates to other existing or planned activities on the litigation's subject matter – both litigation and otherwise – domestically and in Europe;"
+      },
+      {
+        "item": "Application must demonstrate why litigation is an appropriate tool to employ in this context.",
+        "quote": "why litigation is an appropriate tool to employ in this context;"
+      },
+      {
+        "item": "Application must demonstrate identified risks and weaknesses of the litigation and a strategy for mitigation.",
+        "quote": "the identified risks and weaknesses of the litigation and a strategy for mitigation;"
+      },
+      {
+        "item": "Application must demonstrate a plan for implementation in case of a positive outcome and mitigation in case of a negative or mixed outcome.",
+        "quote": "a plan for implementation in case of a positive outcome of the litigation and mitigation in case of a negative or mixed outcome;"
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-06-28",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team",
+        "org"
+      ],
+      "restrictions": [
+        "Applicants based outside the Council of Europe can be considered only if their litigation activities take place in the Council of Europe.",
+        "Pre-litigation support does not include broad research or general scoping about unplanned litigation.",
+        "DFF will not tolerate sexist, racist, ageist, homophobic, transphobic, ableist, religiously insensitive or exclusionary behaviour."
+      ]
     }
   },
   {
@@ -19426,7 +19612,40 @@
     "id": 341,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "17d7140a0e4bbd954d2041f5210c65f9c0700a68f403444483554851d336ff9d"
+    },
+    "amountMin": 10000,
+    "amountMax": 1500000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Phase 2 written application required if phase 1 criteria met",
+        "quote": "Applicants in phase 1 who meet our criteria will be asked to complete a phase 2 written application."
+      },
+      {
+        "item": "Final interview required for recipient selection",
+        "quote": "They will then select our 9 recipients after a final interview."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "restricted:US,CA",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Age 18 or older",
+        "Residency restricted to U.S. and Canada, excluding Québec",
+        "Must be a blue collar business owner or aspiring business owner",
+        "Excludes home-based or retail businesses that primarily provide or sell goods and services online, from home, or from brick-and-mortar locations"
+      ]
     }
   },
   {
@@ -19460,7 +19679,21 @@
     "id": 342,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6d5f390303de5493dfdb822fc8a9a8234a9d9df1db1f61d4fbce5df6eb24cca1"
+    },
+    "amountMin": 1000,
+    "amountMax": 150000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2026-06-01",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -19495,7 +19728,14 @@
     "id": 343,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "970e1c0b15f6d21dcfe012ed98bd7f910552797b575092b7c4f479cd99b2ec0c"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -19530,7 +19770,27 @@
     "id": 344,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "8c32bfcd479ce3ab1faa220e74d26f351c2e9399203d351da638e5df4880eb02"
+    },
+    "timeline": {
+      "durationMonths": 6
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Open Innovation Grants target developers and founders driving early-stage ecosystem development",
+        "Strategic Grants target high-caliber teams driving long-term value and adoption"
+      ]
     }
   },
   {
@@ -19565,7 +19825,50 @@
     "id": 345,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "4b37300282fef222cbbab3b1b64c3fa2897cdeccec6741951b03bba933475c43"
+    },
+    "amountMin": 10000,
+    "amountMax": 250000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "requirements": [
+      {
+        "item": "Startup Track applicants must submit their application by March 9",
+        "quote": "interested teams must submit their application by March 9"
+      },
+      {
+        "item": "Startup Track top candidates must complete standard interview, subject matter expert interview, and 500 word light paper",
+        "quote": "Top candidates will go through an interview process: - 1x Standard interview - 1x subject matter expert interview - Light paper (500 word submission)"
+      },
+      {
+        "item": "Student Track applicants must submit their application by April 27",
+        "quote": "Undergraduate students from around the world may form teams and submit their application by April 27 to be eligible."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-02-17",
+      "deadlineDate": "2026-03-09",
+      "decisionDate": "2026-03-22",
+      "deadlineType": "fixed"
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Startup Track for pre-seed teams that have raised less than ~$250k",
+        "Student Track open only to undergraduate students; teams may include students from multiple universities",
+        "Robotics Track requires expertise, experience, or strong interest in building robotics use-cases"
+      ]
     }
   },
   {
@@ -19636,7 +19939,28 @@
     "id": 347,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "293a77f8151dfdc06e986f2146266b26b49d1c47760f8ed16f5345ef79435d89"
+    },
+    "timeline": {
+      "deadlineType": "recurring",
+      "opensDate": "2026-04-01"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Startup"
+      ]
     }
   },
   {
@@ -19672,7 +19996,28 @@
     "_updated": "2026-06-02",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "69f647b4a8f2772de7ce0542e80ec95331bc1a37573131df832251cdc020dac2",
       "finalUrl": "https://interledger.org/grant/innovation/grant-web/"
+    },
+    "amountMin": 400000,
+    "amountMax": 400000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Digital publishers",
+        "content creators",
+        "platform developers",
+        "researchers"
+      ]
     }
   },
   {
@@ -19707,7 +20052,17 @@
     "id": 349,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "71b94cc76639277a18609a0ee56aa3cccaca6525dd8e474d0e8bfd53fcbe2fda"
+    },
+    "amountMin": 0,
+    "amountMax": 680000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -19742,7 +20097,35 @@
     "id": 350,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "975c88e2b80eca7f57f18f1afa07b340e965373687ba87ad09a3233eaaf4c2aa"
+    },
+    "amountMin": 250000,
+    "amountMax": 250000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Want to build new things",
+        "quote": "young people who want to build new things"
+      }
+    ],
+    "timeline": {
+      "durationMonths": 24
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be young people",
+        "Must skip or stop out of college"
+      ]
     }
   },
   {
@@ -19814,7 +20197,17 @@
     "_updated": "2026-06-02",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f63982f1eeb692b75a4f8995cc76ce1bb2d29c2d6e6656802ce63da5fe523938",
       "finalUrl": "https://www.biafarin.com/p/boaps.html?SCH=43101"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "global"
     }
   },
   {
@@ -19849,7 +20242,40 @@
     "id": 353,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f75765a5ae5419042babdecf8cc8275ffa3229a573ee0bf8b94c363262fad3fb"
+    },
+    "amountMin": 15000,
+    "amountMax": 15000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Proposed project must result in work that can be shared publicly, whether through exhibition, installation, publication, or other visual presentation",
+        "quote": "one that results in work that can be shared publicly, whether through exhibition, installation, publication, or other visual presentation."
+      },
+      {
+        "item": "Applicants will be asked to provide documentation of eligibility",
+        "quote": "Applicants will be asked to provide documentation of eligibility."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "restricted:US,CA",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be an enrolled member of a U.S. federally or state-recognized American Indian tribe or Alaska Native corporation, of Native Hawaiian ancestry, or a member of a recognized First Nation in Canada",
+        "Must provide documentation of eligibility",
+        "Early-career Native and Indigenous artists",
+        "Does not support performing arts such as musical composition, musical performance, screenplays, or full-length film/video projects"
+      ]
     }
   },
   {
@@ -19884,7 +20310,58 @@
     "id": 354,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "86adb9e2e042566cedaca9459f362fc42e0440a96b70f53a9747ed500f05d06a"
+    },
+    "amountMin": 500,
+    "amountMax": 3000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Statement about who you are as a creator",
+        "quote": "Statement about who you are as a creator"
+      },
+      {
+        "item": "Statement on how neurodiversity and/or disability manifest in your work",
+        "quote": "Statement on how neurodiversity and/or disability manifest in your work. Your work doesn’t have to directly be about neurodiversity or disability."
+      },
+      {
+        "item": "Examples of your work",
+        "quote": "Examples of your work"
+      },
+      {
+        "item": "Verify identity before receiving funds if selected",
+        "quote": "If you are selected, we will need to verify your identity before sending the funds."
+      },
+      {
+        "item": "Documentation on how grant was spent if funded",
+        "quote": "If you receive a grant from us, we will need some basic documentation on how the grant was spent."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Applicants must be neurodivergent and/or disabled creators",
+        "No formal diagnosis required",
+        "Minors require guardian approval",
+        "No urgent/emergency funding outside scheduled grant rounds",
+        "Cannot provide aid for tuition costs",
+        "Cannot fund political campaign related activities",
+        "Only 1 Creator Grant application per year (not per round); may apply for one Mutual Aid Grant and one Creator Grant each year"
+      ]
     }
   },
   {
@@ -19920,7 +20397,17 @@
     "_updated": "2026-06-02",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "3716d9e5692525f98b8b114cc54827a6392c4646fada0d15f84164b741427b27",
       "finalUrl": "https://www.jracraft.org/chrysalis-award.html"
+    },
+    "amountMin": 5000,
+    "amountMax": 5000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -19955,7 +20442,25 @@
     "id": 356,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "0d99d905b0d5395fcb5511b627573a180a6a9a7e4502f1aad37c15b4685e56ec"
+    },
+    "amountMin": 5000,
+    "amountMax": 250000,
+    "currency": "USD",
+    "timeline": {
+      "decisionDate": "2024-02-01"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "charitable and scientific projects"
+      ]
     }
   },
   {
@@ -19990,7 +20495,14 @@
     "id": 357,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "e01fca2c1097637f5fd48c7fe3637bc6aa28ad0c68331122f65cebe3f6ab4288"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -20024,7 +20536,61 @@
     "id": 358,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "cbae01f52a0902c250067c4fb1cfca679c5dfa2bed7ceca61322ec50ae0669c4"
+    },
+    "amountMin": 3000,
+    "amountMax": 1500000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Applicants must meet The Foundation's minimum eligibility requirements",
+        "quote": "Applicants must meet The Foundation's minimum eligibility requirements."
+      },
+      {
+        "item": "Applications reviewed on a first-come, first-served basis",
+        "quote": "Applications are reviewed on a first-come, first-served basis."
+      },
+      {
+        "item": "Funding decisions made on a rolling basis at monthly committee meetings",
+        "quote": "Funding decisions are made on a rolling basis at monthly committee meetings."
+      },
+      {
+        "item": "Application review process takes approximately 6 - 8 weeks",
+        "quote": "The application review process takes approximately 6 - 8 weeks."
+      },
+      {
+        "item": "No longer accepting Small Grant Inquiries",
+        "quote": "Due to current volume, we are no longer accepting Small Grant Inquiries."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Tax-exempt status or fiscal agent required",
+        "Operating budget between $10,000 and $1.5M in most recently completed fiscal year",
+        "Base of operations within the Community Foundation's fifteen-town region",
+        "Serving people within the Community Foundation's fifteen-towns",
+        "Active programming continuously for previous twelve months",
+        "Nonprofits based in Ansonia, Derby, Oxford, Seymour or Shelton must apply to Valley Community Foundation",
+        "Regional and statewide organizations based in Greater New Haven can only apply for Program Support",
+        "Cannot apply if current Responsive grant ends later than December 31, 2026",
+        "Previous four-year grantees must be up to date with all reporting requirements",
+        "Small grants can be received only once in a period of two calendar years",
+        "Organizations can apply for either a Small Grant OR a Multi-Year Grant – not both"
+      ]
     }
   },
   {
@@ -20093,7 +20659,45 @@
     "id": 360,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "89dde3c50f45927e70a0a9737eaa3b83ba30a1cc0682622936044201ce481dfc"
+    },
+    "amountMin": 10000,
+    "amountMax": 10000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Application includes organizational information, background, technology project details, and project impact",
+        "quote": "Part Two: Organizational Information"
+      },
+      {
+        "item": "Winners must agree to send at least one representative to the Tech Forward Conference in September",
+        "quote": "Yes, winners should agree to send at least one representative to the Tech Forward Conference in September."
+      },
+      {
+        "item": "Winners are asked to provide six month updates to Tech Impact",
+        "quote": "Winners are asked to provide six month updates to Tech Impact for assistance and promotional purposes only."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be a 501(c)3 or 501(c)4 charitable organization",
+        "Excludes churches, religious organizations, private schools, colleges, or universities, nonprofit hospitals, cooperative hospital service organizations, and governmental units",
+        "Must demonstrate fiscal responsibility",
+        "Must be inclusive and embrace diversity",
+        "Must have an annual operating budget of at least $500,000",
+        "Must send a representative to the conference to accept the award"
+      ]
     }
   },
   {
@@ -20128,7 +20732,31 @@
     "id": 361,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "62abcb6341286fe3abbf9f96c45dede7b7a44182f6446ea4870deaee407f6080"
+    },
+    "amountMin": 20000,
+    "amountMax": 20000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "501(c)(3) nonprofit organization in operation for at least 12 months",
+        "Annual revenue not exceeding $400,000",
+        "Mission and programs dedicated to human rights, girls' and women’s empowerment, or LGBTQ+ causes",
+        "Based in and serving communities in the United States",
+        "Organizations affiliated with Cause Strategy Partners employees or advisory board members are ineligible"
+      ]
     }
   },
   {
@@ -20163,7 +20791,29 @@
     "id": 362,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "cc8a953db9f61956356656d0fdd8102f70e9af836a1b52efaeaece39b412be6c"
+    },
+    "amountMin": 0,
+    "amountMax": 40000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be an arts and cultural nonprofit",
+        "Primary mission must be to produce or support arts and cultural activities",
+        "Annual operating budget of $1 million or less",
+        "Priority for communities with less access to mainstream funding"
+      ]
     }
   },
   {
@@ -20197,7 +20847,56 @@
     "id": 363,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "00476b62bdc34f21e73260c3c80374b17876d7a5be0b4b6577733b6142e2abdb"
+    },
+    "amountMin": 1200,
+    "amountMax": 1200,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Application fee (USD) $30",
+        "quote": "Application fee: (USD) $30"
+      },
+      {
+        "item": "Submit by email to submit@artistgrant.org",
+        "quote": "By July 15, email the following to submit@artistgrant.org:"
+      },
+      {
+        "item": "Provide a link to your website",
+        "quote": "A link to your website"
+      },
+      {
+        "item": "Provide 3–5 images of your artwork (JPG, PNG, or PDF)",
+        "quote": "3–5 images of your artwork (JPG, PNG, or PDF)"
+      },
+      {
+        "item": "Provide a resume, CV, or brief bio that includes your name",
+        "quote": "A resume, CV, or brief bio that includes your name"
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-07-15",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be a visual artist",
+        "Must be aged 18 or older",
+        "Past winners are not eligible to apply again",
+        "Film/video, music, theater, dance not accepted"
+      ]
     }
   },
   {
