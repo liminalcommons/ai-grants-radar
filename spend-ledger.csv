@@ -339,3 +339,27 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-07T12:19:21.996993+00:00,refresh-extract/1,deepseek-v4.1-flash,2015,2966,35905,200,
 2026-10-07T12:19:51.633374+00:00,refresh-extract/2,deepseek-v4.1-flash,4264,2444,29621,200,
 2026-10-07T12:20:27.125607+00:00,refresh-extract/3,deepseek-v4.1-flash,2957,2411,35476,200,
+2026-10-07T12:34:56.387215+00:00,refresh-extract/1,deepseek-v4.1-flash,1386,2614,40992,200,
+2026-10-07T12:35:56.445328+00:00,refresh-extract/2,deepseek-v4.1-flash,,,60026,,TimeoutError: The read operation timed out
+2026-10-07T12:36:52.414169+00:00,refresh-extract/3,deepseek-v4.1-flash,971,2994,55962,200,
+2026-10-07T12:37:25.937221+00:00,refresh-extract/4,deepseek-v4.1-flash,2968,2821,33498,200,
+2026-10-07T12:38:26.008468+00:00,refresh-extract/5,deepseek-v4.1-flash,,,60030,,TimeoutError: The read operation timed out
+2026-10-07T12:39:01.816972+00:00,refresh-extract/6,deepseek-v4.1-flash,2193,2969,35784,200,
+2026-10-07T12:40:01.366656+00:00,refresh-extract/7,deepseek-v4.1-flash,5962,2647,59523,200,
+2026-10-07T12:40:35.481919+00:00,refresh-extract/8,deepseek-v4.1-flash,1719,2801,34098,200,
+2026-10-07T12:41:06.195221+00:00,refresh-extract/9,deepseek-v4.1-flash,1029,3062,30701,200,
+2026-10-07T12:41:11.810384+00:00,refresh-extract/10,deepseek-v4.1-flash,2044,321,5588,200,
+2026-10-07T12:42:09.759247+00:00,refresh-extract/11,deepseek-v4.1-flash,3050,3405,57935,200,
+2026-10-07T12:42:47.276744+00:00,refresh-extract/12,deepseek-v4.1-flash,900,2452,37503,200,
+2026-10-07T12:43:22.442659+00:00,refresh-extract/13,deepseek-v4.1-flash,2604,3167,35150,200,
+2026-10-07T12:44:07.773811+00:00,refresh-extract/14,deepseek-v4.1-flash,3497,3314,45315,200,
+2026-10-07T12:45:07.806532+00:00,refresh-extract/15,deepseek-v4.1-flash,,,60024,,TimeoutError: The read operation timed out
+2026-10-07T12:46:07.867747+00:00,refresh-extract/16,deepseek-v4.1-flash,,,60049,,TimeoutError: The read operation timed out
+2026-10-07T12:47:07.600247+00:00,refresh-extract/17,deepseek-v4.1-flash,3099,3299,59717,200,
+2026-10-07T12:47:54.914315+00:00,refresh-extract/18,deepseek-v4.1-flash,2393,2523,47304,200,
+2026-10-07T12:48:29.585642+00:00,refresh-extract/19,deepseek-v4.1-flash,1910,2765,34652,200,
+2026-10-07T12:48:58.234061+00:00,refresh-extract/20,deepseek-v4.1-flash,8881,2777,28582,200,
+2026-10-07T12:49:02.790828+00:00,refresh-extract/21,deepseek-v4.1-flash,629,191,4548,200,
+2026-10-07T12:49:34.648287+00:00,refresh-extract/22,deepseek-v4.1-flash,1121,2403,31848,200,
+2026-10-07T12:50:06.436567+00:00,refresh-extract/23,deepseek-v4.1-flash,1933,3122,31780,200,
+2026-10-07T12:50:46.158407+00:00,refresh-extract/24,deepseek-v4.1-flash,3730,2645,39687,200,

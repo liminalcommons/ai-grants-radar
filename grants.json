@@ -20965,7 +20965,25 @@
     "id": 365,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "9fb38a8cd3e4a28071415be16baaa8f95d55609e071eadba15b67a98a1da9ed0"
+    },
+    "amountMin": 20000,
+    "amountMax": 250000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Pioneer Grants: Projects that have demonstrated outstanding track records and are ready for significant growth.",
+        "Navigator Grants: Projects established on other mainnets looking to expand onto Metis.",
+        "Voyager Grants: Projects that have a Minimum Viable Product that has already been proven to work.",
+        "Explorer Grants: Projects needing help build initial traction and demonstrate their capability in the early stages of development."
+      ]
     }
   },
   {
@@ -21001,7 +21019,21 @@
     "id": 366,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "9eac16ea3a51ac1b885427753a3f89a22c315985703f66d4248202e1b0c1ed08"
+    },
+    "amountMin": 200000,
+    "amountMax": 200000,
+    "currency": "EUR",
+    "timeline": {
+      "deadlineType": "recurring",
+      "opensDate": "2026-07-15"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -21036,7 +21068,51 @@
     "id": 367,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a521c24cc7d24cddd140b24d3f9a6580e04b4f131a0c31ef440d162e3d37a16c"
+    },
+    "amountMin": 10000,
+    "amountMax": 100000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Proposal must include a 1–3 page summary in English explaining the research agenda and timeline up to 6 months, including milestones and deliverables.",
+        "quote": "A 1–3 page summary of the project, in English, explaining the research agenda and timeline (up to 6 months) including milestones and deliverables."
+      },
+      {
+        "item": "Proposal must include a 1 page budget detailing how funds would be spent.",
+        "quote": "A 1 page budget, detailing how funds would be spent."
+      },
+      {
+        "item": "Proposal must include a list of principal investigator(s) and expected contributors with CVs attached.",
+        "quote": "A list of the principal investigator(s) (PIs) and expected contributors with their CVs attached."
+      },
+      {
+        "item": "Proposal must include location and organizational details including tax ID and admin contact information if applicable.",
+        "quote": "Location and organizational details including tax ID and admin contact information if applicable."
+      },
+      {
+        "item": "Proposal must include a primary contact email address.",
+        "quote": "Primary contact email address."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-06-19",
+      "deadlineType": "fixed",
+      "durationMonths": 6
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Applicants through a university, academic institution, research institute, or similar organization must identify institutional overhead and similar charges in the budget.",
+        "Indirect costs for university/academic/research institute/similar organization applicants may not exceed 10% of the cash grant amount.",
+        "Any indirect cost amount above the cap must be waived by the institution or covered from non-grant funds."
+      ]
     }
   },
   {
@@ -21071,7 +21147,45 @@
     "id": 368,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "1951784201f2674d0131a27d9544e9bf23e8485b0e7a3badec26126d879009f2"
+    },
+    "requirements": [
+      {
+        "item": "Develop a pilot to create a Minimum Viable Product (MVP) with a clear, defined roadmap for commercialization",
+        "quote": "Develop a pilot to create a Minimum Viable Product (MVP) with a clear, defined roadmap for commercialization."
+      },
+      {
+        "item": "Possess an original and innovative proposal for the current climate tech landscape",
+        "quote": "Possess an original and innovative proposal for the current climate tech landscape."
+      },
+      {
+        "item": "Propose an impactful solution that addresses key challenges in at least one of the three tracks of the Climate Impact Innovations Challenge 2026",
+        "quote": "Propose an impactful solution that addresses key challenges in at least one of the three tracks of the Climate Impact Innovations Challenge 2026."
+      },
+      {
+        "item": "Present a feasible solution that can be adopted quickly and perform well in a large-scale setting",
+        "quote": "Present a feasible solution that can be adopted quickly and perform well in a large-scale setting."
+      },
+      {
+        "item": "Demonstrate potential for a commercially sustainable business model targeting a large market size",
+        "quote": "Demonstrate potential for a commercially sustainable business model targeting a large market size."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.95
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "Only teams are eligible to apply",
+        "Must have created a minimum viable product with the intention of commercialization"
+      ]
     }
   },
   {
@@ -21106,7 +21220,20 @@
     "id": 369,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "0d1abb90d46985405e8519b6d920ee1d0901fff6c13d31ce260f0be61af1ec30"
+    },
+    "amountMin": 50000,
+    "amountMax": 70000,
+    "currency": "USD",
+    "timeline": {
+      "decisionDate": "2026-08-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -21141,7 +21268,47 @@
     "id": 370,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a618e53c7ca82abfd4c97619502f4362c7d24f67bd7f6867c5b54f9ae38d2de7"
+    },
+    "amountMin": 50000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Must deliver a 2-minute live presentation with supporting slides",
+        "quote": "Qualified startups had to deliver a 2-minute live presentation with supporting slides."
+      },
+      {
+        "item": "Must accept the SAFE investment if entering",
+        "quote": "As part of entering The Pitch competition, you were required to take this investment"
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Startup stage: pre-Seed, Seed, or Series A",
+        "Must have full-time founders",
+        "Must have a registered legal entity",
+        "Must be building a product or service with scaling potential",
+        "Incorporation required by competition, not necessarily at application",
+        "In-person participation required for all stages",
+        "Presentations must be in English",
+        "Must have a minimum viable product"
+      ]
     }
   },
   {
@@ -21176,7 +21343,41 @@
     "id": 371,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "aaca408763348a8c9bed276e21085a33bfb3bacdad381484e3d3a5c1ee1e51c1"
+    },
+    "amountMin": 20000,
+    "amountMax": 5000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Nomination required",
+        "quote": "Submit a nomination"
+      },
+      {
+        "item": "Business must have shown courage, perseverance and integrity",
+        "quote": "Nominate a small business who has shown courage, perseverance and integrity."
+      }
+    ],
+    "timeline": {
+      "decisionDate": "2025-03-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Owner must be at least 18 years of age",
+        "Void where prohibited"
+      ]
     }
   },
   {
@@ -21212,7 +21413,54 @@
     "id": 372,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "fb81f91e81c047e7eb21c55ef07746cf51743d0d65c8aba48f81c9c0f2f8aee6"
+    },
+    "amountMin": 5000,
+    "amountMax": 20000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Complete the registration form",
+        "quote": "Complete the registration form."
+      },
+      {
+        "item": "Create a profile on the Microsoft Innovation Studio Hackathon platform",
+        "quote": "You will receive an invitation in two (2) business days to create your profile on the Microsoft Innovation Studio Hackathon platform."
+      },
+      {
+        "item": "Join the Microsoft Innovation Studio Hackathon platform",
+        "quote": "Join the Microsoft Innovation Studio Hackathon platform to hack and collaborate with others"
+      },
+      {
+        "item": "Build and submit your project during the hackathon window",
+        "quote": "Prepare to build and submit your project during the hackathon window"
+      },
+      {
+        "item": "Use Azure, GitHub, and Microsoft Foundry",
+        "quote": "create impactful applications using Azure, GitHub, and Microsoft Foundry"
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-01-20",
+      "deadlineDate": "2026-02-22",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Teams can have up to 4 members"
+      ]
     }
   },
   {
@@ -21283,7 +21531,72 @@
     "id": 374,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "9c361b4cd60f0a47c4b5829739983829b8b946577c76cb87b1e2177f035f3621"
+    },
+    "amountMin": 1000,
+    "amountMax": 10000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Submit a working demo, prototype, or walkthrough",
+        "quote": "Submit a working demo, prototype, or walkthrough (Loom or live link)"
+      },
+      {
+        "item": "Complete all required questions",
+        "quote": "Click Start Applying and complete all required questions"
+      },
+      {
+        "item": "Agree to the Competition Press Release, the Competition Details and the Official Terms for Skip Grants",
+        "quote": "By entering, you agree to the Competition Press Release, the Competition Details and the Official Terms for Skip Grants"
+      },
+      {
+        "item": "Applications must be completed before the deadline; no late submissions accepted",
+        "quote": "Applications must be completed before the deadline. No late submissions will be accepted"
+      },
+      {
+        "item": "May submit up to 3 entries, each a distinct working prototype",
+        "quote": "You may submit up to 3 entries. Each must be a distinct, working prototype."
+      },
+      {
+        "item": "Provide problem statement",
+        "quote": "Problem statement (what you are solving)"
+      },
+      {
+        "item": "Provide target user",
+        "quote": "Target user (type of business)"
+      },
+      {
+        "item": "Explain how the tool helps",
+        "quote": "How your tool helps (clear outcome)"
+      },
+      {
+        "item": "Example use case (strongly recommended)",
+        "quote": "Example use case (strongly recommended)"
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-04-22",
+      "deadlineDate": "2026-05-20",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Age 18+",
+        "Must be a developer, designer, or builder"
+      ]
     }
   },
   {
@@ -21319,7 +21632,17 @@
     "_updated": "2026-06-02",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "270589581b7650572fcd75e4ac156c18b85cfb657b46215748d33a0e9bcb1370",
       "finalUrl": "https://chain.link/"
+    },
+    "amountMin": 11,
+    "amountMax": 11,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -21354,7 +21677,62 @@
     "id": 376,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "34b3928b4bba94bc96102266e0d165d8285ced4e4a062085b2d7331dcc921092"
+    },
+    "amountMin": 1500,
+    "amountMax": 2500,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Create a Submittable account and submit an application through Submittable",
+        "quote": "To apply, you must create a Submittable account and submit an application through Submittable."
+      },
+      {
+        "item": "Applications must be submitted through Submittable; emailed or physical applications will not be reviewed",
+        "quote": "Applications must be submitted through Submittable. Emailed or physical applications will not be reviewed."
+      },
+      {
+        "item": "Late applications are not accepted under any circumstances",
+        "quote": "We do not accept late applications under any circumstances."
+      },
+      {
+        "item": "Applicant can submit up to 10 work samples",
+        "quote": "An applicant can only submit up to 10 work samples (1 work sample means either: 1 image, 1 minute of video, 1 minute of audio, 1 page of manuscript)."
+      },
+      {
+        "item": "Must follow guidelines or application will be marked ineligible",
+        "quote": "If you do not follow the guidelines for this application, your application will be marked ineligible and will not be viewed or considered by the panel."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-06-22",
+      "deadlineType": "fixed",
+      "opensDate": "2026-05-18"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Must be 18 years of age or older",
+        "Must be a Washington State resident at the time of both application and payment",
+        "Not a recipient of a GAP from 2021–2025 (including Grants for Artists’ Progress)",
+        "Not a previous recipient of the James W. Ray Distinguished Artist or Arts Innovator Awards",
+        "Not a recipient of another Artist Trust grant in the 2026 calendar year",
+        "Not a current graduate or undergraduate student enrolled at the time of application and/or payment",
+        "Not applying on behalf of a company, nonprofit, organization, fiscal sponsorship, or community group",
+        "Not current Artist Trust staff, Board of Trustees, honorary committee, current GAP panelists, or their immediate family",
+        "Team applicants must have a documented history of creating and presenting work as a team and must contact Artist Trust to confirm eligibility before applying"
+      ]
     }
   },
   {
@@ -21389,7 +21767,20 @@
     "id": 377,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "0ff56e359371524aa8b7bd4f894b4afa9d4c1965f232ed805f79bd72b7153bb8"
+    },
+    "amountMin": 500,
+    "amountMax": 500,
+    "currency": "GBP",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -21423,7 +21814,55 @@
     "id": 378,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "3c26c4dd46b4fada3f4addf895d13fc36d0353808706535ad7ef30c0735c3898"
+    },
+    "amountMax": 4000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Identify a specific event, activity, or project to occur within the application time frame.",
+        "quote": "Identify a specific event, activity, or project to occur within the application time frame."
+      },
+      {
+        "item": "If awarded, the recipient must file a final report online in SmartSimple.",
+        "quote": "If awarded a Creativity Grant, the recipient must file a final report online in SmartSimple."
+      },
+      {
+        "item": "All grantees are required to submit a Final Report communicating data required by the National Endowment for the Arts.",
+        "quote": "All grantees are required to submit a Final Report communicating data required by the National Endowment for the Arts."
+      },
+      {
+        "item": "Application ID # should begin with '2027.' If it does not, the application was started from a previous year and cannot be submitted.",
+        "quote": "Your application ID # should begin with '2027.' If it does not, you are working off a draft started from a previous year and will not be able to submit it."
+      },
+      {
+        "item": "Significant changes to proposed activities must be communicated to Program Directors and approved in writing before proceeding.",
+        "quote": "if there are significant changes to the proposed activities for which a grant has been awarded, the grantee is responsible for communicating proposed changes to Program Directors, and they must be approved in writing before proceeding."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "Maryland-incorporated 501(c)3 nonprofit organizations must have operated for one year or more and meet grant income requirements; units of Maryland local government and Maryland colleges/universities/schools also eligible.",
+        "Organizations applying through fiscal sponsorships can be funded if the Fiscal Agency and the Organization operate within a Model A sponsorship.",
+        "Applicants are only eligible for one Creativity Grant per fiscal year.",
+        "Applicants may receive either a Professional Development Opportunity Grant or a Creativity Grant in the same fiscal year, but not both.",
+        "Applicants receiving MSAC general operating funding through Grants for Organizations, County Arts Development, Arts & Entertainment District, or Folklife Network are ineligible for a Creativity Grant in the same fiscal year."
+      ]
     }
   },
   {
@@ -21457,7 +21896,61 @@
     "id": 379,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "e9bddaa0cfa4f746ed8c4c9da8ff7ce81cee0e41045b48a838eb994be869180e"
+    },
+    "amountMin": 500,
+    "amountMax": 100000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Spring application requires CV, abstract, short proposal, and budget",
+        "quote": "Application requires: CV, abstract, short proposal, budget."
+      },
+      {
+        "item": "Summer application generally requires CV, abstract, short proposal, budget, and letters of reference for graduate student applicants and proposals over $5,000",
+        "quote": "Application requires: CV, abstract, short proposal, budget, letters of reference for graduate student applicants and proposals over $5,000."
+      },
+      {
+        "item": "Graduate student applicants for Spring must submit at least one letter of recommendation",
+        "quote": "In addition, graduate student applicants must submit at least one letter of recommendation."
+      },
+      {
+        "item": "Grants must support work that has not yet been completed",
+        "quote": "Grants must support work that has not yet been completed."
+      },
+      {
+        "item": "All programs receiving funding must include recognition of that funding in publicity materials",
+        "quote": "All programs receiving funding from the Centennial Center must include recognition of that funding in publicity materials for that program."
+      },
+      {
+        "item": "Funded projects must submit an annual report for each year in which they receive funding",
+        "quote": "All projects and programs funded by the APSA must submit an annual report for each year in which they receive funding."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-03-15",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "restrictions": [
+        "Spring cycle restricted to political scientists in non-tenure track or contingent positions ineligible for departmental funding",
+        "Spring cycle restricted to political science faculty of all ranks in departments that do not grant PhDs",
+        "Spring cycle restricted to graduate students currently enrolled in a Political Science PhD program",
+        "Applicants ineligible if they received Centennial Center research funding within the past four years",
+        "Spring applicants ineligible if proposed project activities begin prior to May 15",
+        "Summer applicants ineligible if proposed project activities begin prior to July 15",
+        "Grant funds may not be used for overhead or indirect costs",
+        "Proposed work must fall within the discipline of political science",
+        "Grant recipients must maintain an APSA membership throughout their grant period"
+      ]
     }
   },
   {
@@ -21527,7 +22020,21 @@
     "id": 381,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6dc94eddd0bf317b4d6d5e2d4eba95db1cd54f0f3f8fc12d6b4caf6036f54ca3"
+    },
+    "amountMin": 5000,
+    "amountMax": 5000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2026-04-01",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -21598,7 +22105,17 @@
     "id": 383,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "8916e0c40346b4afb7dc0ec858808ee37d7d388a4fe3caf74941709057e1c93a"
+    },
+    "amountMin": 5000,
+    "amountMax": 8000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -21633,7 +22150,58 @@
     "id": 384,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "0481b79877c981d2c131f824d71cb85218c86ba51fafa63b303760f8d9e55ab8"
+    },
+    "amountMin": 1,
+    "amountMax": 1,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Proposals must align with the 2021-2030 Strategy and one or several funding programs.",
+        "quote": "The General Application is for proposals that align with our 2021 – 2030 Strategy and one – or several – of our funding programs."
+      },
+      {
+        "item": "Ideas must align with the Foundation's program areas in Conservation, Economic Development, Economic Mobility, or Health & Well-Being.",
+        "quote": "Ideas must align with the Foundation's program areas in Conservation, Economic Development, Economic Mobility, or Health & Well-Being."
+      },
+      {
+        "item": "If using a fiscal sponsor, the fiscal sponsor should submit the application and provide requested financial and organizational information.",
+        "quote": "Yes, your fiscal sponsor should submit the application. Your fiscal agent should also submit their financial statements, audits, board of directors, other information requested in the “Organization Information” and “Executive Certification” sections of the application."
+      },
+      {
+        "item": "Collaborations should include signed MOUs, letters of support, or other documents indicating commitment to participate.",
+        "quote": "Yes, please make sure that you have signed MOUs, letters of support, or other documents indicating commitment to participate and upload those as “Additional Documents” in the final section of the application."
+      },
+      {
+        "item": "If audited financial statements are unavailable, upload the type of financial statements required by Pennsylvania law based on gross annual contributions.",
+        "quote": "If you do not have audited financial statements, you may upload the type of financial statements required by Pennsylvania law based on your gross annual contributions."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Economic Development, Economic Mobility and Health & Well-Being proposals must have an Allegheny and/or Westmoreland County focus.",
+        "Conservation proposals may generate impact anywhere in the United States.",
+        "For-profit applicants must be incorporated in the United States.",
+        "Organizational Effectiveness funding is reserved for organizations with an active grant or funded within the past three years.",
+        "The Foundation does not fund lobbying, advocacy, or political causes or events.",
+        "The Foundation will not fund ideas that include regranting to individuals.",
+        "Indirect expenses and general operating support are not available to postsecondary or research institutions."
+      ]
     }
   },
   {
@@ -21668,7 +22236,34 @@
     "id": 385,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f6fe88c3fd7c986f32a77a66a2baefd17a45919c6503430be809a346c79b93ae"
+    },
+    "amountMin": 1000,
+    "amountMax": 20000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Applications accepted on a rolling basis",
+        "quote": "accepts applications on a rolling basis"
+      },
+      {
+        "item": "Funding request amount of $1,000-$5,000",
+        "quote": "for funding request of $1,000-$5,000"
+      },
+      {
+        "item": "Support professional development, fiscal sponsor challenges, and DEI work",
+        "quote": "to support professional development, fiscal sponsor challenges, and DEI work"
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -21676,8 +22271,8 @@
     "category": "Foundation",
     "amount": "$3,500–$4,250",
     "deadline": "July 31, 2026 (main cycle); a quick-entry round closed Apr 30, 2026",
-    "deadlineDate": "2026-07-31",
-    "deadlineStatus": "expired",
+    "deadlineDate": "2026-10-31",
+    "deadlineStatus": "open",
     "deadlineType": "fixed",
     "eligibility": "Women- and minority-owned businesses and small ventures (including mission-driven social enterprises); U.S.-based.",
     "description": "A nonprofit-run cash grant from Hidden Star reducing barriers for women and people of color building ventures. Simple application; recurring cycles throughout the year with the next main deadline July 31, 2026.",
@@ -21703,7 +22298,45 @@
     "id": 386,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "caf423eb9330197effb62b4b991adc33e8ee7cbe1c0d6a1b30e1df6becd44f5c"
+    },
+    "amountMin": 750,
+    "amountMax": 420000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Agree to terms and conditions",
+        "quote": "I agree to the terms and conditions."
+      },
+      {
+        "item": "Create a free Galaxy account",
+        "quote": "By Submitting, I Will Be Entered to Win a Galaxy Grant. I Agree to the Terms and Conditions of Galaxy of Stars, and Will Be Creating a Free Account at www.galaxyofstars.org."
+      },
+      {
+        "item": "Galaxy Plus+ members are automatically entered and do not need to fill out this form",
+        "quote": "If you are already a Galaxy Plus+ member, you do NOT need to fill out this form. You are automatically entered for all Galaxy Grant opportunities."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-10-31",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "women & minority business owners",
+        "women & minority-owned businesses"
+      ]
     }
   },
   {
@@ -21738,7 +22371,21 @@
     "id": 387,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "535a08bd008addcff186d94c664174daa8beea8b0125ef6754b0181d58c764c1"
+    },
+    "amountMin": 15,
+    "amountMax": 5000000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling",
+      "opensDate": "2027-03-09"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -21809,7 +22456,14 @@
     "id": 389,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "e350540de859b95c074aa3f79872243b456027abd0cdd0a1a960554a89bdc626"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -21879,7 +22533,17 @@
     "id": 391,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "e718024e85bca10516f39e33af11d0e468a07def74fe19e98208256e22e77169"
+    },
+    "amountMin": 20000000,
+    "amountMax": 20000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -21913,7 +22577,42 @@
     "id": 392,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "3bd01541e0922cf2481024938e2a5b6cd3f5ca254e466642d6c086ffb7d31be0"
+    },
+    "amountMin": 20,
+    "amountMax": 26000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Project must meet at least one of the listed criteria: aligned with company values; dependency of one of Astral's projects; source of inspiration for Astral's designs; fundamental to the Python or Rust ecosystems",
+        "quote": "To qualify for funding via the Astral OSS Fund, a project needs to meet one of the following criteria:"
+      },
+      {
+        "item": "Availability on GitHub Sponsors",
+        "quote": "Availability on GitHub Sponsors: We're a small team of engineers looking to minimize administrative overhead."
+      },
+      {
+        "item": "No conflicts: projects maintained by Astral team members excluded",
+        "quote": "Lack of conflicts: We avoided projects that are maintained by Astral team members."
+      }
+    ],
+    "timeline": {
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Project must meet at least one of: aligned with company values; dependency of one of Astral's projects; source of inspiration for Astral's designs; fundamental to the Python or Rust ecosystems",
+        "Availability on GitHub Sponsors",
+        "No conflicts: projects maintained by Astral team members excluded",
+        "Non-profit language foundations are funded"
+      ]
     }
   },
   {
@@ -21948,7 +22647,37 @@
     "id": 393,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "09249132ef86403fa32b0ea455ec6d961ee380a79e99524cba3e2d005c675049"
+    },
+    "amountMin": 250,
+    "amountMax": 2500,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "application fee $19",
+        "quote": "can submit along with the $19 application fee"
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling",
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "company",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "nonprofits are not currently supported"
+      ]
     }
   },
   {
