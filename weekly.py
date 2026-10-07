@@ -11,6 +11,8 @@ Steps:
                            (offline, no LLM calls)
   3. generate-report.py  — render the earthy HTML weekly report (report.html)
   4. deploy              — publish grants.json + report.html to GitHub Pages
+  4b. seed-worker.py      — push grants.json into the worker D1 (remote), so the
+                           radar.liminalcommons.com wall never drifts from Pages
   5. notify.py           — post to Telegram group + email the report
 
 Each step is best-effort and logged; a failure in one does not abort the rest
@@ -75,6 +77,10 @@ def main():
                 print("  Pushed → GitHub Pages publishes in ~1 min.")
         except subprocess.CalledProcessError as e:
             print(f"  git push failed: {e}")
+
+    # 4b. worker re-seed: push the fresh export into the remote D1 (best
+    # effort; the wall must never drift from the fallback copy).
+    step("SeedWorker", ["seed-worker.py"])
 
     # 5. notify
     if not no_notify:

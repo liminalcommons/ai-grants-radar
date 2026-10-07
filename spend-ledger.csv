@@ -393,3 +393,32 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-07T13:25:04.674415+00:00,refresh-extract/17,deepseek-v4.1-flash,2324,2862,49566,200,
 2026-10-07T13:51:14.492188+00:00,refresh-extract/1,deepseek-v4.1-flash,5109,3066,52577,200,
 2026-10-07T13:51:59.731255+00:00,refresh-extract/2,deepseek-v4.1-flash,691,2478,45233,200,
+2026-10-07T13:52:43.254648+00:00,refresh-extract/3,deepseek-v4.1-flash,3081,2969,43485,200,
+2026-10-07T13:53:18.675172+00:00,refresh-extract/4,deepseek-v4.1-flash,1171,2920,35406,200,
+2026-10-07T13:54:05.611089+00:00,refresh-extract/5,deepseek-v4.1-flash,1298,2856,46921,200,
+2026-10-07T13:54:40.768157+00:00,refresh-extract/6,deepseek-v4.1-flash,2393,2530,35139,200,
+2026-10-07T13:55:19.045568+00:00,refresh-extract/7,deepseek-v4.1-flash,6815,2417,38250,200,
+2026-10-07T13:55:56.378447+00:00,refresh-extract/8,deepseek-v4.1-flash,838,3713,37313,200,empty reply
+2026-10-07T13:56:42.816027+00:00,refresh-extract/9,deepseek-v4.1-flash,901,2606,46422,200,
+2026-10-07T13:58:43.263579+00:00,refresh-extract/1,deepseek-v4.1-flash,5109,3182,47796,200,
+2026-10-07T13:59:28.983743+00:00,refresh-extract/2,deepseek-v4.1-flash,691,2626,45702,200,
+2026-10-07T14:00:22.656857+00:00,refresh-extract/3,deepseek-v4.1-flash,3081,2783,53656,200,
+2026-10-07T14:01:01.026952+00:00,refresh-extract/4,deepseek-v4.1-flash,1171,2629,38359,200,
+2026-10-07T14:02:01.103837+00:00,refresh-extract/5,deepseek-v4.1-flash,,,60061,,TimeoutError: The read operation timed out
+2026-10-07T14:02:37.475925+00:00,refresh-extract/6,deepseek-v4.1-flash,2393,2589,36358,200,
+2026-10-07T14:03:24.603959+00:00,refresh-extract/7,deepseek-v4.1-flash,6815,2910,47077,200,
+2026-10-07T14:04:01.635221+00:00,refresh-extract/8,deepseek-v4.1-flash,838,2904,37014,200,
+2026-10-07T14:04:35.693652+00:00,refresh-extract/9,deepseek-v4.1-flash,901,3035,34031,200,
+2026-10-07T14:05:04.419912+00:00,refresh-extract/10,deepseek-v4.1-flash,1671,2730,28718,200,
+2026-10-07T14:05:57.372981+00:00,refresh-extract/11,deepseek-v4.1-flash,2352,2553,52936,200,
+2026-10-07T14:06:38.835528+00:00,refresh-extract/12,deepseek-v4.1-flash,2358,2482,41452,200,
+2026-10-07T14:07:38.911364+00:00,refresh-extract/13,deepseek-v4.1-flash,,,60063,,TimeoutError: The read operation timed out
+2026-10-07T14:08:38.985425+00:00,refresh-extract/14,deepseek-v4.1-flash,,,60063,,TimeoutError: The read operation timed out
+2026-10-07T14:09:39.039635+00:00,refresh-extract/15,deepseek-v4.1-flash,,,60047,,TimeoutError: The read operation timed out
+2026-10-07T14:10:39.123693+00:00,refresh-extract/16,deepseek-v4.1-flash,,,60061,,TimeoutError: The read operation timed out
+2026-10-07T14:11:39.203574+00:00,refresh-extract/17,deepseek-v4.1-flash,,,60063,,TimeoutError: The read operation timed out
+2026-10-07T14:12:21.782303+00:00,refresh-extract/18,deepseek-v4.1-flash,3982,2950,42561,200,
+2026-10-07T14:13:00.320227+00:00,refresh-extract/19,deepseek-v4.1-flash,2083,2659,38515,200,
+2026-10-07T14:13:35.463564+00:00,refresh-extract/20,deepseek-v4.1-flash,2020,3015,35125,200,
+2026-10-07T14:13:42.440721+00:00,refresh-extract/21,deepseek-v4.1-flash,508,370,6968,200,
+2026-10-07T14:14:22.590634+00:00,refresh-extract/22,deepseek-v4.1-flash,1640,2889,40125,200,
