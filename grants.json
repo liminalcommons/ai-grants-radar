@@ -22713,6 +22713,34 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "amountMin": 1000000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Provide context around the project’s development or growth strategy.",
+        "quote": "Context around the project’s development or growth strategy."
+      },
+      {
+        "item": "Provide a clear explanation of the problem being solved and the proposed solution.",
+        "quote": "A clear explanation of the problem being solved and the proposed solution."
+      },
+      {
+        "item": "Outline the project’s expected impact on the Ultra ecosystem.",
+        "quote": "An outline of the project’s expected impact on the Ultra ecosystem."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none"
     }
   },
   {
@@ -22748,6 +22776,43 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "requirements": [
+      {
+        "item": "Demonstrate innovation through feasible and credible new technology, technology application, business model, or process",
+        "quote": "All applications must demonstrate innovation through a feasible and credible new technology, technology application, business model, or process."
+      },
+      {
+        "item": "Indicate technology maturity and provide patent/IP strategy information",
+        "quote": "Applicants are expected to indicate the maturity of the technology and provide information regarding any patents or intellectual property strategy associated with the solution."
+      },
+      {
+        "item": "Projects must be technology-based and apply advanced scientific or technological knowledge to bring new offerings to market",
+        "quote": "Projects must be technology-based and focused on the development and/or manufacturing of products or services that systematically apply advanced scientific or technological knowledge to bring new offerings to the market."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-06-30",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "geography": "restricted:AR,BR,CL,DE,MX,PT,ES,UY,US,GB",
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Startup stage: legally incorporated; market product/service; annual sales <= $300,000 or raised <= $5M or <=5 full-time employees",
+        "Scaleup stage: legally incorporated for at least two years; market product/service; annual sales > $300,000 or raised > $5M or >5 full-time employees",
+        "Scaleup revenue/capital/employee threshold",
+        "Project must be submitted under one of three challenge verticals",
+        "Projects must be technology-based"
+      ]
     }
   },
   {
@@ -22783,6 +22848,11 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -22818,6 +22888,34 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "amountMin": 500000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Must select one track",
+        "quote": "You must select the one track that best represents your project."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "University Award is for teams of university students"
+      ]
     }
   },
   {
@@ -22854,6 +22952,17 @@
     "page": {
       "status": "redirect",
       "finalUrl": "https://inevitable.foundation/accelerate"
+    },
+    "amountMin": 30000,
+    "amountMax": 30000,
+    "currency": "USD",
+    "timeline": {
+      "opensDate": "2026-05-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -22889,6 +22998,11 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -22924,6 +23038,72 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "amountMin": 10000,
+    "amountMax": 10000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Submit a resume/curriculum vitae (not to exceed two pages)",
+        "quote": "A resume/curriculum vitae (not to exceed two pages);"
+      },
+      {
+        "item": "Submit a 200 - 300-word statement describing current body of work, creative projects, scholarship, or research",
+        "quote": "200 - 300-word statement describing your current body of work, creative projects, scholarship, or research."
+      },
+      {
+        "item": "Submit a 200 - 300-word statement explaining why Oak Spring Garden Foundation and why now",
+        "quote": "200 - 300-word statement explaining why Oak Spring Garden Foundation and why now."
+      },
+      {
+        "item": "Submit a 200-word or less statement describing a time when you were part of a community",
+        "quote": "200-word or less statement describing a time when you were part of a community."
+      },
+      {
+        "item": "Submit work samples, up to 10 pages or images cumulatively",
+        "quote": "Work samples, up to 10 pages or images cumulatively."
+      },
+      {
+        "item": "For visual artists: 5 - 10 images including dimensions, year, medium, and title",
+        "quote": "For visual artists: 5 - 10 images, please include the dimensions, year, medium, and title of each work sample."
+      },
+      {
+        "item": "For time-based artists: 7 minutes cumulatively of work samples",
+        "quote": "For time-based artists, including: filmmakers, musicians, dancers, and performance artists: 7 minutes cumulatively of work samples."
+      },
+      {
+        "item": "For poets and playwrights: 7 - 10 pages total",
+        "quote": "For poets and playwrights: you may submit 7 - 10 pages total."
+      },
+      {
+        "item": "Required stay of 2 - 5 weeks at Oak Spring",
+        "quote": "requires a 2 - 5 week stay at Oak Spring"
+      }
+    ],
+    "timeline": {
+      "decisionDate": "2026-12-01",
+      "opensDate": "2027-02-14",
+      "deadlineDate": "2027-05-31",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be an early-career artist not enrolled in an undergraduate degree program in 2027",
+        "Open to visual artists, literary artists, dancers, and musicians",
+        "Established or late-career artists with extensive solo exhibitions or significant book publications are not eligible",
+        "Early-career applicants must have some recognition in the form of exhibitions, commissions, performances, grant awards, residencies, Fellowships and/or publications",
+        "Must be self-directed and able to work independently while on site",
+        "Applicants expected to show dedication to artistic practice, clear connection to natural world, exceptional promise, and good communication skills"
+      ]
     }
   },
   {
@@ -22995,6 +23175,27 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "requirements": [
+      {
+        "item": "Submit a proposal",
+        "quote": "Submit a Proposal"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 1.0
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Project focus: primarily looking for projects that benefit the Hedera network within tokenization, sustainability, AI, DeFi, and DePIN."
+      ]
     }
   },
   {
@@ -23030,6 +23231,27 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "requirements": [
+      {
+        "item": "Identify as a creative activist during the application process for the John O. Calmore Creative Activism Artist Residency",
+        "quote": "Please identify yourself as a creative activist during the application process to be considered for this residency."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.75
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "emerging, mid-career and legacy artists",
+        "creative activist for John O. Calmore Creative Activism Artist Residency"
+      ]
     }
   },
   {
@@ -23065,6 +23287,48 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "requirements": [
+      {
+        "item": "Reference contact information is required",
+        "quote": "Reference contact information is required, but reference letters are not mandatory."
+      },
+      {
+        "item": "Applicants may apply to up to two host organizations",
+        "quote": "Applicants may apply to up to two host organizations."
+      },
+      {
+        "item": "Applications must be submitted before the deadline through the official fellowship application portal",
+        "quote": "Applications must be submitted before the deadline through the official fellowship application portal."
+      },
+      {
+        "item": "Application includes personal information, current education, references, resume upload, organization preferences, personal statement, and final submission",
+        "quote": "The fellowship application includes the following sections: - Personal Information - Current Education - References - Resume upload - Organization preferences - Personal statement - Final submission"
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-04-09",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be at least 18 years old by January 1, 2026",
+        "Must be enrolled in or accepted into an accredited university or college program",
+        "Must remain enrolled in a degree program through August 30, 2026",
+        "Must be eligible and authorized to work in the United States",
+        "Must demonstrate interest in technology policy, internet governance, or digital innovation",
+        "Previous Google Public Policy Fellows are not eligible to apply again"
+      ]
     }
   },
   {
@@ -23100,6 +23364,57 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok"
+    },
+    "amountMin": 5000,
+    "amountMax": 50000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Describe current skills, upskilling plan, and how activities prepare for AI safety research",
+        "quote": "Applications should describe the applicant's current skills, the specific upskilling plan, and how the proposed activities will prepare them for productive AI safety research."
+      },
+      {
+        "item": "Include a realistic budget covering costs such as living expenses, tuition, computing resources, and travel",
+        "quote": "Applicants should include a realistic budget covering costs such as living expenses, tuition, computing resources, and travel to relevant programs or events."
+      },
+      {
+        "item": "Demonstrate genuine engagement with AI safety concepts and a credible plan for building relevant skills",
+        "quote": "Applicants should demonstrate genuine engagement with AI safety concepts and a credible plan for building relevant skills."
+      },
+      {
+        "item": "Prior exposure to AI safety strengthens applications",
+        "quote": "Prior exposure to AI safety through courses, reading groups, or self-study strengthens applications."
+      },
+      {
+        "item": "Clear, specific plan with well-defined milestones and a realistic timeline",
+        "quote": "Strong upskilling applications present a clear, specific plan for building AI safety research skills, with well-defined milestones and a realistic timeline."
+      },
+      {
+        "item": "Self-direction, technical aptitude, and realistic self-assessment",
+        "quote": "LTFF values applicants who demonstrate self-direction, technical aptitude, and realistic self-assessment of their current skill level and the gap they need to close."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Career changers",
+        "Students",
+        "Early-career researchers",
+        "Self-directed learners",
+        "Some familiarity with AI safety concepts is expected"
+      ]
     }
   },
   {
@@ -23134,7 +23449,57 @@
     "id": 406,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a56b42aa870901d4b901fff58b7ed7c9ed808aa670fd7ab4f649e2de711c0e9a"
+    },
+    "amountMin": 5000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Grant funds can only be used to cover consultant fees",
+        "quote": "Please note that grant funds can only be used to cover consultant fees."
+      },
+      {
+        "item": "Project budget must show additional revenue sources",
+        "quote": "In the project budget, please show the additional revenue sources to be used for this work, both pending and secured."
+      },
+      {
+        "item": "All applications must be submitted electronically",
+        "quote": "All applications must be submitted electronically."
+      },
+      {
+        "item": "Applicants must meet General Applicant Guidelines and Requirements",
+        "quote": "All applicants to programs at the Vermont Community Foundation must meet the guidelines outlined in the General Applicant Guidelines and Requirements"
+      },
+      {
+        "item": "Grant activities must take place within one year from when the grant is awarded",
+        "quote": "Grant activities must take place within one year from when the grant is awarded to be eligible for funding."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-09-01",
+      "deadlineDate": "2026-11-01",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Yearly operating budget under $1 million",
+        "Priority for yearly operating budgets under $250,000",
+        "Organizations that do not primarily serve Vermonters are not supported",
+        "Startup costs for organizations seeking nonprofit status are not supported",
+        "Repeat funding of the same organization or initiative within a 3-year period is not supported"
+      ]
     }
   },
   {
@@ -23168,7 +23533,69 @@
     "id": 407,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a6f0cd0f47df53aca336296e3b68b3692a6304cdda55d8fcab9ed486c208fbfa"
+    },
+    "amountMin": 40000,
+    "amountMax": 150000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Interested organizations must complete a brief pre-application",
+        "quote": "Interested organizations must complete a brief pre-application."
+      },
+      {
+        "item": "Applicants advancing to full application must submit a narrative with details about the work, expected outcomes, and a budget",
+        "quote": "The application package consists of a narrative with details about the work the grant funding would support, expected outcomes, and a budget."
+      },
+      {
+        "item": "PFRI grantseekers must address one or more listed program focus areas in their application narrative",
+        "quote": "PFRI grantseekers must address one or more of the following program focus areas in their application narrative:"
+      },
+      {
+        "item": "Focus area alignment: demonstrate how the work supports one or more focus areas within the Community Priorities of the Foundation’s Five-Year Action Plan",
+        "quote": "Focus area alignment: Demonstrate how the work of your organization supports one or more of the focus areas within the Community Priorities of the Foundation’s Five-Year Action Plan."
+      },
+      {
+        "item": "Organizational health: demonstrate mission and vision, financial stability, learning capacity, board and staff leadership, and community connection",
+        "quote": "Organizational health: There are many ways for you to show the health of your organization, including by demonstrating a clear mission and vision, commitment to financial stability, capacity to learn from your work, strong board and staff leadership, and evidence of your connection with the community you serve."
+      },
+      {
+        "item": "Potential for community impact: demonstrate how the work, experience, partnerships, expertise, or unique qualities respond to community priorities",
+        "quote": "Potential for community impact: Demonstrate how the work of your organization and your experience, partnerships, technical/content expertise, or other capabilities or unique qualities help your proposal respond to one or more of the community priorities, and related focus areas, in the Foundation's Five-Year Action Plan."
+      },
+      {
+        "item": "Sound implementation plan: provide a practical budget, sufficient capacity, progress tracking, and sustainability plan",
+        "quote": "Sound implementation plan: Provide a practical budget, demonstrate sufficient capacity to accomplish the work described in the grant proposal, have a plan to track progress and outcomes, and identify ways to sustain the work in the future."
+      },
+      {
+        "item": "Sustainability plan: identify a path towards sustainability",
+        "quote": "Sustainability plan: You have an identified path towards sustainability, with the understanding that sustainability can come in many different forms and timelines."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling",
+      "opensDate": "2026-06-22"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Primarily targets nonprofit, 501(c)3 organizations located in Rhode Island",
+        "Groups without a 501(c)(3) IRS designation may be considered if using a fiscal sponsor with a 501(c)(3) IRS designation",
+        "Organizations outside Rhode Island serving Rhode Islanders in unique ways may complete the pre-application for evaluation",
+        "Does not fund individuals, for-profit entities, event sponsorships, or capital projects",
+        "For-profit news agencies may be eligible for PFRI funding only as part of a collaborative endeavor with a nonprofit entity as lead applicant",
+        "Organizations may receive only one Community Priority grant during a 12-month period"
+      ]
     }
   },
   {
@@ -23203,7 +23630,37 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "24809ee24f27db19b7f8007e03f3d3c6ece7a837c9443ba816465f2c7174dc55",
       "finalUrl": "https://sbfoundation.org/nonprofits/grant-opportunities/"
+    },
+    "amountMin": 1000,
+    "amountMax": 50000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Review the program guidelines before submitting your application.",
+        "quote": "Review the program guidelines before submitting your application."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring",
+      "opensDate": "2026-01-27"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "ngo",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be a nonprofit organization serving communities within Santa Barbara County",
+        "An organization may apply once per calendar year"
+      ]
     }
   },
   {
@@ -23237,7 +23694,34 @@
     "id": 410,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "372acdacd86bf03b8dd6eda347b0d29dd882c66056afb963b6b807f595073585"
+    },
+    "amountMin": 150000,
+    "amountMax": 150000,
+    "currency": "USD",
+    "timeline": {
+      "opensDate": "2026-03-31",
+      "deadlineDate": "2026-06-01",
+      "deadlineType": "fixed",
+      "decisionDate": "2026-07-29"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "company",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Black-owned businesses",
+        "Early-stage businesses"
+      ]
     }
   },
   {
@@ -23272,7 +23756,14 @@
     "id": 411,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "16b7eb5a2441e67daab937112882d4a2393e63453ac4e2881c3322ffe4f4aecf"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -23307,7 +23798,39 @@
     "id": 412,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "ff096ce69147a1e4797c859873e2d01d9d021bd48d0f2df830b49d3654982f88"
+    },
+    "amountMin": 2500,
+    "amountMax": 30000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Events must take place between June 1 and September 30.",
+        "quote": "Events must take place between June 1 and September 30."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling",
+      "opensDate": "2026-05-04",
+      "decisionDate": "2026-09-14"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Applicants must be a public charity with 501(c)(3) status, a federally recognized tribe, or a public entity such as a school district, municipality, or unincorporated group or association.",
+        "Applicants cannot have any delinquent reports for previous grants awarded through all Innovia Foundation grant programs.",
+        "Grant funds can be used for organizing costs such as tables and chairs, permits, promotional materials, and youth activities."
+      ]
     }
   },
   {
@@ -23341,7 +23864,20 @@
     "id": 413,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "7d1d2537f14f483ab3870cf455b364683fabb1d77b4276c1a264c3b793439621"
+    },
+    "amountMin": 2500,
+    "amountMax": 2500,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -23376,7 +23912,78 @@
     "id": 414,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "bd19caa327edfd1e60c4196096b0a6c4ebd067c7d981711d92f63d2b0d8df227"
+    },
+    "amountMin": 5000,
+    "amountMax": 5000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "No purchase or payment is necessary to apply or win",
+        "quote": "No purchase or payment of any kind is necessary to apply or to win."
+      },
+      {
+        "item": "Must register for a free Funded Collective account using the same email by the Deadline",
+        "quote": "Each Applicant must register for a free member account at collective.breva.ai, using the same email address as its application, by the Deadline."
+      },
+      {
+        "item": "Must submit the online application on the Program Page by the Deadline",
+        "quote": "Register with The Funded Collective™ and submit the online application on the Program Page by the Deadline. There is no fee."
+      },
+      {
+        "item": "Limit one application per business in each Cycle",
+        "quote": "Limit one application per business in each Cycle."
+      },
+      {
+        "item": "Finalists must provide verification documents within five business days after request",
+        "quote": "Within five business days after Breva asks, each finalist must provide the documents Breva requests to verify its eligibility and application."
+      },
+      {
+        "item": "Selected finalist must sign Grant Agreement and give bank account details within five business days",
+        "quote": "Within five business days after being told it has been selected, the finalist must sign the Grant Agreement and give the bank account details for payment."
+      },
+      {
+        "item": "Cash grant must be used for business or community-benefit goals",
+        "quote": "The cash grant must be used for the Recipient’s business or its community-benefit goals."
+      },
+      {
+        "item": "Recipient must give progress updates and keep records of grant use for three years",
+        "quote": "The Recipient will give Breva brief progress updates on reasonable request and keep records of how it used the cash grant for three years."
+      },
+      {
+        "item": "Recipient grants Breva publicity license as a condition of award",
+        "quote": "As a condition of the award, and except where the law prohibits it, the Recipient grants Breva a non-exclusive, royalty-free license to use its business name, logo, city and state, and a description of its work in Breva’s communications and promotion, without further compensation."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-10-01",
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be a construction business, including certain nonprofits or associations",
+        "Must be organized under U.S. state, D.C., or territory law and in good standing, or be a registered sole proprietorship",
+        "Must have principal place of business in the United States",
+        "Must hold required licenses, registrations, and permits",
+        "Not suspended, debarred, excluded, or sanctioned; no 10% owner on OFAC sanctions list",
+        "Must describe a community benefit in the application",
+        "Must be registered with The Funded Collective",
+        "Revenue, for-profit status, and minimum operating history are not required",
+        "Authorized Individual must be U.S. legal resident, at least 18 and age of majority, and an owner, officer, or decision-maker",
+        "Ineligible: certain industries, bankruptcy, receivership, or same-calendar-year prior Recipient"
+      ]
     }
   },
   {
@@ -23411,7 +24018,50 @@
     "id": 415,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a14c79637cb2a9700438d17786bc5546fa93f4f29092d166369a71ae4fb4e9b2"
+    },
+    "requirements": [
+      {
+        "item": "Strong technical ability and high potential for growth",
+        "quote": "Paradigm is looking for individuals who demonstrate strong technical ability and high potential for growth."
+      },
+      {
+        "item": "Deeply technical and passionate about solving hard problems",
+        "quote": "If you are deeply technical, passionate about solving hard problems, and looking to connect with exceptional peers, this fellowship could be a career-defining opportunity."
+      },
+      {
+        "item": "What you have built, shipped, or figured out matters most",
+        "quote": "What matters most is not your title, but what you have built, shipped, or figured out."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-06-08",
+      "deadlineType": "fixed",
+      "decisionDate": "2026-07-01"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.85
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "No strict age requirement",
+        "Ideal applicants may include high school students with exceptional technical projects",
+        "Ideal applicants may include university students in STEM fields",
+        "Ideal applicants may include graduate researchers",
+        "Ideal applicants may include engineers and developers",
+        "Ideal applicants may include builders creating innovative products",
+        "Ideal applicants may include technical professionals early in their careers",
+        "Ideal applicants may include founders and aspiring entrepreneurs"
+      ]
     }
   },
   {
@@ -23445,7 +24095,54 @@
     "id": 417,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "51103c65a1fae83226b15cf3862f8da9dc4a58b6d4ed4ae9a56ef3349aff2bc6"
+    },
+    "requirements": [
+      {
+        "item": "Projects that foster community growth through educational and innovative activities",
+        "quote": "Projects that foster community growth through educational and innovative activities"
+      },
+      {
+        "item": "Initiatives that encourage adoption of Scroll ecosystem products",
+        "quote": "Initiatives that encourage adoption of Scroll ecosystem products"
+      },
+      {
+        "item": "Events that increase visibility across different regions and contexts",
+        "quote": "Events that increase visibility across different regions and contexts"
+      },
+      {
+        "item": "Programs that promote geographic diversity and transparency",
+        "quote": "Programs that promote geographic diversity and transparency"
+      },
+      {
+        "item": "Proposals with clear KPIs and demonstrable impact",
+        "quote": "Proposals with clear KPIs and demonstrable impact"
+      },
+      {
+        "item": "Teams with proven experience in community management",
+        "quote": "Teams with proven experience in community management"
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2025-12-19",
+      "durationMonths": 3,
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.85
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "Applicants should be teams with proven experience in community management"
+      ]
     }
   },
   {
@@ -23479,7 +24176,14 @@
     "id": 418,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "217d5b5547c2a897a39c5a240e11022b4a46989103f3f9b0556744e571e492d6"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -23548,7 +24252,17 @@
     "id": 420,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "ac4bd3dd2e415e25154ee661d1f398a353bb3b4ff291eaa8d9bb4838e9bd61eb"
+    },
+    "amountMin": 5000,
+    "amountMax": 100000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -23584,7 +24298,52 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "945ac99dabe3ab35504e47aa87b4eb4a2445a9b17dcbbd31b8c717a281eb68f5",
       "finalUrl": "https://sologrants.com/guide/solo-grant"
+    },
+    "amountMin": 100,
+    "amountMax": 1000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Submit the form",
+        "quote": "01Submit the form — about five minutes, no deck, no warm intro."
+      },
+      {
+        "item": "15-minute interview",
+        "quote": "03Interview — 15 relaxed minutes, builder to builder."
+      },
+      {
+        "item": "Itemize budget with real parts and prices",
+        "quote": "Itemize it like a bill of materials. Every line should be a real part with a real price"
+      },
+      {
+        "item": "Funds must go into the build",
+        "quote": "We only expect the money to go into the build."
+      },
+      {
+        "item": "Funds not for salaries, runway, pitch decks, logo, conference travel, or market research",
+        "quote": "Not salaries, runway, pitch decks, a nicer logo, conference travel, or \"market research.\""
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be blocked from self-funding their build",
+        "Priority goes to new applicants"
+      ]
     }
   },
   {
@@ -23592,8 +24351,8 @@
     "category": "Foundation",
     "amount": "$78,000 annual-equivalent stipend",
     "deadline": "June 25, 2026, 11:59pm ET",
-    "deadlineDate": "2026-06-25",
-    "deadlineStatus": "expired",
+    "deadlineDate": "2027-01-28",
+    "deadlineStatus": "open",
     "deadlineType": "fixed",
     "eligibility": "Early-career technologists (developers, data/AI practitioners, researchers) eligible to work in the US. No institutional sponsor required; individuals apply directly.",
     "description": "Paid fellowship placing technologists in the U.S. Congress to advise on AI, data, and tech policy. Provides a $78k-equivalent stipend; competitive but open to self-taught and non-traditional backgrounds.",
@@ -23619,7 +24378,22 @@
     "id": 422,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "46dfab3d04d74c2dfdb5ce74dd08969aedcd147d9c6cecaf2dbc9e75125871cb"
+    },
+    "amountMin": 425,
+    "amountMax": 100600,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2027-01-28",
+      "deadlineType": "fixed",
+      "opensDate": "2028-01-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -23655,7 +24429,20 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "fc2dc2d043ed3405d53c93544b2406bf5994324a58d56aace888efadadd86d26",
       "finalUrl": "https://docs.gravity.xyz/overview/developer-grant-program"
+    },
+    "amountMin": 200000,
+    "amountMax": 5000000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -23690,7 +24477,48 @@
     "id": 424,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "85d69746f55d03baf0e7488e0b6f24891beb3443cc6ea4f5c3af41d1f04dc63c"
+    },
+    "amountMin": 5000,
+    "amountMax": 60000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Competitive applications must focus on U.S. history, culture, and government from the Colonial Era to the present, or Western civilization from antiquity to the present.",
+        "quote": "Competitive applications must focus on topics in the history, culture, and government of the United States in any period from the Colonial Era to the present, or topics in Western civilization from antiquity to the present."
+      },
+      {
+        "item": "Application narratives may only be three pages long.",
+        "quote": "Application narratives, for instance, may only be three pages long."
+      },
+      {
+        "item": "After registering, you must add an “individual applicant” profile.",
+        "quote": "After registering, you must add an “individual applicant” profile."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2024-09-18",
+      "deadlineType": "fixed",
+      "opensDate": "2027-01-15",
+      "decisionDate": "2028-01-31"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must have written at least one nonfiction book published by a university or trade press and be credited as its sole author.",
+        "2026 competition only accepts projects for research in American history and culture and Western civilization.",
+        "Can apply to only one program at each deadline."
+      ]
     }
   },
   {
@@ -23724,7 +24552,40 @@
     "id": 425,
     "_updated": "2026-06-03",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "103ff96ff4bd0c4ee154af94d6b692059f5f663a3f214cf1a75a8a4d4eda49bb"
+    },
+    "amountMin": 1000,
+    "amountMax": 1000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Complete application form with details about team and research topic",
+        "quote": "Please complete the following application form with details about your team and research topic:"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team",
+        "org"
+      ],
+      "restrictions": [
+        "Research must focus on AI safety and alignment topics considered high priority",
+        "Credits are for API use only and do not apply to the Claude web app",
+        "No access to non-standard or nonpublic models",
+        "No exemption from Usage Policy",
+        "No finetuning access via API",
+        "Other fields of research not eligible for free API credits",
+        "API access unavailable in countries where Claude is not officially available"
+      ]
     }
   },
   {
