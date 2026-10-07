@@ -79,6 +79,10 @@ class ExtractTests(unittest.TestCase):
         er.extract(g, self.text, TODAY, lambda p: seen.append(p) or "{}")
         self.assertIn("OrgCo", seen[0])
 
+    def test_prompt_caps_quote_length_and_bans_fences(self):
+        self.assertIn("200", er.PROMPT)
+        self.assertIn("no markdown fences", er.PROMPT)
+
     def test_hallucinated_quote_dropped_and_reviewed(self):
         llm = fake({"eligibility": {
             "geography": e("country:CA", "open to Canadian residents")}})

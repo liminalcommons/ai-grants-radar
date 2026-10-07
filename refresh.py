@@ -34,6 +34,7 @@ import os
 import extract_requirements as er
 import grants_db as gdb
 import grants_lib as gl
+import llm_deepseek as ds
 from scrape import content_hash, fetch_many, html_to_text
 
 STALE_DAYS = 14
@@ -114,6 +115,14 @@ def run(conn, today=None, ids=None, limit=None, dry_run=False, no_extract=False,
         json_path=gdb.DEFAULT_JSON, export=True, max_extract=DEFAULT_MAX_EXTRACT,
         candidates_only=False):
     today = today or datetime.date.today()
+    if llm is None and not no_extract:
+        # Default extractor: DeepSeek via OpenCode Go (owner-authorized;
+        # every call spend-logged by llm_deepseek, max 25/run via max_extract).
+        # extract_requirements keeps its headless `claude -p` fallback only
+        # for direct extract() callers that pass llm=None; weekly runs always
+        # arrive here with a real DeepSeek llm instead.
+        llm = ds.make_llm("refresh-extract",
+                          session_id=f"refresh-{today.isoformat()}")
     s = dict.fromkeys(("selected", "fetched", "changed", "unchanged", "dead", "blocked",
                        "extracted", "sent_to_review", "expired", "rejected", "transient",
                        "added", "deferred"), 0)

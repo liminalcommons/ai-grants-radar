@@ -43,6 +43,8 @@ PROMPT = """You extract grant facts from the page text below. Reply with ONE JSO
 Every value needs a `quote`: an exact, verbatim excerpt copied from the page text that
 supports it, and a `confidence` between 0 and 1. If the page does not say, omit the field.
 Never infer or guess. Put finer applicant detail (startup, nonprofit, university...) in restrictions.
+Keep each `quote` under 200 characters — trim to the shortest excerpt that supports the value.
+Reply with the JSON object only: no markdown fences, no commentary, no extra keys.
 
 Schema:
 {{

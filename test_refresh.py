@@ -167,6 +167,44 @@ class Flags(Env):
         self.assertEqual(self.llm_calls, [])
         self.assertEqual(self.get(self.gid)["page"]["status"], "ok")
 
+    def test_default_llm_is_spend_logged_deepseek(self):
+        built = []
+
+        def fake_make_llm(tag, **kw):
+            built.append((tag, kw))
+            return self.llm
+
+        def fake_fetch(urls):
+            return {u: self.pages.get(u, {"status": "dead", "http_code": 404, "html": ""})
+                    for u in urls}
+        orig = refresh.ds.make_llm
+        refresh.ds.make_llm = fake_make_llm
+        try:
+            # llm=None must NOT fall back to headless claude: refresh builds DeepSeek
+            s = refresh.run(self.conn, today=TODAY, fetch_fn=fake_fetch,
+                            review_path=self.review, json_path=self.json_path)
+        finally:
+            refresh.ds.make_llm = orig
+        self.assertEqual(built[0][0], "refresh-extract")
+        self.assertEqual(s["extracted"], 1)
+        self.assertEqual(len(self.llm_calls), 1)
+
+    def test_no_extract_builds_no_llm(self):
+        def boom(tag, **kw):
+            raise AssertionError("make_llm must not run with no_extract=True")
+
+        def fake_fetch(urls):
+            return {u: self.pages.get(u, {"status": "dead", "http_code": 404, "html": ""})
+                    for u in urls}
+        orig = refresh.ds.make_llm
+        refresh.ds.make_llm = boom
+        try:
+            s = refresh.run(self.conn, today=TODAY, fetch_fn=fake_fetch, no_extract=True,
+                            review_path=self.review, json_path=self.json_path)
+        finally:
+            refresh.ds.make_llm = orig
+        self.assertEqual(s["extracted"], 0)
+
     def test_dry_run_writes_nothing(self):
         s = self.run_refresh(self.pages, dry_run=True)
         self.assertEqual(s["extracted"], 1)

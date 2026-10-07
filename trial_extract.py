@@ -72,6 +72,23 @@ def main():
         except RuntimeError as e:
             print(f"#{gid} {g['name'][:50]} — LLM FAILED: {e}")
             continue
+        if (any(i.get("field") == "*" and
+               str(i.get("reason", "")).startswith("LLM extraction failed")
+               for i in r["review_items"]) and len(text) > 4000):
+            # Truncation recovery: long pages can push the reply past
+            # max_tokens. One retry on the first half (key facts — who can
+            # apply, amounts, dates — sit near the top of program pages).
+            short = text[:len(text) // 2]
+            try:
+                r2 = er.extract(g, short, today, llm)
+                calls += 1
+            except RuntimeError as e:
+                print(f"#{gid} {g['name'][:50]} — RETRY LLM FAILED: {e}")
+            else:
+                if not any(i.get("field") == "*" for i in r2["review_items"]):
+                    r = r2
+                    print(f"#{gid} {g['name'][:50]} — retry on "
+                          f"{len(short)} chars recovered")
         nfields = len(r["fields"]) + len((r["fields"].get("eligibility") or {}))
         kept_fields += nfields
         review_rows += len(r["review_items"])

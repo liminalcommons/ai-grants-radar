@@ -7,3 +7,21 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-07T05:02:29.086068+00:00,trial-extract/1,deepseek-v4.1-flash,1256,3469,19204,200,
 2026-10-07T05:02:43.463545+00:00,trial-extract/2,deepseek-v4.1-flash,2832,2484,13685,200,
 2026-10-07T05:02:56.894415+00:00,trial-extract/3,deepseek-v4.1-flash,1550,2527,12961,200,
+2026-10-07T05:18:07.282229+00:00,trial-extract/1,deepseek-v4.1-flash,2702,4000,20068,200,empty reply
+2026-10-07T05:18:27.508285+00:00,trial-extract/2,deepseek-v4.1-flash,2682,3887,19515,200,
+2026-10-07T05:18:49.364987+00:00,trial-extract/3,deepseek-v4.1-flash,2693,4000,21446,200,empty reply
+2026-10-07T05:18:54.451357+00:00,trial-extract/4,deepseek-v4.1-flash,1808,774,4945,200,
+2026-10-07T05:19:14.220820+00:00,trial-extract/5,deepseek-v4.1-flash,2650,3376,18574,200,
+2026-10-07T05:19:37.204263+00:00,trial-extract/6,deepseek-v4.1-flash,2775,4000,21189,200,
+2026-10-07T05:19:59.482507+00:00,trial-extract/7,deepseek-v4.1-flash,1596,4000,21840,200,empty reply
+2026-10-07T05:20:02.593860+00:00,trial-extract/8,deepseek-v4.1-flash,535,61,1371,200,
+2026-10-07T05:20:22.943615+00:00,trial-extract/9,deepseek-v4.1-flash,2632,4000,20114,200,empty reply
+2026-10-07T05:23:11.473550+00:00,trial-extract/1,deepseek-v4.1-flash,2741,4000,19432,200,empty reply
+2026-10-07T05:23:22.207765+00:00,trial-extract/2,deepseek-v4.1-flash,2732,2147,10224,200,
+2026-10-07T05:23:33.698172+00:00,trial-extract/3,deepseek-v4.1-flash,2814,2250,11404,200,
+2026-10-07T05:24:00.027285+00:00,trial-extract/4,deepseek-v4.1-flash,1635,4000,26050,200,
+2026-10-07T05:24:09.080973+00:00,trial-extract/5,deepseek-v4.1-flash,2671,1792,8921,200,
+2026-10-07T05:25:04.349088+00:00,trial-extract/1,deepseek-v4.1-flash,2741,4000,18807,200,empty reply
+2026-10-07T05:25:27.772288+00:00,trial-extract/2,deepseek-v4.1-flash,1620,4000,23417,200,empty reply
+2026-10-07T05:25:53.790017+00:00,trial-extract/3,deepseek-v4.1-flash,1635,4000,25727,200,empty reply
+2026-10-07T05:26:15.224517+00:00,trial-extract/4,deepseek-v4.1-flash,1088,3257,21432,200,
