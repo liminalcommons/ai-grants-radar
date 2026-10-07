@@ -6388,7 +6388,39 @@
     "id": 112,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "482cf63640ca41d45e6c71349723b9575a4ffc67f2fdb9e69a75c71d4429baa3"
+    },
+    "amountMin": 50000,
+    "amountMax": 10000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Milestone progress tracking for all approved applicants",
+        "quote": "we will be tracking milestone progress for all approved applicants."
+      },
+      {
+        "item": "Applications are approved on a rolling basis",
+        "quote": "Applications are being approved on a rolling basis."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Program is inactive / marked 'Program Complete'",
+        "Funding is for projects focused on key Arbitrum Foundation initiatives"
+      ]
+    }
   },
   {
     "organization": "The Pollination Project",
@@ -6420,7 +6452,22 @@
     "id": 113,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6e145ac5f6f214d53dd43c2d3d2f33795c4b710b265b948827cc50b967421ec7"
+    },
+    "amountMax": 500,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Foundation for Contemporary Arts (FCA)",
@@ -6452,7 +6499,53 @@
     "id": 114,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "305565b53cd8f58107c05de37e5dbed307ef288aa3a767f497b2fb93d85ad2ff"
+    },
+    "amountMin": 500,
+    "amountMax": 3000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "requirements": [
+      {
+        "item": "Have sudden, unanticipated opportunities to present their work to the public when there is insufficient time to seek other sources of funding",
+        "quote": "Have sudden, unanticipated opportunities to present their work to the public when there is insufficient time to seek other sources of funding"
+      },
+      {
+        "item": "Incur unexpected or unbudgeted expenses for projects close to completion with committed exhibition or performance dates",
+        "quote": "Incur unexpected or unbudgeted expenses for projects close to completion with committed exhibition or performance dates"
+      },
+      {
+        "item": "Review all guidelines and FAQs before applying",
+        "quote": "Please review all guidelines and FAQs before applying"
+      },
+      {
+        "item": "Watch recorded information session",
+        "quote": "watch our recorded information session."
+      }
+    ],
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be a visual or performing artist or poet",
+        "Must be living and working anywhere in the United States",
+        "Projects occurring in the U.S. and abroad"
+      ]
+    }
   },
   {
     "organization": "Drips Network",
@@ -6484,14 +6577,24 @@
     "id": 115,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "9e9a46fc5fade1f2b07c899e252d177529e3f537803fc4cf839ced66ca0ef205"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Funding the Commons",
     "category": "Foundation",
     "amount": "Varies — live quadratic-funding round payouts, hackathon prize pools, and residency project grants",
     "deadline": "Varies by event (residencies, hackathons, and on-site funding experiments throughout 2026)",
-    "deadlineDate": null,
+    "deadlineDate": "2024-11-09",
     "eligibility": "Researchers, builders, and public-goods project teams, including individuals selected into residencies/hackathons",
     "description": "A public-goods funding convener running builder residencies, hackathons, and live quadratic-funding experiments where participants can leave with actual grants. 2026 programming includes the 'Intelligence at the Frontier' SF event with on-site QF rounds and agent-economy demos.",
     "url": "https://www.fundingthecommons.io",
@@ -6515,15 +6618,33 @@
     "name": "Funding the Commons — Residencies, Hackathons & QF Rounds",
     "id": 116,
     "_updated": "2026-05-30",
-    "deadlineStatus": "unknown",
-    "deadlineType": "unknown"
+    "deadlineStatus": "expired",
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "7a5ea31c6311239f4c93f844c7c182ba5b65dd96eb0c03d597b4054dec45f1a3"
+    },
+    "amountMin": 20500,
+    "amountMax": 99750,
+    "currency": "USD",
+    "timeline": {
+      "opensDate": "2025-06-11",
+      "deadlineDate": "2024-11-09",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Tarbell Center for AI Journalism",
     "category": "Foundation",
     "amount": "$60,000–$80,000 stipend (Fellows); $90,000–$110,000 (Senior Fellows)",
     "deadline": "Annual; 2026 cohort closed Jan 7, 2026 — next cycle expected late 2026 for 2027",
-    "deadlineDate": null,
+    "deadlineDate": "2026-11-22",
     "eligibility": "Early-career and experienced journalists worldwide who want to cover AI; individual applicants, no institution required",
     "description": "A one-year fellowship pairing a 9-month placement at a major newsroom with an AI-and-journalism course and a Bay Area summit. Pays a substantial cash stipend — strong fit for writers/researchers who want to cover AI.",
     "url": "https://www.tarbellcenter.org/fellowship",
@@ -6547,8 +6668,71 @@
     "name": "Tarbell Fellowship in AI Journalism",
     "id": 117,
     "_updated": "2026-05-30",
-    "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineStatus": "open",
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "bb0f7bc5d4c8643dd0876066060336cb6214155add275ca982df3a02602a2318"
+    },
+    "amountMin": 75000,
+    "amountMax": 135000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "recurring",
+      "opensDate": "2026-09-28",
+      "deadlineDate": "2026-11-22",
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "requirements": [
+      {
+        "item": "Application form with CV, short questions, and 1-3 writing samples",
+        "quote": "Complete our application form. Include your CV, answer some short questions and provide one to three writing samples."
+      },
+      {
+        "item": "Submit between one and three writing samples",
+        "quote": "You may submit between one and three writing samples."
+      },
+      {
+        "item": "Combined writing sample word count may not exceed 4,500 words",
+        "quote": "The combined total word count of your writing samples may not exceed 4,500 words."
+      },
+      {
+        "item": "At least one writing sample must be in prose format",
+        "quote": "At least one of the writing samples you submit must be written in prose format, such as a news article, blog post, or essay. A script will not fulfill this requirement."
+      },
+      {
+        "item": "Do not use AI to draft any part of the application",
+        "quote": "Do not use AI to draft any part of your application."
+      },
+      {
+        "item": "Complete a three- to five-hour work test",
+        "quote": "Complete a three- to five-hour work task designed to test your ability to excel in a newsroom covering AI."
+      },
+      {
+        "item": "Complete a 1-hour interview with Tarbell and 1-3 interviews with placement organizations",
+        "quote": "Complete a 1-hour interview with a member of the Tarbell team and 1-3 interviews with potential placement organizations."
+      }
+    ],
+    "eligibilityDetail": {
+      "geography": "restricted:US,GB,HK",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Right to work in U.S., U.K., or Hong Kong",
+        "Must be at least 18 years old by June 7, 2027",
+        "Only supports coverage of artificial intelligence",
+        "Full-time commitment, cannot be combined with graduate degree or other training",
+        "Senior Fellowship requires at least seven years experience relevant to AI or journalism"
+      ]
+    }
   },
   {
     "organization": "Experiment (Experiment.com)",
@@ -6580,7 +6764,20 @@
     "id": 118,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6aa97a277beaf1bea547f2665485be626435a8fc56953180c6055470e35cbdfc"
+    },
+    "amountMin": 600000,
+    "amountMax": 3000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Open Technology Fund (OTF)",
@@ -6612,7 +6809,23 @@
     "id": 119,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "257d50902bedc92161bbd61e0bed6e47fd10abd17752ed782cf9b3da48806372"
+    },
+    "amountMin": 10000,
+    "amountMax": 900000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Wikimedia Foundation",
@@ -6644,7 +6857,11 @@
     "id": 120,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "blocked",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Patagonia",
@@ -6676,7 +6893,17 @@
     "id": 121,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "ea39f13579269b4bde26406be8bdf6b42c89460245b4b9dd972e18eb203a4fe2"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "National Endowment for the Arts (NEA)",
@@ -6708,7 +6935,45 @@
     "id": 122,
     "_updated": "2026-05-30",
     "deadlineStatus": "expired",
-    "deadlineType": "fixed"
+    "deadlineType": "fixed",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "3014e1945c0d8a95483d85e11c1624aa765c85ab0d0e2ab3a0b1bec74adcc37b"
+    },
+    "amountMin": 30000,
+    "amountMax": 150000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "1:1 cost share required (cash and/or in-kind)",
+        "quote": "1:1 Cost share required. Sources may include both cash and in-kind."
+      },
+      {
+        "item": "Must register with Login.gov, SAM.gov, and Grants.gov (or renew/verify) before submitting",
+        "quote": "Before you can submit an application, you must register with Login.gov, the System for Award Management (SAM) at SAM.gov, and Grants.gov or renew/verify these registrations."
+      },
+      {
+        "item": "Other GAP applicants may request from $10,000 to $100,000",
+        "quote": "Other GAP applicants may request from $10,000 to $100,000."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "org",
+      "restrictions": [
+        "Applicant organizations must have completed at least 5 years of arts programming prior to the application deadline",
+        "Minimum $20,000 in organization operating expenses in most recently completed fiscal year",
+        "Generally one application per calendar year",
+        "Not available to individuals, fiscal sponsors, commercial/for-profit enterprises, State Arts Agencies and Regional Arts Organizations",
+        "Challenge America applicants may only request $10,000"
+      ]
+    }
   },
   {
     "organization": "Giveth",
@@ -6740,7 +7005,17 @@
     "id": 123,
     "_updated": "2026-05-30",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "703978f5b7ad64364c5a901468b4d6e6762630ebab4b7edd1ddcd7d80a4fe50e"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "Okta for Good",
@@ -6772,7 +7047,25 @@
     "id": 124,
     "_updated": "2026-05-30",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "3edf97957bc7945a250108cbac25eeeca1d32bcd44e26b32ffa17e18d705826e",
+      "finalUrl": "https://www.okta.com/company/okta-for-good/nonprofit-technology-fellows/"
+    },
+    "amountMin": 25000,
+    "amountMax": 25000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "recurring",
+      "decisionDate": "2026-01-05"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Verizon (Citizen Verizon)",
@@ -6804,7 +7097,11 @@
     "id": 125,
     "_updated": "2026-05-30",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "dead",
+      "lastChecked": "2026-10-07"
+    }
   },
   {
     "organization": "Internet Society Foundation",
@@ -6836,7 +7133,20 @@
     "id": 126,
     "_updated": "2026-05-30",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "0c3648ba32ac5eb3ec3c68070ec9618f8d84e9fc16e1e783e08e2dea04312861"
+    },
+    "amountMin": 20000,
+    "amountMax": 200000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Web3 Foundation",
@@ -6868,7 +7178,29 @@
     "id": 127,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "5e8241f0a0b91001064890a3c516a32a7f6b990abf2665a8bb015f82ab2d82bd",
+      "finalUrl": "https://web3.foundation/"
+    },
+    "requirements": [
+      {
+        "item": "Building the foundation of the decentralized web",
+        "quote": "We fund research and development teams who are building the foundation of the decentralized web."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "team"
+      ]
+    }
   },
   {
     "organization": "Z Fellows",
@@ -6900,7 +7232,28 @@
     "id": 128,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "34d9c521539b3c1ea1068606b282727538e1a0342278543da41081291b48ab67"
+    },
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ]
+    }
   },
   {
     "organization": "Sui Foundation",
@@ -6932,7 +7285,20 @@
     "id": 129,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "cdf001fcf97a64231672d61618acf21e6f2a9519151074266919ee2baaa01193"
+    },
+    "amountMin": 2,
+    "amountMax": 600000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Zcash Community Grants / Bootstrap (Zcash Dev Fund)",
@@ -6964,7 +7330,31 @@
     "id": 130,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "f8410fac4919c3c3fa1a440920c95cba614698e7d09c7d9f185b7bdaefe51492"
+    },
+    "requirements": [
+      {
+        "item": "perform major ongoing development or other work for the public good of the Zcash ecosystem",
+        "quote": "perform major ongoing development (or other work) for the public good of the Zcash ecosystem"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "independent teams entering the Zcash ecosystem"
+      ]
+    }
   },
   {
     "organization": "NEAR Foundation",
@@ -6996,7 +7386,17 @@
     "id": 131,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a4ea7e021436106ec3e3c113ec71441cead67cdbe07bffa3267f6cfe1d2e4dbd"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
+    }
   },
   {
     "organization": "MassChallenge",
@@ -7028,7 +7428,20 @@
     "id": 132,
     "_updated": "2026-05-31",
     "deadlineStatus": "unknown",
-    "deadlineType": "unknown"
+    "deadlineType": "unknown",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "719bfab68583bb06470d21a84db57f0b85add04c1c74ed5533f25152f3e5ab83"
+    },
+    "amountMin": 5000,
+    "amountMax": 10000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Hello Tomorrow",
@@ -7060,7 +7473,23 @@
     "id": 133,
     "_updated": "2026-05-31",
     "deadlineStatus": "upcoming",
-    "deadlineType": "recurring"
+    "deadlineType": "recurring",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2ac00ac784b7a014c46766bfa612778f0fee4d9d2f4b3e21e4b8128676a57dc7"
+    },
+    "amountMin": 200000,
+    "amountMax": 200000,
+    "currency": "EUR",
+    "timeline": {
+      "decisionDate": "2026-04-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "The Roddenberry Foundation",
@@ -7092,7 +7521,33 @@
     "id": 134,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "20ca630dbbe370942bf5fe43b1764d5258c444877eafe08e1e14f9b61feed995"
+    },
+    "amountMin": 2500,
+    "amountMax": 15000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "requirements": [
+      {
+        "item": "Idea or early-stage project that challenges conventional thinking, compels us to see a problem in a new light, or whose plans redefine notions of what can be done and how",
+        "quote": "who has an idea or early-stage project that challenges conventional thinking, that compels us to see a problem in a new light; or whose plans redefine notions of what can be done and how."
+      }
+    ],
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ]
+    }
   },
   {
     "organization": "Zerodha",
@@ -7124,7 +7579,33 @@
     "id": 135,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2194cb2910eda335f690e9ad3e79c6ddf6202d4a1eb77d57fde899d63d282ded"
+    },
+    "amountMin": 325000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "Project must be free/libre and open source",
+        "Project should be critical, impactful, and valuable",
+        "For developers and communities"
+      ]
+    }
   },
   {
     "organization": "BlueDot Impact",
@@ -7156,7 +7637,21 @@
     "id": 136,
     "_updated": "2026-05-31",
     "deadlineStatus": "rolling",
-    "deadlineType": "rolling"
+    "deadlineType": "rolling",
+    "page": {
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "9692c22e1c573a53e22b9ab7098bf2aade7aec9e71a16e48702eb78035ad28b5",
+      "finalUrl": "https://bluedot.org/grants/rapid"
+    },
+    "amountMin": 20000,
+    "amountMax": 20000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Open Knowledge Foundation Germany / German government",
