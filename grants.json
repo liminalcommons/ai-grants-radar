@@ -17265,7 +17265,54 @@
     "id": 304,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "665a362441b3dc9b06d6d9869bfbfb9cb1ec1962106496ae110298ed04d96076"
+    },
+    "amountMax": 35000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Demonstrate a clear document-based investigation",
+        "quote": "projects that demonstrate a clear document-based investigation"
+      },
+      {
+        "item": "Provide proof of intent to publish from a reputable news organization",
+        "quote": "provide proof of intent to publish from a reputable news organization"
+      },
+      {
+        "item": "Projects should be publishable within 3-12 months",
+        "quote": "Projects should be publishable within 3-12 months."
+      },
+      {
+        "item": "After publication, recipients will be asked to share core source documents publicly",
+        "quote": "after publication of their work, recipients will be asked to share core source documents (text, audio, visual, etc.) publicly for the benefit of other journalists."
+      },
+      {
+        "item": "Awards will cover up to 80% of the total overall budget",
+        "quote": "Awards will cover up to 80% of the total overall budget of the project."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring",
+      "durationMonths": 12
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "geography": "restricted:US,CA",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "Applicants must be local news journalists or freelancers",
+        "Projects must serve local and/or underrepresented communities in the US and Canada"
+      ]
     }
   },
   {
@@ -17300,7 +17347,80 @@
     "id": 305,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "290e624277b8229c5aa1e82d9ef16c6a0e62f511668faefe249330519da5b6d1"
+    },
+    "amountMax": 10000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "$15 application fee required",
+        "quote": "A $15 application fee is required."
+      },
+      {
+        "item": "Fee waiver must be requested before submitting application",
+        "quote": "Fee waiver MUST be requested BEFORE submitting your application."
+      },
+      {
+        "item": "Must use the Foundation's online application system",
+        "quote": "Applicants must use the Foundation’s online application system to submit the following:"
+      },
+      {
+        "item": "Artist resume required",
+        "quote": "Artist resume"
+      },
+      {
+        "item": "Artist statement up to 200 words required",
+        "quote": "Artist statement (up to 200 words)"
+      },
+      {
+        "item": "Up to 10 work samples required",
+        "quote": "Work samples (up to 10)"
+      },
+      {
+        "item": "Images must be .jpg files only",
+        "quote": "All images should be formatted as .jpg files with the .jpg extension in the title. No other image formats are accepted."
+      },
+      {
+        "item": "Accepted video file formats are .mp4 or .mov",
+        "quote": "Accepted video file formats are .mp4 or .mov."
+      },
+      {
+        "item": "Accepted audio file format is .mp3",
+        "quote": "Accepted audio file format is .mp3"
+      },
+      {
+        "item": "Image file size must be no larger than 2MB per image",
+        "quote": "Image file size must be no larger than 2MB per image to open properly"
+      },
+      {
+        "item": "Report detailing fund use due within 10-months of receiving funds",
+        "quote": "A report detailing how funds were used is due within 10-months of receiving funds."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-04-27",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be 21 years or older",
+        "Current enrollment in a fine arts degree program is not eligible",
+        "Enrollment in a fine arts degree program within the last 12 months is not eligible",
+        "Planning to attend a fine arts degree program in the coming year is not eligible",
+        "Previous recipients of a direct artist grant from Harpo are not eligible"
+      ]
     }
   },
   {
@@ -17334,7 +17454,84 @@
     "id": 306,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "e1bc5d6561e089f07983f8f86c99d44ed556c4f52ad5d9c5d87d67feae4b05c9"
+    },
+    "amountMin": 3000,
+    "amountMax": 216500,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Applicants must complete an eligibility quiz before accessing the application.",
+        "quote": "Applicants must complete an eligibility quiz before accessing the application."
+      },
+      {
+        "item": "Applicants must watch the Creator Fund Application Webinar.",
+        "quote": "All applicants will now be required to watch (live or by viewing on demand) the Creator Fund Application Webinar"
+      },
+      {
+        "item": "Applicants must read the Creator Fund FAQs.",
+        "quote": "All applicants must read the Creator Fund FAQs"
+      },
+      {
+        "item": "Each applicant must list between 1-5 collaborators.",
+        "quote": "Each applicant must list between 1-5 collaborators on their application."
+      },
+      {
+        "item": "Applicants must have audio/video samples of their work.",
+        "quote": "Applicants must have audio/video samples of their work."
+      },
+      {
+        "item": "Applicants must include a resume/CV with their application materials.",
+        "quote": "Applicants must include a resume/CV with their application materials."
+      },
+      {
+        "item": "Applicants must provide 2 to 3 work samples demonstrating recent work by the applicant and collaborating artists.",
+        "quote": "2 to 3 work samples demonstrating recent work by you and your collaborating artists."
+      },
+      {
+        "item": "Applicants must submit a narrative answering four questions.",
+        "quote": "To move forward in the review process, you MUST answer the following four questions in your narrative:"
+      },
+      {
+        "item": "Applicants must provide a budget breakdown outlining use of funds and any funding received or projected.",
+        "quote": "Please outline how you plan to use the funds, as well as any funding received or projected to date for the proposed project."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring",
+      "opensDate": "2025-11-06",
+      "decisionDate": "2026-04-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Applicants must be at least 21 years of age.",
+        "Students are not eligible except PhD/DMA ABD candidates.",
+        "Applicants must have a minimum of 3 years of experience as a professional musician.",
+        "Applicants can only apply every 2 years.",
+        "Each applicant may only submit one application.",
+        "Applicants may not have received an award from selected New Music USA individual programs in 2024 or 2025.",
+        "The Fund only supports new work; revisions or arrangements are not eligible.",
+        "Projects that have already been publicly presented are not eligible.",
+        "Project completion should not take place before the grant is awarded in June 2026.",
+        "Requests solely for promotion/marketing/PR are not eligible.",
+        "Funds for international collaborators are not supported.",
+        "Benefits or fundraisers are not supported.",
+        "Competition fees are not supported.",
+        "Projects that are already 100% funded are not supported.",
+        "Projects that have already been completed are not supported.",
+        "Individuals enrolled in a degree-granting program are not eligible, except ABD PhD/DMA candidates."
+      ]
     }
   },
   {
@@ -17405,7 +17602,19 @@
     "id": 308,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "e51b168bc52e78a79595e1ce66d57fe1577832547a395666ee253e8ea176c582"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "individual"
+      ]
     }
   },
   {
@@ -17440,7 +17649,55 @@
     "id": 309,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "cb4df7df6247dc03f2abc93e013922edb82abbd2e42109a857a65e91a003b11e"
+    },
+    "requirements": [
+      {
+        "item": "Academic or scientific focus with clear objectives",
+        "quote": "Academic or scientific focus with clear objectives"
+      },
+      {
+        "item": "Innovative use of GPUs for AI, machine learning, data analytics or HPC",
+        "quote": "Innovative use of GPUs for AI, machine learning, data analytics or HPC"
+      },
+      {
+        "item": "Demonstrated feasibility and potential impact",
+        "quote": "Demonstrated feasibility and potential impact"
+      },
+      {
+        "item": "Transparent resource utilization plan",
+        "quote": "Transparent resource utilization plan"
+      },
+      {
+        "item": "Open to publicly acknowledging Nebius support and joining communications",
+        "quote": "Co-marketing: being open to publicly acknowledging Nebius support and joining communications"
+      },
+      {
+        "item": "A capable team with relevant research experience",
+        "quote": "A capable team with relevant research experience"
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Postgraduate students conducting academic research",
+        "PhD students and postdoctoral researchers",
+        "Faculty members from accredited academic institutions leading computational or data-intensive projects",
+        "Researchers from accredited academic institutions or non-profit research organizations",
+        "Only one person from a team can apply; credits granted to that individual",
+        "Only eligible to apply one time for the Research Credits Program",
+        "Offer cannot be combined with other promotions, discounts or special offers"
+      ]
     }
   },
   {
@@ -17475,7 +17732,43 @@
     "id": 310,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "0eb1927cb3a8988535a8f6f3e3d4af223ee09a951fb09d6d0b9cb7cf5dc954d3"
+    },
+    "requirements": [
+      {
+        "item": "Proposal must adhere to the requirements included in the proposal template and relevant call for proposals (CFP).",
+        "quote": "Must adhere to the requirements included in the proposal template and relevant call for proposals (CFP)."
+      },
+      {
+        "item": "Project must incorporate pretrained models from ai.nvidia.com and/or make extensive use of NVIDIA software distributions.",
+        "quote": "Must incorporate pretrained models from ai.nvidia.com and/or make extensive use of NVIDIA software distributions."
+      },
+      {
+        "item": "Timeline must align with the expected GPU hours dates and/or estimated hardware ship dates as described in FAQ.",
+        "quote": "Timeline must align with the expected GPU hours dates and/or estimated hardware ship dates as described in FAQ."
+      },
+      {
+        "item": "Applications that don’t adhere to the proposal template won’t be reviewed.",
+        "quote": "Applications that don’t adhere to the proposal template won’t be reviewed."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Must be a full-time faculty member at an accredited academic institution that awards research degrees to PhD students.",
+        "Previous winners must submit results through the program portal to be eligible for another award."
+      ]
     }
   },
   {
@@ -17483,7 +17776,7 @@
     "category": "Government",
     "amount": "Planning, Project Development & Implementation grants (Implementation awards historically $1M–$35M)",
     "deadline": "Pre-Proposal due June 30, 2026",
-    "deadlineDate": "2026-06-30",
+    "deadlineDate": "2026-07-31",
     "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "501(c)(3) nonprofits, California Native American Tribes, tribally-owned nonprofits, public/local agencies, JPAs, utilities; projects in eligible disadvantaged California communities.",
@@ -17510,7 +17803,54 @@
     "id": 311,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "b3cf6704b208881c421cab9365078ef083b7774fecfcac43a99ab208b68c288e"
+    },
+    "amountMin": 27500000,
+    "amountMax": 82500000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Applicants must submit a Pre-Proposal by 11:59 p.m. PST on June 30, 2026.",
+        "quote": "Applicants must submit a Pre-Proposal by 11:59 p.m. PST on June 30, 2026."
+      },
+      {
+        "item": "Application deadline is 9/30/26 23:59.",
+        "quote": "9/30/26 23:59"
+      },
+      {
+        "item": "Period of performance is 5 years.",
+        "quote": "5 years"
+      },
+      {
+        "item": "Priority deadline to request Application Technical Assistance is July 31, 2026.",
+        "quote": "July 31, 2026, is the priority deadline to request Application Technical Assistance via the TA Application Request Form."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-07-31",
+      "deadlineType": "fixed",
+      "opensDate": "2026-05-29",
+      "durationMonths": 60
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Project Areas must be designated as disadvantaged communities per the TCC Guidelines.",
+        "At least 2 Co-Applicants are required.",
+        "All Lead and Co-Applicants, with local residents and leadership, must form a Collaborative Governance Structure.",
+        "Project Areas for Implementation Grants may be up to 15 continuous square miles in rural areas and 5 continuous square miles in urban areas.",
+        "All other applicants must secure additional funding equal to at least 50% of the total requested grant amount."
+      ]
     }
   },
   {
@@ -17518,9 +17858,9 @@
     "category": "Foundation",
     "amount": "€5,000–€50,000 per project (scalable with proven potential)",
     "deadline": "Bimonthly open calls; next deadline expected Aug 1, 2026 (1st of each even month)",
-    "deadlineDate": null,
-    "deadlineStatus": "upcoming",
-    "deadlineType": "recurring",
+    "deadlineDate": "2026-11-03",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed",
     "eligibility": "Anyone — individuals, small teams, nonprofits, research groups, companies. Output must be released under a free/open-source license and relate to privacy-friendly digital payments (GNU Taler / Next Gen Internet).",
     "description": "NLnet-administered open call funding free/open-source work that builds on or integrates the GNU Taler privacy-preserving payment system. Small grants with a lightweight proposal form and rolling bimonthly deadlines through Nov 2026.",
     "url": "https://nlnet.nl/taler/",
@@ -17545,7 +17885,37 @@
     "id": 312,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "b89f9f9b76faf7b902340f7b3e98674af800a4b6bb643ff8e5453baee3e91a2c"
+    },
+    "requirements": [
+      {
+        "item": "Project results must be made available under a free and open source license",
+        "quote": "Project results must be made available under a free and open source license"
+      },
+      {
+        "item": "Project proposals between 5.000 and 50.000 euro's",
+        "quote": "We are seeking project proposals between 5.000 and 50.000 euro's"
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-11-03",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "free and open source efforts aligned with the topics and approach of NGI TALER"
+      ]
     }
   },
   {
@@ -17581,7 +17951,14 @@
     "_updated": "2026-06-01",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "93c3f5af29a08a9a1bfcefd0b2422ade7f76e0f032e8117ead26dea6a1a63663",
       "finalUrl": "https://www.rwjf.org/en/grants/active-funding-opportunities.html"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -17616,7 +17993,37 @@
     "id": 314,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "3c2f3f90fe5923e003fa4c249e60857c0286d4238e6d1583a9e1511e3fcd0de8"
+    },
+    "amountMin": 100000,
+    "amountMax": 1250000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Participants must work through four modules and a culminating capstone activity, including virtual sessions and an in-person component",
+        "quote": "Participants in the 12-month program will work through four modules and a culminating capstone activity, including both virtual sessions and an in-person component."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2023-07-14",
+      "durationMonths": 12,
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "applicantTypes": [
+        "team"
+      ],
+      "restrictions": [
+        "Each team must include two rising public health leaders and two rising community leaders",
+        "Teams selected from communities around the country"
+      ]
     }
   },
   {
@@ -17687,7 +18094,65 @@
     "id": 316,
     "_updated": "2026-06-01",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "9e0ca0c0d164c19bc3f82c2b2a6fb930a54953a2be3e0a2093bd9bab099aa679"
+    },
+    "amountMin": 200000,
+    "amountMax": 200000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Submit application via Submittable during April 2026",
+        "quote": "You can submit your application via Submittable during the month of April 2026."
+      },
+      {
+        "item": "Applications must be submitted by April 30, 2026 at 11:59 PM ET",
+        "quote": "Applications must be submitted by April 30, 2026 at 11:59 PM ET."
+      },
+      {
+        "item": "Project should demonstrate measurable, local impact",
+        "quote": "Projects should demonstrate measurable, local impact."
+      },
+      {
+        "item": "Application must include overview, impact, team and partners, plan and timeline and budget",
+        "quote": "You’ll submit one application with brief answers on the following aspects of your project: overview, impact, team and partners, plan and timeline and budget."
+      },
+      {
+        "item": "Complete and upload required budget template",
+        "quote": "Complete the second tab of the spreadsheet labeled “Year 1” as fully as you can, and upload your budget when you submit your application in Submittable."
+      },
+      {
+        "item": "No supporting documents, photos, videos or other media assets accepted",
+        "quote": "We are not accepting supporting documents, photos, videos or other media assets."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-04-01",
+      "deadlineDate": "2026-04-30",
+      "deadlineType": "fixed",
+      "decisionDate": "2026-08-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "country:US",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ],
+      "restrictions": [
+        "Project must take place in one or more of the 26 Knight communities",
+        "National organizations applying must work with a partner organization in the community",
+        "Project must focus on at least one of Knight’s three investment areas",
+        "If project relates to more than one investment area, applicant must select the primary one",
+        "Each individual or organization may receive funding for only one project",
+        "Knight cannot fund support for or opposition to political candidates or lobbying/political campaign activity"
+      ]
     }
   },
   {
@@ -17723,7 +18188,14 @@
     "_updated": "2026-06-01",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "8c4e31b4633d2dc22aa499d6ef3a98ce640fc88111ae319c51e75e19e8dd3641",
       "finalUrl": "https://cfgreateratlanta.org/2015/11/11/extra-wish-has-a-new-look-for-fall/"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -17759,7 +18231,39 @@
     "_updated": "2026-06-01",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2ddfca561fa8eee04fcc7e7dc24d668bd3b01f42576888c72d00787d803dd7fb",
       "finalUrl": "https://www.ibm.com/responsibility/programs/ibm-impact-accelerator"
+    },
+    "requirements": [
+      {
+        "item": "Must enter into an IBM grant agreement",
+        "quote": "Organizations selected to participate must enter into an IBM grant agreement governing access to IBM technology, services and resources."
+      },
+      {
+        "item": "Proposals are vetted through IBM compliance processes",
+        "quote": "Proposals are reviewed and evaluated for feasibility and impact and vetted through standard IBM compliance processes."
+      }
+    ],
+    "timeline": {
+      "durationMonths": 24
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Nonprofit, academic, or government organization",
+        "Nonprofit and government organizations globally",
+        "Five organizations selected each year"
+      ]
     }
   },
   {
@@ -17831,7 +18335,18 @@
     "id": 320,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "a2adb2a44b840086c96508c057a19e958510b9c66d1252253e9e3899dd9217a4"
+    },
+    "timeline": {
+      "deadlineDate": "2025-08-16",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.9
     }
   },
   {
@@ -17866,7 +18381,49 @@
     "id": 321,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6b9963619afc0aa407c9082d97edc1d1feabb40e17b59642566b98525de63c2e"
+    },
+    "amountMin": 5000,
+    "amountMax": 50000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Original empirical research using econometric methods, data analysis, or novel data collection",
+        "quote": "Original empirical research using econometric methods, data analysis, or novel data collection"
+      },
+      {
+        "item": "Studies examining AI's labor market effects, productivity impacts, or distributional consequences",
+        "quote": "Studies examining AI's labor market effects, productivity impacts, or distributional consequences"
+      },
+      {
+        "item": "Research that can be completed within 6 months",
+        "quote": "Research that can be completed within 6 months"
+      },
+      {
+        "item": "Recipients present and share findings within six months after receiving grant",
+        "quote": "We ask that recipients present and share their findings within a six-month timeframe after receiving their grant."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2025-07-25",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual"
+      ],
+      "restrictions": [
+        "Applicants should be economists with strong quantitative research backgrounds",
+        "Particularly suited for academic economists, data scientists, and PhD students"
+      ]
     }
   },
   {
@@ -17901,7 +18458,61 @@
     "id": 322,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "6561d4f50913486f6b79dc5732fe2e0a24eaf5d309184796a9100cb9e892fde9"
+    },
+    "amountMin": 40000,
+    "amountMax": 40000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Selected participants must work full-time (40 hours/week) during the program",
+        "quote": "Selected participants must be able to work on their projects full-time (40 hours/week) during the program."
+      },
+      {
+        "item": "Time commitment includes 5-10 hours of weekly instruction, workshops, and homework",
+        "quote": "This time commitment is inclusive of the 5-10 hours of weekly instruction, workshops, and homework."
+      },
+      {
+        "item": "All meetings hosted in Pacific Standard Time",
+        "quote": "All meetings will be hosted in Pacific Standard Time."
+      },
+      {
+        "item": "Contribute to open source resources on GitHub",
+        "quote": "Contribute to the open source resources we have on GitHub so other developers can learn from your experience"
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2024-03-05",
+      "deadlineType": "fixed",
+      "decisionDate": "2024-03-16"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Must be a current contributor or maintainer of an open source project on GitHub",
+        "Team applications max 3 people",
+        "Age 18 or older",
+        "Active online GitHub profile",
+        "Located in GitHub Sponsors supported regions",
+        "Not a current GitHub employee or parent/subsidiary employee",
+        "Clear open source license",
+        "Open source first project with demonstrated community traction and adoption",
+        "Clear governance structure and plan for utilizing funds prior to kick-off",
+        "Deep focus in AI, Machine Learning, and AI infrastructure",
+        "Commitment from core leaders to participate in required programming",
+        "Agree to Code of Conduct and Privacy Statement"
+      ]
     }
   },
   {
@@ -17938,7 +18549,31 @@
     "_updated": "2026-06-02",
     "page": {
       "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "contentHash": "d389470ee576d2cb03c55ea7547a590fe65fc011d358c4f03c319770a81c6d7e",
       "finalUrl": "https://www.plurality.institute/"
+    },
+    "amountMin": 200000000,
+    "amountMax": 200000000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Micro-grants are awarded in conjunction with workshops.",
+        "quote": "In conjunction with our workshops, we award micro-grants"
+      },
+      {
+        "item": "Grants are intended to spark new research and accelerate the development of plural technologies.",
+        "quote": "to spark new research and accelerate the development of plural technologies"
+      },
+      {
+        "item": "Grants are designed to resource early prototypes, collaborations, and experimental ideas.",
+        "quote": "These grants are designed to quickly resource early prototypes, collaborations, and experimental ideas emerging in this growing field."
+      }
+    ],
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
@@ -17974,7 +18609,55 @@
     "id": 324,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "b12adeafad639e4be71243ac7827515e4d74adac882bcdd7228bf10c1a5d8abf"
+    },
+    "amountMax": 4000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Must be a member and meet page requirements to apply",
+        "quote": "To apply, you must be a member and meet the requirements as outlined elsewhere on this page."
+      },
+      {
+        "item": "Submit minimum documents: grant-use statement, business plan, recent tax return or profit/loss statement, and photo",
+        "quote": "A grant-use statement, business plan, recent tax return or profit/loss statement, and a photo of you or your business are the minimum requirements."
+      },
+      {
+        "item": "New businesses without a tax return or profit & loss statement may submit Expected Profit & Loss Statements or projections",
+        "quote": "In situations like this, we accept Expected Profit & Loss Statements or projections of income and expenses."
+      },
+      {
+        "item": "Use of funds must be consistent with written statement of grant use",
+        "quote": "The use of funds must be consistent with written statement of grant use."
+      },
+      {
+        "item": "Recipients must maintain records showing use of the money",
+        "quote": "Recipients must maintain records showing use of the money."
+      },
+      {
+        "item": "Recipients must place the NASE Member Badge on their website for one year after receiving the check",
+        "quote": "The NASE requests that the recipient place the NASE Member Badge on the recipient's website for one year after the growth grant check is received."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "restrictions": [
+        "Must be a member in good standing at time of application and maintain good standing through award date",
+        "Only Annual, Veteran, and Gold Members are immediately eligible; Monthly Members need 90 days of membership; other membership levels are not eligible",
+        "Monthly Members must have 90 days of membership before their application is considered",
+        "Membership levels not listed above are not eligible",
+        "NASE employees, sales associates, field service representatives, or contractors are not eligible",
+        "Funds cannot pay existing debt or rent/mortgage payments"
+      ]
     }
   },
   {
@@ -18045,7 +18728,14 @@
     "id": 326,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "af045ba688f31a1069cdd91b375eecb909c549055a7c2af5c9525430d2dd3090"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.0
     }
   },
   {
@@ -18125,8 +18815,8 @@
     "category": "Foundation",
     "amount": "$850/week living stipend + $400–$800 travel + up to $200 materials shipping + room & board",
     "deadline": "July 15, 2026",
-    "deadlineDate": "2026-07-15",
-    "deadlineStatus": "expired",
+    "deadlineDate": "2027-07-15",
+    "deadlineStatus": "open",
     "deadlineType": "fixed",
     "eligibility": "Individual professional artists across disciplines (visual, performing, literary, music, etc.); fully paid residency with stipend.",
     "description": "Stipend-supported residency in Knoxville providing private cottages, room and board, and an $850/week living stipend. Applications accepted annually June 1–July 15 for residencies the following year.",
@@ -18152,7 +18842,55 @@
     "id": 329,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "c075c68f2c9f8336ed6653d329fc6ae474bf291696216de17ea28cff7a894502"
+    },
+    "amountMin": 25,
+    "amountMax": 25,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Eligibility requirements must be met at time of application",
+        "quote": "Please note that all eligibility requirements must be met at the time of application."
+      },
+      {
+        "item": "Applicants must submit two professional references",
+        "quote": "All applicants are required to submit two professional references."
+      },
+      {
+        "item": "Application fee is $25 non-refundable",
+        "quote": "The residency has a $25 non-refundable application fee to apply."
+      },
+      {
+        "item": "Submissions must be in English or accompanied by a translation",
+        "quote": "Provide all submissions in English or accompanied by a translation."
+      }
+    ],
+    "timeline": {
+      "deadlineType": "recurring",
+      "opensDate": "2027-06-01",
+      "deadlineDate": "2027-07-15",
+      "decisionDate": "2027-11-01"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.7
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "International artists are not eligible",
+        "Currently enrolled in a degree-seeking program are not eligible",
+        "Must be at least twenty-one years old",
+        "Must live more than 120 miles away from Knoxville",
+        "Collaborative teams limited to up to and including nine people"
+      ]
     }
   },
   {
@@ -18187,7 +18925,45 @@
     "id": 330,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "1878584e70c40c90eb119253e12e5d00181e5e567ea904dec53b85547a07148f"
+    },
+    "amountMin": 5000,
+    "amountMax": 5000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Applications are scored on Clarity, Quality of Life Impact, Community Engagement, and Need.",
+        "quote": "We score applications based on a number of areas, including: Clarity, Quality of Life Impact, Community Engagement, and Need."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2025-11-03",
+      "deadlineDate": "2026-02-02",
+      "deadlineType": "fixed",
+      "decisionDate": "2026-05-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "team",
+        "org"
+      ],
+      "restrictions": [
+        "Applicants must live in one of New York City’s five boroughs.",
+        "Group or project must be community-oriented and have or will have two or more volunteers.",
+        "Group or project must not be profit-generating and must be nonprofits or grassroots volunteer groups.",
+        "Group or project must have a budget of less than $250,000, with schools and school programs exempt.",
+        "Group or project must not be an affiliate or chapter of a larger organization.",
+        "Group or project cannot promote religious, political, or any other ideology.",
+        "Awarded first-cycle applicants are ineligible to apply again during the second cycle."
+      ]
     }
   },
   {
@@ -18258,7 +19034,68 @@
     "id": 332,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "2f9e2daf56050ac5d58bd04ae94f26f1f862ce6269686e73ee1ec3bf3a90f5f5"
+    },
+    "amountMin": 10000,
+    "amountMax": 10000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Applicants must create a Submittable account and submit an application through Submittable",
+        "quote": "To apply, you must create a Submittable account and submit an application through Submittable."
+      },
+      {
+        "item": "Emailed or physical applications will not be reviewed",
+        "quote": "Emailed or physical applications will not be reviewed."
+      },
+      {
+        "item": "Team applicants must contact Artist Trust to confirm eligibility before applying",
+        "quote": "Artists applying as a team must contact Artist Trust to confirm eligibility before applying."
+      },
+      {
+        "item": "All team members must meet the eligibility requirements for the respective award",
+        "quote": "All team members must meet the eligibility requirements for the respective award."
+      },
+      {
+        "item": "Late applications are not accepted",
+        "quote": "We do not accept late applications under any circumstances."
+      },
+      {
+        "item": "Applicants can submit up to 10 work samples",
+        "quote": "An applicant can only submit up to 10 work samples"
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-11-02",
+      "deadlineType": "fixed",
+      "decisionDate": "2027-03-28",
+      "opensDate": "2026-10-05"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ],
+      "restrictions": [
+        "Must be 18 years of age or older",
+        "Must be a Washington State resident at the time of application and payment",
+        "Must be an individual artist or artist team",
+        "Must not be a Fellowship recipient from 2019–2026",
+        "Must not have received two or more Fellowship Awards in a lifetime",
+        "Must not have received the James W. Ray Distinguished Artist or Arts Innovator Awards",
+        "Must not be a recipient of another Artist Trust grant in 2027",
+        "Must not be a graduate or undergraduate matriculated student enrolled in any degree program at the deadline and time of payment",
+        "Must not apply on behalf of a company, nonprofit, organization, fiscal sponsorship, or community group",
+        "Current Artist Trust staff, Board of Trustees, honorary committee members, current Fellowship panelists, or their immediate family are not eligible"
+      ]
     }
   },
   {
@@ -18293,7 +19130,22 @@
     "id": 333,
     "_updated": "2026-06-02",
     "page": {
-      "status": "ok"
+      "status": "ok",
+      "lastChecked": "2026-10-07",
+      "contentHash": "5279a0c88c591c5d2f7b6594f5f3098606e6ec833e7662eeaca592a972cf66ca"
+    },
+    "amountMin": 15000,
+    "amountMax": 40000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2025-11-16",
+      "deadlineType": "fixed",
+      "decisionDate": "2026-01-28"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-07",
+      "confidence": 0.8
     }
   },
   {
