@@ -17,6 +17,7 @@ def test_stamp_alive_dead_blocked_unknown():
     tally, flagged = check_grants.run(
         grants,
         "2026-10-08",
+        sync_db=False,
         fetch_fn=stub({
             "https://example.org/call": {"status": "dead", "transient": True},
             "u-alive": {"status": "ok"},
@@ -26,7 +27,7 @@ def test_stamp_alive_dead_blocked_unknown():
     )
     assert tally == {"alive": 0, "dead": 0, "blocked": 0, "unknown": 4}
     grants = [grant(1, "u-alive"), grant(2, "u-dead"), grant(3, "u-blocked"), grant(4, "u-x")]
-    tally, flagged = check_grants.run(grants, "2026-10-08", fetch_fn=stub({
+    tally, flagged = check_grants.run(grants, "2026-10-08", sync_db=False, fetch_fn=stub({
         "u-alive": {"status": "ok"},
         "u-dead": {"status": "dead"},
         "u-blocked": {"status": "blocked"},

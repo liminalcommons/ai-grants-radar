@@ -46,8 +46,11 @@ def main():
     no_deploy = "--no-deploy" in sys.argv
     no_notify = "--no-notify" in sys.argv
 
-    # 1. research (saves grants.json; we deploy explicitly in step 3)
-    step("Research", ["research-grants.py", "--no-deploy"])
+    # 1. research (saves grants.json; we deploy explicitly in step 3).
+    # Hermes runner: discovery on Spark quota, extraction on Spark (Claude
+    # stays out of the weekly path entirely).
+    step("Research", ["research-grants.py", "--no-deploy", "--runner", "hermes",
+                      "--model", "muse-spark-1.3-contributor"])
 
     # 2. refresh: re-verify new/changed/stale pages, re-derive deadlines, export grants.json
     step("Refresh", ["refresh.py", "--limit", "150", "--max-extract", "25",

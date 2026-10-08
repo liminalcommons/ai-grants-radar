@@ -48,7 +48,7 @@ def stamp(grant, result, today):
     return "unknown"
 
 
-def run(grants, today, fetch_fn=fetch_many, ids=None, limit=None):
+def run(grants, today, fetch_fn=fetch_many, ids=None, limit=None, sync_db=True):
     work = [g for g in grants if ids is None or g.get("id") in ids]
     if limit:
         work = work[:limit]
@@ -61,6 +61,15 @@ def run(grants, today, fetch_fn=fetch_many, ids=None, limit=None):
         tally[outcome] += 1
         if outcome in ("dead", "blocked"):
             flagged.append(g["id"])
+    if sync_db and work:
+        import grants_db
+        conn = grants_db.connect(grants_db.DEFAULT_DB)
+        try:
+            for g in work:
+                grants_db.upsert(conn, g)
+            conn.commit()
+        finally:
+            conn.close()
     return tally, flagged
 
 

@@ -278,9 +278,16 @@ def main():
     # the grant lands in the DB. Deploy, when enabled, still publishes grants.json.
     import refresh
 
+    model = None
+    if "--model" in sys.argv:
+        model = sys.argv[sys.argv.index("--model") + 1]
     conn = refresh.open_db()
     cands = refresh.prepare_candidates(conn, all_finds, datetime.date.today())
-    stats = refresh.run(conn, candidates=cands, candidates_only=True)
+    llm = None
+    if model:
+        import llm_deepseek as ds
+        llm = ds.make_llm("research-extract", session_id=f"research-{TODAY}", model=model)
+    stats = refresh.run(conn, candidates=cands, candidates_only=True, llm=llm)
     print(refresh.summary_line(stats))
     if not stats["added"]:
         print("No new grants to add.")

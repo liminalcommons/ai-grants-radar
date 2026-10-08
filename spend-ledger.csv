@@ -422,3 +422,22 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-07T14:13:35.463564+00:00,refresh-extract/20,deepseek-v4.1-flash,2020,3015,35125,200,
 2026-10-07T14:13:42.440721+00:00,refresh-extract/21,deepseek-v4.1-flash,508,370,6968,200,
 2026-10-07T14:14:22.590634+00:00,refresh-extract/22,deepseek-v4.1-flash,1640,2889,40125,200,
+2026-10-08T23:37:37.450507+00:00,refresh-extract/1,deepseek-v4.1-flash,5811,4000,21622,200,empty reply
+2026-10-08T23:37:53.973047+00:00,refresh-extract/2,deepseek-v4.1-flash,1507,2567,16507,200,
+2026-10-08T23:38:17.825559+00:00,refresh-extract/3,deepseek-v4.1-flash,1205,4000,23840,200,empty reply
+2026-10-08T23:38:40.203367+00:00,refresh-extract/4,deepseek-v4.1-flash,992,4000,22363,200,
+2026-10-08T23:38:46.464896+00:00,refresh-extract/5,deepseek-v4.1-flash,1656,921,6222,200,
+2026-10-08T23:39:10.758311+00:00,refresh-extract/6,deepseek-v4.1-flash,2538,4000,24279,200,empty reply
+2026-10-08T23:39:14.686030+00:00,refresh-extract/7,deepseek-v4.1-flash,732,542,3911,200,
+2026-10-08T23:39:21.588068+00:00,refresh-extract/8,deepseek-v4.1-flash,916,1160,6890,200,
+2026-10-08T23:39:24.443695+00:00,refresh-extract/9,deepseek-v4.1-flash,746,320,2842,200,
+2026-10-08T23:39:49.366181+00:00,refresh-extract/10,deepseek-v4.1-flash,1832,4000,24888,200,empty reply
+2026-10-08T23:40:12.181108+00:00,refresh-extract/11,deepseek-v4.1-flash,1277,4000,22790,200,empty reply
+2026-10-08T23:40:14.097342+00:00,refresh-extract/12,deepseek-v4.1-flash,595,128,1904,200,
+2026-10-08T23:40:19.987659+00:00,refresh-extract/13,deepseek-v4.1-flash,1278,1046,5875,200,
+2026-10-08T23:40:28.035822+00:00,refresh-extract/14,deepseek-v4.1-flash,597,1332,8041,200,
+2026-10-08T23:40:47.868737+00:00,refresh-extract/15,deepseek-v4.1-flash,3014,3433,19784,200,
+2026-10-08T23:40:58.803171+00:00,refresh-extract/16,deepseek-v4.1-flash,1512,2181,10916,200,
+2026-10-08T23:41:16.494227+00:00,refresh-extract/17,deepseek-v4.1-flash,769,3072,17676,200,
+2026-10-08T23:41:37.306427+00:00,refresh-extract/18,deepseek-v4.1-flash,7464,4000,20774,200,empty reply
+2026-10-08T23:41:58.586908+00:00,refresh-extract/19,deepseek-v4.1-flash,1153,4000,21270,200,empty reply
