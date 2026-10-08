@@ -50,7 +50,8 @@ def main():
     step("Research", ["research-grants.py", "--no-deploy"])
 
     # 2. refresh: re-verify new/changed/stale pages, re-derive deadlines, export grants.json
-    step("Refresh", ["refresh.py", "--limit", "150", "--max-extract", "25"])
+    step("Refresh", ["refresh.py", "--limit", "150", "--max-extract", "25",
+                     "--model", "muse-spark-1.3-contributor"])
 
     # 2b. verify: re-derive every deadline status against today (offline, no
     # LLM) so the report and site never show a stale opportunity as open.

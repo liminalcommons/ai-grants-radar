@@ -229,6 +229,8 @@ def main(argv=None):
     ap.add_argument("--max-extract", type=int, default=DEFAULT_MAX_EXTRACT,
                     help="cap on LLM extractions per run; extra changed pages are deferred")
     ap.add_argument("--ids", help="comma-separated grant ids")
+    ap.add_argument("--model", default=None,
+                    help="extraction model (default: deepseek-v4.1-flash; e.g. muse-spark-1.3-contributor)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--no-extract", action="store_true")
     ap.add_argument("--db", default=gdb.DEFAULT_DB)
@@ -236,8 +238,12 @@ def main(argv=None):
     ids = [int(x) for x in args.ids.split(",") if x.strip()] if args.ids else None
 
     conn = open_db(args.db)
+    llm = None
+    if not args.no_extract and args.model:
+        import llm_deepseek as ds
+        llm = ds.make_llm("refresh-extract", session_id="refresh-cli", model=args.model)
     s = run(conn, ids=ids, limit=args.limit, dry_run=args.dry_run, no_extract=args.no_extract,
-            max_extract=args.max_extract)
+            max_extract=args.max_extract, llm=llm)
     print(("[dry-run] " if args.dry_run else "") + summary_line(s))
     return s
 
