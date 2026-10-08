@@ -193,16 +193,46 @@ def run_claude(prompt):
 
 
 def extract_json_array(text):
-    """Pull the first top-level JSON array out of Claude's text response."""
+    """Pull the first top-level JSON array out of agent text.
+
+    Agents wrap answers in chrome (session lines, fences, trailing notes), so
+    a first-[ to last-] slice can swallow two arrays. Bracket-match instead:
+    scan for the first '[' and walk to its mate, respecting strings.
+    """
     text = text.strip()
     fenced = re.search(r"```(?:json)?\s*(\[.*?\])\s*```", text, re.DOTALL)
     if fenced:
-        text = fenced.group(1)
+        try:
+            parsed = json.loads(fenced.group(1))
+            if isinstance(parsed, list):
+                return parsed
+        except ValueError:
+            pass
     start = text.find("[")
-    end = text.rfind("]")
-    if start == -1 or end == -1 or end <= start:
+    if start == -1:
         raise ValueError(f"no JSON array found in response: {text[:300]!r}")
-    return json.loads(text[start : end + 1])
+    depth = 0
+    in_str = False
+    esc = False
+    for i in range(start, len(text)):
+        ch = text[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch == "[":
+            depth += 1
+        elif ch == "]":
+            depth -= 1
+            if depth == 0:
+                return json.loads(text[start : i + 1])
+    raise ValueError(f"no complete JSON array found in response: {text[:300]!r}")
 
 
 def research_audience(existing, audience, n=8, runner="claude"):
@@ -210,7 +240,13 @@ def research_audience(existing, audience, n=8, runner="claude"):
     prompt = build_prompt(existing, n=n, audience=audience)
     print(f"[{audience}] researching via {runner} (web search)...")
     text = run_hermes(prompt) if runner == "hermes" else run_claude(prompt)
-    finds = extract_json_array(text)
+    try:
+        finds = extract_json_array(text)
+    except ValueError:
+        dump = os.path.join(gl.DIR, f"research-debug-{audience}.txt")
+        with open(dump, "w", encoding="utf-8") as f:
+            f.write(text)
+        raise RuntimeError(f"[{audience}] no JSON array; raw output kept in {dump}")
     for f in finds:
         f["audience"] = [audience]
     print(f"[{audience}] returned {len(finds)} candidates.")
