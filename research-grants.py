@@ -154,6 +154,23 @@ def build_prompt(existing, n, audience):
     )
 
 
+def run_hermes(prompt):
+    """Invoke Hermes one-shot (Spark quota, web tools); return its text result."""
+    proc = subprocess.run(
+        "hermes chat -Q --query-file -",
+        input=prompt,
+        capture_output=True,
+        shell=True,
+        cwd=gl.DIR,
+        timeout=1500,
+        encoding="utf-8",
+        errors="replace",
+    )
+    if proc.returncode != 0:
+        raise RuntimeError(f"hermes exited {proc.returncode}: {proc.stderr[:500]}")
+    return proc.stdout
+
+
 def run_claude(prompt):
     """Invoke headless Claude with web search; return its text result."""
     proc = subprocess.run(
@@ -188,11 +205,12 @@ def extract_json_array(text):
     return json.loads(text[start : end + 1])
 
 
-def research_audience(existing, audience, n=8):
+def research_audience(existing, audience, n=8, runner="claude"):
     """Research one audience; tag finds with it. Returns list of new records."""
     prompt = build_prompt(existing, n=n, audience=audience)
-    print(f"[{audience}] researching via headless Claude (web search)...")
-    finds = extract_json_array(run_claude(prompt))
+    print(f"[{audience}] researching via {runner} (web search)...")
+    text = run_hermes(prompt) if runner == "hermes" else run_claude(prompt)
+    finds = extract_json_array(text)
     for f in finds:
         f["audience"] = [audience]
     print(f"[{audience}] returned {len(finds)} candidates.")
@@ -206,14 +224,15 @@ def main():
     audiences = list(AUDIENCE_PROFILES)
     if "--audience" in sys.argv:
         audiences = [sys.argv[sys.argv.index("--audience") + 1]]
+    runner = "hermes" if "--runner" in sys.argv and sys.argv[sys.argv.index("--runner") + 1] == "hermes" else "claude"
 
     existing = gl.load_existing()
-    print(f"Loaded {len(existing)} existing grants. Audiences: {', '.join(audiences)}")
+    print(f"Loaded {len(existing)} existing grants. Audiences: {', '.join(audiences)} (runner: {runner})")
 
     all_finds = []
     for audience in audiences:
         # Pass existing + already-found names so each pass avoids duplicates.
-        all_finds += research_audience(existing + all_finds, audience)
+        all_finds += research_audience(existing + all_finds, audience, runner=runner)
 
     if dry_run:
         print(json.dumps([gl.normalise(f) for f in all_finds], indent=2, ensure_ascii=False))
