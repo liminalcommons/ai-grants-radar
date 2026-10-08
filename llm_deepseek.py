@@ -69,8 +69,10 @@ def call_deepseek(prompt, tag, session_id="v1-batch", model=MODEL,
         raise RuntimeError("OPENCODE_GO_API_KEY not set (ai-grants/.env)")
     payload = {"model": model, "session_id": session_id,
                "messages": [{"role": "user", "content": prompt}],
-               "max_tokens": max_tokens,
-               "response_format": {"type": "json_object"}}
+               "max_tokens": max_tokens}
+    if model.startswith("deepseek"):
+        # json_object is a DeepSeek-only affordance here: other Go models 400 it.
+        payload["response_format"] = {"type": "json_object"}
     t0 = time.monotonic()
     status, error, text, usage = None, "", "", {}
     try:

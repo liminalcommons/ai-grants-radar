@@ -47,14 +47,13 @@ def main():
     no_notify = "--no-notify" in sys.argv
 
     # 1. research (saves grants.json; we deploy explicitly in step 3).
-    # Hermes runner: discovery on Spark quota, extraction on Spark (Claude
-    # stays out of the weekly path entirely).
-    step("Research", ["research-grants.py", "--no-deploy", "--runner", "hermes",
-                      "--model", "muse-spark-1.3-contributor"])
+    # Hermes runner: discovery on Hermes-agent quota (Claude stays out of the
+    # weekly path entirely). Extraction model: refresh default (DeepSeek;
+    # contributor models are region-limited on the Go API path).
+    step("Research", ["research-grants.py", "--no-deploy", "--runner", "hermes"])
 
     # 2. refresh: re-verify new/changed/stale pages, re-derive deadlines, export grants.json
-    step("Refresh", ["refresh.py", "--limit", "150", "--max-extract", "25",
-                     "--model", "muse-spark-1.3-contributor"])
+    step("Refresh", ["refresh.py", "--limit", "150", "--max-extract", "25"])
 
     # 2b. verify: re-derive every deadline status against today (offline, no
     # LLM) so the report and site never show a stale opportunity as open.
