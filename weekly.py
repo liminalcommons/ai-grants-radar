@@ -56,6 +56,10 @@ def main():
     # LLM) so the report and site never show a stale opportunity as open.
     step("VerifyDeadlines", ["verify-deadlines.py"])
 
+    # 2c. audit: liveness-check every funder page (no engine), stamp
+    # last_checked/check_ok, flag dead + blocked ids into changed.json.
+    step("CheckGrants", ["check_grants.py"])
+
     # 3. report
     step("Report", ["generate-report.py"])
 
