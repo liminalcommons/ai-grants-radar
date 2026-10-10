@@ -88,9 +88,17 @@ ALSO MONITOR creator competitions / challenges explicitly (vendor-run contests
 are invisible to grant databases, so sweep them directly): Flova activities
 (flova.ai/en/activity), Runway challenges, Luma contests, Pika / Kaiber /
 Hailuo competitions, film-festival AI categories (Sundance, Tribeca, Annecy,
-SXSW, Series Mania), game-jam prize pools with cash (Ludum Dare sponsors,
-GMTK patron prizes), Kaggle competitions with prize money. Seed checks:
-flova.ai/en/activity, runwayml.com challenges page, festival open-call pages.
+game-jam prize pools with cash (Ludum Dare sponsors,
+GMTK patron prizes), Kaggle competitions with prize money.
+HACKATHONS count too, online AND offline: Devpost online hackathons, ETHGlobal
+online + IRL events, Major League Hacking, ETH LatAm / Brazil-local hackathons
+(Near, Polkadot, Solana hacker houses). Online-first (no travel cost); offline
+ones must state the city/country and get travel flagged in viabilityNote —
+worldwide-remote or Brazil-based only, same eligibility bar. Weekend-sprint
+effort is real: mark effort honestly (usually medium-high), never low.
+Seed checks:
+flova.ai/en/activity, runwayml.com challenges page, festival open-call pages,
+devpost.com/hackathons, ethglobal.com/events.
 Floor: real money or significant credits worth >= $1,000 total pool, fixed
 deadline, worldwide- or Brazil-eligible. SKIP exposure-only contests (no cash,
 no meaningful credits, vague judging). Use category "Competition" and

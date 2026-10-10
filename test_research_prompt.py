@@ -13,6 +13,8 @@ def test_prompt_covers_challenges():
     assert "flova.ai/en/activity" in t
     assert "$1,000" in t
     assert "exposure-only" in t
+    assert "HACKATHONS" in t
+    assert "devpost.com/hackathons" in t
 
 
 def test_prompt_allows_competition_values():
