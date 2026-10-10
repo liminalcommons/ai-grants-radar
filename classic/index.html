@@ -233,7 +233,7 @@ let GRANTS=[];
 const state={aud:'all',domain:'all',q:'',sort:'fit',moneyOnly:false,activeOnly:true,hideExpired:false};
 const TODAY=new Date();
 
-const FUND={cash:{cls:'cash',label:'💵 Cash'},mixed:{cls:'mixed',label:'◐ Cash+Credits'},
+const FUND={cash:{cls:'cash',label:'💵 Cash'},prize:{cls:'cash',label:'🏆 Prize'},mixed:{cls:'mixed',label:'◐ Cash+Credits'},
   equity:{cls:'equity',label:'📈 Equity'},credits:{cls:'credits',label:'☁ Credits'}};
 const AUD={team:'Teams',creator:'Creators',org:'Orgs'};
 
@@ -250,7 +250,7 @@ function maxAmount(s){if(!s)return 0;let max=0,m;
   return max}
 function magScore(a){if(a>=1e6)return 1;if(a>=25e4)return .85;if(a>=1e5)return .7;if(a>=25e3)return .5;if(a>=5e3)return .32;if(a>0)return .18;return .1}
 function fitScore(g){
-  const money={cash:1,mixed:.7,equity:.45,credits:.15}[g.fundingType]??.5;
+  const money={cash:1,prize:1,mixed:.7,equity:.45,credits:.15}[g.fundingType]??.5;
   const effort={low:1,medium:.55,high:.22}[g.effort]??.5;
   const cash=.6*money+.4*magScore(maxAmount(g.amount));
   return Math.round(100*(.5*cash+.5*effort));
@@ -288,7 +288,7 @@ function card(g){
   const f=FUND[g.fundingType]||FUND.cash;
   const fit=fitScore(g),tier=fitTier(fit);
   const urgent=isUrgent(g)?'deadline-urgent':'';
-  const amtCls=(g.fundingType==='cash'||g.fundingType==='mixed')?'amount':'';
+  const amtCls=(g.fundingType==='cash'||g.fundingType==='mixed'||g.fundingType==='prize')?'amount':'';
   const tags=(g.tags||[]).slice(0,6).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
   const eff={low:'Low — rolling / simple',medium:'Medium',high:'High — competitive / heavy'}[g.effort]||g.effort||'—';
   const auds=(g.audience||[]).map(a=>AUD[a]||a).join(', ');

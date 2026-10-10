@@ -84,6 +84,18 @@ ALSO MONITOR web3 / public-goods funding explicitly: Gitcoin Grants rounds,
 Giveth, Optimism RetroPGF, quadratic-funding rounds, Protocol Guild, Drips,
 Octant, Funding the Commons, and similar mechanisms.
 
+ALSO MONITOR creator competitions / challenges explicitly (vendor-run contests
+are invisible to grant databases, so sweep them directly): Flova activities
+(flova.ai/en/activity), Runway challenges, Luma contests, Pika / Kaiber /
+Hailuo competitions, film-festival AI categories (Sundance, Tribeca, Annecy,
+SXSW, Series Mania), game-jam prize pools with cash (Ludum Dare sponsors,
+GMTK patron prizes), Kaggle competitions with prize money. Seed checks:
+flova.ai/en/activity, runwayml.com challenges page, festival open-call pages.
+Floor: real money or significant credits worth >= $1,000 total pool, fixed
+deadline, worldwide- or Brazil-eligible. SKIP exposure-only contests (no cash,
+no meaningful credits, vague judging). Use category "Competition" and
+fundingType "prize" for these (both are valid values now).
+
 {audience_context}
 
 PRIORITY: we need REAL MONEY, not credits. Lead with non-dilutive cash — grants,
@@ -123,7 +135,7 @@ Return ONLY a JSON array (no prose, no markdown fences) where each element is:
 {{
   "name": str,
   "organization": str,
-  "category": "Corporate" | "Foundation" | "Government" | "Accelerator",
+  "category": "Corporate" | "Foundation" | "Government" | "Accelerator" | "Competition",
   "amount": str,                 // e.g. "Up to $350,000 in cloud credits"
   "deadline": str,               // "Rolling" or a human date
   "deadlineDate": str | null,    // ISO "YYYY-MM-DD" of the NEXT actionable date, else null
@@ -134,7 +146,7 @@ Return ONLY a JSON array (no prose, no markdown fences) where each element is:
   "tags": [str],
   "viability": "yes" | "partial" | "no",
   "viabilityNote": str,          // why, and what action to take
-  "fundingType": "cash" | "credits" | "equity" | "mixed",  // cash = real money (prioritize)
+  "fundingType": "cash" | "prize" | "credits" | "equity" | "mixed",  // cash = real money (prioritize); prize = competition winnings
   "effort": "low" | "medium" | "high",   // application burden — low = rolling/simple, high = SBIR/accelerator/RFP
   "domain": "AI" | "Web3 / Public Goods" | "Open Source" | "Climate" | "Creative" | "Research" | "Civic / Social" | "Startup / General",
   "relevant2026": true | false | "upcoming",
