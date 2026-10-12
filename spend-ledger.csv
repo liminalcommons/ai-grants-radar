@@ -445,3 +445,28 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-08T23:57:17.265887+00:00,spark-compat/1,muse-spark-1.3-contributor,,,642,,HTTPError: HTTP Error 400: Bad Request
 2026-10-08T23:57:38.344215+00:00,spark-compat/1,muse-spark-1.3-contributor,,,627,,HTTPError: HTTP Error 400: Bad Request
 2026-10-08T23:58:36.333928+00:00,minimax-compat/1,minimax-m2.7,,,508,,HTTPError: HTTP Error 400: Bad Request
+2026-10-12T15:21:33.103689+00:00,refresh-extract/1,deepseek-v4.1-flash,3318,884,6149,200,
+2026-10-12T15:22:00.668026+00:00,refresh-extract/2,deepseek-v4.1-flash,1811,4000,27515,200,empty reply
+2026-10-12T15:22:25.114808+00:00,refresh-extract/3,deepseek-v4.1-flash,1735,3812,24374,200,
+2026-10-12T15:22:55.835288+00:00,refresh-extract/4,deepseek-v4.1-flash,2116,4000,30680,200,empty reply
+2026-10-12T15:23:25.793641+00:00,refresh-extract/5,deepseek-v4.1-flash,1933,4000,29904,200,empty reply
+2026-10-12T15:23:28.861116+00:00,refresh-extract/6,deepseek-v4.1-flash,1817,273,3035,200,
+2026-10-12T15:23:55.736156+00:00,refresh-extract/7,deepseek-v4.1-flash,4694,4000,26848,200,empty reply
+2026-10-12T15:24:22.805080+00:00,refresh-extract/8,deepseek-v4.1-flash,4073,4000,27013,200,empty reply
+2026-10-12T15:24:33.877864+00:00,refresh-extract/9,deepseek-v4.1-flash,970,1647,10859,200,
+2026-10-12T15:24:36.019463+00:00,refresh-extract/10,deepseek-v4.1-flash,8332,96,2010,200,
+2026-10-12T15:25:00.371327+00:00,refresh-extract/11,deepseek-v4.1-flash,1833,4000,24289,200,empty reply
+2026-10-12T15:25:25.878221+00:00,refresh-extract/12,deepseek-v4.1-flash,2912,4000,25492,200,empty reply
+2026-10-12T15:25:52.557161+00:00,refresh-extract/13,deepseek-v4.1-flash,2162,3090,26581,200,
+2026-10-12T15:26:05.233992+00:00,refresh-extract/14,deepseek-v4.1-flash,5547,1928,12624,200,
+2026-10-12T15:26:30.989475+00:00,refresh-extract/15,deepseek-v4.1-flash,4443,4000,25684,200,empty reply
+2026-10-12T15:27:00.249527+00:00,refresh-extract/16,deepseek-v4.1-flash,1758,4000,29241,200,
+2026-10-12T15:27:25.320022+00:00,refresh-extract/17,deepseek-v4.1-flash,1047,4000,25022,200,
+2026-10-12T15:27:52.279134+00:00,refresh-extract/18,deepseek-v4.1-flash,1945,4000,26935,200,empty reply
+2026-10-12T15:27:59.149872+00:00,refresh-extract/19,deepseek-v4.1-flash,5306,1029,6743,200,
+2026-10-12T15:28:05.449284+00:00,refresh-extract/20,deepseek-v4.1-flash,1822,632,6268,200,
+2026-10-12T15:28:18.854518+00:00,refresh-extract/21,deepseek-v4.1-flash,3450,1939,13364,200,
+2026-10-12T15:28:43.712850+00:00,refresh-extract/22,deepseek-v4.1-flash,1684,3589,24843,200,
+2026-10-12T15:29:10.310632+00:00,refresh-extract/23,deepseek-v4.1-flash,2418,4000,26455,200,empty reply
+2026-10-12T15:29:39.231436+00:00,refresh-extract/24,deepseek-v4.1-flash,1455,3993,28900,200,
+2026-10-12T15:30:06.884961+00:00,refresh-extract/25,deepseek-v4.1-flash,1327,4000,27273,200,empty reply
