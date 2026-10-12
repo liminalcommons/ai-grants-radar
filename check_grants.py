@@ -51,7 +51,8 @@ def stamp(grant, result, today):
 def run(grants, today, fetch_fn=fetch_many, ids=None, limit=None, sync_db=True):
     work = [g for g in grants if ids is None or g.get("id") in ids]
     if limit:
-        work = work[:limit]
+        # stalest checks first, so repeated limited runs rotate coverage
+        work = sorted(work, key=lambda g: g.get("last_checked") or "")[:limit]
     urls = [g["url"] for g in work if g.get("url")]
     results = fetch_fn(urls) if urls else {}
     tally = {"alive": 0, "dead": 0, "blocked": 0, "unknown": 0}

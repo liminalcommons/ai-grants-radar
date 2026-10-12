@@ -48,3 +48,17 @@ def test_stamps_survive_sqlite_round_trip(tmp_path):
     conn.close()
     assert out[0]["last_checked"] == "2026-10-08"
     assert out[0]["check_ok"] == 1
+
+
+def test_limit_checks_stalest_first():
+    grants = [
+        {"id": 1, "url": "u1", "last_checked": "2026-10-08"},
+        {"id": 2, "url": "u2", "last_checked": "2026-10-01"},
+        {"id": 3, "url": "u3"},
+    ]
+    seen = {}
+    tally, _ = check_grants.run(
+        grants, "2026-10-09", ids=None, limit=2, sync_db=False,
+        fetch_fn=lambda urls: seen.update({u: 1 for u in urls}) or {u: {"status": "ok"} for u in urls})
+    assert tally["alive"] == 2
+    assert set(seen) == {"u2", "u3"}
