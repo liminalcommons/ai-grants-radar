@@ -67838,5 +67838,46 @@
   "timeline": "Rolling; fellows named on a rolling basis, first cohort 2026",
   "last_checked": "2026-10-12",
   "check_ok": 1
+ },
+ {
+  "id": 1483,
+  "name": "Meta Global AI Developer Hackathon",
+  "organization": "Meta Superintelligence Labs",
+  "category": "Competition",
+  "amount": "$1,000,000 cash prize pool; every participant receives $150 in Meta Model API credits regardless of placement",
+  "deadline": "Applications opening soon — 10-day virtual event, dates to be announced",
+  "deadlineDate": null,
+  "eligibility": "Open worldwide, virtual. Individuals and teams; no company or institution required.",
+  "description": "Ten-day fully virtual global hackathon run by Meta Superintelligence Labs, building on Meta's newest models via the Meta Model API. $1M cash pool with $150 of API credits guaranteed to every participant, win or lose. Applications are not yet open — a notify list is live, and early registration matters because capacity fills.",
+  "url": "https://dev.meta.ai/events/global-hackathon",
+  "tags": [
+   "hackathon",
+   "virtual",
+   "worldwide",
+   "Meta",
+   "prize",
+   "credits",
+   "10-day",
+   "AI builders"
+  ],
+  "viability": "yes",
+  "viabilityNote": "Apply/notify-list on day one — joining late costs days of a 10-day sprint. Free credits for all entrants means downside is time only. Register explicitly checking the timezone of any stated deadline.",
+  "relevant2026": "upcoming",
+  "relevant2026Note": "Applications opening soon; event 2026",
+  "audience": [
+   "creator",
+   "team"
+  ],
+  "fundingType": "prize",
+  "effort": "medium",
+  "domain": "AI",
+  "deadlineStatus": "upcoming",
+  "deadlineType": "unknown",
+  "amountMin": null,
+  "amountMax": 1000000,
+  "currency": "USD",
+  "timeline": "10 days, fully virtual; applications opening soon",
+  "last_checked": "2026-10-12",
+  "check_ok": 1
  }
 ]
