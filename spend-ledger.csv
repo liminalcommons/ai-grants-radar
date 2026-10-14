@@ -478,3 +478,11 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-13T14:04:47.274448+00:00,refresh-extract/6,deepseek-v4.1-flash,2584,879,6892,200,
 2026-10-13T14:05:14.769398+00:00,refresh-extract/7,deepseek-v4.1-flash,4875,4000,27471,200,empty reply
 2026-10-13T14:05:44.245618+00:00,refresh-extract/8,deepseek-v4.1-flash,3275,4000,29435,200,empty reply
+2026-10-14T14:01:35.163123+00:00,refresh-extract/1,deepseek-v4.1-flash,1461,2905,22111,200,
+2026-10-14T14:02:01.247219+00:00,refresh-extract/2,deepseek-v4.1-flash,1715,4000,26073,200,empty reply
+2026-10-14T14:02:29.088244+00:00,refresh-extract/3,deepseek-v4.1-flash,1882,4000,27799,200,empty reply
+2026-10-14T14:02:35.230903+00:00,refresh-extract/4,deepseek-v4.1-flash,1929,884,6120,200,
+2026-10-14T14:03:01.463495+00:00,refresh-extract/5,deepseek-v4.1-flash,1013,3466,26218,200,
+2026-10-14T14:03:27.972847+00:00,refresh-extract/6,deepseek-v4.1-flash,993,4000,26502,200,empty reply
+2026-10-14T14:03:53.208289+00:00,refresh-extract/7,deepseek-v4.1-flash,2339,4000,25217,200,empty reply
+2026-10-14T14:04:19.489017+00:00,refresh-extract/8,deepseek-v4.1-flash,1903,4000,26270,200,empty reply

@@ -99,6 +99,14 @@ effort is real: mark effort honestly (usually medium-high), never low.
 Seed checks:
 flova.ai/en/activity, runwayml.com challenges page, festival open-call pages,
 devpost.com/hackathons, ethglobal.com/events.
+
+ALSO MONITOR known funding curators — accounts and channels that aggregate
+opportunities before they hit any database. Search for their recent posts and the
+programs they name: X account @suraj_sharma14 ("Helping builders get into AI,
+startups & global opportunities") and its companion Telegram channel "Builders
+Archive" (t.me/buildersarchive). Treat these as LEADS ONLY — always verify on the
+program's own page before recording anything, and never trust the curator's
+summary of an amount or deadline.
 Floor: real money or significant credits worth >= $1,000 total pool, fixed
 deadline, worldwide- or Brazil-eligible. SKIP exposure-only contests (no cash,
 no meaningful credits, vague judging). Use category "Competition" and
