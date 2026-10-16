@@ -14796,9 +14796,9 @@
     "category": "Corporate",
     "amount": "$2,500 per quarter (cash)",
     "deadline": "June 15, 2026 (this quarter); recurs quarterly",
-    "deadlineDate": "2026-10-15",
-    "deadlineStatus": "open",
-    "deadlineType": "fixed",
+    "deadlineDate": null,
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring",
     "eligibility": "Entrepreneurs building AI-powered businesses; no business-type restriction stated; US city residence requested on form.",
     "description": "A quarterly $2,500 micro-grant for builders putting AI to work in their business, with an explicitly minimal application ('no credit checks, no long forms'). Funds intended for AI tools, training, or marketing.",
     "url": "https://aiimpactgrant.com/",
@@ -35728,11 +35728,34 @@
     "_updated": "2026-06-09",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "1525ae53a3cc1944d4df92a79334cb4dda291b30f0a63902ebf84473eb00f5ac"
+      "lastChecked": "2026-10-16",
+      "contentHash": "a75b238d1e98ea20f213b2d03f7fcfb21d9df400c6560be055689ea927737d10"
     },
     "last_checked": "2026-10-15",
-    "check_ok": 1
+    "check_ok": 1,
+    "amountMin": 50000,
+    "amountMax": 50000,
+    "currency": "EUR",
+    "requirements": [
+      {
+        "item": "Apply at sinceai.app/sign-up",
+        "quote": "Apply at sinceai.app/sign-up"
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-11-06"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-16",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "applicantTypes": [
+        "individual"
+      ]
+    }
   },
   {
     "organization": "Deloitte",
@@ -38622,8 +38645,8 @@
     "_updated": "2026-06-10",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "ed89bc59b0cf756f2485c73eb1993004458ad547147944f4fbfcc6f4b48b1154"
+      "lastChecked": "2026-10-16",
+      "contentHash": "0a78707b4a578387cc72786e34f4aed32a25024b44e059d65bb47fbeab45f34a"
     },
     "last_checked": "2026-10-15",
     "check_ok": 1,
@@ -38638,7 +38661,7 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-12",
+      "checked": "2026-10-16",
       "confidence": 0.8
     },
     "eligibilityDetail": {
@@ -38647,7 +38670,7 @@
         "individual"
       ],
       "restrictions": [
-        "Must be an artist, culture bearer, or creative practitioner"
+        "Massachusetts artists, culture bearers, and creative practitioners"
       ]
     }
   },
@@ -38801,7 +38824,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -38839,7 +38862,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d43e05e473d41b4faa8117cfbc0416bf388f1c016f1c89dbf8bfdb8ebaba4fc7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -38877,7 +38900,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "c839ceb1322aeb4812e0f3539b8f986852362065d8bfbf1cf1755892063d8011"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -38916,7 +38939,7 @@
       "contentHash": "e70f9f7a032ee47453e8fef7847c97c77e97cf807866cfb831011cd54988392a",
       "finalUrl": "https://makersmindset.com/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -38953,7 +38976,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a0b118ac3819272accb130586779ab60ef903e59a17e5327b05dabe8b912c0c5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -38992,7 +39015,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fd1d3b063bc2b2f825a67e7ef9d4e06cd284ef39c08caa9f5580c26a19d07064"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39031,7 +39054,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7136afcbc0d11cca2d2fa43fb41291cee7002d35b0e90a24824dc15fb4609315"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39069,7 +39092,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -39108,7 +39131,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "225ae73f9be487b60139f38bad0adfaa4c8c599f6bfc842d69763e5e9f643057"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39147,7 +39170,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "57b10640d6cdc31cbaf3e41be4bc8cd6f3e0e612db5bef0aaa59cacc0e264ba2"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39186,7 +39209,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fb9f97cb5a367580c6192ba2c2a04170857b0a12861d1f90a78aaad2b7d0c97b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39225,7 +39248,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b56ef2f030f64d54a4825a587ac4661e40f6289188e80453fd6b6d93e3306eab"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39265,7 +39288,7 @@
       "contentHash": "066c26cf9ad1d652f1da197d225033b2789999d2acffa7a29add3f5061b6ee54",
       "finalUrl": "https://catalyze-impact.org/incubator"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39304,7 +39327,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "cd30758ca57a7f6c6acae2c2ca71646122eabd8f3a91427f45dcde04f82b53c3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39343,7 +39366,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "17a354a2d8fa1a181041eaf79333b086f7ac02fcfc0cad8cb24d35952b9cfb07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39382,7 +39405,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d9c0e2e73dd78f23d9b2fbcd64849a648a4c305187f18dce2ffc12112b78228f"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39422,7 +39445,7 @@
       "contentHash": "7524df279af7296bcb24b586060bc5072b5c8166161ec63b1f34d53243d7a029",
       "finalUrl": "https://kepler-interactive.com/form"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39462,7 +39485,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "61520ebf5161d1c71aff6745078ab69d14cf9f367d351ee8dde16bc9d2f2ba11"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39502,7 +39525,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5297e16d76e052a0bc1759f6e1e53bcaa82231dcb51562d918252e1a8dea030d"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39540,7 +39563,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4db8c7cca2ba029f4c068df85a1d3722712dff017faf5a00c5305f7374802f79"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39579,7 +39602,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1e30c81d87b479a3bcca6cf934d1bfe9fb22c0c303eac348894ccaadc4c19ebb"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39619,7 +39642,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f6c415b459f4f8133d7cd02b31db3d713915724c78ecf5f35079bf49a940ff80"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39658,7 +39681,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "52354014b8e983ba9651a4e7b7376e857df7e7c7496519c7f93c599aea8a0c35"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39698,7 +39721,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -39737,7 +39760,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "eb44b5726b71c678753f4ab7c98c220395e76e8198c9e20d6b37a2987c9d38e1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39776,7 +39799,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0376025f0f4089cc1670bcca0b3fc27d67893a959b09f64bc6fb531b63645266"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39815,7 +39838,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e2f762296a4bd378d789bb1204889b226b178542204b4d8e61de448044f69d44"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39854,7 +39877,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b5120af7b726053077ec2032b873f15e244fbe59c3f6a53405bd28a946d2250b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39893,7 +39916,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ddd6c6fc1bc66d4353e18ba58f5afbb95028715fcb101fedfb3c592bcef85af9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39933,7 +39956,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7744d9d10616c6d10a8a6eaf7e1a8c3c29651c13355c12010e4ff7637516167e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -39973,7 +39996,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "32277a1cb24d868ef77e6b626101da0d5cd867f88ce2ad5422d7cc5ba35598e0"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40011,7 +40034,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -40049,7 +40072,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "bc23cc448ee8fbf7df784f85fa3622bcf272c362f135b76c5713f11435805fd1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40088,7 +40111,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2377cfaa22fd528cf3fdde8882862c2f76e5aad30531fe49d61da74e98e15ee9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40129,7 +40152,7 @@
       "contentHash": "b97de2ebe776ff70f293376ca8c43d52fab3b3041827e787a5ca1a7c98116ac7",
       "finalUrl": "https://walrus.xyz/blog/walrus-foundation-rfp-program/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40166,7 +40189,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -40204,7 +40227,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fbd4fed69b456524eaf755ef11a13dd43789df22e20644caa48c3111cb31a0d0"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40243,7 +40266,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "139bed213115012f337e26d519ad097a64c58a2f0dcb554aafadea5d4047bc26"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40281,7 +40304,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ae695167fb617c62dea2a4b91deec399c56fa1ec90e382208b4c5fbfe7e84593"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40320,7 +40343,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "959e1ea6ccbe4b6530fc3a0c4dabfecbf72eec8ee9a429feea6d88c71f46f51b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40360,7 +40383,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "02ea9f8c338eb106850718abe8b4b7ec200e6a25f7c3b70cfa190465835eccd7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40400,8 +40423,8 @@
       "lastChecked": "2026-10-07",
       "contentHash": "98b19dcbfe3e026338ed6f0b4f5171181bcac92cb89ee8cc7659dad2c3842703"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 1
+    "last_checked": "2026-10-16",
+    "check_ok": 0
   },
   {
     "organization": "SSV Foundation / SSV DAO",
@@ -40440,7 +40463,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -40479,7 +40502,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -40517,7 +40540,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -40556,7 +40579,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "03f62c452316babb0d63c240a13a5288747789c2268dee214ce289d619c96c8b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40595,7 +40618,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "434a9b56b7c4e658a57b77ff3af272be139a63d1d83406cbb198511e0ba7dcf3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40633,7 +40656,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -40671,7 +40694,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "38b1908f6a9b61a17bade6339bdccfb7834addce264f384d6f635e3ff686ed71"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40710,7 +40733,7 @@
       "contentHash": "4374857c0ee5ec4b2c6de4e6a89a77a0934535e604789f817b837eaed0cd6e10",
       "finalUrl": "https://www.statefarm.com:443/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40748,7 +40771,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -40788,7 +40811,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f98842f2a853a04a65304ab99e51ecce1adc2696e0d4527150efde0ee9e22d91"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40827,7 +40850,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "44d9f1ee9a30e7f790f50c78a91de74ab2ac1690772d84129754169d455187ff"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40866,7 +40889,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1703d4def23421ab679159afb877aeae7aa12b1114692f2eae23c133366bd0fa"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40905,7 +40928,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "396db6a2d170bbd50e0544e63a9c393c92b49eb154b052f667ed9a0d19199c2f"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40945,7 +40968,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "294ac1e9f3f9c05ce2cff017f24a995a8da01f41d022c45cddf017ac908ea200"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -40984,7 +41007,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -41023,7 +41046,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5506600245bfdd12e90c6d598800ebdd82b62e41749e741638662085bcbd0160"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41063,7 +41086,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "43a89c3af1dc2a3da9f12ba94881bf06fc558a07334af5cd4cab5b8a292d6b18"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41101,7 +41124,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -41141,7 +41164,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "8ed1657d5fc1d881de1d0ef29c2cf29a105ba4b2c6c2f7c3a044e85186890456"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41180,7 +41203,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "574efc7a40b4948d839a913cc16683fa7579b2b62938dca9db42639fe67734db"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41219,7 +41242,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "67a977df90ca8a309b246037c8087776d6f4c3ad44ca00ee3fefae037961df3a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41260,7 +41283,7 @@
       "contentHash": "5f94a7b77a383bcadd1e27fbe0330c0bbd93d194341c4adf9669c70c35e62e65",
       "finalUrl": "https://opencoreventures.com/catalyst/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41299,7 +41322,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -41338,7 +41361,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41378,7 +41401,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5e31222fa3aee2ca40a86a9c25bd1b9be798cd2be7f53ebb2f796e99f85a0be4"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41418,7 +41441,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "cc27d8cd2214e269b301c93f4db828b68679cd21c58708a157fdf03fc303887b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41459,7 +41482,7 @@
       "contentHash": "c026d9284771578eeeaaa739453e103405ffad264ed415eccef1ce1c8bee0a9d",
       "finalUrl": "https://processingfoundation.org/programs/grants/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41499,7 +41522,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "16c74bf361877e99ef1dca704f83560a7b580f937e677fa37b1573ea893cf6e4"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41538,7 +41561,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -41577,7 +41600,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "96a96972d4fd9378e79372ae917cb54eec352964964c89ae51de285bd659a48f"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41616,7 +41639,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d11f9c27c0e04f4836446477c29f23a013a73550d7529699deeec0c7de1c5933"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41656,7 +41679,7 @@
       "contentHash": "5b6138af4915bfde39510f12668e9dba094ead00964e190a2690bfc8ee557ff0",
       "finalUrl": "https://www.cvshealth.com/impact/healthy-community.html"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41695,7 +41718,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4d991716c18c93b76fa2ee09202c9ac0e92a4a3e6f6bff41f7ec522c9341282e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41734,7 +41757,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "bd04c970ab0e5d0f651bb1879992e345c032dd3135d16b7e22066d0fb98ad1e8"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41773,7 +41796,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9d448fc321cce899a61be1b2f371c71a288598bca29ac74c672e708f63e9e8c0"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41813,7 +41836,7 @@
       "contentHash": "6ca5b714a5b6f81e1f09dffb9bd15b2613bb12236895c933dd93f07ec7f830ce",
       "finalUrl": "https://trymona.com/impact-grant"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41852,7 +41875,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "eb849edcb0b8a4f96d0418677d11fbd45de9a050ad2759961107ae6f392fbc8b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41891,7 +41914,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1ceb6ecfe8344a55b6ec3d6bfabb479b7f44b343c36761ed8493252c02c2f6ab"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41930,7 +41953,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ad08dae12afb199549be61222a7f0f4560bacf2a7a8d387ef542ec70f9d7b4e8"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -41969,7 +41992,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0c2eb234ccaf577b454ee8148e3fb63731620d82b8dfd1164de633d74a8e0a5e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42008,7 +42031,7 @@
       "lastChecked": "2026-10-14",
       "contentHash": "176e3fbf29af99daba659e42511dfb5cb33d8fb63c3b77d9d756cf38b3a1e5f0"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42046,7 +42069,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -42084,7 +42107,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -42124,7 +42147,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0a1349e3336406a73486d3c93dadea52766de05622431d3641ce4a8808dac05b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42162,7 +42185,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42201,7 +42224,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -42240,7 +42263,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "dfcfce4974db72ca72b0a660da0df73ee900090e490f87d812dffa7e1b3cbc10"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42279,7 +42302,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "c718eac756155f1f1f65e4a23a75fb6818d1c745d7809c5f2736bd5764ce7a27"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42319,7 +42342,7 @@
       "lastChecked": "2026-10-14",
       "contentHash": "e27a644de10d1c5ae796ae79aecb0f3655db728fb1c44cddf7cda70c83c2d78a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42358,7 +42381,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "eac88b8118b017e782990ce564ae85d0e76cefbb4865bdef88bc4937febc3e55"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -42397,7 +42420,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "eb94e1159a264476bc3a996ca268a5f9612eb8041718d459e477afb3e84efa01"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42435,7 +42458,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -42474,7 +42497,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1efeaaa797e9bdd321ba40aa9e3e89b6878c1c87eed75ce7728e75b7da1cd2e3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42513,7 +42536,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "09e45d41081a9315a6196d60573b2f8c676a7b50da4e85cd045cf8e59edaddfc"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42551,7 +42574,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42590,7 +42613,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9940ee5e7cbfda3c1ef2da045874003fcacfca51885e6d56e93f98b9974bf749"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42630,7 +42653,7 @@
       "contentHash": "aceb8f0558f34b8fd88d21de6149f71d869c56fbead9069cca7ac857db5f13f5",
       "finalUrl": "https://www.globalfundforwomen.org/ar/apply-for-a-grant-arabic/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42666,14 +42689,14 @@
     "_updated": "2026-06-29",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "03f02ae79af9e8a01bffe64b21c0fb93e72771006216b8bd6c60bdb77c8d08dd"
+      "lastChecked": "2026-10-16",
+      "contentHash": "bc489520a11b0a3290c6195d8137da067d0a3142aa0a7527d7dcde077bf043bc"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1,
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-12",
+      "checked": "2026-10-16",
       "confidence": 0.0
     }
   },
@@ -42713,7 +42736,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "91f78dfc28d30c2e5bab14e0d4b12ca03622e367531f2b4638c5f303117bf71d"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42751,7 +42774,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -42789,7 +42812,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e4146d209a1a6e5c95f3b75f81700deaf876389475e6d88eb8ac18b83f2a06f8"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42829,7 +42852,7 @@
       "contentHash": "4d14a03eaeb7b9e5033b9a264f39e8498849e8596f038ccee9cd4877f14f10b2",
       "finalUrl": "https://futo.tech/grants"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42868,7 +42891,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "59e4ed7075c0f8d9115b095febfb86a1f4a085b1701ef0b0ee8873e53f286037"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42906,7 +42929,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -42945,7 +42968,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2fca1bcce90810b7739bebf52bb5116e9cf953ae30c10965d67c83f492a8d560"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -42984,7 +43007,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b0b8e73d2ff7509a0edcf30d0f8dfe7fb567e4536e1a4696f8cce98f66c8f165"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43023,7 +43046,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2f94a740c9c58506081e7603552e400d0141aec0eb9779630c2f8f60ca4f506b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43061,7 +43084,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -43099,7 +43122,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -43135,11 +43158,22 @@
     "_updated": "2026-07-10",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "bea38e52cd70ae5c9c7ecd9c0e9ff6d4e7110a4ba4fb9b56d6263361e7f22ca2"
+      "lastChecked": "2026-10-16",
+      "contentHash": "4c9a13878ae860f86c12232eb0ae4dd0ecabb8cab6a6bd288dbbe620e5ff9780"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 1
+    "last_checked": "2026-10-16",
+    "check_ok": 1,
+    "amountMin": 16000,
+    "amountMax": 37000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-16",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Fannie and John Hertz Foundation",
@@ -43177,7 +43211,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "8e7fa591c002188b5dd1a22c2e8b0478098cb66efa55a1f9d8a4e8f3ab9a19f4"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43216,7 +43250,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "01314759781e5e64ee3297978784368857ffa4be004db53fec062eb4ede36c14"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43255,7 +43289,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6f72bc0fa7ff028f48cace279160d14ffc6360cdddde47713929e5203e550509"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43293,7 +43327,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fdee8cc21856174319e023b50cea97429837297f89879cec55072d9716d0f173"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43331,7 +43365,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "dc3013cb3145bdd4561c40b1e756e257b0d2ba0c9321a98680d962066d7b87d9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43369,7 +43403,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -43408,7 +43442,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6dc5f3cd9eb53e47b9955553a0ff0cbae22d47e3a719b9a32b89dc3ef6a100d1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43447,7 +43481,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6efe94348e441d136c73d9f208561c91dd6d5b94a4f222b94191ab8432ede721"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43486,7 +43520,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "da8b79eab6d4f2a187fd7e497952bef9436712125268256fda7a7109e41f288d"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43525,7 +43559,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "cf660a58fa054dcac90f956a316635b2c7e68096d0496031c2c9287efabadb8a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0,
     "amountMin": 1000,
     "amountMax": 20000,
@@ -43572,7 +43606,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2af3126fa74a08bb80209b975d45cdf63be9d34d39fe6169104c71e152a98f7e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43610,7 +43644,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -43649,7 +43683,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a2cc4e94f513376971b2ca84746a4bd5cf8c66300558d1314a2085b15b80eb30"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43688,7 +43722,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b40956c23661910c161dfab53289f1fcc2e52a71553bf92444833b3ec30b7f92"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43727,7 +43761,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "df998375438c4e36aa816b0fb3422199c75fabe4da0432ca5bda77893e536765"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43766,7 +43800,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3f120546ec5c1df2a3cfa73332c9cb582a0b54be9eda61f5c1ff46c8b2d1ddf5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43804,7 +43838,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -43843,7 +43877,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1736384c6904af05814e65ef1e58a4efeae8bebaf0c2db036419465f0f28850b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43880,7 +43914,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -43919,7 +43953,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a026d95640786172cdcf900120d856186266303e7cc11c16ac665f203231c87b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -43958,7 +43992,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "4c06767544cd99295611caba1d6e238cc98198c2f8ae2898f297488e161649cf"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1,
     "timeline": {
       "decisionDate": "2026-12-03",
@@ -44008,7 +44042,7 @@
       "contentHash": "a2789ecec86ecc7d1f117a475ece1a633e10e2671288469b1a6b4e166f761dd4",
       "finalUrl": "https://sambanova.ai/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44047,7 +44081,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ff311755d43635c7a2ca2bad3ca7c970be8ce4dd6f405386fa94ad70229add9e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44085,7 +44119,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -44124,7 +44158,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a7c7e16656b3b8b042aaed8b55405877f2d162ea405a8a38bdbde85080fc04a5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44163,7 +44197,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f754bf3c00a06554feaa24e6bda1312b80765f1aaff5029d2af30bbd14e2244d"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44201,7 +44235,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -44239,7 +44273,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -44278,7 +44312,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "05a0fa8eca2949394dea7f87b5f7304a879d1f45152ec18bf8fe58272b3959c7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44317,7 +44351,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "591a0717095951983c0bb5f3f087f04e8e1bfea947dbf21d1b2354fbc066021b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44356,7 +44390,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3aa6f2271e8b44b18f660c1301de186b0b906aa7c4f0cacc5ab92ead5debcd49"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44395,7 +44429,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "23fb80c030c02688da51e681af260638bd5d09ab8e72c3d5ae6a862e44ca330a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44434,7 +44468,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3c665a7f532853dd1ff0083220328b9c1e4c2d10c94415cd7977e52fa4a535df"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44473,7 +44507,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ffdbac1a91dd04de8d1d95ff94d782d3fd4fcb63e4009c244eb9c87dea2f3f3c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44510,7 +44544,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -44549,7 +44583,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7999c488c23986e56ad284f67dc2f920ce67865a5668b07a48d50ec2799bafc6"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44588,7 +44622,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "f0bd8f50664a9f0e413d9ba6b4bdbccce8a613a91851379f887b1db3a72c78eb"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44626,7 +44660,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -44664,7 +44698,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -44703,7 +44737,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "da39114f48247ea4eacfac6e6abb6d64df787c3d3d873f0bfc25a73a7bb4ebd7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44741,7 +44775,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -44780,7 +44814,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "419dbb94cc0b201c8a5b2b74abe4bc448b3fdb193907774fad44073ad274db74"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44818,7 +44852,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44856,7 +44890,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d48f0a5d1a0994c92425c1cc0ab8eef41ccd1dc0f93d96b05c0fb0fc80566d78"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44895,7 +44929,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "bedf18989bd3ae0b6bb47eac886e6fa9a09509cd0d55e8943476e2f0b77b42d9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44934,7 +44968,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ce7a7bf2267438e73820bddd5cb758ec4f5e3b9e2a414e92fa65f44d6489042d"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -44973,7 +45007,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "823dc5bc0774826d0401f406cbbcd5708df82b72f498f0787ab964d1a1b0d8c4"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45013,7 +45047,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "dff704e6410498b6b1f591b25883cae2456c2f7f9e612d4d32bc54b86daa3e93"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45052,7 +45086,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "836c1f42117412f77f8d99e774de5adaf01d8e868cb3fc55b5a4e557b85cdce1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45090,7 +45124,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -45129,7 +45163,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2e296193e7ec247f5f59338bb9fc7730f30e66ba531a003f78e9d9d036f2e9a9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45169,7 +45203,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1e681c76922e104e9b2c7933e6bb6760c8870991fe14b018c649fbc3dbb89ebe"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45209,7 +45243,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2318faf0d5725932f4e0859404e006f69579c0a86c0ac8ed8e2987d9c59bf168"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45249,7 +45283,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "bf475f576fa0384e2675b4c56aafcae4e098162dddb4b0c942bab097c3770d65"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45289,7 +45323,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fe31d52db49fe9d62a22009b84ea8804d31c2c5c1353534201c4684fe1cf9ee1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45329,7 +45363,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "dd8584040acb0773417fcc4b5ec83399dfee0524009d49a535ec31ba54c8b937"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45368,7 +45402,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3a48c3c24f6c2348a8d172a6c5092541e51078e2814231ffcfeebfc3cf2509e1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45408,7 +45442,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "22f7b0998df59014d442698bea0091aa42a0a473ea41ddf81b2b4f3ab14ed926"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45448,7 +45482,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e4a068ac082af7c05dba529ddd087b178f9c9213feec016c5d834702e0bffec4"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45488,7 +45522,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7d31b70038f057f1eb363ea92728ff21654ed0da7e9a546b98a126ed024ac6ef"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45527,7 +45561,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -45566,7 +45600,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fac8a229b69602127249c8fa05f2c087dfea696df363e8e9c2c28474ab0eef5a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45606,7 +45640,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fdf6713bb231b87f2f9e632d4b7b40794a3f9d24ecced30db78ae983010dc269"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45645,7 +45679,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -45685,7 +45719,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "59c50e0d2825af61e4af952c9f31f4ef340c009005f853fddc2e83887c366a93"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45726,7 +45760,7 @@
       "contentHash": "a5792f93821f9a6c16dedbfd4c919ea207a7396e7c476d96dbf3e0472ea35c80",
       "finalUrl": "https://www.plume.org/blog/grants-program"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45767,7 +45801,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9a2a02079099ffce4e0aa4dd26a2d6f616a32dae57f0415bb3983bdaccef78ad"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45807,7 +45841,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ad945eaf554ae96abe8a5c7e6db175c665721f6a3482b4a860894eeffd3084a7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45847,7 +45881,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e22291ed775c618a051047a93a5e873a38c8bb8841432cdc33ce4d3ce72f0db5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45887,7 +45921,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a8bc966cc038ac189f76f9acdd6c527ed70e9c03bba9e65596d772e4486492f1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45928,7 +45962,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1cf61a1b68add05c1a5123ada1a862da98e3fa06610d1a361b2a741d36a01433"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -45967,7 +46001,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3a7ad1338faf75635bfdf439c2ba9095f84dfe08e48920311bd1b1b5bd0656f7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46006,7 +46040,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46046,7 +46080,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a791c0df0aa38cd283d68275ddc6d260dfaaecdfcc9233d03492ba59ecb357b7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46085,7 +46119,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4669a54ee43435edea735c1e00ffdaec49bb73c12e7d0210666d30cb6175329a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46125,7 +46159,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5b7b0c607729aac3a1a2fc2f149a6de529b8febc9a61a07789bb287555d3234f"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46165,7 +46199,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e5959f8e2c3cc55563d1810e0455d8c6bb193702346e4927ac5a827492ea8248"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46204,7 +46238,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ba7e4d77aa1438bf6404677a7c924e5d7ee82adff90dc194c284fc51a49c85f3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46244,7 +46278,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b60a0e50902b00f9adbfb97351252845eceabb15835366b45685a2e52b17566c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46284,7 +46318,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "78db7bab59131f5fc1f37801ce4714ee2c523dd0b8019b4eaa249bd825a61374"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46324,7 +46358,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e5d9443b2dfec9d1e52d25540528f3c58ec17886656bc7c2e2ec43a758fca695"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46363,7 +46397,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ed1cda4c82143f39cf14ea8b33ff373bea2122c66f33d133deefae7e482f70ba"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46401,7 +46435,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -46440,7 +46474,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "54dc8d56aa0c6b550c6feeb6aebb84db94cd03710246907a790b4f33b12e8932"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46479,7 +46513,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ea40189e2df646a73e514cc3ba8f0397d69c07a2ea98d810deaefe768294271b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46520,7 +46554,7 @@
       "contentHash": "3a48c3c24f6c2348a8d172a6c5092541e51078e2814231ffcfeebfc3cf2509e1",
       "finalUrl": "https://dekalbccf.org/receive/grant-programs/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46560,7 +46594,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f3a25446d0d5ae5f0775862c71c847cb9beb6c2c23aef867d2ee789d15151d4a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46599,7 +46633,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0d6eaa2297c236a3982c1f4b2f769eb292b1b1ad84d0ff96031215985d76dc1c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46639,7 +46673,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ae89d19c8c390545dae531ab1fea282e5dab4b35486c3cb4f709691370967c05"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46677,7 +46711,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -46716,7 +46750,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3f7132d997d733f18b09401d9eb5420fd050010e04d0de913de5bf5ceaa7e9e3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46756,7 +46790,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "fd47a4c1dd81ddb6e5074069329508b4dffd02d264d7daa752d6459033e3e7e8"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46795,7 +46829,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "24408926ca7786f88d9057947e6accdb240a0c8280bf04f3d0619e92f678ce67"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46834,7 +46868,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "8fe8345135f3585f0a15d95d984174b694e35bb738d33158d1ac1cac7c0df537"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46872,8 +46906,8 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 1
+    "last_checked": "2026-10-16",
+    "check_ok": 0
   },
   {
     "organization": "The Miles Morland Foundation",
@@ -46911,7 +46945,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "61d95b80d5b4ba778bad82d6b429f2fff814b8e1565a90551c02dc05e2645f44"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46950,7 +46984,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7b53a7d1ac16fd54cd6a49e70d8b1440b62797592e62cd052d2b8e922b33714f"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -46989,7 +47023,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3c6a2f0d783a71ffd81d6e5436f8374ce5f24672be69cc4486730ad94e2bd9eb"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47027,7 +47061,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -47066,7 +47100,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0187b3ee119cd0a472d5f9b188bf06bf45448121133fb44c22351cbe1f54f81b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47103,7 +47137,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -47141,7 +47175,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "65f013c27e59bfe089128d108f568d2a158bb7b2d1a3878a56ee885b6ad97e93"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47180,7 +47214,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "dff539fcaa77c07e6b0ee4d3771b35d08ec14256f196a518d8cf0878d779e52c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47219,8 +47253,8 @@
       "lastChecked": "2026-10-15",
       "contentHash": "c1be5ec2d8a235616c9fd11d82bbdcdf19ac16a20df65896fc75be3799aff81e"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 1
+    "last_checked": "2026-10-16",
+    "check_ok": 0
   },
   {
     "organization": "Foundation for Rural Service (NTCA – The Rural Broadband Association)",
@@ -47258,7 +47292,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1641f3608aae7c8dfc2a83a2a96ad3568e3bef7375150234d04884b563ce1d2c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47296,7 +47330,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -47334,7 +47368,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -47343,7 +47377,7 @@
     "amount": "Varies by program (project and operating grants for individuals and organizations)",
     "deadline": "October 15, 2026 (current cycle)",
     "deadlineDate": "2026-10-15",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Maine-based individual artists, arts/cultural nonprofits, and community organizations; specific eligibility varies by grant category.",
     "description": "State arts agency grants supporting individual artists and organizations across disciplines — project support, professional development, and community arts. Applications for the current cycle open September 15, 2026 with an October 15, 2026 deadline.",
@@ -47373,7 +47407,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "db3e07b3585ef47b4782e509692bf561263e0dd2d44254111274e0fe952da728"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47412,7 +47446,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4250bea76e03a0ff434d2f0bb84887e31e49481adffee434ecbbbb32de18dfb8"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47451,7 +47485,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a485151cccab3120f1529c38196b431a1f96e730b4731413828f186ff5f5d649"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47490,7 +47524,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1d909f83c234fed0895bcb70eb30286af40fafd5a1a4369e486f23355303d85a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47528,7 +47562,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -47566,7 +47600,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -47605,8 +47639,8 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 0
+    "last_checked": "2026-10-16",
+    "check_ok": 1
   },
   {
     "organization": "Encode Club",
@@ -47645,7 +47679,7 @@
       "lastChecked": "2026-10-07",
       "finalUrl": "https://www.encodeclub.com/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47684,7 +47718,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e32e26aec0b15fbd05ab8a78d186e5eec3a3c0eaa8e56be30d54de8ca299614e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47723,7 +47757,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "609c8fcd290875ba33c3f7efbcd38c8e029a7334b58edd64fe996deef41432a5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47762,7 +47796,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "cbf1f0fb960014a2e45021f7d0aaae318d3f3abd9e0fca8acfd79b9164e3b5dc"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47801,7 +47835,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2783dfd3b8db16ade0105cabe096572e127699567f9193ff1f22ebe0cff9090c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47841,7 +47875,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ffbc9917d3adfe077e06f7b5cd8d0ded56584296bcb3f7f61a5f550462204436"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47881,7 +47915,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ec5a8ca1d442eb0b02176dc58cc824768c4653697cf84f3abef0ecfbc7ab1c60"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47921,7 +47955,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "69695bdcb1b5a97304ea6eb341ba49ba1573cbf7f1a04c4f44e5e413348040f9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -47961,7 +47995,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "945ac99dabe3ab35504e47aa87b4eb4a2445a9b17dcbbd31b8c717a281eb68f5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48002,7 +48036,7 @@
       "contentHash": "ff46d540f5a6880a03e909774f13a8ed4569c006fb55ab8cd146ed7867706bee",
       "finalUrl": "https://perlfoundation.org/grants.html"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48042,7 +48076,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9f455d2a9622e33225beadbe5c838c3cfb3714c962c8de80b4f4f786cc6ff9c0"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48081,7 +48115,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e91348214c8597d6c971d82bbb4182d8c3fa1de36affb9d0c1f241e3c6a15164"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48121,7 +48155,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f7128084caa491c03cfeb913578ef3d68b79d56a40d24b34d0b8f9201f406d57"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48162,7 +48196,7 @@
       "contentHash": "1570b5cdf35cf2965c2961370e76322d11f2e86370fb88188584335422086e4c",
       "finalUrl": "https://pacfwv.com/initiatives/grants"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48200,7 +48234,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -48239,7 +48273,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 0
   },
   {
@@ -48278,7 +48312,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "048cb8fb41e600142e72ff4718e9a94066df76a672d65ef66d9cadc1fa46fe0e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48317,7 +48351,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "69d4df6aea9186fac64f40e4f7c5b85fe22f9dcd3e3e6dbc82c8569bffb54927"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48356,7 +48390,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d0e8e9ea26f7a6d39a892abdb93c85cf0f79f0ce9b8e0e0cd731a5e290d873ce"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48395,7 +48429,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5f5247946aeffde6176c32fd74c42e964a0c73405dc1dd168d951e293865675c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48403,9 +48437,9 @@
     "category": "Government",
     "amount": "$500 – $1,500 (typical awards ~$500–$1,000)",
     "deadline": "Varies by regional partner; fall 2026 windows (e.g., Oct 9 and Oct 15, 2026)",
-    "deadlineDate": "2026-10-15",
-    "deadlineStatus": "open",
-    "deadlineType": "fixed",
+    "deadlineDate": null,
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring",
     "eligibility": "Individual artists (and some arts nonprofits) residing in participating North Carolina counties, applying through their designated regional/county arts council.",
     "description": "State-funded, locally administered grants for professional and project development by individual NC artists. Deadlines and exact amounts are set by each regional partner council, with several fall 2026 windows in October.",
     "url": "https://www.ncarts.org/grants-resources/grants/grants-artists/artist-support-grants",
@@ -48435,7 +48469,7 @@
       "contentHash": "52713949492d20c36bfad412785d3f27fb4903ae77da46870d4c017d6b204b3c",
       "finalUrl": "https://www.ncarts.org/grants-resources/grants-dashboard/artist-support-grants"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48474,7 +48508,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4d14a03eaeb7b9e5033b9a264f39e8498849e8596f038ccee9cd4877f14f10b2"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48514,7 +48548,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ce8d0a9db6683ce19ee5d2ec5e611aebee914b33d0dabdf8e49988d37f167a1a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48553,7 +48587,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "54880f454b2f40b9213f9f9f1b2fbb22edf180bcddb0406833eebc4f4ec5a781"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-16",
     "check_ok": 1
   },
   {
@@ -48707,7 +48741,7 @@
     "_updated": "2026-09-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-16",
       "contentHash": "55c4b3f867b88a948334ecb8f0ad6b6784d9ea34a2c207b18f88a03479bbc76d"
     },
     "last_checked": "2026-10-12",
@@ -48796,9 +48830,9 @@
     "category": "Corporate",
     "amount": "Up to $50,000 grant",
     "deadline": "Current cycle closes ~October 15, 2026",
-    "deadlineDate": "2026-10-15",
-    "deadlineStatus": "open",
-    "deadlineType": "fixed",
+    "deadlineDate": null,
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring",
     "eligibility": "Emerging social entrepreneurs and early-stage nonprofits tackling social/environmental challenges (climate, food/housing security, equity, justice, sustainability). Individuals CAN apply but must work with a 501(c)(3) fiscal sponsor.",
     "description": "A corporate grant giving up to $50,000 to community-led social innovators, plus brand amplification support. The program runs annually; the currently open round is accepting applications with a deadline reported around Oct 15, 2026 — confirm exact date on the official page before applying.",
     "url": "https://www.stanley1913.com/pages/creators-fund",
@@ -49062,8 +49096,8 @@
     "_updated": "2026-09-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "01c5d9c468d0d69b11d808a7e6a56fc078bdd3f5e0e00ee7ccaf95fea7751810"
+      "lastChecked": "2026-10-16",
+      "contentHash": "0f4957e4072734c2c2c634985e38a516684398e6223a06b6596521fbc2f173f6"
     },
     "last_checked": "2026-10-12",
     "check_ok": 1,
@@ -49072,15 +49106,25 @@
     "currency": "USD",
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-12",
+      "checked": "2026-10-16",
       "confidence": 0.8
     },
     "eligibilityDetail": {
       "entityRequired": "org",
       "applicantTypes": [
         "org"
+      ],
+      "restrictions": [
+        "Focus on expanding outdoor access, getting more kids on bikes, or defending communities hit hardest by pollution",
+        "Award categories: environmental issues or access to cycling and the outdoors for communities traditionally denied it"
       ]
-    }
+    },
+    "requirements": [
+      {
+        "item": "Nomination by Climate Ride community",
+        "quote": "Nominations flow in from you, the Climate Ride community, and a panel sorts them through ranked-choice voting."
+      }
+    ]
   },
   {
     "organization": "Comcast NBCUniversal Foundation",
@@ -50546,11 +50590,19 @@
     "_updated": "2026-09-12",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "e171e92ab8493209c3ae5072322bd45556c05984a2cf2a0c3d44422aabfde39e"
+      "lastChecked": "2026-10-16",
+      "contentHash": "2774f374395072f7132739478eeb2b7c766656b898d1f6f53acdd1492b4df098"
     },
     "last_checked": "2026-10-12",
-    "check_ok": 1
+    "check_ok": 1,
+    "amountMin": 6000,
+    "amountMax": 6000,
+    "currency": "USD",
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-16",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "AI Alignment Foundation",
@@ -51218,19 +51270,45 @@
     "_updated": "2026-09-18",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "1dfdcd5f7ec565d3eced16342a6ae7718995233e4bb0fe30f410ab7b9ec5d067"
+      "lastChecked": "2026-10-16",
+      "contentHash": "e3536359e7134e18ad290d5edd218049e5edae895f75e580ea26e878ece189e2"
     },
     "last_checked": "2026-10-12",
     "check_ok": 1,
     "timeline": {
       "deadlineDate": "2026-11-03",
-      "deadlineType": "fixed"
+      "deadlineType": "fixed",
+      "opensDate": "2026-10-15"
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-12",
-      "confidence": 0.9
+      "checked": "2026-10-16",
+      "confidence": 0.8
+    },
+    "requirements": [
+      {
+        "item": "Project results must be available under a recognised free or open source license",
+        "quote": "Project results shall always become available under a recognised free or open source license."
+      },
+      {
+        "item": "Proposals must fit within goals of CodeSupply and Open Internet Stack",
+        "quote": "Proposals need to fit within the goals of CodeSupply and the Open Internet Stack, and should make a concrete contribution to bring that goal closer."
+      },
+      {
+        "item": "Project proposals must be between €5,000 and €50,000",
+        "quote": "We are seeking project proposals between 5.000 and 50.000 €."
+      },
+      {
+        "item": "Work must contribute free and open source technology for a reliable software supply chain",
+        "quote": "contribute free and open source technology for a reliable software supply chain"
+      }
+    ],
+    "eligibilityDetail": {
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "org"
+      ]
     }
   },
   {
@@ -52843,7 +52921,7 @@
     "category": "Corporate",
     "amount": "$5,000 seed grant + mentorship (5 recipients/year)",
     "deadline": "Annual; next cycle expected to open ~Oct 15, 2026 and close ~Nov 16, 2026",
-    "deadlineDate": "2026-10-15",
+    "deadlineDate": "2026-11-16",
     "deadlineStatus": "open",
     "deadlineType": "fixed",
     "eligibility": "U.S.-based female and non-binary filmmakers of color making their scripted directorial debut short; no application fee.",
@@ -53325,7 +53403,7 @@
     "category": "Foundation",
     "amount": "Up to $25,000 per grant",
     "deadline": "October 15, 2026 (next windows: Jan 4–31, 2027 and May 1–31, 2027)",
-    "deadlineDate": "2026-10-15",
+    "deadlineDate": "2027-01-04",
     "deadlineStatus": "open",
     "deadlineType": "fixed",
     "eligibility": "Conservation projects anywhere in the world for plants, animals or fungi, with priority for Critically Endangered, Endangered and Data Deficient species. Field (in situ) work is emphasized",
@@ -54072,7 +54150,7 @@
     "_updated": "2026-09-25",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "f2d57f84182570cfbc7b10d6ee39cf6a3b109b79a76a695d2d467951c26733d0"
     },
     "last_checked": "2026-10-12",
@@ -54548,7 +54626,7 @@
     "_updated": "2026-09-25",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -54945,7 +55023,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -54984,7 +55062,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -55162,7 +55240,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -55201,7 +55279,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -55239,7 +55317,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -55277,7 +55355,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "e24743ac763b52212432a51857adb058533dd98a71451a48189a6371a347a1c4"
     },
     "last_checked": "2026-10-12",
@@ -55627,7 +55705,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "2fd226c8dc5c10a77a9aecb825db0b72bc10a1720c5280410a84715222a1bdc2"
     },
     "last_checked": "2026-10-12",
@@ -55717,7 +55795,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "e4058d40e6d40bafe501e0c59acff3d4850a3fcf6f634e2a4ff412dff3fe7582"
     },
     "last_checked": "2026-10-12",
@@ -55917,7 +55995,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "7b55945d2ac8fecfdb0b4e38b8cdcac6b51455e7afdd664584f8eaf5cbc45f7c"
     },
     "last_checked": "2026-10-12",
@@ -55996,7 +56074,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "9018685ecb298cd2ac56ef768cafdcc671bf6ca9ece66164704b8929aa07e2b8"
     },
     "last_checked": "2026-10-12",
@@ -56036,7 +56114,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "72814bf0ab95c528d7882afca8e34ef9511682b9b8a0c6e807086c7e945ac072"
     },
     "last_checked": "2026-10-12",
@@ -56321,7 +56399,7 @@
     "amount": "$30,000 per artist (up to 8 fellows)",
     "deadline": "October 15, 2026, 11:59 pm PT",
     "deadlineDate": "2026-10-15",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Individual artists whose work engages the public on issues facing Asian American and Pacific Islander communities. The 2027 theme is 'Belonging'. See the program FAQ for residency details.",
     "description": "Funds individual artists to make public-facing work that can reach broad audiences and spark civic participation. The fellowship runs January–December 2027, with work completed by August 15, 2027. Fellows join a cohort and get communications support.",
@@ -56388,7 +56466,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "01ba7ca11ef2b62879023ed3998629d04b943ef2b045003daefb778b00f039a7"
     },
     "last_checked": "2026-10-12",
@@ -57521,7 +57599,7 @@
     "_updated": "2026-09-27",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -57559,7 +57637,7 @@
     "_updated": "2026-09-27",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "187656f144e229eea75c492e486c804b8ec54e293bd74ef8ddbe71bdadf35090"
     },
     "last_checked": "2026-10-12",
@@ -57641,7 +57719,7 @@
     "_updated": "2026-09-27",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "994d888844e28e0bc95abce362b81b9293e9de9c8c1f2c6c6de14f289c2f4cbc"
     },
     "last_checked": "2026-10-12",
@@ -57837,7 +57915,7 @@
     "_updated": "2026-09-27",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "2e396b16c43392e6dda10542202426c5678650885f81a27266760242083b2f6b"
     },
     "last_checked": "2026-10-12",
@@ -57958,7 +58036,7 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "832f54c64d05f7c9bf4c2f5e14d2f109bd0f45326e48f2a4eb999b1e14e43758"
     },
     "last_checked": "2026-10-12",
@@ -58722,7 +58800,7 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "61ef47d3abf74e59d9d08c79fd4a94ba2655a92c14454d751469b1325a2b53c8"
     },
     "last_checked": "2026-10-12",
@@ -58960,7 +59038,7 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-16",
       "contentHash": "8f7897ddff2e3ba6ec692d5a7dd03313e178f63cde710e3eb30d758b7b26bce9"
     },
     "last_checked": "2026-10-12",
@@ -59154,7 +59232,7 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -62305,7 +62383,7 @@
     "_updated": "2026-09-30",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -63548,7 +63626,7 @@
     "_updated": "2026-10-03",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-16"
     },
     "last_checked": "2026-10-12",
     "check_ok": 0
@@ -64027,7 +64105,7 @@
     "amount": "€50,000 grand prize",
     "deadline": "October 15, 2026 (23:59 CET)",
     "deadlineDate": "2026-10-15",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Professional artisans aged 18+, any nationality, applying alone or as a collective. The work must be original, one-of-a-kind, wholly or partly handmade, and made in the last 5 years.",
     "description": "This is the 10th edition of an international craft prize. It covers ceramics, textiles, jewelry, wood, glass, leather, metal and other applied arts. Finalists are exhibited, and one winner receives €50,000.",
@@ -65071,7 +65149,7 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-16",
       "contentHash": "efbe3c4ab85e6337000cd7c537bb061c86c454e92d46f11757bb2847fa7c7d94"
     },
     "last_checked": "2026-10-12",
@@ -65199,7 +65277,7 @@
     "amount": "£500 – £1,500 per bursary",
     "deadline": "Thursday 15 October 2026, 12pm (midday, UK)",
     "deadlineDate": "2026-10-15",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Current Artists Now Artist members at any career stage. The organization is UK-based.",
     "description": "Small bursaries for artists' professional development: training, mentoring, R&D, residencies, networking, portfolio development and specialist advice. Eligible costs include travel, studio costs, materials and artist fees.",
@@ -65238,7 +65316,7 @@
     "amount": "Residency: $2,000 stipend plus free furnished housing for 4 weeks. Research grant: amount not stated, 2 grants",
     "deadline": "October 15, 2026, 11:59 PM EST",
     "deadlineDate": "2026-10-15",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Individuals 18+ who are visual artists, organizers/curators or writers. The residency is for people living outside Pittsburgh. The research grant is for self-directed research related to Pittsburgh.",
     "description": "A four-week residency in Pittsburgh's Garfield neighborhood, with Summer and Fall 2027 cohorts of one artist, one organizer and one writer each. There is also a 1–2 week research grant track.",
@@ -66060,7 +66138,7 @@
     "amount": "About $78,000 (2027–28 award, adjusted for inflation)",
     "deadline": "October 15, 2026 (paper application must be received by this date)",
     "deadlineDate": "2026-10-15",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Poets who are US citizens by birth (born in the US or to a US-citizen parent) and are able and willing to spend one year outside North America. No age, degree or publication requirement.",
     "description": "A cash award, with no strings attached, that funds a poet to spend a year abroad in a country that will advance their work. Applicants mail a form and a poetry sample of up to 40 pages. No entry fee.",
@@ -66175,7 +66253,7 @@
     "_updated": "2026-10-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-16",
       "contentHash": "339090cf61fd855476f803c800d602bea126f7fdb6a1433547525acca049a0bf"
     },
     "last_checked": "2026-10-12",
@@ -67744,8 +67822,8 @@
     "_updated": "2026-10-08",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-08",
-      "contentHash": "a24c51c327067bc6fe11b2776fe5ecf222aacc8e2dc9c0faf64965b6e6a75a5f"
+      "lastChecked": "2026-10-16",
+      "contentHash": "3dae6fdd0cbd6a50a883043ec43acff4ceda684edecd3814be760dea4f6dfc75"
     },
     "amountMin": 5000,
     "amountMax": 50000,
@@ -67757,7 +67835,7 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-08",
+      "checked": "2026-10-16",
       "confidence": 0.8
     },
     "id": 1478,

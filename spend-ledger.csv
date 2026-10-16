@@ -494,3 +494,11 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-15T14:06:11.209525+00:00,refresh-extract/6,deepseek-v4.1-flash,,,60055,,TimeoutError: The read operation timed out
 2026-10-15T14:06:13.806398+00:00,refresh-extract/7,deepseek-v4.1-flash,1817,140,2567,200,
 2026-10-15T14:06:44.680261+00:00,refresh-extract/8,deepseek-v4.1-flash,4076,4000,30843,200,empty reply
+2026-10-16T14:03:07.547258+00:00,refresh-extract/1,deepseek-v4.1-flash,7569,4000,22738,200,empty reply
+2026-10-16T14:03:27.215219+00:00,refresh-extract/2,deepseek-v4.1-flash,2089,3491,19635,200,
+2026-10-16T14:03:37.504041+00:00,refresh-extract/3,deepseek-v4.1-flash,964,1757,10267,200,
+2026-10-16T14:03:39.343099+00:00,refresh-extract/4,deepseek-v4.1-flash,7026,124,1823,200,
+2026-10-16T14:03:48.077122+00:00,refresh-extract/5,deepseek-v4.1-flash,1735,1613,8713,200,
+2026-10-16T14:04:08.200840+00:00,refresh-extract/6,deepseek-v4.1-flash,2169,3500,20078,200,
+2026-10-16T14:04:30.955615+00:00,refresh-extract/7,deepseek-v4.1-flash,928,4000,22743,200,
+2026-10-16T14:04:46.630217+00:00,refresh-extract/8,deepseek-v4.1-flash,1763,2874,15652,200,
