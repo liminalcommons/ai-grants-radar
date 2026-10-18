@@ -510,3 +510,11 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-17T14:03:16.157923+00:00,refresh-extract/6,deepseek-v4.1-flash,1943,4000,18499,200,empty reply
 2026-10-17T14:03:29.890101+00:00,refresh-extract/7,deepseek-v4.1-flash,1997,3149,13650,200,
 2026-10-17T14:03:36.076252+00:00,refresh-extract/8,deepseek-v4.1-flash,1415,1195,6067,200,
+2026-10-18T14:02:53.118236+00:00,refresh-extract/1,deepseek-v4.1-flash,1185,4000,17011,200,
+2026-10-18T14:03:02.773465+00:00,refresh-extract/2,deepseek-v4.1-flash,3818,2283,9630,200,
+2026-10-18T14:03:09.515485+00:00,refresh-extract/3,deepseek-v4.1-flash,4111,1582,6707,200,
+2026-10-18T14:03:17.280724+00:00,refresh-extract/4,deepseek-v4.1-flash,9080,1880,7727,200,
+2026-10-18T14:03:26.588110+00:00,refresh-extract/5,deepseek-v4.1-flash,1816,1887,9132,200,
+2026-10-18T14:03:42.769110+00:00,refresh-extract/6,deepseek-v4.1-flash,3123,4000,16081,200,
+2026-10-18T14:03:47.253035+00:00,refresh-extract/7,deepseek-v4.1-flash,7241,765,4384,200,
+2026-10-18T14:03:58.098783+00:00,refresh-extract/8,deepseek-v4.1-flash,6490,2662,10811,200,

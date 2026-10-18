@@ -61,7 +61,7 @@
         "Eligibility is at the discretion of Google Cloud"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -116,7 +116,7 @@
         "Must be a startup"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -165,7 +165,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -215,7 +215,7 @@
     "eligibilityDetail": {
       "geography": "global"
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -260,7 +260,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -309,7 +309,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -346,7 +346,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "a3272402330989f68f1ee4884fd821116dede66e9155def4c3f7b2c5b1baff9b",
       "finalUrl": "https://foresight.org/grants/ai-science-safety-nodes-rfp/"
     },
@@ -384,7 +384,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -457,7 +457,7 @@
         "Principal investigator does not need advanced degrees"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -495,7 +495,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-06"
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -572,7 +572,7 @@
         "indirect costs limited to 10% of direct costs"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -619,7 +619,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -691,7 +691,7 @@
         "cross-border consortium"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -751,7 +751,7 @@
         "org"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -816,7 +816,7 @@
         "multi-disciplinary research teams"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -854,7 +854,7 @@
       "status": "dead",
       "lastChecked": "2026-10-08"
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -933,7 +933,7 @@
         "focus on mature AI tools supporting decision-making in primary and community health settings"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -978,7 +978,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1034,7 +1034,7 @@
         "Applicants must be ages 19 to 24"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1079,7 +1079,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1155,7 +1155,7 @@
         "Talk with your Account Manager"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1193,7 +1193,7 @@
       "status": "dead",
       "lastChecked": "2026-10-08"
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -1265,7 +1265,7 @@
         "Consulting and outsourced development firms do not qualify"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1340,7 +1340,7 @@
         "in-person participation in San Francisco"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1401,7 +1401,7 @@
         "team"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1469,7 +1469,7 @@
         "individual"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1507,7 +1507,7 @@
       "status": "dead",
       "lastChecked": "2026-10-08"
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -1552,7 +1552,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1599,7 +1599,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1646,7 +1646,7 @@
       "checked": "2026-10-06",
       "confidence": 0.9
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -1733,7 +1733,7 @@
         "Anthropic employees, officers, directors, agents, representatives, their immediate families, and household members are ineligible"
       ]
     },
-    "last_checked": "2026-10-13",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -4909,20 +4909,36 @@
     "deadlineType": "fixed",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
-      "contentHash": "1260bd936f5aaf6d743b4a189ae1491dd99d6a48714b4d93a4b0135f3d563835"
+      "lastChecked": "2026-10-18",
+      "contentHash": "7c0c6f272da0de868fc636da749bb87f182f13cf2114ec231938b448b1de25ec"
     },
     "timeline": {
       "deadlineDate": "2026-11-03",
-      "deadlineType": "fixed"
+      "deadlineType": "fixed",
+      "opensDate": "2026-10-15"
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-12",
-      "confidence": 0.9
+      "checked": "2026-10-18",
+      "confidence": 0.85
     },
     "last_checked": "2026-10-13",
-    "check_ok": 1
+    "check_ok": 1,
+    "requirements": [
+      {
+        "item": "Project proposals should be between EUR 5,000 and EUR 50,000, with possible scaling if proven potential.",
+        "quote": "We are seeking project proposals between 5.000 and 50.000 euro's — with the possibility to scale them up signficantly if there is proven potential."
+      },
+      {
+        "item": "Project results must become available under a free or open source license.",
+        "quote": "Project results always become available under a free or open source license"
+      }
+    ],
+    "eligibilityDetail": {
+      "restrictions": [
+        "The 13th call is final and closed; no more new applications are sought for this fund."
+      ]
+    }
   },
   {
     "organization": "Cosmos Institute",
@@ -10047,7 +10063,7 @@
     "_updated": "2026-05-31",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "885851d0082c17f513f4f8cffec265ddc34f9706062d9c3c12a64b75115eb69d",
       "finalUrl": "https://www.nationalgeographic.org/explore/grants-investments"
     },
@@ -10359,7 +10375,7 @@
     "_updated": "2026-05-31",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "b09bdc25621d3638d35a4616ce9cb17aa00d348d027f153a6624084558d8b9d5"
     },
     "amountMin": 50000,
@@ -32120,9 +32136,9 @@
     "category": "Foundation",
     "amount": "Microgrants typically up to ~$10,000 per proposal for scientific open-source work",
     "deadline": "Next round deadline ~October 17, 2026 (runs ~3x/year)",
-    "deadlineDate": "2026-10-17",
-    "deadlineStatus": "open",
-    "deadlineType": "fixed",
+    "deadlineDate": null,
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring",
     "eligibility": "Individuals/maintainers proposing work benefiting a NumFOCUS Sponsored or Affiliated open-source project; any country",
     "description": "Recurring microgrant program funding focused improvements to scientific Python/open-source projects (usability, docs, releases, community). Calls run roughly three times per year; the program page lists an October submission deadline.",
     "url": "https://numfocus.org/programs/small-development-grants",
@@ -55140,7 +55156,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13"
+      "lastChecked": "2026-10-18"
     },
     "last_checked": "2026-10-17",
     "check_ok": 1
@@ -56504,7 +56520,7 @@
     "_updated": "2026-09-26",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-18",
       "contentHash": "0eec3ffd0758bd84f54f49a8b64bfcded49198e1e8916d112672b51375e2dafe",
       "finalUrl": "https://fellows.toryburchfoundation.org/prog/2027_fellows_program/"
     },
@@ -58101,7 +58117,7 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "63c7652480a140b3fe2dc47c2975fdc931b32aeb00722e5d7ac7576f32f49987"
     },
     "last_checked": "2026-10-17",
@@ -58262,8 +58278,8 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
-      "contentHash": "2d5e437d57b05f66dac883e186fac40c77ba8fcf64c0eb64d45e3bb157db04af"
+      "lastChecked": "2026-10-18",
+      "contentHash": "ad44847e3cf21d834a12c9f4208af0b9001528ac3075142bb282ed48b4c46a34"
     },
     "last_checked": "2026-10-17",
     "check_ok": 1,
@@ -58277,8 +58293,62 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-13",
+      "checked": "2026-10-18",
       "confidence": 0.8
+    },
+    "requirements": [
+      {
+        "item": "Two-stage application process",
+        "quote": "A two-stage application process is applied to de-risk investment and ensure quality, maturity and scalability"
+      },
+      {
+        "item": "Stage 1 short proposal with concept, TRL 7 maturity, and preliminary market, IP and regulatory considerations",
+        "quote": "Applicants submit a short proposal presenting their innovation concept, TRL 7 maturity, and preliminary market, IP and regulatory considerations."
+      },
+      {
+        "item": "Stage 2 requires a Business Development Plan covering market validation, IP and regulatory mapping, and commercialisation strategy",
+        "quote": "develop a Business Development Plan covering market validation, IP and regulatory mapping, and a commercialisation strategy."
+      },
+      {
+        "item": "Stage 2 completed plan submitted alongside full project proposal",
+        "quote": "The completed plan is submitted alongside the full project proposal."
+      },
+      {
+        "item": "IP strategy, regulatory analysis, and commercialisation plan required",
+        "quote": "include an IP strategy, regulatory analysis, and commercialisation plan"
+      },
+      {
+        "item": "Financial sustainability via Revenue Sharing or SAFE mechanisms",
+        "quote": "Financial sustainability is embedded through Revenue Sharing or SAFE mechanisms."
+      },
+      {
+        "item": "Mandatory KPI: intellectual property rights minimum target 1",
+        "quote": "EITHE01.1 – Intellectual property rights (minimum target: 1)"
+      },
+      {
+        "item": "Mandatory KPI: innovations launched on the market minimum target 1",
+        "quote": "EITHE02.1 – Innovations launched on the market (minimum target: 1)"
+      },
+      {
+        "item": "Mandatory KPI: innovations launched with sales revenue of at least EUR 10 000, if applicable",
+        "quote": "EITHE02.4 – Innovations launched on the market with sales revenue of at least EUR 10 000 (minimum target: 1) (if applicable)"
+      }
+    ],
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Research organisations, universities, and cultural institutions are not eligible as sole applicants",
+        "Stage 2 requires a consortium of two to three independent legal entities",
+        "Stage 2 requires a mandatory commercialisation project partner",
+        "Applicants must demonstrate technical capacity to progress from TRL 7 to TRL 9, hold IP ownership or licensing rights, and manage delivery and reporting",
+        "Sector focus restricted to architecture, audio-visual media, and fashion",
+        "Participant Identification Code (PIC) required",
+        "Stage 2 reimbursement rate capped at 70% of eligible costs",
+        "Costs already funded by other EU programmes or sources cannot be reimbursed"
+      ]
     }
   },
   {
@@ -58353,13 +58423,13 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
-      "contentHash": "d0c8e0a0cda57cd1a951481cd1233a41b42176401ff3207b0adecf96f0f1901f"
+      "lastChecked": "2026-10-18",
+      "contentHash": "9562130f41c5c6bdbdd251545c146a336d7a247c433a66ff08398768fae231b5"
     },
     "last_checked": "2026-10-17",
     "check_ok": 1,
     "amountMin": 300000,
-    "amountMax": 2000000,
+    "amountMax": 3000000,
     "currency": "USD",
     "requirements": [
       {
@@ -58372,13 +58442,13 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-13",
+      "checked": "2026-10-18",
       "confidence": 0.7
     },
     "eligibilityDetail": {
       "restrictions": [
-        "Student Awards track is limited to currently enrolled students and young professionals",
-        "Behind-The-Scenes entries must spotlight a project already submitted to the Chroma Awards"
+        "Student Awards category is limited to students or young professionals ages 18-24",
+        "Using sponsored tools is required only for the extra sponsored cash prizes and awards, not for general submission"
       ]
     }
   },
@@ -58588,11 +58658,23 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
-      "contentHash": "c90018e165b87163e7251cff6aaf684151d54a583d34d8978e3b3a09604ba274"
+      "lastChecked": "2026-10-18",
+      "contentHash": "e8d7a16b4567ff070c297269dc332aaf5766d822c8d957bba2d27f5d1fc173ba"
     },
     "last_checked": "2026-10-17",
-    "check_ok": 1
+    "check_ok": 1,
+    "amountMin": 250000,
+    "amountMax": 250000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2026-11-12",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-18",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Software Sustainability Institute / Institute for Research Software (UK)",
@@ -58946,7 +59028,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -58986,8 +59068,8 @@
       "contentHash": "1196175d37da53975722995dda6b45c400d24899f0ec58bdf7288b17df9cbf25",
       "finalUrl": "https://pcusa.org/about-pcusa/agencies-entities/life-witness/ministry-areas/self-development-people/apply-grant"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 1
+    "last_checked": "2026-10-18",
+    "check_ok": 0
   },
   {
     "organization": "Mary Reynolds Babcock Foundation",
@@ -59027,7 +59109,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9bbbee38cb1dc0616199f3720cd18be2c7d3e85314b5daa0d19b6c176d7249fa"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59067,7 +59149,7 @@
       "lastChecked": "2026-10-16",
       "contentHash": "8f7897ddff2e3ba6ec692d5a7dd03313e178f63cde710e3eb30d758b7b26bce9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59106,7 +59188,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2c4df27b05581ca36d640599bbe3af59b9f25d277b5392b66c59663780562f09"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59145,7 +59227,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fc8399c99811b6498d04f3984f74c2766e5c90abedc32414c86b39bb09cb1914"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59183,7 +59265,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3df059ae657632a029ec1caa1053e40c21de16f1fbbf34684f0a4c9488c347fb"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59222,7 +59304,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e0426b27c24acfa96b3177ba2e53756a641951640eea64d3b8bfb8d42f9a03d3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59260,7 +59342,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-16"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -59300,7 +59382,7 @@
       "contentHash": "9cf56badab56d0ecc49862e454b1018153aff8810aa6c1a2603fb035262baa13",
       "finalUrl": "https://iex.ec/ecosystem-fund"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59339,7 +59421,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f9444cf11301721be176d6dad40a3f04b422538d2daf8a9afc3ea651e1b8ef5b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59377,7 +59459,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2924959934b2f5d438f06c97537b71d8a2f7b408d0bfc92aec7e95246a535bcc"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59386,7 +59468,7 @@
     "amount": "$100,000+ score-based prize pool plus algorithmic-contribution prizes ($10k Phase 1, $20k Phase 2); AIcrowd lists $150,000+ total",
     "deadline": "Phase 2 closes about October 17, 2026 (AIcrowd showed '19 days left' on 2026-09-28)",
     "deadlineDate": "2026-10-17",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Open to individuals and teams worldwide who register on AIcrowd. Binding eligibility terms are in the Official Rules.",
     "description": "An AI-safety research competition. You write an estimator that reads a neural network's weights and predicts per-neuron post-ReLU activation means within a fixed FLOP budget. Entries are scored by mean squared error against a Monte Carlo reference. Separate judged prizes reward the best algorithmic write-ups.",
@@ -59416,7 +59498,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "d233e1f1b5a3e6d1dd2da7c91c8d732cefc1946c6e76a746de47ed6f3dc558ed"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59455,7 +59537,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e4a3544d9b69fc108ba7667f4aeb8139a9ba0787036dee2076b82809cbc87988"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59496,7 +59578,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4c01f385cdb24ff9b5107f8db5f62f5b6899926506abf7f1509a8acc02c6e5ae"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59536,7 +59618,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "7b7ecfb0df9376e7246365de72a4d58b5361900bfd65d8bda70acaf8758880c4"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59577,7 +59659,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "bc73736a6a370d765e33bde4256b9818b9a346b9a0a96cfd874bcf711c6b12bb"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "amountMin": 16000,
     "amountMax": 30000,
@@ -59625,7 +59707,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "47ccc3a6abcb7d719ba664071d093b21c81447515ca839243760571e5ee342ea"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59666,7 +59748,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7a27b0cfffb67df87b9327796592e7b0315943942a829226491f0181f8135343"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59704,7 +59786,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7e507cefe11390647570f0fcd41a0a4dccc9d7cbdfee356b528600fdac7ff2ab"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59744,7 +59826,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "cb75605dba425c8aab63af69aab814e55f53c2c9cf01613dcfdecd2526c7a197"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59785,7 +59867,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9a8f5ea4c423db85d6719ef46b05d215a2d27339d12a727ec28f7ced3db540a3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59824,7 +59906,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "9ef0210c373eee12eef9e0ad913e4e97b397f4d0f445ffeab18cf4b9a44d9eb6"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59863,7 +59945,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -59903,7 +59985,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "c283991a596337c70b1001c6fbea5c9a312be8dd93f6e41e3b2f313b207fbcab"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59942,7 +60024,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "23b6f90f0a0886920fb8fc2bcbec02a18943e135f561b730e02c1255af8bd6a6"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -59982,7 +60064,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "99144dbc7900f5e09b6ef3b2dc3ba2565fd4d4b6508e9d861e5b28582eaf5bdf"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60021,7 +60103,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9d2ec3ff1557c94828c9ee7947854d0f516f578c48118c3666ef0443f2bd6329"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60061,7 +60143,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "85fea88942c48e04aaef4fa624942ce849dc7ccdf29b7b18b85baa22b865f552"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60100,7 +60182,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "3bd4b340dbfb2ab46c3d97b9c3f4b0ca1c71c02b3c07ae8ba6bd1313382b32d8"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60139,7 +60221,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a9a283b123dab635910e7c15f885ed6248674f13b75dc869473500cb7487bc39"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60175,10 +60257,10 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "3567f53bd4b7891ac10461d08fc4ebd8029593ed2de99b74b67c610e8c1763e9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "amountMin": 30000,
     "amountMax": 30000,
@@ -60224,7 +60306,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -60263,7 +60345,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "527c03d0373dab5bf895818c5ee5b79772231033a399485a7e05692c29dd9658"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60302,7 +60384,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "57d0182f7d89834ab1887e5b4b87323856fe2dc732134636324f04c8be120a8f"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60341,7 +60423,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "c7cf92b1defe88ae22e142b03290f0614bb5937da7f068f057ff8001ec2f34b9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60380,7 +60462,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -60420,7 +60502,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "286e9c053221b537c5237f0cef64932877c6805646d812699a88f19a26e52915"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60459,7 +60541,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "97b3c51919321f9a683624fe05d892c3c2ef07e8f89ae1a421a6949bc19719ef"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "amountMin": 2000,
     "amountMax": 100000,
@@ -60540,7 +60622,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "96e123e0d2e86c143ee3abe64c496ec1f86e00be0c2e4ccea0920b502e236a76"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60580,7 +60662,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "cf77abe589e8786405678140f4726e8837cf9fbdf48159f8b7b80c205c9876bc"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60620,7 +60702,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1c944b156e1c8d18c45b1da93e16cc82545e81d571566309c2e24b85bdbb28e9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60660,7 +60742,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1908500b72445b804d05af805c5ec6e8e4c3e3fafd3a59f7feff71cc6242d6a6"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60699,7 +60781,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "00a2fa9285d35b08fb355eed8a48658238a064484f9b33aaa2d3c90d1dddf623"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60736,10 +60818,10 @@
     "_updated": "2026-09-28",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "60266db3562a07545fd9532154b53e9ba2bc5bd6284e7d658afc0c2f3bcea33e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "_derived": {
       "by": "auto",
@@ -60783,7 +60865,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fd8ef725034a188ceb3a952650276c5ae147a48eb670828cc003957b2834f6f5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60822,7 +60904,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1d4495a306cef09431f2dc9deb77f7c8a9cb511abef472ee0683e4b052f87050"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60861,7 +60943,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "16933038ed8b68b9332c2f95d78ff7627320344d4ab7ea2e354efbd36a5215f0"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60900,7 +60982,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d4645b98eb58acbf7c7380d4be111f6625eb976f2647059730a60491568344af"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60939,7 +61021,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2e02828227df9d1fdd3f6e816403422e2f36d4199544cc6ff92ee33ebf450834"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -60978,7 +61060,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e4a43b46c6376261983ff59b6509cddec5dd18f5af41e57fb5d977158e02edb0"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61017,7 +61099,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "021f1493d0e572e260b63a56a2ff478708ca7900592ef14cbe76b09ccadf3ae2"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61056,7 +61138,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -61095,7 +61177,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "99a247a540d249d855eab79584059b65159b1089c6665a146a5d9df9193ad7b5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61135,7 +61217,7 @@
       "contentHash": "df04bac5bf481aab094bfe0c157c21fb06c4e501b94d5a61b0f1f63803c7011e",
       "finalUrl": "https://bugcrowd.com/engagements/openai"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61174,7 +61256,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9bb50b33b312196f429a299578ab79b20fdf9b6efd6b836ee377e0e85aed36cd"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61213,7 +61295,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "591657ec766c217e12e575370b974edbe4b4640ac8141b98f65fdb16e597bb84"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61252,7 +61334,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f7e3130a46b56c638da5a2f5ed7698d2733d594ec280fbfbfabcd6c4a9b90879"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61290,7 +61372,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61329,7 +61411,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "de9d026da4e3d112c79d0f4a0caf5e41b9cddf8ce6850ac0c4e16cc4367d7e4f"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61369,7 +61451,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "60dfdf4dc65fb7ed0f7e4d52f9cc012289a5e78b39f68f8bcbfb14295756f586"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61408,7 +61490,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a7742398bbcb684f4caf58356ed797baa36a7452cfa59b41d7bb880b5bfecac7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61447,7 +61529,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -61486,7 +61568,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f9d61242bec5779af38cb9d93de4c6cc91f6d1ff8137bc23105697acc4b79326"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61526,7 +61608,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "bfdd35aed7802632eaea5ea0ece3c630eb356fc3671de6405872ccc16e461ea1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61566,7 +61648,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a1f0abfd25dbd21c700286a2050d9f3ba89c1cfbe15b198c9aa9b515ba26ef4d"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61606,7 +61688,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "06eeb05d2c07dc3f4f336f8af8157bc8e3f57dc77ed2660317894e5d69b8674a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61643,10 +61725,10 @@
     "page": {
       "status": "redirect",
       "lastChecked": "2026-10-13",
-      "contentHash": "81b008341993dcb3d8b89a78adf7b56d8a8691fc22e6b80a61193795bd759d18",
-      "finalUrl": "https://hackaday.io/contest/206399-retrocomputing-contest"
+      "finalUrl": "https://hackaday.io/contest/206399-retrocomputing-contest",
+      "contentHash": "81b008341993dcb3d8b89a78adf7b56d8a8691fc22e6b80a61193795bd759d18"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "requirements": [
       {
@@ -61718,7 +61800,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7658a3b35952890a7089b833424fd923b3a0572253868fc57df8928b804a4a3e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61757,7 +61839,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -61796,7 +61878,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -61835,7 +61917,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7ec0ecc067283312eb765aebe2d7a8fd5ca0e8753aff43d0b3340c5ff6f49353"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61875,7 +61957,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f463d036dc5d25da1ee08dda0d4896e2027166ca22f7c0b9eb9dc8fef23f938b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61914,7 +61996,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "460bab8977c7acc6bbf080c4eff91605c0722c1c8d45f98299fb7f0eb16de3be"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61954,7 +62036,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2ea8c40a524b6ed9108b1f7adc8c0027c30bd7233262468493a46717949c1a05"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -61994,7 +62076,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "8858f331fe7f6eff02b2240c3ce35f89ecb65ebfde73dd9f42daf77c34cbdb16"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62033,7 +62115,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6c3faf754f0fabc39c3daa0e391b51819af33e4d9e09b7ce3f446093adc90882"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62072,7 +62154,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d935862963cc7ef92bb103ec8140ea46c0ecedfce38534b8200cf7327a642a21"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62111,7 +62193,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7de9bc8fd4cb1b2c78f0fb6fcb2ada8428b3a3eb9b102a7fcd7a3f36f60b4dfd"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62150,7 +62232,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fd4843dfbaf2da187fe04204ed1bd0a6a3ba608ce7ad3de52c7a643d70b3e93b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62188,7 +62270,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -62226,7 +62308,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -62264,7 +62346,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -62303,7 +62385,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a7002b16f15efc1efa484ce595fa28f5ae2ad1e857728238fadcd84b0b58f152"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62343,7 +62425,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "cea4d83864ec4d1e98ba43cb79316ea72b706d89e9a5c9528d7177d3de405d86"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62383,7 +62465,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "324c7f1cd412a2bad5b1aea0dad711236cc19a3b5bce608e6dd4479ec008c08d"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62423,7 +62505,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ac57baa1742adacad03bc2c4ae4a0f7c5776d8df31fd73196b6b82bb44979593"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62462,7 +62544,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-16"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -62499,10 +62581,10 @@
     "_updated": "2026-09-30",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "0614c922010d1c9f9cb14e68774bcf33792f969cd656f5dfebd943520cbe88af"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "amountMin": 500,
     "amountMax": 1500000,
@@ -62554,7 +62636,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "df29d711fb088e237d37df1949fbdbf23095c7dd41a282e6ddb56887ea02cc25"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62595,7 +62677,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4b4622b44c03bc161dbde1d022aa6582028ef9c60d9e1de4c1368401e51f32b6"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62635,7 +62717,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "34ad2845fd236cd4dad1d56fb0e430eda72343b41d7636347992571c94fcd215"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62675,7 +62757,7 @@
       "lastChecked": "2026-10-13",
       "contentHash": "ce354007819f19efe8dfa427ff72520f5e9e798e29283beb9a4d87a201706ac1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "amountMax": 15000,
     "currency": "USD",
@@ -62726,7 +62808,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "7adb13c5b1af4a644f330c938112b83f5af93b1f9a05efd5f14b9438700157e2"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62765,7 +62847,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "85d2e3716f5da03b2fb827edeaca375d992ef0952b2a6927e1ef7bbf2b8e3d01"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62804,7 +62886,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "d70c233ce09351819b0a28841bb39a6fe08fc912ec3e57886efa4880607e2c9b"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62843,7 +62925,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "98eeff2f2f3f9bc3b266218e4e5987b50995fc61eb42dbabb361fd6c318f7866"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62883,7 +62965,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b83eeb403e0890a84dbd976142ca8beabaa578b79980b51a76c5767f34a3e13e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62922,7 +63004,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -62961,7 +63043,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ba245c6de32f6cdf507b78aa9f5e6fc5691bf1613fa27b6f5ffb0f218f1eba8d"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -62998,9 +63080,9 @@
     "_updated": "2026-10-03",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-13"
+      "lastChecked": "2026-10-18"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -63039,7 +63121,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -63077,7 +63159,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -63116,7 +63198,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -63156,7 +63238,7 @@
       "contentHash": "4b363ac64f2216e5e97080df9061ced7653bc0b96800fa9d12629df3d8f8fed4",
       "finalUrl": "https://www.mitacs.ca/our-programs/accelerate/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63195,7 +63277,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ec0ceccdb325a1ef3f714d7d80383e4368dbf90622cc0e320426c560a1f148e4"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63234,7 +63316,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f6f9298ea39dbd511503cd9c8e01192e8226f2bdadab8856840ce83db835fcc3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63273,7 +63355,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7f79543a35194e0565b43714486b43925f62e42331bd4ef653f5b7093459c749"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63312,7 +63394,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3d84cc52d8b19e2af1e47d39e3cb7968272fb19d659bc2330d83064aedd4a5f7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63351,7 +63433,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "cc303c3fed5c48c5c80a68438bb2d9a74a74e994a6deccdee8f7c51e992f55bd"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "requirements": [
       {
@@ -63410,7 +63492,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4af713f6811eeae0642025948b72b421a2b59d2c5e89c397e6ea536552591a15"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63449,7 +63531,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "71632dde19601e912937f15ca5468d58ef6ffe6e39856c82ad78afd264edbb94"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63488,7 +63570,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "71632dde19601e912937f15ca5468d58ef6ffe6e39856c82ad78afd264edbb94"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63527,7 +63609,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "301db9b553f12e4edd317fb992469f0d8a848bfb23352d459d448fa33df16c06"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63566,7 +63648,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "bfd8e5049a2ae518ffa9a83610f717ea30def36594f5ba38f7a7a4d3826393d6"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63607,7 +63689,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "116d56dcc468cd46916dc0ad03b63d0c14f605ed29388527adcb6749f2e4e370"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63646,7 +63728,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -63683,11 +63765,22 @@
     "_updated": "2026-10-03",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "e4d4d51c59db8461218e9fd4ea203a934cbe7216186ecfc03ebf0a4f7eb13c89"
+      "lastChecked": "2026-10-18",
+      "contentHash": "3bb41f62c3a0145989de48d5ec304a731cc698bd4d8765f74a03f914685ba2a3"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 1
+    "last_checked": "2026-10-18",
+    "check_ok": 1,
+    "amountMin": 10000,
+    "amountMax": 100000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineType": "rolling"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-18",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "New England Biolabs Foundation (NEBF)",
@@ -63725,8 +63818,8 @@
       "status": "blocked",
       "lastChecked": "2026-10-16"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 0
+    "last_checked": "2026-10-18",
+    "check_ok": 1
   },
   {
     "organization": "Firedoll Foundation",
@@ -63765,7 +63858,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "32de5c52a53302fe5e5cad24101a7907832296d1027951e173dff7a79eb2b6c1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63805,7 +63898,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "cc7f4a7c9a1b9ccabfe18e867005adae279c861bbe1afdf50e830826c5720408"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63845,7 +63938,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5e784467d8111b5a80c3a9e864845afd94c9252f3dde1c4a91efa728dc75996e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63885,7 +63978,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a065a7db834001135b1c3a477b314d2052c067dee03fba5edf9f05f46ce886d8"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -63923,7 +64016,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -63962,7 +64055,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3c661043575a7a19d37ce20c5e3390f6ea13c00ef57cf9df4997e055e5eb3ef8"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64001,7 +64094,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "64e22f47f7d6f229711addb0b857435c77cf53d7ede4e2a1512d25a26543a3cc"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64039,7 +64132,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3aef5299c45bfe75ab3f76168ed06f1d4ac09be1b820f6f481879aec03c958d3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64078,7 +64171,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4257a536d7629f7328d4f0fd38e6ecf568ae3f79cb6880d94db2691aa09711f3"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64114,11 +64207,62 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "7df1fa966cbaf86165aba02f86a20c1a71147628af662ce1beafa1a96ecf4a0d"
+      "lastChecked": "2026-10-18",
+      "contentHash": "cc6c61885c3e35ee875da3941411d0505a353aa2d7be6d811f83eb382fa1c9fc"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 1
+    "last_checked": "2026-10-18",
+    "check_ok": 1,
+    "amountMin": 4000,
+    "amountMax": 2200000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Technical report required for awards",
+        "quote": "teams considered for awards must submit a technical report with details on their submission and its open-sourced implementation within two weeks of the final deadline (by November 15, 2026) for compliance checks."
+      },
+      {
+        "item": "Peer-review up to 3 technical reports",
+        "quote": "teams considered for awards commit to peer-review up to 3 technical reports of other teams during the reviewing period (November 15–30, 2026)."
+      },
+      {
+        "item": "Codabench submission bundle conforming to unified interface",
+        "quote": "Submissions must be packaged as Codabench submission bundle and must conform to the unified interface defined in the getting-started repository."
+      },
+      {
+        "item": "No internet access at evaluation time",
+        "quote": "Containers are evaluated on our servers without internet access."
+      },
+      {
+        "item": "3600-second prediction runtime limit",
+        "quote": "Each submission has 3600 seconds for the entire prediction run, covering all models and all problems together, with the scoring run limited separately"
+      },
+      {
+        "item": "Reproducibility from technical report",
+        "quote": "teams considered for awards must enable the organizers to reproduce their score from the instructions in the technical report alone."
+      },
+      {
+        "item": "No evaluation data leakage",
+        "quote": "any attempts for leakage of evaluation data are still forbidden and will result in the disqualification."
+      }
+    ],
+    "timeline": {
+      "deadlineDate": "2026-11-15",
+      "deadlineType": "fixed",
+      "opensDate": "2026-11-15"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-18",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "none",
+      "applicantTypes": [
+        "individual",
+        "team"
+      ]
+    }
   },
   {
     "organization": "Society of Quantitative Analysts & CEWIT at Stony Brook University (sponsors: NVIDIA, Bloomberg, AllianceBernstein)",
@@ -64155,7 +64299,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b40d97b38d96338f011ab620a6cdabdbf510694217ac2065eb174bb8aee78cb1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64193,7 +64337,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "fdf79b4e4c039c9f2c19dc3f0dce9b5001a31ed59875995295e3930cf458fbb9"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64233,7 +64377,7 @@
       "contentHash": "6b0196468f4a164c1a055f619e1a2ec96f6736d2ba397acaff84832b51abec11",
       "finalUrl": "https://craftprize.loewe.com/en/craftprize2027"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64272,7 +64416,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "b46093703c1e58d9603c25f0b0b18a984a5a235aa6bb2dbb6350234a890ab6df"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64310,7 +64454,7 @@
       "status": "dead",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -64348,7 +64492,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-12"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -64386,7 +64530,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -64424,7 +64568,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -64463,7 +64607,7 @@
       "lastChecked": "2026-10-14",
       "contentHash": "5e59b17027089235a47eaeb133196f8424ec158594736b486a224defde125a43"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "requirements": [
       {
@@ -64555,7 +64699,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "08f5b0c84d78ad6a841218bb856c0ddb3190f5321f7b31c65b8d62553eb4ebea"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64595,7 +64739,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "a24e935805d94d2ccfd0758615b484c1990d4ce4d267c9c416333554076ab7fc"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64631,11 +64775,98 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "3a2f7910b5c3a8ed4d4c39a9504275b80052c7f5e402303a54ab05b5caa9402c"
+      "lastChecked": "2026-10-18",
+      "contentHash": "21daa5ea9073575282159e6ef74f052785ed7ebf2e14f9b7a57718d21faa19a3"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 1
+    "last_checked": "2026-10-18",
+    "check_ok": 1,
+    "amountMin": 500000,
+    "amountMax": 500000,
+    "currency": "USD",
+    "requirements": [
+      {
+        "item": "Must qualify as Ecosystem-based Adaptation",
+        "quote": "Must qualify as “Ecosystem-based Adaptation”"
+      },
+      {
+        "item": "Must have catalytic and innovative potential",
+        "quote": "Must have catalytic and innovative potential to create enabling environments for EbA."
+      },
+      {
+        "item": "Must identify climate impacts addressed",
+        "quote": "Clearly identifies the climate impacts it is aiming to address and clearly describes how they will be addressed."
+      },
+      {
+        "item": "Max 1 Strategic Objective and max 2 Action Pillars",
+        "quote": "Falls under a maximum of 1 Strategic Objective and a maximum of 2 Action Pillars of the Global EbA Fund."
+      },
+      {
+        "item": "Budget up to USD 500,000",
+        "quote": "Proposed budget of up to USD $500,000 for Medium-size Grants."
+      },
+      {
+        "item": "Project duration of 24 months or less",
+        "quote": "Project duration of 24 months or less."
+      },
+      {
+        "item": "Must be built on existing work, not standalone",
+        "quote": "Project must be built / based off existing work."
+      },
+      {
+        "item": "Must demonstrate post-funding sustainability",
+        "quote": "Clearly demonstrates how results will be maintained and developed after the funding period."
+      },
+      {
+        "item": "Must partner with local institutions and organisations",
+        "quote": "Must partner with local institutions and organisations."
+      },
+      {
+        "item": "Lead applicant and partners must be legally recognised entities with relevant experience",
+        "quote": "Lead applicant and partner organisations must be legally recognised entities."
+      },
+      {
+        "item": "Lead applicant must comply with Due Diligence requirements",
+        "quote": "Lead applicant must comply with the Due Diligence requirements of the Global EbA Fund."
+      },
+      {
+        "item": "At least three Core Indicator Framework indicators in logframe",
+        "quote": "Applicants must identify at least three relevant indicators from the Core Indicator Framework and incorporate them into the individual project’s logical framework."
+      },
+      {
+        "item": "Applications must be submitted in English",
+        "quote": "Applications must be submitted in English."
+      },
+      {
+        "item": "Submission via online platform with required package documents",
+        "quote": "All applications must be submitted on the online platform."
+      }
+    ],
+    "timeline": {
+      "opensDate": "2026-10-12",
+      "deadlineDate": "2026-11-16",
+      "durationMonths": 24,
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-18",
+      "confidence": 0.8
+    },
+    "eligibilityDetail": {
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Projects must target only ODA-eligible countries unless global/thematic",
+        "Government entities cannot receive funding (nor via sub-grants); they may only be consortium members or beneficiaries",
+        "UNEP and IUCN offices are not eligible",
+        "Individuals cannot apply (including for PhD study)",
+        "Private sector applicants excluded from for-profit activities, sector-specific obligations, compensatory/replacement measures",
+        "Seed grants programmes not supported",
+        "Second phase of an already financed project will not be funded"
+      ]
+    }
   },
   {
     "organization": "The Resilience Fund for Women",
@@ -64674,7 +64905,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "102d12c00946a1f6370fe0464ea84c62ea1b2b24f1e388c24efb803b4dcdc485"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64712,7 +64943,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-17"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -64751,7 +64982,7 @@
       "lastChecked": "2026-10-12",
       "contentHash": "90f066d05a2cfa40c713e96027a978cb12a44dac6c7df8d846e02888a6012128"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64790,7 +65021,7 @@
       "lastChecked": "2026-10-14",
       "contentHash": "cbd87688c3517487053c3e6a9adf0efcdfcd428d649730efb16e18b85b4f2600"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "requirements": [
       {
@@ -64853,7 +65084,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "297c6d955766e3899cab6aa9d609bdbaa7c6a051a99b33d19026015d784d1fb5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64892,7 +65123,7 @@
       "lastChecked": "2026-10-17",
       "contentHash": "7b6d5246f95e05f0a8948d8fd49f482549b82184b5bb22b8b95789ccde6f3d09"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -64929,11 +65160,23 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
-      "contentHash": "73ebc56d959bb4b8eac303ede50c5f751c916f3c9722a0dfa9275296023f4454"
+      "lastChecked": "2026-10-18",
+      "contentHash": "6f6e851b962b41832ed340683d83f168da2ed7c55356a7f967eff62b9d2c3fd6"
     },
-    "last_checked": "2026-10-12",
-    "check_ok": 1
+    "last_checked": "2026-10-18",
+    "check_ok": 1,
+    "amountMin": 150000,
+    "amountMax": 500000000,
+    "currency": "GBP",
+    "timeline": {
+      "opensDate": "2026-10-01",
+      "deadlineType": "recurring"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-18",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Innovate UK (UKRI)",
@@ -64972,7 +65215,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3bf109c3608f70c29a2b638cb99d389ff685dc27cac28694b5f6f865b264d49c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65011,7 +65254,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -65047,10 +65290,10 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-18",
       "contentHash": "870865cc1dadbee4dcbedc277a506113635cb5e67c3de4379f39e8ff4f5dfb45"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65090,7 +65333,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "38c3a7522f38412bb7aec8ee3b6ff811850ee0d4a5b2504147db7d3236d9808c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65130,7 +65373,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ae2d54a641a3cd8003956c927cba24b18675be7a2c37ef92d87d3af1eb089a60"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65169,7 +65412,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65209,7 +65452,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1456c24abadfa436408b9cce03263b725a47b0e6dfcc996d6b45866a38ea8914"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65249,7 +65492,7 @@
       "lastChecked": "2026-10-16",
       "contentHash": "efbe3c4ab85e6337000cd7c537bb061c86c454e92d46f11757bb2847fa7c7d94"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65285,10 +65528,10 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-18",
       "contentHash": "9bcd1ee4cac1a075ec25eeb07ea6bfde3c89c2b55b57a75a248f59525aaef1c8"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65324,10 +65567,10 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-18",
       "contentHash": "759838097f81bfcfe8cd9a824bfac63297c298d20317a085fe640c3cd3b583fb"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65363,9 +65606,9 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-18"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -65404,7 +65647,7 @@
       "lastChecked": "2026-10-12",
       "contentHash": "42ba6576e18c7670c0a6eb976df8b4cc3b1ce5d52e39b9ad8871d8307176edc5"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65444,7 +65687,7 @@
       "lastChecked": "2026-10-12",
       "contentHash": "3553fc5d30050f803b9a7bbac199f1d490e170ef31667c0465be2e91517cce40"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65480,9 +65723,9 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-18"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -65521,7 +65764,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65561,7 +65804,7 @@
       "lastChecked": "2026-10-14",
       "contentHash": "531bd193ee370aa38df9f83b646018fac250571a8d0d112974c6b5ddb8c2bdca"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "amountMin": 5000,
     "amountMax": 40000,
@@ -65609,7 +65852,7 @@
       "lastChecked": "2026-10-14",
       "contentHash": "e0a05daa240ecd641868afd2f5e1561168a448273c0e29f51113f99cd5711e51"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "amountMin": 50000,
     "amountMax": 200000,
@@ -65659,10 +65902,10 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "dbd44367009a5d03b4f735d4a79d7309c468fe84f62132ffb4947cfb1be60899"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65703,7 +65946,7 @@
       "lastChecked": "2026-10-13",
       "contentHash": "f5c549f918f4c7b9e369022ed6175ad94caa5bd4425c24507174e5757a49479d"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65743,7 +65986,7 @@
       "lastChecked": "2026-10-13",
       "contentHash": "bde405d3f7b45c125ff83f0b48ba1df53da706366d51a38ca93b955e593ad4c1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65783,7 +66026,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0069b13ba1b605f1964ec62c9fc7b0366e65e0268e9dd28b730eeb7e6d0f6359"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65820,9 +66063,9 @@
     "_updated": "2026-10-04",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-13"
+      "lastChecked": "2026-10-18"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -65862,7 +66105,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6cf5a7199472c81d40fd9ca723fdb8b15ccc0a33a784a80eb8673d9b93a71da1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65902,7 +66145,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e24becbc77e00cc9ec98c94ce2a0da879c06b5b391757050ecbf77047a72df62"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65942,7 +66185,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "23146c14a9db5762cf46ef623414b39bb10e86eb8ded80b0b27d6428e61baac4"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -65982,7 +66225,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0af1c42217105767fb9d86a94ba220d170cfd0c7fcc11ed7a50058cc0999f6fc"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66022,7 +66265,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "75278af09a267d208c4c3787cce649a25fabbba171f6f5b30be809b2e47985ec"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66062,7 +66305,7 @@
       "lastChecked": "2026-10-14",
       "contentHash": "f5c7cf02d0e6620ab1e80d57a9ab368f02d4de3c2daaa384316973cd4fc18096"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "_derived": {
       "by": "auto",
@@ -66104,10 +66347,10 @@
     "_updated": "2026-10-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-18",
       "contentHash": "8a74184a2267b1181f0a50f70445e5bbaf3af7ef9330b68f7b1bdccd996a49ec"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66146,7 +66389,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66183,9 +66426,9 @@
     "_updated": "2026-10-05",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-13"
+      "lastChecked": "2026-10-18"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -66226,7 +66469,7 @@
       "contentHash": "4bde6ebcb2d6a67b4f9cf17f93e15bcdc2a69009d676f9078c7e5dd26e451594",
       "finalUrl": "https://writersofthefuture.com/contest-rules-writers/"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66264,7 +66507,7 @@
       "status": "dead",
       "lastChecked": "2026-10-13"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -66303,7 +66546,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "2b536eaa74e6af0b2a454ecdd9e9233875cb10f7833c0c9fdc9293e3f7e738e7"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "amountMin": 1000,
     "amountMax": 5000,
@@ -66353,7 +66596,7 @@
       "lastChecked": "2026-10-16",
       "contentHash": "339090cf61fd855476f803c800d602bea126f7fdb6a1433547525acca049a0bf"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66389,10 +66632,10 @@
     "_updated": "2026-10-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "3419f3a8586403f07374f682d5cca848498dc528bbc36d22847e9af1312fc3aa"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66429,7 +66672,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-13"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -66468,7 +66711,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6f52f35203608076710cf8b80532a8216652e71f465dd79c5f6b90c207e8575e"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66508,7 +66751,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "672bda45574f2842aa80048e05410ef9cd31e61f628a24bcc470d026b01d6b3a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66549,7 +66792,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e5b98228b1b911d68e108a96557add6466846062e7082e122a899327fc829297"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66589,7 +66832,7 @@
       "lastChecked": "2026-10-13",
       "contentHash": "dc285550b46ec7961f2aafe3ed2320be63cc3805c51187651182ef65967bf5f1"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66625,10 +66868,10 @@
     "_updated": "2026-10-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "2600e29df741155a887e0bf304e871e367c38b173490e205f677e5a723bded2c"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66663,10 +66906,10 @@
     "_updated": "2026-10-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "586c1f56f584534c0ad7d100e93c8ba44a4fa5a9ddb0c177a0f08b7e4108557f"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66705,7 +66948,7 @@
       "lastChecked": "2026-10-15",
       "contentHash": "7552f2400e635423e42e29c7ef8ef04af1b40855009a1ea67ae3efcbeaa29d74"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "amountMin": 5000,
     "amountMax": 2300000,
@@ -66754,10 +66997,10 @@
     "_updated": "2026-10-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "9995921a6b55c67190406f27b5ed82fb8bb2b30ada729cc9ff2456a376f5f913"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66796,7 +67039,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "bd005a8361e182d2c89a02dde29806bae2caf6538d2344b161c57140eb596b7a"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66836,7 +67079,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ccfe5324f71ee49f85983928974cdf70862d5d893b65bf8e100eb37e6c7e9103"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66886,7 +67129,7 @@
       "confidence": 0.8
     },
     "id": 1459,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66947,7 +67190,7 @@
         "Must be a startup"
       ]
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -66993,7 +67236,7 @@
       "confidence": 0.8
     },
     "id": 1461,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67039,7 +67282,7 @@
       "confidence": 0.8
     },
     "id": 1462,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67076,7 +67319,7 @@
       "lastChecked": "2026-10-08"
     },
     "id": 1463,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67134,7 +67377,7 @@
         "Project must be building on Stellar and Soroban"
       ]
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67185,7 +67428,7 @@
       "confidence": 0.8
     },
     "id": 1465,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67223,7 +67466,7 @@
       "lastChecked": "2026-10-08"
     },
     "id": 1466,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -67258,7 +67501,7 @@
     "_updated": "2026-10-08",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "a78ceb555366c14494618446e5af71c4a3f33eecf4f0bae9f5e8e89ed91d1fe3"
     },
     "timeline": {
@@ -67272,7 +67515,7 @@
       "confidence": 0.85
     },
     "id": 1467,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67330,7 +67573,7 @@
         "Residencies are offered at no cost to the artists"
       ]
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67374,7 +67617,7 @@
       "confidence": 0.0
     },
     "id": 1469,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67421,7 +67664,7 @@
       "confidence": 0.8
     },
     "id": 1470,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67471,7 +67714,7 @@
       "confidence": 0.8
     },
     "id": 1471,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67515,7 +67758,7 @@
       "confidence": 0.0
     },
     "id": 1472,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67549,7 +67792,7 @@
     "_updated": "2026-10-08",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "b96cdfd1c2b75112f2880cbb0aec360c4d41f875e2888dcb4005c6d7940f5c8e"
     },
     "requirements": [
@@ -67595,7 +67838,7 @@
         "This form may not be used to renew a current corps member"
       ]
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67630,7 +67873,7 @@
     "_updated": "2026-10-08",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-13",
+      "lastChecked": "2026-10-18",
       "contentHash": "11a7874b71e06accf81875f73fb7f7375b931a49fb7513fddecdd7bb932153fb"
     },
     "timeline": {
@@ -67644,7 +67887,7 @@
       "confidence": 0.85
     },
     "id": 1474,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67729,7 +67972,7 @@
         "Individual fundraising activities are not eligible"
       ]
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67822,7 +68065,7 @@
         "This round focuses on early-stage founders, including ideas stage and trading for less than one year"
       ]
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67884,7 +68127,7 @@
         "Must own all listed units to see claimable rewards"
       ]
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67936,7 +68179,7 @@
       "confidence": 0.8
     },
     "id": 1478,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -67987,7 +68230,7 @@
       "confidence": 0.8
     },
     "id": 1479,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1
   },
   {
@@ -68024,7 +68267,7 @@
       "lastChecked": "2026-10-08"
     },
     "id": 1480,
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 0
   },
   {
@@ -68055,7 +68298,7 @@
     "fundingType": "Prize",
     "effort": "Medium",
     "domain": "AI film",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "amountMin": 10000,
     "amountMax": 10000,
@@ -68063,7 +68306,7 @@
     "timeline": {
       "decisionDate": "2026-10-24"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "page": {
       "status": "redirect",
@@ -68152,7 +68395,7 @@
     "timeline": {
       "deadlineType": "rolling"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "page": {
       "status": "ok",
@@ -68225,7 +68468,7 @@
     "timeline": {
       "deadlineType": "rolling"
     },
-    "last_checked": "2026-10-12",
+    "last_checked": "2026-10-18",
     "check_ok": 1,
     "page": {
       "status": "ok",
