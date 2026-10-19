@@ -46,8 +46,15 @@ def main():
         print("seed-worker: no chunk files generated")
         return 1
     for path in files:
-        r = run(["npx", "wrangler", "d1", "execute", "DB", "--remote", f"--file={path}"])
-        if r.returncode != 0 or "error" in (r.stderr or "").lower():
+        ok = False
+        for attempt in range(1, 4):
+            r = run(["npx", "wrangler", "d1", "execute", "DB", "--remote", f"--file={path}"])
+            if r.returncode == 0 and "error" not in (r.stderr or "").lower():
+                ok = True
+                break
+            print(f"seed-worker: chunk {os.path.basename(path)} attempt {attempt}/3 failed, retrying…")
+            import time; time.sleep(30)
+        if not ok:
             print(f"seed-worker: chunk failed: {os.path.basename(path)}\n{(r.stderr or r.stdout)[-2000:]}")
             return 1
     check = run(["npx", "wrangler", "d1", "execute", "DB", "--remote", "--json",
