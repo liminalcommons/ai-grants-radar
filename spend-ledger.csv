@@ -549,3 +549,11 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-19T15:24:42.591736+00:00,refresh-extract/21,deepseek-v4.1-flash,,,149,,HTTPError: HTTP Error 401: Unauthorized
 2026-10-19T15:24:42.756185+00:00,refresh-extract/22,deepseek-v4.1-flash,,,154,,HTTPError: HTTP Error 401: Unauthorized
 2026-10-19T15:24:43.189687+00:00,refresh-extract/23,deepseek-v4.1-flash,,,159,,HTTPError: HTTP Error 401: Unauthorized
+2026-10-20T14:02:37.103269+00:00,refresh-extract/1,deepseek-v4.1-flash,1815,2672,12829,200,
+2026-10-20T14:02:46.912119+00:00,refresh-extract/2,deepseek-v4.1-flash,1739,1877,9781,200,
+2026-10-20T14:02:58.777046+00:00,refresh-extract/3,deepseek-v4.1-flash,1220,2568,11839,200,
+2026-10-20T14:03:04.708556+00:00,refresh-extract/4,deepseek-v4.1-flash,2120,1010,5918,200,
+2026-10-20T14:03:21.906676+00:00,refresh-extract/5,deepseek-v4.1-flash,1932,3645,17146,200,
+2026-10-20T14:03:25.276260+00:00,refresh-extract/6,deepseek-v4.1-flash,2954,611,3346,200,
+2026-10-20T14:03:29.868776+00:00,refresh-extract/7,deepseek-v4.1-flash,2957,952,4507,200,
+2026-10-20T14:03:47.705022+00:00,refresh-extract/8,deepseek-v4.1-flash,4075,4000,17807,200,

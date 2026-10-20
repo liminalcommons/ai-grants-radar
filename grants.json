@@ -61,7 +61,7 @@
         "Eligibility is at the discretion of Google Cloud"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -116,7 +116,7 @@
         "Must be a startup"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -165,7 +165,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -215,7 +215,7 @@
     "eligibilityDetail": {
       "geography": "global"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -260,8 +260,8 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 1
+    "last_checked": "2026-10-20",
+    "check_ok": 0
   },
   {
     "id": 6,
@@ -309,7 +309,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -346,7 +346,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "a3272402330989f68f1ee4884fd821116dede66e9155def4c3f7b2c5b1baff9b",
       "finalUrl": "https://foresight.org/grants/ai-science-safety-nodes-rfp/"
     },
@@ -384,7 +384,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -457,7 +457,7 @@
         "Principal investigator does not need advanced degrees"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -495,8 +495,8 @@
       "status": "blocked",
       "lastChecked": "2026-10-06"
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 1
+    "last_checked": "2026-10-20",
+    "check_ok": 0
   },
   {
     "id": 10,
@@ -572,7 +572,7 @@
         "indirect costs limited to 10% of direct costs"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -619,7 +619,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -691,7 +691,7 @@
         "cross-border consortium"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -751,7 +751,7 @@
         "org"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -816,7 +816,7 @@
         "multi-disciplinary research teams"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -854,7 +854,7 @@
       "status": "dead",
       "lastChecked": "2026-10-08"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -933,7 +933,7 @@
         "focus on mature AI tools supporting decision-making in primary and community health settings"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -978,7 +978,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1034,7 +1034,7 @@
         "Applicants must be ages 19 to 24"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1079,7 +1079,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1155,7 +1155,7 @@
         "Talk with your Account Manager"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1193,7 +1193,7 @@
       "status": "dead",
       "lastChecked": "2026-10-08"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -1265,7 +1265,7 @@
         "Consulting and outsourced development firms do not qualify"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1340,7 +1340,7 @@
         "in-person participation in San Francisco"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1401,7 +1401,7 @@
         "team"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1469,7 +1469,7 @@
         "individual"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1507,7 +1507,7 @@
       "status": "dead",
       "lastChecked": "2026-10-08"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -1552,7 +1552,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1599,7 +1599,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1646,7 +1646,7 @@
       "checked": "2026-10-06",
       "confidence": 0.9
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1733,7 +1733,7 @@
         "Anthropic employees, officers, directors, agents, representatives, their immediate families, and household members are ineligible"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1781,7 +1781,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1852,7 +1852,7 @@
         "Pre-seed stage ideas"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1922,7 +1922,7 @@
         "organizations based in Africa, the Middle East, Turkey, Asia Pacific, and Latin America"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -1971,7 +1971,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2046,7 +2046,7 @@
         "You can apply as a charity or for-profit (seeking either investment or non-dilutive funding)."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2108,7 +2108,7 @@
         "early-stage projects"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2153,7 +2153,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2199,7 +2199,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2295,7 +2295,7 @@
         "Already incorporated capital-based company overqualified"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2379,7 +2379,7 @@
         "National AI Hackathon eligibility limited to grades 11-12, undergraduates, and graduates"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2424,7 +2424,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -2467,7 +2467,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2569,7 +2569,7 @@
         "Must have a public social media presence."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2636,7 +2636,7 @@
         "Credits do not apply to Reserved GPU Clusters"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2674,7 +2674,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-06"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2769,7 +2769,7 @@
         "Prioritize AI-native startups"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2852,7 +2852,7 @@
         "Scaling and Series B+: VC is part of our partner network"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2902,7 +2902,7 @@
         "Applied AI founders"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -2946,7 +2946,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3010,7 +3010,7 @@
         "enabler"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3054,7 +3054,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3147,7 +3147,7 @@
         "Established online: Have an active company website and LinkedIn profile"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3214,7 +3214,7 @@
         "selective program for a small, carefully chosen cohort of customers"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3259,7 +3259,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3308,7 +3308,7 @@
         "No longer accepts applications or donations"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3394,7 +3394,7 @@
         "Academic partners, civic and public impact organizations"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3472,7 +3472,7 @@
         "Artists who received the program award in the past two years are ineligible to apply this year."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3540,7 +3540,7 @@
         "No formal degree required"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3615,7 +3615,7 @@
         "Artists & Designers"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3683,7 +3683,7 @@
         "Codex Security access reviewed case by case"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3722,7 +3722,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-06"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -3791,7 +3791,7 @@
         "Traction Mode: scaling a validated product up to €2M ARR"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3836,7 +3836,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3881,7 +3881,7 @@
       "checked": "2026-10-06",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -3966,7 +3966,7 @@
         "Past winners should wait one calendar year or one cycle before reapplying, unless the project is clearly and sufficiently different"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4016,7 +4016,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4053,7 +4053,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-06"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4145,7 +4145,7 @@
         "Discounted licenses are permitted for all staff, including volunteers and temporary staff"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4214,7 +4214,7 @@
         "Must comply with Salesforce’s Acceptable Use Policy"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4281,7 +4281,7 @@
         "Nonprofit organizations only"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4344,7 +4344,7 @@
         "org"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4438,7 +4438,7 @@
         "Must have at least a minimum viable product (MVP) built"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4479,7 +4479,7 @@
       "status": "dead",
       "lastChecked": "2026-10-06"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -4536,7 +4536,7 @@
         "team"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4610,7 +4610,7 @@
         "No internal system access"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4688,7 +4688,7 @@
         "No employment by Pivotal; applicant responsible for entry requirements/visa"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4758,7 +4758,7 @@
         "Nonprofit technology initiatives"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4835,7 +4835,7 @@
         "NIH SBIR/STTR-supported incremental enhancements or new indications/patient populations are not eligible (non-NIH SBIR/STTR awards excluded)"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -4873,7 +4873,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-06"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -4909,8 +4909,8 @@
     "deadlineType": "fixed",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
-      "contentHash": "7c0c6f272da0de868fc636da749bb87f182f13cf2114ec231938b448b1de25ec"
+      "lastChecked": "2026-10-20",
+      "contentHash": "8557753412a8f23bf72db280ba4502c0a57ffa271f8597426b736eca9b1c994a"
     },
     "timeline": {
       "deadlineDate": "2026-11-03",
@@ -4919,24 +4919,24 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-18",
+      "checked": "2026-10-20",
       "confidence": 0.85
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1,
     "requirements": [
       {
-        "item": "Project proposals should be between EUR 5,000 and EUR 50,000, with possible scaling if proven potential.",
-        "quote": "We are seeking project proposals between 5.000 and 50.000 euro's — with the possibility to scale them up signficantly if there is proven potential."
+        "item": "Project results must be released under a free or open source license",
+        "quote": "Project results always become available under a free or open source license"
       },
       {
-        "item": "Project results must become available under a free or open source license.",
-        "quote": "Project results always become available under a free or open source license"
+        "item": "Project proposals should be between 5,000 and 50,000 euros",
+        "quote": "We are seeking project proposals between 5.000 and 50.000 euro's"
       }
     ],
     "eligibilityDetail": {
       "restrictions": [
-        "The 13th call is final and closed; no more new applications are sought for this fund."
+        "No new applications are being accepted for this fund"
       ]
     }
   },
@@ -5007,7 +5007,7 @@
         "Areas of interest include reducing excessive deference to AI systems and systems that support our capacity for self-formation"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5063,7 +5063,7 @@
         "team"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5128,7 +5128,7 @@
       "checked": "2026-10-06",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5205,7 +5205,7 @@
         "Regrantors generally may not pay their own salaries"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5283,7 +5283,7 @@
         "Applicants in school are considered, including those who want to leave academia or take a break to become full time participants."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5372,7 +5372,7 @@
         "Residency is based in Emeryville, California, at an in-person hub"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5419,7 +5419,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5508,7 +5508,7 @@
         "Must agree to Code of Conduct and Privacy Statement"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5592,7 +5592,7 @@
         "Must select a chapter to apply to"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5630,7 +5630,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -5674,7 +5674,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5712,7 +5712,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -5781,7 +5781,7 @@
         "Both the Creative Capital Award and State of the Art Prize are one-time distinctions."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5857,7 +5857,7 @@
         "Open to researchers and students"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5895,7 +5895,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -5945,7 +5945,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -5983,8 +5983,8 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 1
+    "last_checked": "2026-10-20",
+    "check_ok": 0
   },
   {
     "organization": "KPMG U.S. Foundation",
@@ -6036,7 +6036,7 @@
         "Nonprofits only"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6098,7 +6098,7 @@
         "Teams must include researchers and civic partners"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6149,7 +6149,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6218,7 +6218,7 @@
     "eligibilityDetail": {
       "geography": "global"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6298,7 +6298,7 @@
         "Local offices of Global North-based organisations are not eligible"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6370,7 +6370,7 @@
         "Grant-funded work must be open-source and accessible to the community"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6408,7 +6408,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6467,7 +6467,7 @@
         "Project must be on Stellar"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6506,7 +6506,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6572,7 +6572,7 @@
         "onchain business / primitives"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6611,7 +6611,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -6705,7 +6705,7 @@
         "Grant approvals are discretionary"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6744,7 +6744,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -6782,7 +6782,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -6848,7 +6848,7 @@
         "Funding is for projects focused on key Arbitrum Foundation initiatives"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6897,7 +6897,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -6977,7 +6977,7 @@
         "Projects occurring in the U.S. and abroad"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7021,7 +7021,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7073,7 +7073,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7170,7 +7170,7 @@
         "Senior Fellowship requires at least seven years experience relevant to AI or journalism"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7217,7 +7217,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7267,7 +7267,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7305,7 +7305,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -7349,7 +7349,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7421,7 +7421,7 @@
         "Challenge America applicants may only request $10,000"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7465,7 +7465,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7517,7 +7517,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7555,7 +7555,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -7602,7 +7602,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7658,7 +7658,7 @@
         "team"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -7713,7 +7713,7 @@
         "team"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7760,7 +7760,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7818,7 +7818,7 @@
         "independent teams entering the Zcash ecosystem"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7862,7 +7862,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -7909,7 +7909,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -7959,7 +7959,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8019,7 +8019,7 @@
         "individual"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8079,7 +8079,7 @@
         "For developers and communities"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8127,7 +8127,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8165,7 +8165,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -8203,7 +8203,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -8247,7 +8247,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8292,7 +8292,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8343,7 +8343,7 @@
         "Win or stand out to be invited to Apart Studio, the way into the Apart Fellowship"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8387,7 +8387,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8425,7 +8425,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -8483,7 +8483,7 @@
         "team"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8531,7 +8531,7 @@
       "checked": "2026-10-07",
       "confidence": 0.9
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8570,7 +8570,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -8609,7 +8609,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -8655,7 +8655,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8704,7 +8704,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8805,7 +8805,7 @@
         "All organization structures eligible if focused on social impact"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8843,7 +8843,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -8920,7 +8920,7 @@
         "Applicants must be 18 or older"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -8965,7 +8965,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9011,7 +9011,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9060,7 +9060,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9097,7 +9097,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -9165,7 +9165,7 @@
       "checked": "2026-10-07",
       "confidence": 0.85
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9202,7 +9202,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9252,7 +9252,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9320,7 +9320,7 @@
         "early stage longevity research"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9395,7 +9395,7 @@
         "Prioritized use cases: Decentralized Finance (DeFi), Real World Asset Tokenization (RWA), Payments, Trade Finance"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9473,7 +9473,7 @@
         "Up to five builders for the first cohort"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9511,7 +9511,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -9601,7 +9601,7 @@
         "Not a residency Fellowship; Fellows work from their own offices"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9639,7 +9639,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -9683,7 +9683,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9772,7 +9772,7 @@
         "Once funded, reapplication to the same facility is not allowed within the same fiscal year"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9871,7 +9871,7 @@
         "Applications are received at any time throughout the year and reviewed on a rolling basis"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -9933,7 +9933,7 @@
         "Small grants support specific programs."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10027,7 +10027,7 @@
         "Capital building funds, challenge grants, and grant-making organizations are ineligible"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10063,7 +10063,7 @@
     "_updated": "2026-05-31",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "885851d0082c17f513f4f8cffec265ddc34f9706062d9c3c12a64b75115eb69d",
       "finalUrl": "https://www.nationalgeographic.org/explore/grants-investments"
     },
@@ -10116,7 +10116,7 @@
         "No generic Level I/II tier applications; apply to specific RFP"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10199,7 +10199,7 @@
         "Applications submitted by mail, fax or e-mail will not be considered"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10302,7 +10302,7 @@
         "All members of a collaborative must agree to apply and approve use of all application materials; all must reside in the corresponding city and meet all other eligibility requirements."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10340,7 +10340,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -10457,7 +10457,7 @@
         "deadline extensions will not be granted"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10540,7 +10540,7 @@
         "Must not need more than $25,000 in STRK"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10585,7 +10585,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10631,7 +10631,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10686,7 +10686,7 @@
         "Must contribute to the growth of The Graph ecosystem"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10724,7 +10724,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -10762,7 +10762,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -10848,7 +10848,7 @@
         "AI-powered solution"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10928,7 +10928,7 @@
         "Grant category must be Art or Photography."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -10972,7 +10972,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11092,7 +11092,7 @@
         "Documents exceeding specified page limits will not be accepted"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11186,7 +11186,7 @@
         "Fellowship money awarded to newsrooms, not individuals"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11235,7 +11235,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11315,7 +11315,7 @@
         "Newsroom staff should check they are allowed to take part."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11365,7 +11365,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11416,7 +11416,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11489,7 +11489,7 @@
         "Must meet eligibility criteria"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11525,8 +11525,8 @@
     "_updated": "2026-05-31",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
-      "contentHash": "d7f032025b8a530a544b3374a9e8c2e82f788f1d0a9e5448648950f6d6de4fbf"
+      "lastChecked": "2026-10-20",
+      "contentHash": "ac6dd90579506df510d04a58a745b395020a7c228ae8ce87f5c7dd518dac0636"
     },
     "timeline": {
       "deadlineDate": "2026-11-03",
@@ -11535,10 +11535,10 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-19",
+      "checked": "2026-10-20",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1,
     "requirements": [
       {
@@ -11555,14 +11555,17 @@
       }
     ],
     "eligibilityDetail": {
+      "geography": "global",
       "entityRequired": "none",
       "applicantTypes": [
         "individual",
         "org"
       ],
       "restrictions": [
-        "Fund-specific eligibility conditions may apply",
-        "No commercial rates; cost-recovery based funding"
+        "Projects must be free/libre/open source",
+        "Scientific outcomes must be published as open access",
+        "Software and hardware developed must be published under a recognised free and open source license in its entirety",
+        "Fund-specific eligibility conditions may apply"
       ]
     }
   },
@@ -11600,7 +11603,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -11660,7 +11663,7 @@
         "Nonprofit organizations"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11710,7 +11713,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11759,7 +11762,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11821,7 +11824,7 @@
         "Focus areas: Climate Resilience; Crisis Response (which includes shelter, water, food, and disaster relief); Economic Opportunity; and Education"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11869,7 +11872,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11914,7 +11917,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -11957,7 +11960,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12001,7 +12004,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12048,7 +12051,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12102,7 +12105,7 @@
       "checked": "2026-10-07",
       "confidence": 0.9
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12153,7 +12156,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12203,7 +12206,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12254,7 +12257,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12334,7 +12337,7 @@
         "Data projects solely for academic research are not funded"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12437,7 +12440,7 @@
         "Fellows may not teach full-time or hold time-consuming jobs"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12491,7 +12494,7 @@
         "No projects with associated startups"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12556,8 +12559,8 @@
         "Applicants must meet the legal age requirement in their country of residence."
       ]
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 1
+    "last_checked": "2026-10-20",
+    "check_ok": 0
   },
   {
     "organization": "Collective Intelligence Project",
@@ -12633,8 +12636,8 @@
         "Preferred fields include Political Science, Computational Social Science, Sociology, Computer Science (ML/AI)"
       ]
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 1
+    "last_checked": "2026-10-20",
+    "check_ok": 0
   },
   {
     "organization": "South Arts",
@@ -12734,7 +12737,7 @@
         "Applicants moving from South Arts region after application are not eligible"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12784,7 +12787,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12827,7 +12830,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12879,7 +12882,7 @@
         "focus on meeting the needs of adults age 50 or older"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12916,7 +12919,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -12953,7 +12956,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -13014,7 +13017,7 @@
       "checked": "2026-10-07",
       "confidence": 0.9
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13051,7 +13054,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13088,7 +13091,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -13131,7 +13134,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13169,7 +13172,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13214,7 +13217,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13261,7 +13264,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13342,7 +13345,7 @@
         "Part-time program requiring 8-12 hours per week"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13429,7 +13432,7 @@
         "Multiple project ideas from the same organization may be submitted"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13473,7 +13476,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13533,7 +13536,7 @@
         "startup"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13585,7 +13588,7 @@
         "Must be leveraging AI to scale inclusive, local solutions in Google Data Center Communities"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13654,7 +13657,7 @@
         "Must apply through the Regional Administering Organization serving the applicant's county"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13711,7 +13714,7 @@
         "Open to researchers, builders, and creatives"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13779,7 +13782,7 @@
         "Focus on applicants whose businesses help build the new internet financial system"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13875,7 +13878,7 @@
         "Must be working on an ongoing project related to the CoE or CoRE with readily available data"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -13913,7 +13916,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -14013,7 +14016,7 @@
         "Projects must not involve campaigns that endorse political candidates or parties"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -14087,7 +14090,7 @@
         "The Fellowship Access Fund is for select candidates with particular financial needs."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -14125,7 +14128,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -14175,7 +14178,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -14229,7 +14232,7 @@
         "Organizations that received a Community Grant in 2025 Fall Cycle or 2026 Spring Cycle are not eligible for the 2026 Fall Cycle"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -14321,7 +14324,7 @@
         "Program is designed to extend proven capacity, not fund entirely new programs from scratch"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -14359,7 +14362,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -14421,7 +14424,7 @@
         "Open-source initiatives"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -14459,7 +14462,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -14525,7 +14528,7 @@
         "Political parties or candidates are not funded"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -14619,7 +14622,7 @@
         "Must submit via the grant submission form; grants submitted outside the form will not be considered"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -14657,7 +14660,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -14694,7 +14697,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -14731,7 +14734,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 1
   },
   {
@@ -14768,7 +14771,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -14805,7 +14808,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "check_ok": 0
   },
   {
@@ -15493,7 +15496,7 @@
     "_updated": "2026-06-01",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "3e7de7446be51e7933614e9a195262ee304982ca65b47fceb7cbcb3edc87cb4f"
     },
     "amountMin": 5000,
@@ -15563,8 +15566,8 @@
     "_updated": "2026-06-01",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
-      "contentHash": "644d4d6f834f18253a358b472ed87df58afc8733109042b2592d89160e4bd2a5"
+      "lastChecked": "2026-10-20",
+      "contentHash": "7dd8b06f9689ef3d9dd26d2a540bdbb72848f789f0ce773a6f1fdb7cdd2f43c4"
     },
     "amountMin": 15000,
     "amountMax": 75000,
@@ -15575,22 +15578,26 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-15",
+      "checked": "2026-10-20",
       "confidence": 0.8
     },
     "eligibilityDetail": {
       "applicantTypes": [
-        "individual",
-        "org"
+        "individual"
       ],
       "restrictions": [
-        "women only",
-        "women-owned businesses",
-        "female entrepreneurs"
+        "Applicants must be women",
+        "Grant is for women-owned businesses"
       ]
     },
     "last_checked": "2026-10-19",
-    "check_ok": 1
+    "check_ok": 1,
+    "requirements": [
+      {
+        "item": "Applicant must describe themselves and their business dream in the application",
+        "quote": "Just take a few minutes to tell us about yourself and your business dream."
+      }
+    ]
   },
   {
     "organization": "Verizon (in partnership with LISC)",
@@ -18544,21 +18551,17 @@
     "_updated": "2026-06-01",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
-      "contentHash": "ed8cdd2a0eac2624e62e9a6cfa5678265f615c2ea71eac69a67ee298f169e86b"
+      "lastChecked": "2026-10-20",
+      "contentHash": "bd885c17caeb2a57d9aee995047c942df047ba7d96a04018b9a35cb2a72e848c"
     },
     "requirements": [
       {
         "item": "Project results must be released under a free and open source license",
-        "quote": "Project results must be made available under a free and open source license"
+        "quote": "Project results must be made available under a free and open source license, so anyone can read and validate the source code"
       },
       {
-        "item": "Proposal budget must be between €5,000 and €50,000",
+        "item": "Proposals between 5,000 and 50,000 euros",
         "quote": "We are seeking project proposals between 5.000 and 50.000 euro's"
-      },
-      {
-        "item": "Proposals must align with NGI TALER topics and approach",
-        "quote": "aligned with the topics and approach of NGI TALER"
       }
     ],
     "timeline": {
@@ -18568,8 +18571,8 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-19",
-      "confidence": 0.75
+      "checked": "2026-10-20",
+      "confidence": 0.85
     },
     "eligibilityDetail": {
       "entityRequired": "none",
@@ -19738,7 +19741,7 @@
     "_updated": "2026-06-02",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "5ab3ee8ca2f89b2e4afab068e727821a810b02662e1201f086bc1a7339cf78c0"
     },
     "amountMin": 10000,
@@ -23109,24 +23112,20 @@
     "_updated": "2026-06-02",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
-      "contentHash": "eb17512ccc9ac48eaada49be564e954e76c96bac21a834cfe47d75ebd834e24a"
+      "lastChecked": "2026-10-20",
+      "contentHash": "caf423eb9330197effb62b4b991adc33e8ee7cbe1c0d6a1b30e1df6becd44f5c"
     },
     "amountMin": 750,
     "amountMax": 420000,
     "currency": "USD",
     "requirements": [
       {
-        "item": "Agree to terms and conditions",
+        "item": "Agree to the terms and conditions",
         "quote": "I agree to the terms and conditions."
       },
       {
-        "item": "Create a free Galaxy account",
-        "quote": "By Submitting, I Will Be Entered to Win a Galaxy Grant. I Agree to the Terms and Conditions of Galaxy of Stars, and Will Be Creating a Free Account at www.galaxyofstars.org."
-      },
-      {
-        "item": "Galaxy Plus+ members are automatically entered and do not need to fill out this form",
-        "quote": "If you are already a Galaxy Plus+ member, you do NOT need to fill out this form. You are automatically entered for all Galaxy Grant opportunities."
+        "item": "Create a free account at www.galaxyofstars.org",
+        "quote": "Will Be Creating a Free Account at www.galaxyofstars.org."
       }
     ],
     "timeline": {
@@ -23135,7 +23134,7 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-19",
+      "checked": "2026-10-20",
       "confidence": 0.8
     },
     "eligibilityDetail": {
@@ -24321,8 +24320,8 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
-      "contentHash": "a56b42aa870901d4b901fff58b7ed7c9ed808aa670fd7ab4f649e2de711c0e9a"
+      "lastChecked": "2026-10-20",
+      "contentHash": "77b5e85b76a75b2156becfbceb9b691d7515389a004fa8cac7a6d8d5cd9cd07e"
     },
     "amountMin": 5000,
     "amountMax": 1000000,
@@ -24350,13 +24349,12 @@
       }
     ],
     "timeline": {
-      "opensDate": "2026-09-01",
       "deadlineDate": "2026-11-01",
       "deadlineType": "fixed"
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-07",
+      "checked": "2026-10-20",
       "confidence": 0.8
     },
     "eligibilityDetail": {
@@ -26532,7 +26530,7 @@
     "_updated": "2026-06-03",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "501998afd00288de3dc89039720f4b17dd0305459e2a3184ad5369512d3d5458"
     },
     "_derived": {
@@ -27694,7 +27692,7 @@
     "_updated": "2026-06-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "ed3f8f4d9b9fb8fc676a955db5c8b8955d160fe0b87a7da4561089dcdb789367"
     },
     "last_checked": "2026-10-19",
@@ -27778,7 +27776,7 @@
     "_updated": "2026-06-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "351b6866c652a58be8c4783492c8bc46e3c8bdf3a08dbd9e1871aacb20e833fa"
     },
     "last_checked": "2026-10-19",
@@ -28832,11 +28830,23 @@
     "_updated": "2026-06-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
-      "contentHash": "a56b42aa870901d4b901fff58b7ed7c9ed808aa670fd7ab4f649e2de711c0e9a"
+      "lastChecked": "2026-10-20",
+      "contentHash": "77b5e85b76a75b2156becfbceb9b691d7515389a004fa8cac7a6d8d5cd9cd07e"
     },
     "last_checked": "2026-10-19",
-    "check_ok": 1
+    "check_ok": 1,
+    "amountMin": 5000,
+    "amountMax": 1000000,
+    "currency": "USD",
+    "timeline": {
+      "deadlineDate": "2026-11-01",
+      "deadlineType": "fixed"
+    },
+    "_derived": {
+      "by": "auto",
+      "checked": "2026-10-20",
+      "confidence": 0.8
+    }
   },
   {
     "organization": "Blue Mountain Center / Margolis & Company",
@@ -29646,7 +29656,7 @@
     "_updated": "2026-06-04",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "12f9e767f90ea516eefff63febeccbd932c788807dc5d46287247201854441c4"
     },
     "last_checked": "2026-10-19",
@@ -31422,8 +31432,8 @@
     "_updated": "2026-06-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
-      "contentHash": "15d404bb54f28a2e176d65ed783e9d37b78763028efc99f513e19bcba5a41853"
+      "lastChecked": "2026-10-20",
+      "contentHash": "23ab3f82db946137baf42a3dfc3f9cad0ce13fca0b0999057cb5112b207310b6"
     },
     "last_checked": "2026-10-19",
     "check_ok": 1,
@@ -31434,7 +31444,7 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-19",
+      "checked": "2026-10-20",
       "confidence": 0.85
     }
   },
@@ -32628,7 +32638,7 @@
     "_updated": "2026-06-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "95ead875a95e92d2cfd68412948fb2321c58c41ff10b2d46766e5da9d664b56d"
     },
     "last_checked": "2026-10-19",
@@ -33635,7 +33645,7 @@
     "_updated": "2026-06-07",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "045256aa3c76356c10f3411e661265ac3a3ac0145077d110bd06ca951874fdba"
     },
     "last_checked": "2026-10-19",
@@ -34102,7 +34112,7 @@
     "_updated": "2026-06-08",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "e0468e533c540522cdfd93fbf58f5b9c29f2f637049ad23ac4235041b59bde0b"
     },
     "last_checked": "2026-10-19",
@@ -35758,7 +35768,7 @@
     "_updated": "2026-06-09",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "355c1afb05ace9f355a49e9f22fbe130f549e1b04d30e1ceaeac934a5904cacf"
     },
     "last_checked": "2026-10-19",
@@ -36249,7 +36259,7 @@
     "_updated": "2026-06-09",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-19"
+      "lastChecked": "2026-10-20"
     },
     "last_checked": "2026-10-19",
     "check_ok": 0
@@ -36362,7 +36372,7 @@
     "_updated": "2026-06-09",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "c096abd1d71ef95ed3fadcd26de608d534e7f2fbeb591df9e5cf5169623dde9c"
     },
     "last_checked": "2026-10-19",
@@ -37597,7 +37607,7 @@
     "_updated": "2026-06-10",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-19"
+      "lastChecked": "2026-10-20"
     },
     "last_checked": "2026-10-19",
     "check_ok": 0
@@ -42059,7 +42069,7 @@
     "_updated": "2026-06-29",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "176e3fbf29af99daba659e42511dfb5cb33d8fb63c3b77d9d756cf38b3a1e5f0"
     },
     "last_checked": "2026-10-19",
@@ -42370,7 +42380,7 @@
     "_updated": "2026-06-29",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "e27a644de10d1c5ae796ae79aecb0f3655db728fb1c44cddf7cda70c83c2d78a"
     },
     "last_checked": "2026-10-19",
@@ -42720,7 +42730,7 @@
     "_updated": "2026-06-29",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "3ac298c118b8bb7969a112edb0984229b221c7230a17d7f05cad00a69b6659d1"
     },
     "last_checked": "2026-10-19",
@@ -43396,7 +43406,7 @@
     "_updated": "2026-07-10",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "dc3013cb3145bdd4561c40b1e756e257b0d2ba0c9321a98680d962066d7b87d9"
     },
     "last_checked": "2026-10-19",
@@ -43589,8 +43599,8 @@
     "id": 882,
     "_updated": "2026-07-10",
     "page": {
-      "status": "blocked",
-      "lastChecked": "2026-10-19",
+      "status": "ok",
+      "lastChecked": "2026-10-20",
       "contentHash": "cf660a58fa054dcac90f956a316635b2c7e68096d0496031c2c9287efabadb8a"
     },
     "last_checked": "2026-10-19",
@@ -44023,7 +44033,7 @@
     "_updated": "2026-07-13",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "4c06767544cd99295611caba1d6e238cc98198c2f8ae2898f297488e161649cf"
     },
     "last_checked": "2026-10-19",
@@ -44653,7 +44663,7 @@
     "_updated": "2026-07-13",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "f0bd8f50664a9f0e413d9ba6b4bdbccce8a613a91851379f887b1db3a72c78eb"
     },
     "last_checked": "2026-10-19",
@@ -45314,7 +45324,7 @@
     "_updated": "2026-07-16",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "bf475f576fa0384e2675b4c56aafcae4e098162dddb4b0c942bab097c3770d65"
     },
     "last_checked": "2026-10-19",
@@ -46821,7 +46831,7 @@
     "_updated": "2026-08-27",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "fd47a4c1dd81ddb6e5074069329508b4dffd02d264d7daa752d6459033e3e7e8"
     },
     "last_checked": "2026-10-19",
@@ -47284,7 +47294,7 @@
     "_updated": "2026-08-27",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "c1be5ec2d8a235616c9fd11d82bbdcdf19ac16a20df65896fc75be3799aff81e"
     },
     "last_checked": "2026-10-19",
@@ -48775,7 +48785,7 @@
     "_updated": "2026-09-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "55c4b3f867b88a948334ecb8f0ad6b6784d9ea34a2c207b18f88a03479bbc76d"
     },
     "last_checked": "2026-10-19",
@@ -48971,7 +48981,7 @@
     "_updated": "2026-09-05",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-20",
       "contentHash": "c2796e5dfc434c6769dcd455b844661ff478fdf8360f8de43fe06161ec5065f8"
     },
     "last_checked": "2026-10-19",
@@ -50597,7 +50607,7 @@
     "amount": "$6,000/month travel-and-housing allowance (3 months, in London)",
     "deadline": "Nov cohort: Sept 21, 2026; Dec cohort: Oct 19, 2026",
     "deadlineDate": "2026-10-19",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Individuals; most centrally PhD/postdoctoral researchers, but anyone with substantial prior research experience is encouraged to apply regardless of credentials.",
     "description": "3-month in-person mentored fellowship at LISA (London) developing mathematical approaches to AI alignment with established mentors; end product is a fleshed-out research proposal. Three Fall 2026 cohorts.",
@@ -62110,7 +62120,7 @@
     "_updated": "2026-09-29",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-20",
       "contentHash": "8858f331fe7f6eff02b2240c3ce35f89ecb65ebfde73dd9f42daf77c34cbdb16"
     },
     "last_checked": "2026-10-19",
@@ -64961,9 +64971,9 @@
     "category": "Foundation",
     "amount": "Core funding for emerging groups, project grants and knowledge-production grants (amounts not published on the fund's site)",
     "deadline": "Cycle 7 is open now. Third-party listings report October 19, 2026; confirm on the application portal.",
-    "deadlineDate": "2026-10-19",
-    "deadlineStatus": "open",
-    "deadlineType": "fixed",
+    "deadlineDate": null,
+    "deadlineStatus": "upcoming",
+    "deadlineType": "recurring",
     "eligibility": "Feminist groups, collectives and organizations based in or working across 20 MENA countries. Registered and unregistered groups are both accepted, and no bank account is required. Priority goes to women- and trans-led, emerging and previously unfunded groups. Individuals cannot apply.",
     "description": "A regional feminist fund offering flexible, long-term core and project support plus accompaniment (organizational development, networking). Applications can be in Arabic, English or French.",
     "url": "https://doriafeministfund.grantplatform.com/",
@@ -66140,7 +66150,7 @@
     "category": "Corporate",
     "amount": "Up to USD $50,000, capped at 40% of the org's last fiscal-year budget, for a 12-month grant",
     "deadline": "Next application window expected around July 2027. The 2027 cycle closed July 31, 2026 (registration July 24), and decisions go out Oct 19, 2026.",
-    "deadlineDate": "2026-10-19",
+    "deadlineDate": "2027-07-28",
     "deadlineStatus": "open",
     "deadlineType": "fixed",
     "eligibility": "Registered nonprofits or charities, or fiscally sponsored groups, that are community-led and advance equitable access to movement and mindfulness programming. Must operate in one of 26 countries, including the US, Canada, UK and Australia. Orgs under $3M budget are prioritized.",
@@ -67916,7 +67926,7 @@
     "amount": "Two years of partial salary support for a full-time corps-member reporter, plus training",
     "deadline": "October 19, 2026",
     "deadlineDate": "2026-10-19",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": null,
     "description": "Report for America recruits a talented journalist for your newsroom, subsidizes part of their salary for a two-year commitment (renewable for a third year), and provides training for the reporter and newsroom. The 2027–2028 host application round opened September 14, 2026. Host newsrooms must demonstrate community need, editing support, inclusion commitment, and willingness to raise local matching funds.",
