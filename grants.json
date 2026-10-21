@@ -32,8 +32,8 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
-      "contentHash": "f64ed302a4eeebff60fb35b06e02d79576e05386dbb1b6d76e64c8b005e65cfe"
+      "lastChecked": "2026-10-21",
+      "contentHash": "7e2f56e4ec9a4f6fa67baa7b7db8aaac8aa956fd509bf5d7a7c3ba25fe4d1ac3"
     },
     "amountMin": 300,
     "amountMax": 350000,
@@ -43,8 +43,8 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
-      "confidence": 0.7
+      "checked": "2026-10-21",
+      "confidence": 0.8
     },
     "eligibilityDetail": {
       "entityRequired": "company",
@@ -97,23 +97,20 @@
     "deadlineType": "rolling",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-06",
-      "contentHash": "aaf91dbae6d648f16b6885b77df48c87b3a5e508c28aead01f9f6f5182e20ae7",
+      "lastChecked": "2026-10-21",
+      "contentHash": "32d07bc8544fcbcb48083caf51024374a2b0782b8835dfaecfe8bf9c395a4d85",
       "finalUrl": "https://www.microsoft.com/en-us/startups"
     },
     "amountMax": 150000,
     "currency": "USD",
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
-      "confidence": 0.7
+      "checked": "2026-10-21",
+      "confidence": 0.8
     },
     "eligibilityDetail": {
-      "applicantTypes": [
-        "org"
-      ],
       "restrictions": [
-        "Must be a startup"
+        "Applicants must be startups"
       ]
     },
     "last_checked": "2026-10-20",
@@ -154,7 +151,7 @@
     "deadlineType": "unknown",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "b1a3971df26695729b0e638a386579a7ee4b5a1dcfa3058e13e78b51f57d26f7"
     },
     "amountMin": 5000,
@@ -201,7 +198,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "0570bfcee3b24bde29681d28ae315cc85326b013827c9b3a123e15dedc3bb910"
     },
     "timeline": {
@@ -251,13 +248,13 @@
     "deadlineType": "fixed",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-06",
-      "contentHash": "4da4c9f5b7463f9b1a4d1a92cecdba2a3bb31f8d2de9f11383006845599f6f5c",
+      "lastChecked": "2026-10-21",
+      "contentHash": "ab7d23ca8e0f1be181da37c0716354efccf1117359de691eb1f0c1a0b0c7b9a0",
       "finalUrl": "https://opportunitiesforyouth.org/"
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-21",
       "confidence": 0.0
     },
     "last_checked": "2026-10-20",
@@ -295,10 +292,10 @@
     "deadlineType": "fixed",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
-      "contentHash": "f88bbaf7f3d2de55a908eb4e0bba5c6b84e83707785b7df101528675f8e30c8b"
+      "lastChecked": "2026-10-21",
+      "contentHash": "3b96010c3405fd5a042e76367c991ef8408c78c4e0c21e14f98b968807df7fb6"
     },
-    "amountMin": 5,
+    "amountMin": 500000,
     "amountMax": 30000000,
     "currency": "USD",
     "timeline": {
@@ -306,11 +303,36 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-21",
       "confidence": 0.8
     },
     "last_checked": "2026-10-20",
-    "check_ok": 1
+    "check_ok": 1,
+    "requirements": [
+      {
+        "item": "Project must apply AI to health, climate or environmental science research",
+        "quote": "accelerate AI-driven scientific research in health and climate-related fields"
+      },
+      {
+        "item": "Proposals must address Health and Life Sciences, Crisis Resilience, or Environmental Science",
+        "quote": "Google.org is seeking proposals in three areas: Health and Life Sciences, Crisis Resilience, and Environmental Science."
+      },
+      {
+        "item": "Selected organizations participate in a six-month accelerator and receive Google Cloud credits",
+        "quote": "Participants may also join a six-month Google.org Accelerator program offering pro bono support from Google engineers and AI specialists."
+      }
+    ],
+    "eligibilityDetail": {
+      "geography": "global",
+      "entityRequired": "org",
+      "applicantTypes": [
+        "org"
+      ],
+      "restrictions": [
+        "Must be a nonprofit, academic institution or social enterprise",
+        "Proposals must focus on health and climate-related priority areas"
+      ]
+    }
   },
   {
     "id": 7,
@@ -420,7 +442,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "b3e3bf4a3f7d975ead874d1486710f3a0c70d99490955edae36889891b69951e"
     },
     "amountMax": 2000000,
@@ -493,7 +515,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-06"
+      "lastChecked": "2026-10-21"
     },
     "last_checked": "2026-10-20",
     "check_ok": 0
@@ -531,7 +553,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "1fb479bbaa0eeea8471b9f931437e0eaf4e7f559f0f58ba2deeec83c4e74f60b",
       "finalUrl": "https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-technical-ai-safety-research/"
     },
@@ -608,15 +630,15 @@
     "deadlineType": "unknown",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
-      "contentHash": "9d6a4a99b1805886fcfaac53edd78505c48d0ddb24218a621ec7d31eb895ce2b"
+      "lastChecked": "2026-10-21",
+      "contentHash": "0eab5498a3580194151a49806f431071febb6a280595f1efec9cb86dc5c7f579"
     },
     "amountMin": 500000,
-    "amountMax": 200000000,
+    "amountMax": 32500000,
     "currency": "EUR",
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-21",
       "confidence": 0.8
     },
     "last_checked": "2026-10-20",
@@ -655,7 +677,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "8fc3c882a17543ffc4a7891daf9977e7a77209357afef8a5fceec96a62998618"
     },
     "amountMin": 14,
@@ -728,7 +750,7 @@
     "deadlineType": "recurring",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "07dda24bf0e45654327ba4c36e81f9f8c501249b2fb1a7bfa1cee9fe8d42c78d"
     },
     "requirements": [
@@ -787,7 +809,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "e97b68e8cd72fbb338771cd64d405c720b1b613a5ac7bf8245228d8b39dbf68f",
       "finalUrl": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-2026-work-programme_en"
     },
@@ -890,7 +912,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "e88d2410bcf3b5ae95f7989c8ef99d1275336af554a5225827ae87307f103045"
     },
     "requirements": [
@@ -969,13 +991,13 @@
     "deadlineType": "recurring",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-06",
-      "contentHash": "f0feb4ef4954697e4d4c7b3d3ddcab1b98919adc7ff7e62df426186e7c792ff5",
+      "lastChecked": "2026-10-21",
+      "contentHash": "cb388eb70f74b599285d7bf4657d5a495ad9880b3a7cf12daab3646d557298e9",
       "finalUrl": "https://www.nsf.gov/focus-areas/si"
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-21",
       "confidence": 0.0
     },
     "last_checked": "2026-10-20",
@@ -1014,7 +1036,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "3ec7eeacde74ce39fced11b427c844b0ecb8e00c461cc5dacebd6c32c0bbb6f1",
       "finalUrl": "https://www.technovation.org/accelerator-pipeline"
     },
@@ -1071,12 +1093,12 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
-      "contentHash": "6f284fa87f02b067a1c8ac96870dc0f193e382a97ccc9b7e852e4b2eac3db4a2"
+      "lastChecked": "2026-10-21",
+      "contentHash": "46860b30dcacb1cace12ddda21a7968bd59da7fcaf41c894894e8e690ca4dc0c"
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-21",
       "confidence": 0.0
     },
     "last_checked": "2026-10-20",
@@ -1116,43 +1138,43 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
-      "contentHash": "a8702054ca7715a7d9bd2f3bcaaf74875f8bc27f95e655405feb351bfa1b1c07"
+      "lastChecked": "2026-10-21",
+      "contentHash": "876e9864e1812deb39d5997cf9fe78cd76848a688f83a82aae06afe466ae8442"
     },
     "amountMin": 1000,
     "amountMax": 200000,
     "currency": "USD",
     "requirements": [
       {
+        "item": "Create AWS Builder ID",
+        "quote": "Create a Builder ID with your professional email or sign in if you already have one."
+      },
+      {
+        "item": "Link AWS account and submit",
+        "quote": "Create or link an AWS account to your Builder ID and submit."
+      },
+      {
+        "item": "Provide product, funding stage, and company profile",
+        "quote": "We'll ask a few details about your product, funding stage, and company profile to confirm eligibility."
+      },
+      {
         "item": "Talk with your Account Manager",
         "quote": "Talk with your Account Manager"
-      },
-      {
-        "item": "Create your AWS Builder ID",
-        "quote": "Create your AWS Builder ID"
-      },
-      {
-        "item": "Link your AWS account and submit",
-        "quote": "Link your AWS account and submit"
       }
     ],
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-21",
       "confidence": 0.7
     },
     "eligibilityDetail": {
       "entityRequired": "company",
-      "applicantTypes": [
-        "org"
-      ],
       "restrictions": [
-        "Pre-series B",
-        "Founded in the last 10 years",
-        "AWS Account on Paid Tier Plan",
-        "New to Activate Credits or requesting more credits than previously received",
-        "Invite only for startups ready to scale post Activate Portfolio",
-        "Talk with your Account Manager"
+        "Invite only",
+        "Must be post Activate Portfolio",
+        "Must be ready to scale",
+        "Requires Account Manager conversation",
+        "General AWS Activate eligibility: Pre-series B; founded within last 10 years; AWS Account on Paid Tier Plan; new to Activate Credits or requesting more"
       ]
     },
     "last_checked": "2026-10-20",
@@ -1437,7 +1459,7 @@
     "deadlineType": "recurring",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "4a6a89ddd3f1041d2f9dfcb3bd2a0382104891b6a1a36fba71eb9753ae63607e"
     },
     "requirements": [
@@ -1544,7 +1566,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "ffde49f7455a8c299ff9fb96f667bdf3dc79a746d22d21ea862926297faef8fd"
     },
     "_derived": {
@@ -1588,7 +1610,7 @@
     "deadlineType": "recurring",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "4e2ddeda6d737d0ac1cb0a773300a21ee6c8f2340c9615d35b933aa5494ba9c4"
     },
     "amountMin": 200000,
@@ -1770,7 +1792,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "e65ef75c39974b965aff1ab8db052527e576dfbccf35b0af7fb2032249fe861b"
     },
     "amountMin": 1,
@@ -1818,7 +1840,7 @@
     "deadlineType": "recurring",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "62176eb12e009ad1fa5a4afd8b5dcec176aba2328f4143a88944a292ff9727ad"
     },
     "amountMin": 4000,
@@ -1889,8 +1911,8 @@
     "page": {
       "status": "redirect",
       "lastChecked": "2026-10-06",
-      "contentHash": "09026df131c5bdeb9dc0fa8abeb405b930aa56508381276c3f75e53e1a0dd62d",
-      "finalUrl": "https://dev.meta.ai/llama/llama-ai-innovation"
+      "finalUrl": "https://dev.meta.ai/llama/llama-ai-innovation",
+      "contentHash": "09026df131c5bdeb9dc0fa8abeb405b930aa56508381276c3f75e53e1a0dd62d"
     },
     "amountMin": 35000,
     "amountMax": 1000000,
@@ -1960,8 +1982,8 @@
     "page": {
       "status": "redirect",
       "lastChecked": "2026-10-06",
-      "contentHash": "4eaf035c6426a20e8d136eb7ee18c2ca2cc6ac971d19c85666a8c910215fd5a4",
-      "finalUrl": "https://dev.meta.ai/"
+      "finalUrl": "https://dev.meta.ai/",
+      "contentHash": "4eaf035c6426a20e8d136eb7ee18c2ca2cc6ac971d19c85666a8c910215fd5a4"
     },
     "amountMin": 1000000,
     "amountMax": 1000000,
@@ -2007,7 +2029,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "d7da09d1d1bac3d50d01171a0320b50218aad28d6019f30afdacbfcd5811b061"
     },
     "amountMin": 2,
@@ -2083,7 +2105,7 @@
     "deadlineType": "recurring",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "a9268b9f0620b0a4ff7d6a85c10dd24d8f2d972638230004573a76f1c9e9670d"
     },
     "amountMin": 1,
@@ -2191,7 +2213,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "3b27d57009fc5c4a7e2dfdea055720e305c40bf63d61fa106bfb836398b44405"
     },
     "_derived": {
@@ -2236,7 +2258,7 @@
     "deadlineType": "recurring",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "93c966019434dba8e4d2525173511d9584430af5f007da692bfb850f8f9d7d74"
     },
     "amountMin": 150,
@@ -2332,7 +2354,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "f8f59b57eec5740b4e24d9d665538bd692a81b28447239c8822b53a1c43c72ac"
     },
     "amountMin": 25000,
@@ -2414,10 +2436,9 @@
     "deadlineStatus": "rolling",
     "deadlineType": "rolling",
     "page": {
-      "status": "redirect",
-      "lastChecked": "2026-10-06",
-      "contentHash": "a2a1049affa75311b0e8bfa277ebbc5a6415487d4ff55025cbe70ebd254b1179",
-      "finalUrl": "https://www.intel.com/content/www/us/en/developer/overview.html"
+      "status": "dead",
+      "lastChecked": "2026-10-21",
+      "contentHash": "a2a1049affa75311b0e8bfa277ebbc5a6415487d4ff55025cbe70ebd254b1179"
     },
     "_derived": {
       "by": "auto",
@@ -2459,7 +2480,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-21",
       "contentHash": "a366bd481bb7ab02878e3d7a98ab64543fd46cf35cb525447b10f9728bc682ff"
     },
     "_derived": {
@@ -2671,7 +2692,7 @@
     "deadlineStatus": "rolling",
     "deadlineType": "rolling",
     "page": {
-      "status": "blocked",
+      "status": "ok",
       "lastChecked": "2026-10-06"
     },
     "last_checked": "2026-10-20",
@@ -14873,7 +14894,7 @@
         "entrepreneur"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -14910,7 +14931,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -14949,7 +14970,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -14987,7 +15008,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15052,7 +15073,7 @@
         "Must use public or synthetic datasets"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15127,7 +15148,7 @@
         "Only open to U.S. citizens and green card holders."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15165,7 +15186,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -15265,7 +15286,7 @@
         "If any part of simultaneous submission is accepted elsewhere, must withdraw entire application"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15366,7 +15387,7 @@
         "Priority is given to projects that have not been supported by a significant advance"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15404,7 +15425,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -15460,7 +15481,7 @@
         "U.S. nonprofits"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15530,7 +15551,7 @@
         "Applicants must be US based qualified charitable organizations"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15590,7 +15611,7 @@
         "Grant is for women-owned businesses"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1,
     "requirements": [
       {
@@ -15680,7 +15701,7 @@
         "prior Digital Ready grant recipients are eligible but not likely to be awarded a second grant"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15761,7 +15782,7 @@
         "Projects addressing diseases, including medical research, personal health, and wellness program"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15847,7 +15868,7 @@
         "Data projects aimed solely at academic research are not covered."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15891,7 +15912,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -15986,7 +16007,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16024,7 +16045,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16106,7 +16127,7 @@
         "Must work on financial access, financial inclusion, or financial health"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16153,7 +16174,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16191,7 +16212,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -16256,7 +16277,7 @@
         "team"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16338,7 +16359,7 @@
         "The fellowship must be taken up on 1 March or 1 September"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16376,7 +16397,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -16426,7 +16447,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16464,7 +16485,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -16502,7 +16523,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -16551,7 +16572,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16588,7 +16609,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -16626,7 +16647,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -16710,7 +16731,7 @@
         "Research involving human or animal subjects must be certified by a responsible body as ethical and compliant with local law."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16791,7 +16812,7 @@
         "Research must be in biology, chemistry, mathematics, or physics"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16838,7 +16859,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16882,7 +16903,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -16959,7 +16980,7 @@
         "Not a previous New Profit grantee"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17051,7 +17072,7 @@
         "Other foundations"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17103,7 +17124,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17171,7 +17192,7 @@
         "Budgetary limit: no additional requests after fiscal year appropriation reached"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17209,7 +17230,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -17293,7 +17314,7 @@
         "No longer accepting Small Grant Inquiries."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17363,7 +17384,7 @@
         "Preference for locally based organizations"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17449,7 +17470,7 @@
         "Government initiatives"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17508,7 +17529,7 @@
         "team"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17546,7 +17567,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -17611,7 +17632,7 @@
         "org"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17664,7 +17685,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17743,7 +17764,7 @@
         "Applicants must be age 18 or older"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17781,7 +17802,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -17879,7 +17900,7 @@
         "One project per journalist, data design team, or newsroom"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -17963,7 +17984,7 @@
         "Projects must serve local and/or underrepresented communities in the US and Canada"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18073,7 +18094,7 @@
         "Previous recipients of a direct artist grant from Harpo are not eligible"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18186,7 +18207,7 @@
         "Individuals enrolled in a degree-granting program are not eligible, except ABD PhD/DMA candidates."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18224,7 +18245,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -18273,7 +18294,7 @@
         "individual"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18358,7 +18379,7 @@
         "Offer cannot be combined with other promotions, discounts or special offers"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18431,7 +18452,7 @@
         "Previous winners must submit results through the program portal to be eligible for another award."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18515,7 +18536,7 @@
         "All other applicants must secure additional funding equal to at least 50% of the total requested grant amount."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18583,7 +18604,7 @@
         "Submission is closed; no new proposals accepted"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18628,7 +18649,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18695,7 +18716,7 @@
         "Teams selected from communities around the country"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18733,7 +18754,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -18828,7 +18849,7 @@
         "Knight cannot fund support for or opposition to political candidates or lobbying/political campaign activity"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18873,7 +18894,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18943,7 +18964,7 @@
         "Five organizations selected each year"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -18982,7 +19003,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -19030,7 +19051,7 @@
       "checked": "2026-10-07",
       "confidence": 0.9
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19109,7 +19130,7 @@
         "Particularly suited for academic economists, data scientists, and PhD students"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19200,7 +19221,7 @@
         "Agree to Code of Conduct and Privacy Statement"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19263,7 +19284,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19349,7 +19370,7 @@
         "Funds cannot pay existing debt or rent/mortgage payments"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19387,7 +19408,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -19431,7 +19452,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19469,7 +19490,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -19507,7 +19528,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -19592,7 +19613,7 @@
         "Collaborative teams limited to up to and including nine people"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19667,7 +19688,7 @@
         "Awarded first-cycle applicants are ineligible to apply again during the second cycle."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19705,7 +19726,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -19802,7 +19823,7 @@
         "Current Artist Trust staff, Board of Trustees, honorary committee members, current Fellowship panelists, or their immediate family are not eligible"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19854,7 +19875,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19923,7 +19944,7 @@
         "Projects must not be for school, a grade, or admissions to other programs"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -19969,7 +19990,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20018,7 +20039,7 @@
       "checked": "2026-10-07",
       "confidence": 0.85
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20065,8 +20086,8 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 1
+    "last_checked": "2026-10-21",
+    "check_ok": 0
   },
   {
     "organization": "CivicHive (BudgIT)",
@@ -20148,7 +20169,7 @@
         "Must be open to mentorship, peer learning, iteration, and collaboration"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20195,7 +20216,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20301,7 +20322,7 @@
         "DFF will not tolerate sexist, racist, ageist, homophobic, transphobic, ableist, religiously insensitive or exclusionary behaviour."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20370,7 +20391,7 @@
         "Excludes home-based or retail businesses that primarily provide or sell goods and services online, from home, or from brick-and-mortar locations"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20420,7 +20441,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20464,7 +20485,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20521,7 +20542,7 @@
         "Strategic Grants target high-caliber teams driving long-term value and adoption"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20601,7 +20622,7 @@
         "Robotics Track requires expertise, experience, or strong interest in building robotics use-cases"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20639,7 +20660,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -20697,7 +20718,7 @@
         "Startup"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20756,7 +20777,7 @@
         "researchers"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20803,7 +20824,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20868,7 +20889,7 @@
         "Must skip or stop out of college"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -20906,7 +20927,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -20954,7 +20975,7 @@
     "eligibilityDetail": {
       "geography": "global"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21024,7 +21045,7 @@
         "Does not support performing arts such as musical composition, musical performance, screenplays, or full-length film/video projects"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -21112,7 +21133,7 @@
         "Only 1 Creator Grant application per year (not per round); may apply for one Mutual Aid Grant and one Creator Grant each year"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21160,7 +21181,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21215,7 +21236,7 @@
         "charitable and scientific projects"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21259,7 +21280,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21349,7 +21370,7 @@
         "Organizations can apply for either a Small Grant OR a Multi-Year Grant – not both"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21386,7 +21407,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -21460,7 +21481,7 @@
         "Must send a representative to the conference to accept the award"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21521,7 +21542,7 @@
         "Organizations affiliated with Cause Strategy Partners employees or advisory board members are ineligible"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21580,7 +21601,7 @@
         "Priority for communities with less access to mainstream funding"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21665,7 +21686,7 @@
         "Film/video, music, theater, dance not accepted"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21702,7 +21723,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -21756,7 +21777,7 @@
         "Explorer Grants: Projects needing help build initial traction and demonstrate their capability in the early stages of development."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -21808,7 +21829,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21889,7 +21910,7 @@
         "Any indirect cost amount above the cap must be waived by the institution or covered from non-grant funds."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -21964,7 +21985,7 @@
         "Must have created a minimum viable product with the intention of commercialization"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22014,7 +22035,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22091,7 +22112,7 @@
         "Must have a minimum viable product"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22162,7 +22183,7 @@
         "Void where prohibited"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22247,7 +22268,7 @@
         "Teams can have up to 4 members"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22285,7 +22306,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -22387,7 +22408,7 @@
         "Must be a developer, designer, or builder"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22435,7 +22456,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22527,7 +22548,7 @@
         "Team applicants must have a documented history of creating and presenting work as a team and must contact Artist Trust to confirm eligibility before applying"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22577,7 +22598,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22661,7 +22682,7 @@
         "Applicants receiving MSAC general operating funding through Grants for Organizations, County Arts Development, Arts & Entertainment District, or Folklife Network are ineligible for a Creativity Grant in the same fiscal year."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22751,7 +22772,7 @@
         "Grant recipients must maintain an APSA membership throughout their grant period"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22788,7 +22809,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -22839,7 +22860,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -22877,7 +22898,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -22924,7 +22945,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23012,7 +23033,7 @@
         "Indirect expenses and general operating support are not available to postsecondary or research institutions."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23076,7 +23097,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23147,7 +23168,7 @@
         "women & minority-owned businesses"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23198,7 +23219,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23236,7 +23257,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -23280,7 +23301,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23318,7 +23339,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -23364,7 +23385,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23435,7 +23456,7 @@
         "Non-profit language foundations are funded"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23502,7 +23523,7 @@
         "nonprofits are not currently supported"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23569,7 +23590,7 @@
     "eligibilityDetail": {
       "entityRequired": "none"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23645,7 +23666,7 @@
         "Projects must be technology-based"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23689,7 +23710,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23756,7 +23777,7 @@
         "University Award is for teams of university students"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23807,7 +23828,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23851,7 +23872,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23956,7 +23977,7 @@
         "Applicants expected to show dedication to artistic practice, clear connection to natural world, exceptional promise, and good communication skills"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -23994,7 +24015,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -24054,7 +24075,7 @@
         "Project focus: primarily looking for projects that benefit the Hedera network within tokenization, sustainability, AI, DeFi, and DePIN."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24114,7 +24135,7 @@
         "creative activist for John O. Calmore Creative Activism Artist Residency"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24194,7 +24215,7 @@
         "Previous Google Public Policy Fellows are not eligible to apply again"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24284,7 +24305,7 @@
         "Some familiarity with AI safety concepts is expected"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24370,7 +24391,7 @@
         "Repeat funding of the same organization or initiative within a 3-year period is not supported"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24468,7 +24489,7 @@
         "Organizations may receive only one Community Priority grant during a 12-month period"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24535,7 +24556,7 @@
         "An organization may apply once per calendar year"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24598,7 +24619,7 @@
         "Early-stage businesses"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24642,7 +24663,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24711,7 +24732,7 @@
         "Grant funds can be used for organizing costs such as tables and chairs, permits, promotional materials, and youth activities."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24760,7 +24781,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24868,7 +24889,7 @@
         "Ineligible: certain industries, bankruptcy, receivership, or same-calendar-year prior Recipient"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -24948,7 +24969,7 @@
         "Ideal applicants may include founders and aspiring entrepreneurs"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25031,7 +25052,7 @@
         "Applicants should be teams with proven experience in community management"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25074,7 +25095,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25111,7 +25132,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -25157,7 +25178,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25240,7 +25261,7 @@
         "Priority goes to new applicants"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25292,7 +25313,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25343,7 +25364,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25421,7 +25442,7 @@
         "Can apply to only one program at each deadline."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25490,7 +25511,7 @@
         "API access unavailable in countries where Claude is not officially available"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25527,8 +25548,8 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 1
+    "last_checked": "2026-10-21",
+    "check_ok": 0
   },
   {
     "organization": "Aspen Policy Academy",
@@ -25603,7 +25624,7 @@
         "Applicants with B1 and B2 visas are not eligible"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25658,7 +25679,7 @@
         "all media"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25726,7 +25747,7 @@
         "Applicants from low- and middle-income countries especially encouraged"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25764,7 +25785,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -25826,7 +25847,7 @@
         "Nonprofit organizations"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25908,7 +25929,7 @@
         "No lobbying"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -25965,7 +25986,7 @@
         "early-stage founder"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26050,7 +26071,7 @@
         "Gender balance and regional balance will be considered"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26113,7 +26134,7 @@
         "Only one proposal per project within a calendar year"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26178,7 +26199,7 @@
         "Open to any discipline with a relevant project"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26235,7 +26256,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26298,7 +26319,7 @@
         "strong product-market fit and high growth potential"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26356,7 +26377,7 @@
         "Building or migrating to Orbit-based rollups"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26400,7 +26421,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26450,7 +26471,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26494,7 +26515,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26538,7 +26559,7 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26584,7 +26605,7 @@
       "checked": "2026-10-07",
       "confidence": 0.8
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26664,7 +26685,7 @@
         "Shared practice applicants submit one application per craft artist"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26734,7 +26755,7 @@
         "Remote fellowship; no office presence required"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26815,7 +26836,7 @@
         "Grant recipients may reapply after an interval of two years."
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -26853,7 +26874,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -26896,8 +26917,8 @@
       "checked": "2026-10-07",
       "confidence": 0.0
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 0
+    "last_checked": "2026-10-21",
+    "check_ok": 1
   },
   {
     "organization": "Environmental Defense Fund (EDF)",
@@ -26968,7 +26989,7 @@
         "Work limited to states where we work"
       ]
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27007,7 +27028,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7d1337793f0fe5df558cff01b5cdb636b21188df8ef7ade0551138b19a5f22a3"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27045,7 +27066,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27083,7 +27104,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7b82ba74c3c256c260b47d2b5e37a2a40b640b3f49c3d62a0f8facd079456f4c"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27120,7 +27141,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -27158,7 +27179,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ff096ce69147a1e4797c859873e2d01d9d021bd48d0f2df830b49d3654982f88"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27196,7 +27217,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "086e82f50679d279165c071d1ac8b79d339918e3bee27713b822656db7122ab1"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27234,7 +27255,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0ce5c769ce15c5004ff0ad8da7abe3b4c422a932a118877b39fc2fd5c315c2bd"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27273,7 +27294,7 @@
       "lastChecked": "2026-10-07",
       "finalUrl": "https://octant.build/blog"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27311,7 +27332,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d44863afff2b5acce2b05920ba50a1ef0dfb53eb5e581c7340dd42cbffe46b88"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27350,7 +27371,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "c6232a31fe8280af29c18646519e29932ae243b4c15b2c869715665bb825b36a"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27388,7 +27409,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -27426,7 +27447,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "37d0b2c64b12acf4100db139a842ff109bdb5c9981a658d43a7bb11c9540ea6c"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27464,7 +27485,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7b1d826fe0a4483d88e00c5f8133e8e90e01dcb94bea6d170a81887b42d29153"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27503,7 +27524,7 @@
       "contentHash": "44f8b23037f69dafe99b8d76ba14ebf0b1a19f02b3b640c76d7435eb49deab91",
       "finalUrl": "https://interledger.org/grant/our-grantmaking/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27542,7 +27563,7 @@
       "contentHash": "30dc2fb2405d53f4ce8368408c9bf012485e2102ebffd0550c6b59afe00c55ac",
       "finalUrl": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27580,7 +27601,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4ced9ad8078a4b3cef6ce2206e48ed1a2c46bcaaade9c5250cfba3775214c34a"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27618,7 +27639,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "56b3244d82eb04ed212d02192c292c2cf08b2c8f50dde48c4935dc050a964d15"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27656,7 +27677,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fad0ff85bbc442953aaa25da949ccdf3c22bf56cdbee5979aaa4e62238917153"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27695,7 +27716,7 @@
       "lastChecked": "2026-10-20",
       "contentHash": "ed3f8f4d9b9fb8fc676a955db5c8b8955d160fe0b87a7da4561089dcdb789367"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1,
     "_derived": {
       "by": "auto",
@@ -27741,7 +27762,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "30d7aefeb418a57f0bb222a073d7c5471b2c90e558b5ca29992e3e3cdb88e9ae"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27779,7 +27800,7 @@
       "lastChecked": "2026-10-20",
       "contentHash": "351b6866c652a58be8c4783492c8bc46e3c8bdf3a08dbd9e1871aacb20e833fa"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1,
     "timeline": {
       "decisionDate": "2023-11-28"
@@ -27825,7 +27846,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a5eee45886ef93e3b93079011c88aae7ba84de2a01076b6083c6e3fd54b9bcdb"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27865,7 +27886,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ad714ea8f204b3349065055be7506bac41f77dc9565155a9813ccf467d4f4946"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27903,7 +27924,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "678097cb5f6c9b8c27d4a93ecc871d240406059dbabd709090edc6952e125404"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27940,7 +27961,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -27980,7 +28001,7 @@
       "contentHash": "5ec58a112282c88b3218c7bd25e39156ce61a3f1062957521db2e9c9028d8e29",
       "finalUrl": "https://www.futurehouse.org/fellowship/overview"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28018,7 +28039,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e9cc5a2b1782d26db98b363c84149eb9cd26f65827028548c7c97d5af454e530"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28055,7 +28076,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -28094,7 +28115,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2fdc7632fa93f10fcfbf87a3ad45a7a98648dd5924437850f0ee658dff936abd"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28133,7 +28154,7 @@
       "contentHash": "35f796a07e9e65d83ea656ead63cf5b78b54bee2112a9ff038297dfbc46b193c",
       "finalUrl": "https://www.seattle.gov/tech/grant-opportunities/technology-matching-fund-grants"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28171,7 +28192,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b9216a8d7d5f22dca16ca139d7dfb218ec1d8b975bb491bcea474e3254a5f91d"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28210,7 +28231,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5f7800e40764163908f86a418fd6f2a8ffe113c13d42a1ff636fe068449b5f0b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28249,7 +28270,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "db05da278e9a3891cc62ad3ba30a94d383d56a19f63526b4a0ddae6edbb7a7a9"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28287,7 +28308,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -28326,7 +28347,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3868bb40d8835624667e68218892382420e1d3b5fac46e3a135d0b18fedceb28"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28365,7 +28386,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "90c90735dbffd51f34d8dc35fd61c1435bd2a4a7af37e1fc6e389d90a17be538"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28404,7 +28425,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ffc7d03ed1c1f0f4464bd74473f5a893ad10d2126cb7232d179a4638c1b6318b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28442,7 +28463,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9ba68e7ec946b1b2ff62fc80e49243dd1ec9bc01cc1b4bdb23b5e7b048dbd012"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28482,7 +28503,7 @@
       "contentHash": "15669cb51e6bde8e1263b30cbb94b4e8e3f6169b04601120e3a9880a7baa1669",
       "finalUrl": "https://www.datafdn.org/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28522,7 +28543,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ee92efdb4ad1c9a7d925c22f2eaa8e682965502e306241a55856278b1158b6ca"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28560,7 +28581,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -28600,7 +28621,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "761c59d30d8802b8d0e66891e287731b38f592f197e8288a9e185058b41cebe4"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28639,7 +28660,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9e03e3ae9ee11eb63fed7eb8a6a180e37b78234763a1598288d8139635aeabb8"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28678,7 +28699,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fbdb3937750c209430a78502a094a4dd92be021740d95bff281b3d18ff734873"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28717,7 +28738,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "8bc517a35720ae6c76eee8d7f013bc1cff44cf693e87c68c0358d4b6061e6f43"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28755,7 +28776,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -28794,7 +28815,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9fd515fbb7bf6d6d6870b69f16e19520510b283de60aeba81ed268ebb994b447"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28833,7 +28854,7 @@
       "lastChecked": "2026-10-20",
       "contentHash": "77b5e85b76a75b2156becfbceb9b691d7515389a004fa8cac7a6d8d5cd9cd07e"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1,
     "amountMin": 5000,
     "amountMax": 1000000,
@@ -28884,7 +28905,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "85c52b7f11aa7397cc8e9a9da1572393d40bfbd9118d15ea9896230321bb90bc"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28923,7 +28944,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3ddd2a0ca20bf01c035e81882905fcd91e520221deac27a358fbd0997a80a658"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -28962,7 +28983,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f98c3292ef457c8fb440e790de7dae3ee506538c5662f4a60e477c36afc7df1e"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -29001,7 +29022,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fef0e1679521c9726e8192840ff7e92cacf847504ff8408e4601e076d569c174"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -29041,7 +29062,7 @@
       "contentHash": "0a382554e7a26b42271efc32f4293f9ad9e619c79c937cd92b255cda338e0b31",
       "finalUrl": "https://superteam.fun/earn/grants"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -29080,7 +29101,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "84886978787c28dbfcbc949bd65e63174902a3e4f01eb47690548a738b122659"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 1
   },
   {
@@ -29118,7 +29139,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-21",
     "check_ok": 0
   },
   {
@@ -57245,7 +57266,7 @@
     "amount": "Up to $20,000 in cash prizes",
     "deadline": "Register by Oct 13, 2026; build window Oct 15–20; submissions close Oct 20, 2026 23:45 UTC",
     "deadlineDate": "2026-10-20",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Open worldwide to anyone aged 16 or older. Teams of 1–5. Free, fully online.",
     "description": "A 144-hour online hackathon for production-oriented AI agents that solve real problems for users, industries or communities. Open-sourcing your result or documenting learnings earns bonus points. Results are announced Oct 30, 2026.",
@@ -65649,7 +65670,7 @@
     "amount": "$33,900+ total prize pool: $4,000 Best SaaS Product, NexFellow awards, and $299 Tin Computer credits for up to 100 winners",
     "deadline": "October 20, 2026",
     "deadlineDate": "2026-10-20",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Students only, above the age of majority in their country. Online and international. Companies and professional organizations are excluded.",
     "description": "An online hackathon for AI products that solve real problems. You submit a working product or prototype, a public GitHub repo, a demo video of up to 5 minutes, and a deck of up to 10 slides.",
