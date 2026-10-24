@@ -1707,44 +1707,37 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
-      "contentHash": "1e80cee7431ebcb91cc0d3868c4dffb9f70993bbf99bb902d29c081326ea0a97"
+      "lastChecked": "2026-10-24",
+      "contentHash": "4b16911a80060eae3b1252070c29fc0e1b197d94403dbe1dee47a2639c5cc91d"
     },
     "amountMin": 1000,
     "amountMax": 1000,
     "currency": "USD",
     "requirements": [
       {
-        "item": "applications must be complete and compliant",
-        "quote": "Only fully complete and compliant applications are eligible to receive Credits pursuant to these Rules, with such eligibility determined in Anthropic’s sole discretion."
+        "item": "Applications must be fully complete and compliant",
+        "quote": "Only fully complete and compliant applications are eligible to receive Credits pursuant to these Rules"
       },
       {
-        "item": "applicant must have all necessary rights and application must be original work",
-        "quote": "You must have all necessary rights to submit your application to the Program. You represent and warrant that your application contains only your original work and is not in violation of any law, regulation, or third-party rights."
+        "item": "Application must contain only the applicant's original work and not violate law or third-party rights",
+        "quote": "your application contains only your original work and is not in violation of any law, regulation, or third-party rights"
       },
       {
-        "item": "applications undergo biosecurity assessment",
+        "item": "Applications undergo a biosecurity assessment",
         "quote": "Applications will also undergo a biosecurity assessment to ensure they do not raise concerns around accelerating harmful applications."
       },
       {
-        "item": "selected researcher may need to sign affidavit and publicity/liability release within 14 days",
-        "quote": "The potential Selected Researcher (and, if the potential Selected Researcher is a team or entity, each natural person associated with the potential Selected Researcher) may be required to sign an affidavit of certifying compliance with these Rules along with a publicity and liability release, each of which, if requested, must be completed, signed, and returned to Anthropic within fourteen calendar (14) days from the date of Anthropic’s request, or the Credits may be forfeited and awarded to an alternate applicant."
-      },
-      {
-        "item": "selected researchers participate in research surveys and interviews",
-        "quote": "Selected Researchers will participate in research surveys and interviews conducted using Anthropic's tools, and Anthropic may retain, analyze, and conduct research on resulting interview transcripts."
-      },
-      {
-        "item": "credits placed in account for organization identified in application",
-        "quote": "Credits will be placed in the account for the organization identified in your application."
+        "item": "Selected researchers must participate in research surveys and interviews",
+        "quote": "Selected Researchers will participate in research surveys and interviews conducted using Anthropic's tools"
       }
     ],
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-07",
-      "confidence": 0.7
+      "checked": "2026-10-24",
+      "confidence": 0.75
     },
     "eligibilityDetail": {
+      "geography": "restricted:BY,CN,CU,IR,MM,KP,RU,SD,SY",
       "entityRequired": "none",
       "applicantTypes": [
         "individual",
@@ -1752,10 +1745,10 @@
         "org"
       ],
       "restrictions": [
-        "must be at least 18 years old or age of majority",
-        "employed or university-affiliated applicants must obtain employer/institution consents",
-        "prohibited persons under U.S. or other applicable laws, regulations, or export controls cannot participate",
-        "Anthropic employees, officers, directors, agents, representatives, their immediate families, and household members are ineligible"
+        "Applicants must be at least 18 years old (or the age of majority in their jurisdiction)",
+        "Anthropic employees, their immediate families and household members, and anyone connected with operating the Program are ineligible",
+        "Employed or institution-affiliated applicants must have obtained employer/institution consents",
+        "Persons prohibited from participating or receiving funds/services under U.S. or other applicable laws, regulations or export controls are ineligible"
       ]
     },
     "last_checked": "2026-10-20",
@@ -3517,36 +3510,32 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
-      "contentHash": "f10dea3d48cab2fcb469534d1ef5c20c24dc413264ab57722e31e451d8fbcb5e"
+      "lastChecked": "2026-10-24",
+      "contentHash": "adbc2f3b2a2fda2f6c9ef29ee9485eeac7b1a948e9347643d7ba1ad8f6127795"
     },
     "requirements": [
       {
-        "item": "Contact grants@fal.ai to apply",
-        "quote": "simply reach out to us at grants@fal.ai."
+        "item": "Application must include a description of the project and its goals",
+        "quote": "In your application, please include a description of your project, its goals, and how it aligns with our mission of fostering open source innovation in AI."
       },
       {
-        "item": "Include a description of the project, its goals, and alignment with the mission",
-        "quote": "please include a description of your project, its goals, and how it aligns with our mission of fostering open source innovation in AI."
-      },
-      {
-        "item": "Share relevant work or GitHub repositories",
+        "item": "Applicants should share relevant work or GitHub repositories",
         "quote": "Don't forget to share any relevant work or GitHub repositories that showcase your skills and enthusiasm."
+      },
+      {
+        "item": "Applications submitted by email to grants@fal.ai",
+        "quote": "To apply for a fal Research Grant, simply reach out to us at grants@fal.ai."
       }
     ],
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-07",
-      "confidence": 0.9
+      "checked": "2026-10-24",
+      "confidence": 0.7
     },
     "eligibilityDetail": {
       "entityRequired": "none",
-      "applicantTypes": [
-        "individual"
-      ],
       "restrictions": [
-        "Must work on open source AI initiatives",
-        "No formal degree required"
+        "Project must be an open source initiative in AI"
       ]
     },
     "last_checked": "2026-10-20",
@@ -4285,16 +4274,16 @@
     "deadlineType": "recurring",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-06",
-      "finalUrl": "https://www.salesforce.com/news/stories/agents-for-impact-accelerator-announcement/?bc=HL",
-      "contentHash": "b7611d3de4935bf287158d52aa5e833feba0cb4eaac5414f796b595f5347d87d"
+      "lastChecked": "2026-10-24",
+      "contentHash": "8f3dab458cf4591f33f0a51e100b1122f8864f855eb003cfcdc8e7af779097ac",
+      "finalUrl": "https://www.salesforce.com/news/stories/agents-for-impact-accelerator-announcement/?bc=HL"
     },
     "amountMin": 2000000,
     "amountMax": 27000000,
     "currency": "USD",
     "requirements": [
       {
-        "item": "Solutions will be evaluated for feasibility and alignment with Salesforce products",
+        "item": "Proposed solution must be evaluated for feasibility and alignment with Salesforce products",
         "quote": "Solutions selected for the accelerator will be evaluated for feasibility and alignment with Salesforce products to ensure the best fit and maximum impact."
       }
     ],
@@ -4305,16 +4294,16 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-24",
       "confidence": 0.8
     },
     "eligibilityDetail": {
-      "entityRequired": "ngo",
+      "entityRequired": "org",
       "applicantTypes": [
         "org"
       ],
       "restrictions": [
-        "Nonprofit organizations only"
+        "Applicant must be a nonprofit organization (any focus area)"
       ]
     },
     "last_checked": "2026-10-20",
@@ -4352,16 +4341,20 @@
     "deadlineType": "recurring",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
-      "contentHash": "c6d2702ea609d4f1bfa56c84d8f47eccc73e7bcb35be6e39663ad653ebc75890"
+      "lastChecked": "2026-10-24",
+      "contentHash": "91aeb99cdad1a00d7656e12b442c7a2a249239e8421235bea443a2f2b549beb0"
     },
     "amountMin": 30000000,
     "amountMax": 30000000,
     "currency": "USD",
     "requirements": [
       {
-        "item": "Organizations must harness generative AI.",
-        "quote": "organizations harnessing the power of generative AI to unlock potential for everyone, everywhere."
+        "item": "Use generative AI to build social impact solutions",
+        "quote": "build gen AI-powered social impact solutions"
+      },
+      {
+        "item": "Harness generative AI to unlock potential for everyone, everywhere",
+        "quote": "organizations harnessing the power of generative AI to unlock potential for everyone, everywhere"
       }
     ],
     "timeline": {
@@ -4370,7 +4363,7 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-24",
       "confidence": 0.8
     },
     "eligibilityDetail": {
@@ -4654,7 +4647,7 @@
     "category": "Foundation",
     "amount": "£6,000–£8,000 stipend + £2,000 housing support + weekday meals + compute; 9-week program",
     "deadline": "Q3 2026 closed May 3, 2026; Q4 2026 applications expected September 2026",
-    "deadlineDate": null,
+    "deadlineDate": "2026-11-01",
     "eligibility": "Anyone 18+ serious about AI safety research — undergraduates through PhDs to experienced professionals; no prior AI safety background required; in-person in London required; global applicants welcome",
     "description": "A quarterly 9-week AI safety research fellowship hosted at the London Initiative for Safe AI (LISA). Fellows work with senior mentors on alignment, interpretability, security, and governance. Full financial support: cash stipend, housing, weekday meals, and compute. 70–90% of fellows receive optional 6-month extensions. Cohorts of ~25 peers per quarter.",
     "url": "https://www.pivotal-research.org/fellowship",
@@ -4681,52 +4674,61 @@
     "_updated": "2026-05-30",
     "effort": "low",
     "domain": "AI",
-    "deadlineStatus": "upcoming",
-    "deadlineType": "recurring",
+    "deadlineStatus": "open",
+    "deadlineType": "fixed",
     "page": {
       "status": "redirect",
-      "lastChecked": "2026-10-06",
-      "finalUrl": "https://www.pivotal-research.org/fellowships/ai-safety-fellowship",
-      "contentHash": "8eb00c773836ddc75014d9086dcafe81fdd933e930c953cd22373d26e2dd187e"
+      "lastChecked": "2026-10-24",
+      "contentHash": "c0bac8be5a4adeab8f330996b35b1650ce243b0ca32d80bd04a870a0360d5a92",
+      "finalUrl": "https://www.pivotal-research.org/fellowships/ai-safety-fellowship"
     },
     "requirements": [
       {
-        "item": "Written application including interests and mentor preferences",
-        "quote": "You, your interests, mentor preferences."
+        "item": "Written application of about 1–2 hours, followed by shortlisted stages: video interview, work task, and personal interview.",
+        "quote": "A written application (~1–2 hours), then for shortlisted candidates: a short video interview, a mentor-specific work task, and a personal interview."
       },
       {
-        "item": "Short recorded video interview",
-        "quote": "Short recorded interview."
+        "item": "Shortlisted candidates complete a video interview, a work task, and a personal interview.",
+        "quote": "Shortlisted candidates move on to the video interview, a work task, and a personal interview."
       },
       {
-        "item": "Mentor-specific research exercise",
-        "quote": "Mentor-specific research exercise."
+        "item": "Applicants must apply to at least one mentor.",
+        "quote": "You need to apply to at least one mentor."
       },
       {
-        "item": "Personal interview with team or mentors",
-        "quote": "With the team or your mentors."
+        "item": "Full-time commitment required.",
+        "quote": "The fellowship is full-time."
+      },
+      {
+        "item": "In-person participation in London is required.",
+        "quote": "It's an in-person programme in London."
       }
     ],
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
-      "confidence": 0.9
+      "checked": "2026-10-24",
+      "confidence": 0.75
     },
     "eligibilityDetail": {
+      "geography": "global",
       "entityRequired": "none",
       "applicantTypes": [
         "individual"
       ],
       "restrictions": [
-        "Must be 18 or older",
-        "Must participate in person in London, with rare exceptions for strong independent research track record",
-        "Must be full-time",
-        "Must apply to at least one mentor",
-        "No employment by Pivotal; applicant responsible for entry requirements/visa"
+        "Applicants must be 18 or older.",
+        "Programme is in-person in London; rare exceptions only for people with a strong independent research track record.",
+        "The fellowship is full-time; small side commitments are usually fine.",
+        "Applicants must apply to at least one mentor.",
+        "Meeting entry requirements is the applicant's responsibility."
       ]
     },
     "last_checked": "2026-10-20",
-    "check_ok": 1
+    "check_ok": 1,
+    "timeline": {
+      "deadlineDate": "2026-11-01",
+      "deadlineType": "fixed"
+    }
   },
   {
     "organization": "Zendesk Foundation",
@@ -4834,20 +4836,28 @@
     "deadlineType": "recurring",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
-      "contentHash": "9e56fac07a9815d78b0885d628bc75d84ffa08d375edc428f4c130af91cad665"
+      "lastChecked": "2026-10-24",
+      "contentHash": "34e9bf706fdeb7dd389c72d7b3ae024435e807df5c407358cbebcbd2c30fa5f1"
     },
     "amountMin": 50000,
     "amountMax": 40000000,
     "currency": "USD",
     "requirements": [
       {
-        "item": "Principal investigator must demonstrate the skills, knowledge, and environment necessary to carry out the proposed project",
-        "quote": "The principal investigator is not required to have a PhD or MD but must demonstrate the skills, knowledge, and environment necessary to carry out the proposed project."
+        "item": "Two-round application process: brief Round 1 proposal, then a detailed Round 2 proposal by invitation",
+        "quote": "The application process consists of two rounds: an initial submission of a brief project proposal in Round 1 and, for those invited to proceed, submission of a more detailed proposal in the Round 2 application"
       },
       {
-        "item": "Selected pilot projects must submit additional documentation, including public health service grant application forms and, if applicable, human subjects protection information and subject recruitment criteria",
+        "item": "Selected projects must submit additional documentation, including public health service grant application forms and, if applicable, human subjects protection information and subject recruitment criteria",
         "quote": "Pilot projects selected for funding consideration will be required to submit additional documentation, including public health service grant application forms and, if applicable, human subjects protection information and subject recruitment criteria."
+      },
+      {
+        "item": "Projects must use AI approaches and technology to improve care and health outcomes for older Americans, including persons with AD/ADRD and their caregivers",
+        "quote": "fund technology demonstration projects that utilize artificial intelligence (AI) approaches and technology to improve care and health outcomes for older Americans, including persons with Alzheimer's disease and related dementias (AD/ADRD), and their caregivers"
+      },
+      {
+        "item": "Funding provided on a reimbursement basis; up to $200,000 in direct costs",
+        "quote": "Applicants may request up to $200,000 in non-dilutive grant funding (direct costs) to be expended within a 12-month period. Funding is provided on a reimbursement basis."
       }
     ],
     "timeline": {
@@ -4858,7 +4868,7 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-24",
       "confidence": 0.8
     },
     "eligibilityDetail": {
@@ -4868,8 +4878,10 @@
         "org"
       ],
       "restrictions": [
-        "Applicant institutions must be within the United States and have a Unique Entity ID (UEI) number",
-        "NIH SBIR/STTR-supported incremental enhancements or new indications/patient populations are not eligible (non-NIH SBIR/STTR awards excluded)"
+        "Applications proposing incremental enhancements or new indications/patient populations for technologies/platforms supported by NIH SBIR or STTR funding are not eligible (non-NIH SBIR/STTR awards exempt)",
+        "Applicant institution must have a Unique Entity ID (UEI) number",
+        "Principal investigator must demonstrate the skills, knowledge, and environment necessary to carry out the project; PhD or MD not required",
+        "Indirect costs capped at 10 percent of direct costs for institutions without a federally negotiated indirect rate"
       ]
     },
     "last_checked": "2026-10-20",
@@ -5080,8 +5092,8 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
-      "contentHash": "2ba789af46a7a0c2078058b42dc4b86666107972b2c9a4f6c75b35017759199b"
+      "lastChecked": "2026-10-24",
+      "contentHash": "39fb0db406333669c70f819a800c58d7274b1b41552fb2b75062301ecd7a486c"
     },
     "amountMin": 100000,
     "amountMax": 20000000,
@@ -5091,17 +5103,24 @@
     },
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
-      "confidence": 0.8
+      "checked": "2026-10-24",
+      "confidence": 0.7
     },
     "eligibilityDetail": {
+      "entityRequired": "none",
       "applicantTypes": [
         "individual",
         "team"
       ]
     },
     "last_checked": "2026-10-20",
-    "check_ok": 1
+    "check_ok": 1,
+    "requirements": [
+      {
+        "item": "Read the relevant supporting documentation before applying",
+        "quote": "These calls are currently open – please read the relevant supporting documentation before applying."
+      }
+    ]
   },
   {
     "organization": "Frontier Model Forum (Anthropic, Google, Microsoft, OpenAI)",
@@ -5201,8 +5220,8 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-06",
-      "contentHash": "b5b6fbedd941a58de0a58aea46525c1d9b30e47510cb0f845fe155b13a5ffaae"
+      "lastChecked": "2026-10-24",
+      "contentHash": "5e390d598e479aa69a4402cba28c695a36c1670329310efd466c7a537c3a2d2b"
     },
     "amountMin": 50000,
     "amountMax": 50000,
@@ -5227,7 +5246,7 @@
     ],
     "_derived": {
       "by": "auto",
-      "checked": "2026-10-06",
+      "checked": "2026-10-24",
       "confidence": 0.8
     },
     "eligibilityDetail": {
@@ -6443,7 +6462,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-24"
     },
     "last_checked": "2026-10-20",
     "check_ok": 1
@@ -6481,7 +6500,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-24",
       "contentHash": "e065410e0cfc3885b0889ef3aa13878dfd2e78a264f8603c99b806d7168ff249"
     },
     "amountMax": 150000,
@@ -6540,8 +6559,9 @@
     "deadlineStatus": "rolling",
     "deadlineType": "rolling",
     "page": {
-      "status": "ok",
-      "lastChecked": "2026-10-07"
+      "status": "redirect",
+      "lastChecked": "2026-10-07",
+      "finalUrl": "https://optimism.io/"
     },
     "last_checked": "2026-10-20",
     "check_ok": 1
@@ -6581,8 +6601,8 @@
     "page": {
       "status": "redirect",
       "lastChecked": "2026-10-07",
-      "contentHash": "bd41ffb0adc55389d8d5f487e0dc6e142fdb5a6449135916a3658c4e28067082",
-      "finalUrl": "https://docs.base.org/get-started/base-ecosystem-fund"
+      "finalUrl": "https://docs.base.org/get-started/base-ecosystem-fund",
+      "contentHash": "bd41ffb0adc55389d8d5f487e0dc6e142fdb5a6449135916a3658c4e28067082"
     },
     "_derived": {
       "by": "auto",
@@ -6646,7 +6666,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-24"
     },
     "last_checked": "2026-10-20",
     "check_ok": 0
@@ -6684,7 +6704,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-24",
       "contentHash": "037baeedb3e4e684b065ec0e2345061a5b8625fe8e5eb7db5ecabd72bdf38ecb"
     },
     "amountMin": 10000,
@@ -6779,7 +6799,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "dead",
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-24"
     },
     "last_checked": "2026-10-20",
     "check_ok": 0
@@ -6817,7 +6837,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "dead",
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-24"
     },
     "last_checked": "2026-10-20",
     "check_ok": 0
@@ -6970,7 +6990,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-24",
       "contentHash": "305565b53cd8f58107c05de37e5dbed307ef288aa3a767f497b2fb93d85ad2ff"
     },
     "amountMin": 500,
@@ -7290,7 +7310,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-24",
       "contentHash": "257d50902bedc92161bbd61e0bed6e47fd10abd17752ed782cf9b3da48806372"
     },
     "amountMin": 10000,
@@ -7340,7 +7360,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "blocked",
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-24"
     },
     "last_checked": "2026-10-20",
     "check_ok": 0
@@ -7378,7 +7398,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-24",
       "contentHash": "ea39f13579269b4bde26406be8bdf6b42c89460245b4b9dd972e18eb203a4fe2"
     },
     "_derived": {
@@ -7422,7 +7442,7 @@
     "deadlineType": "fixed",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-24",
       "contentHash": "3014e1945c0d8a95483d85e11c1624aa765c85ab0d0e2ab3a0b1bec74adcc37b"
     },
     "amountMin": 30000,
@@ -7493,8 +7513,9 @@
     "deadlineStatus": "rolling",
     "deadlineType": "rolling",
     "page": {
-      "status": "ok",
+      "status": "redirect",
       "lastChecked": "2026-10-07",
+      "finalUrl": "https://www.giveth.io/",
       "contentHash": "703978f5b7ad64364c5a901468b4d6e6762630ebab4b7edd1ddcd7d80a4fe50e"
     },
     "_derived": {
@@ -7539,8 +7560,8 @@
     "page": {
       "status": "redirect",
       "lastChecked": "2026-10-07",
-      "contentHash": "3edf97957bc7945a250108cbac25eeeca1d32bcd44e26b32ffa17e18d705826e",
-      "finalUrl": "https://www.okta.com/company/okta-for-good/nonprofit-technology-fellows/"
+      "finalUrl": "https://www.okta.com/company/okta-for-good/nonprofit-technology-fellows/",
+      "contentHash": "3edf97957bc7945a250108cbac25eeeca1d32bcd44e26b32ffa17e18d705826e"
     },
     "amountMin": 25000,
     "amountMax": 25000,
@@ -7590,7 +7611,7 @@
     "deadlineType": "recurring",
     "page": {
       "status": "dead",
-      "lastChecked": "2026-10-07"
+      "lastChecked": "2026-10-24"
     },
     "last_checked": "2026-10-20",
     "check_ok": 0
@@ -7628,7 +7649,7 @@
     "deadlineType": "recurring",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-24",
       "contentHash": "0c3648ba32ac5eb3ec3c68070ec9618f8d84e9fc16e1e783e08e2dea04312861"
     },
     "amountMin": 20000,
@@ -7674,10 +7695,9 @@
     "deadlineStatus": "rolling",
     "deadlineType": "rolling",
     "page": {
-      "status": "redirect",
-      "lastChecked": "2026-10-07",
-      "contentHash": "5e8241f0a0b91001064890a3c516a32a7f6b990abf2665a8bb015f82ab2d82bd",
-      "finalUrl": "https://web3.foundation/"
+      "status": "dead",
+      "lastChecked": "2026-10-24",
+      "contentHash": "5e8241f0a0b91001064890a3c516a32a7f6b990abf2665a8bb015f82ab2d82bd"
     },
     "requirements": [
       {
@@ -7786,7 +7806,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-24",
       "contentHash": "cdf001fcf97a64231672d61618acf21e6f2a9519151074266919ee2baaa01193"
     },
     "amountMin": 2,
@@ -7833,7 +7853,7 @@
     "deadlineType": "rolling",
     "page": {
       "status": "ok",
-      "lastChecked": "2026-10-07",
+      "lastChecked": "2026-10-24",
       "contentHash": "f8410fac4919c3c3fa1a440920c95cba614698e7d09c7d9f185b7bdaefe51492"
     },
     "requirements": [
@@ -42388,9 +42408,9 @@
     "category": "Foundation",
     "amount": "$500–$2,500 (Early-Career $500–$1,000; Mid-Career $2,500)",
     "deadline": "Rolling; next review deadline October 23, 2026",
-    "deadlineDate": "2026-10-23",
-    "deadlineStatus": "open",
-    "deadlineType": "fixed",
+    "deadlineDate": null,
+    "deadlineStatus": "rolling",
+    "deadlineType": "rolling",
     "eligibility": "Individuals only (no orgs): US citizens or permanent residents, 18+, who are music producers, engineers, songwriters or similar audio creators.",
     "description": "Rolling microgrants reviewed three times a year supporting early- and mid-career audio/music creators advancing their careers. Free, short application; unrestricted cash.",
     "url": "https://www.wearemovingtheneedle.org/microgrants",
@@ -48706,7 +48726,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -48746,7 +48766,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "c09c1d3b37ad5d18c017e14eda159d2f0909e0a43705ef1687aae916c2b25c00"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -48786,7 +48806,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9a9cbefa781973e3795dcdd6119e8140e178b784567d72e453aa4f04e871dbba"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -48825,7 +48845,7 @@
       "lastChecked": "2026-10-20",
       "contentHash": "55c4b3f867b88a948334ecb8f0ad6b6784d9ea34a2c207b18f88a03479bbc76d"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -48864,7 +48884,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fea98132d7e35887631aa43d368950e7ca471a3d9ca5387bd8fad2315d65a15b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -48903,7 +48923,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "59b565656fee5f5491660041acec2ddc9f27f2d68b0d0464f28094c5360caf05"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -48941,7 +48961,7 @@
       "status": "dead",
       "lastChecked": "2026-10-15"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -48981,7 +49001,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7f8ce111984748ace998c650303897f99ffe841145a2306410d7a6c6008a0299"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49021,7 +49041,7 @@
       "lastChecked": "2026-10-20",
       "contentHash": "c2796e5dfc434c6769dcd455b844661ff478fdf8360f8de43fe06161ec5065f8"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49062,7 +49082,7 @@
       "contentHash": "382b45c84c9f9eaa94e1f8a2c0ca90a8511b9f39dbd301bd7e8123ef80e61c87",
       "finalUrl": "https://www.wholefoodsmarket.com/mission-values/caring-communities"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49102,7 +49122,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "efa9d1dd5b2b1c638b8b082dc0ab9d6c198f1af0ab7e16826278eac81108e798"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49141,7 +49161,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "48bd2540c5af61e437780e7e7b5dc2cf8a7d4e0c579a963f082a7d0446007614"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49180,7 +49200,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "b6c857d0bbace7c9add3ad305e63dadd27e3d2738d8a4a3c617b174abfe8e22f"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 5000,
     "amountMax": 200000,
@@ -49244,7 +49264,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "02db5305a32010508009063f571cd89840c393b2ea7c0ca1f6c90999918314e5"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49283,7 +49303,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "cd5ee74452f3f496f2fb8056fa293d24f7adfe4c6bd9b9ac183a667b8e56b37d"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49323,7 +49343,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "636040bb076ed508e8b9ea67c2414a7f3829acc07054728730bae0121440f8cf"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49362,7 +49382,7 @@
       "lastChecked": "2026-10-12",
       "contentHash": "7bc916ce3a22f7a7483841f77df9e5be0ed3d1ca246c4ba1572c8c9d9583e758"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "requirements": [
       {
@@ -49453,7 +49473,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "91faa2902a46455b01fb6801bc95d7654f81d6ec26792749bac0c6fbde9fd66e"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49493,7 +49513,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b51a53b34509e0aa941d10492e9c35c8197ba7c7736bd79803899ad4c633a8d3"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49531,7 +49551,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -49570,7 +49590,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "224b070320c9c49382b8c4ab74c48b0f4b679cb029793208f4541b92031c734f"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49609,7 +49629,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "612136b07b1a543b928d427a42926129b43273ba4fa7437240943cc52ecbeb4d"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49650,7 +49670,7 @@
       "contentHash": "b40a06a4f538ea3bc862bb0a5aa3ba0cb0bc272d11c9e3983962fa1128f617dd",
       "finalUrl": "https://www.zama.org/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49689,7 +49709,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "68642bae5c863b84e4c7ee955a3d3c643f12bc4ffbbea8dc026ac9e06a212c9f"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49730,7 +49750,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b5f8c4c01bff82d9c2b2d83d19b0099f755b77134fa66665d4fdaf4f87e8e34e"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49770,7 +49790,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "12298a60af1d37b8d2f9279cc072d948c4f71b1e9b9baafd5f42640b0dafafba"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49810,7 +49830,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b4d3e4ea9ef13bbebbf1ff50fea5a4622f9d7076b1106b9565ff1ac84a06d28c"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49850,7 +49870,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "dd57c8006ab37899c0194ea580fc893822ef044293d4e7d67b6c6082dcd74cbe"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49889,7 +49909,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49929,7 +49949,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5b6ebf60193800a8cab3d4ebb0fa1df1dbcdf4beea6ded04b74e50d316b8ec60"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -49969,7 +49989,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "218ade5703efa430f046dfc18c2044bdac8375124a78afb66bba3a22fd8620ab"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50008,7 +50028,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -50047,7 +50067,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -50086,7 +50106,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6a6ae53583ca979ff825094de23d766cf7e63efb748e0266b4d4194e5dd87236"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50125,7 +50145,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50164,7 +50184,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -50205,7 +50225,7 @@
       "contentHash": "1ad959360402f0c8d585fe6a55685e6c72c66d13421e85a4f75aaa9936b32b4f",
       "finalUrl": "https://law-ai.org/summer-research-fellowship-eu-2025/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50245,7 +50265,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e96777f0a2a6bd7258f66bfd7658c9b464134246f55b717156a2676b2416faa7"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50284,7 +50304,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -50324,7 +50344,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a35ba407422403d1bf447e442b2c3014672ac991c28bb2ba78b4bde4b9e6fdc2"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50363,7 +50383,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f182178966f8c506ffe454b5e6aec16916856bdf595eb0fb79c86a2f6e69cc22"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50402,7 +50422,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "aad4c4fec6c6e623403c91e2f8cfec60e25aef62e04817f1d82b40cb6b92e47b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50441,7 +50461,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a95cfea60988b3b47c4268eabe02b7fc580be46bfb51a333d3d0592fb0eb035a"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50480,7 +50500,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "66cf678df7199aa7655a09c0e9d25178740b7658b3b8dd473e467adb31d92c57"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50519,7 +50539,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "47084fea2870e58518ed79b59d171b5889a2d6476aae2ed2194b657634a98bcd"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50557,7 +50577,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -50596,7 +50616,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "350c7b6ccafb495aa5c2d3b82596a08a45a7320f3b4696c33c782adbbefd1a2e"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50635,7 +50655,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "8a17ca2e53e5913568891953c7fb4ae50f0390cb4dcf77f8d6116849410621bc"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50674,7 +50694,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "1185ba4c615ecca9649092b7272999e98c5baca6280565d97b96546dacbdcbd9"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 6000,
     "amountMax": 6000,
@@ -50721,7 +50741,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2b33874564e5a1b6e6baaf6b3ab06eedc0a13c7de5700c11ad9feb56ee19e402"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50760,7 +50780,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "75923d03e5d087e063efcc852d1f0c54f415f6065bea30c67dbe0d2d1282f29c"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50799,7 +50819,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "140bd0ce78b094ede9292bd8add948870d225e169a662c57797bce6a1d23cf4b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50838,8 +50858,8 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6bf669bf42c63e6632b266984f79e3cd0e7841a57ac71c01985584922f8ff566"
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 1
+    "last_checked": "2026-10-24",
+    "check_ok": 0
   },
   {
     "organization": "America250",
@@ -50876,7 +50896,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50916,7 +50936,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7f2e31e7155303e0e28c8f90b58a84117e61ecd8f8e06f5bdfcc7c4e061ac02d"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -50955,7 +50975,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "75eb4af064aed00104d5138bf055d1c697f26efc1d0b9448d69066afe4d70707"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 2500,
     "amountMax": 10000,
@@ -51007,7 +51027,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "989d2be7fdfaae75dfedced05d2b6facc3f7d2ab1a370486da17a5cb67392b21"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51046,7 +51066,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9cfa83ae66ff122ed6f78017c01c63241c62217c79bf2e0445a50206261777ff"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51085,7 +51105,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d63c2043fabb1e16c06d2ec12781e73e38ce714e9d80ff3fcbc5fbba3140d943"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51124,7 +51144,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "2d393be04272d526c24ffb7655f566fd330f5880018b115c7174ec710faa3f2d"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51164,7 +51184,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b7283a6aabdc7316028e74ce43314a19b23d4a4894ff18fb8cd3d199646709b0"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51203,7 +51223,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "91fef41cb3e4900fde29c4d9161fcfe53b702d2bb5e2ad13eb238de57b698ab7"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51241,7 +51261,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b76e08e08a83dfc16c07970661157f430b0c431cce16517615fe1dd2c0346df4"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51278,7 +51298,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51316,7 +51336,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "20de2605d518ca9be21c81a849b3e1a831a4ec84512183ac59c33b0a84fac712"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51354,7 +51374,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "e3536359e7134e18ad290d5edd218049e5edae895f75e580ea26e878ece189e2"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "timeline": {
       "deadlineDate": "2026-11-03",
@@ -51427,7 +51447,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f805927b2d29b2c5f4440deaee76e48cb861ddddb3d4a44eb5e6eb97a5ab2980"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51465,7 +51485,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ca6cb04da1d845369e53f579e3c702df5e46cf29c8c6cc2b2cfcd5482f06590f"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51502,7 +51522,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -51540,7 +51560,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "c85b91423a8ea7c713dd3e12cd9e4a43155149212ec7f9d41962c25873af1fe8"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51579,7 +51599,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "62329efc92313d764592a199c6153bb8256841b1a7f39cb2dc327aa8b18a58c5"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51618,7 +51638,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "27f8770de0eb8600676c2d14028593485fd88e66ee775d1ba004e51abb09dbf3"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51658,7 +51678,7 @@
       "contentHash": "107ed8c9a60066883ce7f02005badfdb3eb67b906a1d3de9350b289cc6cf09fc",
       "finalUrl": "https://numer.ai/leaderboard/data-scientists"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -51697,7 +51717,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3e434a00023d8f8d6461ac9c5633dfe21d5fa02ede7da5c4ba552f96c5f312d2"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51737,7 +51757,7 @@
       "contentHash": "67a6eca36d15eba4673bddaa12be79214f546d725f4964bde77c1697baa5110c",
       "finalUrl": "https://cantina.xyz/opportunities/competitions"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51776,7 +51796,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "dc412b5e284fd965ae94dbad28290b84bd1a5807728d817e3c5e159b3419f332"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51815,7 +51835,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "8bb5f42a1b363987edd917ef19430cb74cb0f6e3a4c25596c4d81edf51c185b9"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51854,7 +51874,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4a981bc10a836cfa194ec6f4f7818251a64269e731245f370bdc390ba8b4aa7b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51893,7 +51913,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "aa7caefd3843dde5936dfa17fe967185e3a489ed1ae374d8513f18272f87f799"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51932,7 +51952,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d10921346cc15d321e31797366d42248b14767e03973f43819dcaa1e5937eb93"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -51971,7 +51991,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "773c936bbdecf94eb85e84d2821aa54894ad585fc2a178db1291ef5d7e893076"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52010,7 +52030,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "31578b2c2bd92686a534ccaf8036c15694b8ad581ed609f7354f8efbf1193a83"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52049,7 +52069,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "59ea68052ecd7de6ac4c534acb349f8df8892d31f359aa9090dcd3c5d831b020"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 7000,
     "amountMax": 500000,
@@ -52101,7 +52121,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "8459f373a9a0720c0495ab9b480e545d8d4dd0ad1cbeb715befc6fa6581829d8"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52142,7 +52162,7 @@
       "contentHash": "64a2dbb7477e1493520e84cc7ba6c655004f8ac9f5e29c4ee15039a91ddd5053",
       "finalUrl": "https://www.dell.org/partnerships/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52181,7 +52201,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "03aec54a1ade736bb927d8f5596cbd682352faa68c574f02a6dfd69cd551a708"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52220,7 +52240,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "058026135e8c18e91814b6760a9cd3c3f922ab08dad07fc868559e945bdcc908"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 200000,
     "amountMax": 200000,
@@ -52271,7 +52291,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "256004f5ab95df74dfc9c3cf490736cc91ecbc5049b8884822d64d125159f093"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52310,7 +52330,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d7e3320aa7110f3eebd20cbd98f949016c4a73ee50ecca880e8ce81132a5d3d4"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52349,7 +52369,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "efb5fe99b275189f6fd51e2d14ddb2a4c56093ad21c83ab2401ecba969ce5af3"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52389,7 +52409,7 @@
       "contentHash": "fa7f739a5e2d85521e527de0a41f0b2a5d5d491e74e71248002b9af149a6a1cd",
       "finalUrl": "https://launchwisconsin.biz/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52428,7 +52448,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "51be321294487c974ac532251a7c71bf5f28ae498fa760a06c22bcbcfd6efee9"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52466,7 +52486,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -52505,7 +52525,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "fb156d9dbee5b729988d87af72606edb805aa71a59babf4b6a740e899ba93230"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52544,7 +52564,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "83d95f1f7a607c9f47a832238666e26b2d27775b9e7ab49c132d856e99147751"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52582,7 +52602,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -52621,7 +52641,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "8849e93e034ff9a0b3b6686360fe433881f3ec8388144276e8db8cb558cc751b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52659,7 +52679,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -52697,7 +52717,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52735,7 +52755,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5760418c95997a8b948028c678de354eaebce7e4b1163ab10c232da73a904d2f"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52774,7 +52794,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "5e0648e88c8f8894eed07572ca34269a0fe664178a6914271a2e1d96eb3f2f3e"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52812,8 +52832,8 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 1
+    "last_checked": "2026-10-24",
+    "check_ok": 0
   },
   {
     "organization": "Citi Foundation",
@@ -52851,7 +52871,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "dae989762d5efb6367ac729e93307d6b1dea679c8c8e877e39f1503f88d398a2"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -52889,7 +52909,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -52927,7 +52947,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -52966,7 +52986,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "a593af4f9da376cd25c1e3a7b5765a2e1fe2ccec70ee4b6eec2ffd966453d8f5"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53005,7 +53025,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "d762cea0f954b7059ea5f28b71c1a2f6666fa725987022f1dc10d426c51cf0a9"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53044,7 +53064,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "5984a3941fb77073b9016062ca509a99d842fa97e9e46edaccd3c660df29b278"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 5000,
     "amountMax": 200000,
@@ -53094,7 +53114,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2df4bcb289f4ba0e76a863e0f7f03015347acdaf2dfdee63391c466a7ca80b61"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53133,7 +53153,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0071237a184505c51408f94dc54d8b8db8283ddd2d1f28b346047b4629ea54a5"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53175,7 +53195,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "bf626f78108f5ae5634511302693b49e30fe2af369075d3be5ca383127705141"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53214,7 +53234,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -53252,7 +53272,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-12"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -53291,7 +53311,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "b1028519c7f3143c4dafa2e597ad566075a96114a1d2e1c428b8f9a0a600a355"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53329,7 +53349,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "898aef92a7cd748675c41a890b6af5e74f8ec79f10ed9d3cfb4460c90d212a39"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53368,7 +53388,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "806aa5c99842b2a61ae4440fa7f4cad222f00b243e0d3d7756744d773ba35603"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53408,7 +53428,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "cd1d3a3ef6e20c3eb4728274dcf8e19c14677a4741f7af7809c447d6d67849d1"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53448,7 +53468,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "05841a8be64bbcfc276506cb18b1562eafb9bd594f53744c9d5420928518197b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53487,7 +53507,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9abaa465d1070bd44049a4fb3f0ccef4b0e2614b104faf235df4d348fa907681"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53527,7 +53547,7 @@
       "contentHash": "8876244e7dbd74776b3b025b5eb0aca255b9f9309e6f4cef2229c6d5e5cb3786",
       "finalUrl": "https://www.speciesconservation.org/biodiversity-nature-people/conservation-philanthropy/grants/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53566,7 +53586,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "60d028bde88cc47a03ceb8f27d23907e14062d1593b1b367b2f29862c9a67c59"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53605,7 +53625,7 @@
       "contentHash": "a92b91822111d3bdc4f85997d2432b9199f30f49e039aa8e0c9ef24cc4bd0990",
       "finalUrl": "https://www.sigmaxi.org/programs/grants-in-aid-of-research"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53644,7 +53664,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "89677ebeca046be33593344a7230dcc67bbed051ef399507049a8f546e2c3674"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53681,7 +53701,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -53721,7 +53741,7 @@
       "contentHash": "4595bc48782cea046d91cb8efe4e187cde6128f6267e4b77dff0d815fc08dce0",
       "finalUrl": "https://wennergren.org/program/post-phd-research-grant/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53759,7 +53779,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "eb275ddfeae1182a27dc79859a60c7af10189596266ce14f842f24284cf7d6c0"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53799,7 +53819,7 @@
       "contentHash": "61fc9ce2fc2d042f82e59b9fad9b2a779addfc500abd3a2cf1b10a50ad0800ae",
       "finalUrl": "https://www.paulgreenfdn.org/apply.html"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53837,7 +53857,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a6d0c5f286416ba6d4e488873893b0077457e6482b1dbfd01af2116276a35fba"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53876,7 +53896,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "3517e5181ca02e6f2d16d715e02cb5b2ff2b1ead9741a497de87bc7a23a21072"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53915,7 +53935,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "2efab0bdd5c2fb7df3b6366837ca31ec38f0a357e1eaf5e9709b6a5cae058697"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53953,7 +53973,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d93ae3c01d9a4e4cb3115975988e00274b5de5af78a337253fc74849b9e25d08"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -53993,7 +54013,7 @@
       "contentHash": "4d8d1823b5d647673b4800b5f1b1c3017163260a0ce44dd05950961f06fd7f63",
       "finalUrl": "https://talk.nervos.org/c/daos-funding/ckb-community-fund-dao/65"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54031,7 +54051,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e0e57836dd8adbbf534b692833e7b1a0c99d4ae858ca093fe820cef75d583a72"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54069,7 +54089,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -54108,7 +54128,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -54148,7 +54168,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "e2f316dce42c900b428bff68cb5376567df2e9399b712db265c5170654f5269d"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 500,
     "amountMax": 500,
@@ -54245,7 +54265,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "f2d57f84182570cfbc7b10d6ee39cf6a3b109b79a76a695d2d467951c26733d0"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54285,7 +54305,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e3e42efc15ca62c8274481189245116c15749a7873444b4cd5882cf5acd4c33b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54325,7 +54345,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "391191228a7037dc4bf0a78f95af2b8b62044001a4fc5504cdceaa18674d2092"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54365,7 +54385,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "514173cf869a4ebec955a6d2f4ab4d58e767366bc8c6b6091d5eb91f75ac6740"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54406,7 +54426,7 @@
       "contentHash": "12c2c15a906ebc8ffc484e229407fd5b89afb5838e96a8ed8d0f57324567eb34",
       "finalUrl": "https://www.drivendata.org/competitions/306/competition-doe-gems/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54446,7 +54466,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "40d4250751c86d1a3fc2b63482a2ad8b0cf001c2aaa57e52e5555055a26af4b5"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54485,7 +54505,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1bc02c517ea03f40451bc2f1921565f37566c29757e4913223807d1d7f409a47"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54524,7 +54544,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "39cd8b259011c2fd4978c8b584538d5b2d24f4991e6914d7deddc3c6f1629d22"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54564,7 +54584,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f9219649f3a881c1edfb511752245f7bf6878755196df88829a34eb888aa7408"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54604,7 +54624,7 @@
       "status": "dead",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -54642,7 +54662,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -54682,7 +54702,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "49e5c761a93b6ff3256eac62a8856034726e7a7c744009fe48ab875388217fda"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54720,7 +54740,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-19"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -54760,7 +54780,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e7ab9e48576bbf9222b0d63ebff8257a0961ee869a06a21b27ae1fce4f6accbe"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54799,7 +54819,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "eb7275e87967ec7433f4df7ae359ea2e8020f7b5a37de05a78111cbb1769dbb2"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54839,7 +54859,7 @@
       "contentHash": "4ee811fbb6f036bd3fde4ae0a040ae6e6f7e33aa4662ccd0c7caebe41598d91d",
       "finalUrl": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -54879,7 +54899,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -54919,7 +54939,7 @@
       "contentHash": "f0e07e0359ed03210b354c276a02a2b22c63b7f76c1608d3271a42450a361b31",
       "finalUrl": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54957,7 +54977,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "668fe8bd1f1f3bebf08f55b8ef145720165599e84629c5108d9cb8332054abf7"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -54998,7 +55018,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "96ae448a4cfea087c70a8b436ee668d3579f883d0a12452be82a4c4128b31405"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55038,7 +55058,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e8e1a553929006843f699c64d79c48252ce702ccfa15eb149a7a082225254df6"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55078,7 +55098,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "426c3bbe02d11e8492d72c214159eedad8c01aa7f4f24b8bffe53a7260c7da20"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55087,7 +55107,7 @@
     "amount": "$138,000 cash total ($25K/$15K/$4K on the Fire TV and Alexa+ tracks; $12K/$8K on the Bee and Ring tracks; two $5K mini challenges), plus AWS credits",
     "deadline": "October 23, 2026, 12:00 PM PDT",
     "deadlineDate": "2026-10-23",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Individuals or teams above the legal age of majority. All countries/territories except the standard exclusions. Nothing on the page bars company teams.",
     "description": "An online hackathon. You build a working demo on one Amazon platform track: Fire TV, Alexa+, Bee (wearable AI) or Ring. There are optional $5K mini-challenges for AWS use and open-source contribution. You submit a repo, a demo video under 3 minutes and product feedback.",
@@ -55117,7 +55137,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-19"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -55156,7 +55176,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-19"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -55195,7 +55215,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-19"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -55234,7 +55254,7 @@
       "status": "ok",
       "lastChecked": "2026-10-19"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55274,7 +55294,7 @@
       "lastChecked": "2026-10-12",
       "contentHash": "0eb19fdee615de5d9c51cd1c780a73757bbcdcb271225f9aa887f761185b34bf"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 15000,
     "amountMax": 2500000,
@@ -55334,7 +55354,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-19"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -55373,7 +55393,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-19"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -55411,7 +55431,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-16"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -55450,7 +55470,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "66790020fd93c668524596ae65f2ac8197db5409cef6abf80c4e20e8a2d875b0"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 20000,
     "amountMax": 1500000,
@@ -55501,7 +55521,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1947909ba92413a2ada5f2cc28b8a7c497d409b242e1539bcedb12a854d16bd5"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55539,7 +55559,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55578,7 +55598,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f50b5900cd4f4549745563ed1515174961f3e2cc43b1df911fe09399eb8d3cc6"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55616,7 +55636,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "14b3fcba33038d761e713bcf05f8a51b428d7a7303eb1c5dd2803693441d36c1"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55655,7 +55675,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "8afa8b827a7b267a316dd06c90bd46fe645e02ba86b6654e4e9f471da208b227"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55694,7 +55714,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "aa796d67a9f6a4b4e6b0fcd74a7254f00a69ad5b9553ffbdf72ae886c9bce1d7"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55733,7 +55753,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7df2adfa1ded8a63fd5f6bb694689c6af59afff7c6ff146bc038bb3e26622dbb"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55773,7 +55793,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "53abd12833d6da167b50a2127864b16aa10ca8927cd94c7f7e5b847fb0d00b33"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -55812,7 +55832,7 @@
       "lastChecked": "2026-10-16",
       "contentHash": "2fd226c8dc5c10a77a9aecb825db0b72bc10a1720c5280410a84715222a1bdc2"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 500000,
     "amountMax": 500000,
@@ -55902,7 +55922,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "e4058d40e6d40bafe501e0c59acff3d4850a3fcf6f634e2a4ff412dff3fe7582"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 250000,
     "amountMax": 1500000,
@@ -55980,7 +56000,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ab4d5b30490ddab5d17f719bcfd25e457c7de8d4fd4b7df249ff47ea39238cbd"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56021,7 +56041,7 @@
       "contentHash": "237e316368a9ae53848f5ad6e71402eb9167b8e3741d951f46806c3c9a8cb5cb",
       "finalUrl": "https://www.sensefoundationbrussels.org/submit-your-project"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56062,7 +56082,7 @@
       "contentHash": "62cfa95c0533542d4da6806b4c92879a9757386dc8d1e55e771ceba211541222",
       "finalUrl": "https://rapid-response.org/how-to-apply/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56102,7 +56122,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "7b55945d2ac8fecfdb0b4e38b8cdcac6b51455e7afdd664584f8eaf5cbc45f7c"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56141,7 +56161,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "2b0db5a630e2eb19e8ba28c290f758c6d38a2c0d33dbda17ea9c81752d3a4165"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56181,7 +56201,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "9018685ecb298cd2ac56ef768cafdcc671bf6ca9ece66164704b8929aa07e2b8"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56221,7 +56241,7 @@
       "lastChecked": "2026-10-16",
       "contentHash": "72814bf0ab95c528d7882afca8e34ef9511682b9b8a0c6e807086c7e945ac072"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56261,7 +56281,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "41322ebc5679ec76bda2ce0040b05a8e0b72621e0164e3ee3eafa75675abca6c"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56300,7 +56320,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "700117fdf0f7e54ca5c65b40ba0b4963c6a5b55328bb7d4ba2097acf92d1e209"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56339,7 +56359,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "212fef56e4d2be709b9c9337e6d550b9d926745a0b44df1b38c9e99b217e2290"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56378,7 +56398,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6a1e4e4f953085854445d82d2b15a3946d6f52f7efd25e9dab1826dd0862498b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56416,7 +56436,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -56455,7 +56475,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ad7529bb83d39256afda9064938e518b9d316dfe67923081e81d6a254be07598"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56494,7 +56514,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "eadf96f63491ad582d4f0fed2cce7b1301aac3e99c1afca9717373b0a12f01d9"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56533,7 +56553,7 @@
       "lastChecked": "2026-10-12",
       "contentHash": "8f9fdb3818d632b0784c585e31d0df67dcde6d57c3cb797a3efc637cbb1faf45"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56573,7 +56593,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "01ba7ca11ef2b62879023ed3998629d04b943ef2b045003daefb778b00f039a7"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56612,7 +56632,7 @@
       "contentHash": "0eec3ffd0758bd84f54f49a8b64bfcded49198e1e8916d112672b51375e2dafe",
       "finalUrl": "https://fellows.toryburchfoundation.org/prog/2027_fellows_program/"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56651,7 +56671,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a5f3a1315ed7c89671f552de665eae9d2422c8066f24dd021936cc21389f55a3"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56690,7 +56710,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "dc547bc7370d998a34c8989ac3742c970e625fffa4e3b150c65c08c4f0911f4f"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56728,7 +56748,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -56768,7 +56788,7 @@
       "contentHash": "14e5943bc417625998e9021bb71bdf9e1c07da9d663d1c6040127b7f1402ea51",
       "finalUrl": "https://www.hultprize.org/register"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56806,8 +56826,8 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 0
+    "last_checked": "2026-10-24",
+    "check_ok": 1
   },
   {
     "organization": "Crossroads Fund",
@@ -56844,7 +56864,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "d907cbb91d239f063aa4f42f33be926abb2ce9c0936f90407f3644c417a51354"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56882,7 +56902,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5f1949d573b8dc7e7851d8dccc6d0cc1cbe1331ad85cd89fc5b62f1536f444b4"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56921,7 +56941,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "e6ce4185292d9d220d4f4c7f14280e4e77002a7822322abd24128dfa35fa1653"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -56960,7 +56980,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "58a7219d77e6c1460e8b075d0de2dbc5af56c915dde13ffb82e9c361358f73e4"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57001,7 +57021,7 @@
       "contentHash": "c5c3f79ad4c1b03a0c327ea4819bbfc3f743f43cf3dab62d73eb4326480640a0",
       "finalUrl": "https://www.autodesk.org/what-we-do/funding"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57040,7 +57060,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f1edd5bd68fa4147f119dfee28ca6ed112b8c7a1f0f96b55bd6fe6800b49d55c"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57079,7 +57099,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "f2ebe136e6f0641ef4b88182dfb1b5981183a35744d24d6f1942cba8d305cfa9"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57118,7 +57138,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "7c625b9af2f65520de73ce2535151ee3438b939ac01587869d7e16fefab93fd2"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57156,7 +57176,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57196,7 +57216,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "ff435156bede0db6b108f890147a1f666ad705e72a6c7e7a67ad059c2e85bcc1"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57235,7 +57255,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "92e0b6729f66c6fadcad21823e076a27ae95ded45e462a68f180f7f03a6f1b24"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57273,7 +57293,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -57312,7 +57332,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "6ee73986ee174d921ac292a9a780ac3453876ee49d75a3963d9f913faed21a45"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 20000,
     "amountMax": 20000,
@@ -57385,7 +57405,7 @@
       "status": "ok",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57423,7 +57443,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -57464,7 +57484,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "c2b4b536793cfc44768bacf55dc151e1b2054165c63842cbe49bc4a41083bcc4"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 5000,
     "amountMax": 50000,
@@ -57515,7 +57535,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "995ee514cdc80597aa3cec27eb28827fb09de10c7ce8dcccfaa8bdc4b64e052e"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57555,7 +57575,7 @@
       "lastChecked": "2026-10-12",
       "contentHash": "519555f6a9b7771d257fc13e510d544a0b6c956e606e013ff545b7c6e378cf37"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57595,7 +57615,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "a9c3099edbba54e95eeb04ab2b64d331560f72d19ed1abfcbfc11537b84454a0"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 50000,
     "amountMax": 50000,
@@ -57676,7 +57696,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "0a6a42a2734e2a027635ad9237d483795ac5550eee55d24b25b04e93ccc70c0c"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57715,7 +57735,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-19"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -57754,7 +57774,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "187656f144e229eea75c492e486c804b8ec54e293bd74ef8ddbe71bdadf35090"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57795,7 +57815,7 @@
       "contentHash": "c9e8919d5174b17dc7e33a1a032272726e52feac8dade269fceae158c3ea6961",
       "finalUrl": "https://operations.nfl.com/programs-initiatives/innovation/big-data-bowl"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57836,7 +57856,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "994d888844e28e0bc95abce362b81b9293e9de9c8c1f2c6c6de14f289c2f4cbc"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57874,7 +57894,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -57914,7 +57934,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "1ee91dde1302d3def7e24a61515285dbd99a6dce624acbf885f3573068d84fe2"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57953,7 +57973,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "9ea749066c2bee81039000c742adb662ce6e28742149ea0f69224c1ea5182a2f"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -57993,7 +58013,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "5e96ee437eb655c7b929791ee834c2e90d0ce7c0b427495a4f0298d3b17a486f"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58032,7 +58052,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "2e396b16c43392e6dda10542202426c5678650885f81a27266760242083b2f6b"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58072,7 +58092,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "6efba5a2e2c9e1f5f7ee6345568df2bfbe20b95cddc89427626dec246db4b139"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58113,7 +58133,7 @@
       "contentHash": "d41090a2454fcef64c42001665c58b56283c85d4710228a372b66b99a2c302a9",
       "finalUrl": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/reaching-communities-england"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -58153,7 +58173,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "832f54c64d05f7c9bf4c2f5e14d2f109bd0f45326e48f2a4eb999b1e14e43758"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 50000000,
     "amountMax": 50000000,
@@ -58205,7 +58225,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "63c7652480a140b3fe2dc47c2975fdc931b32aeb00722e5d7ac7576f32f49987"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 18000000,
     "amountMax": 18000000,
@@ -58289,7 +58309,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -58327,7 +58347,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-12"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -58366,7 +58386,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "ad44847e3cf21d834a12c9f4208af0b9001528ac3075142bb282ed48b4c46a34"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 20,
     "amountMax": 900,
@@ -58472,7 +58492,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "a546fb3098a8d5bb43cdc71398684f01a38c52b5526e06d13809880ac7367856"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58511,7 +58531,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "db38ca9bff7a94ddbb5af6920d3e2bd8f465730ba5cd5104f4368efb5dc2e77e"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 300000,
     "amountMax": 3000000,
@@ -58573,7 +58593,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "cde80c5019b584249d3b17a75a4e6ff71fb821da61849c606b76cfc40302c8b4"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58613,7 +58633,7 @@
       "lastChecked": "2026-10-12",
       "contentHash": "7a825fe4b14e56cbf98cc1f10e21b482af6d11c3887b76d96653c025c721eee5"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58654,7 +58674,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "f3824ee333b57f4bc7546903baa885db7db23b404f5bac837bead2acc872be56"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 30000,
     "amountMax": 30000,
@@ -58706,7 +58726,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -58746,7 +58766,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "e8d7a16b4567ff070c297269dc332aaf5766d822c8d957bba2d27f5d1fc173ba"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1,
     "amountMin": 250000,
     "amountMax": 250000,
@@ -58797,7 +58817,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "3f6bac78241eac1b4a7e0fbc49d1fc467367fef72e0698c4978c1f82162481f1"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58837,7 +58857,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "4dcb396cec548b4e98d5f33242ede0570921d26ee8a31adad0cdf026511fb2fb"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58876,7 +58896,7 @@
       "status": "blocked",
       "lastChecked": "2026-10-07"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 0
   },
   {
@@ -58916,7 +58936,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "45f158a32fb06913be904c0fb9ece54fd12d78a74c0ab8b78e28b7423b190ee5"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58956,7 +58976,7 @@
       "lastChecked": "2026-10-07",
       "contentHash": "cb2c59204ec246c9528aa1ef5957826d3b8adb9c26dfb262d0d25b68adb9eec8"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -58996,7 +59016,7 @@
       "lastChecked": "2026-10-19",
       "contentHash": "61ef47d3abf74e59d9d08c79fd4a94ba2655a92c14454d751469b1325a2b53c8"
     },
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-24",
     "check_ok": 1
   },
   {
@@ -59035,8 +59055,8 @@
       "lastChecked": "2026-10-07",
       "contentHash": "16d48ffacadb226831e9c452a604d976d7b85858fd8ec110e75dd2a8b1044272"
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 0
+    "last_checked": "2026-10-24",
+    "check_ok": 1
   },
   {
     "organization": "Laura Jane Musser Fund",
@@ -59074,8 +59094,8 @@
       "lastChecked": "2026-10-07",
       "contentHash": "175455b271745a76ef501ff84f5f19b6829a5fa8f8b44cb7e636370e2e5185b9"
     },
-    "last_checked": "2026-10-19",
-    "check_ok": 0
+    "last_checked": "2026-10-24",
+    "check_ok": 1
   },
   {
     "organization": "Harry Chapin Foundation",
@@ -64596,7 +64616,7 @@
     "amount": "Up to $67,000 total; 1st $15,000, 2nd $13,000, 3rd $11,000, with cash down to 10th place",
     "deadline": "Registration through October 23, 2026; competition Oct 16–23, 2026",
     "deadlineDate": "2026-10-23",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Individuals or teams of up to 4. Entrants must be of age of majority under Ontario law or have parental consent. Residents of Quebec, Russia, Iran, North Korea and Belarus are excluded.",
     "description": "An annual week-long online quantum programming competition with up to 20 PennyLane coding challenges. Points go to correct solutions, speed breaks ties, and the top 10 win cash. Xanadu also pays $100 to the 10 people who bring in the most registrations.",
@@ -67037,7 +67057,7 @@
     "amount": "~$10M total; typical grants $100,000–$2M over 6–24 months",
     "deadline": "October 23, 2026, 23:59 PT",
     "deadlineDate": "2026-10-23",
-    "deadlineStatus": "open",
+    "deadlineStatus": "expired",
     "deadlineType": "fixed",
     "eligibility": "Individuals, informal teams, universities, fiscally sponsored projects and nonprofits based in listed 'middle power' countries (e.g. UK, France, Germany, Canada, Australia, Japan, South Korea, Singapore). For-profits are considered case by case. US-based applicants do not appear to be eligible.",
     "description": "Funds research, policy engagement, institution-building and talent development that help middle-power countries stay relevant in AI development and governance. Areas include policymaker awareness, compute access, supply-chain leverage, AI safety influence and great-power coordination.",
