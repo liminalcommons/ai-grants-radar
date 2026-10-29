@@ -638,3 +638,11 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-28T14:03:44.286960+00:00,refresh-extract/6,deepseek-v4.1-flash,944,191,1765,200,
 2026-10-28T14:03:59.870353+00:00,refresh-extract/7,deepseek-v4.1-flash,2686,3491,15497,200,
 2026-10-28T14:04:12.396350+00:00,refresh-extract/8,deepseek-v4.1-flash,2147,2637,12447,200,
+2026-10-29T14:02:27.041666+00:00,refresh-extract/1,deepseek-v4.1-flash,3003,4000,37344,200,empty reply
+2026-10-29T14:03:06.647540+00:00,refresh-extract/2,deepseek-v4.1-flash,33665,4000,39483,200,empty reply
+2026-10-29T14:03:46.213490+00:00,refresh-extract/3,deepseek-v4.1-flash,1339,4000,39550,200,empty reply
+2026-10-29T14:04:22.092412+00:00,refresh-extract/4,deepseek-v4.1-flash,3716,3840,35815,200,
+2026-10-29T14:05:00.521857+00:00,refresh-extract/5,deepseek-v4.1-flash,2337,4000,38410,200,empty reply
+2026-10-29T14:05:34.970406+00:00,refresh-extract/6,deepseek-v4.1-flash,2905,3271,34410,200,
+2026-10-29T14:05:54.733384+00:00,refresh-extract/7,deepseek-v4.1-flash,1224,1790,19746,200,
+2026-10-29T14:06:26.818850+00:00,refresh-extract/8,deepseek-v4.1-flash,2042,3215,32075,200,
