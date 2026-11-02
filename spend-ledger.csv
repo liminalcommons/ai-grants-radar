@@ -646,3 +646,36 @@ ts,tag,model,input_tokens,output_tokens,latency_ms,status,error
 2026-10-29T14:05:34.970406+00:00,refresh-extract/6,deepseek-v4.1-flash,2905,3271,34410,200,
 2026-10-29T14:05:54.733384+00:00,refresh-extract/7,deepseek-v4.1-flash,1224,1790,19746,200,
 2026-10-29T14:06:26.818850+00:00,refresh-extract/8,deepseek-v4.1-flash,2042,3215,32075,200,
+2026-11-02T16:28:39.623742+00:00,refresh-extract/1,deepseek-v4.1-flash,,,157,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:28:39.805741+00:00,refresh-extract/2,deepseek-v4.1-flash,,,169,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:28:39.984377+00:00,refresh-extract/3,deepseek-v4.1-flash,,,150,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:28:40.181373+00:00,refresh-extract/4,deepseek-v4.1-flash,,,171,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:28:40.375160+00:00,refresh-extract/5,deepseek-v4.1-flash,,,181,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:28:40.534473+00:00,refresh-extract/6,deepseek-v4.1-flash,,,142,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:28:40.706054+00:00,refresh-extract/7,deepseek-v4.1-flash,,,149,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:28:40.888219+00:00,refresh-extract/8,deepseek-v4.1-flash,,,166,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:00.938755+00:00,refresh-extract/1,deepseek-v4.1-flash,,,150,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:01.138406+00:00,refresh-extract/2,deepseek-v4.1-flash,,,182,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:01.331227+00:00,refresh-extract/3,deepseek-v4.1-flash,,,177,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:01.542149+00:00,refresh-extract/4,deepseek-v4.1-flash,,,194,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:01.727596+00:00,refresh-extract/5,deepseek-v4.1-flash,,,172,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:01.920049+00:00,refresh-extract/6,deepseek-v4.1-flash,,,171,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:02.093705+00:00,refresh-extract/7,deepseek-v4.1-flash,,,156,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:02.317476+00:00,refresh-extract/8,deepseek-v4.1-flash,,,170,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:02.518716+00:00,refresh-extract/9,deepseek-v4.1-flash,,,182,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:02.687038+00:00,refresh-extract/10,deepseek-v4.1-flash,,,152,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:02.896046+00:00,refresh-extract/11,deepseek-v4.1-flash,,,175,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:03.061495+00:00,refresh-extract/12,deepseek-v4.1-flash,,,142,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:03.409722+00:00,refresh-extract/13,deepseek-v4.1-flash,,,211,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:03.828923+00:00,refresh-extract/14,deepseek-v4.1-flash,,,158,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:04.051538+00:00,refresh-extract/15,deepseek-v4.1-flash,,,177,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:04.231846+00:00,refresh-extract/16,deepseek-v4.1-flash,,,139,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:04.436062+00:00,refresh-extract/17,deepseek-v4.1-flash,,,169,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:04.888995+00:00,refresh-extract/18,deepseek-v4.1-flash,,,334,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:05.069355+00:00,refresh-extract/19,deepseek-v4.1-flash,,,147,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:05.248468+00:00,refresh-extract/20,deepseek-v4.1-flash,,,159,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:05.457428+00:00,refresh-extract/21,deepseek-v4.1-flash,,,153,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:05.613544+00:00,refresh-extract/22,deepseek-v4.1-flash,,,143,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:05.775400+00:00,refresh-extract/23,deepseek-v4.1-flash,,,148,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:05.969377+00:00,refresh-extract/24,deepseek-v4.1-flash,,,157,,HTTPError: HTTP Error 401: Unauthorized
+2026-11-02T16:29:06.119395+00:00,refresh-extract/25,deepseek-v4.1-flash,,,141,,HTTPError: HTTP Error 401: Unauthorized

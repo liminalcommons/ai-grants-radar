@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How I Won 17 Hackathons in One Year — Matt Sim</title>
+<style>
+  :root{
+    --bg:#0c0a09;
+    --surface:#1c1917;
+    --surface-2:#292524;
+    --ink:#e7e5e4;
+    --muted:#a8a29e;
+    --faint:#78716c;
+    --line:#292524;
+    --accent:#a3e635;
+    --accent-dim:rgba(163,230,53,.12);
+    --danger:#f87171;
+    --radius:14px;
+    --serif:Georgia,'Iowan Old Style','Times New Roman',serif;
+    --sans:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+    --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.75;font-size:17px;-webkit-font-smoothing:antialiased}
+  ::selection{background:var(--accent);color:#0c0a09}
+  .progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:50}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+  /* ---------- hero ---------- */
+  header.hero{padding:96px 0 40px;border-bottom:1px solid var(--line)}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:20px}
+  h1{font-family:var(--serif);font-weight:400;font-size:clamp(38px,6vw,60px);line-height:1.08;letter-spacing:-.01em;text-wrap:pretty}
+  h1 em{font-style:italic;color:var(--accent)}
+  .byline{margin-top:22px;color:var(--muted);font-size:15px}
+  .byline a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--faint)}
+  /* ---------- stat strip ---------- */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin:36px 0 8px}
+  .stat{background:var(--surface);padding:22px 18px}
+  .stat b{display:block;font-family:var(--mono);font-size:26px;font-weight:700;color:var(--accent);line-height:1.1}
+  .stat span{font-size:12.5px;color:var(--muted);line-height:1.45;display:block;margin-top:6px}
+  /* ---------- chapters ---------- */
+  section.chapter{padding:44px 0;border-bottom:1px solid var(--line)}
+  .chap-no{font-family:var(--mono);font-size:12px;letter-spacing:.22em;color:var(--faint);text-transform:uppercase;margin-bottom:12px}
+  .chap-no i{font-style:normal;color:var(--accent);border:1px solid var(--accent);border-radius:6px;padding:1px 8px;margin-right:10px}
+  h2{font-family:var(--serif);font-weight:400;font-size:clamp(26px,4vw,34px);line-height:1.2;margin-bottom:18px;text-wrap:pretty}
+  p{margin-bottom:16px;color:#d6d3d1}
+  p strong{color:var(--ink);font-weight:650}
+  .pull{border-left:2px solid var(--accent);padding:4px 0 4px 20px;margin:24px 0;font-family:var(--serif);font-size:20px;line-height:1.55;color:var(--ink)}
+  ul.tight{list-style:none;margin:6px 0 16px}
+  ul.tight li{padding:9px 0 9px 26px;position:relative;border-bottom:1px dashed var(--line);color:#d6d3d1}
+  ul.tight li:last-child{border-bottom:none}
+  ul.tight li::before{content:"→";position:absolute;left:0;color:var(--accent);font-family:var(--mono)}
+  ul.tight li b{color:var(--ink)}
+  /* ---------- do / don't ---------- */
+  .duo{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0}
+  .duo .col{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+  .duo h3{font-family:var(--mono);font-size:12px;letter-spacing:.2em;margin-bottom:12px}
+  .duo .do h3{color:var(--accent)}
+  .duo .dont h3{color:var(--danger)}
+  .duo ul{list-style:none}
+  .duo li{font-size:14.5px;color:#d6d3d1;padding:7px 0;border-bottom:1px dashed var(--line)}
+  .duo li:last-child{border-bottom:none}
+  /* ---------- record table ---------- */
+  table{width:100%;border-collapse:collapse;font-size:14.5px;margin:18px 0 6px}
+  th{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+  td{padding:10px 12px;border-bottom:1px solid var(--line);color:#d6d3d1;vertical-align:top}
+  tr td:first-child{font-family:var(--mono);color:var(--accent);white-space:nowrap;font-size:13px}
+  /* ---------- footer ---------- */
+  footer{padding:44px 0 80px;color:var(--muted);font-size:14px}
+  footer a{color:var(--accent);text-decoration:none}
+  .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+  .links a{border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-family:var(--mono);font-size:12.5px;color:var(--ink)}
+  .links a:hover{border-color:var(--accent)}
+  .reveal{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+  @media (max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}.duo{grid-template-columns:1fr}header.hero{padding:64px 0 32px}}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="kicker">Hackathon playbook · Solana circuit</div>
+    <h1>How I Won <em>17 Hackathons</em> in One Year on a 2018 Intel i5 Mac</h1>
+    <div class="byline">Matt Sim · <a href="https://x.com/RVAClassic">@RVAClassic</a> — you don't need an M4 Max, a 5-person team, or a Stanford CS degree to win. A year ago, I started at zero.</div>
+    <div class="stats">
+      <div class="stat"><b>17</b><span>hackathon &amp; event wins, across 7 cities</span></div>
+      <div class="stat"><b>2,300+</b><span>accounts on Operator Uplift, live on the Seeker dApp Store</span></div>
+      <div class="stat"><b>3</b><span>Breakpoint London bounties, plus a Solana Foundation grant via Superteam</span></div>
+      <div class="stat"><b>1</b><span>core product, re-entered 17 times in different costumes</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="chapter reveal" id="thesis">
+      <div class="chap-no"><i>00</i>Thesis</div>
+      <h2>Hackathons are not exams.</h2>
+      <p>Most developers lose because they treat them like school exams — 90% of their time on invisible infrastructure, 10% on why anyone should care. Before Web3, Matt signed a pro MLG esports contract at 14 and generated over $1M in door-to-door sales. Both taught the same brutal truth: <strong>nobody cares how hard you worked if they cannot understand what you built in 15 seconds.</strong></p>
+      <p class="pull">Assume your hardware dies at the worst moment. His crashed mid-hackathon. Push to remote constantly — and cut the demo video four hours before the deadline, not four minutes.</p>
+    </section>
+
+    <section class="chapter reveal" id="momentum">
+      <div class="chap-no"><i>01</i>The momentum effect</div>
+      <h2>Wins stop being lucky breaks.</h2>
+      <p>First Superteam Earn bounty landed on day three living in Asia. First major win at the $100,000 Render hackathon on day 28. Once the formula clicks: 1st places at dFlow × Superteam Thailand and Superteam UK × HelpBnk, the Filecoin track at muShanghai, the OmniAI voice hackathon, three Breakpoint London wins, 2nd on the Superteam website hackathon (which got him invited onto their dev team) — plus sprint wins with Curious Ventures × Arc, Crossbar, and Popup.</p>
+    </section>
+
+    <section class="chapter reveal" id="ev">
+      <div class="chap-no"><i>02</i>Picking battles</div>
+      <h2>EV math first, mission filter second.</h2>
+      <ul class="tight">
+        <li><b>Go where your community knows your face.</b> Nearly every win started through a local community, Superteam chapter, or Superteam Earn — not the 1,500-competitor global track.</li>
+        <li><b>Hunt the side tracks.</b> Sponsors pay thousands for tracks that draw 10–20 serious submissions. In one Colosseum day he entered 5 sponsor side tracks; in one 24-hour window he submitted 7 bounties and won 3.</li>
+        <li><b>Read the rubric like a lawyer.</b> Half the field disqualifies itself — skipped SDK integration, blown video limit.</li>
+        <li><b>Build the feature your own product needs anyway.</b> Low competition plus something you'd have built regardless is the only combination that compounds, or you abandon the repo by week three.</li>
+      </ul>
+    </section>
+
+    <section class="chapter reveal" id="prep">
+      <div class="chap-no"><i>03</i>Preparation</div>
+      <h2>You win it in the three weeks prior.</h2>
+      <ul class="tight">
+        <li><b>Point one core loop at the new sponsor tech</b> before the clock starts — what does their SDK make faster, safer, better?</li>
+        <li><b>Treat the demo video as the product.</b> Judges have 60 tabs open. Problem first, live UI by frame three, transactions working on camera. Forty-five seconds of login screen and you've lost.</li>
+        <li><b>Rehearse out loud to real humans</b> — pitch workshops, demo days, builder houses.</li>
+      </ul>
+    </section>
+
+    <section class="chapter reveal" id="people">
+      <div class="chap-no"><i>04</i>People</div>
+      <h2>Talk to the room, not the repo.</h2>
+      <ul class="tight">
+        <li><b>The sponsor's DevRel &amp; track owner</b> wrote the criteria. Day one: "here's how I'm integrating your SDK — is this what winning looks like to you?"</li>
+        <li><b>Stress-test their SDK and file it.</b> Sponsors use events to shake out beta tooling; a documented bug or PR is the cheapest proof of competence in the room.</li>
+        <li><b>Mentors and judges, before and after.</b> They're product owners giving up a weekend — connect over the problem, thank them by name.</li>
+        <li><b>Paying strangers beat the scorecard once:</b> 53 people paid $5–$10 in three hours for early access to a product that didn't exist yet. Real traction beats judging sheets.</li>
+      </ul>
+    </section>
+
+    <section class="chapter reveal" id="compound">
+      <div class="chap-no"><i>05</i>Relationships compound</div>
+      <h2>Show up with proof of work.</h2>
+      <p>He won a website bounty and got invited onto the dev team. Found a teammate who matched his pace for the Filecoin win. Lived around a Da Nang builder house surrounded by daily shippers. Tagged the ecosystem on every real update until Superteam and Solana's own accounts featured the work.</p>
+    </section>
+
+    <section class="chapter reveal" id="loop">
+      <div class="chap-no"><i>06</i>What wins</div>
+      <h2>One loop, not a feature list.</h2>
+      <p>The graveyard of losing repos always looks the same: a landing page, 14 half-finished buttons, broken features. Operator Uplift is one bet with a verdict — pick a daily commitment, prove it with an AI-verified photo, stake a refundable deposit in escrow; keep your word and split what quitters forfeited. Every other build in the record (NS LevelUp, Agentic Escrow, Velocity AI) is the same shape: <strong>a single complete user loop, start to finish.</strong></p>
+    </section>
+
+    <section class="chapter reveal" id="toolkit">
+      <div class="chap-no"><i>07</i>The solo toolkit</div>
+      <h2>One person, nine repos.</h2>
+      <ul class="tight">
+        <li><b>AI-assisted engineering</b> — subagents, parallel worktrees with verification gates, Playwright suites, property tests.</li>
+        <li><b>Motion design &amp; video</b> — launch trailers that feel like Tier-1 consumer drops.</li>
+        <li><b>Sales psychology</b> — every pitch framed on human stakes and loss aversion.</li>
+        <li><b>Daily distribution</b> — build in public every day, so judges already know the product exists.</li>
+      </ul>
+    </section>
+
+    <section class="chapter reveal" id="rules">
+      <div class="chap-no"><i>08</i>Do's &amp; don'ts</div>
+      <h2>The checklist.</h2>
+      <div class="duo">
+        <div class="col do">
+          <h3>DO</h3>
+          <ul>
+            <li>Ship a live URL or APK a judge tests in 10 seconds, zero .env.</li>
+            <li>Stack side tracks on the same architecture.</li>
+            <li>Answer: can this sponsor pilot it next quarter?</li>
+            <li>Keep shipping the morning after the deadline.</li>
+            <li>Turn every trophy into a grant, users, or distribution.</li>
+          </ul>
+        </div>
+        <div class="col dont">
+          <h3>DON'T</h3>
+          <ul>
+            <li>Build a feature list.</li>
+            <li>Wait for a co-founder — fast solo beats slow committee.</li>
+            <li>Abandon the repo after judging.</li>
+            <li>Launch a token as a shortcut. Product first.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter reveal" id="record">
+      <div class="chap-no"><i>09</i>The year-one record</div>
+      <h2>Seventeen lines of proof.</h2>
+      <table>
+        <tr><th>Result</th><th>Event</th></tr>
+        <tr><td>1st · $1,500</td><td>dFlow × Superteam Thailand — Operator Uplift</td></tr>
+        <tr><td>1st · $1,000</td><td>Superteam UK × HelpBnk track — Operator Uplift</td></tr>
+        <tr><td>1st</td><td>Filecoin track, muShanghai (with natalia2themoon)</td></tr>
+        <tr><td>1st</td><td>OmniAI voice hackathon — Velocity AI</td></tr>
+        <tr><td>Win ×3</td><td>Breakpoint London: tokenization, starter pack, hype video</td></tr>
+        <tr><td>2nd</td><td>Superteam website hackathon — invited onto their dev team</td></tr>
+        <tr><td>3rd</td><td>Stack Auth hackathon</td></tr>
+        <tr><td>Sprint</td><td>Curious Ventures × Arc</td></tr>
+        <tr><td>Sprint</td><td>Crossbar (Crossbar Inc)</td></tr>
+        <tr><td>Sprint</td><td>Popup (Lovable)</td></tr>
+        <tr><td>Win</td><td>Render $100K hackathon — first major, day 28</td></tr>
+        <tr><td>Win</td><td>Superteam Malaysia website hackathon</td></tr>
+        <tr><td>Win</td><td>Superteam Malaysia article hackathon</td></tr>
+        <tr><td>Win</td><td>Superteam Malaysia mini-hackathon</td></tr>
+        <tr><td>Win</td><td>RTC Builders Reflect &amp; Share (Road to Colosseum)</td></tr>
+        <tr><td>Win</td><td>Agentic Loops hacker-house hackathon</td></tr>
+        <tr><td>Grant</td><td>Solana Foundation grant via a Superteam chapter</td></tr>
+      </table>
+      <p style="margin-top:18px;color:var(--muted);font-size:14.5px">Consistency creates credibility. A year ago he started at zero; the playbook points at Solana Summit Mumbai and Breakpoint London, Nov 15–17.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div>Playbook by Matt Sim · <a href="https://x.com/RVAClassic">@RVAClassic</a> — rendered as a reading artifact, content unchanged.</div>
+    <div class="links">
+      <a href="https://rvaclassic.xyz">rvaclassic.xyz</a>
+      <a href="https://operatoruplift.com">operatoruplift.com</a>
+    </div>
+  </footer>
+</div>
+
+<script>
+  (function(){
+    var bar = document.getElementById('progress');
+    function onScroll(){
+      var h = document.documentElement;
+      var max = h.scrollHeight - h.clientHeight;
+      bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+    }
+    document.addEventListener('scroll', onScroll, {passive:true});
+    onScroll();
+    if('IntersectionObserver' in window){
+      var io = new IntersectionObserver(function(es){
+        es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+      },{threshold:.08});
+      document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+    } else {
+      document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
+    }
+  })();
+</script>
+</body>
+</html>
